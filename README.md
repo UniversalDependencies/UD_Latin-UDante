@@ -66,7 +66,7 @@ Besides reproducing the original text (`# text =`), the headers of each sentence
 
 ## Data split
 
-The treebank is split into three subsets, `dev`, `test` and `train`, with an approximate ratio of 20%/20%/60%. Each text in the **UDante** treebank consists of ordered, running text and represents a complete literary work (*De vulgari eloquentia*, *Monarchia*, *Questio de aqua et terra*) or a coherent collection of texts (*Eclogues*, *Letters*): as such, no one has been further split, having as a consequence a somewhat skewed split ratio with respect to the canonical 10%/10%/80% for corpora of comparable magnitude. The distribution of the works with respect to the subsets is as follows:
+The treebank is split into three subsets, `dev`, `test` and `train`, with an approximate ratio of 20%/20%/60%. Each text in the **UDante** treebank consists of ordered, running text and represents a complete literary work (*De vulgari eloquentia*, *Monarchia*, *Questio de aqua et terra*) or a coherent collection of texts (*Eclogues*, *Letters*): as such, no one has been further split, having as a consequence a somewhat skewed split ratio with respect to the canonical 10 000 tokens for `dev`/`test` of corpora of comparable magnitude. The distribution of the works with respect to the subsets is as follows:
 
 * `dev`: *Letters* = 11 667 tokens (21%)
 * `test`: *De vulgari eloquentia* = 13 493 tokens (24%)
