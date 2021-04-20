@@ -1,6 +1,8 @@
 # Summary
 
-The **UDante** treebank is based on the Latin texts of Dante Alighieri, based on the [**DanteSearch corpus**](https://dantesearch.dantenetwork.it), originally created at the University of Pisa, Italy.
+The **UDante** treebank is based on the Latin texts of Dante Alighieri, based on the [**DanteSearch corpus**](https://dantesearch.dantenetwork.it), originally created at the University of Pisa, Italy. 
+
+It is a treebank of Latin language, more precisely of **literary Medieval Latin** (XIVth century).
 
 # Introduction
 
@@ -21,7 +23,7 @@ The annotation process has been co-ordinated by Flavio Massimiliano Cecchini, Gi
 
 # Acknowledgments
 
-The LiLa project has received funding from the European Research Council (ERC) under the European Union’s* Horizon 2020 research and innovation programme – Grant Agreement No. 769994*.
+The LiLa project has received funding from the European Research Council (ERC) under the European Union’s  _Horizon 2020 research and innovation programme – Grant Agreement No. 769994_.
 
 We wish to thank all the annotators of the **UDante** treebank: Daniela Corbetta, Federica Favero, Federica Gamba, Martina de Laurentiis, Giulia Pedonese, Andrea Peverelli and Elena Vagnoni.
 
@@ -60,7 +62,7 @@ The following table schematically describes for each layer of the **UDante** tre
 | DEPS | Currently unused |
 | MISC | `SpaceAfter` feature added automatically |
 
-Besides reproducing the original text (`\# text =`), the headers of each sentence identify it (`\# sent_id = `) with a three-letter code representing the literary work they belong to (`DVE` = *De vulgari eloquentia*, `Mon` = *Monarchia*, `Epi` = *Letters*, `Que` = *Questio de aqua et terra*, `Egl` = *Eclogues*) coupled with a progressive key starting from 1, and also display a more precise reference (i.e. book, section, paragraph...) internal to that work by means of a row introduced by `\# reference = `.
+Besides reproducing the original text (`# text =`), the headers of each sentence identify it (`# sent_id = `) with a three-letter code representing the literary work they belong to (`DVE` = *De vulgari eloquentia*, `Mon` = *Monarchia*, `Epi` = *Letters*, `Que` = *Questio de aqua et terra*, `Egl` = *Eclogues*) coupled with a progressive key starting from 1, and also display a more precise reference (i.e. book, section, paragraph...) internal to that work by means of a row introduced by `# reference = `.
 
 ## Data split
 
