@@ -21,7 +21,7 @@ The annotation process has been co-ordinated by Flavio Massimiliano Cecchini, Gi
 
 # Acknowledgments
 
-The LiLa project has received funding from the European Research Council (ERC) under the European Union’s* Horizon 2020 research and innovation programme – Grant Agreement No. 769994*.
+The LiLa project has received funding from the European Research Council (ERC) under the European Union’s  _Horizon 2020 research and innovation programme – Grant Agreement No. 769994_.
 
 We wish to thank all the annotators of the **UDante** treebank: Daniela Corbetta, Federica Favero, Federica Gamba, Martina de Laurentiis, Giulia Pedonese, Andrea Peverelli and Elena Vagnoni.
 
