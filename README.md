@@ -19,7 +19,7 @@ literary texts (letters, treatises, poetry). The treebank is licensed under the 
 * *Eclogues*: 2 662 tokens for 111 sentences over 4 eclogues
 
 The syntactic annotation of the **UDante** treebank has been created through a manual annotation process performed in the context of a collaboration between the University of Pisa (responsible: Mirko Tavoni) and the [**LiLa: Linking Latin project**](https://lila-erc.eu) at the Università Cattolica del Sacro Cuore, Milan, Italy (PI: Marco Passarotti). 
-The annotation process has been co-ordinated by Flavio Massimiliano Cecchini, Giovanni Moretti and Rachele Sprugnoli (all Università Cattolica del Sacro Cuore).
+The annotation process was co-ordinated by Flavio Massimiliano Cecchini, Giovanni Moretti and Rachele Sprugnoli (all Università Cattolica del Sacro Cuore).
 
 # Acknowledgments
 
