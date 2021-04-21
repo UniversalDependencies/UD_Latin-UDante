@@ -62,7 +62,7 @@ The following table schematically describes for each layer of the **UDante** tre
 | DEPS | Currently unused |
 | MISC | `SpaceAfter` feature added automatically |
 
-Besides reproducing the original text (`# text =`), the headers of each sentence identify it (`# sent_id = `) with a three-letter code representing the literary work they belong to (`DVE` = *De vulgari eloquentia*, `Mon` = *Monarchia*, `Epi` = *Letters*, `Que` = *Questio de aqua et terra*, `Egl` = *Eclogues*) coupled with a progressive key starting from 1, and also display a more precise reference (i.e. book, section, paragraph...) internal to that work by means of a row introduced by `# reference = `.
+Besides reproducing the original text (`# text =`), the headers of each sentence identify it (`# sent_id = `) with a three-letter code representing the literary work they belong to (`DVE` = *De vulgari eloquentia*, `Mon` = *Monarchia*, `Epi` = *Letters*, `Que` = *Questio de aqua et terra*, `Egl` = *Eclogues*) coupled with a progressive key starting from 1, and also display a more precise reference (i.e. book, section, paragraph...) internal to that work by means of a row introduced by `# citation_hierarchy = `.
 
 ## Data split
 
