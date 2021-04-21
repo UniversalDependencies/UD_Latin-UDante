@@ -10,7 +10,7 @@ This treebank includes 1 721 sentences (55 697 tokens) and consists of
 literary texts (letters, treatises, poetry). The treebank is licensed under the terms of
 [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
-**UDante** includes the following Latin texts by (mostly) Dante Alighieri:
+**UDante** includes the following Latin texts (mostly) by Dante Alighieri, or disputedly attibuted to him:
 
 * *De vulgari eloquentia*:  13 493 tokens for 419 sentences over 2 books
 * *Monarchia*: 22 764 tokens for 682 sentences over 3 books
@@ -38,7 +38,7 @@ We wish to thank all the annotators of the **UDante** treebank: Daniela Corbetta
 
 The **DanteSearch** corpus consists of all Latin works by Dante, Italian literate and politician of the XIVth century, originary of Florence, considered to be "the father of the Italian language" and most famous for its *Divina Commedia* (written in Tuscan literary Italian), and some related works. In particular:
 
-* *De vulgari eloquentia* is a rhetoric and proto-linguistic treaty about the best practices for the use of the "vulgar", i.e. vernacular language, as opposed to Latin;
+* *De vulgari eloquentia* is a rhetoric and linguistic treaty about the best practices for the use of the "vulgar", i.e. vernacular language, as opposed to Latin;
 * *Monarchia* is a political treaty about the relation between Empire and Church;
 * the *Letters* are a collection of correspondence by Dante, mostly of political character. The collection includes letters in the name of other persons, and some incomplete letters. The actual authorship of the famous XIIIth letter to Cangrande della Scala (ruler of Verona) is disputed; 
 * *Questio de aqua et terra* is a technical/philosophical dissertation about the shape of the Earth and the oceans, and is too of disputed authorship;
@@ -47,14 +47,14 @@ The **DanteSearch** corpus consists of all Latin works by Dante, Italian literat
 
 ## Annotation
 
-The following table schematically describes for each layer of the **UDante** treebank how it has been obtained with respect to the original **DanteSearch** corpus, which is annotated only for parts of speech and morphological features, following its own annotation formalism. 
+The following table schematically describes for each layer of the **UDante** treebank how it has been obtained with respect to the original **DanteSearch** corpus, which is annotated only for parts of speech and morphological features, following a proprietary tagset. 
 
 | CoNLL-U Field | Source |
 | ------ | ------ |
 | ID | Sentence segmentation and tokenization is based on the original **DanteSearch** corpus, but has been manually, and partially automatically, modified in some cases (by means of both splits and merges of tokens or sentences) |
-| FORM | Adopted from the **DanteSearch** corpus; some minor mistakes have been manually corrected |
-| LEMMA | Adopted from the **DanteSearch** corpus, but manually and partially automatically modified (and in some cases corrected) in some occurrences in order to adapt to possible changes in other annotation layers or for reasons of standardization |
-| UPOSTAG | Converted automatically from the **DanteSearch** tagset, but manually and partially automatically modified in order to fit annotation changes related to the UD formalism |
+| FORM | Obtained from the **DanteSearch** corpus; some minor mistakes have been manually corrected |
+| LEMMA | Obtained from the **DanteSearch** corpus, but manually and partially automatically modified (and in some cases corrected) in some occurrences in order to fit changes in other annotation layers (part of speech, morpholexical features), or for reasons of standardization |
+| UPOSTAG | Converted automatically from the **DanteSearch** tagset, but manually and partially automatically modified in order to fit annotation solutions related to the UD formalism |
 | XPOSTAG | As in the **DanteSearch** corpus (may be split or merged over multiple tokens if the tokenization has been changed) |
 | FEATS |  Converted automatically from the **DanteSearch** tagset, but manually and partially automatically corrected, modified and augmented according to the UD formalism |
 | HEAD | Manually annotated from scratch and later manually and partially automatically corrected |
