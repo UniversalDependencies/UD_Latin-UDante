@@ -53,8 +53,8 @@ The following table schematically describes for each layer of the **UDante** tre
 | ------ | ------ |
 | ID | Sentence segmentation and tokenization is based on the original **DanteSearch** corpus, but has been manually, and partially automatically, modified in some cases (by means of both splits and merges of tokens or sentences) |
 | FORM | Obtained from the **DanteSearch** corpus; some minor mistakes have been manually corrected |
-| LEMMA | Obtained from the **DanteSearch** corpus, but manually and partially automatically modified (and in some cases corrected) in some occurrences in order to fit changes in other annotation layers (part of speech, morpholexical features), or for reasons of standardization |
-| UPOSTAG | Converted automatically from the **DanteSearch** tagset, but manually and partially automatically modified in order to fit annotation solutions related to the UD formalism |
+| LEMMA | Obtained from the **DanteSearch** corpus, but manually and partially automatically modified (and in some cases corrected) in some occurrences in order to fit with changes in other annotation layers (part of speech, morpholexical features), or for reasons of standardization |
+| UPOSTAG | Converted automatically from the **DanteSearch** tagset, but manually and partially automatically modified in order to fit with annotation solutions related to the UD formalism |
 | XPOSTAG | As in the **DanteSearch** corpus (may be split or merged over multiple tokens if the tokenization has been changed) |
 | FEATS |  Converted automatically from the **DanteSearch** tagset, but manually and partially automatically corrected, modified and augmented according to the UD formalism |
 | HEAD | Manually annotated from scratch and later manually and partially automatically corrected |
