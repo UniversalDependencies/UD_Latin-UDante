@@ -41,7 +41,7 @@
 38	permictit	permitto	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl	_	_
 39	-	-	PUNCT	Pu	_	10	punct	_	SpaceAfter=No
 40	,	,	PUNCT	Pu	_	10	punct	_	_
-41	volentes	uolo	VERB	va5pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatI2|InflClass[noun]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	66	advcl:pred	_	_
+41	volentes	uolo	VERB	va5pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatAnom|InflClass[noun]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	66	advcl:pred	_	_
 42	discretionem	discretio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	44	obj	_	_
 43	aliqualiter	aliqualiter	ADV	r	Compound=Yes|PronType=Rel	44	advmod	_	_
 44	lucidare	lucido	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[noun]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	41	xcomp	_	_
@@ -1640,7 +1640,7 @@
 64	primi	primus	ADJ	ams1g	Case=Gen|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	63	amod	_	_
 65	loquentis	loquor	VERB	vd3ppsfg	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[noun]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	64	acl	_	SpaceAfter=No
 66	,	,	PUNCT	Pu	_	49	punct	_	_
-67	voluit	uolo	VERB	va5irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	35	ccomp	_	_
+67	voluit	uolo	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	35	ccomp	_	_
 68	tamen	tamen	ADV	r	PronType=Dem	67	advmod	_	_
 69	et	et	ADV	r	_	70	advmod:emph	_	_
 70	ipsum	ipse	DET	ddesma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Emp	71	nsubj	_	_
@@ -2257,7 +2257,7 @@
 # sent_id = DVE-62
 # text = Quippe satis extiterat.
 # citation_hierarchy = Liber_Primus,vii,Paragraphus_2
-1	Quippe	quippe	PART	r	Emphatic=Yes|PronType=Rel	3	discourse	_	_
+1	Quippe	quippe	ADV	r	Emphatic=Yes|PronType=Rel	3	discourse	_	_
 2	satis	satis	ADV	r	Degree=Pos	3	advmod	_	_
 3	extiterat	existo	VERB	va3i+s3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Pu	_	3	punct	_	_
@@ -4454,7 +4454,7 @@
 10	Ytalie	italia	PROPN	Sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	9	nmod	_	_
 11	variationes	uariatio	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	12	obj	_	_
 12	calculare	calculo	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[noun]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	13	ccomp	_	_
-13	velimus	uolo	VERB	va5cpp1	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	SpaceAfter=No
+13	velimus	uolo	VERB	va5cpp1	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	13	punct	_	_
 15	et	et	ADV	co	_	28	advmod:emph	_	_
 16	in	in	ADP	e	AdpType=Prep	20	case	_	_
@@ -5078,7 +5078,7 @@
 6	vulgare	uulgare	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	9	obj	_	_
 7	sicilianum	sicilianus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	6	amod	_	_
 8	accipere	accipio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[noun]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	9	xcomp	_	_
-9	volumus	uolo	VERB	va5ipp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
+9	volumus	uolo	VERB	va5ipp1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
 10	secundum	secundum	ADP	e	AdpType=Prep|VerbForm=Gdv	11	case	_	_
 11	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	obl	_	_
 12	prodit	prodeo	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
@@ -5123,7 +5123,7 @@
 51	autem	autem	CCONJ	co	_	54	discourse	_	_
 52	ipsum	ipse	DET	ddesna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Emp	54	obj	_	_
 53	accipere	accipio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[noun]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	54	xcomp	_	_
-54	volumus	uolo	VERB	va5ipp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	71	advcl	_	_
+54	volumus	uolo	VERB	va5ipp1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	71	advcl	_	_
 55	secundum	secundum	ADP	e	AdpType=Prep|VerbForm=Gdv	56	case	_	_
 56	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	54	obl	_	_
 57	ab	ab	ADP	e	AdpType=Prep	58	case	_	_
@@ -7062,9 +7062,9 @@
 13	ita	ita	ADV	r	PronType=Dem	11	advmod	_	_
 14	ut	ut	SCONJ	cs	ConjType=Cmpr	15	mark	_	_
 15	nolentem	nolo	VERB	va5ppsma	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatAnom|InflClass[noun]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	_
-16	volentem	uolo	VERB	v5ppsma	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatI2|InflClass[noun]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	orphan	_	_
+16	volentem	uolo	VERB	v5ppsma	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatAnom|InflClass[noun]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	orphan	_	_
 17	et	et	CCONJ	co	_	20	cc	_	_
-18	volentem	uolo	VERB	v5ppsma	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatI2|InflClass[noun]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	obj	_	_
+18	volentem	uolo	VERB	v5ppsma	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatAnom|InflClass[noun]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	obj	_	_
 19	nolentem	nolo	VERB	va5ppsma	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatAnom|InflClass[noun]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	xcomp:pred	_	_
 20	faciat	facio	VERB	va3cps3	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	25	punct	_	_
@@ -9196,7 +9196,7 @@
 # sent_id = DVE-254
 # text = Volentes igitur modum tradere quo ligari hec digna existant, primo dicimus esse ad memoriam reducendum quod vulgariter poetantes sua poemata multimode protulerunt, quidam per cantiones, quidam per ballatas, quidam per sonitus, quidam per alios inlegitimos et inregulares modos, ut inferius ostendetur.
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_2
-1	Volentes	uolo	VERB	va5pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatI2|InflClass[noun]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl:pred	_	_
+1	Volentes	uolo	VERB	va5pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatAnom|InflClass[noun]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl:pred	_	_
 2	igitur	igitur	PART	r	_	12	discourse	_	_
 3	modum	modus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	4	obj	_	_
 4	tradere	trado	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[noun]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	1	ccomp	_	_
@@ -12557,7 +12557,7 @@
 45	per	per	ADP	e	AdpType=Prep	46	case	_	_
 46	eam	is	PRON	ddesfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	47	obl	_	_
 47	intelligere	intelligo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[noun]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	48	xcomp	_	_
-48	volumus	uolo	VERB	va5ipp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	40	conj	_	SpaceAfter=No
+48	volumus	uolo	VERB	va5ipp1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	40	conj	_	SpaceAfter=No
 49	.	.	PUNCT	Pu	_	16	punct	_	_
 
 # sent_id = DVE-345
@@ -13976,7 +13976,7 @@
 5	sensum	sensus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Part	8	obl	_	_
 6	subtiliter	subtiliter	ADV	r	Degree=Pos	8	advmod	_	_
 7	intrare	intro	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[noun]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	8	xcomp	_	_
-8	velimus	uolo	VERB	va5cpp1	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No
+8	velimus	uolo	VERB	va5cpp1	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	8	punct	_	_
 10	non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
 11	sine	sine	ADP	e	AdpType=Prep	14	case	_	_
