@@ -887,7 +887,7 @@
 # text = Est ergo aliqua propria operatio humane universitatis, ad quam ipsa universitas hominum in tanta multitudine ordinatur; ad quam quidem operationem nec homo unus, nec domus una, nec una vicinia, nec una civitas, nec regnum particulare pertingere potest.
 # citation_hierarchy = Liber_Primus,iii,Paragraphus_4
 1	Est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-2	ergo	ergo	CCONJ	co	_	5	advmod	_	_
+2	ergo	ergo	ADV	co	_	5	advmod	_	_
 3	aliqua	aliqui	DET	dinsfn	Case=Nom|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	5	det	_	_
 4	propria	proprius	ADJ	afs1n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	5	amod	_	_
 5	operatio	operatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	0	root	_	_
@@ -918,17 +918,17 @@
 30	,	,	PUNCT	Pu	_	33	punct	_	_
 31	nec	neque	CCONJ	co	Polarity=Neg	33	cc	_	_
 32	una	unus	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	33	det	_	_
-33	vicinia	uicinia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	28	conj	_	SpaceAfter=No
+33	vicinia	uicinia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	24	conj	_	SpaceAfter=No
 34	,	,	PUNCT	Pu	_	37	punct	_	_
 35	nec	neque	CCONJ	co	Polarity=Neg	37	cc	_	_
 36	una	unus	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	37	det	_	_
-37	civitas	ciuitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	33	conj	_	SpaceAfter=No
+37	civitas	ciuitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	24	conj	_	SpaceAfter=No
 38	,	,	PUNCT	Pu	_	40	punct	_	_
 39	nec	neque	CCONJ	co	Polarity=Neg	40	cc	_	_
-40	regnum	regnum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	37	conj	_	_
+40	regnum	regnum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	24	conj	_	_
 41	particulare	particularis	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	40	amod	_	_
-42	pertingere	pertingo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	43	ccomp	_	_
-43	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	SpaceAfter=No
+42	pertingere	pertingo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	43	xcomp	_	_
+43	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
 44	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = Mon-24
@@ -33637,7 +33637,7 @@
 14	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	17	nsubj:pass	_	_
 15	quidem	quidem	PART	r	_	17	discourse	_	_
 16	quinto	quinto	ADV	rn	Degree=Pos|NumType=Ord	17	advmod	_	_
-17	proponebatur	propono	VERB	vp3iis3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	_
+17	proponebatur	propono	VERB	vp3iis3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	adcl:pred	_	_
 18	faciendum	facio	VERB	vp3gvsnn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Gdv|Voice=Pass	17	xcomp:pred	_	SpaceAfter=No
 19	.	.	PUNCT	Pu	_	4	punct	_	_
 
