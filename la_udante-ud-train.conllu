@@ -33637,7 +33637,7 @@
 14	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	17	nsubj:pass	_	_
 15	quidem	quidem	PART	r	_	17	discourse	_	_
 16	quinto	quinto	ADV	rn	Degree=Pos|NumType=Ord	17	advmod	_	_
-17	proponebatur	propono	VERB	vp3iis3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	adcl:pred	_	_
+17	proponebatur	propono	VERB	vp3iis3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	advcl:pred	_	_
 18	faciendum	facio	VERB	vp3gvsnn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Gdv|Voice=Pass	17	xcomp:pred	_	SpaceAfter=No
 19	.	.	PUNCT	Pu	_	4	punct	_	_
 
