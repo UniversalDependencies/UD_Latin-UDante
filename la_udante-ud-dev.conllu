@@ -4494,7 +4494,7 @@
 26	;	;	PUNCT	Pu	_	27	punct	_	_
 27	et	et	CCONJ	co	_	40	cc	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	27	punct	_	_
-29	ceu	ceu	CCONJ	co	_	30	mark	_	_
+29	ceu	ceu	SCONJ	co	ConjType=Cmpr	30	mark	_	_
 30	Titan	titan	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|NameType=Ast|Number=Sing	40	advcl:cmpr	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	30	punct	_	_
 32	preoptatus	praeopto	VERB	vp1prsmn	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	advcl:pred	_	_
