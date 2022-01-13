@@ -4912,38 +4912,36 @@
 31	.	.	PUNCT	Pu	_	15	punct	_	_
 
 # sent_id = DVE-131
-# text = Siquidem illustres heroes, Fredericus Cesar et benegenitus eius Manfredus, nobilitatem ac rectitudinem sue forme pandentes, donec fortuna permisit humana secuti sunt, brutalia dedignantes.
+# text = siquidem illustres heroes, Fredericus Cesar et benegenitus eius Manfredus, nobilitatem ac rectitudinem sue forme pandentes, donec fortuna permisit humana secuti sunt, brutalia dedignantes.
 # citation_hierarchy = Liber_Primus,xii_,Paragraphus_4
-1-2	Siquidem	_	_	_	_	_	_	_	_
-1	si	si	SCONJ	c	_	24	mark	_	_
-2	quidem	quidem	PART	c	_	24	discourse	_	_
-3	illustres	illustris	ADJ	amp2n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Plur	4	amod	_	_
-4	heroes	heros	NOUN	smp3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur	24	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Pu	_	6	punct	_	_
-6	Fredericus	fredericus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	4	flat	_	_
-7	Cesar	caesar	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	6	flat	_	_
-8	et	et	CCONJ	co	_	9	cc	_	_
-9	benegenitus	benegenitus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	6	conj	_	_
-10	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
-11	Manfredus	manfredus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	9	flat	_	SpaceAfter=No
-12	,	,	PUNCT	Pu	_	4	punct	_	_
-13	nobilitatem	nobilitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	18	obj	_	_
-14	ac	atque	CCONJ	c	Form=Emp	15	cc	_	_
-15	rectitudinem	rectitudo	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	13	conj	_	_
-16	sue	suus	DET	dsfsg	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
-17	forme	forma	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nmod	_	_
-18	pandentes	pando	VERB	va3pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	advcl:pred	_	SpaceAfter=No
-19	,	,	PUNCT	Pu	_	22	punct	_	_
-20	donec	donec	SCONJ	cs	_	22	mark	_	_
-21	fortuna	fortuna	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	22	nsubj	_	_
-22	permisit	permitto	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	_
-23	humana	humanus	ADJ	anp1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur	24	obj	_	_
-24	secuti	sequor	VERB	vd3irp3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-25	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	SpaceAfter=No
-26	,	,	PUNCT	Pu	_	28	punct	_	_
-27	brutalia	brutalis	ADJ	anp2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Plur	28	obj	_	_
-28	dedignantes	dedigno	VERB	va1pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	advcl:pred	_	SpaceAfter=No
-29	.	.	PUNCT	Pu	_	24	punct	_	_
+1	siquidem	siquidem	PART	pred	_	23	discourse	_	_
+2	illustres	illustris	ADJ	amp2n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Plur	3	amod	_	_
+3	heroes	heros	NOUN	smp3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur	23	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	Pu	_	5	punct	_	_
+5	Fredericus	fredericus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	3	flat	_	_
+6	Cesar	caesar	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	5	flat	_	_
+7	et	et	CCONJ	co	_	8	cc	_	_
+8	benegenitus	benegenitus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	5	conj	_	_
+9	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+10	Manfredus	manfredus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	8	flat	_	SpaceAfter=No
+11	,	,	PUNCT	Pu	_	3	punct	_	_
+12	nobilitatem	nobilitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	17	obj	_	_
+13	ac	atque	CCONJ	c	Form=Emp	14	cc	_	_
+14	rectitudinem	rectitudo	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	12	conj	_	_
+15	sue	suus	DET	dsfsg	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
+16	forme	forma	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	12	nmod	_	_
+17	pandentes	pando	VERB	va3pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	advcl:pred	_	SpaceAfter=No
+18	,	,	PUNCT	Pu	_	21	punct	_	_
+19	donec	donec	SCONJ	cs	_	21	mark	_	_
+20	fortuna	fortuna	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	21	nsubj	_	_
+21	permisit	permitto	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	advcl	_	_
+22	humana	humanus	ADJ	anp1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur	23	obj	_	_
+23	secuti	sequor	VERB	vd3irp3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+24	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	SpaceAfter=No
+25	,	,	PUNCT	Pu	_	27	punct	_	_
+26	brutalia	brutalis	ADJ	anp2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Plur	27	obj	_	_
+27	dedignantes	dedigno	VERB	va1pppmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	advcl:pred	_	SpaceAfter=No
+28	.	.	PUNCT	Pu	_	23	punct	_	_
 
 # sent_id = DVE-132
 # text = Propter quod corde nobiles atque gratiarum dotati inherere tantorum principum maiestati conati sunt, ita ut eorum tempore quicquid excellentes animi Latinorum enitebantur primitus in tantorum coronatorum aula prodibat; et quia regale solium erat Sicilia, factum est ut quicquid nostri predecessores vulgariter protulerunt, sicilianum vocetur: quod quidem retinemus et nos, nec posteri nostri permutare valebunt.
