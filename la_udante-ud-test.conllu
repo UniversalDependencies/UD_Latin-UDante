@@ -1277,7 +1277,7 @@
 44	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
 45	gaudium	gaudium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	33	conj	_	SpaceAfter=No
 46	,	,	PUNCT	Pu	_	33	punct	_	_
-47	consequens	consequens	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	17	conj	_	_
+47	consequens	consequor	VERB	ans2n	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	17	conj	_	_
 48	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
 49	quod	quod	SCONJ	cs	PronType=Rel	56	mark	_	_
 50	primus	primus	ADJ	ams1n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	56	nsubj	_	_
@@ -1826,7 +1826,7 @@
 28	,	,	PUNCT	Pu	_	32	punct	_	_
 29	et	et	CCONJ	co	_	32	cc	_	_
 30	per	per	ADP	e	AdpType=Prep	31	case	_	_
-31	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	32	obl	_	_
+31	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	32	obl	_	_
 32	credit	credo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	_
 33	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	32	ccomp	_	_
 34	fuisse	sum	AUX	va5fr	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf	33	cop	_	_
@@ -3838,7 +3838,7 @@
 16	,	,	PUNCT	Pu	_	23	punct	_	_
 17	et	et	CCONJ	co	_	23	cc	_	_
 18	per	per	ADP	e	AdpType=Prep	19	case	_	_
-19	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	23	obl	_	_
+19	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	23	obl	_	_
 20	nec	neque	CCONJ	co	Polarity=Neg	23	cc	_	_
 21	variabilis	uariabilis	ADJ	afs2n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Sing	23	xcomp	_	_
 22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	21	cop	_	_
@@ -4027,8 +4027,8 @@
 8	oc	oc	X	zi	Foreign=Yes	5	conj:expl	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	16	punct	_	_
 10	quod	quod	SCONJ	cs	PronType=Rel	16	mark	_	_
-11	vulgares	uulgaris	ADJ	amp2n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Plur	12	amod	_	_
-12	eloquentes	eloquens	NOUN	smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	16	nmod	_	_
+11	vulgares	uulgaris	ADJ	amp2n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Plur	12	obj	_	_
+12	eloquentes	eloquor	NOUN	smp3n	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nom]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	nsubj	_	_
 13	in	in	ADP	e	AdpType=Prep	14	case	_	_
 14	ea	is	PRON	ddesfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
 15	primitus	primitus	ADV	r	Degree=Pos	16	advmod	_	_
@@ -4921,7 +4921,7 @@
 5	Fredericus	fredericus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	3	flat	_	_
 6	Cesar	caesar	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	5	flat	_	_
 7	et	et	CCONJ	co	_	8	cc	_	_
-8	benegenitus	benegenitus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	5	conj	_	_
+8	benegenitus	benegigno	VERB	sms2n	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	_
 9	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
 10	Manfredus	manfredus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	8	flat	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	3	punct	_	_
@@ -8318,7 +8318,7 @@
 17	,	,	PUNCT	Pu	_	23	punct	_	_
 18	et	et	CCONJ	co	_	23	cc	_	_
 19	per	per	ADP	e	AdpType=Prep	20	case	_	_
-20	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	23	orphan	_	_
+20	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	23	orphan	_	_
 21	nec	neque	CCONJ	co	Polarity=Neg	23	cc	_	_
 22	optimum	bonus	ADJ	ans1ns	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	23	amod	_	_
 23	vulgare	uulgare	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	8	conj	_	SpaceAfter=No
@@ -8488,8 +8488,8 @@
 11	debere	debeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	12	ccomp	_	_
 12	astruximus	adstruo	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	12	punct	_	_
-14	consequens	consequens	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	_
-15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	consequens	consequor	VERB	ans2n	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_
+15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 16	astruere	adstruo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	14	csubj	_	_
 17	utrum	utrum	SCONJ	r	_	20	mark	_	_
 18	omnia	omnis	DET	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	20	nsubj:pass	_	_
@@ -8700,7 +8700,7 @@
 71	;	;	PUNCT	Pu	_	72	punct	_	_
 72	et	et	CCONJ	co	_	84	cc	_	_
 73	per	per	ADP	e	AdpType=Prep	74	case	_	_
-74	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	84	obl	_	_
+74	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	84	obl	_	_
 75	aliquid	aliquis	PRON	dinsnn	Case=Nom|Compound=Yes|Gender=Neut|Number=Sing|PronType=Ind	76	nsubj	_	_
 76	dignum	dignus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	84	csubj	_	SpaceAfter=No
 77	,	,	PUNCT	Pu	_	79	punct	_	_
@@ -8776,7 +8776,7 @@
 9	aliorum	alius	DET	dpnpg	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Con	10	det	_	_
 10	vulgarium	uulgare	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	8	obl:arg	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	8	punct	_	_
-12	consequens	consequens	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	_
+12	consequens	consequor	VERB	ans2n	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_
 13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 14	ut	ut	SCONJ	cs	ConjType=Cmpr	17	mark	_	_
 15	sola	solus	DET	dpnpn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Con	16	det	_	_
@@ -8914,7 +8914,7 @@
 30	,	,	PUNCT	Pu	_	35	punct	_	_
 31	et	et	CCONJ	co	_	35	cc	_	_
 32	per	per	ADP	e	AdpType=Prep	33	case	_	_
-33	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	35	orphan	_	_
+33	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	35	orphan	_	_
 34	maximo	magnus	ADJ	ans1bs	Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	35	amod	_	_
 35	vulgari	uulgare	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	27	conj	_	SpaceAfter=No
 36	.	.	PUNCT	Pu	_	7	punct	_	_
@@ -9287,7 +9287,7 @@
 33	,	,	PUNCT	Pu	_	39	punct	_	_
 34	et	et	CCONJ	co	_	39	cc	_	_
 35	per	per	ADP	e	AdpType=Prep	36	case	_	_
-36	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	39	obl	_	_
+36	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	39	obl	_	_
 37	in	in	ADP	e	AdpType=Prep	38	case	_	_
 38	cantionibus	cantio	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	39	obl	_	_
 39	pertractanda	pertracto	VERB	vp1gvpnn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|Tense=Fut|VerbForm=Gdv|Voice=Pass	31	conj	_	SpaceAfter=No
@@ -9398,7 +9398,7 @@
 52	,	,	PUNCT	Pu	_	56	punct	_	_
 53	et	et	CCONJ	co	_	56	cc	_	_
 54	per	per	ADP	e	AdpType=Prep	55	case	_	_
-55	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	56	obl	_	_
+55	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	56	obl	_	_
 56	nobilissimum	nobilis	ADJ	ams2as	Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	50	conj	_	_
 57	aliorum	alius	DET	dpmpg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	56	obl:arg	_	_
 58	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	56	cop	_	_
@@ -9447,7 +9447,7 @@
 26	,	,	PUNCT	Pu	_	32	punct	_	_
 27	et	et	CCONJ	co	_	32	cc	_	_
 28	per	per	ADP	e	AdpType=Prep	29	case	_	_
-29	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	32	obl	_	_
+29	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	32	obl	_	_
 30	modus	modus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	32	nsubj	_	_
 31	earum	is	PRON	ddepfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	30	nmod	_	_
 32	nobilissimus	nobilis	ADJ	ams2ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	17	conj	_	_
@@ -9488,7 +9488,7 @@
 29	,	,	PUNCT	Pu	_	35	punct	_	_
 30	et	et	CCONJ	co	_	35	cc	_	_
 31	per	per	ADP	e	AdpType=Prep	32	case	_	_
-32	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	35	obl	_	_
+32	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	35	obl	_	_
 33	modus	modus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	35	nsubj	_	_
 34	earum	is	PRON	ddepfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	33	nmod	_	_
 35	nobilissimus	nobilis	ADJ	ams2ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	18	conj	_	_
@@ -9923,7 +9923,7 @@
 11	,	,	PUNCT	Pu	_	16	punct	_	_
 12	et	et	CCONJ	co	_	16	cc	_	_
 13	per	per	ADP	e	AdpType=Prep	14	case	_	_
-14	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	16	obl	_	_
+14	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	16	obl	_	_
 15	cantionem	cantio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	16	obj	_	_
 16	ligare	ligo	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	7	conj	_	SpaceAfter=No
 17	.	.	PUNCT	Pu	_	7	punct	_	_
@@ -12501,7 +12501,7 @@
 10	,	,	PUNCT	Pu	_	14	punct	_	_
 11	et	et	CCONJ	co	_	14	cc	_	_
 12	per	per	ADP	e	AdpType=Prep	13	case	_	_
-13	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	14	obl	_	_
+13	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	14	obl	_	_
 14	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	6	conj	_	_
 15	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 16	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	17	det	_	_
@@ -14199,7 +14199,7 @@
 74	,	,	PUNCT	Pu	_	81	punct	_	_
 75	et	et	CCONJ	co	_	81	cc	_	_
 76	per	per	ADP	e	AdpType=Prep	77	case	_	_
-77	consequens	consequens	ADJ	ans2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	81	obl	_	_
+77	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	81	obl	_	_
 78	pedes	pes	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	81	nsubj	_	_
 79	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	81	xcomp	_	_
 80	non	non	PART	r	Polarity=Neg	81	advmod:neg	_	_
