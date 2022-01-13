@@ -150,8 +150,8 @@
 # sent_id = Epi-4
 # text = Ceu filii non ingrati litteras igitur pie vestre Paternitatis aspeximus, que totius nostri desiderii personantes exordia, subito mentes nostras tanta letitia perfuderunt, quantam nemo valeret seu verbo seu cogitatione metiri.
 # citation_hierarchy = I,Paragraphus_3
-1	Ceu	ceu	CCONJ	co	_	2	cc	_	_
-2	filii	filius	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	10	xcomp:pred	_	_
+1	Ceu	ceu	SCONJ	co	ConjType=Cmpr	2	mark	_	_
+2	filii	filius	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	10	advcl:cmpr	_	_
 3	non	non	PART	r	Polarity=Neg	4	advmod:neg	_	_
 4	ingrati	ingratus	ADJ	amp1n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	2	amod	_	_
 5	litteras	litterae	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	10	obj	_	_
@@ -165,13 +165,13 @@
 13	totius	totus	DET	dpnsg	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Tot	15	det	_	_
 14	nostri	noster	DET	dsnsg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
 15	desiderii	desiderium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	17	nmod	_	_
-16	personantes	persono	VERB	va1pppfn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+16	personantes	persono	VERB	va1pppfn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	advcl:pred	_	_
 17	exordia	exordium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	16	obj	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	16	punct	_	_
 19	subito	subito	ADV	r	Degree=Pos|VerbForm=Part	24	advmod	_	_
 20	mentes	mens	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	24	obj	_	_
 21	nostras	noster	DET	dsfpa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
-22	tanta	tantus	DET	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|PronType=Dem	23	advmod:emph	_	_
+22	tanta	tantus	DET	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Card|PronType=Dem	23	det	_	_
 23	letitia	laetitia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	24	obl	_	_
 24	perfuderunt	perfundo	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
 25	,	,	PUNCT	Pu	_	28	punct	_	_
@@ -179,7 +179,7 @@
 27	nemo	nemo	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing|PronType=Neg	28	nsubj	_	_
 28	valeret	ualeo	VERB	va2cis3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
 29	seu	seu	CCONJ	co	_	30	cc	_	_
-30	verbo	uerbum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	33	obl:arg	_	_
+30	verbo	uerbum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	33	obl	_	_
 31	seu	seu	CCONJ	co	_	32	cc	_	_
 32	cogitatione	cogitatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	30	conj	_	_
 33	metiri	metior	VERB	vd4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	28	xcomp	_	SpaceAfter=No
@@ -297,7 +297,7 @@
 # sent_id = Epi-8
 # text = Quod si tam gratissimo nobis beneficio vigilatis, et adversarios nostros, prout sancta conamina vestra voluerint, ad sulcos bone civilitatis intenditis remeare, quis vobis dignas grates persolvere attentabit?
 # citation_hierarchy = I,Paragraphus_7
-1	Quod	quod	ADV	r	PronType=Rel	7	advmod	_	_
+1	Quod	quod	SCONJ	r	PronType=Rel	31	mark	_	_
 2	si	si	SCONJ	cs	_	7	mark	_	_
 3	tam	tam	ADV	r	PronType=Dem	7	advmod	_	_
 4	gratissimo	gratus	ADJ	ans1ds	Case=Dat|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	6	amod	_	_
@@ -2779,7 +2779,7 @@
 # sent_id = Epi-74
 # text = Quod si pertinax animus poscit ulterius, nondum annuens veritati, verba Christi examinet etiam iam ligati; cui cum potestatem suam Pilatus obiceret, Lux nostra de sursum esse asseruit quod ille iactabat qui Cesaris ibi auctoritate vicaria gerebat officium.
 # citation_hierarchy = V,Paragraphus_28
-1	Quod	quod	ADV	r	PronType=Rel	5	advmod	_	_
+1	Quod	quod	SCONJ	r	PronType=Rel	14	mark	_	_
 2	si	si	SCONJ	cs	_	5	mark	_	_
 3	pertinax	pertinax	ADJ	ams1n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	4	amod	_	_
 4	animus	animus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	5	nsubj	_	_
@@ -2984,7 +2984,7 @@
 18	tamen	tamen	ADV	r	PronType=Dem	20	advmod	_	_
 19	veritati	ueritas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	20	obl	_	_
 20	applaudit	applaudo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-21	quod	qui	SCONJ	cs	PronType=Rel	29	mark	_	SpaceAfter=No
+21	quod	quod	SCONJ	cs	PronType=Rel	29	mark	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	21	punct	_	_
 23	solio	solium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	25	nsubj	_	_
 24	augustali	augustalis	ADJ	ans2b	Case=Abl|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing	23	amod	_	_
@@ -3677,7 +3677,7 @@
 19	clamantem	clamo	VERB	va1ppsfa	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	27	punct	_	_
 21	quoniam	quoniam	SCONJ	cs	Compound=Yes|PronType=Rel	27	mark	_	_
-22	simul	simul	SCONJ	cs	_	24	mark	_	_
+22	simul	simul	ADV	cs	_	24	advmod	_	_
 23	et	et	CCONJ	co	_	24	cc	_	_
 24	ieiuna	ieiunus	ADJ	afs1n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	27	xcomp	_	_
 25	et	et	CCONJ	co	_	26	cc	_	_
@@ -4304,7 +4304,7 @@
 # citation_hierarchy = VI,Paragraphus_27
 1	Scriptum	scribo	VERB	vp3prsnn	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 2	pridie	pridie	ADP	e	AdpType=Prep|Compound=Yes	3	case	_	_
-3	Kalendas	kalendae	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Cal|Number=Plur|VerbForm=Part	1	obl	_	_
+3	Kalendas	kalendae	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Cal|Number=Plur|VerbForm=Part	1	obl:tmod	_	_
 4	Apriles	aprilis	ADJ	afp2a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurI|NameType=Cal|Number=Plur	3	amod	_	_
 5	in	in	ADP	e	AdpType=Prep	6	case	_	_
 6	finibus	fines	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur	1	obl	_	_
@@ -5107,7 +5107,7 @@
 51	et	et	CCONJ	co	_	52	cc	_	_
 52	interfice	interficio	VERB	va3mps2	Aspect=Imp|InflClass=LatI2|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	50	conj	_	_
 53	peccatores	peccator	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	52	obj	_	_
-54	Amalech	amalech	NOUN	smsgipr	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	53	nmod	_	SpaceAfter=No
+54	Amalech	amalech	PROPN	smsgipr	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	53	nmod	_	SpaceAfter=No
 55	?	?	PUNCT	Pu	_	29	punct	_	SpaceAfter=No
 56	»	»	PUNCT	Pu	_	29	punct	_	SpaceAfter=No
 57	.	.	PUNCT	Pu	_	1	punct	_	_
@@ -5123,10 +5123,10 @@
 6	sacratus	sacro	VERB	vp1irs2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 7	es	sum	AUX	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 8	ut	ut	SCONJ	cs	ConjType=Cmpr	10	mark	_	_
-9	Amalech	amalech	NOUN	smsaipr	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	10	obj	_	_
+9	Amalech	amalech	PROPN	smsaipr	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	10	obj	_	_
 10	percutias	percutio	VERB	va3cps2	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 11	et	et	CCONJ	co	_	14	cc	_	_
-12	Agag	agag	NOUN	smsdi	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	14	obj	_	_
+12	Agag	agag	PROPN	smsdi	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	14	obj	_	_
 13	non	non	PART	r	Polarity=Neg	14	advmod:neg	_	_
 14	pareas	pareo	VERB	va2cps2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	17	punct	_	_
@@ -5148,9 +5148,9 @@
 31	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	37	obj	_	_
 32	quidem	quidem	PART	r	_	38	discourse	_	_
 33	et	et	CCONJ	co	_	34	cc	_	_
-34	Amalech	amalech	NOUN	smsnipr	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	38	nsubj:pass	_	_
+34	Amalech	amalech	PROPN	smsnipr	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	38	nsubj:pass	_	_
 35	et	et	CCONJ	co	_	36	cc	_	_
-36	Agag	agag	NOUN	smsni	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	34	conj	_	_
+36	Agag	agag	PROPN	smsni	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	34	conj	_	_
 37	sonare	sono	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	38	xcomp	_	_
 38	dicuntur	dico	VERB	vp3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	acl:relcl	_	SpaceAfter=No
 39	.	.	PUNCT	Pu	_	6	punct	_	_
@@ -5178,7 +5178,7 @@
 # sent_id = Epi-139
 # text = Quod si magnalia gloriosi Alcide recensuisses, te ut illum falli cognosceres, cui pestilens animal, capite repullulante multiplici, per damnum crescebat, donec instanter magnanimus vite principium impetivit.
 # citation_hierarchy = VII,Paragraphus_20
-1	Quod	quod	ADV	r	PronType=Rel	12	advmod	_	_
+1	Quod	quod	SCONJ	r	PronType=Rel	12	mark	_	_
 2	si	si	SCONJ	cs	_	6	mark	_	_
 3	magnalia	magnalia	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	6	obj	_	_
 4	gloriosi	gloriosus	ADJ	ams1g	Case=Gen|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	5	amod	_	_
@@ -5285,11 +5285,11 @@
 8	,	,	PUNCT	Pu	_	7	punct	_	_
 9	mox	mox	ADV	r	_	16	advmod	_	_
 10	alia	alius	DET	dpfs1n	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	16	nsubj	_	_
-11	Vercellis	uercellae	PROPN	Sfp1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Plur	16	obl	_	_
+11	Vercellis	uercellae	PROPN	Sfp1b	Case=Loc|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Plur	16	obl	_	_
 12	vel	uel	CCONJ	co	_	13	cc	_	_
 13	Pergami	pergamum	PROPN	Sns2g	Case=Loc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	11	conj	_	_
 14	vel	uel	CCONJ	co	_	15	cc	_	_
-15	alibi	alibi	PRON	r	Compound=Yes	11	conj	_	_
+15	alibi	alibi	ADV	r	AdvType=Loc|Compound=Yes	11	conj	_	_
 16	returgebit	returgeo	VERB	va2ifs3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	23	punct	_	_
 18	donec	donec	SCONJ	cs	_	23	mark	_	_
@@ -11260,7 +11260,7 @@
 15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 16	causata	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis:rep	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	20	punct	_	_
-18	aliter	aliter	CCONJ	r	_	20	cc	_	_
+18	aliter	aliter	ADV	r	PronType=Con	20	advmod	_	_
 19	essent	sum	AUX	va5cip3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
 20	plura	multus	DET	anp1nc	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurI|Number=Plur|NumType=Card|PronType=Ind	16	conj	_	_
 21	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	25	nsubj	_	_
