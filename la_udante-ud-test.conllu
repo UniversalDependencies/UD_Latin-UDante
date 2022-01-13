@@ -4042,8 +4042,8 @@
 22	que	que	CCONJ	co9	Clitic=Yes	21	cc	_	_
 23	loquela	loquela	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	16	advcl:cmpr	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	27	punct	_	_
-25	ut	ut	SCONJ	r	_	27	mark	_	_
-26	puta	puta	CCONJ	va1mps2	VerbForm=Fin	25	fixed	_	_
+25	ut	ut	SCONJ	r	ConjType=Cmpr	27	mark	_	_
+26	puta	puta	CCONJ	va1mps2	ConjType=Expl|VerbForm=Fin	27	cc	_	_
 27	Petrus	petrus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	16	advcl:cmpr	_	_
 28	de	de	ADP	e	AdpType=Prep	29	case	_	_
 29	Alvernia	aluernia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	27	obl	_	_
