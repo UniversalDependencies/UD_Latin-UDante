@@ -4028,7 +4028,7 @@
 9	,	,	PUNCT	Pu	_	16	punct	_	_
 10	quod	quod	SCONJ	cs	PronType=Rel	16	mark	_	_
 11	vulgares	uulgaris	ADJ	amp2n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Plur	12	obj	_	_
-12	eloquentes	eloquor	NOUN	smp3n	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nom]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	nsubj	_	_
+12	eloquentes	eloquor	VERB	smp3n	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	nsubj	_	_
 13	in	in	ADP	e	AdpType=Prep	14	case	_	_
 14	ea	is	PRON	ddesfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
 15	primitus	primitus	ADV	r	Degree=Pos	16	advmod	_	_
