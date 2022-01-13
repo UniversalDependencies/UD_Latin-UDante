@@ -5236,7 +5236,7 @@
 # citation_hierarchy = Liber_Primus,xii_,Paragraphus_9
 1	Quapropter	quapropter	ADV	r	Compound=Yes|PronType=Rel	5	discourse	_	_
 2	superiora	superior	ADJ	anp2ac	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur	3	obj	_	_
-3	notantibus	noto	VERB	va1pppmd	Aspect=Imp|Case=Dat|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl:abs	_	_
+3	notantibus	noto	VERB	va1pppmd	Aspect=Imp|Case=Abl|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl:abs	_	_
 4	innotescere	innotesco	VERB	va3fp	Aspect=Inch|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	5	xcomp	_	_
 5	debet	debeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	nec	neque	CCONJ	co	Polarity=Neg	7	cc	_	_
@@ -5253,8 +5253,8 @@
 17	vulgare	uulgare	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	4	csubj	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	22	punct	_	_
 19	cum	cum	SCONJ	cs	PronType=Rel	22	mark	_	_
-20	eloquentes	eloquens	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	21	acl	_	_
-21	indigenas	indigena	NOUN	smp1a	Case=Acc|Gender=Masc|InflClass=IndEurA|Number=Plur	25	nsubj	_	_
+20	eloquentes	eloquor	VERB	smp3a	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	25	nsubj	_	_
+21	indigenas	indigena	NOUN	smp1a	Case=Acc|Gender=Masc|InflClass=IndEurA|Number=Plur	20	nmod	_	_
 22	ostenderimus	ostendo	VERB	va3crp1	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
 23	a	a	ADP	e	AdpType=Prep	24	case	_	_
 24	proprio	proprius	ADJ	ans1b	Case=Abl|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	25	obl:arg	_	_
