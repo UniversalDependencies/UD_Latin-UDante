@@ -4912,9 +4912,9 @@
 31	.	.	PUNCT	Pu	_	15	punct	_	_
 
 # sent_id = DVE-131
-# text = siquidem illustres heroes, Fredericus Cesar et benegenitus eius Manfredus, nobilitatem ac rectitudinem sue forme pandentes, donec fortuna permisit humana secuti sunt, brutalia dedignantes.
+# text = Siquidem illustres heroes, Fredericus Cesar et benegenitus eius Manfredus, nobilitatem ac rectitudinem sue forme pandentes, donec fortuna permisit humana secuti sunt, brutalia dedignantes.
 # citation_hierarchy = Liber_Primus,xii_,Paragraphus_4
-1	siquidem	siquidem	PART	pred	_	23	discourse	_	_
+1	Siquidem	siquidem	PART	pred	_	23	discourse	_	_
 2	illustres	illustris	ADJ	amp2n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Plur	3	amod	_	_
 3	heroes	heros	NOUN	smp3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur	23	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	5	punct	_	_
