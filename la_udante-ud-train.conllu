@@ -1599,7 +1599,7 @@
 47	,	,	PUNCT	Pu	_	50	punct	_	_
 48	quia	quia	PRON	cs	_	50	nsubj	_	_
 49	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
-50	pax	pax	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	26	conj	_	_
+50	pax	pax	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	26	advcl	_	_
 51	universalis	uniuersalis	ADJ	afs2n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Sing	50	amod	_	SpaceAfter=No
 52	,	,	PUNCT	Pu	_	58	punct	_	_
 53	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	58	nsubj:pass	_	_
@@ -1607,7 +1607,7 @@
 55	principio	principium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	58	obl	_	_
 56	rationum	ratio	NOUN	sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur	55	nmod	_	_
 57	subsequentium	subsequor	VERB	vd3pppfg	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	56	acl	_	_
-58	supponatur	suppono	VERB	vp3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	50	acl:relcl	_	SpaceAfter=No
+58	supponatur	suppono	VERB	vp3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	50	csubj:cleft	_	SpaceAfter=No
 59	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = Mon-39
