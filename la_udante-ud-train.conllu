@@ -1558,12 +1558,12 @@
 6	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 7	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	per	per	ADP	e	AdpType=Prep	9	case	_	_
-9	quod	qui	DET	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	7	obl	_	_
-10	melius	bene	ADV	r+	Degree=Cmp	9	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	Pu	_	14	punct	_	_
-12	ymo	immo	ADV	r	Degree=Abs	14	advmod	_	_
+9	quod	qui	DET	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	7	csubj	_	_
+10	melius	bene	ADV	r+	Degree=Cmp	9	orphan	_	SpaceAfter=No
+11	,	,	PUNCT	Pu	_	18	punct	_	_
+12	ymo	immo	ADV	r	Degree=Abs	18	advmod:emph	_	_
 13	per	per	ADP	e	AdpType=Prep	14	case	_	_
-14	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	18	conj	_	_
+14	quod	qui	DET	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	18	conj	_	_
 15	optime	bene	ADV	rs	Degree=Abs	18	advmod	_	_
 16	genus	genus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	18	nsubj	_	_
 17	humanum	humanus	ADJ	ans1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	16	amod	_	_
