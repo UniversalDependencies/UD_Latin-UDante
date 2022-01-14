@@ -3804,7 +3804,7 @@
 2	ergo	ergo	ADV	co	AdvType=Loc	9	discourse	_	_
 3	non	non	PART	r	Polarity=Neg	4	advmod:neg	_	_
 4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-5	quod	quod	SCONJ	presnn	PronType=Rel	1	acl:relcl	_	_
+5	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	1	acl:relcl	_	_
 6	possit	possum	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 7	optari	opto	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	9	punct	_	_
