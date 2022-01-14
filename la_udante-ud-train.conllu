@@ -14536,7 +14536,7 @@
 # sent_id = Mon-388
 # text = Vere dicere potuit homo romanus quod quidem Apostolus ad Timotheum «Reposita est michi corona iustitie»; “reposita”, scilicet in Dei providentia ecterna.
 # citation_hierarchy = Liber_Secundus,ix,Paragraphus_19
-1	Vere	uere	CCONJ	r	_	3	cc	_	_
+1	Vere	uere	ADV	r	Degree=Pos	3	advmod	_	_
 2	dicere	dico	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	_
 3	potuit	possum	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	homo	homo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	3	nsubj	_	_
