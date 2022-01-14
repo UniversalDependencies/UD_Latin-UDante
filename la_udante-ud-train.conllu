@@ -1318,7 +1318,7 @@
 37	iam	iam	ADV	r	_	38	advmod	_	_
 38	innotescit	innotesco	VERB	va3ips3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	_
 39	illud	ille	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	38	nsubj	_	_
-40	Politice	politica	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Proper=Yes	39	nmod	_	SpaceAfter=No
+40	Politice	politicus	ADJ	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Proper=Yes	39	nmod	_	SpaceAfter=No
 41	:	:	PUNCT	Pu	_	42	punct	_	_
 42	intellectu	intellectus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	46	obl	_	SpaceAfter=No
 43	,	,	PUNCT	Pu	_	42	punct	_	_
@@ -3229,7 +3229,7 @@
 # sent_id = Mon-84
 # text = Preterea, mundus optime dispositus est cum iustitia in eo potissima est.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_1
-1	Preterea	praeterea	ADV	r	Compound=Yes	5	advmod	_	SpaceAfter=No
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	5	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	mundus	mundus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	5	nsubj:pass	_	_
 4	optime	bene	ADV	rs	Degree=Abs	5	advmod	_	_
@@ -3800,14 +3800,14 @@
 # sent_id = Mon-103
 # text = Ubi ergo non est quod possit optari, inpossibile est ibi cupiditatem esse: destructis enim obiectis, passiones esse non possunt.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_11
-1	Ubi	ubi	PRON	r	_	9	advcl	_	_
+1	Ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	9	advmod:lmod	_	_
 2	ergo	ergo	ADV	co	AdvType=Loc	9	discourse	_	_
-3	non	non	PART	r	Polarity=Neg	1	advmod:neg	_	_
-4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-5	quod	quod	SCONJ	presnn	PronType=Rel	6	mark	_	_
-6	possit	possum	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
+3	non	non	PART	r	Polarity=Neg	4	advmod:neg	_	_
+4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	quod	quod	SCONJ	presnn	PronType=Rel	1	acl:relcl	_	_
+6	possit	possum	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 7	optari	opto	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	6	xcomp	_	SpaceAfter=No
-8	,	,	PUNCT	Pu	_	6	punct	_	_
+8	,	,	PUNCT	Pu	_	9	punct	_	_
 9	inpossibile	impossibilis	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	0	root	_	_
 10	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 11	ibi	ibi	ADV	r	AdvType=Loc	12	advmod:lmod	_	_
@@ -3885,7 +3885,7 @@
 # sent_id = Mon-106
 # text = Preterea, quemadmodum cupiditas habitualem iustitiam quodammodo, quantumcunque pauca, obnubilat, sic karitas seu recta dilectio illam acuit atque dilucidat.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_13
-1	Preterea	praeterea	ADV	r	Compound=Yes	22	advmod	_	SpaceAfter=No
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	22	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	quemadmodum	quemadmodum	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	12	mark	_	_
 4	cupiditas	cupiditas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	12	nsubj	_	_
@@ -4074,7 +4074,7 @@
 # sent_id = Mon-111
 # text = Prima manifesta est, si natura passivorum et activorum consideretur; secunda per hoc apparet: quia principibus aliis homines non appropinquant nisi in parte, Monarche vero secundum totum.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_15
-1	Prima	prima	ADJ	afs1n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	2	nsubj	_	_
+1	Prima	primus	ADJ	afs1n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	2	nsubj	_	_
 2	manifesta	manifestus	ADJ	afs1n	Case=Nom|Compound=Yes|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 3	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	10	punct	_	_
@@ -4154,7 +4154,7 @@
 # sent_id = Mon-113
 # text = Preterea, quanto causa est universalior, tanto magis habet rationem cause, quia inferior non est causa nisi per superiorem, ut patet ex hiis que De causis; et quanto causa magis est causa, tanto magis effectum diligit, cum dilectio talis assequatur causam per se.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_17
-1	Preterea	praeterea	ADV	r	Compound=Yes	10	advmod	_	SpaceAfter=No
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	10	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	quanto	quanto	SCONJ	r	PronType=Rel	6	mark	_	_
 4	causa	causa	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	nsubj	_	_
@@ -5672,7 +5672,7 @@
 # sent_id = Mon-154
 # text = Preterea, res dicitur melior per esse propinquior optime; et finis habet rationem optimi; sed fieri per unum est propinquius fini: ergo est melius.
 # citation_hierarchy = Liber_Primus,xiv,Paragraphus_3
-1	Preterea	praeterea	ADV	r	Compound=Yes	4	advmod	_	SpaceAfter=No
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	4	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	res	res	NOUN	sfs5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing	4	nsubj	_	_
 4	dicitur	dico	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -7928,7 +7928,7 @@
 # sent_id = Mon-210
 # text = Preterea meminisse oportet quod, ut Phylosophus docet in primis ad Nicomacum, non similiter in omni materia certitudo querenda est, sed secundum quod natura rei subiecte recipit.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_7
-1	Preterea	praeterea	ADV	r	Compound=Yes	3	advmod	_	_
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	3	advmod:lmod	_	_
 2	meminisse	memini	VERB	va5-fr	Aspect=Perf|InflClass=LatI2|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf|Voice=Act	3	csubj	_	_
 3	oportet	oportet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	quod	SCONJ	cs	PronType=Rel	20	mark	_	SpaceAfter=No
@@ -9490,7 +9490,7 @@
 # text = Quicunque preterea bonum rei publice intendit, finem iuris intendit.
 # citation_hierarchy = Liber_Secundus,v,Paragraphus_1
 1	Quicunque	quicumque	DET	prismn	Case=Nom|Compound=Yes|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	10	nsubj	_	_
-2	preterea	praeterea	ADV	r	Compound=Yes	6	advmod	_	_
+2	preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	6	advmod:lmod	_	_
 3	bonum	bonum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	6	obj	_	_
 4	rei	res	NOUN	sfs5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing	3	nmod	_	_
 5	publice	publicus	ADJ	afs1g	Case=Gen|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	4	amod	_	_
@@ -10643,8 +10643,8 @@
 8	se	sui	PRON	ppp3pma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
 9	interemissent	interimo	VERB	va3c+p3	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	13	punct	_	_
-11	propterea	propterea	ADV	r	Compound=Yes	12	advmod:emph	_	_
-12	quod	quod	SCONJ	cs	PronType=Rel	13	mark	_	_
+11	propterea	propterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	13	mark	_	_
+12	quod	quod	SCONJ	cs	PronType=Rel	11	fixed	_	_
 13	levior	leuis	ADJ	afs2nc	Case=Nom|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing	5	advcl	_	_
 14	eorum	is	PRON	ddepmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	15	nmod	_	_
 15	vita	uita	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj	_	_
@@ -11810,7 +11810,7 @@
 # sent_id = Mon-315
 # text = Propterea satis persuasum est quod romanus populus a natura ordinatus fuit ad imperandum: ergo romanus populus subiciendo sibi orbem de iure ad Imperium venit.
 # citation_hierarchy = Liber_Secundus,vi,Paragraphus_11
-1	Propterea	propterea	CCONJ	r	Compound=Yes	3	cc	_	_
+1	Propterea	propterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	3	advmod:lmod	_	_
 2	satis	satis	ADV	r	Degree=Pos	3	advmod	_	_
 3	persuasum	persuadeo	VERB	vp2*irs3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
@@ -14933,7 +14933,7 @@
 29	in	in	ADP	e	AdpType=Prep	30	case	_	_
 30	ultimis	ultimus	ADJ	anp1bs	Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur	28	obl	_	_
 31	ad	ad	ADP	e	AdpType=Prep|Proper=Yes	32	case	_	_
-32	Nicomacum	nicomacus	NOUN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Proper=Yes	30	nmod	_	SpaceAfter=No
+32	Nicomacum	nicomacus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Proper=Yes	30	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	Pu	_	28	punct	_	_
 34	magis	magis	ADV	rc	Degree=Cmp	35	advmod	_	_
 35	persuadet	persuadeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
@@ -15116,7 +15116,7 @@
 2	enim	enim	PART	c	Form=Emp	1	discourse	_	_
 3	sic	sic	ADV	r	PronType=Dem	1	advmod	_	SpaceAfter=No
 4	:	:	PUNCT	Pu	_	7	punct	_	_
-5	omne	omne	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	6	det	_	_
+5	omne	omnis	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	6	det	_	_
 6	iniustum	iniustus	ADJ	ans1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing|Polarity=Neg	7	nsubj:pass	_	_
 7	persuadetur	persuadeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	parataxis:rep	_	_
 8	iniuste	iniuste	ADV	r	Degree=Pos|Polarity=Neg	7	advmod	_	SpaceAfter=No
@@ -15140,7 +15140,7 @@
 3	antecedentis	antecedo	VERB	sns3g	Aspect=Imp|Case=Gen|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	2	nmod	_	_
 4	sic	sic	ADV	r	PronType=Dem	2	advmod	_	SpaceAfter=No
 5	:	:	PUNCT	Pu	_	8	punct	_	_
-6	omne	omne	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	7	det	_	_
+6	omne	omnis	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	7	det	_	_
 7	iniustum	iniustus	ADJ	ans1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing|Polarity=Neg	8	nsubj:pass	_	_
 8	persuadetur	persuadeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis:rep	_	_
 9	iniuste	iniuste	ADV	r	Degree=Pos	8	advmod	_	SpaceAfter=No
@@ -17876,7 +17876,7 @@
 10	,	,	PUNCT	Pu	_	13	punct	_	_
 11	non	non	PART	r	Polarity=Neg	13	advmod:neg	_	_
 12	in	in	ADP	e	AdpType=Prep	13	case	_	_
-13	Iob	iob	NOUN	smsai	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	3	conj	_	SpaceAfter=No
+13	Iob	iob	PROPN	smsai	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	3	conj	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	17	punct	_	_
 15	non	non	PART	r	Polarity=Neg	17	advmod:neg	_	_
 16	in	in	ADP	e	AdpType=Prep	17	case	_	_
@@ -18038,7 +18038,7 @@
 # sent_id = Mon-483
 # text = Preterea, cum ista regimina sint hominum directiva in quosdam fines, ut infra patebit, si homo stetisset in statu innocentie in quo a Deo factus est, talibus directivis non indiguisset: sunt ergo huiusmodi regimina remedia contra infirmitatem peccati.
 # citation_hierarchy = Liber_Tertius,iv,Paragraphus_14
-1	Preterea	praeterea	ADV	r	Compound=Yes	33	advmod	_	SpaceAfter=No
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	33	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	cum	cum	SCONJ	cs	PronType=Rel	5	mark	_	_
 4	ista	iste	DET	dpnpn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	5	det	_	_
@@ -21579,7 +21579,7 @@
 # sent_id = Mon-581
 # text = Preterea, sicut Ecclesia suum habet fundamentum, sic et Imperium suum.
 # citation_hierarchy = Liber_Tertius,x,Paragraphus_7
-1	Preterea	praeterea	ADV	r	Compound=Yes	11	advmod	_	SpaceAfter=No
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	11	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	sicut	sicut	SCONJ	r	Compound=Yes|ConjType=Cmpr	6	mark	_	_
 4	Ecclesia	ecclesia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	6	nsubj	_	_
@@ -21780,7 +21780,7 @@
 # sent_id = Mon-589
 # text = Preterea, omnis iurisdictio prior est suo iudice: iudex enim ad iurisdictionem ordinatur, et non e converso; sed Imperium est iurisdictio omnem temporalem iurisdictionem ambitu suo comprehendens: ergo ipsa est prior suo iudice, qui est Imperator, quia ad ipsam Imperator est ordinatus, et non e converso.
 # citation_hierarchy = Liber_Tertius,x,Paragraphus_10
-1	Preterea	praeterea	ADV	r	Compound=Yes	4	advmod	_	SpaceAfter=No
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	4	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	omnis	omnis	DET	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	4	det	_	_
 4	iurisdictio	iurisdictio	NOUN	sfs3n	Case=Nom|Compound=Yes|Gender=Fem|InflClass=IndEurX|Number=Sing	0	root	_	_
@@ -25650,7 +25650,7 @@
 # sent_id = Egl-6
 # text = Preterea nullus, quos inter es agmine sextus, nec quem consequeris celo, sermone forensi descripsit.
 # citation_hierarchy = I,Paragraphus_19
-1	Preterea	praeterea	ADV	r	Compound=Yes	17	advmod	_	_
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	17	advmod:lmod	_	_
 2	nullus	nullus	DET	sms2n	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Neg	17	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Pu	_	4	punct	_	_
 4	quos	qui	PRON	prepma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	2	nmod	_	_
@@ -29968,7 +29968,7 @@
 # sent_id = Que-36
 # text = Preterea sit gleba terre in Z, et ibidem sit quantitas aque, et absit omne prohibens: cum igitur, ut dictum est, omne grave moveatur ad centrum proprie circumferentie, terra movebitur per lineam rectam ad A, et aqua per lineam rectam ad B; sed hoc oportebit esse per lineas diversas, ut patet in figura signata; quod non solum est impossibile, sed rideret Aristotiles si audiret.
 # citation_hierarchy = DE_FORMA_ET_SITU_DUORUM_ELEMENTORUM_AQUE_VIDELICET_ET_TERRE,Paragraphus_24
-1	Preterea	praeterea	CCONJ	r	Compound=Yes	6	cc	_	_
+1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	6	advmod:lmod	_	_
 2	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	gleba	gleba	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	nsubj	_	_
 4	terre	terra	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	3	nmod	_	_
@@ -33341,8 +33341,8 @@
 42	presumptione	praesumptio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	38	conj	_	_
 43	procedunt	procedo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	ccomp	_	SpaceAfter=No
 44	,	,	PUNCT	Pu	_	49	punct	_	_
-45	propterea	propterea	ADV	r	Compound=Yes	49	advmod	_	_
-46	quod	quod	SCONJ	cs	PronType=Rel	49	mark	_	_
+45	propterea	propterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	49	mark	_	_
+46	quod	quod	SCONJ	cs	PronType=Rel	45	fixed	_	_
 47	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
 48	supra	supra	ADP	e	AdpType=Prep	49	case	_	_
 49	intellectum	intellectus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	43	advcl	_	_
