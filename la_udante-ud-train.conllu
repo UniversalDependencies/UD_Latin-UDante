@@ -6770,7 +6770,7 @@
 7	attestatur	attestor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 8	:	:	PUNCT	Pu	_	9	punct	_	_
 9	status	status	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	7	conj:expl	_	_
-10	videlicet	uidelicet	CCONJ	r	Compound=Yes|ConjType=Expl	9	cc	_	_
+10	videlicet	uidelicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	9	cc	_	_
 11	illius	ille	DET	dpmsg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	9	nmod	_	_
 12	mortalium	mortalis	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	9	nmod	_	_
 13	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	24	obj	_	_
@@ -10844,33 +10844,33 @@
 # sent_id = Mon-291
 # text = Et quemadmodum omnis res est ad proprium finem, sic omnis finis propriam habet rem cuius est finis; unde inpossibile est aliqua duo per se loquendo, in quantum duo, finem eundem intendere: sequeretur enim idem inconveniens, quod alterum scilicet esset frustra.
 # citation_hierarchy = Liber_Secundus,v,Paragraphus_21
-1	Et	et	CCONJ	co	_	8	cc	_	_
+1	Et	et	CCONJ	co	_	14	cc	_	_
 2	quemadmodum	quemadmodum	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	8	mark	_	_
 3	omnis	omnis	DET	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	4	det	_	_
 4	res	res	NOUN	sfs5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing	8	nsubj	_	_
 5	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	ad	ad	ADP	e	AdpType=Prep	8	case	_	_
 7	proprium	proprius	ADJ	ams1a	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	8	amod	_	_
-8	finem	finis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	0	root	_	SpaceAfter=No
+8	finem	finis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	14	advcl:cmpr	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	14	punct	_	_
 10	sic	sic	ADV	r	PronType=Dem	14	advmod	_	_
 11	omnis	omnis	DET	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing|PronType=Tot	12	det	_	_
 12	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	14	nsubj	_	_
 13	propriam	proprius	ADJ	afs1a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	15	amod	_	_
-14	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl:cmpr	_	_
+14	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 15	rem	res	NOUN	sfs5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	14	obj	_	_
 16	cuius	qui	PRON	presfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	18	nmod	_	_
 17	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 18	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	15	acl:relcl	_	SpaceAfter=No
 19	;	;	PUNCT	Pu	_	21	punct	_	_
-20	unde	unde	CCONJ	r	PronType=Rel	21	cc	_	_
-21	inpossibile	impossibilis	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	8	conj	_	_
+20	unde	unde	ADV	r	AdvType=Loc|PronType=Rel	21	advmod:lmod	_	_
+21	inpossibile	impossibilis	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	14	conj	_	_
 22	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 23	aliqua	aliquis	PRON	dinpna	Case=Acc|Compound=Yes|Gender=Neut|Number=Plur|PronType=Ind	24	det	_	_
-24	duo	duo	NUM	aunpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	35	nsubj	_	_
+24	duo	duo	NUM	aunpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	27	obj	_	_
 25	per	per	ADP	e	AdpType=Prep	26	case	_	_
 26	se	sui	PRON	ppp3pna	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	27	obl	_	_
-27	loquendo	loquor	VERB	vd3fgb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Ger|Voice=Pass	35	advcl	_	SpaceAfter=No
+27	loquendo	loquor	VERB	vd3fgb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Ger|Voice=Pass	35	advcl:abs	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	27	punct	_	_
 29	in	in	ADP	e	AdpType=Prep	31	mark	_	_
 30	quantum	quantus	DET	dinsna	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Rel	29	fixed	_	_
@@ -10880,17 +10880,17 @@
 34	eundem	idem	DET	dpmsa	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	33	det	_	_
 35	intendere	intendo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	21	csubj	_	SpaceAfter=No
 36	:	:	PUNCT	Pu	_	37	punct	_	_
-37	sequeretur	sequor	VERB	vd3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	35	conj	_	_
+37	sequeretur	sequor	VERB	vd3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	21	conj:expl	_	_
 38	enim	enim	PART	c	Form=Emp	37	discourse	_	_
 39	idem	idem	DET	dpnsn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	40	det	_	_
-40	inconveniens	inconueniens	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	37	amod	_	SpaceAfter=No
+40	inconveniens	inconueniens	ADJ	ans2n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	37	nsubj	_	SpaceAfter=No
 41	,	,	PUNCT	Pu	_	46	punct	_	_
 42	quod	quod	SCONJ	cs	PronType=Rel	46	mark	_	_
 43	alterum	alter	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	46	nsubj	_	_
-44	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	46	cc	_	_
+44	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	46	cc	_	_
 45	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	cop	_	_
-46	frustra	frustra	ADV	r	Degree=Pos	37	conj	_	SpaceAfter=No
-47	.	.	PUNCT	Pu	_	8	punct	_	_
+46	frustra	frustra	ADV	r	Degree=Pos	40	conj:expl	_	SpaceAfter=No
+47	.	.	PUNCT	Pu	_	14	punct	_	_
 
 # sent_id = Mon-292
 # text = Cum ergo iuris finis quidam sit - ut iam declaratum est - necesse est fine illo posito ius poni, cum sit proprius et per se iuris effectus.
@@ -11872,7 +11872,7 @@
 5	dupliciter	dupliciter	ADV	r	Degree=Pos	2	advmod	_	SpaceAfter=No
 6	:	:	PUNCT	Pu	_	7	punct	_	_
 7	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	5	conj	_	_
-8	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	7	cc	_	_
+8	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	7	cc	_	_
 9	et	et	CCONJ	co	_	10	cc	_	_
 10	fide	fides	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	7	conj	_	SpaceAfter=No
 11	.	.	PUNCT	Pu	_	3	punct	_	_
@@ -12580,7 +12580,7 @@
 12	accipere	accipio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	13	xcomp	_	_
 13	possumus	possum	VERB	va5ipp1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 14	:	:	PUNCT	Pu	_	19	punct	_	_
-15	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	19	cc	_	_
+15	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	19	cc	_	_
 16	a	a	ADP	e	AdpType=Prep	17	case	_	_
 17	disceptatione	disceptatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	19	obl	_	_
 18	athletarum	athleta	NOUN	smp1g	Case=Gen|Gender=Masc|InflClass=IndEurA|Number=Plur	17	nmod	_	_
@@ -17458,7 +17458,7 @@
 15	contingit	contingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 16	:	:	PUNCT	Pu	_	19	punct	_	_
 17	aut	aut	CCONJ	co	_	19	cc	_	_
-18	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	19	cc	_	_
+18	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	19	cc	_	_
 19	assummendo	assumo	VERB	va3fgb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Ger|Voice=Pass	15	conj	_	_
 20	falsum	falsus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	19	obj	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	24	punct	_	_
@@ -24958,7 +24958,7 @@
 37	,	,	PUNCT	Pu	_	38	punct	_	_
 38	fidem	fides	NOUN	sfs5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	34	conj:expl	_	_
 39	spem	spes	NOUN	sfs5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	38	conj	_	_
-40	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	39	cc	_	_
+40	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	39	cc	_	_
 41	et	et	CCONJ	co	_	42	cc	_	_
 42	karitatem	caritas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	38	conj	_	SpaceAfter=No
 43	.	.	PUNCT	Pu	_	7	punct	_	_
@@ -25135,7 +25135,7 @@
 48	Princeps	princeps	NOUN	sms3n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	46	xcomp:pred	_	SpaceAfter=No
 49	,	,	PUNCT	Pu	_	59	punct	_	_
 50	ut	ut	SCONJ	cs	ConjType=Cmpr	59	mark	_	_
-51	scilicet	scilicet	CCONJ	co	Compound=Yes|VerbForm=Fin	50	cc	_	_
+51	scilicet	scilicet	CCONJ	co	Compound=Yes|ConjType=Expl|VerbForm=Fin	50	cc	_	_
 52	in	in	ADP	e	AdpType=Prep	53	case	_	_
 53	areola	areola	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	59	obl	_	_
 54	ista	iste	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	53	det	_	_
