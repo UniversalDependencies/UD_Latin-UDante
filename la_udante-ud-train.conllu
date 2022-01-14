@@ -1551,8 +1551,8 @@
 # text = Ex hiis ergo que declarata sunt patet per quod melius, ymo per quod optime genus humanum pertingit ad opus proprium; et per consequens visum est propinquissimum medium per quod itur in illud ad quod, velut in ultimum finem, omnia nostra opera ordinantur, quia est pax universalis, que pro principio rationum subsequentium supponatur.
 # citation_hierarchy = Liber_Primus,iv,Paragraphus_5
 1	Ex	ex	ADP	e	AdpType=Prep	2	case	_	_
-2	hiis	hic	DET	ddipnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	18	obl	_	_
-3	ergo	ergo	ADV	co	AdvType=Loc	18	discourse	_	_
+2	hiis	hic	DET	ddipnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	7	obl	_	_
+3	ergo	ergo	ADV	co	AdvType=Loc	7	discourse	_	_
 4	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	5	nsubj:pass	_	_
 5	declarata	declaro	VERB	vp1irp3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
 6	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -1567,7 +1567,7 @@
 15	optime	bene	ADV	rs	Degree=Abs	14	advmod	_	_
 16	genus	genus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	18	nsubj	_	_
 17	humanum	humanus	ADJ	ans1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	16	amod	_	_
-18	pertingit	pertingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+18	pertingit	pertingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	csubj	_	_
 19	ad	ad	ADP	e	AdpType=Prep	20	case	_	_
 20	opus	opus	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	18	obl	_	_
 21	proprium	proprius	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	20	amod	_	SpaceAfter=No
@@ -1583,19 +1583,19 @@
 31	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	32	obl	_	_
 32	itur	eo	VERB	vp5*ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	acl:relcl	_	_
 33	in	in	ADP	e	AdpType=Prep	34	case	_	_
-34	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	32	obl	_	_
+34	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	32	obl:arg	_	_
 35	ad	ad	ADP	e	AdpType=Prep	36	case	_	_
 36	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	46	obl	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	41	punct	_	_
 38	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	41	mark	_	_
 39	in	in	ADP	e	AdpType=Prep	41	case	_	_
 40	ultimum	ultimus	ADJ	ams1as	Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	41	amod	_	_
-41	finem	finis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	36	advcl:cmpr	_	SpaceAfter=No
-42	,	,	PUNCT	Pu	_	36	punct	_	_
+41	finem	finis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	46	advcl:cmpr	_	SpaceAfter=No
+42	,	,	PUNCT	Pu	_	41	punct	_	_
 43	omnia	omnis	DET	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	45	det	_	_
 44	nostra	noster	DET	dsnpn	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	45	det	_	_
 45	opera	opus	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	46	nsubj:pass	_	_
-46	ordinantur	ordino	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	SpaceAfter=No
+46	ordinantur	ordino	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	acl:relcl	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	50	punct	_	_
 48	quia	quia	PRON	cs	_	50	nsubj	_	_
 49	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
@@ -3437,11 +3437,11 @@
 6	iustitie	iustitia	NOUN	sfs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	5	nmod	_	_
 7	admiscetur	admisceo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	_
 8	et	et	CCONJ	co	_	11	cc	_	_
-9	quantum	quantum	SCONJ	r	PronType=Rel	11	mark	_	_
+9	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	11	mark	_	_
 10	ad	ad	ADP	e	AdpType=Prep	11	case	_	_
-11	habitum	habitus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	7	obl	_	_
+11	habitum	habitus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	7	advcl:cmpr	_	_
 12	et	et	CCONJ	co	_	15	cc	_	_
-13	quantum	quantum	SCONJ	r	PronType=Rel	15	mark	_	_
+13	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	15	mark	_	_
 14	ad	ad	ADP	e	AdpType=Prep	15	case	_	_
 15	operationem	operatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	11	conj	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	7	punct	_	_
@@ -3494,10 +3494,10 @@
 # sent_id = Mon-93
 # text = Quantum ergo ad habitum, iustitia contrarietatem habet quandoque in velle; nam ubi voluntas ab omni cupiditate sincera non est, etsi assit iustitia, non tamen omnino inest in fulgore sue puritatis: habet enim subiectum, licet minime, aliqualiter tamen sibi resistens; propter quod bene repelluntur qui iudicem passionare conantur.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_6
-1	Quantum	quantum	SCONJ	r	PronType=Rel	4	mark	_	_
+1	Quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	4	mark	_	_
 2	ergo	ergo	ADV	co	AdvType=Loc	8	discourse	_	_
 3	ad	ad	ADP	e	AdpType=Prep	4	case	_	_
-4	habitum	habitus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	8	obl	_	SpaceAfter=No
+4	habitum	habitus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	8	advcl:cmpr	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	4	punct	_	_
 6	iustitia	iustitia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	8	nsubj	_	_
 7	contrarietatem	contrarietas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	8	obj	_	_
@@ -3554,10 +3554,10 @@
 # sent_id = Mon-94
 # text = Quantum vero ad operationem, iustitia contrarietatem habet in posse; nam cum iustitia sit virtus ad alterum, sine potentia tribuendi cuique quod suum est quomodo quis operabitur secundum illam?
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_7
-1	Quantum	quantum	SCONJ	r	PronType=Rel	4	mark	_	_
+1	Quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	4	mark	_	_
 2	vero	uero	ADV	r	_	8	discourse	_	_
 3	ad	ad	ADP	e	AdpType=Prep	4	case	_	_
-4	operationem	operatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	8	advcl	_	SpaceAfter=No
+4	operationem	operatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	8	advcl:cmpr	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	4	punct	_	_
 6	iustitia	iustitia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	8	nsubj	_	_
 7	contrarietatem	contrarietas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	8	obj	_	_
@@ -3719,16 +3719,16 @@
 9	sic	sic	ADV	r	PronType=Dem	10	advmod	_	_
 10	ostenditur	ostendo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	16	punct	_	_
-12	et	et	CCONJ	co	_	16	cc	_	_
-13	primo	primo	ADV	r	Degree=Pos|NumType=Ord	16	advmod	_	_
-14	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	16	advmod	_	_
-15	ad	ad	ADP	e	AdpType=Prep	16	mark	_	_
-16	velle	uolo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	10	obl	_	SpaceAfter=No
+12	et	et	CCONJ	co	_	13	cc	_	_
+13	primo	primo	ADV	r	Degree=Pos|NumType=Ord	10	conj:expl	_	_
+14	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	16	mark	_	_
+15	ad	ad	ADP	e	AdpType=Prep	16	case	_	_
+16	velle	uolo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	13	advcl:cmpr	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	21	punct	_	_
-18	deinde	deinde	ADV	r	Compound=Yes	21	advmod	_	_
-19	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	21	advmod	_	_
-20	ad	ad	ADP	e	AdpType=Prep	21	mark	_	_
-21	posse	possum	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	16	conj	_	SpaceAfter=No
+18	deinde	deinde	ADV	r	Compound=Yes	13	conj	_	_
+19	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	21	mark	_	_
+20	ad	ad	ADP	e	AdpType=Prep	21	case	_	_
+21	posse	possum	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	18	advcl:cmpr	_	SpaceAfter=No
 22	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = Mon-100
@@ -6616,11 +6616,11 @@
 38	se	sui	PRON	ppp3sma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	39	obj	_	_
 39	habens	habeo	VERB	va2ppsmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	36	acl	_	_
 40	et	et	CCONJ	co	_	43	cc	_	_
-41	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	43	advmod	_	_
+41	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	43	mark	_	_
 42	ad	ad	ADP	e	AdpType=Prep	43	case	_	_
-43	animam	anima	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	39	obl:arg	_	_
+43	animam	anima	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	39	advcl:cmpr	_	_
 44	et	et	CCONJ	co	_	47	cc	_	_
-45	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	47	advmod	_	_
+45	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	47	mark	_	_
 46	ad	ad	ADP	e	AdpType=Prep	47	case	_	_
 47	corpus	corpus	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	43	conj	_	_
 48	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
@@ -8350,12 +8350,12 @@
 # sent_id = Mon-224
 # text = Quantum ergo ad propriam eius nobilitatem audiendus est Poeta noster introducens in primo Ilioneum orantem sic: Rex erat Eneas nobis, quo iustior alter nec pietate fuit nec bello maior et armis.
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_8
-1	Quantum	quantum	ADV	r	NumType=Card|PronType=Rel	6	advmod	_	_
-2	ergo	ergo	ADV	co	AdvType=Loc	6	discourse	_	_
+1	Quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	6	mark	_	_
+2	ergo	ergo	ADV	co	AdvType=Loc	7	discourse	_	_
 3	ad	ad	ADP	e	AdpType=Prep	6	case	_	_
 4	propriam	proprius	ADJ	afs1a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
 5	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	6	nmod	_	_
-6	nobilitatem	nobilitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	7	advcl	_	_
+6	nobilitatem	nobilitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	7	advcl:cmpr	_	_
 7	audiendus	audio	VERB	vp4gvsmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Gdv|Voice=Pass	0	root	_	_
 8	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 9	Poeta	poeta	NOUN	sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|Number=Sing|Proper=Yes	7	nsubj:pass	_	_
@@ -8454,10 +8454,10 @@
 # sent_id = Mon-226
 # text = Quantum vero ad hereditariam, quelibet pars tripartiti orbis tam avis quam coniugibus illum nobilitasse invenitur.
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_10
-1	Quantum	quantum	ADV	r	NumType=Card|PronType=Rel	4	advmod	_	_
-2	vero	uero	ADV	r	_	4	advmod	_	_
+1	Quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	4	mark	_	_
+2	vero	uero	ADV	r	_	16	discourse	_	_
 3	ad	ad	ADP	e	AdpType=Prep	4	case	_	_
-4	hereditariam	hereditarius	ADJ	afs1a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	16	obl	_	SpaceAfter=No
+4	hereditariam	hereditarius	ADJ	afs1a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	16	advcl:cmpr	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	4	punct	_	_
 6	quelibet	quilibet	DET	dpfsn	Case=Nom|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	7	det	_	_
 7	pars	pars	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	15	nsubj	_	_
@@ -10400,12 +10400,12 @@
 17	Livius	liuius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	28	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	17	punct	_	_
 19	non	non	PART	r	Polarity=Neg	22	advmod:neg	_	_
-20	quantum	quantum	SCONJ	r	ConjType=Cmpr|PronType=Rel	22	mark	_	_
+20	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	22	mark	_	_
 21	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 22	dignum	dignus	ADJ	ans1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	27	advcl:cmpr	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	26	punct	_	_
 24	sed	sed	CCONJ	co	_	26	cc	_	_
-25	quantum	quantum	SCONJ	r	ConjType=Cmpr|PronType=Rel	26	mark	_	_
+25	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	26	mark	_	_
 26	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
 27	glorificando	glorifico	VERB	va1fgb	Aspect=Imp|Case=Abl|Compound=Yes|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Ger|Voice=Pass	28	advcl	_	_
 28	renarrat	renarro	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl:cmpr	_	SpaceAfter=No
@@ -13756,7 +13756,7 @@
 18	tantum	tantum	ADV	r	PronType=Dem	19	advmod:emph	_	_
 19	diligit	diligo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	23	punct	_	_
-21	quantum	quantum	SCONJ	r	ConjType=Cmpr|PronType=Rel	23	mark	_	_
+21	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	23	mark	_	_
 22	superius	supra	ADV	r+	Degree=Cmp	23	advmod	_	_
 23	prenotatur	praenoto	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	advcl:cmpr	_	SpaceAfter=No
 24	?	?	PUNCT	Pu	_	8	punct	_	_
@@ -14572,7 +14572,7 @@
 2	nunc	nunc	ADV	r	_	1	advmod	_	_
 3	iuriste	iurista	NOUN	smp1n	Case=Nom|Gender=Masc|InflClass=IndEurA|Number=Plur	1	nsubj	_	_
 4	presumptuosi	praesumptuosus	ADJ	amp1n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur	3	amod	_	_
-5	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	6	advmod	_	_
+5	quantum	quantum	ADV	r	NumType=Card|PronType=Int	6	advmod	_	_
 6	infra	infra	ADV	r	_	1	ccomp	_	_
 7	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 8	ab	ab	ADP	e	AdpType=Prep	6	case	_	_
@@ -17199,7 +17199,7 @@
 # sent_id = Mon-461
 # text = Quapropter cum solis concertatio restat qui, aliquali zelo erga matrem Ecclesiam ducti, ipsam que queritur veritatem ignorant: cum quibus illa reverentia fretus quam pius filius debet patri, quam pius filius matri, pius in Cristum, pius in Ecclesiam, pius in pastorem, pius in omnes cristianam religionem profitentes, pro salute veritatis in hoc libro certamen incipio.
 # citation_hierarchy = Liber_Tertius,iii,Paragraphus_18
-1	Quapropter	quapropter	ADV	r	Compound=Yes|PronType=Rel	5	advmod	_	_
+1	Quapropter	quapropter	CCONJ	r	Compound=Yes|PronType=Rel	5	cc	_	_
 2	cum	cum	SCONJ	cs	PronType=Rel	3	case	_	_
 3	solis	solus	DET	dpmpb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	4	nmod	_	_
 4	concertatio	concertatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	5	nsubj	_	_
@@ -18256,10 +18256,10 @@
 # sent_id = Mon-490
 # text = Quantum est ad esse, nullo modo luna dependet a sole, nec etiam quantum ad virtutem, nec quantum ad operationem simpliciter; quia motus eius est a motore proprio, influentia sua est a propriis eius radiis: habet enim aliquam lucem ex se, ut in eius eclipsi manifestum est.
 # citation_hierarchy = Liber_Tertius,iv,Paragraphus_18
-1	Quantum	quantum	ADV	r	NumType=Card|PronType=Rel	9	advcl	_	_
-2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+1	Quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	4	advcl	_	_
+2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	ad	ad	ADP	e	AdpType=Prep	4	case	_	_
-4	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	1	obl	_	SpaceAfter=No
+4	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	9	advcl:cmpr	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	1	punct	_	_
 6	nullo	nullus	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Neg	7	det	_	_
 7	modo	modus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	9	obl	_	_
@@ -18270,12 +18270,12 @@
 12	,	,	PUNCT	Pu	_	17	punct	_	_
 13	nec	neque	CCONJ	co	Polarity=Neg	14	cc	_	_
 14	etiam	etiam	ADV	co	Compound=Yes	17	advmod:emph	_	_
-15	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	17	advmod	_	_
+15	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	17	mark	_	_
 16	ad	ad	ADP	e	AdpType=Prep	17	case	_	_
-17	virtutem	uirtus	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	9	advcl	_	SpaceAfter=No
+17	virtutem	uirtus	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	9	advcl:cmpr	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	22	punct	_	_
 19	nec	neque	CCONJ	co	Polarity=Neg	22	cc	_	_
-20	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	22	advmod	_	_
+20	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	22	mark	_	_
 21	ad	ad	ADP	e	AdpType=Prep	22	case	_	_
 22	operationem	operatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	17	conj	_	_
 23	simpliciter	simpliciter	ADV	r	Degree=Pos	22	advmod	_	SpaceAfter=No
@@ -18315,12 +18315,12 @@
 # text = Sed quantum ad melius et virtuosius operandum, recipit aliquid a sole, quia lucem habundantem: qua recepta, virtuosius operatur.
 # citation_hierarchy = Liber_Tertius,iv,Paragraphus_19
 1	Sed	sed	CCONJ	co	_	7	cc	_	_
-2	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	7	advmod	_	_
+2	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	7	mark	_	_
 3	ad	ad	ADP	e	AdpType=Prep	7	mark	_	_
 4	melius	bene	ADV	r+	Degree=Cmp	7	advmod	_	_
 5	et	et	CCONJ	co	_	6	cc	_	_
 6	virtuosius	uirtuose	ADV	r+	Degree=Cmp	4	conj	_	_
-7	operandum	operor	VERB	vd1fga	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Ger|Voice=Pass	9	advcl	_	SpaceAfter=No
+7	operandum	operor	VERB	vd1fga	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|Tense=Fut|VerbForm=Ger|Voice=Pass	9	advcl:cmpr	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	7	punct	_	_
 9	recipit	recipio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	aliquid	aliquis	PRON	dinsna	Case=Acc|Compound=Yes|Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	_
@@ -19446,10 +19446,10 @@
 7	equivalet	equiualeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 8	ei	is	PRON	ddesmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	7	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	12	punct	_	_
-10	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	12	advmod	_	_
+10	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	12	mark	_	_
 11	in	in	ADP	e	AdpType=Prep	12	case	_	_
-12	hoc	hic	DET	ddisnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	7	advcl	_	_
-13	quod	quod	SCONJ	cs	PronType=Rel	14	mark	_	_
+12	hoc	hic	DET	ddisnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	7	advcl:cmpr	_	_
+13	quod	qui	PRON	cs	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	14	nsubj	_	_
 14	vicarius	uicarius	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	12	acl:relcl	_	_
 15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	19	punct	_	_
@@ -19825,10 +19825,10 @@
 16	,	,	PUNCT	Pu	_	15	punct	_	_
 17	facile	facile	ADV	r	Degree=Pos	18	advmod	_	_
 18	apparebit	appareo	VERB	va2ifs3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
-19	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	22	advmod	_	_
+19	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	22	mark	_	_
 20	sua	suus	DET	dsfsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	_
 21	distributio	distributio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	22	nsubj:pass	_	_
-22	dilatetur	dilato	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	advcl	_	SpaceAfter=No
+22	dilatetur	dilato	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	advcl:cmpr	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	24	punct	_	_
 24	cognita	cognosco	VERB	vp3prsfb	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	advcl:abs	_	_
 25	natura	natura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	24	nsubj:pass	_	_
@@ -22070,9 +22070,9 @@
 5	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
 6	relaxationem	relaxatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	5	obj	_	_
 7	precepti	praeceptum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	6	nmod	_	_
-8	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	10	advmod	_	_
+8	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	10	mark	_	_
 9	ad	ad	ADP	e	AdpType=Prep	10	case	_	_
-10	quedam	quidam	DET	dpnpa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	5	advcl	_	SpaceAfter=No
+10	quedam	quidam	DET	dpnpa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	5	advcl:cmpr	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	5	punct	_	_
 12	ad	ad	ADP	e	AdpType=Prep	13	case	_	_
 13	possessionem	possessio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	18	obl	_	_
@@ -27950,11 +27950,11 @@
 3	iuvenilia	iuuenilis	ADJ	anp2a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurI|Number=Plur	4	amod	_	_
 4	guttura	guttur	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	1	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	11	punct	_	_
-6	quantum	quantum	ADV	r	NumType=Card|PronType=Rel	11	advmod	_	_
+6	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	11	mark	_	_
 7	Sergestum	sergestus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	11	obj	_	_
 8	e	e	ADP	e	AdpType=Prep	9	case	_	_
 9	scopulo	scopulus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	10	obl	_	_
-10	vulsum	uello	VERB	vp3prsma	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+10	vulsum	uello	VERB	vp3prsma	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl:pred	_	_
 11	risere	rideo	VERB	va2xirp3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl:cmpr	_	_
 12	Sicani	sicanus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	11	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	Pu	_	1	punct	_	_
@@ -31134,9 +31134,9 @@
 17	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 18	consequentia	consequentia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	16	nsubj:pass	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	22	punct	_	_
-20	quantum	quantum	SCONJ	r	PronType=Rel	22	mark	_	_
+20	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	22	mark	_	_
 21	ex	ex	ADP	e	AdpType=Prep	22	case	_	_
-22	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	16	advcl	_	_
+22	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	16	advcl:cmpr	_	_
 23	eius	is	PRON	ddesfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	22	nmod	_	_
 24	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	27	nsubj	_	_
 25	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
@@ -31346,7 +31346,7 @@
 9	quantitatem	quantitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	13	punct	_	_
 11	in	in	ADP	e	AdpType=Prep	13	mark	_	_
-12	quantum	quantum	SCONJ	dpnsa	PronType=Rel	11	fixed	_	_
+12	quantum	quantus	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Rel	11	fixed	_	_
 13	quantitas	quantitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	9	advcl	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	17	punct	_	_
 15	sed	sed	CCONJ	co	_	17	cc	_	_
@@ -31711,7 +31711,7 @@
 28	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
 29	elementa	elementum	NOUN	snp2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	27	nsubj:pass	_	_
 30	in	in	ADP	e	AdpType=Prep	32	mark	_	_
-31	quantum	quantum	SCONJ	dpnsa	PronType=Rel	30	fixed	_	_
+31	quantum	quantus	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Rel	30	fixed	_	_
 32	elementa	elementum	NOUN	snp2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	29	advcl	_	SpaceAfter=No
 33	,	,	PUNCT	Pu	_	38	punct	_	_
 34	et	et	CCONJ	co	_	38	cc	_	_
@@ -31948,10 +31948,10 @@
 1	Nec	nec	CCONJ	co	Polarity=Neg	2	cc	_	_
 2	refert	refero	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Pu	_	6	punct	_	_
-4	quantum	quantum	SCONJ	r	PronType=Rel	6	mark	_	_
+4	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	7	mark	_	_
 5	ad	ad	ADP	e	AdpType=Prep	6	case	_	_
-6	propositum	propositum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	2	advcl	_	_
-7	verum	uerus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	6	amod	_	SpaceAfter=No
+6	propositum	propositum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	7	obl	_	_
+7	verum	uerus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	2	advcl:cmpr	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	16	punct	_	_
 9	aqua	aqua	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	16	nsubj:pass	_	_
 10	parum	parum	ADV	r	Degree=Pos	15	advmod	_	_
@@ -32493,7 +32493,7 @@
 57	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux:pass	_	SpaceAfter=No
 58	,	,	PUNCT	Pu	_	63	punct	_	_
 59	in	in	ADP	e	AdpType=Prep	63	mark	_	_
-60	quantum	quantum	SCONJ	dpnsa	PronType=Rel	59	fixed	_	_
+60	quantum	quantus	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Rel	59	fixed	_	_
 61	natura	natura	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	63	nsubj	_	_
 62	rei	res	NOUN	sfs5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing	61	nmod	_	_
 63	recipit	recipio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	56	advcl	_	SpaceAfter=No
@@ -32837,7 +32837,7 @@
 25	versus	uersus	ADP	e	AdpType=Prep|VerbForm=Part	26	case	_	_
 26	polum	polus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	20	obl	_	_
 27	antarcticum	antarcticus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	26	amod	_	_
-28	quantum	quantum	SCONJ	r	ConjType=Cmpr|PronType=Rel	30	mark	_	_
+28	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	30	mark	_	_
 29	versus	uersus	ADP	e	AdpType=Prep|VerbForm=Part	30	case	_	_
 30	arcticum	arcticus	ADJ	ams1a	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing	20	advcl:cmpr	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	8	punct	_	_
