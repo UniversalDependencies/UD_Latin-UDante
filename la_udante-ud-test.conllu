@@ -717,7 +717,7 @@
 # sent_id = DVE-17
 # text = Unde si expresse dicenti “pica” resonaret etiam “pica”, non esset hec nisi representatio vel imitatio soni illius qui prius dixisset.
 # citation_hierarchy = Liber_Primus,ii,Paragraphus_7
-1	Unde	unde	PRON	r	_	15	discourse	_	_
+1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	15	cc	_	_
 2	si	si	SCONJ	cs	_	8	mark	_	_
 3	expresse	expresse	ADV	r	Degree=Pos|VerbForm=Part	4	advmod	_	_
 4	dicenti	dico	VERB	va3ppsmd	Aspect=Imp|Case=Dat|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	obl:arg	_	_
@@ -2057,7 +2057,7 @@
 13	omnes	omnis	DET	amp2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	14	det	_	_
 14	posteri	posterus	ADJ	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	11	nsubj	_	_
 15	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
-16	usque	usque	ADV	r	_	18	case	_	_
+16	usque	usque	ADP	r	_	18	case	_	_
 17	ad	ad	ADP	e	AdpType=Prep	16	fixed	_	_
 18	edificationem	aedificatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	11	obl	_	_
 19	turris	turris	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	18	nmod	_	_
@@ -2654,7 +2654,7 @@
 34	locutione	locutio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	36	obl:arg	_	_
 35	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
 36	usi	utor	VERB	vd3irp3	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	29	acl:relcl	_	_
-37	usque	usque	ADV	r	_	40	case	_	_
+37	usque	usque	ADP	r	_	40	case	_	_
 38	ad	ad	ADP	e	AdpType=Prep	37	fixed	_	_
 39	suam	suus	DET	dsfsa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	40	det	_	_
 40	dispersionem	dispersio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	36	obl	_	SpaceAfter=No
@@ -2840,8 +2840,8 @@
 7	sive	siue	CCONJ	co	ConjType=Expl	9	cc	_	_
 8	Meotidis	maeotis	ADJ	Sfs3g	Case=Gen|Degree=Pos|Gender=Fem|InflClass=IndEurI|NameType=Nat|Number=Sing	9	amod	_	_
 9	paludibus	palus	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	5	conj:expl	_	_
-10	usque	usque	SCONJ	r	_	12	mark	_	_
-11	ad	ad	ADP	e	AdpType=Prep	10	fixed	_	_
+10	usque	usque	ADP	r	_	12	case	_	_
+11	ad	ad	ADP	e	AdpType=Prep	12	case	_	_
 12	fines	fines	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	21	obl	_	_
 13	occidentales	occidentalis	ADJ	amp2a	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurI|Number=Plur	12	amod	_	_
 14	Anglie	anglia	PROPN	Sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	12	nmod	_	_
@@ -3077,7 +3077,7 @@
 9	tenent	teneo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	14	punct	_	_
 11	videlicet	uidelicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	14	cc	_	_
-12	usque	usque	ADV	r	_	14	case	_	_
+12	usque	usque	ADP	r	_	14	case	_	_
 13	ad	ad	ADP	e	AdpType=Prep	12	fixed	_	_
 14	promuntorium	promunturium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	9	conj:expl	_	_
 15	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	14	det	_	_
@@ -7455,7 +7455,7 @@
 # sent_id = DVE-203
 # text = Unde cum istud in excellentissima Ytalorum curia sit libratum, dici curiale meretur.
 # citation_hierarchy = Liber_Primus,xviii,Paragraphus_4
-1	Unde	unde	PRON	r	_	13	discourse	_	_
+1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	13	cc	_	_
 2	cum	cum	SCONJ	cs	PronType=Rel	9	mark	_	_
 3	istud	iste	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	9	nsubj:pass	_	_
 4	in	in	ADP	e	AdpType=Prep	7	case	_	_
@@ -8439,7 +8439,7 @@
 # sent_id = DVE-232
 # text = Unde cum sententia versificantium semper verbis discretive mixta remaneat, si non fuerit optima, optimo sociata vulgari non melior sed deterior apparebit, quemadmodum turpis mulier si auro vel serico vestiatur.
 # citation_hierarchy = Liber_Secundus,i,Paragraphus_10
-1	Unde	unde	PRON	r	_	23	discourse	_	_
+1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	23	cc	_	_
 2	cum	cum	SCONJ	cs	PronType=Rel	9	mark	_	_
 3	sententia	sententia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	9	nsubj	_	_
 4	versificantium	uersificor	VERB	vd1pppmg	Aspect=Imp|Case=Gen|Compound=Yes|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
@@ -8766,7 +8766,7 @@
 # sent_id = DVE-239
 # text = Unde cum hoc quod dicimus illustre sit optimum aliorum vulgarium, consequens est ut sola optima digna sint ipso tractari, que quidem tractandorum dignissima nuncupamus.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_5
-1	Unde	unde	CCONJ	r	PronType=Rel	12	cc	_	_
+1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	12	cc	_	_
 2	cum	cum	SCONJ	cs	PronType=Rel	8	mark	_	_
 3	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	8	nsubj	_	_
 4	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	5	obj	_	_
@@ -9806,7 +9806,7 @@
 # sent_id = DVE-269
 # text = Unde nos doctrine operi intendentes doctrinatas eorum poetrias emulari oportet.
 # citation_hierarchy = Liber_Secundus,iv,Paragraphus_3
-1	Unde	unde	PRON	r	_	10	discourse	_	_
+1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	10	cc	_	_
 2	nos	ego	PRON	ppp1pma	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	10	obl:arg	_	_
 3	doctrine	doctrina	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	4	nmod	_	_
 4	operi	opus	NOUN	sns3d	Case=Dat|Gender=Neut|InflClass=IndEurX|Number=Sing	5	obl:arg	_	_
@@ -12930,7 +12930,7 @@
 5	una	unus	NUM	dpfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|NumForm=Word|NumType=Card	6	nummod	_	_
 6	oda	oda	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 7	continua	continuus	ADJ	afs1b	Case=Abl|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
-8	usque	usque	ADV	r	_	10	case	_	_
+8	usque	usque	ADP	r	_	10	case	_	_
 9	ad	ad	ADP	e	AdpType=Prep	8	fixed	_	_
 10	ultimum	ultimus	ADJ	ans1as	Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	6	obl	_	_
 11	progressive	progressiue	ADV	r	Degree=Pos	6	advmod	_	SpaceAfter=No
@@ -13930,46 +13930,48 @@
 # sent_id = DVE-388
 # text = Verumtamen quosdam ab eptasillabo tragice principiasse invenimus, videlicet Guidonem Guinizelli, Guidonem de Ghisileriis et Fabrutium Bononienses: Di fermo sofferire, et Donna, lo fermo core, et Lo meo lontano gire; et quosdam alios.
 # citation_hierarchy = Liber_Secundus,xii,Paragraphus_6
-1	Verumtamen	uerumtamen	CCONJ	co	Compound=Yes	7	cc	_	_
-2	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	6	nsubj	_	_
-3	ab	ab	ADP	e	AdpType=Prep	4	case	_	_
-4	eptasillabo	eptasillabum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	6	obl	_	_
-5	tragice	tragice	ADV	r	Degree=Pos	6	advmod	_	_
-6	principiasse	principio	VERB	va1xfr	Aspect=Perf|InflClass=LatA|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf|Voice=Act	7	ccomp	_	_
-7	invenimus	inuenio	VERB	va4irp1	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	Pu	_	10	punct	_	_
-9	videlicet	uidelicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	10	cc	_	_
-10	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	2	conj:expl	_	_
-11	Guinizelli	guinizelli	PROPN	Si	Foreign=Yes|InflClass=Ind|NameType=Sur	10	flat:name	_	SpaceAfter=No
-12	,	,	PUNCT	Pu	_	13	punct	_	_
-13	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	10	conj	_	_
-14	de	de	ADP	e	AdpType=Prep	15	case	_	_
-15	Ghisileriis	ghisilerius	PROPN	Smpb	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Plur	13	nmod	_	_
-16	et	et	CCONJ	co	_	17	cc	_	_
-17	Fabrutium	fabrutius	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	10	conj	_	_
-18	Bononienses	bononiensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	17	amod	_	SpaceAfter=No
-19	:	:	PUNCT	Pu	_	20	punct	_	_
-20	Di	di	X	zi	Foreign=Yes	10	parataxis:rep	_	_
-21	fermo	fermo	X	zi	Foreign=Yes	20	flat:foreign	_	_
-22	sofferire	sofferire	X	zi	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
-23	,	,	PUNCT	Pu	_	25	punct	_	_
-24	et	et	CCONJ	co	_	25	cc	_	_
-25	Donna	donna	X	zi	Foreign=Yes	20	conj	_	SpaceAfter=No
-26	,	,	PUNCT	Pu	_	27	punct	_	_
-27	lo	lo	X	zi	Foreign=Yes	25	flat:foreign	_	_
-28	fermo	fermo	X	zi	Foreign=Yes	25	flat:foreign	_	_
-29	core	core	X	zi	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
-30	,	,	PUNCT	Pu	_	32	punct	_	_
-31	et	et	CCONJ	co	_	32	cc	_	_
-32	Lo	lo	X	zi	Foreign=Yes	20	conj	_	_
-33	meo	meo	X	zi	Foreign=Yes	32	flat:foreign	_	_
-34	lontano	lontano	X	zi	Foreign=Yes	32	flat:foreign	_	_
-35	gire	gire	X	zi	Foreign=Yes	32	flat:foreign	_	SpaceAfter=No
-36	;	;	PUNCT	Pu	_	39	punct	_	_
-37	et	et	CCONJ	co	_	39	cc	_	_
-38	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	39	det	_	_
-39	alios	alius	DET	dpmpa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	20	conj	_	SpaceAfter=No
-40	.	.	PUNCT	Pu	_	7	punct	_	_
+1-2	Verumtamen	_	_	_	_	_	_	_	_
+1	verum	uerum	CCONJ	co	_	8	cc	_	_
+2	tamen	tamen	ADV	co	PronType=Dem	8	advmod	_	_
+3	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	7	nsubj	_	_
+4	ab	ab	ADP	e	AdpType=Prep	5	case	_	_
+5	eptasillabo	eptasillabum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	7	obl	_	_
+6	tragice	tragice	ADV	r	Degree=Pos	7	advmod	_	_
+7	principiasse	principio	VERB	va1xfr	Aspect=Perf|InflClass=LatA|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf|Voice=Act	8	ccomp	_	_
+8	invenimus	inuenio	VERB	va4irp1	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	Pu	_	11	punct	_	_
+10	videlicet	uidelicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	11	cc	_	_
+11	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	3	conj:expl	_	_
+12	Guinizelli	guinizelli	PROPN	Si	Foreign=Yes|InflClass=Ind|NameType=Sur	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	Pu	_	14	punct	_	_
+14	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	11	conj	_	_
+15	de	de	ADP	e	AdpType=Prep	16	case	_	_
+16	Ghisileriis	ghisilerius	PROPN	Smpb	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Plur	14	nmod	_	_
+17	et	et	CCONJ	co	_	18	cc	_	_
+18	Fabrutium	fabrutius	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	11	conj	_	_
+19	Bononienses	bononiensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	18	amod	_	SpaceAfter=No
+20	:	:	PUNCT	Pu	_	21	punct	_	_
+21	Di	di	X	zi	Foreign=Yes	11	parataxis:rep	_	_
+22	fermo	fermo	X	zi	Foreign=Yes	21	flat:foreign	_	_
+23	sofferire	sofferire	X	zi	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	,	,	PUNCT	Pu	_	26	punct	_	_
+25	et	et	CCONJ	co	_	26	cc	_	_
+26	Donna	donna	X	zi	Foreign=Yes	21	conj	_	SpaceAfter=No
+27	,	,	PUNCT	Pu	_	28	punct	_	_
+28	lo	lo	X	zi	Foreign=Yes	26	flat:foreign	_	_
+29	fermo	fermo	X	zi	Foreign=Yes	26	flat:foreign	_	_
+30	core	core	X	zi	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+31	,	,	PUNCT	Pu	_	33	punct	_	_
+32	et	et	CCONJ	co	_	33	cc	_	_
+33	Lo	lo	X	zi	Foreign=Yes	21	conj	_	_
+34	meo	meo	X	zi	Foreign=Yes	33	flat:foreign	_	_
+35	lontano	lontano	X	zi	Foreign=Yes	33	flat:foreign	_	_
+36	gire	gire	X	zi	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+37	;	;	PUNCT	Pu	_	40	punct	_	_
+38	et	et	CCONJ	co	_	40	cc	_	_
+39	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	40	det	_	_
+40	alios	alius	DET	dpmpa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	21	conj	_	SpaceAfter=No
+41	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = DVE-389
 # text = Sed si ad eorum sensum subtiliter intrare velimus, non sine quodam elegie umbraculo hec tragedia processisse videbitur.
