@@ -91,15 +91,15 @@
 47	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = Mon-3
-# text = Hec igitur sepe mecum recogitans, ne de infossi talenti culpa quandoque redarguar, publice utilitati non modo turgescere, quinymo fructificare desidero, et intemptatas ab aliis ostendere veritates.
+# text = Hec igitur sepe mecum recogitans, ne de infossi talenti culpa quandoque redarguar, publice utilitati non modo turgescere, quin ymo fructificare desidero, et intemptatas ab aliis ostendere veritates.
 # citation_hierarchy = Liber_Primus,i,Paragraphus_3
 1	Hec	hic	DET	ddipna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	6	obj	_	_
-2	igitur	igitur	PART	r	_	24	discourse	_	_
+2	igitur	igitur	PART	r	_	25	discourse	_	_
 3	sepe	saepe	ADV	r	Degree=Pos	6	advmod	_	_
 4-5	mecum	_	_	_	_	_	_	_	_
 4	me	ego	PRON	ppp1smb	Case=Abl|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
 5	cum	cum	ADP	9	AdpType=Post|Clitic=Yes	4	case	_	_
-6	recogitans	recogito	VERB	va1ppsmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	advcl:pred	_	SpaceAfter=No
+6	recogitans	recogito	VERB	va1ppsmn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	25	advcl:pred	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	6	punct	_	_
 8	ne	ne	SCONJ	cs	Polarity=Neg	14	mark	_	_
 9	de	de	ADP	e	AdpType=Prep	12	case	_	_
@@ -107,25 +107,26 @@
 11	talenti	talentum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	12	nmod	_	_
 12	culpa	culpa	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	14	obl:arg	_	_
 13	quandoque	quandoque	ADV	r	Form=Emp|PronType=Rel	14	advmod	_	_
-14	redarguar	redarguo	VERB	vp3cps1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	24	advcl	_	SpaceAfter=No
+14	redarguar	redarguo	VERB	vp3cps1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	25	advcl	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	14	punct	_	_
 16	publice	publicus	ADJ	afs1d	Case=Dat|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	17	amod	_	_
 17	utilitati	utilitas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	20	obl	_	_
 18	non	non	PART	r	Polarity=Neg	19	advmod:neg	_	_
 19	modo	modo	ADV	r	_	20	advmod:emph	_	_
-20	turgescere	turgesco	VERB	va3fp	Aspect=Inch|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	24	ccomp	_	SpaceAfter=No
-21	,	,	PUNCT	Pu	_	23	punct	_	_
-22	quinymo	quinimmo	CCONJ	co	Compound=Yes	23	cc	_	_
-23	fructificare	fructifico	VERB	va1fp	Aspect=Imp|Compound=Yes|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	20	conj	_	_
-24	desidero	desidero	VERB	va1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-25	,	,	PUNCT	Pu	_	30	punct	_	_
-26	et	et	CCONJ	co	_	30	cc	_	_
-27	intemptatas	intentatus	ADJ	afp1a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Plur	31	amod	_	_
-28	ab	ab	ADP	e	AdpType=Prep	29	case	_	_
-29	aliis	alius	DET	dpmpb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	27	obl:agent	_	_
-30	ostendere	ostendo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	23	conj	_	_
-31	veritates	ueritas	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	30	obj	_	SpaceAfter=No
-32	.	.	PUNCT	Pu	_	24	punct	_	_
+20	turgescere	turgesco	VERB	va3fp	Aspect=Inch|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	25	ccomp	_	SpaceAfter=No
+21	,	,	PUNCT	Pu	_	24	punct	_	_
+22	quin	quin	SCONJ	co	ConjType=Cmpr|Polarity=Neg|PronType=Rel	24	mark	_	_
+23	ymo	immo	ADV	co	Degree=Abs	24	advmod:emph	_	_
+24	fructificare	fructifico	VERB	va1fp	Aspect=Imp|Compound=Yes|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	20	advcl:cmpr	_	_
+25	desidero	desidero	VERB	va1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+26	,	,	PUNCT	Pu	_	31	punct	_	_
+27	et	et	CCONJ	co	_	31	cc	_	_
+28	intemptatas	intentatus	ADJ	afp1a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Plur	32	amod	_	_
+29	ab	ab	ADP	e	AdpType=Prep	30	case	_	_
+30	aliis	alius	DET	dpmpb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	28	obl:agent	_	_
+31	ostendere	ostendo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	24	conj	_	_
+32	veritates	ueritas	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	Pu	_	25	punct	_	_
 
 # sent_id = Mon-4
 # text = Nam quem fructum ille qui theorema quoddam Euclidis iterum demonstraret? qui ab Aristotile felicitatem ostensam reostendere conaretur? qui senectutem a Cicerone defensam resummeret defensandam?
