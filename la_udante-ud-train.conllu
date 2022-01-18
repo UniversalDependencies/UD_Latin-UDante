@@ -91,7 +91,7 @@
 47	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = Mon-3
-# text = Hec igitur sepe mecum recogitans, ne de infossi talenti culpa quandoque redarguar, publice utilitati non modo turgescere, quin ymo fructificare desidero, et intemptatas ab aliis ostendere veritates.
+# text = Hec igitur sepe mecum recogitans, ne de infossi talenti culpa quandoque redarguar, publice utilitati non modo turgescere, quinymo fructificare desidero, et intemptatas ab aliis ostendere veritates.
 # citation_hierarchy = Liber_Primus,i,Paragraphus_3
 1	Hec	hic	DET	ddipna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	6	obj	_	_
 2	igitur	igitur	PART	r	_	25	discourse	_	_
@@ -115,6 +115,7 @@
 19	modo	modo	ADV	r	_	20	advmod:emph	_	_
 20	turgescere	turgesco	VERB	va3fp	Aspect=Inch|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	25	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	24	punct	_	_
+22-23	quinymo	_	_	_	_	_	_	_	_
 22	quin	quin	SCONJ	co	ConjType=Cmpr|Polarity=Neg|PronType=Rel	24	mark	_	_
 23	ymo	immo	ADV	co	Degree=Abs	24	advmod:emph	_	_
 24	fructificare	fructifico	VERB	va1fp	Aspect=Imp|Compound=Yes|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	20	advcl:cmpr	_	_
