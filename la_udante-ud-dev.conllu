@@ -1217,7 +1217,7 @@
 # text = Autoritatem vero Nasonis, quarto De Rerum Transformatione, que directe atque ad litteram propositum respicit, superest ut intueare; scilicet ubi tradit autor equidem in fabula trium sororum contemtricum in semine Semeles, ad Solem loquens, qui, nymphis aliis derelictis atque neglectis in quas prius exarserat, noviter Leucothoen diligebat «Quid nunc, Yperione nate», et reliqua.
 # citation_hierarchy = III,Paragraphus_7
 1	Autoritatem	auctoritas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	20	obj	_	_
-2	vero	uero	ADV	r	_	18	advmod	_	_
+2	vero	uero	ADV	r	_	18	discourse	_	_
 3	Nasonis	naso	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Sur|Number=Sing	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	3	punct	_	_
 5	quarto	quartus	ADJ	aums1b	Case=Abl|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Ord	20	obl	_	_
@@ -2653,9 +2653,9 @@
 4	nos	ego	PRON	ppp1pmn	Case=Nom|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	agimus	ago	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	9	punct	_	_
-7	quin	quin	ADV	r	Polarity=Neg|PronType=Rel	9	advmod	_	_
+7	quin	quin	SCONJ	r	ConjType=Cmpr|Polarity=Neg|PronType=Rel	9	mark	_	_
 8	interdum	interdum	ADV	r	Compound=Yes	9	advmod	_	_
-9	utensilia	utensilia	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	5	conj	_	_
+9	utensilia	utensilia	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	5	advcl:cmpr	_	_
 10	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	9	nmod	_	_
 11	sumus	sum	AUX	va5ipp1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
 12	;	;	PUNCT	Pu	_	13	punct	_	_
@@ -4019,15 +4019,15 @@
 47	non	non	PART	r	Polarity=Neg	48	advmod:neg	_	_
 48	tantum	tantum	ADV	r	PronType=Dem	50	advmod:emph	_	_
 49	non	non	PART	r	Polarity=Neg	50	advmod:neg	_	_
-50	servitus	seruitus	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	52	xcomp	_	_
+50	servitus	seruitus	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	52	xcomp:pred	_	_
 51	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	50	cop	_	_
 52	probatur	probo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	28	acl:relcl	_	SpaceAfter=No
 53	,	,	PUNCT	Pu	_	58	punct	_	_
-54	quin	quin	SCONJ	r	Polarity=Neg|PronType=Rel	58	mark	_	_
+54	quin	quin	SCONJ	r	ConjType=Cmpr|Polarity=Neg|PronType=Rel	58	mark	_	_
 55	ymo	immo	ADV	r	Degree=Abs	58	advmod:emph	_	_
 56	perspicaciter	perspicaciter	ADV	r	Degree=Pos	57	advmod	_	_
 57	intuenti	intueor	VERB	vd2ppsmd	Aspect=Imp|Case=Dat|Degree=Pos|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	58	obl:arg	_	_
-58	liquet	liqueo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	50	conj	_	_
+58	liquet	liqueo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	52	advcl:cmpr	_	_
 59	ut	ut	SCONJ	cs	_	63	mark	_	_
 60	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	cop	_	_
 61	ipsa	ipse	DET	dpfsn	Case=Nom|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	63	nsubj	_	_
@@ -4151,7 +4151,7 @@
 # sent_id = Epi-113
 # text = Verum si merito trepidantes insanisse penitet non dolentes, ut in amaritudinem penitentie metus dolorisque rivuli confluant, vestris animis infigenda supersunt, quod Romane rei baiulus hic divus et triumphator Henricus, non sua privata sed publica mundi commoda sitiens, ardua queque pro nobis aggressus est sua sponte penas nostras participans, tanquam ad ipsum, post Christum, digitum prophetie propheta direxerit Ysaias, cum, spiritu Dei revelante, predixit: «Vere languores nostros ipse tulit et dolores nostros ipse portavit».
 # citation_hierarchy = VI,Paragraphus_25
-1	Verum	uerum	ADV	co	_	22	cc	_	_
+1	Verum	uerum	CCONJ	co	_	22	cc	_	_
 2	si	si	SCONJ	cs	_	6	mark	_	_
 3	merito	merito	ADV	r	Degree=Pos|VerbForm=Part	4	advmod	_	_
 4	trepidantes	trepido	VERB	va1pppma	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl:pred	_	_
@@ -4271,16 +4271,16 @@
 4	hoc	hic	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	6	det	_	_
 5	a	a	ADP	e	AdpType=Prep	6	case	_	_
 6	modo	modus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	8	obl	_	_
-7	venie	uenia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	8	obl:arg	_	_
+7	venie	uenia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	8	nmod	_	_
 8	genitiva	genitiuus	ADJ	afs1n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 9	non	non	PART	r	Polarity=Neg	8	advmod:neg	_	_
 10	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	16	punct	_	_
-12	quin	quin	SCONJ	r	Polarity=Neg|PronType=Rel	16	mark	_	_
+12	quin	quin	SCONJ	r	ConjType=Cmpr|Polarity=Neg|PronType=Rel	16	mark	_	_
 13	potius	potius	ADV	r+	Degree=Cmp	16	advmod	_	_
 14	tempestive	tempestiuus	ADJ	afs1g	Case=Gen|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	15	amod	_	_
 15	animadversionis	animaduersio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	16	nmod	_	_
-16	exordium	exordium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	8	advcl	_	SpaceAfter=No
+16	exordium	exordium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	8	advcl:cmpr	_	SpaceAfter=No
 17	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = Epi-116
@@ -4534,7 +4534,7 @@
 # sent_id = Epi-124
 # text = Verum quia sol noster, sive desiderii fervor hoc submoneat sive facies veritatis, aut morari iam creditur aut retrocedere supputatur, quasi Iosue denuo vel Amos filius imperaret, incertitudine dubitare compellimur et in vocem Precursoris irrumpere sic: «Tu es qui venturus es, an alium expectamus?».
 # citation_hierarchy = VII,Paragraphus_7
-1	Verum	uerum	ADV	co	_	33	cc	_	_
+1	Verum	uerum	CCONJ	co	_	33	cc	_	_
 2	quia	quia	SCONJ	cs	PronType=Rel	18	mark	_	_
 3	sol	sol	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	18	nsubj:pass	_	_
 4	noster	noster	DET	dsmsn	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	SpaceAfter=No
@@ -5225,11 +5225,11 @@
 7	ipsa	ipse	DET	dpfsn	Case=Nom|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	9	det	_	_
 8	ramorum	ramus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	9	nmod	_	_
 9	incisio	incisio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	6	nsubj	_	_
-10	quin	quin	SCONJ	c	Polarity=Neg|PronType=Rel	14	mark	_	_
+10	quin	quin	SCONJ	c	ConjType=Cmpr|Polarity=Neg|PronType=Rel	14	mark	_	_
 11	iterum	iterum	ADV	r	Degree=Cmp	14	advmod	_	_
 12	multiplicius	multipliciter	ADV	r+	Compound=Yes|Degree=Cmp	14	advmod	_	_
 13	virulenter	uirulenter	ADV	r	Degree=Pos	14	advmod	_	_
-14	ramificent	ramifico	VERB	va1cpp3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
+14	ramificent	ramifico	VERB	va1cpp3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl:cmpr	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	18	punct	_	_
 16	quousque	quousque	SCONJ	O4	Compound=Yes|PronType=Rel	18	mark	_	_
 17	radices	radix	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	18	nsubj	_	_
@@ -6380,7 +6380,7 @@
 # sent_id = Epi-175
 # text = Verum quia nonnulla regalium clausularum videbatur hortari ut, si quando nuntiorum facultas adesset, Celsitudini regie aliquid peroptando de status mei conditione referrem, quamvis quedam presumptionis facies interdicat, obedientie tamen suadente virtute obediam.
 # citation_hierarchy = X,Paragraphus_4
-1	Verum	uerum	ADV	co	_	6	cc	_	_
+1	Verum	uerum	CCONJ	co	_	6	cc	_	_
 2	quia	quia	SCONJ	cs	PronType=Rel	6	mark	_	_
 3	nonnulla	nonnullus	DET	dinsfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Neg	6	nsubj	_	_
 4	regalium	regalis	ADJ	afp2g	Case=Gen|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Plur	5	amod	_	_
@@ -6530,13 +6530,13 @@
 15	ministerium	ministerium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	16	obj	_	_
 16	transtulit	transfero	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	24	punct	_	_
-18	quin	quin	ADV	r	Polarity=Neg|PronType=Rel	24	advmod:emph	_	_
-19	et	et	CCONJ	co	_	24	cc	_	_
+18	quin	quin	SCONJ	r	ConjType=Cmpr|Polarity=Neg|PronType=Rel	24	mark	_	_
+19	et	et	ADV	co	_	24	advmod:emph	_	_
 20	preelecte	praelego	VERB	vp3ppsfd	Aspect=Imp|Case=Dat|Degree=Pos|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	acl	_	_
 21	civitati	ciuitas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	24	obl	_	_
 22	David	dauid	PROPN	Smsgi	Foreign=Yes|InflClass=Ind|NameType=Giv	21	nmod	_	_
 23	obsidionem	obsidio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	24	obj	_	_
-24	peperit	pario	VERB	va3irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+24	peperit	pario	VERB	va3irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl:cmpr	_	_
 25	et	et	CCONJ	co	_	26	cc	_	_
 26	ruinam	ruina	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	23	conj	_	SpaceAfter=No
 27	.	.	PUNCT	Pu	_	16	punct	_	_
@@ -7156,8 +7156,8 @@
 6	ad	ad	ADP	e	AdpType=Prep	7	case	_	_
 7	iurgia	iurgium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	5	obl	_	SpaceAfter=No
 8	;	;	PUNCT	Pu	_	9	punct	_	_
-9	quin	quin	ADV	r	Polarity=Neg|PronType=Rel	32	advmod	_	_
-10	potius	potius	ADV	r+	Degree=Cmp	32	advmod	_	_
+9	quin	quin	SCONJ	r	ConjType=Cmpr|Polarity=Neg|PronType=Rel	10	mark	_	_
+10	potius	potius	ADV	r+	Degree=Cmp	3	advcl:cmpr	_	_
 11	confusionis	confusio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	12	nmod	_	_
 12	ruborem	rubor	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	32	obj	_	_
 13	et	et	CCONJ	co	_	15	cc	_	_
@@ -7179,7 +7179,7 @@
 29	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
 30	totaliter	totaliter	ADV	r	Degree=Pos	27	advmod	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	27	punct	_	_
-32	accendisse	accendo	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf|Voice=Act	5	conj	_	SpaceAfter=No
+32	accendisse	accendo	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf|Voice=Act	10	ccomp	_	SpaceAfter=No
 33	;	;	PUNCT	Pu	_	34	punct	_	_
 34	cum	cum	SCONJ	cs	PronType=Rel	73	mark	_	_
 35	de	de	ADP	e	AdpType=Prep	39	case	_	_
@@ -7616,7 +7616,7 @@
 13	civilitatis	ciuilitas	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	14	nmod	_	_
 14	principium	principium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	9	advcl:pred	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	14	punct	_	_
-16	vestrum	uos	DET	dsnsn	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	18	csubj	_	_
+16	vestrum	uester	DET	dsnsn	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	18	csubj	_	_
 17	iuste	iuste	ADV	r	Degree=Pos	18	advmod	_	_
 18	censetur	censeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 19	accuratissime	accurate	ADV	rs	Degree=Abs|VerbForm=Part	18	advmod	_	_
@@ -8360,7 +8360,7 @@
 # sent_id = Epi-234
 # text = Verum ne diuturna me nimis incertitudo suspenderet, velut Austri regina Ierusalem petiit, velut Pallas petiit Elicona, Veronam petii fidis oculis discursurus audita, ibique magnalia vestra vidi, vidi beneficia simul et tetigi; et quemadmodum prius dictorum ex parte suspicabar excessum, sic posterius ipsa facta excessiva cognovi.
 # citation_hierarchy = XIII,Paragraphus_3
-1	Verum	uerum	ADV	co	_	21	cc	_	_
+1	Verum	uerum	CCONJ	co	_	21	cc	_	_
 2	ne	ne	SCONJ	cs	Polarity=Neg	7	mark	_	_
 3	diuturna	diuturnus	ADJ	afs1n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
 4	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
@@ -8829,11 +8829,11 @@
 # sent_id = Epi-248
 # text = Illud quoque preterire silentio simpliciter inardescens non sinit affectus, quod in hac donatione plus dono quam domino et honoris et fame conferri videri potest; quin ymo cum eius titulo iam presagium de gloria vestri nominis amplianda satis attentis videbar expressisse; quod de proposito.
 # citation_hierarchy = XIII,Paragraphus_12
-1	Illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	8	obj	_	_
+1	Illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	quoque	quoque	ADV	r	Form=Emp	8	discourse	_	_
-3	preterire	praetereo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+3	preterire	praetereo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	8	ccomp	_	_
 4	silentio	silentium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	3	obl	_	_
-5	simpliciter	simpliciter	ADV	r	Degree=Pos	6	advmod	_	_
+5	simpliciter	simpliciter	ADV	r	Degree=Pos	3	advmod	_	_
 6	inardescens	inardesco	VERB	va3ppsmn	Aspect=Inch|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	_
 7	non	non	PART	r	Polarity=Neg	8	advmod:neg	_	_
 8	sinit	sino	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8843,7 +8843,7 @@
 12	in	in	ADP	e	AdpType=Prep	14	case	_	_
 13	hac	hic	DET	dpfsb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	14	det	_	_
 14	donatione	donatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	25	obl	_	_
-15	plus	multum	ADV	r+	Degree=Cmp	23	advmod	_	_
+15	plus	multus	DET	r+	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing|NumType=Card|PronType=Ind	20	det:numgov	_	_
 16	dono	donum	NOUN	sns2d	Case=Dat|Gender=Neut|InflClass=IndEurO|Number=Sing	23	obl:arg	_	_
 17	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	18	mark	_	_
 18	domino	dominus	NOUN	sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing	23	advcl:cmpr	_	_
@@ -8851,11 +8851,11 @@
 20	honoris	honos	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	23	nsubj:pass	_	_
 21	et	et	CCONJ	co	_	22	cc	_	_
 22	fame	fama	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	20	conj	_	_
-23	conferri	confero	VERB	vp5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	24	csubj	_	_
+23	conferri	confero	VERB	vp5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	24	csubj:pass	_	_
 24	videri	uideo	VERB	vd2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	25	xcomp	_	_
-25	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	dislocated:obj	_	SpaceAfter=No
+25	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	dislocated:ccomp	_	SpaceAfter=No
 26	;	;	PUNCT	Pu	_	41	punct	_	_
-27	quin	quin	SCONJ	r	ConjType=Cmpr|Polarity=Neg|PronType=Rel	41	mark	_	_
+27	quin	quin	SCONJ	r	Polarity=Neg|PronType=Rel	41	mark	_	_
 28	ymo	immo	ADV	r	Degree=Abs	41	advmod:emph	_	_
 29	cum	cum	ADP	e	AdpType=Prep	31	case	_	_
 30	eius	is	PRON	ddesng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	31	nmod	_	_
@@ -8869,7 +8869,7 @@
 38	amplianda	amplio	VERB	vp1gvsfb	Aspect=Imp|Case=Abl|Degree=Pos|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|Tense=Fut|VerbForm=Gdv|Voice=Pass	33	acl	_	_
 39	satis	satis	ADV	r	Degree=Pos	40	advmod	_	_
 40	attentis	attentus	ADJ	amp1d	Case=Dat|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	41	obl:arg	_	_
-41	videbar	uideo	VERB	vd2iis1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	8	advcl:cmpr	_	_
+41	videbar	uideo	VERB	vd2iis1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	25	conj:expl	_	_
 42	expressisse	exprimo	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf|Voice=Act	41	xcomp	_	SpaceAfter=No
 43	;	;	PUNCT	Pu	_	44	punct	_	_
 44	quod	qui	PRON	presnn	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	42	advcl:pred	_	_

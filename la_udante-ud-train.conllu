@@ -23882,7 +23882,7 @@
 # text = Quinymo invenio sacerdotes primos ab illa de precepto remotos, ut patet per ea que Deus ad Moysen; et sacerdotes novissimos, per ea que Cristus ad discipulos: quam quidem ab eis esse remotam possibile non est, si regiminis temporalis auctoritas a sacerdotio demanaret, cum saltem in auctorizando sollicitudo provisionis instaret, et deinde cautela continua ne auctorizatus a tramite rectitudinis deviaret.
 # citation_hierarchy = Liber_Tertius,xiii,Paragraphus_5
 1-2	Quinymo	_	_	_	_	_	_	_	_
-1	Quin	quin	SCONJ	co	ConjType=Cmpr|PronType=Rel	3	mark	_	_
+1	Quin	quin	SCONJ	co	ConjType=Cmpr|Polarity=Neg|PronType=Rel	3	mark	_	_
 2	ymo	immo	ADV	co	Degree=Abs	3	advmod	_	_
 3	invenio	inuenio	VERB	va4ips1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	sacerdotes	sacerdos	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	10	nsubj:pass	_	_

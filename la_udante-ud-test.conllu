@@ -15,7 +15,7 @@
 12	,	,	PUNCT	Pu	_	20	punct	_	_
 13	atque	atque	CCONJ	co	Form=Emp	20	cc	_	_
 14	talem	talis	DET	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Dem	16	det	_	_
-15	scilicet	scilicet	CCONJ	_	ConjType=Expl|VerbForm=Fin	16	cc	_	_
+15	scilicet	scilicet	CCONJ	_	Compound=Yes|ConjType=Expl|VerbForm=Fin	16	cc	_	_
 16	eloquentiam	eloquentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	20	obj	_	_
 17	penitus	penitus	ADV	r	_	19	advmod	_	_
 18	omnibus	omnis	DET	amp2d	Case=Dat|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	19	obl:arg	_	_
@@ -2154,7 +2154,7 @@
 4	non	non	PART	r	Polarity=Neg	5	advmod:neg	_	_
 5	possumus	possum	VERB	va5ipp1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
 6	quin	quin	SCONJ	cs	Polarity=Neg|PronType=Rel	7	mark	_	_
-7	transeamus	transeo	VERB	va5cpp1	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+7	transeamus	transeo	VERB	va5cpp1	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 8	per	per	ADP	e	AdpType=Prep	9	case	_	_
 9	illam	ille	DET	ddisfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	7	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	5	punct	_	_
@@ -3082,7 +3082,7 @@
 14	promuntorium	promunturium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	9	conj:expl	_	_
 15	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	14	det	_	_
 16	Ytalie	italia	PROPN	Sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	14	nmod	_	_
-17	qua	qua	ADV	r	PronType=Rel	21	advmod	_	_
+17	qua	qua	ADV	r	AdvType=Loc|PronType=Rel	21	advmod:lmod	_	_
 18	sinus	sinus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	21	nsubj	_	_
 19	Adriatici	hadriaticus	ADJ	ans1g	Case=Gen|Degree=Pos|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	18	nmod	_	_
 20	maris	mare	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	19	fixed	_	_
@@ -5523,9 +5523,9 @@
 6	,	,	PUNCT	Pu	_	8	punct	_	_
 7	et	et	CCONJ	co	_	8	cc	_	_
 8	pensemus	penso	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
-9	qualiter	qualiter	ADV	r	PronType=Rel	14	advmod	_	_
+9	qualiter	qualiter	ADV	r	PronType=Int	14	advmod	_	_
 10	viri	uir	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	14	nsubj	_	_
-11	prehonorati	prehonoratus	ADJ	amp1n	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	10	amod	_	_
+11	prehonorati	praehonoratus	ADJ	amp1n	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	10	amod	_	_
 12	a	a	ADP	e	AdpType=Prep	13	case	_	_
 13	propria	proprius	ADJ	afs1b	Case=Abl|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	14	obl:arg	_	_
 14	diverterunt	diuerto	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	SpaceAfter=No
@@ -5535,14 +5535,14 @@
 18	in	in	ADP	e	AdpType=Prep	19	case	_	_
 19	dubio	dubium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	17	obl:arg	_	_
 20	quin	quin	SCONJ	cs	Polarity=Neg|PronType=Rel	21	mark	_	_
-21	aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	17	ccomp	_	_
+21	aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	17	csubj	_	_
 22	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 23	vulgare	uulgare	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	21	nsubj	_	_
 24	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	25	obj	_	_
 25	querimus	quaero	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
-26	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	28	mark	_	_
-27	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	28	obj	_	_
-28	actingit	adtingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl:cmpr	_	_
+26	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	27	mark	_	_
+27	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	21	advcl:cmpr	_	_
+28	actingit	adtingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
 29	populus	populus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	28	nsubj	_	_
 30	Tuscanorum	tuscanus	ADJ	Smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	17	punct	_	_
@@ -9778,7 +9778,7 @@
 18	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	20	punct	_	_
 20	hii	hic	DET	ddipmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	17	conj	_	_
-21	vero	uero	ADV	r	_	20	orphan	_	_
+21	vero	uero	ADV	r	_	20	discourse	_	_
 22	casu	casus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	20	orphan	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	25	punct	_	_
 24	ut	ut	SCONJ	r	ConjType=Cmpr	25	mark	_	_
@@ -10432,7 +10432,7 @@
 62	autem	autem	CCONJ	co	_	61	cc	_	_
 63	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
 64	quod	quod	SCONJ	cs	PronType=Rel	69	mark	_	_
-65	rithimus	rithimus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	69	nsubj	_	_
+65	rithimus	rhythmus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	69	nsubj	_	_
 66	ibi	ibi	ADV	r	AdvType=Loc	69	advmod:lmod	_	_
 67	una	unus	DET	dpfsb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	68	det	_	_
 68	vocali	uocalis	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	69	obl:arg	_	_
@@ -12704,7 +12704,7 @@
 # text = De rithimo vero mentionem non facimus, quia de propria cantionis arte non est.
 # citation_hierarchy = Liber_Secundus,ix,Paragraphus_5
 1	De	de	ADP	e	AdpType=Prep	2	case	_	_
-2	rithimo	rithimus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	6	obl:arg	_	_
+2	rithimo	rhythmus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	6	obl:arg	_	_
 3	vero	uero	ADV	r	_	6	discourse	_	_
 4	mentionem	mentio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	6	obj	_	_
 5	non	non	PART	r	Polarity=Neg	6	advmod:neg	_	_
@@ -12727,7 +12727,7 @@
 3	in	in	ADP	e	AdpType=Prep	5	case	_	_
 4	qualibet	quilibet	DET	dinsfb	Case=Abl|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	5	det	_	_
 5	stantia	stantia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	7	obl	_	_
-6	rithimos	rithimus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	7	obj	_	_
+6	rithimos	rhythmus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	7	obj	_	_
 7	innovare	innouo	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	1	csubj	_	_
 8	et	et	CCONJ	co	_	10	cc	_	_
 9	eosdem	idem	DET	ddepma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	10	obj	_	_
@@ -12742,7 +12742,7 @@
 18	propria	proprius	ADJ	afs1b	Case=Abl|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	20	amod	_	_
 19	cantionis	cantio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	20	nsubj	_	_
 20	arte	ars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	25	advcl	_	_
-21	rithimus	rithimus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	20	nsubj	_	_
+21	rithimus	rhythmus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	20	nsubj	_	_
 22	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	20	punct	_	_
 24	minime	parum	ADV	rs	Degree=Abs	25	advmod	_	_
@@ -12755,7 +12755,7 @@
 1	Si	si	SCONJ	cs	_	6	mark	_	_
 2	quid	quis	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	5	obj	_	_
 3	autem	autem	CCONJ	co	_	13	cc	_	_
-4	rithimi	rithimus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	2	nmod	_	_
+4	rithimi	rhythmus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	2	nmod	_	_
 5	servare	seruo	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	6	csubj	_	_
 6	interest	intersum	VERB	va5*ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 7	huius	hic	DET	ddisng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	6	obl:arg	_	_
@@ -13205,7 +13205,7 @@
 7	contextum	contextus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	5	conj	_	_
 8	carminum	carmen	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur	7	nmod	_	_
 9	et	et	CCONJ	co	_	11	cc	_	_
-10	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	11	nmod	_	_
+10	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	11	nmod	_	_
 11	relationem	relatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	5	conj	_	_
 12	consistit	consisto	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 13	:	:	PUNCT	Pu	_	16	punct	_	_
@@ -13536,7 +13536,7 @@
 33	limitamur	limito	VERB	vp1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	SpaceAfter=No
 34	,	,	PUNCT	Pu	_	36	punct	_	_
 35	quin	quin	SCONJ	cs	Polarity=Neg|PronType=Rel	36	mark	_	_
-36	liceat	licet	VERB	va2*cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl	_	_
+36	liceat	licet	VERB	va2*cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	ccomp	_	_
 37	plures	multus	DET	amp1ac	Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	39	det	_	_
 38	et	et	CCONJ	co	_	39	cc	_	_
 39	pedes	pes	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	43	obj	_	_
@@ -14067,7 +14067,7 @@
 20	quia	quia	SCONJ	cs	PronType=Rel	26	mark	_	_
 21	per	per	ADP	e	AdpType=Prep	24	case	_	_
 22	quandam	quidam	DET	dinsfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	24	det	_	_
-23	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	24	nmod	_	_
+23	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	24	nmod	_	_
 24	repercussionem	repercussio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	26	obl	_	_
 25	frequenter	frequenter	ADV	r	Degree=Pos	26	advmod	_	_
 26	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	advcl	_	_
@@ -14115,7 +14115,7 @@
 11	endecasillabi	endecasillabum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	10	nmod	_	_
 12	tantum	tantum	ADV	r	PronType=Dem	19	advmod:emph	_	_
 13	ad	ad	ADP	e	AdpType=Prep	14	case	_	_
-14	rithimum	rithimus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	19	obl:arg	_	_
+14	rithimum	rhythmus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	19	obl:arg	_	_
 15	precedentis	praecedo	VERB	va3ppsng	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
 16	carminis	carmen	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	14	nmod	_	_
 17	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	18	mark	_	_
@@ -14310,14 +14310,14 @@
 # sent_id = DVE-397
 # text = Rithimorum quoque relationi vacemus, nichil de rithimo secundum se modo tractantes: proprium enim eorum tractatum in posterum prorogamus, cum de mediocri poemate intendemus.
 # citation_hierarchy = Liber_Secundus,xiii,Paragraphus_1
-1	Rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	3	nmod	_	_
+1	Rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	3	nmod	_	_
 2	quoque	quoque	ADV	r	Form=Emp	4	discourse	_	_
 3	relationi	relatio	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	4	obl:arg	_	_
 4	vacemus	uaco	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	12	punct	_	_
 6	nichil	nihil	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=Ind|Number=Sing|PronType=Neg	12	obj	_	_
 7	de	de	ADP	e	AdpType=Prep	8	case	_	_
-8	rithimo	rithimus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	12	obl:arg	_	_
+8	rithimo	rhythmus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	12	obl:arg	_	_
 9	secundum	secundum	ADP	e	AdpType=Prep|VerbForm=Gdv	10	case	_	_
 10	se	sui	PRON	ppp3sna	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	12	obl	_	_
 11	modo	modo	ADV	r	_	12	discourse	_	_
@@ -14358,12 +14358,12 @@
 2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	stantia	stantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 4	sine	sine	ADP	e	AdpType=Prep	5	case	_	_
-5	rithimo	rithimus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	3	obl	_	SpaceAfter=No
+5	rithimo	rhythmus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	12	punct	_	_
 7	in	in	ADP	e	AdpType=Prep	8	case	_	_
 8	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	12	obl	_	_
 9	nulla	nullus	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Neg	11	det	_	_
-10	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	11	nmod	_	_
+10	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	11	nmod	_	_
 11	habitudo	habitudo	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	12	nsubj:pass	_	_
 12	actenditur	attendo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	SpaceAfter=No
 13	:	:	PUNCT	Pu	_	17	punct	_	_
@@ -14406,7 +14406,7 @@
 5	omnia	omnis	DET	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	6	det	_	_
 6	carmina	carmen	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	9	nsubj	_	_
 7	eundem	idem	DET	dpmsa	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	8	det	_	_
-8	rithimum	rithimus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	9	obj	_	_
+8	rithimum	rhythmus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	9	obj	_	_
 9	reddunt	reddo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	15	punct	_	_
 11	in	in	ADP	e	AdpType=Prep	12	case	_	_
@@ -14425,7 +14425,7 @@
 2	proinde	proinde	ADV	r	Compound=Yes	3	discourse	_	_
 3	restat	resto	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	circa	circa	ADP	e	AdpType=Prep	5	case	_	_
-5	rithimos	rithimus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	8	obl	_	_
+5	rithimos	rhythmus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	8	obl	_	_
 6	mixtos	mixtus	ADJ	amp1a	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur	5	amod	_	_
 7	debere	debeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	3	csubj	_	_
 8	insisti	insisto	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	7	xcomp	_	SpaceAfter=No
@@ -14470,7 +14470,7 @@
 7	quandoque	quandoque	ADV	r	Form=Emp|PronType=Rel	10	advmod	_	_
 8	desinentias	desinentia	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	10	obj	_	_
 9	carminum	carmen	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur	8	nmod	_	_
-10	rithimantur	rithimor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
+10	rithimantur	rhythmor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
 11	in	in	ADP	e	AdpType=Prep	13	case	_	_
 12	eadem	idem	DET	dpfsb	Case=Abl|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	13	det	_	_
 13	stantia	stantia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	10	obl	_	SpaceAfter=No
@@ -14479,7 +14479,7 @@
 16	easdem	idem	DET	ddepfa	Case=Acc|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	17	obj	_	_
 17	repetunt	repeto	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
 18	sive	siue	CCONJ	co	_	19	cc	_	_
-19	rithimantur	rithimor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	conj	_	_
+19	rithimantur	rhythmor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	conj	_	_
 20	in	in	ADP	e	AdpType=Prep	21	case	_	_
 21	aliis	alius	DET	dpfpb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Con	17	obl	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	25	punct	_	_
@@ -14550,12 +14550,12 @@
 17	relinquunt	relinquo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
 18	quin	quin	SCONJ	cs	Polarity=Neg|PronType=Rel	22	mark	_	_
 19	sibi	sui	PRON	ppp3snd	Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	22	obl	_	_
-20	rithimi	rithimus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	21	nmod	_	_
+20	rithimi	rhythmus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	21	nmod	_	_
 21	concrepantiam	concrepantia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	22	obj	_	_
-22	reddant	reddo	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No
+22	reddant	reddo	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	25	punct	_	_
 24	vel	uel	CCONJ	co	_	25	cc	_	_
-25	unius	unus	DET	dinsng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	20	conj	_	_
+25	unius	unus	DET	dinsng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	20	conj:expl	_	_
 26	vel	uel	CCONJ	co	_	27	cc	_	_
 27	plurium	multus	DET	amp1gc	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	25	conj	_	SpaceAfter=No
 28	.	.	PUNCT	Pu	_	10	punct	_	_
@@ -14568,7 +14568,7 @@
 3	diversos	diuersus	ADJ	amp1v	Case=Voc|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur	4	ccomp	_	_
 4	faciunt	facio	VERB	va3ipp3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	3	cop	_	_
-6	rithimos	rithimus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	3	nsubj	_	_
+6	rithimos	rhythmus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	3	nsubj	_	_
 7	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
 8	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	11	nsubj	_	_
 9	post	post	ADP	e	AdpType=Prep	10	case	_	_
@@ -14576,7 +14576,7 @@
 11	carmina	carmen	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	7	acl:relcl	_	_
 12	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 13	a	a	ADP	e	AdpType=Prep	14	case	_	_
-14	rithimis	rithimus	NOUN	smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	3	obl:arg	_	_
+14	rithimis	rhythmus	NOUN	smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	3	obl:arg	_	_
 15	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	14	nmod	_	_
 16	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	18	nsubj	_	_
 17	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
@@ -14612,7 +14612,7 @@
 9	,	,	PUNCT	Pu	_	12	punct	_	_
 10	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	12	obj	_	_
 11	plerique	plerusque	DET	dinpmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=IndEurO|Number=Plur|PronType=Ind	12	nsubj	_	_
-12	rithimantur	rithimor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+12	rithimantur	rhythmor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
 13	ei	is	PRON	ddesmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	12	obl:arg	_	_
 14	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	16	nsubj	_	_
 15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -14636,7 +14636,7 @@
 # text = De rithimorum quoque habitudine, prout sunt in fronte vel in cauda videtur omnis optata licentia concedenda; pulcerrime tamen se habent ultimorum carminum desinentie si cum rithimo in silentium cadant.
 # citation_hierarchy = Liber_Secundus,xiii,Paragraphus_8
 1	De	de	ADP	e	AdpType=Prep	4	case	_	_
-2	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	4	nmod	_	_
+2	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	4	nmod	_	_
 3	quoque	quoque	ADV	r	Form=Emp	13	discourse	_	_
 4	habitudine	habitudo	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	13	obl	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	4	punct	_	_
@@ -14662,7 +14662,7 @@
 25	desinentie	desinentia	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	22	nsubj	_	_
 26	si	si	SCONJ	cs	_	31	mark	_	_
 27	cum	cum	ADP	e	AdpType=Prep	28	case	_	_
-28	rithimo	rithimus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	31	obl	_	_
+28	rithimo	rhythmus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	31	obl	_	_
 29	in	in	ADP	e	AdpType=Prep	30	case	_	_
 30	silentium	silentium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	31	obl:arg	_	_
 31	cadant	cado	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	SpaceAfter=No
@@ -14758,7 +14758,7 @@
 4	altero	alter	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	obl	_	_
 5	pedum	pes	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	4	nmod	_	_
 6	exsortem	exsors	ADJ	afs2a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Sing	10	csubj	_	_
-7	rithimi	rithimus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	8	nmod	_	_
+7	rithimi	rhythmus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	8	nmod	_	_
 8	desinentiam	desinentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	6	nsubj	_	_
 9	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	6	cop	_	_
 10	contingat	contingo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No
@@ -14781,7 +14781,7 @@
 5	in	in	ADP	e	AdpType=Prep	7	case	_	_
 6	altero	alter	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	7	det	_	_
 7	pede	pes	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	10	obl	_	_
-8	rithimi	rithimus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	9	obl	_	_
+8	rithimi	rhythmus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	9	obl	_	_
 9	consortium	consortium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	10	obj	_	_
 10	habeat	habeo	VERB	va2cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	10	punct	_	_
@@ -14906,7 +14906,7 @@
 8	cavenda	caueo	VERB	vp2gvpnn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|Tense=Fut|VerbForm=Gdv|Voice=Pass	13	acl:relcl	_	_
 9	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 10	circa	circa	ADP	e	AdpType=Prep	11	case	_	_
-11	rithimos	rithimus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	8	obl	_	_
+11	rithimos	rhythmus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	8	obl	_	_
 12	huic	hic	DET	ddisnd	Case=Dat|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	14	det	_	_
 13	appendamus	appendo	VERB	va3cpp1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj:pass	_	_
 14	capitulo	capitulum	NOUN	sns2d	Case=Dat|Gender=Neut|InflClass=IndEurO|Number=Sing	13	obl	_	SpaceAfter=No
@@ -14918,7 +14918,7 @@
 20	nichil	nihil	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=Ind|Number=Sing|PronType=Neg	25	obj	_	_
 21	ulterius	ulterior	ADJ	ans2ac	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	20	amod	_	_
 22	de	de	ADP	e	AdpType=Prep	24	case	_	_
-23	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	24	nmod	_	_
+23	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	24	nmod	_	_
 24	doctrina	doctrina	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	25	obl	_	_
 25	tangere	tango	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	26	xcomp	_	_
 26	intendamus	intendo	VERB	va3cpp1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
@@ -14932,7 +14932,7 @@
 3	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 4	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	8	obj	_	_
 5	circa	circa	ADP	e	AdpType=Prep	7	case	_	_
-6	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	7	nmod	_	_
+6	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	7	nmod	_	_
 7	positionem	positio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	8	obl	_	_
 8	potiri	potior	VERB	vd4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	9	csubj	_	_
 9	dedecet	dedecet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
@@ -14942,7 +14942,7 @@
 13	nimia	nimius	ADJ	afs1n	Case=Nom|Degree=Pos|Gender=Fem|InflClass=IndEurA|Number=Sing	17	amod	_	_
 14	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	17	cc	_	_
 15	eiusdem	idem	DET	dpmsg	Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	16	det	_	_
-16	rithimi	rithimus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	17	nmod	_	_
+16	rithimi	rhythmus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	17	nmod	_	_
 17	repercussio	repercussio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	1	conj:expl	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	28	punct	_	_
 19	nisi	nisi	SCONJ	cs	Polarity=Neg	28	mark	_	_
@@ -15004,7 +15004,7 @@
 75	et	et	CCONJ	co	_	76	cc	_	_
 76	tertium	tertius	ADJ	auns1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Ord	17	conj	_	_
 77	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	76	cop	_	_
-78	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	79	nmod	_	_
+78	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	79	nmod	_	_
 79	asperitas	asperitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	76	nsubj	_	SpaceAfter=No
 80	,	,	PUNCT	Pu	_	85	punct	_	_
 81	nisi	nisi	SCONJ	cs	Polarity=Neg	85	mark	_	_
@@ -15018,7 +15018,7 @@
 89-90	asperorumque	_	_	_	_	_	_	_	_
 89	asperorum	asper	ADJ	amp1g	Case=Gen|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Plur	88	conj	_	_
 90	que	que	CCONJ	co9	Clitic=Yes	89	cc	_	_
-91	rithimorum	rithimus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	92	nmod	_	_
+91	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	92	nmod	_	_
 92	mixtura	mixtura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	95	obl:arg	_	_
 93	ipsa	ipse	DET	dpfsn	Case=Nom|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	94	det	_	_
 94	tragedia	tragedia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	95	nsubj	_	_
