@@ -20492,11 +20492,11 @@
 15	quasi	quasi	SCONJ	cs	Compound=Yes|PronType=Rel	16	mark	_	_
 16	diceret	dico	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	SpaceAfter=No
 17	:	:	PUNCT	Pu	_	16	punct	_	_
-18	“	“	PUNCT	Pu	_	20	punct	_	SpaceAfter=No
-19	Quousque	quousque	SCONJ	r	AdvType=Loc|Compound=Yes|PronType=Rel	21	mark	_	_
+18	“	“	PUNCT	Pu	_	24	punct	_	SpaceAfter=No
+19	Quousque	quousque	ADV	r	AdvType=Loc|Compound=Yes|Form=Emp|PronType=Rel	24	obl:lmod	_	_
 20	fui	sum	AUX	va5irs1	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	cop	_	_
 21-22	vobiscum	_	_	_	_	_	_	_	SpaceAfter=No
-21	vobis	tu	PRON	ppp2pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	24	advcl	_	_
+21	vobis	tu	PRON	ppp2pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	19	acl:relcl	_	_
 22	cum	cum	ADP	9	AdpType=Post|Clitic=Yes	21	case	_	_
 23	,	,	PUNCT	Pu	_	24	punct	_	_
 24	recepti	recipio	VERB	vp3i+p2	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Plur|Tense=Pqp|VerbForm=Part|Voice=Pass	16	parataxis:rep	_	_
