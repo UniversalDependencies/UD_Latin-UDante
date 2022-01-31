@@ -15941,7 +15941,7 @@
 34	Monarcha	monarcha	NOUN	sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|Number=Sing	28	acl:relcl	_	_
 35	mundi	mundus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	34	nmod	_	_
 36	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	SpaceAfter=No
-37	,	,	PUNCT	Pu	_	27	punct	_	_
+37	,	,	PUNCT	Pu	_	34	punct	_	_
 38	ut	ut	SCONJ	r	_	42	mark	_	_
 39	in	in	ADP	e	AdpType=Prep	41	case	_	_
 40	secundo	secundus	ADJ	aums1b	Case=Abl|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord|VerbForm=Gdv	41	amod	_	_
