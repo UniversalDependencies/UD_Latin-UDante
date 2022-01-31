@@ -19874,7 +19874,7 @@
 25	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	26	obj	_	_
 26	facere	facio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	27	xcomp	_	_
 27	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
-28	,	,	PUNCT	Pu	_	31	punct	_	_
+28	,	,	PUNCT	Pu	_	30	punct	_	_
 29	quin	quin	SCONJ	cs	ConjType=Cmpr|Polarity=Neg|PronType=Rel	30	mark	_	_
 30	etiam	etiam	ADV	co	Compound=Yes	27	advcl:cmpr	_	_
 31	solvere	soluo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	30	xcomp	_	_
