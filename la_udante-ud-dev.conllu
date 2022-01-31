@@ -12484,7 +12484,7 @@
 7	ad	ad	ADP	e	AdpType=Prep	8	case	_	_
 8	Corinthios	corinthius	ADJ	Smp2a	Case=Acc|Degree=Pos|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	9	obl	_	_
 9	loquentem	loquor	VERB	vd3ppsma	Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	SpaceAfter=No
-10	,	,	PUNCT	Pu	_	12	punct	_	_
+10	,	,	PUNCT	Pu	_	11	punct	_	_
 11	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	3	advmod:lmod	_	_
 12	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
 13	:	:	PUNCT	Pu	_	15	punct	_	_
