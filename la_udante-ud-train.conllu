@@ -5461,7 +5461,7 @@
 98	filio	filius	NOUN	sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing	96	orphan	_	_
 99	regis	rex	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	98	nmod	_	SpaceAfter=No
 100	»	»	PUNCT	Pu	_	94	punct	_	SpaceAfter=No
-101	.	.	PUNCT	Pu	_	24	punct	_	_
+101	.	.	PUNCT	Pu	_	37	punct	_	_
 
 # sent_id = Mon-149
 # text = Bene igitur dictum est cum dicitur in subassumpta quod Monarcha solus est ille, qui potest esse optime dispositus ad regendum: ergo Monarcha solus optime alios disponere potest.
