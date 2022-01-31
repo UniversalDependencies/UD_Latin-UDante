@@ -7888,7 +7888,7 @@
 11	alia	alius	DET	dpnp1n	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Con	18	advcl	_	_
 12	verba	uerbum	NOUN	snp2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	11	nsubj	_	_
 13	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
-14	,	,	PUNCT	Pu	_	2	punct	_	_
+14	,	,	PUNCT	Pu	_	11	punct	_	_
 15	nichil	nihil	PRON	dinsnn	Case=Nom|Gender=Neut|InflClass=Ind|Number=Sing|PronType=Neg	18	obj	_	_
 16	tamen	tamen	ADV	r	PronType=Dem	18	discourse	_	_
 17	aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	15	det	_	_
@@ -7901,7 +7901,7 @@
 24	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	21	obl	_	_
 25	Deus	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	26	nsubj	_	_
 26	vult	uolo	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	SpaceAfter=No
-27	.	.	PUNCT	Pu	_	15	punct	_	_
+27	.	.	PUNCT	Pu	_	18	punct	_	_
 
 # sent_id = Mon-209
 # text = Hoc ergo supponatur, quod illud quod Deus in hominum sotietate vult, illud pro vero atque sincero iure habendum sit.
