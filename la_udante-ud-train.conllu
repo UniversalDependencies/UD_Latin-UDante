@@ -1565,7 +1565,7 @@
 11	,	,	PUNCT	Pu	_	18	punct	_	_
 12	ymo	immo	ADV	r	Degree=Abs	18	advmod:emph	_	_
 13	per	per	ADP	e	AdpType=Prep	14	case	_	_
-14	quod	qui	DET	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	18	conj	_	_
+14	quod	qui	DET	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	18	obl	_	_
 15	optime	bene	ADV	rs	Degree=Abs	18	advmod	_	_
 16	genus	genus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	18	nsubj	_	_
 17	humanum	humanus	ADJ	ans1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	16	amod	_	_
