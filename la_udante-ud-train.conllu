@@ -3819,7 +3819,7 @@
 15	destructis	destruo	VERB	vp3prpmb	Aspect=Perf|Case=Abl|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	advcl:abs	_	_
 16	enim	enim	PART	c	Form=Emp	22	discourse	_	_
 17	obiectis	obiectus	NOUN	smp4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	15	nsubj:pass	_	SpaceAfter=No
-18	,	,	PUNCT	Pu	_	15	punct	_	_
+18	,	,	PUNCT	Pu	_	22	punct	_	_
 19	passiones	passio	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	22	nsubj	_	_
 20	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	22	xcomp	_	_
 21	non	non	PART	r	Polarity=Neg	22	advmod:neg	_	_
