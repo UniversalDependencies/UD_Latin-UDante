@@ -28327,7 +28327,7 @@
 43	sinistra	sinister	ADJ	anp1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur	38	conj	_	_
 44	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	_
 45	colere	colo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	40	ccomp	_	SpaceAfter=No
-46	,	,	PUNCT	Pu	_	49	punct	_	_
+46	,	,	PUNCT	Pu	_	48	punct	_	_
 47	Emilida	aemilis	ADJ	afs2a	Case=Acc|Degree=Pos|Gender=Fem|InflClass=IndEurI|NameType=Nat|Number=Sing|Variant=Greek	51	amod	_	_
 48	qua	qua	ADV	r	AdvType=Loc|PronType=Rel	45	advmod:lmod	_	_
 49	terminat	termino	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	48	acl:relcl	_	_
