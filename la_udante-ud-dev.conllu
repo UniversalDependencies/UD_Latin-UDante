@@ -10534,7 +10534,7 @@
 28	Rethoricorum	rhetoricus	ADJ	Snp2g	Case=Gen|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	27	nmod	_	_
 29	videtur	uideo	VERB	vd2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
 30	innuere	innuo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	29	xcomp	_	SpaceAfter=No
-31	,	,	PUNCT	Pu	_	33	punct	_	_
+31	,	,	PUNCT	Pu	_	32	punct	_	_
 32	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	29	advmod:lmod	_	_
 33	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
 34	quod	quod	SCONJ	cs	PronType=Rel	38	mark	_	_
