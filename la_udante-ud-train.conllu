@@ -363,7 +363,7 @@
 29	offitium	officium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	31	obj	_	_
 30	sibi	sui	PRON	ppp3smd	Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	31	obl:arg	_	_
 31	asciverit	ascisco	VERB	va3crs3	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	ccomp	_	SpaceAfter=No
-32	;	;	PUNCT	Pu	_	38	punct	_	_
+32	;	;	PUNCT	Pu	_	34	punct	_	_
 33	et	et	CCONJ	co	_	34	cc	_	_
 34	tertio	tertio	ADV	r	Degree=Pos|NumType=Ord	11	conj	_	_
 35	an	an	PART	cs	PartType=Int	38	discourse	_	_
