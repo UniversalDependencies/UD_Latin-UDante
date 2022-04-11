@@ -3308,13 +3308,13 @@
 18	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = DVE-90
-# text = Gerardus de Brunel: Si ·m sentis fezelz amics, per ver encusera amor; Rex Navarre: De fin amor si vient sen et bonté; Dominus Guido Guinizelli: Né fe' amor prima che gentil core, né gentil cor prima che amor, natura.
+# text = Gerardus de Brunel: Si·m sentis fezelz amics, per ver encusera amor; Rex Navarre: De fin amor si vient sen et bonté; Dominus Guido Guinizelli: Né fe' amor prima che gentil core, né gentil cor prima che amor, natura.
 # citation_hierarchy = Liber_Primus,ix,Paragraphus_3
 1	Gerardus	gerardus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	_
 2	de	de	ADP	e	AdpType=Prep	3	case	_	_
 3	Brunel	brunel	PROPN	Si	Foreign=Yes|InflClass=Ind|NameType=Geo|Number=Sing	1	flat:name	_	SpaceAfter=No
 4	:	:	PUNCT	Pu	_	5	punct	_	_
-5	Si	si	X	zi	Foreign=Yes	1	orphan	_	_
+5	Si	si	X	zi	Foreign=Yes	1	orphan	_	SpaceAfter=No
 6	·	·	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
 7	m	m	X	zi	Foreign=Yes	5	flat:foreign	_	_
 8	sentis	sentis	X	zi	Foreign=Yes	5	flat:foreign	_	_
@@ -14352,11 +14352,11 @@
 9	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = DVE-399
-# text = Unum est stantia sine rithimo, in qua nulla rithimorum habitudo actenditur: et huiusmodi stantiis usus est Arnaldus Danielis frequentissime, velut ibi: Se ·m fos Amor de ioi donar; et nos dicimus Al poco giorno.
+# text = Unum est stantia sine rithimo, in qua nulla rithimorum habitudo actenditur: et huiusmodi stantiis usus est Arnaldus Danielis frequentissime, velut ibi: Se·m fos Amor de joi donar; et nos dicimus Al poco giorno.
 # citation_hierarchy = Liber_Secundus,xiii,Paragraphus_2
-1	Unum	unus	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	3	nsubj	_	_
-2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	stantia	stantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
+1	Unum	unus	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	0	root	_	_
+2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	stantia	stantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	1	nsubj	_	_
 4	sine	sine	ADP	e	AdpType=Prep	5	case	_	_
 5	rithimo	rhythmus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	12	punct	_	_
@@ -14379,13 +14379,13 @@
 23	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	24	mark	_	_
 24	ibi	ibi	ADV	r	AdvType=Loc	17	advcl:cmpr	_	SpaceAfter=No
 25	:	:	PUNCT	Pu	_	26	punct	_	_
-26	Se	se	X	zi	Foreign=Yes	24	orphan	_	_
+26	Se	se	X	zi	Foreign=Yes	24	orphan	_	SpaceAfter=No
 27	·	·	PUNCT	Pu	_	28	punct	_	SpaceAfter=No
 28	m	m	X	zi	Foreign=Yes	26	flat:foreign	_	_
 29	fos	fos	X	zi	Foreign=Yes	26	flat:foreign	_	_
 30	Amor	amor	X	zi	Foreign=Yes|Proper=Yes	26	flat:foreign	_	_
 31	de	de	X	zi	Foreign=Yes	26	flat:foreign	_	_
-32	ioi	ioi	X	zi	Foreign=Yes	26	flat:foreign	_	_
+32	joi	joi	X	zi	Foreign=Yes	26	flat:foreign	_	_
 33	donar	donar	X	zi	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
 34	;	;	PUNCT	Pu	_	37	punct	_	_
 35	et	et	CCONJ	co	_	37	cc	_	_
@@ -14394,14 +14394,14 @@
 38	Al	al	X	zi	Foreign=Yes	37	obj	_	_
 39	poco	poco	X	zi	Foreign=Yes	38	flat:foreign	_	_
 40	giorno	giorno	X	zi	Foreign=Yes	38	flat:foreign	_	SpaceAfter=No
-41	.	.	PUNCT	Pu	_	3	punct	_	_
+41	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = DVE-400
 # text = Aliud est stantia cuius omnia carmina eundem rithimum reddunt, in qua superfluum esse constat habitudinem querere.
 # citation_hierarchy = Liber_Secundus,xiii,Paragraphus_3
-1	Aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	3	nsubj	_	_
-2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	stantia	stantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
+1	Aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	0	root	_	_
+2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	stantia	stantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	1	nsubj	_	_
 4	cuius	qui	PRON	presfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	nmod	_	_
 5	omnia	omnis	DET	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	6	det	_	_
 6	carmina	carmen	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	9	nsubj	_	_
@@ -14410,13 +14410,13 @@
 9	reddunt	reddo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	15	punct	_	_
 11	in	in	ADP	e	AdpType=Prep	12	case	_	_
-12	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	15	obj	_	_
-13	superfluum	superfluus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	15	ccomp	_	_
+12	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	15	obl	_	_
+13	superfluum	superfluus	ADJ	ans1a	Case=Acc|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	15	csubj	_	_
 14	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	13	cop	_	_
 15	constat	consto	VERB	va1*ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 16	habitudinem	habitudo	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	17	obj	_	_
-17	querere	quaero	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	15	csubj	_	SpaceAfter=No
-18	.	.	PUNCT	Pu	_	3	punct	_	_
+17	querere	quaero	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	13	csubj	_	SpaceAfter=No
+18	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = DVE-401
 # text = Sic proinde restat circa rithimos mixtos debere insisti.
