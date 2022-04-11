@@ -14100,7 +14100,7 @@
 53	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = DVE-392
-# text = Nec per se ibi carmen est omnino, sed pars endecasillabi tantum ad rithimum precedentis carminis velut eco respondens.
+# text = Nec per se ibi carmen est omnino, sed pars endecasillabi tantum ad rithimum precedentis carminis velut econ respondens.
 # citation_hierarchy = Liber_Secundus,xii,Paragraphus_8
 1	Nec	nec	CCONJ	co	Polarity=Neg	5	cc	_	_
 2	per	per	ADP	e	AdpType=Prep	3	case	_	_
@@ -14119,7 +14119,7 @@
 15	precedentis	praecedo	VERB	va3ppsng	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
 16	carminis	carmen	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	14	nmod	_	_
 17	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	18	mark	_	_
-18	econ	echo	NOUN	sfs3ns	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing|variant=Greek	19	advcl:cmpr	_	_
+18	econ	echo	NOUN	sfs3ns	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing|Variant=Greek	19	advcl:cmpr	_	_
 19	respondens	respondeo	VERB	va2ppsfn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	_	SpaceAfter=No
 20	.	.	PUNCT	Pu	_	5	punct	_	_
 
@@ -14686,7 +14686,7 @@
 13	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = DVE-409
-# text = Et, discretionem facientes, dicimus quod pes vel pari vel impari metro completur, et utrobique comitata et incomitata desinentia esse potest: nam in pari metro nemo dubitat; in alio vero, si quis dubius est, recordetur ea que diximus in preinmediato capitulo de trisillabo, quando, pars existens endecasillabi, velut eco respondet.
+# text = Et, discretionem facientes, dicimus quod pes vel pari vel impari metro completur, et utrobique comitata et incomitata desinentia esse potest: nam in pari metro nemo dubitat; in alio vero, si quis dubius est, recordetur ea que diximus in preinmediato capitulo de trisillabo, quando, pars existens endecasillabi, velut econ respondet.
 # citation_hierarchy = Liber_Secundus,xiii,Paragraphus_9
 1	Et	et	CCONJ	co	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
