@@ -12058,7 +12058,7 @@
 49	secundum	secundum	ADP	e	AdpType=Prep|VerbForm=Gdv	50	case	_	_
 50	operationem	operatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	47	conj	_	_
 51	perfectus	perfectus	ADJ	ams1n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	56	advcl:cmpr	_	SpaceAfter=No
-52	,	,	PUNCT	Pu	_	38	punct	_	_
+52	,	,	PUNCT	Pu	_	51	punct	_	_
 53	absque	absque	ADP	e	AdpType=Prep	54	case	_	_
 54	fide	fides	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	55	obl	_	_
 55	salvari	saluo	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	56	xcomp	_	_

@@ -14743,7 +14743,7 @@
 53	pars	pars	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	54	nsubj	_	_
 54	existens	existo	VERB	va3ppsnn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	59	advcl:pred	_	_
 55	endecasillabi	endecasillabum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	53	nmod	_	SpaceAfter=No
-56	,	,	PUNCT	Pu	_	53	punct	_	_
+56	,	,	PUNCT	Pu	_	59	punct	_	_
 57	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	58	mark	_	_
 58	econ	echo	NOUN	sfs3ns	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing|Variant=Greek	59	advcl:cmpr	_	_
 59	respondet	respondeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	advcl	_	SpaceAfter=No
