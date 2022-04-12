@@ -12046,7 +12046,7 @@
 37	quod	quod	SCONJ	cs	PronType=Rel	56	mark	_	_
 38	nemo	nemo	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing|PronType=Neg	56	nsubj	_	SpaceAfter=No
 39	,	,	PUNCT	Pu	_	51	punct	_	_
-40	quantumcunque	quantumcumque	ADV	r	Form=Emp|NumType=Card|PronType=Rel	51	advmod	_	_
+40	quantumcunque	quantumcumque	SCONJ	r	ConjType=Cmpr|Form=Emp|PronType=Rel	51	mark	_	_
 41	moralibus	moralis	ADJ	afp2b	Case=Abl|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Plur	44	amod	_	_
 42	et	et	CCONJ	co	_	43	cc	_	_
 43	intellectualibus	intellectualis	ADJ	afp2b	Case=Abl|Degree=Pos|Gender=Fem|InflClass=IndEurI|Number=Plur	41	conj	_	_
@@ -12057,7 +12057,7 @@
 48	et	et	CCONJ	co	_	50	cc	_	_
 49	secundum	secundum	ADP	e	AdpType=Prep|VerbForm=Gdv	50	case	_	_
 50	operationem	operatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	47	conj	_	_
-51	perfectus	perfectus	ADJ	ams1n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	38	amod	_	SpaceAfter=No
+51	perfectus	perfectus	ADJ	ams1n	Case=Nom|Degree=Pos|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	56	advcl:cmpr	_	SpaceAfter=No
 52	,	,	PUNCT	Pu	_	38	punct	_	_
 53	absque	absque	ADP	e	AdpType=Prep	54	case	_	_
 54	fide	fides	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	55	obl	_	_

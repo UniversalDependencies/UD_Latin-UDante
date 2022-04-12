@@ -3642,20 +3642,20 @@
 # text = Nec aliter mirum videatur quod dicimus quam percipere iuvenem exoletum quem exolescere non videmus: nam que paulatim moventur, minime perpenduntur a nobis, et quanto longiora tempora variatio rei ad perpendi requirit, tanto rem illam stabiliorem putamus.
 # citation_hierarchy = Liber_Primus,ix,Paragraphus_8
 1	Nec	nec	CCONJ	co	Polarity=Neg	4	cc	_	_
-2	aliter	aliter	ADV	r	_	4	advmod	_	_
+2	aliter	aliter	ADV	r	PronType=Con	4	advmod	_	_
 3	mirum	mirus	ADJ	ans1n	Case=Nom|Degree=Pos|Gender=Neut|InflClass=IndEurO|Number=Sing	4	xcomp:pred	_	_
 4	videatur	uideo	VERB	vd2cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-5	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	obj	_	_
+5	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	nsubj:pass	_	_
 6	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 7	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	8	mark	_	_
 8	percipere	percipio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	4	advcl:cmpr	_	_
-9	iuvenem	iuuenis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	8	obj	_	_
-10	exoletum	exolesco	VERB	vp3prsma	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+9	iuvenem	iuuenis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	10	nsubj	_	_
+10	exoletum	exolesco	VERB	vp3prsma	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
 11	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	12	nsubj	_	_
 12	exolescere	exolesco	VERB	va3fp	Aspect=Inch|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Act	14	ccomp	_	_
 13	non	non	PART	r	Polarity=Neg	14	advmod:neg	_	_
 14	videmus	uideo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpaceAfter=No
-15	:	:	PUNCT	Pu	_	16	punct	_	_
+15	:	:	PUNCT	Pu	_	22	punct	_	_
 16	nam	nam	PART	co	_	22	discourse	_	_
 17	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	22	nsubj:pass	_	_
 18	paulatim	paulatim	ADV	r	Degree=Pos	19	advmod	_	_
@@ -3665,22 +3665,22 @@
 22	perpenduntur	perpendo	VERB	vp3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
 23	a	a	ADP	e	AdpType=Prep	24	case	_	_
 24	nobis	ego	PRON	ppp1pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	22	obl:agent	_	SpaceAfter=No
-25	,	,	PUNCT	Pu	_	34	punct	_	_
-26	et	et	CCONJ	co	_	34	cc	_	_
-27	quanto	quanto	ADV	r	NumType=Card|PronType=Rel	34	advmod	_	_
+25	,	,	PUNCT	Pu	_	40	punct	_	_
+26	et	et	CCONJ	co	_	40	cc	_	_
+27	quanto	quanto	SCONJ	r	ConjType=Cmpr|PronType=Rel	34	mark	_	_
 28	longiora	longus	ADJ	anp1ac	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur	29	amod	_	_
 29	tempora	tempus	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	34	obj	_	_
 30	variatio	uariatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	34	nsubj	_	_
 31	rei	res	NOUN	sfs5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing	30	nmod	_	_
 32	ad	ad	ADP	e	AdpType=Prep	33	mark	_	_
 33	perpendi	perpendo	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf|Voice=Pass	34	advcl	_	_
-34	requirit	requiro	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	SpaceAfter=No
+34	requirit	requiro	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	advcl:cmpr	_	SpaceAfter=No
 35	,	,	PUNCT	Pu	_	40	punct	_	_
 36	tanto	tanto	ADV	r	PronType=Dem	40	advmod	_	_
 37	rem	res	NOUN	sfs5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	40	obj	_	_
 38	illam	ille	DET	ddisfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	37	det	_	_
-39	stabiliorem	stabilis	ADJ	afs2ac	Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing	40	xcomp	_	_
-40	putamus	puto	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	34	advcl:cmpr	_	SpaceAfter=No
+39	stabiliorem	stabilis	ADJ	afs2ac	Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing	40	xcomp:pred	_	_
+40	putamus	puto	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	SpaceAfter=No
 41	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = DVE-98
@@ -4671,7 +4671,7 @@
 46	.	.	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = DVE-124
-# text = Post quos Mediolanenses atque Pergameos eorumque finitimos eruncemus, in quorum etiam improperium quendam cecinisse recolimus Enter l' ora del vesper ciò fu del mes d' ochiover.
+# text = Post quos Mediolanenses atque Pergameos eorumque finitimos eruncemus, in quorum etiam improperium quendam cecinisse recolimus Enter l'ora del vesper ciò fu del mes d'ochiover.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_5
 1	Post	post	ADP	e	AdpType=Prep	2	case	_	_
 2	quos	qui	PRON	prepma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	9	obl	_	_
@@ -4692,7 +4692,7 @@
 16	cecinisse	cano	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf|Voice=Act	17	ccomp	_	_
 17	recolimus	recolo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 18	Enter	enter	X	zi	Foreign=Yes	16	obj	_	_
-19	l'	l	X	zi	Foreign=Yes	18	flat:foreign	_	_
+19	l'	l	X	zi	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
 20	ora	ora	X	zi	Foreign=Yes	18	flat:foreign	_	_
 21	del	del	X	zi	Foreign=Yes	18	flat:foreign	_	_
 22	vesper	uesper	X	zi	Foreign=Yes	18	flat:foreign	_	_
@@ -4700,7 +4700,7 @@
 24	fu	fu	X	zi	Foreign=Yes	18	flat:foreign	_	_
 25	del	del	X	zi	Foreign=Yes	18	flat:foreign	_	_
 26	mes	mes	X	zi	Foreign=Yes	18	flat:foreign	_	_
-27	d'	d	X	zi	Foreign=Yes	18	flat:foreign	_	_
+27	d'	d	X	zi	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
 28	ochiover	ochiouer	X	zi	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
 29	.	.	PUNCT	Pu	_	9	punct	_	_
 
@@ -4818,7 +4818,7 @@
 20	.	.	PUNCT	Pu	_	19	punct	_	_
 
 # sent_id = DVE-129
-# text = Et primo de siciliano examinemus ingenium: nam videtur sicilianum vulgare sibi famam pre aliis asciscere eo quod quicquid poetantur Ytali sicilianum vocatur, et eo quod perplures doctores indigenas invenimus graviter cecinisse, puta in cantionibus illis Ancor che l' aigua per lo foco lassi, et Amor, che lungiamente m' hai menato.
+# text = Et primo de siciliano examinemus ingenium: nam videtur sicilianum vulgare sibi famam pre aliis asciscere eo quod quicquid poetantur Ytali sicilianum vocatur, et eo quod perplures doctores indigenas invenimus graviter cecinisse, puta in cantionibus illis Ancor che l'aigua per lo foco lassi, et Amor, che lungiamente m'hai menato.
 # citation_hierarchy = Liber_Primus,xii_,Paragraphus_2
 1	Et	et	CCONJ	co	_	5	cc	_	_
 2	primo	primo	ADV	r	Degree=Pos|NumType=Ord	5	discourse	_	_
@@ -4860,7 +4860,7 @@
 38	illis	ille	DET	ddipfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	37	det	_	_
 39	Ancor	ancor	X	zi	Foreign=Yes	37	orphan	_	_
 40	che	che	X	zi	Foreign=Yes	39	flat:foreign	_	_
-41	l'	l	X	zi	Foreign=Yes	39	flat:foreign	_	_
+41	l'	l	X	zi	Foreign=Yes	39	flat:foreign	_	SpaceAfter=No
 42	aigua	aigua	X	zi	Foreign=Yes	39	flat:foreign	_	_
 43	per	per	X	zi	Foreign=Yes	39	flat:foreign	_	_
 44	lo	lo	X	zi	Foreign=Yes	39	flat:foreign	_	_
@@ -4872,7 +4872,7 @@
 50	,	,	PUNCT	Pu	_	51	punct	_	_
 51	che	che	X	zi	Foreign=Yes	49	flat:foreign	_	_
 52	lungiamente	lungiamente	X	zi	Foreign=Yes	49	flat:foreign	_	_
-53	m'	m	X	zi	Foreign=Yes	49	flat:foreign	_	_
+53	m'	m	X	zi	Foreign=Yes	49	flat:foreign	_	SpaceAfter=No
 54	hai	hai	X	zi	Foreign=Yes	49	flat:foreign	_	_
 55	menato	menato	X	zi	Foreign=Yes	49	flat:foreign	_	SpaceAfter=No
 56	.	.	PUNCT	Pu	_	5	punct	_	_
@@ -5073,7 +5073,7 @@
 9	.	.	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = DVE-136
-# text = Et dicimus quod, si vulgare sicilianum accipere volumus secundum quod prodit a terrigenis mediocribus, ex ore quorum iudicium eliciendum videtur, prelationis honore minime dignum est, quia non sine quodam tempore profertur; ut puta ibi: Tragemi d' este focora se t' este a bolontate Si autem ipsum accipere volumus secundum quod ab ore primorum Siculorum emanat, ut in preallegatis cantionibus perpendi potest, nichil differt ab illo quod laudabilissimum est, sicut inferius ostendemus.
+# text = Et dicimus quod, si vulgare sicilianum accipere volumus secundum quod prodit a terrigenis mediocribus, ex ore quorum iudicium eliciendum videtur, prelationis honore minime dignum est, quia non sine quodam tempore profertur; ut puta ibi: Tragemi d'este focora se t'este a bolontate Si autem ipsum accipere volumus secundum quod ab ore primorum Siculorum emanat, ut in preallegatis cantionibus perpendi potest, nichil differt ab illo quod laudabilissimum est, sicut inferius ostendemus.
 # citation_hierarchy = Liber_Primus,xii_,Paragraphus_6
 1	Et	et	CCONJ	co	_	2	cc	_	_
 2	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5116,11 +5116,11 @@
 39	ibi	ibi	ADV	r	AdvType=Loc	35	advcl:cmpr	_	SpaceAfter=No
 40	:	:	PUNCT	Pu	_	41	punct	_	_
 41	Tragemi	tragemi	X	zi	Foreign=Yes	39	orphan	_	_
-42	d'	d	X	zi	Foreign=Yes	41	flat:foreign	_	_
+42	d'	d	X	zi	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
 43	este	este	X	zi	Foreign=Yes	41	flat:foreign	_	_
 44	focora	focora	X	zi	Foreign=Yes	41	flat:foreign	_	_
 45	se	se	X	zi	Foreign=Yes	41	flat:foreign	_	_
-46	t'	t	X	zi	Foreign=Yes	41	flat:foreign	_	_
+46	t'	t	X	zi	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
 47	este	este	X	zi	Foreign=Yes	41	flat:foreign	_	_
 48	a	a	X	zi	Foreign=Yes	41	flat:foreign	_	_
 49	bolontate	bolontate	X	zi	Foreign=Yes	41	flat:foreign	_	_
@@ -5422,16 +5422,16 @@
 15	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = DVE-145
-# text = Senenses: Onche renegata avess' io Siena Ch' ee chesto Aretini: Vuo' tu venire ovelle De Perusio, Urbe Veteri, Viterbio, nec non de Civitate Castellana, propter affinitatem quam habent cum Romanis et Spoletanis, nichil tractare intendimus.
+# text = Senenses: Onche renegata avess'io Siena Ch'ee chesto Aretini: Vuo' tu venire ovelle De Perusio, Urbe Veteri, Viterbio, nec non de Civitate Castellana, propter affinitatem quam habent cum Romanis et Spoletanis, nichil tractare intendimus.
 # citation_hierarchy = Liber_Primus,xiii,Paragraphus_2
 1	Senenses	senensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	Pu	_	3	punct	_	_
 3	Onche	onche	X	zi	Foreign=Yes	1	orphan	_	_
 4	renegata	renegata	X	zi	Foreign=Yes	3	flat:foreign	_	_
-5	avess'	auess	X	zi	Foreign=Yes	3	flat:foreign	_	_
+5	avess'	auess	X	zi	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
 6	io	io	X	zi	Foreign=Yes	3	flat:foreign	_	_
 7	Siena	siena	X	zi	Foreign=Yes|NameType=Geo	3	flat:foreign	_	_
-8	Ch'	ch	X	zi	Foreign=Yes	3	flat:foreign	_	_
+8	Ch'	ch	X	zi	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
 9	ee	ee	X	zi	Foreign=Yes	3	flat:foreign	_	_
 10	chesto	chesto	X	zi	Foreign=Yes	3	flat:foreign	_	_
 11	Aretini	aretinus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	1	conj	_	SpaceAfter=No
@@ -6249,7 +6249,7 @@
 42	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = DVE-168
-# text = Maximus Guido: Madonna, 'l fino amore ch' io vi porto; Guido Ghisilerius: Donna, lo fermo core; Fabrutius: Lo meo lontano gire; Honestus: Più non attendo il tuo soccorso, amore.
+# text = Maximus Guido: Madonna, 'l fino amore ch'io vi porto; Guido Ghisilerius: Donna, lo fermo core; Fabrutius: Lo meo lontano gire; Honestus: Più non attendo il tuo soccorso, amore.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_6
 1	Maximus	magnus	ADJ	ams1ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	2	amod	_	_
 2	Guido	guido	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
@@ -6259,7 +6259,7 @@
 6	'l	l	X	zi	Foreign=Yes	4	flat:foreign	_	_
 7	fino	fino	X	zi	Foreign=Yes	4	flat:foreign	_	_
 8	amore	amore	X	zi	Foreign=Yes	4	flat:foreign	_	_
-9	ch'	ch	X	zi	Foreign=Yes	4	flat:foreign	_	_
+9	ch'	ch	X	zi	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 10	io	io	X	zi	Foreign=Yes	4	flat:foreign	_	_
 11	vi	ui	X	zi	Foreign=Yes	4	flat:foreign	_	_
 12	porto	porto	X	zi	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
@@ -9093,7 +9093,7 @@
 37	.	.	PUNCT	Pu	_	11	punct	_	_
 
 # sent_id = DVE-250
-# text = Bertramus etenim ait Non posc mudar c'un cantar non exparja; Arnaldus: L'aura amara fa·l bruol brancuz clarzir; Gerardus: Per solaz reveilar che s'es trop endormiz; Cynus: Digno sono eo di morte; amicus eius: Doglia mi reca ne lo core ardire.
+# text = Bertramus etenim ait Non posc mudar c'un cantar non exparia; Arnaldus: L'aura amara fa·l bruol brancuz clarzir; Gerardus: Per solaz reveilar che s'es trop endormiz; Cynus: Digno sono eo di morte; amicus eius: Doglia mi reca ne lo core ardire.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_8
 1	Bertramus	bertramus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	3	nsubj	_	_
 2	etenim	etenim	PART	co	Compound=Yes|Form=Emp	3	discourse	_	_
@@ -9105,7 +9105,7 @@
 8	un	un	X	zi	Foreign=Yes	4	flat:foreign	_	_
 9	cantar	cantar	X	zi	Foreign=Yes	4	flat:foreign	_	_
 10	non	non	X	zi	Foreign=Yes	4	flat:foreign	_	_
-11	exparja	exparja	X	zi	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+11	exparia	exparja	X	zi	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 12	;	;	PUNCT	Pu	_	13	punct	_	_
 13	Arnaldus	arnaldus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	3	conj	_	SpaceAfter=No
 14	:	:	PUNCT	Pu	_	15	punct	_	_
@@ -10366,7 +10366,7 @@
 39	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = DVE-287
-# text = Et hoc omnes doctores perpendisse videntur, cantiones illustres principiantes ab illo; ut Gerardus de B.: Ara ausirez encabalitz cantarz (quod carmen, licet decasillabum videatur, secundum rei veritatem endecasillabum est: nam due consonantes extreme non sunt de sillaba precedente, et licet propriam vocalem non habeant, virtutem sillabe non tamen ammictunt; signum autem est quod rithimus ibi una vocali perficitur, quod esse non posset nisi virtute alterius ibi subintellecte;) Rex Navarre: De fin amor si vient sen et bonté (ubi, si consideretur accentus et eius causa, endecasillabum esse constabit;) Guido Guinizelli: Al cor gentil repara sempre amore; Iudex de Columpnis de Messana: Amor, che lungiamente m' hai menato; Renaldus de Aquino: Per fino amore vo sì letamente; Cynus Pistoriensis: Non spero che giamai per mia salute; amicus eius: Amor, che movi tua virtù da cielo.
+# text = Et hoc omnes doctores perpendisse videntur, cantiones illustres principiantes ab illo; ut Gerardus de B.: Ara ausirez encabalitz cantarz (quod carmen, licet decasillabum videatur, secundum rei veritatem endecasillabum est: nam due consonantes extreme non sunt de sillaba precedente, et licet propriam vocalem non habeant, virtutem sillabe non tamen ammictunt; signum autem est quod rithimus ibi una vocali perficitur, quod esse non posset nisi virtute alterius ibi subintellecte;) Rex Navarre: De fin amor si vient sen et bonté (ubi, si consideretur accentus et eius causa, endecasillabum esse constabit;) Guido Guinizelli: Al cor gentil repara sempre amore; Iudex de Columpnis de Messana: Amor, che lungiamente m'hai menato; Renaldus de Aquino: Per fino amore vo sì letamente; Cynus Pistoriensis: Non spero che giamai per mia salute; amicus eius: Amor, che movi tua virtù da cielo.
 # citation_hierarchy = Liber_Secundus,v,Paragraphus_4
 1	Et	et	CCONJ	co	_	6	cc	_	_
 2	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	5	nsubj	_	_
@@ -10495,7 +10495,7 @@
 125	,	,	PUNCT	Pu	_	126	punct	_	_
 126	che	che	X	zi	Foreign=Yes	124	flat:foreign	_	_
 127	lungiamente	lungiamente	X	zi	Foreign=Yes	124	flat:foreign	_	_
-128	m'	m	X	zi	Foreign=Yes	124	flat:foreign	_	_
+128	m'	m	X	zi	Foreign=Yes	124	flat:foreign	_	SpaceAfter=No
 129	hai	hai	X	zi	Foreign=Yes	124	flat:foreign	_	_
 130	menato	menato	X	zi	Foreign=Yes	124	flat:foreign	_	SpaceAfter=No
 131	;	;	PUNCT	Pu	_	132	punct	_	_
@@ -11084,7 +11084,7 @@
 19	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = DVE-306
-# text = Hoc solum illustres cantiones inveniuntur contexte, ut Gerardus: Si per mos Sobretos non fos; Folquetus de Marsilia: Tan m' abellis l' amoros pensamen; Arnaldus Danielis: Sols sui che sai lo sobraffan che. m sorz; Namericus de Belnui: Nuls hom non pot complir addreciamen; Namericus de Peculiano: Si con l' arbres che per sobrecarcar; Rex Navarre: Ire d' amor que en mon cor repaire; Iudex de Messana: Ancor che l' aigua per lo foco lassi; Guido Guinizelli: Tegno de folle empresa a lo ver dire; Guido Cavalcantis: Poi che di doglia cor conven ch' io porti; Cynus de Pistorio: Avegna che io aggia più per tempo; amicus eius: Amor che ne la mente mi ragiona.
+# text = Hoc solum illustres cantiones inveniuntur contexte, ut Gerardus: Si per mos Sobretos non fos; Folquetus de Marsilia: Tan m'abellis l'amoros pensamen; Arnaldus Danielis: Sols sui che sai lo sobraffan che. m sorz; Namericus de Belnui: Nuls hom non pot complir addreciamen; Namericus de Peculiano: Si con l'arbres che per sobrecarcar; Rex Navarre: Ire d'amor que en mon cor repaire; Iudex de Messana: Ancor che l'aigua per lo foco lassi; Guido Guinizelli: Tegno de folle empresa a lo ver dire; Guido Cavalcantis: Poi che di doglia cor conven ch'io porti; Cynus de Pistorio: Avegna che io aggia più per tempo; amicus eius: Amor che ne la mente mi ragiona.
 # citation_hierarchy = Liber_Secundus,vi,Paragraphus_6
 1	Hoc	hic	DET	ddisnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	6	obl:arg	_	_
 2	solum	solum	ADV	r	PronType=Con	1	advmod:emph	_	_
@@ -11108,9 +11108,9 @@
 20	Marsilia	marsilia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	18	obl	_	SpaceAfter=No
 21	:	:	PUNCT	Pu	_	22	punct	_	_
 22	Tan	tan	X	zi	Foreign=Yes	18	orphan	_	_
-23	m'	m	X	zi	Foreign=Yes	22	flat:foreign	_	_
+23	m'	m	X	zi	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
 24	abellis	abellis	X	zi	Foreign=Yes	22	flat:foreign	_	_
-25	l'	l	X	zi	Foreign=Yes	22	flat:foreign	_	_
+25	l'	l	X	zi	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
 26	amoros	amoros	X	zi	Foreign=Yes	22	flat:foreign	_	_
 27	pensamen	pensamen	X	zi	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
 28	;	;	PUNCT	Pu	_	29	punct	_	_
@@ -11145,7 +11145,7 @@
 57	:	:	PUNCT	Pu	_	58	punct	_	_
 58	Si	si	X	zi	Foreign=Yes	54	orphan	_	_
 59	con	con	X	zi	Foreign=Yes	58	flat:foreign	_	_
-60	l'	l	X	zi	Foreign=Yes	58	flat:foreign	_	_
+60	l'	l	X	zi	Foreign=Yes	58	flat:foreign	_	SpaceAfter=No
 61	arbres	arbres	X	zi	Foreign=Yes	58	flat:foreign	_	_
 62	che	che	X	zi	Foreign=Yes	58	flat:foreign	_	_
 63	per	per	X	zi	Foreign=Yes	58	flat:foreign	_	_
@@ -11155,7 +11155,7 @@
 67	Navarre	nauarra	PROPN	Sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	66	nmod	_	SpaceAfter=No
 68	:	:	PUNCT	Pu	_	69	punct	_	_
 69	Ire	ire	X	zi	Foreign=Yes	66	orphan	_	_
-70	d'	d	X	zi	Foreign=Yes	69	flat:foreign	_	_
+70	d'	d	X	zi	Foreign=Yes	69	flat:foreign	_	SpaceAfter=No
 71	amor	amor	X	zi	Foreign=Yes	69	flat:foreign	_	_
 72	que	que	X	zi	Foreign=Yes	69	flat:foreign	_	_
 73	en	en	X	zi	Foreign=Yes	69	flat:foreign	_	_
@@ -11169,7 +11169,7 @@
 81	:	:	PUNCT	Pu	_	82	punct	_	_
 82	Ancor	ancor	X	zi	Foreign=Yes	78	orphan	_	_
 83	che	che	X	zi	Foreign=Yes	82	flat:foreign	_	_
-84	l'	l	X	zi	Foreign=Yes	82	flat:foreign	_	_
+84	l'	l	X	zi	Foreign=Yes	82	flat:foreign	_	SpaceAfter=No
 85	aigua	aigua	X	zi	Foreign=Yes	82	flat:foreign	_	_
 86	per	per	X	zi	Foreign=Yes	82	flat:foreign	_	_
 87	lo	lo	X	zi	Foreign=Yes	82	flat:foreign	_	_
@@ -11197,7 +11197,7 @@
 109	doglia	doglia	X	zi	Foreign=Yes	106	flat:foreign	_	_
 110	cor	cor	X	zi	Foreign=Yes	106	flat:foreign	_	_
 111	conven	conuen	X	zi	Foreign=Yes	106	flat:foreign	_	_
-112	ch'	ch	X	zi	Foreign=Yes	106	flat:foreign	_	_
+112	ch'	ch	X	zi	Foreign=Yes	106	flat:foreign	_	SpaceAfter=No
 113	io	io	X	zi	Foreign=Yes	106	flat:foreign	_	_
 114	porti	porti	X	zi	Foreign=Yes	106	flat:foreign	_	SpaceAfter=No
 115	;	;	PUNCT	Pu	_	116	punct	_	_
@@ -12390,7 +12390,7 @@
 22	.	.	PUNCT	Pu	_	21	punct	_	_
 
 # sent_id = DVE-340
-# text = Dicimus ergo quod cantio, in quantum per superexcellentiam dicitur, ut et nos querimus, est equalium stantiarum sine responsorio ad unam sententiam tragica coniugatio, ut nos ostendimus cum dicimus Donne che avete intelletto d' amore.
+# text = Dicimus ergo quod cantio, in quantum per superexcellentiam dicitur, ut et nos querimus, est equalium stantiarum sine responsorio ad unam sententiam tragica coniugatio, ut nos ostendimus cum dicimus Donne che avete intelletto d'amore.
 # citation_hierarchy = Liber_Secundus,viii,Paragraphus_8
 1	Dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	ergo	ergo	ADV	co	AdvType=Loc	1	discourse	_	_
@@ -12428,7 +12428,7 @@
 34	che	che	X	zi	Foreign=Yes	33	flat:foreign	_	_
 35	avete	auete	X	zi	Foreign=Yes	33	flat:foreign	_	_
 36	intelletto	intelletto	X	zi	Foreign=Yes	33	flat:foreign	_	_
-37	d'	d	X	zi	Foreign=Yes	33	flat:foreign	_	_
+37	d'	d	X	zi	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
 38	amore	amore	X	zi	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
 39	.	.	PUNCT	Pu	_	1	punct	_	_
 
@@ -12921,7 +12921,7 @@
 6	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = DVE-357
-# text = Quia quedam sunt sub una oda continua usque ad ultimum progressive, hoc est sine iteratione modulationis cuiusquam et sine diesi - et diesim dicimus deductionem vergentem de una oda in aliam (hanc voltam vocamus, cum vulgus alloquimur) -: et huiusmodi stantia usus est fere in omnibus cantionibus suis Arnaldus Danielis, et nos eum secuti sumus cum diximus Al poco giorno e al gran cerchio d' ombra.
+# text = Quia quedam sunt sub una oda continua usque ad ultimum progressive, hoc est sine iteratione modulationis cuiusquam et sine diesi - et diesim dicimus deductionem vergentem de una oda in aliam (hanc voltam vocamus, cum vulgus alloquimur) -: et huiusmodi stantia usus est fere in omnibus cantionibus suis Arnaldus Danielis, et nos eum secuti sumus cum diximus Al poco giorno e al gran cerchio d'ombra.
 # citation_hierarchy = Liber_Secundus,xi,Paragraphus_2
 1	Quia	quia	SCONJ	cs	PronType=Rel	6	mark	_	_
 2	quedam	quidam	DET	dinpfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Ind	6	nsubj	_	_
@@ -12993,7 +12993,7 @@
 68	al	al	X	zi	Foreign=Yes	64	flat:foreign	_	_
 69	gran	gran	X	zi	Foreign=Yes	64	flat:foreign	_	_
 70	cerchio	cerchio	X	zi	Foreign=Yes	64	flat:foreign	_	_
-71	d'	d	X	zi	Foreign=Yes	64	flat:foreign	_	_
+71	d'	d	X	zi	Foreign=Yes	64	flat:foreign	_	SpaceAfter=No
 72	ombra	ombra	X	zi	Foreign=Yes	64	flat:foreign	_	SpaceAfter=No
 73	.	.	PUNCT	Pu	_	6	punct	_	_
 
@@ -13742,7 +13742,7 @@
 18	.	.	PUNCT	Pu	_	17	punct	_	_
 
 # sent_id = DVE-383
-# text = Nam quedam stantia est que solis endecasillabis gaudet esse contexta, ut illa Guidonis de Florentia Donna me prega, perch' io voglio dire; et etiam nos dicimus Donne ch' avete intelletto d' amore.
+# text = Nam quedam stantia est que solis endecasillabis gaudet esse contexta, ut illa Guidonis de Florentia Donna me prega, perch'io voglio dire; et etiam nos dicimus Donne ch'avete intelletto d'amore.
 # citation_hierarchy = Liber_Secundus,xii,Paragraphus_3
 1	Nam	nam	PART	co	_	3	discourse	_	_
 2	quedam	quidam	DET	dinsfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	3	det	_	_
@@ -13764,7 +13764,7 @@
 18	me	me	X	zi	Foreign=Yes	17	flat:foreign	_	_
 19	prega	prega	X	zi	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	21	punct	_	_
-21	perch'	perch	X	zi	Foreign=Yes	17	flat:foreign	_	_
+21	perch'	perch	X	zi	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
 22	io	io	X	zi	Foreign=Yes	17	flat:foreign	_	_
 23	voglio	uoglio	X	zi	Foreign=Yes	17	flat:foreign	_	_
 24	dire	dire	X	zi	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
@@ -13774,10 +13774,10 @@
 28	nos	ego	PRON	ppp1pmn	Case=Nom|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
 29	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
 30	Donne	donne	X	zi	Foreign=Yes	29	obj	_	_
-31	ch'	ch	X	zi	Foreign=Yes	30	flat:foreign	_	_
+31	ch'	ch	X	zi	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
 32	avete	auete	X	zi	Foreign=Yes	30	flat:foreign	_	_
 33	intelletto	intelletto	X	zi	Foreign=Yes	30	flat:foreign	_	_
-34	d'	d	X	zi	Foreign=Yes	30	flat:foreign	_	_
+34	d'	d	X	zi	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
 35	amore	amore	X	zi	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
 36	.	.	PUNCT	Pu	_	3	punct	_	_
 
@@ -14043,7 +14043,7 @@
 41	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = DVE-391
-# text = Minime autem trisillabum in tragico videtur esse sumendum per se subsistens: et dico “per se subsistens” quia per quandam rithimorum repercussionem frequenter videtur assumptum, sicut inveniri potest in illa Guidonis Florentini Donna me prega, et in illa quam diximus Poscia ch' Amor del tutto m' ha lasciato.
+# text = Minime autem trisillabum in tragico videtur esse sumendum per se subsistens: et dico “per se subsistens” quia per quandam rithimorum repercussionem frequenter videtur assumptum, sicut inveniri potest in illa Guidonis Florentini Donna me prega, et in illa quam diximus Poscia ch'Amor del tutto m'ha lasciato.
 # citation_hierarchy = Liber_Secundus,xii,Paragraphus_8
 1	Minime	parum	ADV	rs	Degree=Abs	6	advmod	_	_
 2	autem	autem	CCONJ	co	_	6	cc	_	_
@@ -14090,11 +14090,11 @@
 43	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	44	obj	_	_
 44	diximus	dico	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	42	acl:relcl	_	_
 45	Poscia	poscia	X	zi	Foreign=Yes	42	appos	_	_
-46	ch'	ch	X	zi	Foreign=Yes	45	flat:foreign	_	_
+46	ch'	ch	X	zi	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
 47	Amor	amor	X	zi	Foreign=Yes|Proper=Yes	45	flat:foreign	_	_
 48	del	del	X	zi	Foreign=Yes	45	flat:foreign	_	_
 49	tutto	tutto	X	zi	Foreign=Yes	45	flat:foreign	_	_
-50	m'	m	X	zi	Foreign=Yes	45	flat:foreign	_	_
+50	m'	m	X	zi	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
 51	ha	ha	X	zi	Foreign=Yes	45	flat:foreign	_	_
 52	lasciato	lasciato	X	zi	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
 53	.	.	PUNCT	Pu	_	6	punct	_	_
@@ -14113,7 +14113,7 @@
 9	sed	sed	CCONJ	co	_	10	cc	_	_
 10	pars	pars	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	5	conj	_	_
 11	endecasillabi	endecasillabum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	10	nmod	_	_
-12	tantum	tantum	ADV	r	PronType=Dem	19	advmod:emph	_	_
+12	tantum	tantum	ADV	r	PronType=Dem	19	advmod	_	_
 13	ad	ad	ADP	e	AdpType=Prep	14	case	_	_
 14	rithimum	rhythmus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	19	obl:arg	_	_
 15	precedentis	praecedo	VERB	va3ppsng	Aspect=Imp|Case=Gen|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
@@ -14352,7 +14352,7 @@
 9	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = DVE-399
-# text = Unum est stantia sine rithimo, in qua nulla rithimorum habitudo actenditur: et huiusmodi stantiis usus est Arnaldus Danielis frequentissime, velut ibi: Se·m fos Amor de joi donar; et nos dicimus Al poco giorno.
+# text = Unum est stantia sine rithimo, in qua nulla rithimorum habitudo actenditur: et huiusmodi stantiis usus est Arnaldus Danielis frequentissime, velut ibi: Se·m fos Amor de ioi donar; et nos dicimus Al poco giorno.
 # citation_hierarchy = Liber_Secundus,xiii,Paragraphus_2
 1	Unum	unus	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	0	root	_	_
 2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
@@ -14385,7 +14385,7 @@
 29	fos	fos	X	zi	Foreign=Yes	26	flat:foreign	_	_
 30	Amor	amor	X	zi	Foreign=Yes|Proper=Yes	26	flat:foreign	_	_
 31	de	de	X	zi	Foreign=Yes	26	flat:foreign	_	_
-32	joi	joi	X	zi	Foreign=Yes	26	flat:foreign	_	_
+32	ioi	joi	X	zi	Foreign=Yes	26	flat:foreign	_	_
 33	donar	donar	X	zi	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
 34	;	;	PUNCT	Pu	_	37	punct	_	_
 35	et	et	CCONJ	co	_	37	cc	_	_
@@ -14740,8 +14740,8 @@
 50	,	,	PUNCT	Pu	_	51	punct	_	_
 51	quando	quando	SCONJ	cs	PronType=Rel	59	mark	_	SpaceAfter=No
 52	,	,	PUNCT	Pu	_	51	punct	_	_
-53	pars	pars	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	59	advcl:pred	_	_
-54	existens	existo	VERB	va3ppsnn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	53	acl	_	_
+53	pars	pars	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	54	nsubj	_	_
+54	existens	existo	VERB	va3ppsnn	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	59	advcl:pred	_	_
 55	endecasillabi	endecasillabum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	53	nmod	_	SpaceAfter=No
 56	,	,	PUNCT	Pu	_	53	punct	_	_
 57	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	58	mark	_	_
