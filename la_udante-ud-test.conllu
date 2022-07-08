@@ -10313,7 +10313,7 @@
 21	usu	usus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	23	obl	_	_
 22	frequentiori	frequens	ADJ	ams2bc	Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	21	amod	_	_
 23	habentur	habeo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-24	,	,	PUNCT	Pu	_	30	punct	_	_
+24	,	,	PUNCT	Pu	_	28	punct	_	_
 25	et	et	CCONJ	co	_	28	cc	_	_
 26	post	post	ADP	e	_	27	case	_	_
 27	hec	hic	DET	ddipna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	28	orphan	_	_
