@@ -11308,7 +11308,7 @@
 61	omne	omnis	DET	dinsnn	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	68	nsubj:pass	_	_
 62	ergo	ergo	ADV	co	AdvType=Loc	68	discourse	_	_
 63	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	65	nsubj:pass	_	_
-64	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	nsubj:pass	_	_
+64	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	aux:pass	_	_
 65	causatum	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	61	acl:relcl	_	SpaceAfter=No
 66	,	,	PUNCT	Pu	_	65	punct	_	_
 67	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	aux:pass	_	_
