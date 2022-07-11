@@ -14983,7 +14983,7 @@
 29	,	,	PUNCT	Pu	_	31	punct	_	_
 30	homo	homo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	31	xcomp:pred	_	_
 31	factus	facio	VERB	vp3prsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	34	acl	_	SpaceAfter=No
-32	,	,	PUNCT	Pu	_	27	punct	_	_
+32	,	,	PUNCT	Pu	_	31	punct	_	_
 33	homo	homo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	34	advcl:pred	_	_
 34	conscriberetur	conscribo	VERB	vp3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	advcl	_	SpaceAfter=No
 35	:	:	PUNCT	Pu	_	36	punct	_	_
