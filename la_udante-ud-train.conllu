@@ -9249,7 +9249,7 @@
 42	ancilia	ancile	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	44	obj	_	_
 43	nostra	noster	DET	dsnpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	42	det	_	_
 44	ferentes	fero	VERB	va5pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	41	acl	_	SpaceAfter=No
-45	.	.	PUNCT	Pu	_	0	root	_	_
+45	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = Mon-249
 # text = Cumque Galli, reliqua urbe iam capta, noctis tenebris confisi Capitolium furtim subirent, quod solum restabat ad ultimum interitum romani nominis, anserem ibi non ante visum cecinisse Gallos adesse atque custodes ad defensandum Capitolium excitasse Livius et multi scriptores illustres concorditer contestantur.
