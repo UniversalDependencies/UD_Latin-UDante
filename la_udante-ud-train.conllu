@@ -6703,10 +6703,10 @@
 # text = Nec ista una potest esse, nisi sit princeps unus omnium, cuius voluntas domina et regulatrix aliarum omnium esse possit.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_9
 1	Nec	nec	CCONJ	co	Polarity=Neg	4	cc	_	_
-2	ista	iste	DET	ddisfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	ista	iste	DET	ddisfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	3	det	_	_
 3	una	unus	NUM	aufsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumForm=Word|NumType=Card	4	csubj	_	_
 4	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	3	cop	_	SpaceAfter=No
+5	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	9	punct	_	_
 7	nisi	nisi	SCONJ	cs	Polarity=Neg	9	mark	_	_
 8	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
