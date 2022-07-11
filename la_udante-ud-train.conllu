@@ -4046,7 +4046,7 @@
 13	:	:	PUNCT	Pu	_	18	punct	_	_
 14	omne	omnis	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	15	det	_	_
 15	diligibile	diligibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	18	nsubj:pass	_	_
-16	tanto	tanto	ADV	r	PronType=Dem	17	advmod	_	_
+16	tanto	tanto	ADV	r	PronType=Dem	17	advmod:emph	_	_
 17	magis	magis	ADV	rc	Degree=Cmp	18	advmod	_	_
 18	diligitur	diligo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	conj:expl	_	_
 19	quanto	quanto	SCONJ	r	PronType=Rel	20	mark	_	_
@@ -4061,15 +4061,15 @@
 28	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 29	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	31	mark	_	_
 30	aliis	alius	DET	dpmpd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	31	det	_	_
-31	principibus	princeps	NOUN	smp3d	Case=Dat|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Plur	27	advcl:cmpr	_	SpaceAfter=No
+31	principibus	princeps	NOUN	smp3d	Case=Dat|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Plur	26	advcl:cmpr	_	SpaceAfter=No
 32	:	:	PUNCT	Pu	_	37	punct	_	_
 33	ergo	ergo	ADV	co	AdvType=Loc	37	advmod:lmod	_	_
 34	ab	ab	ADP	e	_	35	case	_	_
-35	eo	is	PRON	ddesmb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	37	obl:arg	_	_
+35	eo	is	PRON	ddesmb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	37	obl:agent	_	_
 36	maxime	magis	ADV	rs	Degree=Abs	37	advmod	_	_
 37	diliguntur	diligo	VERB	vp3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	conj	_	_
 38	vel	uel	CCONJ	co	_	40	cc	_	_
-39	diligi	diligo	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	40	csubj:pass	_	_
+39	diligi	diligo	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	40	xcomp	_	_
 40	debent	debeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	conj	_	SpaceAfter=No
 41	.	.	PUNCT	Pu	_	11	punct	_	_
 
