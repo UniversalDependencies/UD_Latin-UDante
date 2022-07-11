@@ -7829,7 +7829,7 @@
 # text = Et iterum ex hoc sequitur quod ius in rebus nichil est aliud quam similitudo divine voluntatis; unde fit quod quicquid divine voluntati non consonat, ipsum ius esse non possit, et quicquid divine voluntati est consonum, ius ipsum sit.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_5
 1	Et	et	CCONJ	co	_	5	cc	_	_
-2	iterum	iterum	ADV	r	Degree=Cmp	5	advmod	_	_
+2	iterum	iterum	ADV	r	AdvType=Tim	5	advmod	_	_
 3	ex	ex	ADP	e	_	4	case	_	_
 4	hoc	hic	DET	ddisnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	5	obl	_	_
 5	sequitur	sequor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
