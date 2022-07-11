@@ -8927,7 +8927,7 @@
 3	Phylosophus	philosophus	NOUN	Sms2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	2	nsubj	_	_
 4	in	in	ADP	e	_	5	case	_	_
 5	secundo	secundus	ADJ	aums1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord|VerbForm=Gdv	2	obl	_	_
-6	Metaphysicorum	metaphysicus	ADJ	Snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	5	nmod	_	SpaceAfter=No
+6	Metaphysicorum	metaphysicus	ADJ	Snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Lit|Number=Plur|Proper=Yes	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	2	punct	_	_
 8	«	«	PUNCT	r	_	18	punct	_	SpaceAfter=No
 9	sicut	sicut	SCONJ	r	Compound=Yes|ConjType=Cmpr	12	mark	_	_
@@ -8962,12 +8962,12 @@
 38	subiecto	subiectum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	35	advcl:cmpr	_	SpaceAfter=No
 39	,	,	PUNCT	Pu	_	28	punct	_	_
 40	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
-41	similitudo	similitudo	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	0	root	_	_
+41	similitudo	similitudo	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	18	advcl:pred	_	_
 42	perfecta	perfectus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	41	amod	_	_
 43	rei	res	NOUN	sfs5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing	41	nmod	_	_
 44	sicut	sicut	SCONJ	r	Compound=Yes|ConjType=Cmpr	45	mark	_	_
 45	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl:cmpr	_	SpaceAfter=No
-46	.	.	PUNCT	Pu	_	2	punct	_	_
+46	.	.	PUNCT	Pu	_	18	punct	_	_
 
 # sent_id = Epi-252
 # text = Eorum vero que sunt, quedam sic sunt ut habeant esse absolutum in se; quedam sunt ita ut habeant esse dependens ab alio per relationem quandam, ut eodem tempore esse et ad aliud se habere ut relativa; sicut pater et filius, dominus et servus, duplum et dimidium, totum et pars, et huiusmodi, in quantum talia.
