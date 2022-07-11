@@ -9026,20 +9026,20 @@
 # sent_id = Mon-243
 # text = Unde ipse probat soli Deo competere miracula operari: quod autoritate Moysi roboratur ubi, cum ventum est ad sciniphes, magi Pharaonis naturalibus principiis artificiose utentes et ibi deficientes dixerunt: «Digitus Dei est hic».
 # citation_hierarchy = Liber_Secundus,iv,Paragraphus_2
-1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	3	cc	_	_
+1	Unde	unde	ADV	r	AdvType=Loc|PronType=Rel	3	advmod:lmod	_	_
 2	ipse	ipse	DET	ddesmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	probat	probo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	soli	solus	DET	dpmsd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	5	det	_	_
 5	Deo	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	6	obl:arg	_	_
-6	competere	competo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	csubj	_	_
+6	competere	competo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	ccomp	_	_
 7	miracula	miraculum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	8	obj	_	_
 8	operari	operor	VERB	vd1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	6	csubj	_	SpaceAfter=No
 9	:	:	PUNCT	Pu	_	13	punct	_	_
 10	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	13	nsubj:pass	_	_
 11	autoritate	auctoritas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	13	obl:agent	_	_
-12	Moysi	moyses	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	11	nmod	_	_
-13	roboratur	roboro	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
-14	ubi	ubi	SCONJ	r	AdvType=Loc|PronType=Rel	31	mark	_	SpaceAfter=No
+12	Moysi	moyses	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing|Variant=Greek	11	nmod	_	_
+13	roboratur	roboro	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+14	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	13	obl:lmod	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	14	punct	_	_
 16	cum	cum	SCONJ	cs	PronType=Rel	17	mark	_	_
 17	ventum	uenio	VERB	vp4*irs3	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	31	advcl	_	_
@@ -9048,21 +9048,21 @@
 20	sciniphes	sciniphes	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	17	obl	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	17	punct	_	_
 22	magi	magus	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	31	nsubj	_	_
-23	Pharaonis	pharaon	PROPN	Sms3	Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	22	nmod	_	_
+23	Pharaonis	pharao	PROPN	Sms3	Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	22	nmod	_	_
 24	naturalibus	naturalis	ADJ	anp2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur	25	amod	_	_
-25	principiis	principium	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	27	obl	_	_
+25	principiis	principium	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	27	obl:arg	_	_
 26	artificiose	artificiose	ADV	r	_	27	advmod	_	_
-27	utentes	utor	VERB	vd3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	22	acl	_	_
+27	utentes	utor	VERB	vd3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	31	advcl:pred	_	_
 28	et	et	CCONJ	co	_	30	cc	_	_
 29	ibi	ibi	ADV	r	AdvType=Loc	30	advmod:lmod	_	_
 30	deficientes	deficio	VERB	va3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	27	conj	_	_
-31	dixerunt	dico	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	SpaceAfter=No
+31	dixerunt	dico	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No
 32	:	:	PUNCT	Pu	_	34	punct	_	_
 33	«	«	PUNCT	Pu	_	34	punct	_	SpaceAfter=No
-34	Digitus	digitus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	31	parataxis:rep	_	_
+34	Digitus	digitus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	31	ccomp:reported	_	_
 35	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	34	nmod	_	_
 36	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
-37	hic	hic	ADV	ddismn	_	34	advmod	_	SpaceAfter=No
+37	hic	hic	ADV	ddismn	AdvType=Loc|PronType=Dem	34	advmod:lmod	_	SpaceAfter=No
 38	»	»	PUNCT	Pu	_	34	punct	_	SpaceAfter=No
 39	.	.	PUNCT	Pu	_	3	punct	_	_
 
