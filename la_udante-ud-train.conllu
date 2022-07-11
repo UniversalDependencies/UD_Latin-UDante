@@ -9174,8 +9174,8 @@
 # text = Nam sub Numa Pompilio, secundo Romanorum rege, ritu Gentilium sacrificante, ancile de celo in urbem Deo electam delapsum fuisse Livius in prima parte testatur.
 # citation_hierarchy = Liber_Secundus,iv,Paragraphus_5
 1	Nam	nam	PART	co	_	27	discourse	_	_
-2	sub	sub	ADP	e	_	3	case	_	_
-3	Numa	numa	PROPN	Sms1b	Case=Abl|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	21	obl	_	_
+2	sub	sub	ADP	e	_	12	mark	_	_
+3	Numa	numa	PROPN	Sms1b	Case=Abl|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	12	nsubj	_	_
 4	Pompilio	pompilius	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	3	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	8	punct	_	_
 6	secundo	secundus	ADJ	aums1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord|VerbForm=Gdv	8	amod	_	_
@@ -9183,17 +9183,17 @@
 8	rege	rex	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	3	appos	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	12	punct	_	_
 10	ritu	ritus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	12	obl	_	_
-11	Gentilium	gentilis	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur|Proper=Yes	10	nmod	_	_
-12	sacrificante	sacrifico	VERB	va1ppsmb	Aspect=Imp|Case=Abl|Compound=Yes|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	3	acl	_	SpaceAfter=No
-13	,	,	PUNCT	Pu	_	3	punct	_	_
+11	Gentilium	gentilis	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	10	nmod	_	_
+12	sacrificante	sacrifico	VERB	va1ppsmb	Aspect=Imp|Case=Abl|Compound=Yes|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	21	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	Pu	_	12	punct	_	_
 14	ancile	ancile	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	21	nsubj	_	_
 15	de	de	ADP	e	_	16	case	_	_
-16	celo	caelum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	21	obl:arg	_	_
+16	celo	caelum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	21	obl:lmod	_	_
 17	in	in	ADP	e	_	18	case	_	_
-18	urbem	urbs	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	21	obl	_	_
-19	Deo	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	20	obl:arg	_	_
-20	electam	electus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	18	acl	_	_
-21	delapsum	delabor	VERB	vd3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	27	csubj:pass	_	_
+18	urbem	urbs	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	21	obl:lmod	_	_
+19	Deo	deus	NOUN	Sms2	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	20	obl:agent	_	_
+20	electam	eligo	VERB	afs1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+21	delapsum	delabor	VERB	vd3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	27	ccomp	_	_
 22	fuisse	sum	AUX	va5fr	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf	21	aux:pass	_	_
 23	Livius	liuius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	27	nsubj	_	_
 24	in	in	ADP	e	_	26	case	_	_
