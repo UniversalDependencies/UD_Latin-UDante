@@ -5844,18 +5844,18 @@
 9	se	sui	PRON	ppp3pna	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	1	obl	_	_
 10	proprietates	proprietas	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	1	obj	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	16	punct	_	_
-12	quas	qui	PRON	prepfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	16	nsubj	_	_
-13	legibus	lex	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	15	obl:arg	_	_
+12	quas	qui	PRON	prepfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	15	nsubj:pass	_	_
+13	legibus	lex	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	15	obl:agent	_	_
 14	differentibus	differens	ADJ	afp2b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur	13	amod	_	_
-15	regulari	regulo	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	16	csubj:pass	_	_
+15	regulari	regulo	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	16	csubj	_	_
 16	oportet	oportet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	SpaceAfter=No
 17	:	:	PUNCT	Pu	_	21	punct	_	_
 18	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 19	enim	enim	PART	c	Form=Emp	21	discourse	_	_
 20	lex	lex	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	21	nsubj	_	_
-21	regula	regula	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	10	conj	_	_
+21	regula	regula	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	16	conj	_	_
 22	directiva	directiuus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	21	amod	_	_
-23	vite	uita	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	22	nmod	_	SpaceAfter=No
+23	vite	uita	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Mon-159
