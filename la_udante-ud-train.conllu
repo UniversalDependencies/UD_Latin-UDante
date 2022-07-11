@@ -6415,7 +6415,7 @@
 # sent_id = Mon-174
 # text = Que quidem radix apparebit, si natura vel ratio concordie summatur: est enim concordia uniformis motus plurium voluntatum; in qua quidem ratione apparet unitatem voluntatum, que per uniformem motum datur intelligi, concordie radicem esse vel ipsam concordiam.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_5
-1	Que	qui	PRON	prepnn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dim	3	det	_	_
+1	Que	qui	PRON	prepnn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	3	det	_	_
 2	quidem	quidem	PART	r	_	4	discourse	_	_
 3	radix	radix	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	4	nsubj	_	_
 4	apparebit	appareo	VERB	va2ifs3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -6424,14 +6424,14 @@
 7	natura	natura	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	11	nsubj:pass	_	_
 8	vel	uel	CCONJ	co	_	9	cc	_	_
 9	ratio	ratio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	conj	_	_
-10	concordie	concordia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	9	nmod	_	_
+10	concordie	concordia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	7	nmod	_	_
 11	summatur	sumo	VERB	vp3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	SpaceAfter=No
 12	:	:	PUNCT	Pu	_	17	punct	_	_
 13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 14	enim	enim	PART	c	Form=Emp	17	discourse	_	_
 15	concordia	concordia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	17	nsubj	_	_
 16	uniformis	uniformis	ADJ	ams2n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurI|Number=Sing	17	amod	_	_
-17	motus	motus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	11	conj	_	_
+17	motus	motus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	7	conj:expl	_	_
 18	plurium	multus	DET	afp1gc	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur|NumType=Card|PronType=Ind	19	det	_	_
 19	voluntatum	uoluntas	NOUN	sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur	17	nmod	_	SpaceAfter=No
 20	;	;	PUNCT	Pu	_	25	punct	_	_
@@ -6439,14 +6439,14 @@
 22	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	24	det	_	_
 23	quidem	quidem	PART	r	_	25	discourse	_	_
 24	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	25	obl	_	_
-25	apparet	appareo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+25	apparet	appareo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 26	unitatem	unitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	37	nsubj	_	_
 27	voluntatum	uoluntas	NOUN	sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur	26	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	33	punct	_	_
-29	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	33	nsubj:pass	_	_
+29	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	34	nsubj:pass	_	_
 30	per	per	ADP	e	_	32	case	_	_
 31	uniformem	uniformis	ADJ	ams2a	Case=Acc|Compound=Yes|Gender=Masc|InflClass=IndEurI|Number=Sing	32	amod	_	_
-32	motum	motus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	33	obl	_	_
+32	motum	motus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	34	obl	_	_
 33	datur	do	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	acl:relcl	_	_
 34	intelligi	intelligo	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	33	csubj:pass	_	SpaceAfter=No
 35	,	,	PUNCT	Pu	_	26	punct	_	_
