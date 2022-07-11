@@ -4033,8 +4033,8 @@
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_15
 1	Et	et	CCONJ	co	_	11	cc	_	_
 2	quod	quod	SCONJ	cs	PronType=Rel	9	mark	_	_
-3	Monarche	monarcha	NOUN	sms1d	Case=Dat|Gender=Masc|InflClass=IndEurA|Number=Sing	9	obl:arg	_	_
-4	maxime	magis	ADV	rs	Degree=Abs	9	advmod	_	_
+3	Monarche	monarcha	NOUN	sms1d	Case=Dat|Gender=Masc|InflClass=IndEurA|Number=Sing	8	obl:arg	_	_
+4	maxime	magis	ADV	rs	Degree=Abs	8	advmod	_	_
 5	hominum	homo	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	7	nmod	_	_
 6	recta	rectus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	7	amod	_	_
 7	dilectio	dilectio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	9	nsubj	_	_
