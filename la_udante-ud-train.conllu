@@ -8254,7 +8254,7 @@
 # sent_id = Mon-222
 # text = Subassumptam vero testimonia veterum persuadent; nam divinus poeta noster Virgilius per totam Eneydem gloriosissimum regem Eneam patrem romani populi fuisse testatur in memoriam sempiternam; quod Titus Livius, gestorum romanorum scriba egregius, in prima parte sui voluminis, que a capta Troya summit exordium, contestatur.
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_6
-1	Subassumptam	subassummo	VERB	vp3prsfa	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	5	obj	_	_
+1	Subassumptam	subassumo	VERB	vp3prsfa	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	5	obj	_	_
 2	vero	uero	ADV	r	_	5	discourse	_	_
 3	testimonia	testimonium	NOUN	snp2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	5	nsubj	_	_
 4	veterum	uetus	ADJ	amp2g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	3	nmod	_	_
