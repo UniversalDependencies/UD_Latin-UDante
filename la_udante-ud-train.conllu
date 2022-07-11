@@ -18077,7 +18077,7 @@
 31	directivis	directiuum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	33	obl:arg	_	_
 32	non	non	PART	r	Polarity=Neg	33	advmod:neg	_	_
 33	indiguisset	indigeo	VERB	va2c+s3	Aspect=Perf|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-34	:	:	PUNCT	Pu	_	38	punct	_	_
+34	:	:	PUNCT	Pu	_	39	punct	_	_
 35	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
 36	ergo	ergo	ADV	co	AdvType=Loc	39	discourse	_	_
 37	huiusmodi	huiusmodi	DET	r	Compound=Yes|InflClass=Ind|PronType=Dem	38	det	_	_
