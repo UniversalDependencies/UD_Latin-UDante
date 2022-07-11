@@ -8923,7 +8923,7 @@
 # text = Sicut dicit Phylosophus in secundo Metaphysicorum, «sicut res se habet ad esse, sic se habet ad veritatem»; cuius ratio est, quia veritas de re, que in veritate consistit tanquam in subiecto, est similitudo perfecta rei sicut est.
 # citation_hierarchy = XIII,Paragraphus_14
 1	Sicut	sicut	SCONJ	r	Compound=Yes|ConjType=Cmpr	2	mark	_	_
-2	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl:cmpr	_	_
 3	Phylosophus	philosophus	NOUN	Sms2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	2	nsubj	_	_
 4	in	in	ADP	e	_	5	case	_	_
 5	secundo	secundus	ADJ	aums1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord|VerbForm=Gdv	2	obl	_	_
@@ -8939,14 +8939,14 @@
 15	,	,	PUNCT	Pu	_	12	punct	_	_
 16	sic	sic	ADV	r	PronType=Dem	18	advmod	_	_
 17	se	sui	PRON	ppp3snb	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	_
-18	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis:rep	_	_
+18	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 19	ad	ad	ADP	e	_	20	case	_	_
 20	veritatem	ueritas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	18	obl	_	SpaceAfter=No
 21	»	»	PUNCT	sfs3a	_	18	punct	_	SpaceAfter=No
-22	;	;	PUNCT	Pu	_	25	punct	_	_
+22	;	;	PUNCT	Pu	_	41	punct	_	_
 23	cuius	qui	PRON	presng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	24	nmod	_	_
-24	ratio	ratio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	25	nsubj	_	_
-25	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+24	ratio	ratio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	41	nsubj:outer	_	_
+25	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	27	punct	_	_
 27	quia	quia	SCONJ	cs	PronType=Rel	41	mark	_	_
 28	veritas	ueritas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	41	nsubj	_	_
@@ -8962,7 +8962,7 @@
 38	subiecto	subiectum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	35	advcl:cmpr	_	SpaceAfter=No
 39	,	,	PUNCT	Pu	_	28	punct	_	_
 40	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
-41	similitudo	similitudo	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	25	ccomp	_	_
+41	similitudo	similitudo	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	0	root	_	_
 42	perfecta	perfectus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	41	amod	_	_
 43	rei	res	NOUN	sfs5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing	41	nmod	_	_
 44	sicut	sicut	SCONJ	r	Compound=Yes|ConjType=Cmpr	45	mark	_	_
