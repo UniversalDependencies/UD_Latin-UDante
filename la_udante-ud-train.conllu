@@ -6415,7 +6415,7 @@
 # sent_id = Mon-174
 # text = Que quidem radix apparebit, si natura vel ratio concordie summatur: est enim concordia uniformis motus plurium voluntatum; in qua quidem ratione apparet unitatem voluntatum, que per uniformem motum datur intelligi, concordie radicem esse vel ipsam concordiam.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_5
-1	Que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	3	det	_	_
+1	Que	qui	PRON	prepnn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dim	3	det	_	_
 2	quidem	quidem	PART	r	_	4	discourse	_	_
 3	radix	radix	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	4	nsubj	_	_
 4	apparebit	appareo	VERB	va2ifs3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
