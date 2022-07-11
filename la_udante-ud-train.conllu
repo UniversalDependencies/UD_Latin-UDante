@@ -3766,20 +3766,20 @@
 6	iustitie	iustitia	NOUN	sfs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	7	obl:arg	_	_
 7	restat	resto	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	adversum	aduerto	VERB	ans1n	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	7	xcomp:pred	_	SpaceAfter=No
-9	;	;	PUNCT	Pu	_	11	punct	_	_
-10	unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	11	cc	_	_
-11	sententia	sententia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	7	conj	_	_
-12	Phylosophi	philosophus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	11	nmod	_	_
-13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-14	ut	ut	SCONJ	cs	ConjType=Cmpr	22	mark	_	_
-15	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	18	nsubj	_	_
+9	;	;	PUNCT	Pu	_	22	punct	_	_
+10	unde	unde	ADV	r	AdvType=Loc|PronType=Rel	22	advmod	_	_
+11	sententia	sententia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	22	nsubj:outer	_	_
+12	Phylosophi	philosophus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	11	nmod	_	_
+13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+14	ut	ut	SCONJ	cs	_	22	mark	_	_
+15	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	22	nsubj:pass	_	_
 16	lege	lex	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	17	obl:agent	_	_
-17	determinari	determino	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	18	csubj:pass	_	_
-18	possunt	possum	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
-19	nullo	nullus	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Neg	20	det	_	_
+17	determinari	determino	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	18	xcomp	_	_
+18	possunt	possum	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+19	nullo	nullus	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind	20	det	_	_
 20	modo	modus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	22	obl	_	_
 21	iudici	iudex	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	22	obl:arg	_	_
-22	relinquantur	relinquo	VERB	vp3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	SpaceAfter=No
+22	relinquantur	relinquo	VERB	vp3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	SpaceAfter=No
 23	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = Mon-102
