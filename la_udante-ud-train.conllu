@@ -7829,7 +7829,7 @@
 # text = Et iterum ex hoc sequitur quod ius in rebus nichil est aliud quam similitudo divine voluntatis; unde fit quod quicquid divine voluntati non consonat, ipsum ius esse non possit, et quicquid divine voluntati est consonum, ius ipsum sit.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_5
 1	Et	et	CCONJ	co	_	5	cc	_	_
-2	iterum	iterum	ADV	r	AdvType=Tim	5	advmod	_	_
+2	iterum	iterum	ADV	r	AdvType=Tim	5	advmod:tmod	_	_
 3	ex	ex	ADP	e	_	4	case	_	_
 4	hoc	hic	DET	ddisnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	5	obl	_	_
 5	sequitur	sequor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -7845,25 +7845,25 @@
 15	divine	diuinus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	16	amod	_	_
 16	voluntatis	uoluntas	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	14	nmod	_	SpaceAfter=No
 17	;	;	PUNCT	Pu	_	19	punct	_	_
-18	unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	19	cc	_	_
-19	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
-20	quod	quod	SCONJ	cs	PronType=Rel	19	mark	_	_
-21	quicquid	quisquis	PRON	prisnn	Case=Nom|Form=Emp|Gender=Neut|Number=Sing|PronType=Rel	19	nsubj	_	_
+18	unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	19	advmod:lmod	_	_
+19	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	_
+20	quod	quod	SCONJ	cs	PronType=Rel	31	mark	_	_
+21	quicquid	quisquis	PRON	prisnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	31	nsubj	_	_
 22	divine	diuinus	ADJ	afs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	23	amod	_	_
-23	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	25	nmod	_	_
+23	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	25	obl:arg	_	_
 24	non	non	PART	r	Polarity=Neg	25	advmod:neg	_	_
 25	consonat	consono	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	31	punct	_	_
-27	ipsum	ipse	DET	dpnsa	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	31	nsubj	_	_
+27	ipsum	ipse	DET	dpnsa	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	28	det	_	_
 28	ius	ius	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	31	xcomp	_	_
 29	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	28	cop	_	_
 30	non	non	PART	r	Polarity=Neg	31	advmod:neg	_	_
 31	possit	possum	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	csubj	_	SpaceAfter=No
 32	,	,	PUNCT	Pu	_	33	punct	_	_
 33	et	et	CCONJ	co	_	40	cc	_	_
-34	quicquid	quisquis	PRON	prisnn	Case=Nom|Form=Emp|Gender=Neut|Number=Sing|PronType=Rel	40	nsubj	_	_
+34	quicquid	quisquis	PRON	prisnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	40	nsubj	_	_
 35	divine	diuinus	ADJ	afs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	36	amod	_	_
-36	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	38	nmod	_	_
+36	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	38	obl:arg	_	_
 37	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
 38	consonum	consonus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	34	acl:relcl	_	SpaceAfter=No
 39	,	,	PUNCT	Pu	_	34	punct	_	_
