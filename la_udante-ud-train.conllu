@@ -6431,7 +6431,7 @@
 14	enim	enim	PART	c	Form=Emp	17	discourse	_	_
 15	concordia	concordia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	17	nsubj	_	_
 16	uniformis	uniformis	ADJ	ams2n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurI|Number=Sing	17	amod	_	_
-17	motus	motus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	7	conj:expl	_	_
+17	motus	motus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	11	conj:expl	_	_
 18	plurium	multus	DET	afp1gc	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur|NumType=Card|PronType=Ind	19	det	_	_
 19	voluntatum	uoluntas	NOUN	sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur	17	nmod	_	SpaceAfter=No
 20	;	;	PUNCT	Pu	_	25	punct	_	_
