@@ -3914,20 +3914,20 @@
 # sent_id = Mon-107
 # text = Cui ergo maxime recta dilectio inesse potest, potissimum locum in illo potest habere iustitia; huiusmodi est Monarcha: ergo, eo existente, iustitia potissima est vel esse potest.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_13
-1	Cui	qui	PRON	presmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	7	obl:arg	_	_
-2	ergo	ergo	ADV	co	AdvType=Loc	7	discourse	_	_
+1	Cui	qui	PRON	presmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	13	dislocated:obl	_	_
+2	ergo	ergo	ADV	co	AdvType=Loc	13	discourse	_	_
 3	maxime	magis	ADV	rs	Degree=Abs	7	advmod	_	_
 4	recta	rectus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	5	amod	_	_
 5	dilectio	dilectio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	nsubj	_	_
-6	inesse	insum	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	7	csubj	_	_
-7	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	SpaceAfter=No
+6	inesse	insum	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+7	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	7	punct	_	_
 9	potissimum	potis	ADJ	ams2as	Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurI|Number=Sing	10	amod	_	_
 10	locum	locus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	13	obj	_	_
 11	in	in	ADP	e	_	12	case	_	_
-12	illo	ille	DET	ddismb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	13	obl	_	_
+12	illo	ille	DET	ddismb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	13	obl:lmod	_	_
 13	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-14	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	13	csubj	_	_
+14	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	13	xcomp	_	_
 15	iustitia	iustitia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj	_	SpaceAfter=No
 16	;	;	PUNCT	Pu	_	17	punct	_	_
 17	huiusmodi	huiusmodi	DET	r	Compound=Yes|InflClass=Ind|PronType=Dem	13	conj	_	_
@@ -3943,7 +3943,7 @@
 27	potissima	potis	ADJ	afs2ns	Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurI|Number=Sing	17	conj	_	_
 28	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 29	vel	uel	CCONJ	co	_	31	cc	_	_
-30	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	31	aux	_	_
+30	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	31	xcomp	_	_
 31	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	SpaceAfter=No
 32	.	.	PUNCT	Pu	_	13	punct	_	_
 
