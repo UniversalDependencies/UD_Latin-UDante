@@ -17181,7 +17181,7 @@
 21	iudicem	iudex	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	22	obj	_	_
 22	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	23	xcomp	_	_
 23	nolunt	nolo	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
-24	.	.	PUNCT	Pu	_	1	punct	_	_
+24	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = Mon-460
 # text = Nam cur ad eos ratio quereretur, cum sua cupiditate detenti principia non viderent?
