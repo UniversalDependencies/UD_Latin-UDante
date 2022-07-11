@@ -15578,7 +15578,7 @@
 12	sub	sub	ADP	e	_	13	case	_	_
 13	signo	signum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	9	conj	_	_
 14	senatus	senatus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing	13	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	Pu	_	29	punct	_	_
+15	,	,	PUNCT	Pu	_	20	punct	_	_
 16	sed	sed	CCONJ	co	_	20	cc	_	_
 17	rex	rex	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	20	xcomp:pred	_	_
 18	regno	regnum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	20	obl:lmod	_	_
@@ -15593,7 +15593,7 @@
 27	sibi	sui	PRON	ppp3smd	Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	28	obl:arg	_	_
 28	commissi	committo	VERB	vp3prsng	Aspect=Perf|Case=Gen|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	26	acl	_	_
 29	gubernans	guberno	VERB	va1ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	7	conj	_	SpaceAfter=No
-30	.	.	PUNCT	Pu	_	5	punct	_	_
+30	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = Mon-419
 # text = Desinant igitur Imperium exprobrare romanum qui se filios Ecclesie fingunt, cum videant sponsum Cristum illud sic in utroque termino sue militie comprobasse.
