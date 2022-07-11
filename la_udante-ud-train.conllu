@@ -8271,8 +8271,8 @@
 15	gloriosissimum	gloriosus	ADJ	ams1as	Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	16	amod	_	_
 16	regem	rex	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	18	nsubj	_	_
 17	Eneam	aeneas	PROPN	Sms1a	Case=Acc|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	16	flat	_	_
-18	patrem	pater	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	22	csubj	_	_
-19	romani	romanus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	20	amod	_	_
+18	patrem	pater	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	22	ccomp	_	_
+19	romani	romanus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Sing	20	amod	_	_
 20	populi	populus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	18	nmod	_	_
 21	fuisse	sum	AUX	va5fr	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf	18	cop	_	_
 22	testatur	testor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
@@ -8280,12 +8280,12 @@
 24	memoriam	memoria	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	22	obl	_	_
 25	sempiternam	sempiternus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	24	amod	_	SpaceAfter=No
 26	;	;	PUNCT	Pu	_	27	punct	_	_
-27	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	49	nsubj:pass	_	_
+27	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	49	obj	_	_
 28	Titus	titus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	49	nsubj	_	_
 29	Livius	liuius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	28	flat:name	_	SpaceAfter=No
 30	,	,	PUNCT	Pu	_	33	punct	_	_
 31	gestorum	gesta	NOUN	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	33	nmod	_	_
-32	romanorum	romanus	ADJ	anp1g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	31	amod	_	_
+32	romanorum	romanus	ADJ	anp1g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Nat|Number=Plur	31	amod	_	_
 33	scriba	scriba	NOUN	sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|Number=Sing	28	appos	_	_
 34	egregius	egregius	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	33	amod	_	SpaceAfter=No
 35	,	,	PUNCT	Pu	_	28	punct	_	_
@@ -8295,14 +8295,14 @@
 39	sui	suus	DET	dsnsg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	40	det	_	_
 40	voluminis	uolumen	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	38	nmod	_	SpaceAfter=No
 41	,	,	PUNCT	Pu	_	46	punct	_	_
-42	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	46	obl	_	_
-43	a	a	ADP	i	_	45	case	_	_
-44	capta	capio	VERB	vp3prsfb	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	45	acl	_	_
-45	Troya	troia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	46	obl	_	_
-46	summit	sumo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	acl:relcl	_	_
+42	que	qui	PRON	presfn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	46	nsubj	_	_
+43	a	a	ADP	i	_	44	mark	_	_
+44	capta	capio	VERB	vp3prsfb	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	46	advcl	_	_
+45	Troya	troia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	44	nsubj:pass	_	_
+46	summit	sumo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	acl:relcl	_	_
 47	exordium	exordium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	46	obj	_	SpaceAfter=No
 48	,	,	PUNCT	Pu	_	38	punct	_	_
-49	contestatur	contestor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	acl:relcl	_	SpaceAfter=No
+49	contestatur	contestor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	acl:relcl	_	SpaceAfter=No
 50	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = Mon-223
