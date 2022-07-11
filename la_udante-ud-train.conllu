@@ -7868,7 +7868,7 @@
 38	consonum	consonus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	34	acl:relcl	_	SpaceAfter=No
 39	,	,	PUNCT	Pu	_	34	punct	_	_
 40	ius	ius	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	31	conj	_	_
-41	ipsum	ipse	DET	dpnsa	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	40	det	_	_
+41	ipsum	ipse	DET	dpnsa	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	40	det	_	_
 42	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	SpaceAfter=No
 43	.	.	PUNCT	Pu	_	5	punct	_	_
 
