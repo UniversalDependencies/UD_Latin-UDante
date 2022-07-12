@@ -11130,11 +11130,11 @@
 # sent_id = Epi-316
 # text = Et cum esset sic procedere in infinitum in causis agentibus, ut probatur in secundo Metaphysicorum, erit devenire ad primum, qui Deus est.
 # citation_hierarchy = XIII,Paragraphus_55
-1	Et	et	CCONJ	co	_	18	cc	_	_
-2	cum	cum	SCONJ	cs	PronType=Rel	3	mark	_	_
-3	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	_
-4	sic	sic	ADV	r	PronType=Dem	3	advmod	_	_
-5	procedere	procedo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	3	ccomp	_	_
+1	Et	et	CCONJ	co	_	19	cc	_	_
+2	cum	cum	SCONJ	cs	PronType=Rel	5	mark	_	_
+3	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	sic	sic	ADV	r	PronType=Dem	5	advmod	_	_
+5	procedere	procedo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	19	advcl	_	_
 6	in	in	ADP	e	_	7	case	_	_
 7	infinitum	infinitus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Polarity=Neg	5	obl	_	_
 8	in	in	ADP	e	_	9	case	_	_
@@ -11142,20 +11142,20 @@
 10	agentibus	ago	VERB	va3pppfb	Aspect=Imp|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	9	acl	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	13	punct	_	_
 12	ut	ut	SCONJ	r	ConjType=Cmpr	13	mark	_	_
-13	probatur	probo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl:cmpr	_	_
+13	probatur	probo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	advcl:cmpr	_	_
 14	in	in	ADP	e	_	15	case	_	_
 15	secundo	secundus	ADJ	aums1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord|VerbForm=Gdv	13	obl	_	_
-16	Metaphysicorum	metaphysicus	ADJ	Snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	15	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	Pu	_	3	punct	_	_
-18	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-19	devenire	deuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	18	ccomp	_	_
+16	Metaphysicorum	metaphysicus	ADJ	Snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Lit|Number=Plur|Proper=Yes	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	Pu	_	19	punct	_	_
+18	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux	_	_
+19	devenire	deuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	0	root	_	_
 20	ad	ad	ADP	e	_	21	case	_	_
 21	primum	primus	ADJ	ans1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	19	obl	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	24	punct	_	_
 23	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	24	nsubj	_	_
 24	Deus	deus	NOUN	Sms2	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	21	acl:relcl	_	_
 25	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	SpaceAfter=No
-26	.	.	PUNCT	Pu	_	18	punct	_	_
+26	.	.	PUNCT	Pu	_	19	punct	_	_
 
 # sent_id = Epi-317
 # text = Et sic, mediate vel inmediate, omne quod habet esse habet esse ab eo; quia ex eo quod causa secunda recipit a prima, influit super causatum ad modum recipientis et reddentis radium, propter quod causa prima est magis causa.
