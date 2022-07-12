@@ -848,9 +848,9 @@
 # citation_hierarchy = Liber_Primus,iii,Paragraphus_3
 1	Non	non	PART	r	Polarity=Neg	7	advmod:neg	_	_
 2	enim	enim	PART	c	Form=Emp	7	discourse	_	_
-3	essentia	essentia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	7	nsubj	_	_
+3	essentia	essentia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	5	nsubj:pass	_	_
 4	ulla	ullus	DET	dpfs1n	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	3	det	_	_
-5	creata	creo	VERB	vp1prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+5	creata	creo	VERB	vp1prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	7	csubj	_	_
 6	ultimus	ultimus	ADJ	ams1ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	7	amod	_	_
 7	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	0	root	_	_
 8	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -860,18 +860,18 @@
 12	,	,	PUNCT	Pu	_	15	punct	_	_
 13	in	in	ADP	e	_	15	mark	_	_
 14	quantum	quantus	DET	dinsna	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Rel	13	fixed	_	_
-15	creans	creo	VERB	va1ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	7	advcl	_	SpaceAfter=No
+15	creans	creo	VERB	va1ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	11	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	20	punct	_	_
 17	sed	sed	CCONJ	co	_	20	cc	_	_
 18	propria	proprius	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	20	amod	_	_
 19	essentie	essentia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	20	nmod	_	_
 20	operatio	operatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	conj	_	SpaceAfter=No
-21	:	:	PUNCT	Pu	_	23	punct	_	_
-22	unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	23	cc	_	_
-23	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+21	:	:	PUNCT	Pu	_	26	punct	_	_
+22	unde	unde	ADV	r	AdvType=Loc|PronType=Rel	26	advmod:lmod	_	_
+23	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 24	quod	quod	SCONJ	presnn	PronType=Rel	26	mark	_	_
 25	non	non	PART	r	Polarity=Neg	26	orphan	_	_
-26	operatio	operatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	23	ccomp	_	_
+26	operatio	operatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	advcl	_	_
 27	propria	proprius	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	26	amod	_	_
 28	propter	propter	ADP	e	_	29	case	_	_
 29	essentiam	essentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	26	orphan	_	SpaceAfter=No
@@ -882,7 +882,7 @@
 34	illam	ille	DET	ddisfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	35	obl	_	_
 35	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	_
 36	ut	ut	SCONJ	cs	ConjType=Cmpr	37	mark	_	_
-37	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	SpaceAfter=No
+37	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	SpaceAfter=No
 38	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = Mon-23
@@ -18459,7 +18459,7 @@
 8	”	”	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	11	punct	_	_
 10	in	in	ADP	e	_	11	case	_	_
-11	predicato	praedicatum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	13	orphan	_	_
+11	predicato	praedicatum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	15	orphan	_	_
 12	vero	uero	ADV	r	_	15	discourse	_	_
 13	conclusionis	conclusio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	11	nmod	_	_
 14	“	“	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
