@@ -11260,13 +11260,13 @@
 13	primam	primus	ADJ	aufs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	16	obl	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	13	punct	_	_
 15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	causata	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	6	parataxis:rep	_	SpaceAfter=No
+16	causata	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	7	conj:expl	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	20	punct	_	_
 18	aliter	aliter	ADV	r	PronType=Con	20	advmod	_	_
 19	essent	sum	AUX	va5cip3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
 20	plura	multus	DET	anp1nc	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurI|Number=Plur|NumType=Card|PronType=Ind	16	conj	_	_
-21	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	25	nsubj	_	_
-22	essent	sum	AUX	va5cip3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+21	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	25	nsubj:outer	_	_
+22	essent	sum	AUX	va5cip3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	cop:outer	_	_
 23	per	per	ADP	e	_	24	case	_	_
 24	se	sui	PRON	ppp3pna	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	25	obl	_	_
 25	necesse	necesse	ADJ	din	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	20	acl:relcl	_	_
@@ -11274,7 +11274,7 @@
 27	,	,	PUNCT	Pu	_	30	punct	_	_
 28	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	30	nsubj	_	_
 29	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
-30	impossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	25	advcl:pred	_	SpaceAfter=No
+30	impossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	25	acl:relcl	_	SpaceAfter=No
 31	:	:	PUNCT	Pu	_	32	punct	_	_
 32	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	37	nsubj	_	_
 33	causatum	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	32	acl:relcl	_	SpaceAfter=No
@@ -11292,7 +11292,7 @@
 45	a	a	ADP	e	_	46	case	_	_
 46	natura	natura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	44	acl:relcl	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	44	punct	_	_
-48	per	per	ADP	e	_	49	mark	_	_
+48	per	per	ADP	e	_	49	case	_	_
 49	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	50	obl	_	_
 50	causatum	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	conj	_	_
 51	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux:pass	_	_
