@@ -23283,7 +23283,7 @@
 14	si	si	SCONJ	cs	_	23	mark	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	14	punct	_	_
 16	non	non	PART	r	Polarity=Neg	17	advmod:neg	_	_
-17	existente	existo	VERB	va3ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	23	advcl:abs	_	_
+17	existente	existo	VERB	va3ppsmb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	23	advcl:abs	_	_
 18	A	a	NOUN	yy	InflClass=Ind|NameType=Let	17	nsubj	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	17	punct	_	_
 20	C	c	NOUN	yy	InflClass=Ind|NameType=Let	23	nsubj	_	_
@@ -23297,12 +23297,12 @@
 28	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	29	cop	_	_
 29	causam	causa	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	25	csubj	_	_
 30	eius	is	PRON	ddesng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	29	nmod	_	_
-31	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	32	nsubj	_	_
-32	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
-33	C	c	NOUN	yy	InflClass=Ind|NameType=Let	32	ccomp	_	_
-34	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	33	cop	_	_
+31	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	36	nsubj:outer	_	_
+32	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop:outer	_	_
+33	C	c	NOUN	yy	InflClass=Ind|NameType=Let	36	nsubj	_	_
+34	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	36	cop	_	_
 35	in	in	ADP	e	_	36	case	_	_
-36	B	b	NOUN	yy	InflClass=Ind|NameType=Let	33	obl	_	SpaceAfter=No
+36	B	b	NOUN	yy	InflClass=Ind|NameType=Let	30	acl:relcl	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	39	punct	_	_
 38	cum	cum	SCONJ	cs	PronType=Rel	39	mark	_	_
 39	inpossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	25	advcl	_	_
@@ -23310,8 +23310,8 @@
 41	effectum	effectus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	42	nsubj	_	_
 42	precedere	praecedo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	39	csubj	_	_
 43	causam	causa	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	42	obj	_	_
-44	in	in	ADP	e	_	45	case	_	_
-45	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	42	obl	_	SpaceAfter=No
+44	in	in	ADP	e	_	45	mark	_	_
+45	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	42	advcl	_	SpaceAfter=No
 46	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Mon-629
