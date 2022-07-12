@@ -10991,7 +10991,7 @@
 6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	4	punct	_	_
 8	aut	aut	CCONJ	co	_	9	cc	_	_
-9	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis:rep	_	_
+9	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj:expl	_	_
 10	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	9	obj	_	_
 11	a	a	ADP	e	_	12	case	_	_
 12	se	sui	PRON	ppp3sfa	Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	9	obl	_	SpaceAfter=No
@@ -11028,7 +11028,7 @@
 43	arguat	arguo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
 44	per	per	ADP	e	_	45	case	_	_
 45	se	sui	PRON	ppp3snb	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	46	obl	_	_
-46	necesse	necesse	ADJ	din	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	43	obj	_	_
+46	necesse	necesse	ADJ	din	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	43	ccomp	_	_
 47	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	46	cop	_	SpaceAfter=No
 48	,	,	PUNCT	Pu	_	55	punct	_	_
 49	et	et	CCONJ	co	_	55	cc	_	_
