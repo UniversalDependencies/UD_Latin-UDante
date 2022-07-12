@@ -10992,7 +10992,7 @@
 7	,	,	PUNCT	Pu	_	4	punct	_	_
 8	aut	aut	CCONJ	co	_	9	cc	_	_
 9	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj:expl	_	_
-10	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	9	obj	_	_
+10	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	9	ccomp	_	_
 11	a	a	ADP	e	_	12	case	_	_
 12	se	sui	PRON	ppp3sfa	Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	16	punct	_	_
@@ -11004,7 +11004,7 @@
 19	constat	consto	VERB	va1*ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
 20	quod	quod	SCONJ	cs	PronType=Rel	26	mark	_	_
 21	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	26	csubj	_	_
-22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	21	obj	_	_
+22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	21	ccomp	_	_
 23	a	a	ADP	e	_	24	case	_	_
 24	se	sui	PRON	ppp3sfa	Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	21	obl	_	_
 25	non	non	PART	r	Polarity=Neg	26	advmod:neg	_	_
@@ -11023,7 +11023,7 @@
 38	,	,	PUNCT	Pu	_	43	punct	_	_
 39	cum	cum	SCONJ	cs	PronType=Rel	43	mark	_	_
 40	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	43	csubj	_	_
-41	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	40	obj	_	_
+41	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	40	ccomp	_	_
 42	non	non	PART	r	Polarity=Neg	43	advmod:neg	_	_
 43	arguat	arguo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
 44	per	per	ADP	e	_	45	case	_	_
@@ -11061,7 +11061,7 @@
 76	ipsum	ipse	DET	ddesma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	75	det	_	SpaceAfter=No
 77	,	,	PUNCT	Pu	_	75	punct	_	_
 78	habent	habeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
-79	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	78	obj	_	_
+79	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	78	ccomp	_	_
 80	ab	ab	ADP	e	_	81	case	_	_
 81	alio	alius	DET	dpmsb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	78	obl	_	SpaceAfter=No
 82	.	.	PUNCT	Pu	_	2	punct	_	_
