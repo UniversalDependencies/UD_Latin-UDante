@@ -23317,10 +23317,10 @@
 # sent_id = Mon-629
 # text = Adhuc si, nichil operante A, C est in B, necesse est A non esse causam eius quod est C esse in B, cum necesse sit ad productionem effectus preoperari causam, presertim efficientem, de qua intenditur.
 # citation_hierarchy = Liber_Tertius,xii,Paragraphus_4
-1	Adhuc	adhuc	ADV	r	Compound=Yes	13	advmod	_	_
+1	Adhuc	adhuc	ADV	r	AdvType=Tim|Compound=Yes	13	advmod:tmod	_	_
 2	si	si	SCONJ	cs	_	11	mark	_	SpaceAfter=No
 3	,	,	PUNCT	Pu	_	2	punct	_	_
-4	nichil	nihil	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=Ind|Number=Sing|PronType=Neg	5	obj	_	_
+4	nichil	nihil	ADV	dinsna	PronType=Neg	5	advmod:neg	_	_
 5	operante	operor	VERB	vd1ppsnb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	11	advcl:abs	_	_
 6	A	a	NOUN	yy	InflClass=Ind|NameType=Let	5	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	5	punct	_	_
