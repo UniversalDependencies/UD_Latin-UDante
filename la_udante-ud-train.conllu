@@ -17550,30 +17550,30 @@
 # text = Si vero peccatum sit in materia, aut est quia “simpliciter” falsum assumptum est, aut quia falsum “secundum quid”.
 # citation_hierarchy = Liber_Tertius,iv,Paragraphus_5
 1	Si	si	SCONJ	cs	_	3	mark	_	_
-2	vero	uero	ADV	r	_	3	discourse	_	_
-3	peccatum	peccatum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	9	advcl	_	_
+2	vero	uero	ADV	r	_	14	discourse	_	_
+3	peccatum	peccatum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	14	advcl	_	_
 4	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	in	in	ADP	e	_	6	case	_	_
-6	materia	materia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	3	obl	_	SpaceAfter=No
+6	materia	materia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	3	obl:lmod	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	3	punct	_	_
-8	aut	aut	CCONJ	co	_	9	cc	_	_
-9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	quia	quia	SCONJ	cs	PronType=Rel	15	mark	_	_
+8	aut	aut	CCONJ	co	_	14	cc	_	_
+9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop:outer	_	_
+10	quia	quia	SCONJ	cs	PronType=Rel	14	mark	_	_
 11	“	“	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
-12	simpliciter	simpliciter	ADV	r	_	15	advmod	_	SpaceAfter=No
+12	simpliciter	simpliciter	ADV	r	_	14	advmod	_	SpaceAfter=No
 13	”	”	PUNCT	Pu	_	12	punct	_	_
-14	falsum	falsus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	15	nsubj:pass	_	_
-15	assumptum	assumo	VERB	vp3prsnn	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	9	ccomp	_	_
-16	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	SpaceAfter=No
+14	falsum	falsus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	_
+15	assumptum	assumo	VERB	vp3prsnn	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	14	nsubj	_	_
+16	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	20	punct	_	_
 18	aut	aut	CCONJ	co	_	20	cc	_	_
 19	quia	quia	SCONJ	cs	PronType=Rel	20	mark	_	_
-20	falsum	falsus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	9	orphan	_	_
+20	falsum	falsus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	14	conj	_	_
 21	“	“	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
 22	secundum	secundum	ADP	e	VerbForm=Gdv	23	case	_	_
 23	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	20	obl	_	SpaceAfter=No
 24	”	”	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
-25	.	.	PUNCT	Pu	_	9	punct	_	_
+25	.	.	PUNCT	Pu	_	14	punct	_	_
 
 # sent_id = Mon-470
 # text = Si “simpliciter”, per interemptionem assumpti solvendum est; si “secundum quid”, per distinctionem.
