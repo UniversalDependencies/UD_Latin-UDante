@@ -31776,7 +31776,7 @@
 # sent_id = Que-74
 # text = Unde cum intentioni Nature universalis omnis natura obediat, necesse fuit etiam preter simplicem naturam terre, que est esse deorsum, inesse aliam naturam per quam obediret intentioni universalis Nature; ut scilicet pateretur elevari in parte a virtute celi, tanquam obediens a precipiente, sicut videmus de concupiscibili et irascibili in homine; que licet secundum proprium impetum ferantur secundum sensitivam affectionem, secundum tamen quod rationi obedibiles sunt, quandoque a proprio impetu retrahuntur, ut patet ex primo Ethicorum.
 # citation_hierarchy = DE_FORMA_ET_SITU_DUORUM_ELEMENTORUM_AQUE_VIDELICET_ET_TERRE,Paragraphus_48
-1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	10	cc	_	_
+1	Unde	unde	ADV	r	AdvType=Loc|PronType=Rel	10	advmod:lmod	_	_
 2	cum	cum	SCONJ	cs	PronType=Rel	8	mark	_	_
 3	intentioni	intentio	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	8	obl:arg	_	_
 4	Nature	natura	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Proper=Yes|VerbForm=Part	3	nmod	_	_
@@ -31792,11 +31792,11 @@
 14	simplicem	simplex	ADJ	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	15	amod	_	_
 15	naturam	natura	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	23	obl	_	_
 16	terre	terra	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	15	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	Pu	_	19	punct	_	_
-18	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	19	nsubj	_	_
-19	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+17	,	,	PUNCT	Pu	_	21	punct	_	_
+18	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	21	nsubj:outer	_	_
+19	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop:outer	_	_
 20	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	21	cop	_	_
-21	deorsum	deorsum	ADV	r	VerbForm=Part	19	ccomp	_	SpaceAfter=No
+21	deorsum	deorsum	ADV	r	AdvType=Loc|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	15	punct	_	_
 23	inesse	insum	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	10	csubj	_	_
 24	aliam	alius	DET	dpfs1a	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	25	det	_	_
@@ -31820,7 +31820,7 @@
 42	,	,	PUNCT	Pu	_	44	punct	_	_
 43	tanquam	tamquam	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	44	mark	_	_
 44	obediens	oboedio	VERB	va4ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	35	advcl:cmpr	_	_
-45	a	a	ADP	e	_	46	mark	_	_
+45	a	a	ADP	e	_	46	case	_	_
 46	precipiente	praecipio	VERB	va3ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	44	orphan	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	49	punct	_	_
 48	sicut	sicut	SCONJ	r	Compound=Yes|ConjType=Cmpr	49	mark	_	_
@@ -31849,7 +31849,7 @@
 71	obedibiles	obedibilis	ADJ	amp2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur	78	advcl	_	_
 72	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	71	cop	_	SpaceAfter=No
 73	,	,	PUNCT	Pu	_	71	punct	_	_
-74	quandoque	quandoque	ADV	r	Form=Emp|PronType=Rel	78	advmod	_	_
+74	quandoque	quandoque	ADV	r	AdvType=Tim|Form=Emp|PronType=Rel	78	advmod:tmod	_	_
 75	a	a	ADP	e	_	77	case	_	_
 76	proprio	proprius	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	77	amod	_	_
 77	impetu	impetus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	78	obl	_	_
@@ -31859,7 +31859,7 @@
 81	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	78	advcl:cmpr	_	_
 82	ex	ex	ADP	e	_	83	case	_	_
 83	primo	primus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	81	obl	_	_
-84	Ethicorum	ethicus	ADJ	anp1g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	83	nmod	_	SpaceAfter=No
+84	Ethicorum	ethicus	ADJ	anp1g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Lit|Number=Plur|Proper=Yes	83	nmod	_	SpaceAfter=No
 85	.	.	PUNCT	Pu	_	10	punct	_	_
 
 # sent_id = Que-75
