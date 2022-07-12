@@ -11350,19 +11350,19 @@
 # text = Et sic quemadmodum prius devenire erat ad primam causam ipsius esse, sic nunc essentie et virtutis.
 # citation_hierarchy = XIII,Paragraphus_59
 1	Et	et	CCONJ	co	_	15	cc	_	_
-2	sic	sic	ADV	r	PronType=Dem	6	advmod	_	_
-3	quemadmodum	quemadmodum	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	6	mark	_	_
-4	prius	prius	ADV	r	Degree=Cmp	6	advmod	_	_
-5	devenire	deuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	6	ccomp	_	_
-6	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl:cmpr	_	_
+2	sic	sic	ADV	r	PronType=Dem	5	advmod	_	_
+3	quemadmodum	quemadmodum	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	5	mark	_	_
+4	prius	prius	ADV	r	AdvType=Tim|Degree=Cmp	5	advmod:tmod	_	_
+5	devenire	deuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	15	advcl:cmpr	_	_
+6	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 7	ad	ad	ADP	e	_	9	case	_	_
 8	primam	primus	ADJ	aufs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	9	amod	_	_
 9	causam	causa	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	5	obl	_	_
 10	ipsius	ipse	DET	dpnsg	Case=Gen|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	11	det	_	_
 11	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	9	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	Pu	_	6	punct	_	_
+12	,	,	PUNCT	Pu	_	5	punct	_	_
 13	sic	sic	ADV	r	PronType=Dem	15	orphan	_	_
-14	nunc	nunc	ADV	r	_	15	orphan	_	_
+14	nunc	nunc	ADV	r	AdvType=Tim	15	orphan	_	_
 15	essentie	essentia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 16	et	et	CCONJ	co	_	17	cc	_	_
 17	virtutis	uirtus	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	15	conj	_	SpaceAfter=No
