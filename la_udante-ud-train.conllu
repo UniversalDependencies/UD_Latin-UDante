@@ -6273,28 +6273,28 @@
 # sent_id = Mon-170
 # text = Unde fit quod unum esse videtur esse radix eius quod est esse bonum, et multa esse eius quod est esse malum; qua re Pictagoras in correlationibus suis ex parte boni ponebat unum, ex parte vero mali plurale, ut patet in primo eorum que De simpliciter ente.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_2
-1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	2	cc	_	_
+1	Unde	unde	ADV	r	AdvType=Loc|PronType=Rel	2	advmod:lmod	_	_
 2	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	quod	quod	SCONJ	cs	PronType=Rel	6	mark	_	_
-4	unum	unus	NUM	aunsn	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	6	csubj	_	_
+4	unum	unus	NUM	aunsn	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	6	csubj:pass	_	_
 5	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	4	cop	_	_
 6	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	csubj	_	_
 7	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	8	cop	_	_
 8	radix	radix	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	6	xcomp	_	_
 9	eius	is	PRON	ddesng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
-10	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	11	nsubj	_	_
-11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+10	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	13	nsubj:outer	_	_
+11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop:outer	_	_
 12	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	13	cop	_	_
-13	bonum	bonum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	11	ccomp	_	SpaceAfter=No
-14	,	,	PUNCT	Pu	_	18	punct	_	_
-15	et	et	CCONJ	co	_	18	cc	_	_
-16	multa	multus	DET	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	18	nsubj	_	_
+13	bonum	bonus	ADJ	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	9	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	Pu	_	16	punct	_	_
+15	et	et	CCONJ	co	_	16	cc	_	_
+16	multa	multus	DET	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	6	conj	_	_
 17	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	16	cop	_	_
-18	eius	is	PRON	ddesng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	6	conj	_	_
-19	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	20	nsubj	_	_
-20	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+18	eius	is	PRON	ddesng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	16	orphan	_	_
+19	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	22	nsubj:outer	_	_
+20	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop:outer	_	_
 21	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	22	cop	_	_
-22	malum	malum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	20	ccomp	_	SpaceAfter=No
+22	malum	malus	ADJ	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	18	acl:relcl	_	SpaceAfter=No
 23	;	;	PUNCT	Pu	_	33	punct	_	_
 24	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	25	det	_	_
 25	re	res	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	33	obl	_	_
@@ -6304,25 +6304,25 @@
 29	suis	suus	DET	dsfpb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	28	det	_	_
 30	ex	ex	ADP	e	_	31	case	_	_
 31	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	33	obl	_	_
-32	boni	bonum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	31	nmod	_	_
+32	boni	bonus	ADJ	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	31	nmod	_	_
 33	ponebat	pono	VERB	va3iis3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 34	unum	unus	NUM	aunsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	33	obj	_	SpaceAfter=No
 35	,	,	PUNCT	Pu	_	40	punct	_	_
 36	ex	ex	ADP	e	_	37	case	_	_
 37	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	40	orphan	_	_
 38	vero	uero	ADV	r	_	40	discourse	_	_
-39	mali	malum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	37	nmod	_	_
+39	mali	malus	ADJ	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	37	nmod	_	_
 40	plurale	pluralis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	33	conj	_	SpaceAfter=No
 41	,	,	PUNCT	Pu	_	43	punct	_	_
 42	ut	ut	SCONJ	r	ConjType=Cmpr	43	mark	_	_
 43	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl:cmpr	_	_
 44	in	in	ADP	e	_	45	case	_	_
 45	primo	primus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	43	obl	_	_
-46	eorum	is	PRON	ddepmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	45	nmod	_	_
-47	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	50	nsubj	_	_
-48	De	de	ADP	e	Proper=Yes	50	case	_	_
-49	simpliciter	simpliciter	ADV	r	_	50	advmod	_	_
-50	ente	ens	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing|VerbForm=Part	46	acl:relcl	_	SpaceAfter=No
+46	eorum	is	PRON	ddepmg	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	45	nmod	_	_
+47	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	49	nsubj:outer	_	_
+48	De	de	ADP	e	Proper=Yes	49	mark	_	_
+49	simpliciter	simpliciter	ADV	r	_	46	acl:relcl	_	_
+50	ente	sum	AUX	sns3b	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part	49	cop	_	SpaceAfter=No
 51	.	.	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = Mon-171
