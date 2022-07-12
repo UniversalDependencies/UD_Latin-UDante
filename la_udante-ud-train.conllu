@@ -32732,7 +32732,7 @@
 16	in	in	ADP	e	_	19	case	_	_
 17	qualibet	quilibet	DET	dpfsb	Case=Abl|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	19	det	_	_
 18	sui	sui	PRON	ppp3sfg	Case=Gen|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	19	nmod	_	_
-19	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	28	obl	_	SpaceAfter=No
+19	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	28	obl:lmod	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	19	punct	_	_
 21	per	per	ADP	e	_	22	case	_	_
 22	se	sui	PRON	ppp3sfb	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	23	obl	_	_
