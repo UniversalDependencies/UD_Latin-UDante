@@ -554,7 +554,7 @@
 # citation_hierarchy = II,Paragraphus_1
 1	Patruus	patruus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	20	nsubj	_	_
 2	vester	uester	DET	dsmsn	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	1	det	_	_
-3	Alexander	alexander	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	1	appos	_	SpaceAfter=No
+3	Alexander	alexander	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	5	punct	_	_
 5	comes	comes	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	1	appos	_	_
 6	illustris	illustris	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	5	amod	_	SpaceAfter=No
@@ -10277,20 +10277,20 @@
 # sent_id = Epi-292
 # text = Agens igitur totius et partis est ille qui dictus est, et totaliter videtur esse.
 # citation_hierarchy = XIII,Paragraphus_38
-1	Agens	ago	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_
-2	igitur	igitur	PART	r	_	1	discourse	_	_
+1	Agens	ago	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	7	nsubj	_	_
+2	igitur	igitur	PART	r	_	7	discourse	_	_
 3	totius	totus	DET	dpnsg	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Tot	1	nmod	_	_
 4	et	et	CCONJ	co	_	5	cc	_	_
 5	partis	pars	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	3	conj	_	_
-6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
-7	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	1	nsubj	_	_
+6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	0	root	_	_
 8	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	9	nsubj:pass	_	_
 9	dictus	dico	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
 10	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	14	punct	_	_
 12	et	et	CCONJ	co	_	14	cc	_	_
 13	totaliter	totaliter	ADV	r	_	15	advmod	_	_
-14	videtur	uideo	VERB	vd2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	conj	_	_
+14	videtur	uideo	VERB	vd2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
 15	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	14	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	Pu	_	1	punct	_	_
 
@@ -11132,7 +11132,7 @@
 # citation_hierarchy = XIII,Paragraphus_55
 1	Et	et	CCONJ	co	_	19	cc	_	_
 2	cum	cum	SCONJ	cs	PronType=Rel	5	mark	_	_
-3	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	sic	sic	ADV	r	PronType=Dem	5	advmod	_	_
 5	procedere	procedo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	19	advcl	_	_
 6	in	in	ADP	e	_	7	case	_	_
@@ -11147,7 +11147,7 @@
 15	secundo	secundus	ADJ	aums1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord|VerbForm=Gdv	13	obl	_	_
 16	Metaphysicorum	metaphysicus	ADJ	Snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Lit|Number=Plur|Proper=Yes	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	19	punct	_	_
-18	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux	_	_
+18	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
 19	devenire	deuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	0	root	_	_
 20	ad	ad	ADP	e	_	21	case	_	_
 21	primum	primus	ADJ	ans1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	19	obl	_	SpaceAfter=No
@@ -11354,7 +11354,7 @@
 3	quemadmodum	quemadmodum	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	5	mark	_	_
 4	prius	prius	ADV	r	AdvType=Tim|Degree=Cmp	5	advmod:tmod	_	_
 5	devenire	deuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	15	advcl:cmpr	_	_
-6	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+6	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 7	ad	ad	ADP	e	_	9	case	_	_
 8	primam	primus	ADJ	aufs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	9	amod	_	_
 9	causam	causa	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	5	obl	_	_
