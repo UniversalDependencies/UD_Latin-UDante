@@ -8716,8 +8716,8 @@
 1	Similiter	similiter	ADV	r	_	6	advmod	_	_
 2	etiam	etiam	ADV	co	Compound=Yes	6	advmod:emph	_	_
 3	coniugio	coniugium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	4	obl:agent	_	_
-4	nobilitatum	nobilito	VERB	vp1fr	Aspect=Perf|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	6	ccomp	_	_
-5	fuisse	sum	AUX	va5fr	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Past|VerbForm=Inf	4	aux:pass	_	_
+4	nobilitatum	nobilito	VERB	vp1fr	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+5	fuisse	sum	AUX	va5fr	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf	4	aux:pass	_	_
 6	reperio	reperio	VERB	va4ips1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Pu	_	6	punct	_	_
 
