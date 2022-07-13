@@ -597,15 +597,15 @@
 43	premiis	praemium	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	44	obl	_	_
 44	muneratur	munero	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	34	acl:relcl	_	SpaceAfter=No
 45	,	,	PUNCT	Pu	_	34	punct	_	_
-46	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	53	obj	_	_
-47	sibi	sui	PRON	ppp3smd	Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	53	obl:arg	_	_
+46	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	55	nsubj:pass	_	_
+47	sibi	sui	PRON	ppp3smd	Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	55	obl:arg	_	_
 48	ab	ab	ADP	e	_	50	case	_	_
 49	annosis	annosus	ADJ	anp1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	50	amod	_	_
-50	temporibus	tempus	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur	53	obl:tmod	_	_
-51	sponte	spons	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	53	obl	_	_
+50	temporibus	tempus	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur	55	obl:tmod	_	_
+51	sponte	spons	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	55	obl	_	_
 52	sua	suus	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	51	det	_	_
 53	fecit	facio	VERB	va3irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl	_	_
-54	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	55	cop	_	_
+54	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	55	aux:pass	_	_
 55	subiectum	subicio	VERB	sns2a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	53	ccomp	_	SpaceAfter=No
 56	.	.	PUNCT	Pu	_	20	punct	_	_
 
