@@ -8788,7 +8788,7 @@
 5	aura	aura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	11	punct	_	_
 7	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	11	obj	_	_
-8	tibi	tu	PRON	ppp2smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	11	obl	_	_
+8	tibi	tu	PRON	ppp2smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	11	obl:arg	_	_
 9	iam	iam	ADV	r	_	11	advmod	_	_
 10	Troya	troia	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	12	nsubj	_	_
 11	peperit	pario	VERB	va3irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
