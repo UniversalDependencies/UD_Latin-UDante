@@ -560,7 +560,7 @@
 6	illustris	illustris	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	16	punct	_	_
 8	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	16	nsubj	_	_
-9	diebus	dies	NOUN	smp5b	Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Plur	16	obl	_	_
+9	diebus	dies	NOUN	smp5b	Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Plur	16	obl:tmod	_	_
 10	proximis	proximus	ADJ	amp1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	9	amod	_	_
 11	celestem	celestis	ADJ	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	18	amod	_	_
 12	unde	unde	ADV	r	AdvType=Loc|PronType=Rel	13	advmod:lmod	_	_
@@ -569,7 +569,7 @@
 15	spiritum	spiritus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	16	obl	_	_
 16	remeavit	remeo	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 17	ad	ad	ADP	e	_	18	case	_	_
-18	patriam	patria	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	16	obl:arg	_	SpaceAfter=No
+18	patriam	patria	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	16	obl:lmod	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	1	punct	_	_
 20	dominus	dominus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	_
 21	meus	meus	DET	dsmsn	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
@@ -577,12 +577,12 @@
 23	et	et	CCONJ	co	_	30	cc	_	_
 24	memoria	memoria	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	30	nsubj	_	_
 25	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	24	det	_	_
-26	usquequo	usquequo	ADV	r	Compound=Yes|PronType=Rel	29	advmod	_	_
+26	usquequo	usquequo	SCONJ	r	AdvType=Tim|Compound=Yes|Form=Emp|PronType=Rel	29	mark	_	_
 27	sub	sub	ADP	e	_	28	case	_	_
-28	tempore	tempus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	29	obl	_	_
-29	vivam	uiuo	VERB	va3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	30	advcl	_	_
-30	dominabitur	dominor	VERB	vd1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	22	conj	_	_
-31	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	30	obl	_	SpaceAfter=No
+28	tempore	tempus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	29	obl:tmod	_	_
+29	vivam	uiuo	VERB	va3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	30	advcl:tmod	_	_
+30	dominabitur	dominor	VERB	vd1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	20	conj	_	_
+31	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	30	obl:arg	_	SpaceAfter=No
 32	,	,	PUNCT	Pu	_	33	punct	_	_
 33	quando	quando	SCONJ	cs	PronType=Rel	53	mark	_	_
 34	magnificentia	magnificentia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	53	nsubj	_	_
@@ -606,7 +606,7 @@
 52	sua	suus	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	51	det	_	_
 53	fecit	facio	VERB	va3irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl	_	_
 54	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	55	cop	_	_
-55	subiectum	subiectum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	53	xcomp:pred	_	SpaceAfter=No
+55	subiectum	subicio	VERB	sns2a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	53	ccomp	_	SpaceAfter=No
 56	.	.	PUNCT	Pu	_	20	punct	_	_
 
 # sent_id = Epi-14
