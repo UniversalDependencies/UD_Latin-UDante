@@ -21218,10 +21218,10 @@
 4	emere	emo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	5	ccomp	_	_
 5	precipiebat	praecipio	VERB	va3iis3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	13	punct	_	_
-7	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	13	ccomp	_	_
-8	duplicem	duplex	ADJ	ams2a	Case=Acc|Compound=Yes|Gender=Masc|InflClass=IndEurI|Number=Sing	7	xcomp:pred	_	_
-9	ibi	ibi	ADV	r	AdvType=Loc	7	advmod:lmod	_	_
-10	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	7	cop	_	_
+7	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	duplicem	duplex	ADJ	ams2a	Case=Acc|Compound=Yes|Gender=Masc|InflClass=IndEurI|Number=Sing	13	ccomp	_	_
+9	ibi	ibi	ADV	r	AdvType=Loc	13	advmod:lmod	_	_
+10	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	8	cop	_	_
 11	Petrus	petrus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	13	nsubj	_	_
 12	etiam	etiam	ADV	co	Compound=Yes	13	advmod:emph	_	_
 13	respondebat	respondeo	VERB	va2iis3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No
