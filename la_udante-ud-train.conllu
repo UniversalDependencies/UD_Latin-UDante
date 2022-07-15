@@ -8612,12 +8612,12 @@
 19	Hesperiam	hesperia	PROPN	Sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	22	xcomp	_	_
 20	Grai	graius	PROPN	Smp2	Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Plur	22	nsubj	_	_
 21	cognomine	cognomen	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	22	obl	_	_
-22	dicunt	dico	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	SpaceAfter=No
+22	dicunt	dico	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	24	punct	_	_
-24	terra	terra	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	17	conj:expl	_	_
+24	terra	terra	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	17	conj	_	_
 25	antiqua	antiquus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	27	punct	_	_
-27	potens	potens	ADJ	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	24	acl	_	_
+27	potens	potens	ADJ	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	17	acl	_	_
 28	armis	arma	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	27	obl	_	_
 29	atque	atque	CCONJ	co	Form=Emp	30	cc	_	_
 30	ubere	uber	ADJ	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	28	conj	_	_
