@@ -8627,7 +8627,7 @@
 # sent_id = Mon-230
 # text = Oenotri coluere viri; nunc fama minores Ytaliam dixisse ducis de nomine gentem: hee nobis proprie sedes, hinc Dardanus ortus.
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_12
-1	Oenotri	oenotrius	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	3	amod	_	_
+1	Oenotri	oenotrius	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	3	amod	_	_
 2	coluere	colo	VERB	va3xirp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	viri	uir	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	2	nsubj	_	SpaceAfter=No
 4	;	;	PUNCT	Pu	_	6	punct	_	_
