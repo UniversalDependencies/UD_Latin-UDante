@@ -16975,9 +16975,9 @@
 3	vero	uero	ADV	r	_	5	discourse	_	_
 4	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	traditiones	traditio	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	0	root	_	_
-6	quas	qui	PRON	prepfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	10	obj	_	_
+6	quas	qui	PRON	prepfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	8	nsubj	_	_
 7	“	“	PUNCT	Pu	_	8	punct	_	SpaceAfter=No
-8	decretales	decretalis	ADJ	afp2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	10	xcomp:pred	_	SpaceAfter=No
+8	decretales	decretalis	ADJ	afp2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	10	ccomp	_	SpaceAfter=No
 9	”	”	PUNCT	Pu	_	8	punct	_	_
 10	dicunt	dico	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
 11	:	:	PUNCT	Pu	_	12	punct	_	_
