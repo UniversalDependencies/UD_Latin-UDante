@@ -11875,7 +11875,7 @@
 4	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	2	cop	_	_
 5	dupliciter	dupliciter	ADV	r	_	2	advmod	_	SpaceAfter=No
 6	:	:	PUNCT	Pu	_	7	punct	_	_
-7	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	5	conj	_	_
+7	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	5	conj:expl	_	_
 8	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	7	cc	_	_
 9	et	et	CCONJ	co	_	10	cc	_	_
 10	fide	fides	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	7	conj	_	SpaceAfter=No
