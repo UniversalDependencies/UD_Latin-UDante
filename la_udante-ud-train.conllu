@@ -7308,11 +7308,11 @@
 40	,	,	PUNCT	Pu	_	42	punct	_	_
 41	ad	ad	ADP	e	_	42	mark	_	_
 42	ostendendum	ostendo	VERB	va3fga	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	33	conj	_	_
-43	genus	genus	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	42	obj	_	_
-44	humanum	humanus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	43	amod	_	_
-45	liberum	liber	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	42	xcomp:pred	_	_
+43	genus	genus	NOUN	sns3a	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	42	nsubj:pass	_	_
+44	humanum	humanus	ADJ	ans1a	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	43	amod	_	_
+45	liberum	liber	ADJ	ans1a	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	42	xcomp	_	_
 46	a	a	ADP	e	_	47	case	_	_
-47	iugo	iugum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	45	obl:arg	_	_
+47	iugo	iugum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	45	obl	_	_
 48	ipsorum	ipse	DET	ddepmg	Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	47	nmod	_	SpaceAfter=No
 49	,	,	PUNCT	Pu	_	33	punct	_	_
 50	cum	cum	ADP	e	_	51	case	_	_
