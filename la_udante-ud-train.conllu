@@ -25119,7 +25119,7 @@
 24	cupiditatis	cupiditas	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	22	nmod	_	_
 25	genus	genus	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	31	nsubj	_	_
 26	humanum	humanus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	25	amod	_	_
-27	liberum	liber	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	31	xcomp:pred	_	_
+27	liberum	liber	ADJ	ans1a	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	31	advcl:pred	_	_
 28	in	in	ADP	e	_	30	case	_	_
 29	pacis	pax	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	30	nmod	_	_
 30	tranquillitate	tranquillitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	31	obl	_	_
@@ -25128,10 +25128,10 @@
 33	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	0	root	_	_
 34	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
 35	illud	ille	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	36	det	_	_
-36	signum	signum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	33	xcomp:pred	_	_
+36	signum	signum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	33	nsubj	_	_
 37	ad	ad	ADP	e	_	38	case	_	_
-38	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	40	obl	_	_
-39	maxime	magis	ADV	rs	Degree=Abs	40	advmod	_	_
+38	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	41	obl	_	_
+39	maxime	magis	ADV	rs	Degree=Abs	41	advmod	_	_
 40	debet	debeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	acl:relcl	_	_
 41	intendere	intendo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	40	xcomp	_	_
 42	curator	curator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	40	nsubj	_	_
@@ -25140,18 +25140,18 @@
 45	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	46	nsubj	_	_
 46	dicitur	dico	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	42	acl:relcl	_	_
 47	romanus	romanus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	48	amod	_	_
-48	Princeps	princeps	NOUN	sms3n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	46	xcomp:pred	_	SpaceAfter=No
+48	Princeps	princeps	NOUN	sms3n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	46	xcomp	_	SpaceAfter=No
 49	,	,	PUNCT	Pu	_	59	punct	_	_
 50	ut	ut	SCONJ	cs	ConjType=Cmpr	59	mark	_	_
-51	scilicet	scilicet	CCONJ	co	Compound=Yes|ConjType=Expl|VerbForm=Fin	50	cc	_	_
+51	scilicet	scilicet	CCONJ	co	Compound=Yes|ConjType=Expl|VerbForm=Fin	59	cc	_	_
 52	in	in	ADP	e	_	53	case	_	_
 53	areola	areola	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	59	obl	_	_
 54	ista	iste	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	53	det	_	_
 55	mortalium	mortalis	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	53	nmod	_	_
 56	libere	libere	ADV	r	_	59	advmod	_	_
 57	cum	cum	ADP	e	_	58	case	_	_
-58	pace	pax	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	56	obl	_	_
-59	vivatur	uiuo	VERB	vp3*cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	40	advcl	_	SpaceAfter=No
+58	pace	pax	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	59	obl	_	_
+59	vivatur	uiuo	VERB	vp3*cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	36	conj:expl	_	SpaceAfter=No
 60	.	.	PUNCT	Pu	_	33	punct	_	_
 
 # sent_id = Mon-673
