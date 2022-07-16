@@ -13912,7 +13912,7 @@
 # sent_id = Mon-372
 # text = Hic Pirrus “Heram” vocabat fortunam, quam causam melius et rectius nos “divinam providentiam” appellamus.
 # citation_hierarchy = Liber_Secundus,ix,Paragraphus_8
-1	Hic	hic	ADV	r	_	6	advmod	_	_
+1	Hic	hic	ADV	r	_	6	advmod:lmod	_	_
 2	Pirrus	pirrus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	6	nsubj	_	_
 3	“	“	PUNCT	Pu	_	4	punct	_	SpaceAfter=No
 4	Heram	hera	PROPN	Sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	6	xcomp:pred	_	SpaceAfter=No
