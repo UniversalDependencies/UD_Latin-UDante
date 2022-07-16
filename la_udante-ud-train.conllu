@@ -6185,7 +6185,7 @@
 8	bonum	bonum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	6	conj	_	_
 9	gradatim	gradatim	ADV	r	VerbForm=Part	11	advmod	_	_
 10	se	sui	PRON	ppp3pna	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
-11	habent	habeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_
+11	habent	habeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 12	secundum	secundum	ADP	e	VerbForm=Gdv	14	case	_	_
 13	quintum	quintus	ADJ	aums1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	14	amod	_	_
 14	modum	modus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	11	obl	_	_
