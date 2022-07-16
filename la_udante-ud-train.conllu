@@ -8085,7 +8085,7 @@
 24	super	super	ADP	e	_	25	case	_	_
 25	mortales	mortalis	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	27	obl	_	_
 26	omnes	omnis	DET	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	25	det	_	_
-27	ascivit	ascisco	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No
+27	ascivit	ascisco	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	SpaceAfter=No
 28	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Mon-215
