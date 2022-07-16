@@ -15381,7 +15381,7 @@
 11	“	“	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
 12	pena	poena	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	3	csubj:pass	_	_
 13	iniuriam	iniuria	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	14	obj	_	_
-14	inferenti	infero	VERB	va5ppsmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	12	obl	_	SpaceAfter=No
+14	inferenti	infero	VERB	va5ppsmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	12	nmod	_	SpaceAfter=No
 15	”	”	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	19	punct	_	_
 17	sed	sed	CCONJ	co	_	19	cc	_	_
@@ -15389,11 +15389,11 @@
 19	pena	poena	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	12	conj	_	_
 20	inflicta	infligo	VERB	vp3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	19	acl	_	_
 21	iniuriam	iniuria	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	22	obj	_	_
-22	inferenti	infero	VERB	va5ppsmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	20	obl	_	_
-23	ab	ab	ADP	e	_	24	mark	_	_
+22	inferenti	infero	VERB	va5ppsmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	20	obl:arg	_	_
+23	ab	ab	ADP	e	_	24	case	_	_
 24	habente	habeo	VERB	va2ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	20	obl:agent	_	_
 25	iurisdictionem	iurisdictio	NOUN	sfs3a	Case=Acc|Compound=Yes|Gender=Fem|InflClass=IndEurX|Number=Sing	24	obj	_	_
-26	puniendi	punio	VERB	va4fgg	Aspect=Imp|Case=Gen|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	25	xcomp	_	SpaceAfter=No
+26	puniendi	punio	VERB	va4fgg	Aspect=Imp|Case=Gen|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	25	acl	_	SpaceAfter=No
 27	”	”	PUNCT	Pu	_	19	punct	_	SpaceAfter=No
 28	;	;	PUNCT	Pu	_	29	punct	_	_
 29	unde	unde	CCONJ	cs	AdvType=Loc|PronType=Rel	40	cc	_	SpaceAfter=No
