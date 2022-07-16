@@ -7349,7 +7349,7 @@
 2	equidem	equidem	PART	r	Form=Emp	4	discourse	_	_
 3	duo	duo	NUM	aunpn	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	4	nsubj	_	_
 4	fient	fio	VERB	vs5ifp3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
-5	sufficienter	sufficienter	ADV	r	VerbForm=Part	4	xcomp:pred	_	SpaceAfter=No
+5	sufficienter	sufficienter	ADV	r	VerbForm=Part	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	12	punct	_	_
 7	si	si	SCONJ	cs	_	12	mark	_	_
 8	secundam	secundus	ADJ	aufs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord|VerbForm=Gdv	9	amod	_	_
