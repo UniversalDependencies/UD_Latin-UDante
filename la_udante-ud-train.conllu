@@ -20663,13 +20663,13 @@
 4	,	,	PUNCT	Pu	_	7	punct	_	_
 5	cum	cum	SCONJ	cs	PronType=Rel	7	mark	_	_
 6	Iesus	iesus	PROPN	Sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|NameType=Giv|Number=Sing	7	nsubj	_	_
-7	interrogasset	interrogo	VERB	va1xc+s3	Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	interrogasset	interrogo	VERB	va1xc+s3	Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	20	advcl	_	_
 8	discipulos	discipulus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	7	obj	_	_
 9	«	«	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
-10	Quem	qui	PRON	dinsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	13	obj	_	_
-11	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	13	ccomp	_	_
-12	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	11	cop	_	_
-13	dicitis	dico	VERB	va3ipp2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
+10	Quem	qui	PRON	dinsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	13	ccomp	_	_
+11	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+12	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	10	cop	_	_
+13	dicitis	dico	VERB	va3ipp2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp:reported	_	SpaceAfter=No
 14	?	?	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
 15	»	»	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	20	punct	_	_
@@ -20677,16 +20677,16 @@
 18	ante	ante	ADP	e	_	19	case	_	_
 19	omnes	omnis	DET	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	20	obl	_	_
 20	respondisse	respondeo	VERB	va2fr	Aspect=Perf|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	1	ccomp	_	SpaceAfter=No
-21	:	:	PUNCT	Pu	_	23	punct	_	_
-22	«	«	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
-23	Tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	20	parataxis	_	_
-24	es	sum	AUX	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	cop	_	_
-25	Cristus	christus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	23	xcomp:pred	_	SpaceAfter=No
+21	:	:	PUNCT	Pu	_	25	punct	_	_
+22	«	«	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
+23	Tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
+24	es	sum	AUX	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	Cristus	christus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	20	ccomp:reported	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	27	punct	_	_
 27	filius	filius	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	25	appos	_	_
 28	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	27	nmod	_	_
 29	vivi	uiuus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	28	amod	_	SpaceAfter=No
-30	»	»	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
+30	»	»	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Mon-558
