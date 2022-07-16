@@ -11253,7 +11253,7 @@
 2	nos	ego	PRON	ppp1pmn	Case=Nom|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	videmus	uideo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quod	quod	SCONJ	cs	PronType=Rel	14	mark	_	_
-5	in	in	ADP	e	_	6	case	_	_
+5	in	in	ADP	e	_	7	mark	_	_
 6	collegiis	collegium	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	7	nsubj:pass	_	_
 7	instituendis	instituo	VERB	vp3gvpnb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Gdv|Voice=Pass	14	advcl	_	_
 8	non	non	PART	r	Polarity=Neg	9	advmod:neg	_	_
@@ -11261,20 +11261,20 @@
 10	ordo	ordo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	14	nsubj:pass	_	_
 11	collegarum	collega	NOUN	smp1g	Case=Gen|Gender=Masc|InflClass=IndEurA|Number=Plur	10	nmod	_	_
 12	ad	ad	ADP	e	_	13	case	_	_
-13	invicem	inuicem	PRON	r	Compound=Yes|InflClass=Ind|PronType=Rcp	14	obl	_	_
+13	invicem	inuicem	PRON	r	Compound=Yes|InflClass=Ind|PronType=Rcp	10	nmod	_	_
 14	consideratur	considero	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
 15	ab	ab	ADP	e	_	16	mark	_	_
-16	instituente	instituo	VERB	va3ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	14	obl	_	SpaceAfter=No
+16	instituente	instituo	VERB	va3ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	14	obl:agent	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	20	punct	_	_
-18	sed	sed	CCONJ	co	_	19	cc	_	_
+18	sed	sed	CCONJ	co	_	20	cc	_	_
 19	etiam	etiam	ADV	co	Compound=Yes	20	advmod:emph	_	_
 20	facultas	facultas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	14	conj	_	_
 21	ad	ad	ADP	e	_	23	mark	_	_
 22	offitia	officium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	23	obj	_	_
-23	exercenda	exerceo	VERB	vp2gvpna	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Gdv|Voice=Pass	20	advcl	_	SpaceAfter=No
+23	exercenda	exerceo	VERB	vp2gvpna	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Gdv|Voice=Pass	20	acl	_	SpaceAfter=No
 24	:	:	PUNCT	Pu	_	27	punct	_	_
 25	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	27	nsubj	_	_
-26	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 27	considerare	considero	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	14	advcl:pred	_	_
 28	terminum	terminus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	27	obj	_	_
 29	iuris	ius	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	28	nmod	_	_
@@ -11283,13 +11283,13 @@
 32	vel	uel	CCONJ	co	_	34	cc	_	_
 33	in	in	ADP	e	_	34	case	_	_
 34	ordine	ordo	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	31	conj	_	SpaceAfter=No
-35	;	;	PUNCT	Pu	_	41	punct	_	_
-36	non	non	PART	r	Polarity=Neg	41	advmod:neg	_	_
-37	enim	enim	PART	c	Form=Emp	41	discourse	_	_
-38	ius	ius	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	41	nsubj	_	_
-39	extenditur	extendo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	41	xcomp	_	_
-40	ultra	ultra	ADV	r	_	39	advmod	_	_
-41	posse	possum	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	14	conj	_	SpaceAfter=No
+35	;	;	PUNCT	Pu	_	39	punct	_	_
+36	non	non	PART	r	Polarity=Neg	39	advmod:neg	_	_
+37	enim	enim	PART	c	Form=Emp	39	discourse	_	_
+38	ius	ius	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	39	nsubj	_	_
+39	extenditur	extendo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	27	conj	_	_
+40	ultra	ultra	ADP	r	_	41	case	_	_
+41	posse	possum	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	39	obl	_	SpaceAfter=No
 42	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Mon-302
