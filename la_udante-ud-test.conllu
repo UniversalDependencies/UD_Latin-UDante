@@ -12682,7 +12682,7 @@
 7	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 8	consistere	consisto	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	7	xcomp	_	SpaceAfter=No
 9	:	:	PUNCT	Pu	_	10	punct	_	_
-10	primo	primo	ADV	r	NumType=Ord	7	parataxis	_	_
+10	primo	primo	ADV	r	NumType=Ord	7	conj:expl	_	_
 11	circa	circa	ADP	e	_	13	case	_	_
 12	cantus	cantus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	13	nmod	_	_
 13	divisionem	diuisio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	10	orphan	_	SpaceAfter=No
