@@ -2470,8 +2470,8 @@
 50	,	,	PUNCT	Pu	_	54	punct	_	_
 51	in	in	ADP	e	_	52	case	_	_
 52	cordibus	cor	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur	54	obl	_	_
-53	et	et	CCONJ	co	_	54	cc	_	_
-54	dicentes	dico	VERB	va3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	44	advcl	_	SpaceAfter=No
+53	et	et	CCONJ	co	_	54	advmod:emph	_	_
+54	dicentes	dico	VERB	va3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	44	advcl:pred	_	SpaceAfter=No
 55	:	:	PUNCT	Pu	_	59	punct	_	_
 56	«	«	PUNCT	Pu	_	59	punct	_	SpaceAfter=No
 57	Dominum	dominus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	59	obj	_	_
