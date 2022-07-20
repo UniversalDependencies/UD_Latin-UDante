@@ -9730,7 +9730,7 @@
 20	dubio	dubium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	23	obl	_	_
 21	rationabiliter	rationabiliter	ADV	r	_	23	advmod	_	_
 22	eructare	eructo	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	23	xcomp	_	_
-23	presumpsimus	praesumo	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	SpaceAfter=No
+23	presumpsimus	praesumo	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	27	punct	_	_
 25	quia	quia	SCONJ	cs	PronType=Rel	27	mark	_	_
 26	prorsus	prorsus	ADV	r	VerbForm=Part	27	advmod	_	_
@@ -9748,10 +9748,10 @@
 38	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
 39	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	40	mark	_	_
 40	fictio	fictio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	36	advcl:cmpr	_	_
-41	rethorica	rhetoricus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	40	amod	_	_
+41	rethorica	rhetoricus	ADJ	afs1n	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	44	obl:agent	_	_
 42-43	musicaque	_	_	_	_	_	_	_	_
-42	musica	musica	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	44	obl	_	_
-43	que	que	CCONJ	co9	Clitic=Yes	44	cc	_	_
+42	musica	musica	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	41	conj	_	_
+43	que	que	CCONJ	co9	Clitic=Yes	42	cc	_	_
 44	poita	poio	VERB	vp4prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	40	acl	_	SpaceAfter=No
 45	.	.	PUNCT	Pu	_	8	punct	_	_
 
