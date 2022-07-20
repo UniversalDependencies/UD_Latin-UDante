@@ -2497,7 +2497,7 @@
 12	«	«	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 13	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	15	nmod	_	_
 14	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-15	mare	mare	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	1	parataxis	_	SpaceAfter=No
+15	mare	mare	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	1	conj:expl	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	19	punct	_	_
 17	et	et	CCONJ	co	_	19	cc	_	_
 18	ipse	ipse	DET	ddesmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	19	nsubj	_	_
