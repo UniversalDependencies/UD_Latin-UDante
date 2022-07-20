@@ -9316,8 +9316,8 @@
 # sent_id = DVE-257
 # text = Prima quidem quia, cum quicquid versificamur sit cantio, sole cantiones hoc vocabulum sibi sortite sunt: quod nunquam sine venusta provisione processit.
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_4
-1	Prima	primus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	0	root	_	_
-2	quidem	quidem	PART	r	_	1	discourse	_	_
+1	Prima	primus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	16	nsubj:outer	_	_
+2	quidem	quidem	PART	r	_	16	discourse	_	_
 3	quia	quia	SCONJ	cs	PronType=Rel	16	mark	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	3	punct	_	_
 5	cum	cum	SCONJ	cs	PronType=Rel	9	mark	_	_
@@ -9331,7 +9331,7 @@
 13	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	14	det	_	_
 14	vocabulum	uocabulum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	16	obj	_	_
 15	sibi	sui	PRON	ppp3pfd	Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	16	obl:arg	_	_
-16	sortite	sortior	VERB	vd4irp3	Aspect=Perf|Case=Nom|InflClass=LatI|Number=Plur|VerbForm=Part|Voice=Pass	1	csubj	_	_
+16	sortite	sortior	VERB	vd4irp3	Aspect=Perf|Case=Nom|InflClass=LatI|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 17	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	SpaceAfter=No
 18	:	:	PUNCT	Pu	_	24	punct	_	_
 19	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	24	nsubj	_	_
@@ -9339,8 +9339,8 @@
 21	sine	sine	ADP	e	_	23	case	_	_
 22	venusta	uenustus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	23	amod	_	_
 23	provisione	prouisio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	24	obl	_	_
-24	processit	procedo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
-25	.	.	PUNCT	Pu	_	1	punct	_	_
+24	processit	procedo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl:pred	_	SpaceAfter=No
+25	.	.	PUNCT	Pu	_	16	punct	_	_
 
 # sent_id = DVE-258
 # text = Adhuc: quicquid per se ipsum efficit illud ad quod factum est, nobilius esse videtur quam quod extrinseco indiget; sed cantiones per se totum quod debent efficiunt, quod ballate non faciunt - indigent enim plausoribus, ad quos edite sunt: ergo cantiones nobiliores ballatis esse sequitur extimandas, et per consequens nobilissimum aliorum esse modum illarum, cum nemo dubitet quin ballate sonitus nobilitate modi excellant.
