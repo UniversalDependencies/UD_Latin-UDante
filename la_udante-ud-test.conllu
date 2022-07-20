@@ -8963,7 +8963,7 @@
 # sent_id = DVE-246
 # text = Secundo in eo quod est delectabile: in quo dicimus illud esse maxime delectabile quod per pretiosissimum obiectum appetitus delectat: hoc autem venus est.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_7
-1	Secundo	secundo	ADV	r	NumType=Ord|VerbForm=Gdv	3	discourse	_	_
+1	Secundo	secundo	ADV	r	NumType=Ord|VerbForm=Gdv	3	orphan	_	_
 2	in	in	ADP	e	_	3	case	_	_
 3	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 4	quod	quod	SCONJ	cs	PronType=Rel	6	mark	_	_
