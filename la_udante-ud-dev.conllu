@@ -1320,11 +1320,11 @@
 10	inclitissimo	inclitus	ADJ	ams1bs	Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	12	amod	_	_
 11	phylosophorum	philosophus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	10	nmod	_	_
 12	Seneca	seneca	PROPN	Sms1b	Case=Abl|Gender=Masc|InflClass=IndEurA|NameType=Sur|Number=Sing	18	obl:agent	_	_
-13	nobis	ego	PRON	ppp1pmd	Case=Dat|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	18	obl	_	_
+13	nobis	ego	PRON	ppp1pmd	Case=Dat|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	18	obl:arg	_	_
 14	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	16	mark	_	_
 15	a	a	ADP	e	_	16	case	_	_
 16	patre	pater	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	18	advcl:cmpr	_	_
-17	filiis	filius	NOUN	smp2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	16	obl	_	_
+17	filiis	filius	NOUN	smp2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	16	orphan	_	_
 18	ministrantur	ministro	VERB	vp1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	27	punct	_	_
 20	et	et	CCONJ	co	_	27	cc	_	_
@@ -1346,7 +1346,7 @@
 36	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	39	obj	_	_
 37	suum	suus	DET	dsnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	36	acl:relcl	_	_
 38	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	_
-39	diligeret	diligo	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	parataxis	_	SpaceAfter=No
+39	diligeret	diligo	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	dislocated:csubj	_	SpaceAfter=No
 40	»	»	PUNCT	Pu	_	39	punct	_	SpaceAfter=No
 41	.	.	PUNCT	Pu	_	1	punct	_	_
 
