@@ -1991,7 +1991,7 @@
 # sent_id = Epi-55
 # text = Et si Augustus, nonne relapsorum facinora vindicabit, et usque in Thessaliam persequetur, Thessaliam, inquam, finalis deletionis?
 # citation_hierarchy = V,Paragraphus_10
-1	Et	et	CCONJ	co	_	3	cc	_	_
+1	Et	et	CCONJ	co	_	9	cc	_	_
 2	si	si	SCONJ	cs	_	3	mark	_	_
 3	Augustus	augustus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	9	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	3	punct	_	_
