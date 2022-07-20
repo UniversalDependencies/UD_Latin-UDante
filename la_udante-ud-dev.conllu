@@ -7849,7 +7849,7 @@
 88	possitis	possum	VERB	va5cpp2	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	66	advcl	_	SpaceAfter=No
 89	:	:	PUNCT	Pu	_	91	punct	_	_
 90	«	«	PUNCT	Pu	_	91	punct	_	SpaceAfter=No
-91	Gloria	gloria	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	88	parataxis	_	_
+91	Gloria	gloria	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	87	ccomp:reported	_	_
 92	in	in	ADP	e	_	93	case	_	_
 93	excelsis	excelsus	ADJ	anp1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	91	obl	_	SpaceAfter=No
 94	»	»	PUNCT	Pu	_	91	punct	_	SpaceAfter=No
