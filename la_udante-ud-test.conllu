@@ -8935,7 +8935,7 @@
 # text = Et primo in eo quod est utile: in quo, si callide consideremus intentum omnium querentium utilitatem, nil aliud quam salutem inveniemus.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_7
 1	Et	et	CCONJ	co	_	4	cc	_	_
-2	primo	primo	ADV	r	NumType=Ord	4	discourse	_	_
+2	primo	primo	ADV	r	NumType=Ord	4	advmod	_	_
 3	in	in	ADP	e	_	4	case	_	_
 4	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 5	quod	quod	SCONJ	cs	PronType=Rel	7	mark	_	_
