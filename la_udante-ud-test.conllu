@@ -9361,10 +9361,10 @@
 14	nobilius	nobilis	ADJ	ans2nc	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	16	xcomp	_	_
 15	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	14	cop	_	_
 16	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-17	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	20	mark	_	_
-18	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	20	nsubj	_	_
-19	extrinseco	extrinsecus	ADJ	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	20	obl:arg	_	_
-20	indiget	indigeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl:cmpr	_	SpaceAfter=No
+17	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	18	mark	_	_
+18	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	advcl:cmpr	_	_
+19	extrinseco	extrinsecus	ADJ	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	20	obl	_	_
+20	indiget	indigeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	SpaceAfter=No
 21	;	;	PUNCT	Pu	_	29	punct	_	_
 22	sed	sed	CCONJ	co	_	29	cc	_	_
 23	cantiones	cantio	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	29	nsubj	_	_
@@ -9378,7 +9378,7 @@
 31	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	34	obj	_	_
 32	ballate	ballata	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	34	nsubj	_	_
 33	non	non	PART	r	Polarity=Neg	34	advmod:neg	_	_
-34	faciunt	facio	VERB	va3ipp3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	parataxis	_	_
+34	faciunt	facio	VERB	va3ipp3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl:pred	_	_
 35	-	-	PUNCT	Pu	_	36	punct	_	_
 36	indigent	indigeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	conj	_	_
 37	enim	enim	PART	c	Form=Emp	36	discourse	_	_
