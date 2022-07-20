@@ -12179,12 +12179,12 @@
 14	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 15	quod	quod	SCONJ	cs	PronType=Rel	17	mark	_	_
 16	ipsam	ipse	DET	ddesfa	Case=Acc|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	17	obj	_	_
-17	proferat	profero	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	SpaceAfter=No
+17	proferat	profero	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	20	punct	_	_
 19	sed	sed	CCONJ	co	_	20	cc	_	_
 20	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	14	conj	_	_
 21	quod	quod	SCONJ	cs	PronType=Rel	22	mark	_	_
-22	fabricaverit	fabrico	VERB	va1crs3	Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	ccomp	_	_
+22	fabricaverit	fabrico	VERB	va1crs3	Aspect=Perf|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	acl	_	_
 23	illam	ille	DET	ddisfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	22	obj	_	SpaceAfter=No
 24	.	.	PUNCT	Pu	_	1	punct	_	_
 
