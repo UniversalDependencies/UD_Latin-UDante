@@ -5083,7 +5083,7 @@
 26	in	in	ADP	e	_	27	case	_	_
 27	tribubus	tribus	NOUN	sfp4b	Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Plur	25	obl	_	_
 28	Israel	israel	PROPN	Smsgi	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	27	nmod	_	_
-29	factus	facio	VERB	vp3irs2	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	parataxis	_	_
+29	factus	facio	VERB	vp3irs2	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	ccomp:reported	_	_
 30	es	sum	AUX	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux:pass	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	32	punct	_	_
 32-33	unxitque	_	_	_	_	_	_	_	_
