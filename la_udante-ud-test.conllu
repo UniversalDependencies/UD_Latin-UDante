@@ -14623,7 +14623,7 @@
 20	non	non	PART	r	Polarity=Neg	21	advmod:neg	_	_
 21	aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	23	xcomp	_	_
 22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	21	cop	_	_
-23	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	parataxis	_	_
+23	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
 24	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	28	mark	_	_
 25	quedam	quidam	DET	dinsfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	28	det	_	_
 26	ipsius	ipse	DET	dpfsg	Case=Gen|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	27	det	_	_
