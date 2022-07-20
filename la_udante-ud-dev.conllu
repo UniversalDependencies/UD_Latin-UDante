@@ -2111,9 +2111,9 @@
 # text = Preoccupetis faciem eius in confessione subiectionis, et in psalterio penitentie iubiletis, considerantes quia «potestati resistens Dei ordinationi resistit»; et qui divine ordinationi repugnat, voluntati omnipotentie coequali recalcitrat; et «durum est contra stimulum calcitrare».
 # citation_hierarchy = V,Paragraphus_14
 1	Preoccupetis	praeoccupo	VERB	va1cpp2	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	faciem	facies	NOUN	sfs5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	1	obl	_	_
+2	faciem	facies	NOUN	sfs5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Sing	1	obj	_	_
 3	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
-4	in	in	ADP	e	_	2	case	_	_
+4	in	in	ADP	e	_	5	case	_	_
 5	confessione	confessio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	1	obl	_	_
 6	subiectionis	subiectio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	12	punct	_	_
@@ -2130,7 +2130,7 @@
 18	resistens	resisto	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	21	nsubj	_	_
 19	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	20	nmod	_	_
 20	ordinationi	ordinatio	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	21	obl:arg	_	_
-21	resistit	resisto	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	SpaceAfter=No
+21	resistit	resisto	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	SpaceAfter=No
 22	»	»	PUNCT	Pu	_	21	punct	_	SpaceAfter=No
 23	;	;	PUNCT	Pu	_	25	punct	_	_
 24	et	et	CCONJ	co	_	25	cc	_	_
@@ -2139,14 +2139,14 @@
 27	ordinationi	ordinatio	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	28	obl:arg	_	_
 28	repugnat	repugno	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	SpaceAfter=No
 29	,	,	PUNCT	Pu	_	25	punct	_	_
-30	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	33	obl	_	_
+30	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	33	obl:arg	_	_
 31	omnipotentie	omnipotentia	NOUN	sfs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	32	obl:arg	_	_
 32	coequali	coaequalis	ADJ	afs2d	Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Sing	30	amod	_	_
 33	recalcitrat	recalcitro	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	SpaceAfter=No
 34	;	;	PUNCT	Pu	_	37	punct	_	_
 35	et	et	CCONJ	co	_	37	cc	_	_
 36	«	«	PUNCT	Pu	_	37	punct	_	SpaceAfter=No
-37	durum	durus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	33	parataxis	_	_
+37	durum	durus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	33	conj	_	_
 38	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
 39	contra	contra	ADP	e	_	40	case	_	_
 40	stimulum	stimulus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	41	obl	_	_
