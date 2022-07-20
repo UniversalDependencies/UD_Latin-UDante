@@ -12954,14 +12954,14 @@
 29	una	unus	DET	dpfsb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	30	det	_	_
 30	oda	oda	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	27	obl	_	_
 31	in	in	ADP	e	_	32	case	_	_
-32	aliam	alius	DET	dpfs1a	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	27	obl:arg	_	_
+32	aliam	alius	DET	dpfs1a	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	27	obl	_	_
 33	(	(	PUNCT	Pu	_	36	punct	_	SpaceAfter=No
 34	hanc	hic	DET	ddisfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	36	obj	_	_
 35	voltam	uolta	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	36	xcomp:pred	_	_
-36	vocamus	uoco	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	SpaceAfter=No
+36	vocamus	uoco	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	40	punct	_	_
 38	cum	cum	SCONJ	cs	PronType=Rel	40	mark	_	_
-39	vulgus	uulgus	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	40	obl	_	_
+39	vulgus	uulgus	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	40	obj	_	_
 40	alloquimur	alloquor	VERB	vd3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	36	advcl	_	SpaceAfter=No
 41	)	)	PUNCT	Pu	_	36	punct	_	_
 42	-	-	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
