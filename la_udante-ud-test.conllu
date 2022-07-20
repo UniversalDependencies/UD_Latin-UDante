@@ -12652,14 +12652,14 @@
 9	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
 10	congremiatio	congremiatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	3	csubj	_	_
 11	sive	siue	CCONJ	co	ConjType=Expl	12	cc	_	_
-12	compages	compages	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	10	conj:expl	_	_
+12	compages	compages	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	10	conj	_	_
 13	omnium	omnis	DET	anp2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	14	det	_	_
-14	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+14	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
 15	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	17	obj	_	_
 16	cantio	cantio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	17	nsubj	_	_
 17	sumit	sumo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
 18	ab	ab	ADP	e	_	19	case	_	_
-19	arte	ars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	17	obl:arg	_	SpaceAfter=No
+19	arte	ars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	17	obl	_	SpaceAfter=No
 20	:	:	PUNCT	Pu	_	22	punct	_	_
 21	quibus	qui	PRON	prepnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	22	nsubj:pass	_	_
 22	divaricatis	diuarico	VERB	vp1prpnb	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	27	advcl:abs	_	SpaceAfter=No
@@ -12667,7 +12667,7 @@
 24	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	25	obj	_	_
 25	querimus	quaero	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
 26	descriptio	descriptio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	27	nsubj	_	_
-27	innotescet	innotesco	VERB	va3ifs3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
+27	innotescet	innotesco	VERB	va3ifs3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No
 28	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = DVE-348
