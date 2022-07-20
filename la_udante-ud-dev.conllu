@@ -9339,7 +9339,7 @@
 25	populo	populus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	22	orphan	_	_
 26	barbaro	barbarus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	25	amod	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	17	punct	_	_
-28	facta	facio	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	13	parataxis:rep	_	_
+28	facta	facio	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	13	conj:expl	_	_
 29	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
 30	Iudea	iudaea	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	28	nsubj:pass	_	_
 31	sanctificatio	sanctificatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	28	xcomp:pred	_	_
