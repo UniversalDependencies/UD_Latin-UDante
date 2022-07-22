@@ -8968,7 +8968,7 @@
 3	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 4	quod	quod	SCONJ	cs	PronType=Rel	0	root	_	_
 5	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	delectabile	delectabilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	3	ccomp	_	SpaceAfter=No
+6	delectabile	delectabilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	SpaceAfter=No
 7	:	:	PUNCT	Pu	_	10	punct	_	_
 8	in	in	ADP	e	_	9	case	_	_
 9	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	10	obl	_	_
