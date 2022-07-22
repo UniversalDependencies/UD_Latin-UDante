@@ -8982,7 +8982,7 @@
 17	pretiosissimum	pretiosus	ADJ	ans1as	Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	18	amod	_	_
 18	obiectum	obiectus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	20	obl	_	_
 19	appetitus	appetitus	NOUN	smp4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	20	obj	_	_
-20	delectat	delecto	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No
+20	delectat	delecto	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
 21	:	:	PUNCT	Pu	_	24	punct	_	_
 22	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	24	nsubj	_	_
 23	autem	autem	CCONJ	co	_	24	cc	_	_
