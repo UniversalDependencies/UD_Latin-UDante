@@ -8966,7 +8966,7 @@
 1	Secundo	secundo	ADV	r	NumType=Ord|VerbForm=Gdv	3	orphan	_	_
 2	in	in	ADP	e	_	3	case	_	_
 3	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	_
-4	quod	quod	SCONJ	cs	PronType=Rel	6	mark	_	_
+4	quod	quod	SCONJ	cs	PronType=Rel	0	root	_	_
 5	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	delectabile	delectabilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	3	ccomp	_	SpaceAfter=No
 7	:	:	PUNCT	Pu	_	10	punct	_	_
@@ -8986,7 +8986,7 @@
 21	:	:	PUNCT	Pu	_	24	punct	_	_
 22	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	24	nsubj	_	_
 23	autem	autem	CCONJ	co	_	24	cc	_	_
-24	venus	uenus	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	20	parataxis	_	_
+24	venus	uenus	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	0	root	_	_
 25	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	SpaceAfter=No
 26	.	.	PUNCT	Pu	_	3	punct	_	_
 
