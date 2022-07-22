@@ -8956,7 +8956,7 @@
 20	nil	nil	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=Ind|Number=Sing|PronType=Neg	24	obj	_	_
 21	aliud	alius	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	20	det	_	_
 22	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	23	mark	_	_
-23	salutem	salus	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	20	acl:cmpr	_	_
+23	salutem	salus	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	24	acl:cmpr	_	_
 24	inveniemus	inuenio	VERB	va4ifp1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No
 25	.	.	PUNCT	Pu	_	4	punct	_	_
 
