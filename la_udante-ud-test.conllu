@@ -8849,7 +8849,7 @@
 12	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	15	obl	_	_
 13	cum	cum	ADP	e	_	14	case	_	_
 14	plantis	planta	NOUN	sfp1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	15	obl	_	_
-15	comunicat	communico	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	SpaceAfter=No
+15	comunicat	communico	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl:pred	_	SpaceAfter=No
 16	;	;	PUNCT	Pu	_	19	punct	_	_
 17	secundum	secundum	ADP	e	VerbForm=Gdv	19	mark	_	_
 18	quod	quod	SCONJ	cs	PronType=Rel	17	fixed	_	_
@@ -8858,7 +8858,7 @@
 21	delectabile	delectabilis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	9	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	24	punct	_	_
 23	in	in	ADP	e	_	24	case	_	_
-24	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	21	parataxis	_	_
+24	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	21	advcl:pred	_	_
 25	cum	cum	ADP	e	_	26	case	_	_
 26	brutis	brutum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	24	orphan	_	SpaceAfter=No
 27	;	;	PUNCT	Pu	_	30	punct	_	_
@@ -8866,12 +8866,12 @@
 29	quod	quod	SCONJ	cs	PronType=Rel	28	fixed	_	_
 30	rationale	rationalis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	33	advcl	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	30	punct	_	_
-32	honestum	honestum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	33	obj	_	_
+32	honestum	honestus	ADJ	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	33	obj	_	_
 33	querit	quaero	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
 34	,	,	PUNCT	Pu	_	37	punct	_	_
 35	in	in	ADP	e	_	36	case	_	_
 36	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	37	obl	_	_
-37	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	33	parataxis	_	_
+37	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	33	advcl:pred	_	_
 38	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	SpaceAfter=No
 39	,	,	PUNCT	Pu	_	42	punct	_	_
 40	vel	uel	CCONJ	co	_	42	cc	_	_
