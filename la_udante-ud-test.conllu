@@ -8993,12 +8993,12 @@
 # sent_id = DVE-247
 # text = Tertio in eo quod est honestum: in quo nemo dubitat esse virtutem.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_7
-1	Tertio	tertio	ADV	r	NumType=Ord	3	discourse	_	_
+1	Tertio	tertio	ADV	r	NumType=Ord	3	orphan	_	_
 2	in	in	ADP	e	_	3	case	_	_
 3	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 4	quod	quod	SCONJ	cs	PronType=Rel	6	mark	_	_
 5	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	honestum	honestum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	3	ccomp	_	SpaceAfter=No
+6	honestum	honestum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	3	acl:relcl	_	SpaceAfter=No
 7	:	:	PUNCT	Pu	_	11	punct	_	_
 8	in	in	ADP	e	_	9	case	_	_
 9	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	11	obl	_	_
