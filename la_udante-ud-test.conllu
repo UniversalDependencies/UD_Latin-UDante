@@ -7947,8 +7947,8 @@
 # citation_hierarchy = Liber_Secundus,i,Paragraphus_3
 1	Preterea	praeterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	19	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
-3	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	nsubj	_	_
-4	optimum	bonus	ADJ	ans1ns	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	19	acl:relcl	_	_
+3	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	19	nsubj:pass	_	_
+4	optimum	bonus	ADJ	ans1ns	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	3	acl:relcl	_	_
 5	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 6	in	in	ADP	e	_	7	case	_	_
 7	genere	genus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	4	obl	_	_
@@ -7973,9 +7973,9 @@
 26	:	:	PUNCT	Pu	_	27	punct	_	_
 27	quare	quare	CCONJ	r	Compound=Yes|PronType=Rel	44	cc	_	_
 28	si	si	SCONJ	cs	_	39	mark	_	_
-29	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	30	det	_	_
-30	versificator	uersificator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	39	nsubj	_	SpaceAfter=No
-31	,	,	PUNCT	Pu	_	30	punct	_	_
+29	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	39	nsubj	_	_
+30	versificator	uersificator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	29	flat	_	SpaceAfter=No
+31	,	,	PUNCT	Pu	_	29	punct	_	_
 32	quanquam	quamquam	SCONJ	cs	Form=Emp|PronType=Rel	34	mark	_	_
 33	rude	rude	ADV	r	_	34	advmod	_	_
 34	versificetur	uersificor	VERB	vd1cps3	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	39	advcl	_	SpaceAfter=No
@@ -7988,27 +7988,27 @@
 41	non	non	PART	r	Polarity=Neg	42	advmod:neg	_	_
 42	solum	solum	ADV	r	PronType=Con	44	advmod:emph	_	_
 43	bene	bene	ADV	r	_	44	advmod	_	_
-44	facere	facio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	19	advcl	_	SpaceAfter=No
+44	facere	facio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	19	conj	_	SpaceAfter=No
 45	,	,	PUNCT	Pu	_	51	punct	_	_
 46	sed	sed	CCONJ	co	_	51	cc	_	_
-47	ipsum	ipse	DET	ddesma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	49	nsubj	_	_
+47	ipsum	ipse	DET	ddesma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	50	nsubj	_	_
 48	sic	sic	ADV	r	PronType=Dem	49	advmod	_	_
-49	facere	facio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	50	csubj	_	_
-50	oportere	oportet	VERB	va2*fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	51	csubj:pass	_	_
+49	facere	facio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	50	xcomp	_	_
+50	oportere	oportet	VERB	va2*fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	51	xcomp	_	_
 51	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	44	conj	_	SpaceAfter=No
 52	:	:	PUNCT	Pu	_	55	punct	_	_
 53	multo	multo	ADV	r	_	54	advmod	_	_
 54	magis	magis	ADV	rc	Degree=Cmp	55	advmod	_	_
-55	opus	opus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	19	parataxis	_	_
+55	opus	opus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	19	conj	_	_
 56	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	_
-57	adiutorio	adiutorium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	55	obl:arg	_	_
-58	illis	ille	DET	ddipmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	55	obl:cmpr	_	_
+57	adiutorio	adiutorium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	55	obl	_	_
+58	illis	ille	DET	ddipmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	55	obl:arg	_	_
 59	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	58	acl:relcl	_	_
 60	pauca	paucus	DET	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	59	orphan	_	_
 61	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	64	mark	_	_
 62	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	64	nsubj	_	_
 63	multa	multus	DET	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	64	obj	_	_
-64	possunt	possum	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	59	advcl:cmpr	_	SpaceAfter=No
+64	possunt	possum	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	55	advcl:cmpr	_	SpaceAfter=No
 65	.	.	PUNCT	Pu	_	19	punct	_	_
 
 # sent_id = DVE-219
