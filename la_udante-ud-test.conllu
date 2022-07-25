@@ -7839,8 +7839,8 @@
 1	Sed	sed	CCONJ	co	_	37	cc	_	_
 2	quia	quia	SCONJ	cs	PronType=Rel	8	mark	_	_
 3	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	8	obj	_	_
-4	prosaycantes	prosaico	VERB	va1pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	8	csubj	_	_
-5	ab	ab	ADP	e	_	6	mark	_	_
+4	prosaycantes	prosaico	VERB	va1pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	8	nsubj	_	_
+5	ab	ab	ADP	e	_	6	case	_	_
 6	avientibus	auieo	VERB	va2pppmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	8	obl	_	_
 7	magis	magis	ADV	rc	Degree=Cmp	8	advmod	_	_
 8	accipiunt	accipio	VERB	va3ipp3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	advcl	_	_
@@ -7852,7 +7852,7 @@
 14	prosaycantibus	prosaico	VERB	va1pppmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	15	obl:arg	_	_
 15	permanere	permaneo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	16	xcomp	_	_
 16	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
-17	exemplar	exemplar	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	15	xcomp:pred	_	SpaceAfter=No
+17	exemplar	exemplar	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	15	advcl:pred	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	22	punct	_	_
 19	et	et	CCONJ	co	_	22	cc	_	_
 20	non	non	PART	r	Polarity=Neg	22	advmod:neg	_	_
@@ -7861,10 +7861,10 @@
 23	-	-	PUNCT	Pu	_	26	punct	_	_
 24	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	26	nsubj:pass	_	_
 25	quendam	quidam	DET	dinsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	28	det	_	_
-26	videntur	uideo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
+26	videntur	uideo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl:pred	_	_
 27	prebere	praebeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	26	xcomp	_	_
-28	primatum	primatus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	26	obj	_	_
-29	-	-	PUNCT	Pu	_	8	punct	_	SpaceAfter=No
+28	primatum	primatus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	27	obj	_	_
+29	-	-	PUNCT	Pu	_	26	punct	_	SpaceAfter=No
 30	,	,	PUNCT	Pu	_	8	punct	_	_
 31	primo	primo	ADV	r	NumType=Ord	37	advmod	_	_
 32	secundum	secundum	ADP	e	VerbForm=Gdv	34	case	_	_
