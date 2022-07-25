@@ -6131,7 +6131,7 @@
 1	Si	si	SCONJ	cs	_	5	mark	_	_
 2	ergo	ergo	ADV	co	AdvType=Loc	12	discourse	_	_
 3	Bononienses	bononiensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	5	nsubj	_	_
-4	utrinque	utrimque	ADV	r	_	5	advmod	_	_
+4	utrinque	utrimque	ADV	r	AdvType=Loc|Form=Emp|PronType=Con	5	advmod:lmod	_	_
 5	accipiunt	accipio	VERB	va3ipp3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	8	punct	_	_
 7	ut	ut	SCONJ	r	ConjType=Cmpr	8	mark	_	_
@@ -6153,7 +6153,7 @@
 23	ad	ad	ADP	e	_	25	case	_	_
 24	laudabilem	laudabilis	ADJ	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	25	amod	_	_
 25	suavitatem	suauitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	27	obl	_	_
-26	remaneat	remaneo	VERB	va2cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj	_	_
+26	remaneat	remaneo	VERB	va2cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj:pass	_	_
 27	temperata	temperatus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	26	xcomp:pred	_	SpaceAfter=No
 28	:	:	PUNCT	Pu	_	36	punct	_	_
 29	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	36	obj	_	_
@@ -6161,9 +6161,9 @@
 31	dubio	dubium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	36	obl	_	_
 32	nostro	noster	DET	dsnsb	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	33	det	_	_
 33	iudicio	iudicium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	36	obl	_	_
-34	sic	sic	ADV	r	PronType=Dem	36	ccomp	_	_
+34	sic	sic	ADV	r	PronType=Dem	36	xcomp	_	_
 35	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	34	cop	_	_
-36	censemus	censeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
+36	censemus	censeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl:pred	_	SpaceAfter=No
 37	.	.	PUNCT	Pu	_	12	punct	_	_
 
 # sent_id = DVE-166
