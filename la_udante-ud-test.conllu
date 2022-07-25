@@ -5838,7 +5838,7 @@
 10	et	et	CCONJ	co	_	11	cc	_	_
 11	finitimorum	finitimus	ADJ	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	9	conj	_	_
 12	suorum	suus	DET	dsmpg	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_
-13	u	u	NOUN	yy	InflClass=Ind|NameType=Let	17	obj	_	_
+13	u	u	NOUN	yy	InflClass=Ind|NameType=Let	18	obj	_	_
 14	consonantem	consonans	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	13	flat	_	_
 15	per	per	ADP	e	_	16	case	_	_
 16	f	f	NOUN	yy	InflClass=Ind|NameType=Let	18	obl	_	_
@@ -5861,7 +5861,7 @@
 33	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	36	obj	_	_
 34	quidem	quidem	PART	r	_	36	discourse	_	_
 35	barbarissimum	barbarus	ADJ	ans1as	Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	36	xcomp:pred	_	_
-36	reprobamus	reprobo	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	SpaceAfter=No
+36	reprobamus	reprobo	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl:pred	_	SpaceAfter=No
 37	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = DVE-158
