@@ -7188,16 +7188,16 @@
 6	sequitur	sequor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	advcl:cmpr	_	_
 7	ut	ut	SCONJ	cs	ConjType=Cmpr	13	mark	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	7	punct	_	_
-9	quo	quo	ADV	r	PronType=Rel	11	advmod	_	_
+9	quo	quo	ADV	r	AdvType=Loc|PronType=Rel	13	advmod:lmod	_	_
 10	cardo	cardo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	11	nsubj:pass	_	_
-11	vertitur	uerto	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	acl:relcl	_	SpaceAfter=No
+11	vertitur	uerto	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	11	punct	_	_
 13	versetur	uerso	VERB	vd1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	_
 14	et	et	ADV	co	_	15	advmod:emph	_	_
 15	ipsum	ipse	DET	ddesnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	13	nsubj:pass	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	21	punct	_	_
 17	seu	seu	CCONJ	co	_	18	cc	_	_
-18	introrsum	introrsum	ADV	r	Compound=Yes|VerbForm=Part	21	advmod	_	_
+18	introrsum	introrsum	ADV	r	Compound=Yes|VerbForm=Part	21	advmod:lmod	_	_
 19	seu	seu	CCONJ	co	_	20	cc	_	_
 20	extrorsum	extrorsum	ADV	r	Compound=Yes|VerbForm=Part	18	conj	_	_
 21	flectatur	flecto	VERB	vp3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	conj	_	SpaceAfter=No
@@ -7214,17 +7214,17 @@
 32	,	,	PUNCT	Pu	_	33	punct	_	_
 33	movetur	moueo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	conj	_	_
 34	et	et	CCONJ	co	_	35	cc	_	_
-35	pausat	pauso	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	conj	_	_
+35	pausat	pauso	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	conj	_	_
 36	secundum	secundum	ADP	e	VerbForm=Gdv	38	mark	_	_
-37	quod	quod	SCONJ	cs	PronType=Rel	36	fixed	_	_
-38	istud	iste	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	29	orphan	_	SpaceAfter=No
+37	quod	quod	SCONJ	cs	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	36	fixed	_	_
+38	istud	iste	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	29	advcl	_	SpaceAfter=No
 39	,	,	PUNCT	Pu	_	45	punct	_	_
 40	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	45	nsubj:pass	_	_
 41	quidem	quidem	PART	r	_	45	discourse	_	_
 42	vere	uere	ADV	r	_	43	advmod	_	_
 43	paterfamilias	paterfamilias	NOUN	sms3nc	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing	45	xcomp	_	_
 44	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	43	cop	_	_
-45	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	parataxis	_	SpaceAfter=No
+45	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	38	parataxis	_	SpaceAfter=No
 46	.	.	PUNCT	Pu	_	29	punct	_	_
 
 # sent_id = DVE-195
