@@ -8388,7 +8388,7 @@
 35	enim	enim	PART	c	Form=Emp	39	discourse	_	_
 36	exornatio	exornatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	39	nsubj	_	_
 37	alicuius	aliquis	PRON	dinsng	Case=Gen|Compound=Yes|Gender=Neut|Number=Sing|PronType=Ind	39	nmod	_	_
-38	convenientis	conueniens	ADJ	ans2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	37	amod	_	_
+38	convenientis	conuenio	VERB	ans2g	Aspect=Imp|Case=Gen|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	37	acl	_	_
 39	additio	additio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	25	conj	_	SpaceAfter=No
 40	.	.	PUNCT	Pu	_	16	punct	_	_
 
