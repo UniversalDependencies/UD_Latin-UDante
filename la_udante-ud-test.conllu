@@ -4168,7 +4168,7 @@
 3	autem	autem	CCONJ	co	_	10	cc	_	_
 4	querat	quaero	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 5	de	de	ADP	e	_	6	case	_	_
-6	linea	linea	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl:arg	_	_
+6	linea	linea	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl	_	_
 7	dividente	diuido	VERB	va3ppsfb	Aspect=Imp|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	6	acl	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	4	punct	_	_
 9	breviter	breuiter	ADV	r	_	10	advmod	_	_
@@ -4186,7 +4186,7 @@
 21	inde	inde	ADV	r	_	20	conj	_	_
 22	ad	ad	ADP	e	_	24	case	_	_
 23	diversa	diuersus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	24	amod	_	_
-24	stillicidia	stillicidium	NOUN	snp2a	Case=Acc|Compound=Yes|Gender=Neut|InflClass=IndEurO|Number=Plur	25	obl:arg	_	_
+24	stillicidia	stillicidium	NOUN	snp2a	Case=Acc|Compound=Yes|Gender=Neut|InflClass=IndEurO|Number=Plur	25	obl:lmod	_	_
 25	grundat	grundo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	advcl:cmpr	_	_
 26	aquas	aqua	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	25	obj	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	25	punct	_	_
@@ -4196,7 +4196,7 @@
 31	inde	inde	ADV	r	_	30	conj	_	_
 32	litora	litus	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur|VerbForm=Part	36	obl	_	_
 33	per	per	ADP	e	_	34	case	_	_
-34	ymbricia	ymbricium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	36	obl	_	_
+34	ymbricia	imbricium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	36	obl	_	_
 35	longa	longus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	34	amod	_	_
 36	distillat	distillo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	42	punct	_	_
@@ -4209,15 +4209,15 @@
 44	dextrum	dexter	ADJ	ans1a	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	46	amod	_	_
 45	quoque	quoque	ADV	r	Form=Emp	50	discourse	_	_
 46	latus	latus	NOUN	sns3a	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	50	nsubj	_	_
-47	Tyrenum	tyrrhenus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	50	obj	_	_
-48	mare	mare	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	47	flat	_	_
+47	Tyrenum	tyrrhenus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	48	amod	_	_
+48	mare	mare	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	50	obj	_	_
 49	grundatorium	grundatorium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	50	xcomp:pred	_	_
-50	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	SpaceAfter=No
+50	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	conj	_	SpaceAfter=No
 51	,	,	PUNCT	Pu	_	56	punct	_	_
 52	levum	laeuus	ADJ	ans1a	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	56	nsubj	_	_
 53	vero	uero	ADV	r	_	56	discourse	_	_
 54	in	in	ADP	e	_	55	case	_	_
-55	Adriaticum	hadriaticus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	56	obl:arg	_	_
+55	Adriaticum	hadriaticus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	56	obl:lmod	_	_
 56	cadit	cado	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	50	conj	_	SpaceAfter=No
 57	.	.	PUNCT	Pu	_	10	punct	_	_
 
