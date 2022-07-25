@@ -8373,7 +8373,7 @@
 20	bovem	bos	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	25	obj	_	_
 21	epiphiatum	epiphio	VERB	vp1prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
 22	nec	neque	CCONJ	co	Polarity=Neg	24	cc	_	_
-23	balteatum	balteatus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	24	amod	_	_
+23	balteatum	balteo	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
 24	suem	sus	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	20	conj	_	_
 25	dicemus	dico	VERB	va3ifp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	16	conj	_	_
 26	ornatum	orno	VERB	vp1prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	25	xcomp	_	SpaceAfter=No
