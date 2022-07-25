@@ -3888,7 +3888,7 @@
 # sent_id = DVE-103
 # text = Triphario nunc existente nostro ydiomate, ut superius dictum est, in comparatione sui ipsius, secundum quod trisonum factum est, cum tanta timiditate cunctamur librantes quod hanc vel istam vel illam partem in comparando preponere non audemus, nisi eo quo gramatice positores inveniuntur accepisse “sic” adverbium affirmandi: quod quandam anterioritatem erogare videtur Ytalis, qui sì dicunt.
 # citation_hierarchy = Liber_Primus,x,Paragraphus_1
-1	Triphario	tripharius	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	5	amod	_	_
+1	Triphario	tripharius	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	3	advcl:pred	_	_
 2	nunc	nunc	ADV	r	_	3	advmod	_	_
 3	existente	existo	VERB	va3ppsnb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	26	advcl:abs	_	_
 4	nostro	noster	DET	dsnsb	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	_
