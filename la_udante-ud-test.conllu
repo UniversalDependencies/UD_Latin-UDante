@@ -6859,7 +6859,7 @@
 # sent_id = DVE-181
 # text = Quare autem hoc quod repertum est, illustre, cardinale, aulicum et curiale adicientes vocemus, nunc disponendum est: per quod clarius ipsum quod ipsum est faciamus patere.
 # citation_hierarchy = Liber_Primus,xvii,Paragraphus_1
-1	Quare	quare	CCONJ	cs	Compound=Yes|PronType=Rel	16	cc	_	_
+1	Quare	quare	ADV	cs	Compound=Yes|PronType=Int	16	advmod	_	_
 2	autem	autem	CCONJ	co	_	19	cc	_	_
 3	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	16	obj	_	_
 4	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
@@ -6876,7 +6876,7 @@
 15	adicientes	adicio	VERB	v3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	advcl:pred	_	_
 16	vocemus	uoco	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	csubj:pass	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	16	punct	_	_
-18	nunc	nunc	ADV	r	_	19	discourse	_	_
+18	nunc	nunc	ADV	r	AdvType=Tim	19	advmod:tmod	_	_
 19	disponendum	dispono	VERB	vp3gvsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Gdv|Voice=Pass	0	root	_	_
 20	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	SpaceAfter=No
 21	:	:	PUNCT	Pu	_	29	punct	_	_
@@ -6884,10 +6884,10 @@
 23	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	29	obl	_	_
 24	clarius	clare	ADV	r+	Degree=Cmp	30	advmod	_	_
 25	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	30	nsubj	_	_
-26	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	27	nsubj	_	_
-27	ipsum	ipse	DET	ddesnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	30	ccomp	_	_
+26	quod	qui	PRON	presnn	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	30	xcomp	_	_
+27	ipsum	ipse	DET	ddesnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	26	acl:relcl	_	_
 28	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
-29	faciamus	facio	VERB	va3ifp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+29	faciamus	facio	VERB	va3ifp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
 30	patere	pateo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	29	ccomp	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	19	punct	_	_
 
