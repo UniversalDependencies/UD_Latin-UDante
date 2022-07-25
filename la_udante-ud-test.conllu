@@ -13931,17 +13931,17 @@
 # text = Verumtamen quosdam ab eptasillabo tragice principiasse invenimus, videlicet Guidonem Guinizelli, Guidonem de Ghisileriis et Fabrutium Bononienses: Di fermo sofferire, et Donna, lo fermo core, et Lo meo lontano gire; et quosdam alios.
 # citation_hierarchy = Liber_Secundus,xii,Paragraphus_6
 1-2	Verumtamen	_	_	_	_	_	_	_	_
-1	verum	uerum	CCONJ	co	_	8	cc	_	_
+1	Verum	uerum	CCONJ	co	_	8	cc	_	_
 2	tamen	tamen	ADV	co	PronType=Dem	8	advmod	_	_
-3	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	7	nsubj	_	_
+3	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	8	obj	_	_
 4	ab	ab	ADP	e	_	5	case	_	_
 5	eptasillabo	eptasyllabus	ADJ	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	7	obl	_	_
 6	tragice	tragice	ADV	r	_	7	advmod	_	_
-7	principiasse	principio	VERB	va1xfr	Aspect=Perf|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	8	ccomp	_	_
+7	principiasse	principio	VERB	va1xfr	Aspect=Perf|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	8	xcomp	_	_
 8	invenimus	inuenio	VERB	va4irp1	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	11	punct	_	_
 10	videlicet	uidelicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	11	cc	_	_
-11	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	7	conj:expl	_	_
+11	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	3	conj:expl	_	_
 12	Guinizelli	guinizelli	PROPN	Si	Foreign=Yes|InflClass=Ind|NameType=Sur	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	14	punct	_	_
 14	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	11	conj	_	_
@@ -13949,9 +13949,9 @@
 16	Ghisileriis	ghisilerius	PROPN	Smpb	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Plur	14	nmod	_	_
 17	et	et	CCONJ	co	_	18	cc	_	_
 18	Fabrutium	fabrutius	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	11	conj	_	_
-19	Bononienses	bononiensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	18	amod	_	SpaceAfter=No
+19	Bononienses	bononiensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	11	amod	_	SpaceAfter=No
 20	:	:	PUNCT	Pu	_	21	punct	_	_
-21	Di	di	X	zi	Foreign=Yes	11	parataxis:rep	_	_
+21	Di	di	X	zi	Foreign=Yes	11	conj:expl	_	_
 22	fermo	fermo	X	zi	Foreign=Yes	21	flat:foreign	_	_
 23	sofferire	sofferire	X	zi	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	26	punct	_	_
@@ -13970,7 +13970,7 @@
 37	;	;	PUNCT	Pu	_	40	punct	_	_
 38	et	et	CCONJ	co	_	40	cc	_	_
 39	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	40	det	_	_
-40	alios	alius	DET	dpmpa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	21	conj	_	SpaceAfter=No
+40	alios	alius	DET	dpmpa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	11	conj	_	SpaceAfter=No
 41	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = DVE-389
