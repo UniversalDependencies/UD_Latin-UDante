@@ -6267,7 +6267,7 @@
 14	Guido	guido	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	2	conj	_	_
 15	Ghisilerius	ghisilerius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	14	flat:name	_	SpaceAfter=No
 16	:	:	PUNCT	Pu	_	17	punct	_	_
-17	Donna	donna	X	zi	Foreign=Yes	14	parataxis:rep	_	SpaceAfter=No
+17	Donna	donna	X	zi	Foreign=Yes	14	ccomp:reported	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	19	punct	_	_
 19	lo	lo	X	zi	Foreign=Yes	17	flat:foreign	_	_
 20	fermo	fermo	X	zi	Foreign=Yes	17	flat:foreign	_	_
@@ -6275,14 +6275,14 @@
 22	;	;	PUNCT	Pu	_	23	punct	_	_
 23	Fabrutius	fabrutius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	2	conj	_	SpaceAfter=No
 24	:	:	PUNCT	Pu	_	25	punct	_	_
-25	Lo	lo	X	zi	Foreign=Yes	23	parataxis:rep	_	_
+25	Lo	lo	X	zi	Foreign=Yes	23	ccomp:reported	_	_
 26	meo	meo	X	zi	Foreign=Yes	25	flat:foreign	_	_
 27	lontano	lontano	X	zi	Foreign=Yes	25	flat:foreign	_	_
 28	gire	gire	X	zi	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
 29	;	;	PUNCT	Pu	_	30	punct	_	_
 30	Honestus	honestus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	2	conj	_	SpaceAfter=No
 31	:	:	PUNCT	Pu	_	32	punct	_	_
-32	Più	piu	X	zi	Foreign=Yes	30	parataxis:rep	_	_
+32	Più	piu	X	zi	Foreign=Yes	30	ccomp:reported	_	_
 33	non	non	X	zi	Foreign=Yes	32	flat:foreign	_	_
 34	attendo	attendo	X	zi	Foreign=Yes	32	flat:foreign	_	_
 35	il	il	X	zi	Foreign=Yes	32	flat:foreign	_	_
