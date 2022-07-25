@@ -4998,7 +4998,7 @@
 49	:	:	PUNCT	Pu	_	52	punct	_	_
 50	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	52	obj	_	_
 51	quidem	quidem	PART	r	_	52	discourse	_	_
-52	retinemus	retineo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	48	parataxis	_	_
+52	retinemus	retineo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	48	advcl:pred	_	_
 53	et	et	CCONJ	co	_	54	advmod:emph	_	_
 54	nos	ego	PRON	ppp1pmn	Case=Nom|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	52	nsubj	_	SpaceAfter=No
 55	,	,	PUNCT	Pu	_	60	punct	_	_
