@@ -6068,7 +6068,7 @@
 26	advenarum	aduena	NOUN	smp1g	Case=Gen|Gender=Masc|InflClass=IndEurA|Number=Plur	25	nmod	_	_
 27	Longobardorum	longobardus	ADJ	amp1g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	26	amod	_	_
 28	terrigenis	terrigena	NOUN	smp1d	Case=Dat|Gender=Masc|InflClass=IndEurA|Number=Plur	30	obl:arg	_	_
-29	credimus	credo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+29	credimus	credo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 30	remansisse	remaneo	VERB	va2fr	Aspect=Perf|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	29	ccomp	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	1	punct	_	_
 
