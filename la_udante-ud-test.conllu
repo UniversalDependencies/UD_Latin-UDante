@@ -12168,12 +12168,12 @@
 3	huius	hic	DET	ddisng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	1	nmod	_	_
 4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 5	quod	quod	SCONJ	cs	PronType=Rel	7	mark	_	_
-6	nunquam	numquam	ADV	r	Polarity=Neg	7	advmod	_	_
+6	nunquam	numquam	ADV	r	AdvType=Tim|Polarity=Neg	7	advmod:tmod	_	_
 7	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
 8	“	“	PUNCT	Pu	_	11	punct	_	SpaceAfter=No
 9	Hec	hic	DET	ddisfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	11	nsubj	_	_
 10	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-11	cantio	cantio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	parataxis:rep	_	_
+11	cantio	cantio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	ccomp:reported	_	_
 12	Petri	petrus	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	11	nmod	_	SpaceAfter=No
 13	”	”	PUNCT	Pu	_	11	punct	_	_
 14	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
