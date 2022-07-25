@@ -6254,7 +6254,7 @@
 1	Maximus	magnus	ADJ	ams1ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	2	amod	_	_
 2	Guido	guido	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	Pu	_	4	punct	_	_
-4	Madonna	madonna	X	zi	Foreign=Yes	2	parataxis:rep	_	SpaceAfter=No
+4	Madonna	madonna	X	zi	Foreign=Yes	2	ccomp:reported	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	6	punct	_	_
 6	'l	l	X	zi	Foreign=Yes	4	flat:foreign	_	_
 7	fino	fino	X	zi	Foreign=Yes	4	flat:foreign	_	_
