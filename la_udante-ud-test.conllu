@@ -6311,11 +6311,11 @@
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_7
 1-2	Cumque	_	_	_	_	_	_	_	_
 1	Cum	cum	SCONJ	cs	PronType=Rel	11	mark	_	_
-2	que	que	CCONJ	co9	Clitic=Yes	11	cc	_	_
+2	que	que	CCONJ	co9	Clitic=Yes	26	cc	_	_
 3	de	de	ADP	e	_	8	case	_	_
 4	residuis	residuus	ADJ	afp1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	8	amod	_	_
 5	in	in	ADP	e	_	6	case	_	_
-6	extremis	extremus	ADJ	afpbs	Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur	8	acl	_	_
+6	extremis	extremus	ADJ	afpbs	Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Plur	8	nmod	_	_
 7	Ytalie	italia	PROPN	Sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	6	nmod	_	_
 8	civitatibus	ciuitas	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	10	obl	_	_
 9	neminem	nemo	PRON	dinsma	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing|PronType=Neg	10	nsubj	_	_
@@ -6330,16 +6330,16 @@
 18	illum	ille	DET	ddisma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	22	obj	_	_
 19	nulla	nullus	DET	dpfsb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Neg	21	det	_	_
 20	nostra	noster	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	21	det	_	_
-21	solutione	solutio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	22	obl:arg	_	_
-22	dignamur	dignor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	11	parataxis	_	_
+21	solutione	solutio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	22	obl	_	_
+22	dignamur	dignor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	11	conj	_	_
 23	-	-	PUNCT	Pu	_	11	punct	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	11	punct	_	_
-25	parum	parum	ADV	r	_	30	advmod	_	_
+25	parum	paruus	ADJ	r	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	26	nsubj	_	_
 26	restat	resto	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 27	in	in	ADP	e	_	29	case	_	_
 28	nostra	noster	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	29	det	_	_
 29	discussione	discussio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	30	obl	_	_
-30	dicendum	dico	VERB	vp3gvsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Gdv|Voice=Pass	26	ccomp	_	SpaceAfter=No
+30	dicendum	dico	VERB	vp3gvsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Gdv|Voice=Pass	26	xcomp	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	26	punct	_	_
 
 # sent_id = DVE-171
