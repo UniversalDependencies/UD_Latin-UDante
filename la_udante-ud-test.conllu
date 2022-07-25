@@ -8371,16 +8371,16 @@
 18	sed	sed	CCONJ	co	_	25	cc	_	_
 19	nec	neque	CCONJ	co	Polarity=Neg	20	cc	_	_
 20	bovem	bos	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	25	obj	_	_
-21	epiphiatum	epiphio	VERB	vp1prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
+21	epiphiatum	ephippio	VERB	vp1prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
 22	nec	neque	CCONJ	co	Polarity=Neg	24	cc	_	_
 23	balteatum	balteo	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	24	acl	_	_
 24	suem	sus	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	20	conj	_	_
 25	dicemus	dico	VERB	va3ifp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	16	conj	_	_
 26	ornatum	orno	VERB	vp1prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	25	xcomp	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	31	punct	_	_
-28	immo	immo	ADV	r	Degree=Abs	30	advmod	_	_
-29	potius	potius	ADV	r+	Degree=Cmp	30	advmod	_	_
-30	deturpatum	deturpo	VERB	v1prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	31	advcl:pred	_	_
+28	immo	immo	ADV	r	Degree=Abs	31	advmod	_	_
+29	potius	potius	ADV	r+	Degree=Cmp	31	advmod:emph	_	_
+30	deturpatum	deturpo	VERB	v1prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	31	xcomp	_	_
 31	ridemus	rideo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	_
 32	illum	ille	DET	ddisma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	31	obj	_	SpaceAfter=No
 33	:	:	PUNCT	Pu	_	39	punct	_	_
@@ -8389,7 +8389,7 @@
 36	exornatio	exornatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	39	nsubj	_	_
 37	alicuius	aliquis	PRON	dinsng	Case=Gen|Compound=Yes|Gender=Neut|Number=Sing|PronType=Ind	39	nmod	_	_
 38	convenientis	conueniens	ADJ	ans2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	37	amod	_	_
-39	additio	additio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	16	parataxis	_	SpaceAfter=No
+39	additio	additio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	25	conj	_	SpaceAfter=No
 40	.	.	PUNCT	Pu	_	16	punct	_	_
 
 # sent_id = DVE-231
