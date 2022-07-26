@@ -33492,7 +33492,7 @@
 8	quid	quid	ADV	rt	Clitic=Yes|PronType=Int	11	advmod	_	_
 9	vestigia	uestigium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	11	obj	_	_
 10	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	9	nmod	_	_
-11	comprehendes	comprehendo	VERB	va3ifs2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis:rep	_	SpaceAfter=No
+11	comprehendes	comprehendo	VERB	va3ifs2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	ccomp:reported	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	18	punct	_	_
 13	et	et	CCONJ	co	_	18	cc	_	_
 14	Omnipotentem	omnipotens	ADJ	ams2a	Case=Acc|Compound=Yes|Gender=Masc|InflClass=IndEurI|Number=Sing|Proper=Yes	18	obj	_	_
