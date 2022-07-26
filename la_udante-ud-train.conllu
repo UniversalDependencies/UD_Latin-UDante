@@ -20589,7 +20589,7 @@
 18	“	“	PUNCT	Pu	_	21	punct	_	SpaceAfter=No
 19	Propter	propter	ADP	e	_	20	case	_	_
 20	necessitatem	necessitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	21	obl	_	_
-21	dico	dico	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis:rep	_	SpaceAfter=No
+21	dico	dico	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp:reported	_	SpaceAfter=No
 22	;	;	PUNCT	Pu	_	23	punct	_	_
 23	sed	sed	CCONJ	co	_	32	cc	_	_
 24	si	si	SCONJ	cs	_	28	mark	_	_
