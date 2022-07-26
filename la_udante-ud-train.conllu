@@ -28996,12 +28996,12 @@
 # text = Secunda ratio erat: Nobiliori corpori debetur nobilior locus: aqua est nobilius corpus quam terra; ergo aque debetur nobilior locus.
 # citation_hierarchy = DE_FORMA_ET_SITU_DUORUM_ELEMENTORUM_AQUE_VIDELICET_ET_TERRE,Paragraphus_9
 1	Secunda	secundus	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord|VerbForm=Gdv	2	amod	_	_
-2	ratio	ratio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	3	nsubj	_	_
-3	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	ratio	ratio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	nsubj:outer	_	_
+3	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop:outer	_	SpaceAfter=No
 4	:	:	PUNCT	Pu	_	7	punct	_	_
 5	Nobiliori	nobilis	ADJ	ans2dc	Case=Dat|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	6	amod	_	_
 6	corpori	corpus	NOUN	sns3d	Case=Dat|Gender=Neut|InflClass=IndEurX|Number=Sing	7	obl:arg	_	_
-7	debetur	debeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis:rep	_	_
+7	debetur	debeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 8	nobilior	nobilis	ADJ	ams2nc	Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	9	amod	_	_
 9	locus	locus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
 10	:	:	PUNCT	Pu	_	14	punct	_	_
@@ -29017,7 +29017,7 @@
 20	debetur	debeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
 21	nobilior	nobilis	ADJ	ams2nc	Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	22	amod	_	_
 22	locus	locus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
-23	.	.	PUNCT	Pu	_	3	punct	_	_
+23	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = Que-12
 # text = Et cum locus tanto sit nobilior quanto superior propter magis propinquare nobilissimo continenti quod est celum primum, relinquitur quod locus aque sit altior loco terre et per consequens quod aqua sit altior terra, cum situs loci et locati non differat.
