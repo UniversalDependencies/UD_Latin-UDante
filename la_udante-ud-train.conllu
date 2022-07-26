@@ -27830,7 +27830,7 @@
 3	mentes	mens	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur	10	nsubj:pass	_	_
 4	hominum	homo	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	3	nmod	_	SpaceAfter=No
 5	»	»	PUNCT	Pu	_	3	punct	_	_
-6	fabatur	for	VERB	vd1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	64	parataxis:reported	_	_
+6	fabatur	for	VERB	vd1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	«	«	PUNCT	Pu	_	10	punct	_	SpaceAfter=No
 8	ad	ad	ADP	e	_	9	case	_	_
 9	astra	astrum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	10	obl	_	_
@@ -27889,11 +27889,11 @@
 61	arenas	arena	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	60	obj	_	SpaceAfter=No
 62	,	,	PUNCT	Pu	_	64	punct	_	_
 63	non	non	PART	r	Polarity=Neg	64	advmod:neg	_	_
-64	miror	miror	VERB	vd1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+64	miror	miror	VERB	vd1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	6	ccomp:reported	_	_
 65	-	-	PUNCT	Pu	_	68	punct	_	_
 66	nam	nam	PART	co	_	68	discourse	_	_
 67	cuique	quisque	DET	dinsnd	Case=Dat|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	68	obl:arg	_	_
-68	placent	placeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	64	parataxis	_	_
+68	placent	placeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	64	conj	_	_
 69	conformia	conformis	ADJ	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	68	nsubj	_	_
 70	vite	uita	NOUN	sfs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	69	obl:arg	_	_
 71	-	-	PUNCT	Pu	_	68	punct	_	SpaceAfter=No
