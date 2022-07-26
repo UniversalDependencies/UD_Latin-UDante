@@ -11081,7 +11081,7 @@
 25	enim	enim	PART	c	Form=Emp	28	discourse	_	_
 26	verum	uerus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	28	nsubj	_	_
 27	nunquam	numquam	ADV	r	Polarity=Neg	28	advmod:neg	_	_
-28	sequitur	sequor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	parataxis:rep	_	_
+28	sequitur	sequor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	_
 29	ex	ex	ADP	e	_	30	case	_	_
 30	falsis	falsus	ADJ	anp1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	28	obl	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	36	punct	_	_
