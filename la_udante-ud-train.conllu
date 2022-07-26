@@ -8830,7 +8830,7 @@
 29	iam	iam	ADV	r	_	32	advmod	_	_
 30	furtivum	furtiuus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	33	amod	_	_
 31	Dido	dido	PROPN	Sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|NameType=Giv|Number=Sing	32	nsubj	_	_
-32	meditatur	meditor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	parataxis:rep	_	_
+32	meditatur	meditor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	ccomp:reported	_	_
 33	amorem	amor	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	32	obj	_	SpaceAfter=No
 34	:	:	PUNCT	Pu	_	36	punct	_	_
 35	coniugium	coniugium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	36	xcomp:pred	_	_
