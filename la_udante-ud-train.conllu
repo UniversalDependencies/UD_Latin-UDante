@@ -12068,7 +12068,7 @@
 54	absque	absque	ADP	e	_	55	case	_	_
 55	fide	fides	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	56	obl	_	_
 56	salvari	saluo	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	57	xcomp	_	_
-57	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	parataxis	_	SpaceAfter=No
+57	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	conj:expl	_	SpaceAfter=No
 58	,	,	PUNCT	Pu	_	59	punct	_	_
 59	dato	do	VERB	vp1prsnb	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	57	advcl	_	_
 60	quod	quod	SCONJ	cs	PronType=Rel	65	mark	_	_
