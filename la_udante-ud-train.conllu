@@ -26028,7 +26028,7 @@
 1	Ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	20	nsubj	_	_
 2	quidem	quidem	PART	r	_	20	discourse	_	_
 3	-	-	PUNCT	Pu	_	2	punct	_	_
-4	cupiebat	cupio	VERB	va3iis3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+4	cupiebat	cupio	VERB	va3iis3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	enim	enim	PART	c	Form=Emp	4	discourse	_	_
 6	consciscere	conscisco	VERB	va3fp	Aspect=Inch|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 7	cantum	cantus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	6	obj	_	_
@@ -26037,14 +26037,14 @@
 10	Tityre	tityrus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|Number=Sing	13	vocative	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	10	punct	_	_
 12	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	13	orphan	_	_
-13	Mopsus	mopsus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	20	parataxis:rep	_	SpaceAfter=No
+13	Mopsus	mopsus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	20	ccomp:reported	_	SpaceAfter=No
 14	?	?	PUNCT	Pu	_	13	punct	_	_
 15	Quid	quis	PRON	rt	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	16	obj	_	_
 16	vult	uolo	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No
 17	?	?	PUNCT	Pu	_	13	punct	_	_
 18	Edissere	edissero	VERB	va3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No
 19	»	»	PUNCT	Pu	_	13	punct	_	_
-20	dixit	dico	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+20	dixit	dico	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
 21	.	.	PUNCT	Pu	_	20	punct	_	_
 
 # sent_id = Egl-22
