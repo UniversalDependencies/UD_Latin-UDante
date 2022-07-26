@@ -13003,10 +13003,10 @@
 15	:	:	PUNCT	Pu	_	18	punct	_	_
 16	Talis	talis	DET	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Dem	17	det	_	_
 17	fama	fama	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	18	nsubj	_	_
-18	canit	cano	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis:rep	_	_
-19	tumidum	tumidus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	22	amod	_	_
+18	canit	cano	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj:expl	_	_
+19	tumidum	tumidus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	23	advcl:pred	_	_
 20	super	super	ADP	e	_	21	case	_	_
-21	equora	aequor	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	23	obl	_	_
+21	equora	aequor	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	23	obl:lmod	_	_
 22	Xerxem	xerxes	PROPN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing	23	nsubj	_	_
 23	construxisse	construo	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	18	ccomp	_	_
 24	vias	uia	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	23	obj	_	SpaceAfter=No
