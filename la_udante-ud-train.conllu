@@ -3668,7 +3668,7 @@
 16	omne	omnis	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	17	det	_	_
 17	B	b	NOUN	yy	InflClass=Ind	19	nsubj	_	_
 18	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
-19	A	a	NOUN	yy	InflClass=Ind|NameType=Let	13	parataxis:rep	_	SpaceAfter=No
+19	A	a	NOUN	yy	InflClass=Ind|NameType=Let	13	dislocated:obl	_	SpaceAfter=No
 20	;	;	PUNCT	Pu	_	24	punct	_	_
 21	solum	solum	ADV	r	PronType=Con	22	advmod:emph	_	_
 22	C	c	NOUN	yy	InflClass=Ind|NameType=Let	24	nsubj	_	_
