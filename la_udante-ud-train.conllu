@@ -10520,7 +10520,7 @@
 37	de	de	ADP	e	_	38	case	_	_
 38	voluptatibus	uoluptas	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	40	obl:arg	_	_
 39	suis	suus	DET	dsfpb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	38	det	_	_
-40	cogitabat	cogito	VERB	va1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis:rep	_	SpaceAfter=No
+40	cogitabat	cogito	VERB	va1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	dislocated:ccomp	_	SpaceAfter=No
 41	,	,	PUNCT	Pu	_	45	punct	_	_
 42	ubi	ubi	ADV	r	AdvType=Loc|PronType=Int	45	advmod:lmod	_	_
 43	ut	ut	SCONJ	cs	_	45	mark	_	_
