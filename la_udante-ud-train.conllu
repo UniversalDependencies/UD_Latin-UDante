@@ -33255,7 +33255,7 @@
 14	elevatio	eleuatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	17	nsubj	_	_
 15	non	non	PART	r	Polarity=Neg	17	advmod:neg	_	_
 16	fuit	sum	AUX	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
-17	circularis	circularis	ADJ	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	3	parataxis:rep	_	SpaceAfter=No
+17	circularis	circularis	ADJ	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	3	csubj:reported	_	SpaceAfter=No
 18	?	?	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Que-109
