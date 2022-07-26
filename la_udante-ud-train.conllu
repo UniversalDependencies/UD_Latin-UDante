@@ -26518,12 +26518,12 @@
 # text = «Mopsus» tunc ille «quid?» inquit.
 # citation_hierarchy = II_,Paragraphus_51
 1	«	«	PUNCT	Pu	_	2	punct	_	SpaceAfter=No
-2	Mopsus	mopsus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	10	parataxis:rep	_	SpaceAfter=No
+2	Mopsus	mopsus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	10	ccomp:reported	_	SpaceAfter=No
 3	»	»	PUNCT	Pu	_	2	punct	_	_
 4	tunc	tunc	ADV	r	PronType=Dem	10	advmod	_	_
 5	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	10	nsubj	_	_
 6	«	«	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
-7	quid	quid	ADV	rt	PronType=Rel	10	parataxis	_	SpaceAfter=No
+7	quid	quid	ADV	rt	PronType=Rel	2	orphan	_	SpaceAfter=No
 8	?	?	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
 9	»	»	PUNCT	Pu	_	7	punct	_	_
 10	inquit	inquam	VERB	va5-irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
