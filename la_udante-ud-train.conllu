@@ -11031,7 +11031,7 @@
 8	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	11	nsubj	_	_
 9	falso	falsus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	10	amod	_	_
 10	sillogismo	syllogismus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	11	obl	_	_
-11	sortiri	sortior	VERB	vd4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	1	parataxis:rep	_	SpaceAfter=No
+11	sortiri	sortior	VERB	vd4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	1	ccomp:reported	_	SpaceAfter=No
 12	:	:	PUNCT	Pu	_	16	punct	_	_
 13	quod	qui	PRON	cs	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	obj	_	_
 14	quidem	quidem	PART	r	_	15	discourse	_	_
