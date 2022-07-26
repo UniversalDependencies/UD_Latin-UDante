@@ -20966,7 +20966,7 @@
 30	:	:	PUNCT	Pu	_	33	punct	_	_
 31	«	«	PUNCT	Pu	_	33	punct	_	SpaceAfter=No
 32	Non	non	PART	r	Polarity=Neg	33	advmod:neg	_	_
-33	lavabis	lauo	VERB	va1ifs2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	29	parataxis:rep	_	_
+33	lavabis	lauo	VERB	va1ifs2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	29	ccomp:reported	_	_
 34	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	33	obl	_	_
 35	pedes	pes	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	33	obj	_	_
 36	in	in	ADP	e	_	37	case	_	_
