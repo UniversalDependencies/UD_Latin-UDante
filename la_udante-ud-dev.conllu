@@ -4966,7 +4966,7 @@
 5	Anubis	anubis	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Rel|Number=Sing	3	nmod	_	_
 6	iterum	iterum	ADV	r	Degree=Cmp	1	advmod	_	_
 7	in	in	ADP	e	_	8	case	_	_
-8	Eneam	aeneas	PROPN	Sms1a	Case=Acc|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	4	obl	_	SpaceAfter=No
+8	Eneam	aeneas	PROPN	Sms1a	Case=Acc|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	1	obl	_	SpaceAfter=No
 9	:	:	PUNCT	Pu	_	13	punct	_	_
 10	Si	si	SCONJ	cs	_	13	mark	_	_
 11	te	tu	PRON	ppp2sfa	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	13	obj	_	_
@@ -4990,7 +4990,7 @@
 29	spes	spes	NOUN	sfs5n	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur	26	conj	_	_
 30	heredis	heres	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	29	nmod	_	_
 31	Iuli	iulus	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	30	flat	_	_
-32	respice	respicio	VERB	va3mps2	Aspect=Imp|InflClass=LatI2|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
+32	respice	respicio	VERB	va3mps2	Aspect=Imp|InflClass=LatI2|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp:reported	_	SpaceAfter=No
 33	,	,	PUNCT	Pu	_	40	punct	_	_
 34	cui	qui	PRON	presmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	40	obl:arg	_	_
 35	regnum	regnum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	40	nsubj:pass	_	_
