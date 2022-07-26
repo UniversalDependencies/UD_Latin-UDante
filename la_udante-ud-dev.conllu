@@ -5329,15 +5329,15 @@
 10	summe	summus	ADJ	afs1gs	Case=Gen|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	11	amod	_	_
 11	celsitudinis	celsitudo	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	9	nmod	_	_
 12	deprehendis	deprehendo	VERB	va3ips2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
-13	ubi	ubi	SCONJ	r	AdvType=Loc|PronType=Rel	21	mark	_	_
-14	vulpecula	uulpecula	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	21	nsubj	_	_
+13	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	21	advmod:lmod	_	_
+14	vulpecula	uulpecula	NOUN	sfs1n	Case=Nom|Degree=Dim|Gender=Fem|InflClass=IndEurA|Number=Sing	21	nsubj	_	_
 15	fetoris	fetor	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	14	nmod	_	_
 16	istius	iste	DET	dpmsg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	15	det	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	19	punct	_	_
-18	venantium	uenor	VERB	va1pppmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	19	obl:arg	_	_
-19	secura	securus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	14	amod	_	SpaceAfter=No
-20	,	,	PUNCT	Pu	_	14	punct	_	_
-21	recumbat	recumbo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No
+18	venantium	uenor	VERB	va1pppmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	19	obl	_	_
+19	secura	securus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	21	advcl:pred	_	SpaceAfter=No
+20	,	,	PUNCT	Pu	_	19	punct	_	_
+21	recumbat	recumbo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No
 22	?	?	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = Epi-145
