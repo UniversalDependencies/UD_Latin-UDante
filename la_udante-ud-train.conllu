@@ -3213,7 +3213,7 @@
 8	:	:	PUNCT	Pu	_	11	punct	_	_
 9	«	«	PUNCT	Pu	_	11	punct	_	SpaceAfter=No
 10	Entia	ens	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|VerbForm=Part	11	nsubj	_	_
-11	nolunt	nolo	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis:rep	_	_
+11	nolunt	nolo	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp:reported	_	_
 12	male	male	ADV	r	_	13	advmod	_	_
 13	disponi	dispono	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	11	ccomp	_	SpaceAfter=No
 14	;	;	PUNCT	Pu	_	15	punct	_	_
