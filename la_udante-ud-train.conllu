@@ -19852,7 +19852,7 @@
 3	dicitur	dico	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	advcl	_	_
 4	“	“	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
 5	quodcunque	quicumque	DET	prisna	Case=Acc|Compound=Yes|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	6	obj	_	_
-6	ligaveris	ligo	VERB	va1ias2	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	3	parataxis:rep	_	SpaceAfter=No
+6	ligaveris	ligo	VERB	va1ias2	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	3	csubj:reported	_	SpaceAfter=No
 7	”	”	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	3	punct	_	_
 9	si	si	SCONJ	cs	_	14	mark	_	_
