@@ -15427,11 +15427,11 @@
 1	Unde	unde	CCONJ	r	AdvType=Loc|PronType=Rel	2	cc	_	_
 2	dicebat	dico	VERB	va3iis3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	2	nsubj	_	_
-4	Moysi	moyses	PROPN	Sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	2	obl	_	SpaceAfter=No
+4	Moysi	moyses	PROPN	Sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	2	obl:arg	_	SpaceAfter=No
 5	:	:	PUNCT	Pu	_	8	punct	_	_
 6	«	«	PUNCT	Pu	_	8	punct	_	SpaceAfter=No
 7	Quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	8	nsubj	_	_
-8	constituit	constituo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis:rep	_	_
+8	constituit	constituo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:reported	_	_
 9	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
 10	iudicem	iudex	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	8	xcomp:pred	_	_
 11	super	super	ADP	e	_	12	case	_	_
