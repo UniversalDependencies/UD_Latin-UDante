@@ -7231,7 +7231,7 @@
 26	:	:	PUNCT	Pu	_	25	punct	_	_
 27	«	«	PUNCT	Pu	_	29	punct	_	SpaceAfter=No
 28	Quare	quare	CCONJ	r	Compound=Yes|PronType=Rel	29	cc	_	_
-29	fremuerunt	fremo	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	parataxis:rep	_	_
+29	fremuerunt	fremo	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	ccomp:reported	_	_
 30	gentes	gens	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|VerbForm=Part	29	nsubj	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	34	punct	_	_
 32	et	et	CCONJ	co	_	34	cc	_	_
