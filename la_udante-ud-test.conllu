@@ -3582,7 +3582,7 @@
 3	reor	reor	VERB	vd2ips1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	modo	modo	ADV	r	_	3	advmod	_	_
 5	in	in	ADP	e	_	6	case	_	_
-6	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	2	obl:arg	_	_
+6	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
 7	quod	quod	SCONJ	cs	PronType=Rel	8	obj	_	_
 8	diximus	dico	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 9	“	“	PUNCT	Pu	_	10	punct	_	SpaceAfter=No
@@ -3593,7 +3593,7 @@
 14	potius	potius	ADV	r+	Degree=Cmp	15	advmod	_	_
 15	opinamur	opinor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
 16	tenendum	teneo	VERB	vp2gvsna	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Gdv|Voice=Pass	15	ccomp	_	SpaceAfter=No
-17	:	:	PUNCT	Pu	_	18	punct	_	_
+17	:	:	PUNCT	Pu	_	28	punct	_	_
 18	nam	nam	PART	co	_	28	discourse	_	_
 19	si	si	SCONJ	cs	_	23	mark	_	_
 20	alia	alius	DET	dpnp1a	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Con	22	det	_	_
@@ -3604,7 +3604,7 @@
 25	multo	multo	ADV	r	_	26	advmod:emph	_	_
 26	magis	magis	ADV	rc	Degree=Cmp	27	advmod	_	_
 27	discrepare	discrepo	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	28	xcomp	_	_
-28	videmur	uideo	VERB	vp2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+28	videmur	uideo	VERB	vp2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
 29	a	a	ADP	e	_	31	case	_	_
 30	vetustissimis	uetustus	ADJ	amp1bs	Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	31	amod	_	_
 31	concivibus	conciuis	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Plur	27	obl	_	_
