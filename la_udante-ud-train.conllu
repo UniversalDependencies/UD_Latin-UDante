@@ -28336,7 +28336,7 @@
 52	,	,	PUNCT	Pu	_	22	punct	_	_
 53	litoris	litus	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing|VerbForm=Part	56	nmod	_	_
 54	Ethnei	aetnaeus	ADJ	ans1g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	53	amod	_	_
-55	commendat	commendo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis:rep	_	_
+55	commendat	commendo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp:reported	_	_
 56	pascua	pascuum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	55	obj	_	_
 57	nobis	ego	PRON	ppp1pmd	Case=Dat|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	55	obl:arg	_	SpaceAfter=No
 58	,	,	PUNCT	Pu	_	59	punct	_	_
