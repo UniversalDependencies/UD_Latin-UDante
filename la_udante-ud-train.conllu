@@ -20905,7 +20905,7 @@
 10	Petrum	petrus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	12	nsubj	_	_
 11	etiam	etiam	ADV	co	Compound=Yes	12	advmod:emph	_	_
 12	dixisse	dico	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	9	ccomp	_	_
-13	Cristo	christus	PROPN	Sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	12	obl	_	SpaceAfter=No
+13	Cristo	christus	PROPN	Sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	12	obl:arg	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	17	punct	_	_
 15	parum	parum	ADV	r	_	16	advmod	_	_
 16	supra	supra	ADP	e	_	17	case	_	_
@@ -20920,7 +20920,7 @@
 25-26	tecum	_	_	_	_	_	_	_	_
 25	te	tu	PRON	ppp2smb	Case=Abl|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	27	obl	_	_
 26	cum	cum	ADP	ppp2smb	Clitic=Yes	25	case	_	_
-27	paratus	paro	VERB	vp1irs1	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	12	parataxis:rep	_	_
+27	paratus	paro	VERB	vp1irs1	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	12	ccomp:reported	_	_
 28	sum	sum	AUX	va5ips1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
 29	in	in	ADP	e	_	30	case	_	_
 30	carcerem	carcer	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	34	obl:arg	_	_
