@@ -26961,7 +26961,7 @@
 16	quia	quia	ADV	rt	PronType=Int	19	advmod	_	_
 17	nam	nam	PART	rt	_	19	discourse	_	_
 18	civile	ciuilis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	22	amod	_	_
-19	canebas	cano	VERB	va3iis2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis:rep	_	_
+19	canebas	cano	VERB	va3iis2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:reported	_	_
 20	urbe	urbs	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	21	obl	_	_
 21	sedens	sedeo	VERB	va2ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	19	advcl:pred	_	_
 22	carmen	carmen	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	19	obj	_	SpaceAfter=No
