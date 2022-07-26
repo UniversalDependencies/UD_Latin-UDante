@@ -27945,7 +27945,7 @@
 14	«	«	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
 15	En	en	INTJ	i	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	15	punct	_	_
-17	Tityre	tityrus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	19	parataxis:rep	_	_
+17	Tityre	tityrus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	19	ccomp:reported	_	_
 18	«	«	PUNCT	Pu	_	17	punct	_	SpaceAfter=No
 19	dixit	dico	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
 20	.	.	PUNCT	Pu	_	1	punct	_	_
