@@ -26347,7 +26347,7 @@
 10	per	per	ADP	e	_	11	case	_	_
 11	pascua	pascuum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	12	obl	_	_
 12	pastor	pastor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	5	appos	_	_
-13	habebis	habeo	VERB	va2ifs2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis:rep	_	SpaceAfter=No
+13	habebis	habeo	VERB	va2ifs2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp:reported	_	SpaceAfter=No
 14	?	?	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
 15	»	»	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
 16	.	.	PUNCT	Pu	_	2	punct	_	_
