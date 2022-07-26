@@ -16848,18 +16848,18 @@
 # text = Ante quidem Ecclesiam sunt vetus et novum Testamentum, quod «in ecternum mandatum est» ut ait Propheta; hoc enim est quod dicit Ecclesia loquens ad sponsum: «Trahe me post te».
 # citation_hierarchy = Liber_Tertius,iii,Paragraphus_12
 1	Ante	ante	ADP	e	_	3	case	_	_
-2	quidem	quidem	PART	r	_	5	discourse	_	_
+2	quidem	quidem	PART	r	_	8	discourse	_	_
 3	Ecclesiam	ecclesia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	8	obl	_	_
 4	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 5	vetus	uetus	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	8	amod	_	_
 6	et	et	CCONJ	co	_	7	cc	_	_
 7	novum	nouus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	5	conj	_	_
-8	Testamentum	testamentum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|Proper=Yes	0	root	_	SpaceAfter=No
+8	Testamentum	testamentum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|NameType=Lit|Number=Sing|Proper=Yes	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	14	punct	_	_
 10	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	14	nsubj:pass	_	_
 11	«	«	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
 12	in	in	ADP	e	_	13	case	_	_
-13	ecternum	aeternus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	14	obl	_	_
+13	ecternum	aeternus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	14	obl:tmod	_	_
 14	mandatum	mando	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
 15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	SpaceAfter=No
 16	»	»	PUNCT	Pu	_	14	punct	_	_
@@ -16871,14 +16871,14 @@
 22	enim	enim	PART	c	Form=Emp	21	discourse	_	_
 23	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 24	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	25	obj	_	_
-25	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	csubj:cleft	_	_
 26	Ecclesia	ecclesia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	25	nsubj	_	_
-27	loquens	loquor	VERB	vd3ppsfn	Aspect=Imp|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	26	xcomp	_	_
+27	loquens	loquor	VERB	vd3ppsfn	Aspect=Imp|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	25	advcl:pred	_	_
 28	ad	ad	ADP	e	_	29	case	_	_
-29	sponsum	sponsus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	27	obl:arg	_	SpaceAfter=No
+29	sponsum	sponsus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	27	obl	_	SpaceAfter=No
 30	:	:	PUNCT	Pu	_	32	punct	_	_
 31	«	«	PUNCT	Pu	_	32	punct	_	SpaceAfter=No
-32	Trahe	traho	VERB	va3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+32	Trahe	traho	VERB	va3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	21	dislocated:obj	_	_
 33	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	32	obj	_	_
 34	post	post	ADP	e	_	35	case	_	_
 35	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	32	obl:arg	_	SpaceAfter=No
