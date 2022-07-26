@@ -5454,7 +5454,7 @@
 91	iudicium	iudicium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	94	obj	_	_
 92	tuum	tuus	DET	dsnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	91	det	_	_
 93	regi	rex	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	94	obl:arg	_	_
-94	da	do	VERB	va1mps2	Aspect=Imp|InflClass=LatA|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	89	parataxis:rep	_	_
+94	da	do	VERB	va1mps2	Aspect=Imp|InflClass=LatA|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	89	ccomp:reported	_	_
 95	et	et	CCONJ	co	_	96	cc	_	_
 96	iustitiam	iustitia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	94	conj	_	_
 97	tuam	tuus	DET	dsfsa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	96	det	_	_
