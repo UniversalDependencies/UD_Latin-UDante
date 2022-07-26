@@ -13671,7 +13671,7 @@
 24	,	,	PUNCT	Pu	_	18	punct	_	_
 25	minus	parum	ADV	r+	Degree=Cmp	26	advmod	_	_
 26	acerbe	acerbe	ADV	rc	_	27	advmod	_	_
-27	gerenda	gero	VERB	vp3gvpnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Gdv|Voice=Pass	13	parataxis:rep	_	_
+27	gerenda	gero	VERB	vp3gvpnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Gdv|Voice=Pass	13	ccomp:reported	_	_
 28	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	SpaceAfter=No
 29	»	»	PUNCT	Pu	_	27	punct	_	SpaceAfter=No
 30	.	.	PUNCT	Pu	_	13	punct	_	_
