@@ -10683,7 +10683,7 @@
 41	consilio	consilium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	38	conj	_	_
 42	permansisset	permaneo	VERB	va2c+s3	Aspect=Perf|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	26	conj	_	SpaceAfter=No
 43	,	,	PUNCT	Pu	_	26	punct	_	_
-44	moriendum	morior	VERB	vd3gvsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Gdv|Voice=Pass	5	parataxis	_	_
+44	moriendum	morior	VERB	vd3gvsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Gdv|Voice=Pass	5	conj	_	_
 45	ei	is	PRON	ddesmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	44	obl	_	_
 46	potius	potius	ADV	r+	Degree=Cmp	47	advmod	_	_
 47	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	50	mark	_	_
