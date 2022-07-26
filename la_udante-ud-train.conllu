@@ -8510,7 +8510,7 @@
 28	evertere	euerto	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	31	ccomp	_	_
 29	gentem	gens	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|VerbForm=Part	24	conj	_	_
 30	inmeritam	immeritus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Polarity=Neg	29	amod	_	_
-31	visum	uideo	VERB	vp2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	18	parataxis:rep	_	_
+31	visum	uideo	VERB	vp2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	18	ccomp:reported	_	_
 32	superis	superus	ADJ	smp2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	31	obl:arg	_	SpaceAfter=No
 33	.	.	PUNCT	Pu	_	2	punct	_	_
 
