@@ -13452,7 +13452,7 @@
 44	psalmus	psalmus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	22	conj	_	SpaceAfter=No
 45	:	:	PUNCT	Pu	_	47	punct	_	_
 46	«	«	PUNCT	Pu	_	47	punct	_	SpaceAfter=No
-47	Iustus	iustus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	44	parataxis:rep	_	_
+47	Iustus	iustus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	44	ccomp:reported	_	_
 48	Dominus	dominus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	47	nsubj	_	_
 49	et	et	CCONJ	co	_	51	cc	_	_
 50	iustitias	iustitia	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	51	obj	_	_
