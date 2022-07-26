@@ -3266,7 +3266,7 @@
 16	cantabat	canto	VERB	va1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 17	:	:	PUNCT	Pu	_	19	punct	_	_
 18	Iam	iam	ADV	r	_	19	advmod	_	_
-19	redit	redeo	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis:rep	_	_
+19	redit	redeo	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp:reported	_	_
 20	et	et	CCONJ	co	_	21	advmod	_	_
 21	Virgo	uirgo	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing|Proper=Yes	19	nsubj	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	23	punct	_	_
