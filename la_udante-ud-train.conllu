@@ -21412,7 +21412,7 @@
 48	;	;	PUNCT	Pu	_	51	punct	_	_
 49	et	et	CCONJ	co	_	51	cc	_	_
 50	minorem	paruus	ADJ	afs1ac	Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing	51	obj	_	_
-51	probant	probo	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
+51	probant	probo	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	conj	_	_
 52	per	per	ADP	e	_	53	case	_	_
 53	ea	is	PRON	ddepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	51	obl	_	_
 54	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	58	nsubj:pass	_	_
