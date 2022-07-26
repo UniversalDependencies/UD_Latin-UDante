@@ -14403,7 +14403,7 @@
 10	:	:	PUNCT	Pu	_	13	punct	_	_
 11	Aut	aut	CCONJ	co	_	13	cc	_	_
 12	Collina	collinus	ADJ	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Proper=Yes	16	amod	_	_
-13	tulit	fero	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis:rep	_	_
+13	tulit	fero	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj:expl	_	_
 14	stratas	sterno	VERB	vp3prpfa	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	17	acl	_	_
 15	quot	quot	DET	ai	InflClass=Ind|NumType=Card|PronType=Int	17	det	_	_
 16	porta	porta	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj	_	_
