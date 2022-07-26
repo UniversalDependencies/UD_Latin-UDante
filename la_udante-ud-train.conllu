@@ -28166,7 +28166,7 @@
 5	«	«	PUNCT	Pu	_	8	punct	_	SpaceAfter=No
 6	Tibia	tibia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	10	nsubj	_	_
 7	non	non	PART	r	Polarity=Neg	8	discourse	_	_
-8	sentis	sentio	VERB	va4ips2	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis:rep	_	_
+8	sentis	sentio	VERB	va4ips2	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp:reported	_	_
 9	quod	quod	SCONJ	cs	PronType=Rel	10	mark	_	_
 10	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
 11	virtute	uirtus	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	10	obl:agent	_	_
