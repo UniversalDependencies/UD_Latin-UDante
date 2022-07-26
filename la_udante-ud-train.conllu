@@ -21676,12 +21676,12 @@
 15	semper	semper	ADV	r	_	14	advmod	_	_
 16	inniti	innitor	VERB	vd3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	14	xcomp	_	_
 17	super	super	ADP	e	_	18	case	_	_
-18	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	16	obl:arg	_	_
+18	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	16	obl	_	_
 19	iuxta	iuxta	ADP	e	_	20	case	_	_
 20	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	16	obl	_	_
 21	Canticorum	canticum	NOUN	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	20	nmod	_	_
 22	«	«	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
-23	Que	qui	PRON	dinsfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	20	parataxis:rep	_	_
+23	Que	qui	PRON	dinsfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	20	flat	_	_
 24	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 25	ista	iste	DET	ddisfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	23	nsubj	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	28	punct	_	_
