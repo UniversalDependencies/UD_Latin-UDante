@@ -22902,7 +22902,7 @@
 22	enim	enim	PART	c	Form=Emp	23	discourse	_	_
 23	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
 24	“	“	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
-25	Imperator	imperator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	23	parataxis:rep	_	_
+25	Imperator	imperator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	23	ccomp:reported	_	_
 26	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 27	Papa	papa	NOUN	Sms1	Gender=Masc|InflClass=IndEurA|Number=Sing	25	xcomp:pred	_	SpaceAfter=No
 28	”	”	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
