@@ -28059,7 +28059,7 @@
 50	Forte	forte	ADV	r	_	53	advmod	_	_
 51	sub	sub	ADP	e	_	53	case	_	_
 52	inriguos	irriguus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	53	amod	_	_
-53	colles	collis	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	47	parataxis:rep	_	_
+53	colles	collis	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	47	ccomp:reported	_	_
 54	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	55	orphan	_	_
 55	Sarpina	sarpina	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	53	acl:relcl	_	_
 56	Rheno	rhenus	PROPN	Sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	55	orphan	_	_
