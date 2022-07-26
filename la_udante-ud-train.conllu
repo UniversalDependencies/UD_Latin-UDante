@@ -12103,7 +12103,7 @@
 5	Hebreos	hebraeus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	1	obl	_	SpaceAfter=No
 6	:	:	PUNCT	Pu	_	8	punct	_	_
 7	«	«	PUNCT	Pu	_	8	punct	_	SpaceAfter=No
-8	Inpossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	1	parataxis:rep	_	_
+8	Inpossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	1	csubj:reported	_	_
 9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 10	sine	sine	ADP	e	_	11	case	_	_
 11	fide	fides	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	12	obl	_	_
