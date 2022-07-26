@@ -5223,7 +5223,7 @@
 9	«	«	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
 10	Quare	quare	CCONJ	r	Compound=Yes|PronType=Rel	12	cc	_	_
 11	tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
-12	enarras	enarro	VERB	va1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis:rep	_	_
+12	enarras	enarro	VERB	va1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj:reported	_	_
 13	iustitias	iustitia	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	12	obj	_	_
 14	meas	meus	DET	dsfpa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	SpaceAfter=No
 15	?	?	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
