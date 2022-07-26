@@ -30076,7 +30076,7 @@
 7	et	et	CCONJ	co	_	8	cc	_	_
 8	leve	leuis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	6	conj	_	_
 9	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-10	passiones	passio	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	3	parataxis:rep	_	_
+10	passiones	passio	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	4	conj:expl	_	_
 11	corporum	corpus	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur	10	nmod	_	_
 12	simplicium	simplex	ADJ	anp2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	15	punct	_	_
