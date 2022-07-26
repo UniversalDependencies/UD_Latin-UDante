@@ -19666,7 +19666,7 @@
 4	:	:	PUNCT	Pu	_	7	punct	_	_
 5	“	“	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
 6	Petrus	petrus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	7	nsubj	_	_
-7	potuit	possum	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis:rep	_	_
+7	potuit	possum	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj:expl	_	_
 8	solvere	soluo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	7	xcomp	_	_
 9	omnia	omnis	DET	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	8	obj	_	_
 10	et	et	CCONJ	co	_	11	cc	_	_
