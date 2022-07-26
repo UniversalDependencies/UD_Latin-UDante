@@ -29085,8 +29085,8 @@
 # text = Tertia ratio erat: Omnis oppinio que contradicit sensui est mala oppinio: oppinari aquam non esse altiorem terra est contradicere sensui; ergo est mala oppinio.
 # citation_hierarchy = DE_FORMA_ET_SITU_DUORUM_ELEMENTORUM_AQUE_VIDELICET_ET_TERRE,Paragraphus_11
 1	Tertia	tertius	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	2	amod	_	_
-2	ratio	ratio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	3	nsubj	_	_
-3	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	ratio	ratio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	12	nsubj:outer	_	_
+3	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop:outer	_	SpaceAfter=No
 4	:	:	PUNCT	Pu	_	12	punct	_	_
 5	Omnis	omnis	DET	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	6	det	_	_
 6	oppinio	opinio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	12	nsubj	_	_
@@ -29095,7 +29095,7 @@
 9	sensui	sensus	NOUN	sms4d	Case=Dat|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	8	obl:arg	_	_
 10	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	mala	malus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	12	amod	_	_
-12	oppinio	opinio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	3	parataxis:rep	_	SpaceAfter=No
+12	oppinio	opinio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	0	root	_	SpaceAfter=No
 13	:	:	PUNCT	Pu	_	21	punct	_	_
 14	oppinari	opinor	VERB	vd1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	21	csubj	_	_
 15	aquam	aqua	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	18	nsubj	_	_
@@ -29111,7 +29111,7 @@
 25	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 26	mala	malus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	27	amod	_	_
 27	oppinio	opinio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	12	conj	_	SpaceAfter=No
-28	.	.	PUNCT	Pu	_	3	punct	_	_
+28	.	.	PUNCT	Pu	_	12	punct	_	_
 
 # sent_id = Que-15
 # text = Prima dicebatur patere per Commentatorem super tertio De Anima; secunda sive minor per experientiam nautarum, qui vident, in mari existentes, montes sub se, et probant dicendo quod ascendendo malum vident eos, in navi vero non vident; quod videtur accidere propter hoc, quod terra valde inferior sit et depressa a dorso maris.
