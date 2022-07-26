@@ -26507,7 +26507,7 @@
 23-24	lauroque	_	_	_	_	_	_	_	_
 23	lauro	laurus	NOUN	sfs2b	Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Sing	22	conj	_	_
 24	que	que	CCONJ	9	Clitic=Yes	23	cc	_	_
-25	iuvabit	iuuo	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis:rep	_	SpaceAfter=No
+25	iuvabit	iuuo	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp:reported	_	SpaceAfter=No
 26	:	:	PUNCT	Pu	_	27	punct	_	_
 27	concedat	concedo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	_
 28	Mopsus	mopsus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	27	nsubj	_	SpaceAfter=No
