@@ -28124,7 +28124,7 @@
 3	«	«	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
 4	Quid	quid	ADV	rt	PronType=Rel	6	advmod	_	_
 5	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	6	obj	_	_
-6	dubitas	dubito	VERB	va1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis:rep	_	SpaceAfter=No
+6	dubitas	dubito	VERB	va1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp:reported	_	SpaceAfter=No
 7	?	?	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Egl-96
