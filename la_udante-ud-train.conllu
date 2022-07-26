@@ -15283,7 +15283,7 @@
 14	:	:	PUNCT	Pu	_	17	punct	_	_
 15	«	«	PUNCT	Pu	_	17	punct	_	SpaceAfter=No
 16	Qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	17	nsubj	_	_
-17	predestinavit	praedestino	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis:rep	_	_
+17	predestinavit	praedestino	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp:reported	_	_
 18	nos	ego	PRON	ppp1pma	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	17	obj	_	_
 19	in	in	ADP	e	_	20	case	_	_
 20	adoptionem	adoptio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	17	obl	_	_
