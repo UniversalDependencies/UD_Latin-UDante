@@ -5351,7 +5351,7 @@
 7	tales	talis	DET	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Dem	10	nsubj	_	_
 8	duplici	duplex	ADJ	ans2b	Case=Abl|Compound=Yes|Gender=Neut|InflClass=IndEurI|Number=Sing	9	amod	_	_
 9	tempore	tempus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	10	obl	_	_
-10	indigere	indigeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	5	parataxis:rep	_	_
+10	indigere	indigeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	5	ccomp:reported	_	_
 11	ad	ad	ADP	e	_	13	mark	_	_
 12	scientiam	scientia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj:pass	_	_
 13	acquirendam	acquiro	VERB	v3gvsfa	Aspect=Imp|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Gdv|Voice=Pass	10	advcl	_	SpaceAfter=No
