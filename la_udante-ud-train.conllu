@@ -13839,7 +13839,7 @@
 26	Nec	nec	CCONJ	co	Polarity=Neg	29	cc	_	_
 27	mi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	29	obl:arg	_	_
 28	aurum	aurum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	29	obj	_	_
-29	posco	posco	VERB	va3ips1	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis:rep	_	SpaceAfter=No
+29	posco	posco	VERB	va3ips1	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp:reported	_	SpaceAfter=No
 30	,	,	PUNCT	Pu	_	34	punct	_	_
 31	nec	neque	CCONJ	co	Polarity=Neg	34	cc	_	_
 32	mi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	34	obl	_	_
