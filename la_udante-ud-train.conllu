@@ -22363,7 +22363,7 @@
 13	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	unius	unus	NUM	aunsg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	15	nummod	_	_
 15	generis	genus	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	11	acl:relcl	_	_
-16	reducuntur	reduco	VERB	vp3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	parataxis:rep	_	_
+16	reducuntur	reduco	VERB	vp3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	ccomp:reported	_	_
 17	ad	ad	ADP	e	_	18	case	_	_
 18	unum	unus	NUM	aunsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	16	obl:arg	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	22	punct	_	_
