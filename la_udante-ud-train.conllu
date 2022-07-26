@@ -21617,7 +21617,7 @@
 13	Fundamentum	fundamentum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	17	obj	_	_
 14	aliud	alius	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	13	det	_	_
 15	nemo	nemo	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing|PronType=Neg	16	nsubj	_	_
-16	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis:rep	_	_
+16	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp:reported	_	_
 17	ponere	pono	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	16	xcomp	_	_
 18	preter	praeter	ADP	e	_	19	case	_	_
 19	id	is	PRON	ddesna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
