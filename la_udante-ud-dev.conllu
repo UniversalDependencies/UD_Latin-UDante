@@ -5345,19 +5345,19 @@
 # citation_hierarchy = VII,Paragraphus_23
 1	Quippe	quippe	ADV	r	Form=Emp|PronType=Rel	10	discourse	_	_
 2	nec	neque	CCONJ	co	Polarity=Neg	3	cc	_	_
-3	Pado	padus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	10	obl:lmod	_	_
+3	Pado	padus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	10	obl:agent	_	_
 4	precipiti	praeceps	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	7	punct	_	_
 6	nec	neque	CCONJ	co	Polarity=Neg	7	cc	_	_
 7	Tiberi	tiberis	PROPN	Sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|NameType=Geo|Number=Sing	3	conj	_	_
 8	tuo	tuus	DET	dsmsb	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	_
-9	criminosa	criminosus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	10	advcl:pred	_	_
+9	criminosa	criminosus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	10	nsubj:pass	_	_
 10	potatur	poto	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	19	punct	_	_
 12	verum	uero	ADV	co	_	19	discourse	_	_
 13	Sarni	sarnus	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	14	nmod	_	_
 14	fluenta	fluentum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	19	obj	_	_
-15	torrentis	torrens	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	13	flat	_	_
+15	torrentis	torreo	VERB	sms3g	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurX|Number=Sing|VerbForm=Part|Voice=Act	13	acl	_	_
 16	adhuc	adhuc	ADV	r	Compound=Yes	19	advmod	_	_
 17	rictus	rictus	NOUN	smp4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	19	nsubj	_	_
 18	eius	is	PRON	ddesfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	17	nmod	_	_
@@ -5373,7 +5373,7 @@
 28	dira	dirus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	30	amod	_	_
 29	hec	hic	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	30	det	_	_
 30	pernicies	pernicies	NOUN	sfs5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing	31	nsubj:pass	_	_
-31	nuncupatur	nuncupo	VERB	vp1ips3	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	SpaceAfter=No
+31	nuncupatur	nuncupo	VERB	vp1ips3	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	conj	_	SpaceAfter=No
 32	.	.	PUNCT	Pu	_	10	punct	_	_
 
 # sent_id = Epi-146
