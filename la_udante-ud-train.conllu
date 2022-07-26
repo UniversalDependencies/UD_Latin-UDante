@@ -10191,7 +10191,7 @@
 12	parvo	paruus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	14	obl	_	_
 13	que	que	CCONJ	9	Clitic=Yes	15	cc	_	_
 14	potentem	possum	VERB	ams2a	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	15	acl	_	_
-15	Fabritium	fabricius	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	10	obj	_	SpaceAfter=No
+15	Fabritium	fabricius	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	10	ccomp:reported	_	SpaceAfter=No
 16	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = Mon-274
