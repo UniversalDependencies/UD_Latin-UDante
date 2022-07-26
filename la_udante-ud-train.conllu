@@ -26584,7 +26584,7 @@
 6	«	«	PUNCT	Pu	_	9	punct	_	SpaceAfter=No
 7	Ergo	ergo	ADV	co	AdvType=Loc	9	discourse	_	_
 8	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	9	det	_	_
-9	faciemus	facio	VERB	va3ifp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	parataxis:rep	_	SpaceAfter=No
+9	faciemus	facio	VERB	va3ifp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	ccomp:reported	_	SpaceAfter=No
 10	»	»	PUNCT	Pu	_	9	punct	_	_
 11	ait	aio	VERB	va5-ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 12	«	«	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
