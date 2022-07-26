@@ -26239,7 +26239,7 @@
 18	tamen	tamen	ADV	r	PronType=Dem	21	advmod	_	_
 19	sua	suus	DET	dsnpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	_
 20	carmina	carmen	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	28	obj	_	_
-21	possum	possum	VERB	va5ips1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis:rep	_	SpaceAfter=No
+21	possum	possum	VERB	va5ips1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp:reported	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	24	punct	_	_
 23	te	tu	PRON	ppp2smb	Case=Abl|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	24	nsubj	_	_
 24	monstrante	monstro	VERB	va1ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	21	advcl:abs	_	SpaceAfter=No
