@@ -30287,7 +30287,7 @@
 3	demonstro	demonstro	VERB	va1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	Pu	_	6	punct	_	_
 5	Sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	celum	caelum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	3	parataxis:rep	_	_
+6	celum	caelum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	2	conj:expl	_	_
 7	in	in	ADP	e	_	8	case	_	_
 8	quo	qui	PRON	presmb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	6	acl:relcl	_	_
 9	quatuor	quattuor	NUM	yui	InflClass=Ind|Number=Plur|NumForm=Word|NumType=Card	10	nummod	_	_
