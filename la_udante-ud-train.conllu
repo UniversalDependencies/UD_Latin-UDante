@@ -3470,7 +3470,7 @@
 37	neque	neque	CCONJ	co	_	38	cc	_	_
 38	Lucifer	lucifer	PROPN	Sms2n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurO|NameType=Ast|Number=Sing	36	conj	_	_
 39	sic	sic	ADV	r	PronType=Dem	40	advmod	_	_
-40	admirabilis	admirabilis	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	32	parataxis:rep	_	_
+40	admirabilis	admirabilis	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	32	ccomp:reported	_	_
 41	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	SpaceAfter=No
 42	»	»	PUNCT	Pu	_	40	punct	_	SpaceAfter=No
 43	.	.	PUNCT	Pu	_	19	punct	_	_
