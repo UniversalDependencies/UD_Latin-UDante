@@ -33816,7 +33816,7 @@
 12	sensui	sensus	NOUN	sms4d	Case=Dat|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	11	obl:arg	_	_
 13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	mala	malus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	15	amod	_	_
-15	oppinio	opinio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	5	parataxis:rep	_	SpaceAfter=No
+15	oppinio	opinio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	5	csubj:reported	_	SpaceAfter=No
 16	”	”	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	5	punct	_	_
 18	dico	dico	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
