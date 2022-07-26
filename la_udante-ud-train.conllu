@@ -6349,7 +6349,7 @@
 19	Psalmista	psalmista	NOUN	sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|Number=Sing|Proper=Yes	20	nsubj	_	_
 20	videbat	uideo	VERB	va2iis3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl:pred	_	_
 21	dicens	dico	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	20	advcl:pred	_	SpaceAfter=No
-22	:	:	PUNCT	Pu	_	20	punct	_	_
+22	:	:	PUNCT	Pu	_	21	punct	_	_
 23	«	«	PUNCT	Pu	_	31	punct	_	SpaceAfter=No
 24	A	a	ADP	e	_	25	case	_	_
 25	fructu	fructus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	31	obl	_	_
@@ -6358,7 +6358,7 @@
 28	vini	uinum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	26	conj	_	_
 29	et	et	CCONJ	co	_	30	cc	_	_
 30	olei	oleum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	28	conj	_	_
-31	multiplicati	multiplico	VERB	vp1irp3	Aspect=Perf|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	20	parataxis:rep	_	_
+31	multiplicati	multiplico	VERB	vp1irp3	Aspect=Perf|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	21	ccomp:reported	_	_
 32	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	SpaceAfter=No
 33	»	»	PUNCT	Pu	_	31	punct	_	SpaceAfter=No
 34	.	.	PUNCT	Pu	_	3	punct	_	_
