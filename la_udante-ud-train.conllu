@@ -11962,7 +11962,7 @@
 4	Nicomacum	nicomacus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Proper=Yes	2	orphan	_	SpaceAfter=No
 5	:	:	PUNCT	Pu	_	7	punct	_	_
 6	«	«	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
-7	Amabile	amabilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	2	parataxis:rep	_	_
+7	Amabile	amabilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	2	ccomp:reported	_	_
 8	quidem	quidem	PART	r	_	7	discourse	_	_
 9	enim	enim	PART	c	Form=Emp	11	discourse	_	_
 10	et	et	ADV	co	_	11	advmod:emph	_	_
