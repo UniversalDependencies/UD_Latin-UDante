@@ -1064,7 +1064,7 @@
 26	Evam	eua	PROPN	Sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Giv|Number=Sing	22	conj:expl	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	31	punct	_	_
 28	cum	cum	SCONJ	cs	PronType=Rel	31	mark	_	_
-29	dyabolo	diabolus	NOUN	sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing	31	obl	_	_
+29	dyabolo	diabolus	NOUN	sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing	31	obl:arg	_	_
 30	sciscitanti	sciscitor	VERB	vd1ppsmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	29	acl	_	_
 31	respondit	respondeo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	advcl	_	SpaceAfter=No
 32	:	:	PUNCT	Pu	_	41	punct	_	_
@@ -1076,7 +1076,7 @@
 38	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
 39	in	in	ADP	e	_	40	case	_	_
 40	paradiso	paradisus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	36	acl:relcl	_	_
-41	vescimur	uescor	VERB	vd3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	31	parataxis:rep	_	SpaceAfter=No
+41	vescimur	uescor	VERB	vd3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	31	ccomp:reported	_	SpaceAfter=No
 42	;	;	PUNCT	Pu	_	52	punct	_	_
 43	de	de	ADP	e	_	44	case	_	_
 44	fructu	fructus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	52	obl	_	_
