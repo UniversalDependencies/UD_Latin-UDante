@@ -5716,7 +5716,7 @@
 6	sic	sic	ADV	r	PronType=Dem	5	advmod	_	SpaceAfter=No
 7	:	:	PUNCT	Pu	_	9	punct	_	_
 8	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-9	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	5	parataxis:rep	_	_
+9	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	6	conj:expl	_	_
 10	C	c	NOUN	yy	InflClass=Ind|NameType=Let	9	nsubj	_	SpaceAfter=No
 11	;	;	PUNCT	Pu	_	12	punct	_	_
 12	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	9	conj	_	_
