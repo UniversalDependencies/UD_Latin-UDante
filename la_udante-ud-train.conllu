@@ -23612,7 +23612,7 @@
 35	Levitis	leuites	NOUN	Smp1d	Case=Dat|Gender=Masc|InflClass=IndEurA|NameType=Nat|Number=Plur	34	obl:arg	_	SpaceAfter=No
 36	:	:	PUNCT	Pu	_	38	punct	_	_
 37	«	«	PUNCT	Pu	_	38	punct	_	SpaceAfter=No
-38	Nolite	nolo	VERB	va5mpp2	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	34	parataxis:rep	_	_
+38	Nolite	nolo	VERB	va5mpp2	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	34	csubj:reported	_	_
 39	contaminare	contamino	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	38	ccomp	_	_
 40	animas	anima	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	39	nmod	_	_
 41	vestras	uester	DET	dsfpa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	40	det	_	_
