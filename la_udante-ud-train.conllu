@@ -13310,11 +13310,11 @@
 4	perhibet	perhibeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	scriba	scriba	NOUN	sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|Number=Sing	4	nsubj	_	_
 6	Cristi	christus	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	5	nmod	_	_
-7	Lucas	lucas	PROPN	Sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	5	appos	_	SpaceAfter=No
+7	Lucas	lucas	PROPN	Sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	5	flat	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	12	punct	_	_
 9	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	12	nsubj	_	_
 10	omnia	omnis	DET	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	12	obj	_	_
-11	vera	uerus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	10	amod	_	_
+11	vera	uerus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	12	advcl:pred	_	_
 12	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	16	punct	_	_
 14	in	in	ADP	e	_	16	case	_	_
@@ -13324,7 +13324,7 @@
 18	eloquii	eloquium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	16	nmod	_	SpaceAfter=No
 19	:	:	PUNCT	Pu	_	21	punct	_	_
 20	«	«	PUNCT	Pu	_	21	punct	_	SpaceAfter=No
-21	Exivit	exeo	VERB	v5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis:rep	_	_
+21	Exivit	exeo	VERB	v5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj:expl	_	_
 22	edictum	edictum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	21	nsubj	_	_
 23	a	a	ADP	e	_	24	case	_	_
 24	Cesare	caesar	PROPN	Sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|NameType=Sur|Number=Sing	21	obl:agent	_	_
