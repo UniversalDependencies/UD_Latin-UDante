@@ -26077,22 +26077,22 @@
 11	Stulte	stultus	NOUN	sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|Number=Sing	14	vocative	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	11	punct	_	_
 13	quid	quid	ADV	rt	PronType=Rel	14	advmod	_	_
-14	insanis	insanio	VERB	va4ips2	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis:rep	_	SpaceAfter=No
+14	insanis	insanio	VERB	va4ips2	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp:reported	_	SpaceAfter=No
 15	?	?	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
 16	»	»	PUNCT	Pu	_	14	punct	_	_
 17	inquam	inquam	VERB	va5-ips1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-18	:	:	PUNCT	Pu	_	17	punct	_	_
+18	:	:	PUNCT	Pu	_	25	punct	_	_
 19	«	«	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
 20	Tua	tuus	DET	dsfsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	21	det	_	_
 21	cura	cura	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	25	obl:arg	_	_
-22	capelle	capella	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	25	nsubj	_	_
+22	capelle	capella	NOUN	sfp1n	Case=Nom|Degree=Dim|Gender=Fem|InflClass=IndEurA|Number=Plur	25	nsubj	_	_
 23	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	25	obj	_	_
 24	potius	potius	ADV	r+	Degree=Cmp	25	advmod	_	_
-25	poscunt	posco	VERB	va3ipp3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis:rep	_	SpaceAfter=No
+25	poscunt	posco	VERB	va3ipp3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	30	punct	_	_
 27	quanquam	quamquam	SCONJ	cs	Form=Emp|PronType=Rel	30	mark	_	_
 28	mala	malus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	29	amod	_	_
-29	cenula	cenula	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	30	nsubj	_	_
+29	cenula	cenula	NOUN	sfs1n	Case=Nom|Degree=Dim|Gender=Fem|InflClass=IndEurA|Number=Sing	30	nsubj	_	_
 30	turbet	turbo	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	17	punct	_	_
 
