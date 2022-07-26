@@ -20462,7 +20462,7 @@
 28	«	«	PUNCT	Pu	_	31	punct	_	SpaceAfter=No
 29	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	31	nsubj	_	_
 30	non	non	PART	r	Polarity=Neg	31	advmod:neg	_	_
-31	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis:rep	_	_
+31	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp:reported	_	_
 32	emat	emo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	SpaceAfter=No
 33	»	»	PUNCT	Pu	_	31	punct	_	_
 34	-	-	PUNCT	Pu	_	37	punct	_	_
