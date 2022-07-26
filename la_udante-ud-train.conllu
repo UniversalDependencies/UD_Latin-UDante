@@ -33603,7 +33603,7 @@
 5	Creatoris	creator	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	6	nmod	_	_
 6	vocem	uox	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	3	obj	_	_
 7	dicentis	dico	VERB	v3ppsmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	5	acl	_	SpaceAfter=No
-8	:	:	PUNCT	Pu	_	6	punct	_	_
+8	:	:	PUNCT	Pu	_	16	punct	_	_
 9	«	«	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
 10	Quo	quo	ADV	r	PronType=Rel	12	advmod	_	_
 11	ego	ego	PRON	ppp1sn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
@@ -33611,7 +33611,7 @@
 13	,	,	PUNCT	Pu	_	12	punct	_	_
 14	vos	tu	PRON	ppp2pmn	Case=Nom|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	_
 15	non	non	PART	r	Polarity=Neg	16	advmod:neg	_	_
-16	potestis	possum	VERB	va5ipp2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis:rep	_	_
+16	potestis	possum	VERB	va5ipp2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp:reported	_	_
 17	venire	uenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	16	xcomp	_	SpaceAfter=No
 18	»	»	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
 19	.	.	PUNCT	Pu	_	3	punct	_	_
