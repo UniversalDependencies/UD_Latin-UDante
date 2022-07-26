@@ -26449,7 +26449,7 @@
 3	«	«	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
 4	Quis	quis	PRON	pitsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	6	det	_	_
 5	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	6	obj	_	_
-6	dubitet	dubito	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis:rep	_	SpaceAfter=No
+6	dubitet	dubito	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp:reported	_	SpaceAfter=No
 7	?	?	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Egl-37
