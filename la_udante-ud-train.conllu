@@ -2077,7 +2077,7 @@
 53	in	in	ADP	e	_	54	case	_	_
 54	se	sui	PRON	ppp3sna	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	55	obl	_	_
 55	divisum	diuido	VERB	vp3prsnn	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	52	acl	_	_
-56	desolabitur	desolo	VERB	vp1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	46	parataxis	_	SpaceAfter=No
+56	desolabitur	desolo	VERB	vp1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	46	flat	_	SpaceAfter=No
 57	»	»	PUNCT	Pu	_	56	punct	_	SpaceAfter=No
 58	.	.	PUNCT	Pu	_	19	punct	_	_
 
