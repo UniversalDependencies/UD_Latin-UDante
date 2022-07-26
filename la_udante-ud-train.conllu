@@ -8773,7 +8773,7 @@
 20	sic	sic	ADV	r	PronType=Dem	19	advmod	_	SpaceAfter=No
 21	:	:	PUNCT	Pu	_	23	punct	_	_
 22	Quid	quid	ADV	dinsnn	PronType=Rel	23	orphan	_	_
-23	puer	puer	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	19	parataxis:rep	_	_
+23	puer	puer	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	20	conj:expl	_	_
 24	Ascanius	ascanius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	23	flat	_	SpaceAfter=No
 25	?	?	PUNCT	Pu	_	6	punct	_	_
 
