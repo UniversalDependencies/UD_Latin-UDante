@@ -16896,7 +16896,7 @@
 6	illa	ille	DET	dpnpn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	7	det	_	_
 7	concilia	concilium	NOUN	snp2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	0	root	_	_
 8	principalia	principalis	ADJ	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	7	amod	_	_
-9	quibus	qui	PRON	prepnd	Case=Dat|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	14	obl	_	_
+9	quibus	qui	PRON	prepnd	Case=Dat|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	11	obl:arg	_	_
 10	Cristum	christus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	11	nsubj	_	_
 11	interfuisse	intersum	VERB	va5fr	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	14	ccomp	_	_
 12	nemo	nemo	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing|PronType=Neg	14	nsubj	_	_
@@ -16910,12 +16910,12 @@
 20	discipulis	discipulus	NOUN	smp2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	19	obl:arg	_	_
 21	ascensurum	ascendo	VERB	va3pfsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Act	19	advcl:pred	_	_
 22	in	in	ADP	e	_	23	case	_	_
-23	celum	caelum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	21	obl:arg	_	_
+23	celum	caelum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	21	obl:lmod	_	_
 24	«	«	PUNCT	Pu	_	27	punct	_	SpaceAfter=No
 25	Ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	27	discourse	_	_
 26	ego	ego	PRON	ppp1sn	InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
 27-28	vobiscum	_	_	_	_	_	_	_	_
-27	vobis	tu	PRON	ppp2pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	19	parataxis:rep	_	_
+27	vobis	tu	PRON	ppp2pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	19	ccomp:reported	_	_
 28	cum	cum	ADP	9	Clitic=Yes	27	case	_	_
 29	sum	sum	AUX	va5ips1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	cop	_	_
 30	in	in	ADP	e	_	32	case	_	_
