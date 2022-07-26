@@ -12005,7 +12005,7 @@
 21	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Mon-321
-# text = Quedam etiam iudicia Dei sunt, ad que etsietsi humana ratio ex propriis pertingere nequit, elevatur tamen ad illa cum adiutorio fidei eorum que in Sacris Licteris nobis dicta sunt, sicut ad hoc: quod nemo, quantumcunque moralibus et intellectualibus virtutibus et secundum habitum et secundum operationem perfectus, absque fide salvari potest, dato quod nunquam aliquid de Cristo audiverit.
+# text = Quedam etiam iudicia Dei sunt, ad que etsi humana ratio ex propriis pertingere nequit, elevatur tamen ad illa cum adiutorio fidei eorum que in Sacris Licteris nobis dicta sunt, sicut ad hoc: quod nemo, quantumcunque moralibus et intellectualibus virtutibus et secundum habitum et secundum operationem perfectus, absque fide salvari potest, dato quod nunquam aliquid de Cristo audiverit.
 # citation_hierarchy = Liber_Secundus,vii,Paragraphus_4
 1	Quedam	quidam	DET	dpnpn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	3	det	_	_
 2	etiam	etiam	ADV	co	Compound=Yes	3	advmod:emph	_	_
@@ -12015,7 +12015,7 @@
 6	,	,	PUNCT	Pu	_	18	punct	_	_
 7	ad	ad	ADP	e	_	8	case	_	_
 8	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	18	obl:lmod	_	_
-9-10	etsietsi	_	_	_	_	_	_	_	_
+9-10	etsi	_	_	_	_	_	_	_	_
 9	et	et	CCONJ	cs	_	16	advmod:emph	_	_
 10	si	si	SCONJ	cs	_	16	mark	_	_
 11	humana	humanus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	12	amod	_	_
