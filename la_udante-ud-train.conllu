@@ -11784,11 +11784,11 @@
 19	:	:	PUNCT	Pu	_	26	punct	_	_
 20	Non	non	PART	r	Polarity=Neg	26	advmod:neg	_	_
 21	illum	ille	DET	ddisma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	26	obj	_	_
-22	nobis	ego	PRON	ppp1pmd	Case=Dat|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	26	obl	_	_
+22	nobis	ego	PRON	ppp1pmd	Case=Dat|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	26	obl:arg	_	_
 23	genitrix	genitrix	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	26	nsubj	_	_
 24	pulcerrima	pulcher	ADJ	afs1ns	Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	23	amod	_	_
-25	talem	talis	DET	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing|PronType=Dem	26	advcl:pred	_	_
-26	promisit	promitto	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis:rep	_	SpaceAfter=No
+25	talem	talis	DET	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing|PronType=Dem	26	xcomp	_	_
+26	promisit	promitto	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	conj:expl	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	32	punct	_	_
 28-29	Graiumque	_	_	_	_	_	_	_	_
 28	Graium	graius	ADJ	Smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Plur	33	nmod	_	_
