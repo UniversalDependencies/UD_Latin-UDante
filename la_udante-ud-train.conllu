@@ -14551,7 +14551,7 @@
 9	ad	ad	ADP	e	_	10	case	_	_
 10	Timotheum	timotheus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	8	orphan	_	_
 11	«	«	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
-12	Reposita	repono	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	8	parataxis:rep	_	_
+12	Reposita	repono	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	8	ccomp:reported	_	_
 13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
 14	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
 15	corona	corona	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	12	nsubj:pass	_	_
