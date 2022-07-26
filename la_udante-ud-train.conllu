@@ -9909,7 +9909,7 @@
 42	aut	aut	CCONJ	co	_	44	cc	_	_
 43	de	de	ADP	e	_	44	case	_	_
 44	imperio	imperium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	41	conj	_	_
-45	gerebantur	gero	VERB	vp3iip3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	27	parataxis:rep	_	SpaceAfter=No
+45	gerebantur	gero	VERB	vp3iip3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	27	ccomp:reported	_	SpaceAfter=No
 46	,	,	PUNCT	Pu	_	51	punct	_	_
 47	exitus	exitus	NOUN	smp4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	51	nsubj	_	_
 48	erant	sum	AUX	va5iip3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	51	cop	_	_
