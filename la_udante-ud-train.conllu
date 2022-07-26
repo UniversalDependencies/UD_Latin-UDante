@@ -9329,7 +9329,7 @@
 21	Tarpeie	tarpeius	ADJ	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	23	amod	_	_
 22	Manlius	manlius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	24	nsubj	_	_
 23	arcis	arx	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing	20	nmod	_	_
-24	stabat	sto	VERB	va1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis:rep	_	_
+24	stabat	sto	VERB	va1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj:expl	_	_
 25	pro	pro	ADP	e	_	26	case	_	_
 26	templo	templum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	24	obl	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	31	punct	_	_
