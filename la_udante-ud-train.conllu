@@ -10619,7 +10619,7 @@
 14	enim	enim	PART	c	Form=Emp	17	discourse	_	_
 15	alia	alius	DET	dpfs1b	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	17	det	_	_
 16	in	in	ADP	e	_	17	case	_	_
-17	causa	causa	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	10	parataxis:rep	_	_
+17	causa	causa	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	10	ccomp:reported	_	_
 18	Marcus	marcus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	17	nsubj	_	_
 19	Cato	cato	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|NameType=Sur|Number=Sing	18	flat:name	_	_
 20	fuit	sum	AUX	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	SpaceAfter=No
