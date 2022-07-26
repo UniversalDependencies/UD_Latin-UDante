@@ -346,7 +346,7 @@
 18	nempe	nempe	PART	r	Form=Emp	21	discourse	_	_
 19	facere	facio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	21	ccomp	_	_
 20	natura	natura	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	21	nsubj	_	_
-21	aborret	abhorreo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	SpaceAfter=No
+21	aborret	abhorreo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl:pred	_	SpaceAfter=No
 22	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = DVE-10
