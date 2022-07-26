@@ -21382,7 +21382,7 @@
 18	de	de	ADP	e	_	19	case	_	_
 19	iure	ius	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	20	obl	_	_
 20	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	21	xcomp	_	_
-21	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis:rep	_	_
+21	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj:expl	_	_
 22	nisi	nisi	SCONJ	cs	Polarity=Neg	24	mark	_	_
 23	ab	ab	ADP	e	_	24	case	_	_
 24	Ecclesia	ecclesia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	21	advcl	_	SpaceAfter=No
@@ -21390,7 +21390,7 @@
 26	-	-	PUNCT	Pu	_	29	punct	_	_
 27	et	et	CCONJ	co	_	29	cc	_	_
 28	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	29	nsubj:pass	_	_
-29	conceditur	concedo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	parataxis	_	_
+29	conceditur	concedo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	conj	_	_
 30	-	-	PUNCT	Pu	_	35	punct	_	_
 31	“	“	PUNCT	Pu	_	35	punct	_	SpaceAfter=No
 32	romanum	romanus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	33	amod	_	_
@@ -21402,7 +21402,7 @@
 38	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	40	obj	_	_
 39	nemo	nemo	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing|PronType=Neg	41	nsubj	_	_
 40	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	41	xcomp	_	_
-41	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
+41	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	conj	_	_
 42	de	de	ADP	e	_	43	case	_	_
 43	iure	ius	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	40	obl	_	_
 44	nisi	nisi	SCONJ	cs	Polarity=Neg	46	mark	_	_
@@ -21412,7 +21412,7 @@
 48	;	;	PUNCT	Pu	_	51	punct	_	_
 49	et	et	CCONJ	co	_	51	cc	_	_
 50	minorem	paruus	ADJ	afs1ac	Case=Acc|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing	51	obj	_	_
-51	probant	probo	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+51	probant	probo	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
 52	per	per	ADP	e	_	53	case	_	_
 53	ea	is	PRON	ddepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	51	obl	_	_
 54	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	58	nsubj:pass	_	_
