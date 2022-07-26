@@ -10188,10 +10188,10 @@
 10	caneret	cano	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	SpaceAfter=No
 11	:	:	PUNCT	Pu	_	15	punct	_	_
 12-13	parvoque	_	_	_	_	_	_	_	_
-12	parvo	paruus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	15	amod	_	_
-13	que	que	CCONJ	9	Clitic=Yes	12	cc	_	_
-14	potentem	potens	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	15	amod	_	_
-15	Fabritium	fabritius	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	4	parataxis:rep	_	SpaceAfter=No
+12	parvo	paruus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	14	obl	_	_
+13	que	que	CCONJ	9	Clitic=Yes	15	cc	_	_
+14	potentem	possum	VERB	ams2a	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	15	acl	_	_
+15	Fabritium	fabricius	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	10	obj	_	SpaceAfter=No
 16	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = Mon-274
