@@ -33733,7 +33733,7 @@
 7	“	“	PUNCT	Pu	_	10	punct	_	SpaceAfter=No
 8	Nobiliori	nobilis	ADJ	ans2dc	Case=Dat|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	9	amod	_	_
 9	corpori	corpus	NOUN	sns3d	Case=Dat|Gender=Neut|InflClass=IndEurX|Number=Sing	10	obl:arg	_	_
-10	debetur	debeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	parataxis:rep	_	_
+10	debetur	debeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	csubj:reported	_	_
 11	nobilior	nobilis	ADJ	ams2nc	Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Sing	12	amod	_	_
 12	locus	locus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
 13	”	”	PUNCT	Pu	_	10	punct	_	SpaceAfter=No
