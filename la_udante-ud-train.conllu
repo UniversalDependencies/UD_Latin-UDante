@@ -5094,8 +5094,8 @@
 4	nisi	nisi	SCONJ	cs	Polarity=Neg	6	mark	_	_
 5	tale	talis	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Dem	6	advcl:pred	_	_
 6	existens	existo	VERB	va3ppsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	3	advcl	_	_
-7	quale	qualis	DET	presnn	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Rel	10	nsubj	_	_
-8	patiens	patior	VERB	vd3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	9	xcomp:pred	_	_
+7	quale	qualis	DET	presnn	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Rel	9	xcomp	_	_
+8	patiens	patior	VERB	vd3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	9	advcl:pred	_	_
 9	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	10	xcomp	_	_
 10	debet	debeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No
 11	;	;	PUNCT	Pu	_	13	punct	_	_
@@ -5121,7 +5121,7 @@
 31	in	in	ADP	e	_	32	case	_	_
 32	actum	actus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	28	obl:arg	_	SpaceAfter=No
 33	,	,	PUNCT	Pu	_	28	punct	_	_
-34	reducitur	reduco	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	parataxis:rep	_	_
+34	reducitur	reduco	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	ccomp:reported	_	_
 35	per	per	ADP	e	_	37	mark	_	_
 36	tale	talis	DET	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Dem	37	det	_	_
 37	existens	existo	VERB	va3ppsna	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	34	obl:arg	_	_
