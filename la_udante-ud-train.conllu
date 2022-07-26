@@ -22081,32 +22081,34 @@
 # sent_id = Mon-596
 # text = Nam etsi per Lucam habemus relaxationem precepti quantum ad quedam, ad possessionem tamen auri et argenti licentiatam Ecclesiam post prohibitionem illam invenire non potui.
 # citation_hierarchy = Liber_Tertius,x,Paragraphus_14
-1	Nam	nam	PART	co	_	25	discourse	_	_
-2	etsi	etsi	SCONJ	cs	Compound=Yes	5	mark	_	_
-3	per	per	ADP	e	_	4	case	_	_
-4	Lucam	lucas	PROPN	Sms1a	Case=Acc|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	5	obl	_	_
-5	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
-6	relaxationem	relaxatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	5	obj	_	_
-7	precepti	praeceptum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	6	nmod	_	_
-8	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	10	mark	_	_
-9	ad	ad	ADP	e	_	10	case	_	_
-10	quedam	quidam	DET	dpnpa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	5	advcl:cmpr	_	SpaceAfter=No
-11	,	,	PUNCT	Pu	_	5	punct	_	_
-12	ad	ad	ADP	e	_	13	case	_	_
-13	possessionem	possessio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	18	obl	_	_
-14	tamen	tamen	ADV	r	PronType=Dem	13	advmod	_	_
-15	auri	aurum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	13	nmod	_	_
-16	et	et	CCONJ	co	_	17	cc	_	_
-17	argenti	argentum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	15	conj	_	_
-18	licentiatam	licentio	VERB	vp1prsfa	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	19	ccomp	_	_
-19	Ecclesiam	ecclesia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	23	obj	_	_
-20	post	post	ADP	e	_	21	case	_	_
-21	prohibitionem	prohibitio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	18	obl	_	_
-22	illam	ille	DET	dpfsa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	21	det	_	_
-23	invenire	inuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	25	xcomp	_	_
-24	non	non	PART	r	Polarity=Neg	25	advmod:neg	_	_
-25	potui	possum	VERB	va5irs1	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-26	.	.	PUNCT	Pu	_	25	punct	_	_
+1	Nam	nam	PART	co	_	26	discourse	_	_
+2-3	etsi	_	_	_	_	_	_	_	_
+2	et	et	CCONJ	cs	_	6	advmod:emph	_	_
+3	si	si	SCONJ	cs	_	6	mark	_	_
+4	per	per	ADP	e	_	5	case	_	_
+5	Lucam	lucas	PROPN	Sms1a	Case=Acc|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	6	obl	_	_
+6	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+7	relaxationem	relaxatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	6	obj	_	_
+8	precepti	praeceptum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	7	nmod	_	_
+9	quantum	quantum	SCONJ	r	ConjType=Cmpr|NumType=Card|PronType=Rel	11	mark	_	_
+10	ad	ad	ADP	e	_	11	case	_	_
+11	quedam	quidam	DET	dpnpa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	6	advcl:cmpr	_	SpaceAfter=No
+12	,	,	PUNCT	Pu	_	6	punct	_	_
+13	ad	ad	ADP	e	_	14	case	_	_
+14	possessionem	possessio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	19	obl	_	_
+15	tamen	tamen	ADV	r	PronType=Dem	14	advmod	_	_
+16	auri	aurum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	14	nmod	_	_
+17	et	et	CCONJ	co	_	18	cc	_	_
+18	argenti	argentum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	16	conj	_	_
+19	licentiatam	licentio	VERB	vp1prsfa	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	20	ccomp	_	_
+20	Ecclesiam	ecclesia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	24	obj	_	_
+21	post	post	ADP	e	_	22	case	_	_
+22	prohibitionem	prohibitio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	19	obl	_	_
+23	illam	ille	DET	dpfsa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	22	det	_	_
+24	invenire	inuenio	VERB	va4fp	Aspect=Imp|InflClass=LatI|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+25	non	non	PART	r	Polarity=Neg	26	advmod:neg	_	_
+26	potui	possum	VERB	va5irs1	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	Pu	_	26	punct	_	_
 
 # sent_id = Mon-597
 # text = Qua re, si Ecclesia recipere non poterat, dato quod Constantinus hoc facere potuisset de se, actio tamen illa non erat possibilis propter patientis indispositionem.
