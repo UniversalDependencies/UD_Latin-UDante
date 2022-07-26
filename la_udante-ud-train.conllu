@@ -33416,7 +33416,7 @@
 3	dixit	dico	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	SpaceAfter=No
 4	:	:	PUNCT	Pu	_	6	punct	_	_
 5	«	«	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
-6	Congregentur	congrego	VERB	vp1cpp3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis:rep	_	_
+6	Congregentur	congrego	VERB	vp1cpp3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp:reported	_	_
 7	aque	aqua	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	6	nsubj	_	_
 8	in	in	ADP	e	_	9	case	_	_
 9	locum	locus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	6	obl	_	_
