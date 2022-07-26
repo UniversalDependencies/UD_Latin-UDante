@@ -13103,7 +13103,7 @@
 24-25	perituraque	_	_	_	_	_	_	_	_
 24	peritura	pereo	VERB	va5pfsv	Aspect=Perf|Case=Voc|InflClass=LatAnom|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Act	21	conj	_	_
 25	que	que	CCONJ	9	Clitic=Yes	24	cc	_	_
-26	proles	proles	NOUN	sfs3v	Case=Voc|Gender=Fem|InflClass=IndEurX|Number=Sing	19	parataxis:rep	_	_
+26	proles	proles	NOUN	sfs3v	Case=Voc|Gender=Fem|InflClass=IndEurX|Number=Sing	19	ccomp:reported	_	_
 27	degener	degener	ADJ	afs2v	Case=Voc|Gender=Fem|InflClass=IndEurI|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	31	punct	_	_
 29	inceste	incestus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Polarity=Neg	32	amod	_	_
