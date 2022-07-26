@@ -24368,7 +24368,7 @@
 22	dicat	dico	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 23	«	«	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
 24	quoniam	quoniam	SCONJ	cs	Compound=Yes|PronType=Rel	25	mark	_	_
-25	ipsius	ipse	DET	ddesmg	Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	22	parataxis:rep	_	_
+25	ipsius	ipse	DET	ddesmg	Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	22	ccomp:reported	_	_
 26	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 27	mare	mare	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	25	nsubj	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	31	punct	_	_
