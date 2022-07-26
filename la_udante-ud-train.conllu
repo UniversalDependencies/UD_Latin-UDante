@@ -8401,9 +8401,9 @@
 7	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	29	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	7	punct	_	_
 9	cum	cum	SCONJ	cs	PronType=Rel	13	mark	_	_
-10	de	de	ADP	e	_	11	case	_	_
-11	Miseno	misenus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	13	obl:arg	_	_
-12	mortuo	morior	VERB	vd3prsmb	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+10	de	de	ADP	e	_	12	mark	_	_
+11	Miseno	misenus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	12	nsubj	_	_
+12	mortuo	morior	VERB	vd3prsmb	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	_
 13	loqueretur	loquor	VERB	vd3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	29	advcl	_	_
 14	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	17	nsubj	_	_
 15	fuerat	sum	AUX	va5i+s3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	17	cop	_	_
@@ -8415,18 +8415,18 @@
 21	post	post	ADP	e	_	22	case	_	_
 22	mortem	mors	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	27	obl	_	_
 23	Hectoris	hector	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	22	nmod	_	_
-24	Enee	aeneas	PROPN	Sms1d	Case=Dat|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	25	nmod	_	_
+24	Enee	aeneas	PROPN	Sms1d	Case=Dat|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	27	obl:arg	_	_
 25	ministrum	minister	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	27	xcomp:pred	_	_
 26	se	sui	PRON	ppp3sma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	27	obj	_	_
 27	dederat	do	VERB	va1i+s3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	13	punct	_	_
-29	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+29	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 30	ipsum	ipse	DET	dpmsa	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	31	det	_	_
 31	Misenum	misenus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	35	nsubj	_	_
 32	«	«	PUNCT	Pu	_	35	punct	_	SpaceAfter=No
-33	non	non	PART	r	Polarity=Neg	34	advmod:neg	_	_
+33	non	non	PART	r	Polarity=Neg	35	advmod:neg	_	_
 34	inferiora	infra	ADJ	anp2ac	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur	35	obj	_	_
-35	secutum	sequor	VERB	vd3prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	29	parataxis:rep	_	SpaceAfter=No
+35	secutum	sequor	VERB	vd3prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	29	ccomp	_	SpaceAfter=No
 36	»	»	PUNCT	Pu	_	35	punct	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	39	punct	_	_
 38	comparationem	comparatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	39	obj	_	_
@@ -8447,12 +8447,12 @@
 53	Phylosophus	philosophus	NOUN	Sms2	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	52	nsubj	_	_
 54	in	in	ADP	e	_	55	case	_	_
 55	hiis	hic	DET	ddipnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	52	obl	_	_
-56	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	58	nsubj	_	_
-57	de	de	ADP	e	_	58	case	_	_
-58	moribus	mos	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	55	acl:relcl	_	_
-59	fugiendis	fugio	VERB	vp3gvpmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Gdv|Voice=Pass	58	acl	_	_
+56	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	61	nsubj	_	_
+57	de	de	ADP	e	_	59	mark	_	_
+58	moribus	mos	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	59	nsubj:pass	_	_
+59	fugiendis	fugio	VERB	vp3gvpmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Gdv|Voice=Pass	61	acl	_	_
 60	ad	ad	ADP	e	_	61	case	_	_
-61	Nicomacum	nicomacus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Proper=Yes	58	obl	_	SpaceAfter=No
+61	Nicomacum	nicomacus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing|Proper=Yes	55	acl:relcl	_	SpaceAfter=No
 62	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Mon-226
