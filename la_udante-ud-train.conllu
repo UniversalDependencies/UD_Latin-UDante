@@ -13225,7 +13225,7 @@
 3	in	in	ADP	e	_	4	case	_	_
 4	primo	primus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	2	orphan	_	SpaceAfter=No
 5	:	:	PUNCT	Pu	_	6	punct	_	_
-6	Dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis:rep	_	_
+6	Dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	ccomp:reported	_	_
 7	ferro	ferrum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	6	obl:agent	_	_
 8	regnum	regnum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	6	nsubj:pass	_	_
 9-10	populique	_	_	_	_	_	_	_	_
