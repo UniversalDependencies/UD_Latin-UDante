@@ -8698,7 +8698,7 @@
 42	»	»	PUNCT	Pu	_	41	punct	_	SpaceAfter=No
 43	;	;	PUNCT	Pu	_	45	punct	_	_
 44	“	“	PUNCT	Pu	_	45	punct	_	SpaceAfter=No
-45	eius	is	PRON	ddesfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	35	parataxis	_	SpaceAfter=No
+45	eius	is	PRON	ddesfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	33	conj:expl	_	SpaceAfter=No
 46	”	”	PUNCT	Pu	_	45	punct	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	49	punct	_	_
 48	idest	idest	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	49	cc	_	_
