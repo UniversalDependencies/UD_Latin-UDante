@@ -1310,7 +1310,7 @@
 # citation_hierarchy = III,Paragraphus_8
 1	Perlege	perlego	VERB	va3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	3	punct	_	_
-3	deprecor	deprecor	VERB	vd1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	1	parataxis	_	SpaceAfter=No
+3	deprecor	deprecor	VERB	vd1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	1	parataxis:reporting	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	6	punct	_	_
 5	Fortuitorum	fortuitus	ADJ	anp1g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	6	nmod	_	_
 6	Remedia	remedium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	1	obj	_	SpaceAfter=No
