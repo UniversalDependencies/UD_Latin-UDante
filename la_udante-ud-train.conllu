@@ -8573,7 +8573,7 @@
 54	Athlantide	atlantis	ADJ	afs2b	Case=Abl|Gender=Fem|InflClass=IndEurI|NameType=Nat|Number=Sing	48	amod	_	_
 55	cretus	cresco	VERB	vp3prsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	40	acl	_	SpaceAfter=No
 56	,	,	PUNCT	Pu	_	40	punct	_	_
-57	advehitur	adueho	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	38	parataxis:rep	_	_
+57	advehitur	adueho	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	38	ccomp:reported	_	_
 58	Teucros	teucrus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	57	obl	_	SpaceAfter=No
 59	:	:	PUNCT	Pu	_	63	punct	_	_
 60	Electram	electra	PROPN	Sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	63	obj	_	_
