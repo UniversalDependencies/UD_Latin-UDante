@@ -15148,7 +15148,7 @@
 5	:	:	PUNCT	Pu	_	8	punct	_	_
 6	omne	omnis	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	7	det	_	_
 7	iniustum	iniustus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|Polarity=Neg	8	nsubj:pass	_	_
-8	persuadetur	persuadeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis:rep	_	_
+8	persuadetur	persuadeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj:expl	_	_
 9	iniuste	iniuste	ADV	r	_	8	advmod	_	SpaceAfter=No
 10	;	;	PUNCT	Pu	_	12	punct	_	_
 11	Cristus	christus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	12	nsubj	_	_
