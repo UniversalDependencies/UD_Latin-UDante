@@ -5367,7 +5367,7 @@
 22	Florentia	florentia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	31	xcomp:pred	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	22	punct	_	_
 24	forte	forte	ADV	r	_	25	advmod	_	_
-25	nescis	nescio	VERB	va4ips2	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	31	parataxis	_	SpaceAfter=No
+25	nescis	nescio	VERB	va4ips2	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	31	parataxis:reporting	_	SpaceAfter=No
 26	?	?	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	25	punct	_	_
 28	dira	dirus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	30	amod	_	_
