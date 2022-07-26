@@ -12144,7 +12144,7 @@
 46	Domino	dominus	NOUN	sms2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	45	obl:arg	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	21	punct	_	_
 48	sanguinis	sanguis	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	49	obl:arg	_	_
-49	reus	reus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	18	parataxis:rep	_	_
+49	reus	reus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	18	csubj:reported	_	_
 50	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	49	cop	_	SpaceAfter=No
 51	»	»	PUNCT	Pu	_	49	punct	_	SpaceAfter=No
 52	.	.	PUNCT	Pu	_	1	punct	_	_
