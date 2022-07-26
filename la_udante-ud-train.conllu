@@ -26601,21 +26601,21 @@
 1	«	«	PUNCT	Pu	_	3	punct	_	SpaceAfter=No
 2	Est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3-4	mecum	_	_	_	_	_	_	_	_
-3	me	ego	PRON	ppp1smb	Case=Abl|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	11	parataxis:rep	_	_
+3	me	ego	PRON	ppp1smb	Case=Abl|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
 4	cum	cum	ADP	9	Clitic=Yes	3	case	_	_
 5	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	obj	_	_
 6	noscis	nosco	VERB	va3ips2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
 7	ovis	ouis	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	3	nsubj	_	_
 8	gratissima	gratus	ADJ	afs1ns	Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	7	amod	_	SpaceAfter=No
-9	,	,	PUNCT	Pu	_	3	punct	_	SpaceAfter=No
-10	»	»	PUNCT	Pu	_	3	punct	_	_
-11	dixi	dico	VERB	va3irs1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	,	,	PUNCT	Pu	_	8	punct	_	SpaceAfter=No
+10	»	»	PUNCT	Pu	_	8	punct	_	_
+11	dixi	dico	VERB	va3irs1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis:reporting	_	_
 12	«	«	PUNCT	Pu	_	17	punct	_	SpaceAfter=No
 13	ubera	uber	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	16	obj	_	_
 14	vix	uix	ADV	r	_	16	advmod	_	_
 15	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	17	nsubj	_	_
 16	ferre	fero	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	17	xcomp	_	_
-17	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis:rep	_	SpaceAfter=No
+17	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	21	punct	_	_
 19	tam	tam	ADV	r	PronType=Dem	21	advmod	_	_
 20	lactis	lac	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	21	obl:arg	_	_
@@ -26628,7 +26628,7 @@
 27	modo	modo	ADV	r	_	26	advmod	_	_
 28	ruminat	rumino	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
 29	herbas	herba	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	28	obj	_	SpaceAfter=No
-30	.	.	PUNCT	Pu	_	11	punct	_	_
+30	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Egl-43
 # text = Nulli iuncta gregi nullis assuetaque caulis, sponte venire solet, nunquam vi, poscere mulctram.
