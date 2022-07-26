@@ -8308,8 +8308,8 @@
 # sent_id = Mon-223
 # text = Qui quidem invictissimus atque piissimus pater quante nobilitatis vir fuerit, non solum sua considerata virtute sed progenitorum suorum atque uxorum, quorum utrorunque nobilitas hereditario iure in ipsum confluxit, explicare nequirem: sed «summa sequar vestigia rerum».
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_7
-1	Qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	6	det	_	_
-2	quidem	quidem	PART	r	_	6	discourse	_	_
+1	Qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	6	det	_	_
+2	quidem	quidem	PART	r	_	33	discourse	_	_
 3	invictissimus	inuictus	ADJ	ams1s	Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing|Polarity=Neg	6	amod	_	_
 4	atque	atque	CCONJ	co	Form=Emp	5	cc	_	_
 5	piissimus	pius	ADJ	ams1s	Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	3	conj	_	_
@@ -8320,7 +8320,7 @@
 10	fuerit	sum	AUX	va5crs3	Aspect=Perf|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	15	punct	_	_
 12	non	non	PART	r	Polarity=Neg	13	advmod:neg	_	_
-13	solum	solum	ADV	r	PronType=Con	16	advmod:emph	_	_
+13	solum	solum	ADV	r	PronType=Con	14	advmod:emph	_	_
 14	sua	suus	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
 15	considerata	considero	VERB	vp1prsfb	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl:abs	_	_
 16	virtute	uirtus	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	15	nsubj:pass	_	_
@@ -8336,7 +8336,7 @@
 26	hereditario	hereditarius	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	27	amod	_	_
 27	iure	ius	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	30	obl	_	_
 28	in	in	ADP	e	_	29	case	_	_
-29	ipsum	ipse	DET	ddesma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	30	obl:arg	_	_
+29	ipsum	ipse	DET	ddesma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	30	obl	_	_
 30	confluxit	confluo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	9	punct	_	_
 32	explicare	explico	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	33	xcomp	_	_
@@ -8345,7 +8345,7 @@
 35	sed	sed	CCONJ	co	_	38	cc	_	_
 36	«	«	PUNCT	Pu	_	38	punct	_	SpaceAfter=No
 37	summa	summus	ADJ	anp1as	Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Plur	39	amod	_	_
-38	sequar	sequor	VERB	vd3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	33	parataxis:rep	_	_
+38	sequar	sequor	VERB	vd3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	33	conj	_	_
 39	vestigia	uestigium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	38	obj	_	_
 40	rerum	res	NOUN	sfp5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Plur	39	nmod	_	SpaceAfter=No
 41	»	»	PUNCT	Pu	_	38	punct	_	SpaceAfter=No
