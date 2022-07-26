@@ -1690,10 +1690,10 @@
 # sent_id = Mon-41
 # text = Itaque prima questio sit: utrum ad bene esse mundi Monarchia temporalis necessaria sit.
 # citation_hierarchy = Liber_Primus,v,Paragraphus_2
-1	Itaque	itaque	PART	co	Form=Emp|PronType=Dem	3	discourse	_	_
+1	Itaque	itaque	PART	co	Form=Emp|PronType=Dem	13	discourse	_	_
 2	prima	primus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	3	amod	_	_
-3	questio	quaestio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	0	root	_	_
-4	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+3	questio	quaestio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	13	nsubj:outer	_	_
+4	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop:outer	_	SpaceAfter=No
 5	:	:	PUNCT	Pu	_	13	punct	_	_
 6	utrum	utrum	SCONJ	r	_	13	mark	_	_
 7	ad	ad	ADP	e	_	8	case	_	_
@@ -1702,9 +1702,9 @@
 10	mundi	mundus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	8	nmod	_	_
 11	Monarchia	monarchia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj	_	_
 12	temporalis	temporalis	ADJ	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	11	amod	_	_
-13	necessaria	necessarius	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	3	parataxis:rep	_	_
+13	necessaria	necessarius	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 14	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
-15	.	.	PUNCT	Pu	_	3	punct	_	_
+15	.	.	PUNCT	Pu	_	13	punct	_	_
 
 # sent_id = Mon-42
 # text = Hoc equidem, nulla vi rationis vel auctoritatis obstante, potissimis et patentissimis argumentis ostendi potest, quorum primum ab autoritate Phylosophi assummatur de suis Politicis.
