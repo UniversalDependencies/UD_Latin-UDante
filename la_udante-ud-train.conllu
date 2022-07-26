@@ -576,7 +576,7 @@
 11	ultimus	ultimus	ADJ	ams1ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	12	amod	_	_
 12	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	20	advcl	_	_
 13	-	-	PUNCT	Pu	_	14	punct	_	_
-14	movet	moueo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+14	movet	moueo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
 15	enim	enim	PART	c	Form=Emp	14	discourse	_	_
 16	primo	primo	ADV	r	NumType=Ord	14	advmod	_	_
 17	agentem	ago	VERB	va3ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	14	obj	_	_
