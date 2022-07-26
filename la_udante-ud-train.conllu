@@ -19145,7 +19145,7 @@
 # citation_hierarchy = Liber_Tertius,vi,Paragraphus_7
 1	Et	et	CCONJ	co	_	2	cc	_	_
 2	similiter	similiter	ADV	r	_	0	root	_	_
-3	sic	sic	ADV	r	PronType=Dem	2	advmod	_	SpaceAfter=No
+3	sic	sic	ADV	r	PronType=Dem	2	orphan	_	SpaceAfter=No
 4	:	:	PUNCT	Pu	_	11	punct	_	_
 5	“	“	PUNCT	Pu	_	11	punct	_	SpaceAfter=No
 6	Deus	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	11	nsubj	_	_
@@ -19153,7 +19153,7 @@
 8	nuntium	nuntius	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	9	obl	_	_
 9	facere	facio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	11	xcomp	_	_
 10	non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
-11	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis:rep	_	_
+11	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj:expl	_	_
 12	genita	gigno	VERB	vp3prp	Aspect=Perf|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	9	ccomp	_	_
 13	non	non	PART	r	Polarity=Neg	12	advmod:neg	_	_
 14	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	12	aux:pass	_	_
