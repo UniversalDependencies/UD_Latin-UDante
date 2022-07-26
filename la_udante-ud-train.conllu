@@ -10268,7 +10268,7 @@
 10	:	:	PUNCT	Pu	_	13	punct	_	_
 11	referentem	refero	VERB	va5ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	13	acl	_	_
 12	signa	signum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	11	obj	_	_
-13	Camillum	camillus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	9	parataxis:rep	_	SpaceAfter=No
+13	Camillum	camillus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	9	ccomp:reported	_	SpaceAfter=No
 14	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = Mon-276
