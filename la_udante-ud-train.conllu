@@ -23814,8 +23814,8 @@
 13	«	«	PUNCT	Pu	_	17	punct	_	SpaceAfter=No
 14	Super	super	ADP	e	_	16	case	_	_
 15	hanc	hic	DET	dpfsa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	16	det	_	_
-16	petram	petra	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	17	obl	_	_
-17	hedificabo	aedifico	VERB	va1ifs1	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	12	parataxis:rep	_	_
+16	petram	petra	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	17	obl:lmod	_	_
+17	hedificabo	aedifico	VERB	va1ifs1	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	12	ccomp:reported	_	_
 18	Ecclesiam	ecclesia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	17	obj	_	_
 19	meam	meus	DET	dsfsa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	SpaceAfter=No
 20	»	»	PUNCT	Pu	_	17	punct	_	SpaceAfter=No
@@ -23824,7 +23824,7 @@
 23	alibi	alibi	ADV	r	AdvType=Loc|Compound=Yes	12	conj	_	_
 24	«	«	PUNCT	Pu	_	26	punct	_	SpaceAfter=No
 25	Opus	opus	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	26	obj	_	_
-26	consummavi	consummo	VERB	va1irs1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	23	parataxis:rep	_	_
+26	consummavi	consummo	VERB	va1irs1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	23	ccomp:reported	_	_
 27	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	28	obj	_	_
 28	dedisti	do	VERB	va1irs2	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
 29	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	28	obl:arg	_	_
