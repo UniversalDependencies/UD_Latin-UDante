@@ -33513,7 +33513,7 @@
 4	:	:	PUNCT	Pu	_	7	punct	_	_
 5	«	«	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
 6	Mirabilis	mirabilis	ADJ	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	7	xcomp:pred	_	_
-7	facta	facio	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	3	parataxis:rep	_	_
+7	facta	facio	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp:reported	_	_
 8	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 9	scientia	scientia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	7	nsubj:pass	_	_
 10	tua	tuus	DET	dsfsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	9	det	_	_
