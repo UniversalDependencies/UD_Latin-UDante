@@ -33296,7 +33296,7 @@
 13	fuit	sum	AUX	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
 14	ab	ab	ADP	e	_	16	case	_	_
 15	ista	iste	DET	dpfsb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	16	det	_	_
-16	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	3	parataxis:rep	_	_
+16	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	3	csubj:reported	_	_
 17	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	19	mark	_	_
 18	ab	ab	ADP	e	_	19	case	_	_
 19	alia	alius	DET	dpfs1b	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	10	advcl:cmpr	_	SpaceAfter=No
