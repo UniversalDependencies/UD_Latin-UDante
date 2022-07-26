@@ -26590,7 +26590,7 @@
 12	«	«	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 13	Mopsum	mopsus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	14	obj	_	_
 14	revocare	reuoco	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	15	xcomp	_	_
-15	volentes	uolo	VERB	va5pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	9	acl	_	SpaceAfter=No
+15	volentes	uolo	VERB	va5pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	9	advcl:pred	_	SpaceAfter=No
 16	?	?	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 17	»	»	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 18	.	.	PUNCT	Pu	_	4	punct	_	_
