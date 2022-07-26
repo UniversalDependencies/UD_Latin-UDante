@@ -18422,7 +18422,7 @@
 22	sic	sic	ADV	r	PronType=Dem	20	advmod	_	SpaceAfter=No
 23	:	:	PUNCT	Pu	_	25	punct	_	_
 24	luna	luna	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	25	nsubj	_	_
-25	recipit	recipio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis:rep	_	_
+25	recipit	recipio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj:expl	_	_
 26	lucem	lux	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	25	obj	_	_
 27	a	a	ADP	e	_	28	case	_	_
 28	sole	sol	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	25	obl	_	_
