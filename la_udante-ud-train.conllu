@@ -2703,7 +2703,7 @@
 24	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	SpaceAfter=No
 25	:	:	PUNCT	Pu	_	27	punct	_	_
 26	«	«	PUNCT	Pu	_	27	punct	_	SpaceAfter=No
-27	Audi	audio	VERB	va4mps2	Aspect=Imp|InflClass=LatI|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	23	parataxis:rep	_	SpaceAfter=No
+27	Audi	audio	VERB	va4mps2	Aspect=Imp|InflClass=LatI|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	23	csubj:reported	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	29	punct	_	_
 29	Israel	israel	PROPN	Smsvi	Foreign=Yes|Gender=Masc|InflClass=Ind|NameType=Giv|Number=Sing	27	vocative	_	SpaceAfter=No
 30	,	,	PUNCT	Pu	_	34	punct	_	_
