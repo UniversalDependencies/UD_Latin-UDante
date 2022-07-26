@@ -18658,7 +18658,7 @@
 5	huic	hic	DET	ddismd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	3	obl:arg	_	SpaceAfter=No
 6	:	:	PUNCT	Pu	_	8	punct	_	_
 7	A	a	NOUN	yy	InflClass=Ind|NameType=Let	8	nsubj	_	_
-8	precedit	praecedo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis:rep	_	_
+8	precedit	praecedo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	dislocated:obl	_	_
 9	B	b	NOUN	yy	InflClass=Ind|NameType=Let	8	obj	_	_
 10	in	in	ADP	e	_	11	case	_	_
 11	C	c	NOUN	yy	InflClass=Ind|NameType=Let	8	obl	_	SpaceAfter=No
