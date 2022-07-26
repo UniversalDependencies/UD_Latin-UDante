@@ -20444,7 +20444,7 @@
 10	enim	enim	PART	c	Form=Emp	11	discourse	_	_
 11	dixit	dico	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 12	“	“	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
-13	ematis	emo	VERB	va3ipp2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis:rep	_	_
+13	ematis	emo	VERB	va3ipp2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp:reported	_	_
 14	vel	uel	CCONJ	co	_	15	cc	_	_
 15	habeatis	habeo	VERB	va2cpp2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
 16	duos	duo	NUM	aumpa	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	17	nummod	_	_
