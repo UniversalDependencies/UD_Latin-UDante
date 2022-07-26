@@ -9669,21 +9669,21 @@
 # text = Propter quod bene Seneca de lege cum in libro De quatuor virtutibus, «legem vinculum» dicat «humane sotietatis».
 # citation_hierarchy = Liber_Secundus,v,Paragraphus_3
 1	Propter	propter	ADP	e	_	2	case	_	_
-2	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	obl	_	_
-3	bene	bene	ADV	r	_	4	advmod	_	_
+2	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	orphan	_	_
+3	bene	bene	ADV	r	_	4	orphan	_	_
 4	Seneca	seneca	PROPN	Sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|NameType=Sur|Number=Sing	0	root	_	_
 5	de	de	ADP	e	_	6	case	_	_
-6	lege	lex	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	4	obl	_	_
+6	lege	lex	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	4	orphan	_	_
 7	cum	cum	SCONJ	cs	PronType=Rel	18	mark	_	_
 8	in	in	ADP	e	_	9	case	_	_
 9	libro	liber	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	18	obl	_	_
 10	De	de	ADP	e	Proper=Yes	12	case	_	_
 11	quatuor	quattuor	NUM	yui	InflClass=Ind|Number=Plur|NumForm=Word|NumType=Card	12	nummod	_	_
-12	virtutibus	uirtus	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	18	obl	_	SpaceAfter=No
+12	virtutibus	uirtus	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	12	punct	_	_
 14	«	«	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
 15	legem	lex	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	16	nsubj	_	_
-16	vinculum	uinculum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	18	parataxis:rep	_	SpaceAfter=No
+16	vinculum	uinculum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	18	ccomp	_	SpaceAfter=No
 17	»	»	PUNCT	Pu	_	16	punct	_	_
 18	dicat	dico	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 19	«	«	PUNCT	Pu	_	21	punct	_	SpaceAfter=No
