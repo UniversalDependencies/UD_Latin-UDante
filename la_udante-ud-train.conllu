@@ -7002,7 +7002,7 @@
 36	«	«	PUNCT	Pu	_	39	punct	_	SpaceAfter=No
 37	Ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	38	advmod:emph	_	_
 38	quam	quam	ADV	c	PronType=Int	39	advmod:emph	_	_
-39	bonum	bonum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	34	parataxis:rep	_	_
+39	bonum	bonum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	34	ccomp:reported	_	_
 40	et	et	CCONJ	co	_	42	cc	_	_
 41	quam	quam	ADV	c	PronType=Int	42	advmod:emph	_	_
 42	iocundum	iucundus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Gdv	39	conj	_	SpaceAfter=No
