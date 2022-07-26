@@ -11226,7 +11226,7 @@
 13	in	in	ADP	e	_	14	mark	_	_
 14	providendo	prouideo	VERB	va2fgb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	16	advcl	_	_
 15	non	non	PART	r	Polarity=Neg	16	advmod:neg	_	_
-16	deficit	deficio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+16	deficit	deficio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
 17	ab	ab	ADP	e	_	19	case	_	_
 18	hominis	homo	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	19	nmod	_	_
 19	providentia	prouidentia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	16	obl:arg	_	SpaceAfter=No
