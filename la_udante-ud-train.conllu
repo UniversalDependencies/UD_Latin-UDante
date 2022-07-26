@@ -33665,7 +33665,7 @@
 9	a	a	ADP	e	_	10	case	_	_
 10	se	sui	PRON	ppp3pfb	Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
 11	distantium	disto	VERB	va1pppfg	Aspect=Imp|Case=Gen|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	7	acl	_	_
-12	impossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	3	parataxis:rep	_	_
+12	impossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	3	csubj:reported	_	_
 13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 14	idem	idem	DET	dpnsa	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	12	csubj	_	_
 15	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	14	cop	_	_
