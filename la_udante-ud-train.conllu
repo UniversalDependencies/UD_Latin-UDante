@@ -33546,7 +33546,7 @@
 10	terra	terra	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	7	obl:arg	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	7	punct	_	_
 12	tantum	tantum	ADV	r	PronType=Dem	13	advmod:emph	_	_
-13	distant	disto	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis:rep	_	_
+13	distant	disto	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp:reported	_	_
 14	vie	uia	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	13	nsubj	_	_
 15	mee	meus	DET	dsfpn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	_
 16	a	a	ADP	e	_	17	case	_	_
