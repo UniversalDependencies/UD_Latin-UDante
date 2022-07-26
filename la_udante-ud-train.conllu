@@ -8881,7 +8881,7 @@
 33	Eneam	aeneas	PROPN	Sms1a	Case=Acc|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	30	obl:arg	_	_
 34	sic	sic	ADV	r	PronType=Dem	30	advmod	_	SpaceAfter=No
 35	:	:	PUNCT	Pu	_	36	punct	_	_
-36	Vicisti	uinco	VERB	va3irs2	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	30	parataxis:rep	_	SpaceAfter=No
+36	Vicisti	uinco	VERB	va3irs2	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	34	conj:expl	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	40	punct	_	_
 38	et	et	CCONJ	co	_	40	cc	_	_
 39	victum	uinco	VERB	vp3prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	40	advcl:pred	_	_
