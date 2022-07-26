@@ -20956,7 +20956,7 @@
 20	,	,	PUNCT	Pu	_	19	punct	_	_
 21	tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	23	nsubj	_	_
 22	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	23	obl	_	_
-23	lavas	lauo	VERB	va1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis:rep	_	_
+23	lavas	lauo	VERB	va1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp:reported	_	_
 24	pedes	pes	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	23	obj	_	SpaceAfter=No
 25	?	?	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
 26	»	»	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
