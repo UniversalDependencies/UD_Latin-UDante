@@ -5234,7 +5234,7 @@
 20	:	:	PUNCT	Pu	_	23	punct	_	_
 21	“	“	PUNCT	Pu	_	23	punct	_	SpaceAfter=No
 22	Frustra	frustra	ADV	r	_	23	advmod	_	_
-23	loqueris	loquor	VERB	vd3ips2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	19	parataxis:rep	_	SpaceAfter=No
+23	loqueris	loquor	VERB	vd3ips2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	19	ccomp:reported	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	28	punct	_	_
 25	cum	cum	SCONJ	cs	PronType=Rel	28	mark	_	_
 26	tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	28	nsubj	_	_
