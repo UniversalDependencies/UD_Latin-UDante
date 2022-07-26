@@ -1900,9 +1900,9 @@
 7	:	:	PUNCT	Pu	_	10	punct	_	_
 8	«	«	PUNCT	Pu	_	10	punct	_	SpaceAfter=No
 9	Parem	par	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	10	obj	_	_
-10	habeas	habeo	VERB	va2cps2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis:rep	_	_
+10	habeas	habeo	VERB	va2cps2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj:expl	_	_
 11	in	in	ADP	e	_	12	case	_	_
-12	domo	domus	NOUN	sfs4b	Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing	10	obl	_	SpaceAfter=No
+12	domo	domus	NOUN	sfs4b	Case=Abl|Gender=Fem|InflClass=IndEurU|Number=Sing	10	obl:lmod	_	SpaceAfter=No
 13	»	»	PUNCT	Pu	_	10	punct	_	SpaceAfter=No
 14	.	.	PUNCT	Pu	_	4	punct	_	_
 
