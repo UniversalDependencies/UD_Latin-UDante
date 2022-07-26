@@ -1696,8 +1696,8 @@
 4	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop:outer	_	SpaceAfter=No
 5	:	:	PUNCT	Pu	_	13	punct	_	_
 6	utrum	utrum	SCONJ	r	_	13	mark	_	_
-7	ad	ad	ADP	e	_	8	case	_	_
-8	bene	bene	ADV	r	_	13	obl	_	_
+7	ad	ad	ADP	e	_	8	mark	_	_
+8	bene	bene	ADV	r	_	13	advcl	_	_
 9	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	8	cop	_	_
 10	mundi	mundus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	8	nmod	_	_
 11	Monarchia	monarchia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj	_	_
