@@ -14385,7 +14385,7 @@
 44	dicam	dico	VERB	va3cps1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	47	advcl:cmpr	_	SpaceAfter=No
 45	,	,	PUNCT	Pu	_	44	punct	_	_
 46	incepti	inceptum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	47	obl	_	_
-47	penituit	paenitet	VERB	va2*irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	parataxis:rep	_	SpaceAfter=No
+47	penituit	paenitet	VERB	va2*irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	ccomp:reported	_	SpaceAfter=No
 48	.	.	PUNCT	Pu	_	31	punct	_	_
 
 # sent_id = Mon-385
