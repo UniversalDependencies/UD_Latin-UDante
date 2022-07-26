@@ -2275,8 +2275,8 @@
 7	«	«	PUNCT	Pu	_	11	punct	_	SpaceAfter=No
 8	Non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
 9	ante	ante	ADP	e	_	10	case	_	_
-10	tertium	tertium	ADV	r	NumType=Ord	11	obl	_	_
-11	equitabis	equito	VERB	va1ifs2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	parataxis:rep	_	SpaceAfter=No
+10	tertium	tertium	ADV	r	NumType=Ord	11	obl:tmod	_	_
+11	equitabis	equito	VERB	va1ifs2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	csubj:reported	_	SpaceAfter=No
 12	»	»	PUNCT	Pu	_	11	punct	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	6	punct	_	_
 14	misera	miser	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	17	advcl:pred	_	_
