@@ -5204,7 +5204,7 @@
 19	sermones	sermo	NOUN	smp3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur	22	nsubj	_	_
 20	minus	parum	ADV	r+	Degree=Cmp	22	advmod	_	_
 21	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-22	credibiles	credibilis	ADJ	amp2nf	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	11	parataxis:rep	_	_
+22	credibiles	credibilis	ADJ	amp2nf	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	11	ccomp:reported	_	_
 23	operibus	opus	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur	22	obl:cmpr	_	SpaceAfter=No
 24	»	»	PUNCT	Pu	_	22	punct	_	SpaceAfter=No
 25	.	.	PUNCT	Pu	_	11	punct	_	_
