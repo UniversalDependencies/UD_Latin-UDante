@@ -15351,7 +15351,7 @@
 82	Iohanne	iohannes	PROPN	Sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	80	obl	_	SpaceAfter=No
 83	:	:	PUNCT	Pu	_	85	punct	_	_
 84	«	«	PUNCT	Pu	_	85	punct	_	SpaceAfter=No
-85	Consummatum	consummo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	80	parataxis:rep	_	_
+85	Consummatum	consummo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	80	ccomp:reported	_	_
 86	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	85	aux:pass	_	SpaceAfter=No
 87	»	»	PUNCT	Pu	_	85	punct	_	SpaceAfter=No
 88	;	;	PUNCT	Pu	_	89	punct	_	_
