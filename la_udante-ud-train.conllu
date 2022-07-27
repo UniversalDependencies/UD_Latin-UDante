@@ -24762,7 +24762,7 @@
 21	Et	et	CCONJ	co	_	24	cc	_	_
 22	solum	solus	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	23	det	_	_
 23	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	24	nsubj	_	_
-24	contingit	contingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+24	contingit	contingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp:reported	_	_
 25	separari	separo	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	24	ccomp	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	25	punct	_	_
 27	tanquam	tamquam	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	28	mark	_	_
