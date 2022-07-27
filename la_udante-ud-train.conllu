@@ -1418,10 +1418,10 @@
 42	fere	fere	ADV	r	_	43	advmod	_	_
 43	divinum	diuinus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	39	acl:relcl	_	_
 44	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
-45	iuxta	iuxta	ADP	e	_	48	case	_	_
-46	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	48	det	_	_
+45	iuxta	iuxta	ADP	e	_	46	case	_	_
+46	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	43	obl	_	_
 47	«	«	PUNCT	Pu	_	48	punct	_	SpaceAfter=No
-48	Minuisti	minuo	VERB	va3irs2	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	43	obj	_	_
+48	Minuisti	minuo	VERB	va3irs2	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	46	flat	_	_
 49	eum	is	PRON	ddesma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	48	obj	_	_
 50	paulominus	paulominus	ADV	r	Compound=Yes|Degree=Cmp	48	advmod	_	_
 51	ab	ab	ADP	e	_	52	case	_	_
