@@ -16109,9 +16109,9 @@
 # text = Sed ad non nolle alterum duorum sequitur de necessitate: aut velle aut non velle; sicut ad non odire necessario sequitur aut amare aut non amare; non enim non amare est odire, nec non velle est nolle, ut de se patet.
 # citation_hierarchy = Liber_Tertius,ii,Paragraphus_4
 1	Sed	sed	CCONJ	co	_	7	cc	_	_
-2	ad	ad	ADP	e	_	4	mark	_	_
+2	ad	ad	ADP	e	_	4	case	_	_
 3	non	non	PART	r	Polarity=Neg	4	advmod:neg	_	_
-4	nolle	nolo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	7	obl:arg	_	_
+4	nolle	nolo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	7	obl	_	_
 5	alterum	alter	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	7	nsubj	_	_
 6	duorum	duo	NUM	aunpg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	5	nmod	_	_
 7	sequitur	sequor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -16119,7 +16119,7 @@
 9	necessitate	necessitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	7	obl	_	SpaceAfter=No
 10	:	:	PUNCT	Pu	_	12	punct	_	_
 11	aut	aut	CCONJ	co	_	12	cc	_	_
-12	velle	uolo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	7	parataxis	_	_
+12	velle	uolo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	5	conj:expl	_	_
 13	aut	aut	CCONJ	co	_	15	cc	_	_
 14	non	non	PART	r	Polarity=Neg	15	advmod:neg	_	_
 15	velle	uolo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	12	conj	_	SpaceAfter=No
