@@ -9804,7 +9804,7 @@
 9	imperium	imperium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	12	nsubj	_	_
 10	de	de	ADP	e	_	11	case	_	_
 11	Fonte	fons	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing|Proper=Yes	12	obl:arg	_	_
-12	nascitur	nascor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	csubj:reported	_	_
+12	nascitur	nascor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	dislocated:csubj	_	_
 13	pietatis	pietas	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	11	nmod	_	SpaceAfter=No
 14	»	»	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
 15	.	.	PUNCT	Pu	_	4	punct	_	_
