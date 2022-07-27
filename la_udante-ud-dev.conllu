@@ -4764,33 +4764,35 @@
 # sent_id = Epi-129
 # text = Nam etsi vim passa in angustum gubernacula sua contraxerit, undique tamen de inviolabili iure fluctus Amphitritis attingens vix ab inutili unda Oceani se circumcingi dignatur.
 # citation_hierarchy = VII,Paragraphus_12
-1	Nam	nam	PART	co	_	26	discourse	_	_
-2	etsi	etsi	SCONJ	cs	Compound=Yes	9	mark	_	_
-3	vim	uis	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	4	obj	_	_
-4	passa	patior	VERB	vd3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl:pred	_	_
-5	in	in	ADP	e	_	6	case	_	_
-6	angustum	angustus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	9	obl	_	_
-7	gubernacula	gubernaculum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	9	obj	_	_
-8	sua	suus	DET	dsnpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
-9	contraxerit	contraho	VERB	va3crs3	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	26	advcl	_	SpaceAfter=No
-10	,	,	PUNCT	Pu	_	9	punct	_	_
-11	undique	undique	ADV	r	Form=Emp|PronType=Ind	18	advmod	_	_
-12	tamen	tamen	ADV	r	PronType=Dem	26	advmod	_	_
-13	de	de	ADP	e	_	15	case	_	_
-14	inviolabili	inuiolabilis	ADJ	ans2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	15	amod	_	_
-15	iure	ius	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	18	obl	_	_
-16	fluctus	fluctus	NOUN	smp4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	18	obj	_	_
-17	Amphitritis	amphitrite	PROPN	Sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Rel|Number=Sing	16	nmod	_	_
-18	attingens	attingo	VERB	va3ppsfn	Aspect=Imp|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	26	advcl:pred	_	_
-19	vix	uix	ADV	r	_	26	advmod	_	_
-20	ab	ab	ADP	e	_	22	case	_	_
-21	inutili	inutilis	ADJ	afs2b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing|Polarity=Neg	22	amod	_	_
-22	unda	unda	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	25	obl:agent	_	_
-23	Oceani	oceanus	PROPN	Sfs2g	Case=Gen|Gender=Fem|InflClass=IndEurO|NameType=Geo|Number=Sing	22	nmod	_	_
-24	se	sui	PRON	ppp3snb	Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	25	nsubj:pass	_	_
-25	circumcingi	circumcingo	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	26	xcomp	_	_
-26	dignatur	dignor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-27	.	.	PUNCT	Pu	_	26	punct	_	_
+1	Nam	nam	PART	co	_	27	discourse	_	_
+2-3	etsi	_	_	_	_	_	_	_	_
+2	et	et	CCONJ	cs	_	10	advmod:emph	_	_
+3	si	si	SCONJ	cs	_	10	mark	_	_
+4	vim	uis	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	5	obj	_	_
+5	passa	patior	VERB	vd3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl:pred	_	_
+6	in	in	ADP	e	_	7	case	_	_
+7	angustum	angustus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	10	obl	_	_
+8	gubernacula	gubernaculum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	10	obj	_	_
+9	sua	suus	DET	dsnpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+10	contraxerit	contraho	VERB	va3crs3	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	Pu	_	10	punct	_	_
+12	undique	undique	ADV	r	Form=Emp|PronType=Ind	19	advmod	_	_
+13	tamen	tamen	ADV	r	PronType=Dem	27	advmod	_	_
+14	de	de	ADP	e	_	16	case	_	_
+15	inviolabili	inuiolabilis	ADJ	ans2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	16	amod	_	_
+16	iure	ius	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	19	obl	_	_
+17	fluctus	fluctus	NOUN	smp4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	19	obj	_	_
+18	Amphitritis	amphitrite	PROPN	Sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Rel|Number=Sing	17	nmod	_	_
+19	attingens	attingo	VERB	va3ppsfn	Aspect=Imp|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	27	advcl:pred	_	_
+20	vix	uix	ADV	r	_	27	advmod	_	_
+21	ab	ab	ADP	e	_	23	case	_	_
+22	inutili	inutilis	ADJ	afs2b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing|Polarity=Neg	23	amod	_	_
+23	unda	unda	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	26	obl:agent	_	_
+24	Oceani	oceanus	PROPN	Sfs2g	Case=Gen|Gender=Fem|InflClass=IndEurO|NameType=Geo|Number=Sing	23	nmod	_	_
+25	se	sui	PRON	ppp3snb	Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	26	nsubj:pass	_	_
+26	circumcingi	circumcingo	VERB	vp3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	27	xcomp	_	_
+27	dignatur	dignor	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	Pu	_	27	punct	_	_
 
 # sent_id = Epi-130
 # text = Scriptum etenim nobis est: Nascetur pulcra Troyanus origine Cesar, imperium Oceano, famam qui terminet astris.
