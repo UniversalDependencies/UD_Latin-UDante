@@ -26450,7 +26450,7 @@
 16	fronde	frons	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	14	obl	_	_
 17	sub	sub	ADP	e	_	16	case	_	_
 18	inserta	insero	VERB	vp3prsmb	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
-19	solitum	soleo	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+19	solitum	soleo	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	14	advcl:pred	_	_
 20	flavescere	flauesco	VERB	va3fp	Aspect=Inch|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	19	xcomp	_	_
 21	Sarno	sarnus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	10	obl:lmod	_	SpaceAfter=No
 22	?	?	PUNCT	Pu	_	4	punct	_	SpaceAfter=No
