@@ -16603,8 +16603,8 @@
 # text = Summus nanque Pontifex, domini nostri Iesu Cristi vicarius et Petri successor, cui non quicquid Cristo sed quicquid Petro debemus, zelo fortasse clavium, necnon alii gregum cristianorum pastores, et alii quos credo zelo solo matris Ecclesie promoveri, veritati quam ostensurus sum de zelo forsan - ut dixi - non de superbia contradicunt.
 # citation_hierarchy = Liber_Tertius,iii,Paragraphus_7
 1	Summus	summus	ADJ	ams1ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	3	amod	_	_
-2	nanque	namque	PART	co9	Form=Emp	58	discourse	_	_
-3	Pontifex	pontifex	NOUN	sms3n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing	58	nsubj	_	SpaceAfter=No
+2	nanque	namque	PART	co9	Form=Emp	3	discourse	_	_
+3	Pontifex	pontifex	NOUN	sms3n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	9	punct	_	_
 5	domini	dominus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	9	nmod	_	_
 6	nostri	noster	DET	dsmsg	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	_
