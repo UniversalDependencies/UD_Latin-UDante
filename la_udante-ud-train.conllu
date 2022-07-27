@@ -8972,7 +8972,7 @@
 # text = Illud quoque quod ad sui perfectionem miraculorum suffragio iuvatur, est a Deo volitum; et per consequens de iure fit.
 # citation_hierarchy = Liber_Secundus,iv,Paragraphus_1
 1	Illud	ille	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	14	nsubj:pass	_	_
-2	quoque	quoque	ADV	r	Form=Emp	14	discourse	_	_
+2	quoque	quoque	CCONJ	r	Form=Emp	1	advmod:emph	_	_
 3	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	nsubj:pass	_	_
 4	ad	ad	ADP	e	_	6	case	_	_
 5	sui	sui	PRON	ppp3sng	Case=Gen|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	6	nmod	_	_
