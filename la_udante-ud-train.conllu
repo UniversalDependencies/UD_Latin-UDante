@@ -24297,12 +24297,12 @@
 43	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl:cmpr	_	SpaceAfter=No
 44	,	,	PUNCT	Pu	_	38	punct	_	_
 45	«	«	PUNCT	Pu	_	46	punct	_	SpaceAfter=No
-46	Petre	petrus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|Number=Sing	51	vocative	_	SpaceAfter=No
+46	Petre	petrus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	51	vocative	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	46	punct	_	SpaceAfter=No
 48	»	»	PUNCT	Pu	_	46	punct	_	_
 49	inquit	inquam	VERB	va5-irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
 50	«	«	PUNCT	Pu	_	51	punct	_	SpaceAfter=No
-51	sequere	sequor	VERB	vd3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	49	parataxis	_	_
+51	sequere	sequor	VERB	vd3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	49	ccomp:reported	_	_
 52	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	51	obj	_	SpaceAfter=No
 53	»	»	PUNCT	Pu	_	51	punct	_	SpaceAfter=No
 54	.	.	PUNCT	Pu	_	12	punct	_	_
