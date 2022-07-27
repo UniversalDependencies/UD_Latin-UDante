@@ -8486,10 +8486,10 @@
 1	Nam	nam	PART	co	_	2	discourse	_	_
 2	Asya	asia	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	0	root	_	_
 3	propinquioribus	propinquus	ADJ	amp1bc	Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur	4	amod	_	_
-4	avis	auus	NOUN	smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	2	obl	_	SpaceAfter=No
+4	avis	auus	NOUN	smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	2	orphan	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	7	punct	_	_
 6	ut	ut	SCONJ	r	_	7	mark	_	_
-7	Assaraco	assaracus	PROPN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	2	obl:cmpr	_	_
+7	Assaraco	assaracus	PROPN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	2	advcl:cmpr	_	_
 8	et	et	CCONJ	co	_	9	cc	_	_
 9	aliis	alius	DET	dpmpd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	7	conj	_	_
 10	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	12	nsubj	_	_
