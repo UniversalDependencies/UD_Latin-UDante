@@ -16559,7 +16559,7 @@
 21	aliena	alienus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	22	amod	_	_
 22	castra	castra	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	23	obl:lmod	_	_
 23	discurrant	discurro	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
-24	;	;	PUNCT	Pu	_	27	punct	_	_
+24	;	;	PUNCT	Pu	_	31	punct	_	_
 25	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	31	advmod:lmod	_	_
 26	nichil	nihil	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=Ind|Number=Sing|PronType=Neg	27	obj	_	_
 27	intelligentes	intelligo	VERB	va3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	31	advcl:pred	_	SpaceAfter=No
