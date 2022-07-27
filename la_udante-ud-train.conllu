@@ -28455,7 +28455,7 @@
 4	:	:	PUNCT	Pu	_	7	punct	_	_
 5	an	an	PART	co	PartType=Int	7	discourse	_	_
 6	vis	uis	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	7	nsubj	_	_
-7	valuisset	ualeo	VERB	va2c+s3	Aspect=Perf|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+7	valuisset	ualeo	VERB	va2c+s3	Aspect=Perf|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	3	conj	_	_
 8	amoris	amor	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	14	punct	_	_
 10	effera	efferus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	12	amod	_	_
