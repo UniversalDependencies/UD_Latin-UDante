@@ -7644,7 +7644,7 @@
 26	vobis	tu	PRON	ppp2pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	27	obl	_	_
 27	principium	principium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	19	advcl	_	_
 28	ipsius	ipse	DET	dpnsg	Case=Gen|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	30	det	_	_
-29	quoque	quoque	CCONJ	r	Form=Emp	28	advmod:emph	_	_
+29	quoque	quoque	CCONJ	r	Form=Emp	30	advmod:emph	_	_
 30	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	19	punct	_	_
 
