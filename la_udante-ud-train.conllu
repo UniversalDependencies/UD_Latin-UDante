@@ -20359,7 +20359,7 @@
 25	facta	facio	VERB	vp3c+s3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	28	advcl	_	_
 26	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
 27	hora	hora	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	25	nsubj:pass	_	_
-28	discubuit	discumbo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	SpaceAfter=No
+28	discubuit	discumbo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	ccomp:reported	_	SpaceAfter=No
 29	,	,	PUNCT	Pu	_	32	punct	_	_
 30	et	et	CCONJ	co	_	32	cc	_	_
 31	duodecim	duodecim	NUM	yui	Compound=Yes|InflClass=Ind|Number=Plur|NumForm=Word|NumType=Card	32	nummod	_	_
