@@ -24428,7 +24428,7 @@
 9	“	“	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
 10	non	non	PART	r	Polarity=Neg	12	advmod:neg	_	_
 11	sum	sum	AUX	va5ips1	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
-12	mensura	mensura	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	8	parataxis	_	_
+12	mensura	mensura	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	8	ccomp:reported	_	_
 13	in	in	ADP	e	_	15	case	_	_
 14	aliquo	aliqui	DET	dinsnb	Case=Abl|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	15	det	_	_
 15	genere	genus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	12	obl	_	SpaceAfter=No
