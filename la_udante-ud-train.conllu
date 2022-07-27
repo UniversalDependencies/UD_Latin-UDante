@@ -24265,7 +24265,7 @@
 11	»	»	PUNCT	Pu	_	10	punct	_	_
 12	inquit	inquam	VERB	va5-irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 13	«	«	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
-14	dedi	do	VERB	va1irs1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+14	dedi	do	VERB	va1irs1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	ccomp:reported	_	_
 15	vobis	tu	PRON	ppp2pmd	Case=Dat|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	14	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	17	punct	_	_
 17	ut	ut	SCONJ	cs	ConjType=Cmpr	26	mark	_	_
