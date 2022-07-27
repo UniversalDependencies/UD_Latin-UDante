@@ -23576,7 +23576,7 @@
 40	:	:	PUNCT	Pu	_	43	punct	_	_
 41	«	«	PUNCT	Pu	_	43	punct	_	SpaceAfter=No
 42	Omnis	omnis	DET	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	43	det	_	_
-43	oblatio	oblatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	39	parataxis	_	SpaceAfter=No
+43	oblatio	oblatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	38	flat	_	SpaceAfter=No
 44	,	,	PUNCT	Pu	_	46	punct	_	_
 45	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	46	obj	_	_
 46	conferetis	confero	VERB	va5ifp2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	43	acl:relcl	_	_
