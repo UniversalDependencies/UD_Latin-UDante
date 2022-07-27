@@ -2921,7 +2921,7 @@
 47	se	sui	PRON	ppp3sna	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	48	obj	_	_
 48	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 49	,	,	PUNCT	Pu	_	50	punct	_	_
-50	quando	quando	ADV	r	PronType=Rel	71	advmod	_	_
+50	quando	quando	ADV	r	PronType=Rel	48	advmod	_	_
 51	ab	ab	ADP	e	_	53	case	_	_
 52	unico	unicus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	53	amod	_	_
 53	principe	princeps	NOUN	sms3b	Case=Abl|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing	71	obl:arg	_	_
@@ -2942,7 +2942,7 @@
 68	motoribus	motor	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	71	obl:arg	_	_
 69	et	et	CCONJ	co	_	70	cc	_	_
 70	motibus	motus	NOUN	smp4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	68	conj	_	_
-71	reguletur	regulo	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	48	advcl	_	SpaceAfter=No
+71	reguletur	regulo	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	50	acl:relcl	_	SpaceAfter=No
 72	.	.	PUNCT	Pu	_	48	punct	_	_
 
 # sent_id = Mon-74
