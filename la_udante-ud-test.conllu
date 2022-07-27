@@ -8411,8 +8411,8 @@
 12	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 13	verum	uerus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	12	ccomp	_	_
 14	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	13	cop	_	_
-15	quando	quando	SCONJ	cs	PronType=Rel	16	mark	_	_
-16	cesset	cesso	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+15	quando	quando	ADV	cs	PronType=Rel	13	advmod	_	_
+16	cesset	cesso	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
 17	discretio	discretio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	16	nsubj	_	SpaceAfter=No
 18	:	:	PUNCT	Pu	_	24	punct	_	_
 19	puta	puta	CCONJ	va1mps2	VerbForm=Fin	24	cc	_	_
@@ -8420,7 +8420,7 @@
 21	aurum	aurum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	24	obj	_	_
 22	cum	cum	ADP	e	_	23	case	_	_
 23	argento	argentum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	24	obl:arg	_	_
-24	conflemus	conflo	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	SpaceAfter=No
+24	conflemus	conflo	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj:expl	_	SpaceAfter=No
 25	;	;	PUNCT	Pu	_	29	punct	_	_
 26	sed	sed	CCONJ	co	_	29	cc	_	_
 27	si	si	SCONJ	cs	_	29	mark	_	_
@@ -8435,7 +8435,7 @@
 36	formose	formosus	ADJ	afp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	37	amod	_	_
 37	mulieres	mulier	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	39	nsubj:pass	_	_
 38	deformibus	deformis	ADJ	afp2d	Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Plur	39	obl:arg	_	_
-39	admiscentur	admisceo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	32	advcl	_	SpaceAfter=No
+39	admiscentur	admisceo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	conj:expl	_	SpaceAfter=No
 40	.	.	PUNCT	Pu	_	12	punct	_	_
 
 # sent_id = DVE-232
