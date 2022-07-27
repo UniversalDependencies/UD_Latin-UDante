@@ -10531,7 +10531,7 @@
 44	eam	is	PRON	ddesfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
 45	caperet	capio	VERB	va3cis3	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	40	conj	_	_
 46	aut	aut	CCONJ	co	_	47	cc	_	_
-47	quando	quando	ADV	r	PronType=Rel	45	conj	_	SpaceAfter=No
+47	quando	quando	ADV	r	PronType=Int	45	conj	_	SpaceAfter=No
 48	,	,	PUNCT	Pu	_	50	punct	_	_
 49	cum	cum	SCONJ	cs	PronType=Rel	50	mark	_	_
 50	sciret	scio	VERB	va4cis3	Aspect=Imp|InflClass=LatI|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	40	advcl	_	_
