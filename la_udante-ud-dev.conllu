@@ -7727,7 +7727,7 @@
 # text = Tu quoque, Transtiberine, sectator factionis alterius, ut ira defuncti Antistitis in te velut ramus insitionis in trunco non suo frondesceret, quam in triumphatam Carthaginem nondum exueras, illustrium Scipionum patrie potuisti hunc animum sine ulla tui iudicii contradictione preferre.
 # citation_hierarchy = XI,Paragraphus_25
 1	Tu	tu	PRON	ppp2smv	Case=Voc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	35	nsubj	_	_
-2	quoque	quoque	CCONJ	r	Form=Emp	1	advmod:emph	_	SpaceAfter=No
+2	quoque	quoque	CCONJ	r	Form=Emp	35	advmod:emph	_	SpaceAfter=No
 3	,	,	PUNCT	Pu	_	4	punct	_	_
 4	Transtiberine	transtiberinus	ADJ	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	4	punct	_	_
