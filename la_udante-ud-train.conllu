@@ -1750,13 +1750,13 @@
 6	autoritas	auctoritas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	1	nsubj	_	_
 7	quod	quod	SCONJ	cs	PronType=Rel	16	mark	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	7	punct	_	_
-9	quando	quando	SCONJ	r	PronType=Rel	12	mark	_	_
+9	quando	quando	ADV	r	PronType=Rel	16	advmod	_	_
 10	aliqua	aliquis	PRON	dinpnn	Case=Nom|Compound=Yes|Gender=Neut|Number=Plur|PronType=Ind	11	det	_	_
 11	plura	multus	DET	anp1nc	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	12	nsubj:pass	_	_
-12	ordinantur	ordino	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+12	ordinantur	ordino	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
 13	ad	ad	ADP	e	_	14	case	_	_
 14	unum	unus	NUM	aunsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	12	obl	_	SpaceAfter=No
-15	,	,	PUNCT	Pu	_	12	punct	_	_
+15	,	,	PUNCT	Pu	_	9	punct	_	_
 16	oportet	oportet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 17	unum	unus	NUM	aunsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	19	nsubj	_	_
 18	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	17	nmod	_	_
