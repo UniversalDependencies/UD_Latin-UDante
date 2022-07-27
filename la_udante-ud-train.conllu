@@ -22059,7 +22059,7 @@
 18	sic	sic	ADV	r	PronType=Dem	15	advmod	_	SpaceAfter=No
 19	:	:	PUNCT	Pu	_	21	punct	_	_
 20	«	«	PUNCT	Pu	_	21	punct	_	SpaceAfter=No
-21	Nolite	nolo	VERB	va5mpp2	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+21	Nolite	nolo	VERB	va5mpp2	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj:expl	_	_
 22	possidere	possideo	VERB	va2fp	Aspect=Imp|Compound=Yes|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	21	xcomp	_	_
 23	aurum	aurum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	22	obj	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	26	punct	_	_
