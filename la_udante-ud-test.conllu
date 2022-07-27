@@ -5471,7 +5471,7 @@
 # sent_id = DVE-146
 # text = Sed quanquam fere omnes Tusci in suo turpiloquio sint obtusi, nonnullos vulgaris excellentiam cognovisse sentimus, scilicet Guidonem, Lapum et unum alium, Florentinos, et Cynum Pistoriensem, quem nunc indigne postponimus, non indigne coacti.
 # citation_hierarchy = Liber_Primus,xiii,Paragraphus_3
-1	Sed	sed	CCONJ	co	_	16	cc	_	_
+1	Sed	sed	CCONJ	co	_	17	cc	_	_
 2	quanquam	quamquam	SCONJ	cs	Form=Emp|PronType=Rel	10	mark	_	_
 3	fere	fere	ADV	r	_	4	advmod	_	_
 4	omnes	omnis	DET	amp2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	5	det	_	_
@@ -5480,37 +5480,39 @@
 7	suo	suus	DET	dsnsb	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
 8	turpiloquio	turpiloquium	NOUN	sns2b	Case=Abl|Compound=Yes|Gender=Neut|InflClass=IndEurO|Number=Sing	10	obl	_	_
 9	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-10	obtusi	obtusus	VERB	amp1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	16	advcl	_	SpaceAfter=No
+10	obtusi	obtusus	VERB	amp1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	17	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	10	punct	_	_
-12	nonnullos	nonnullus	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	15	nsubj	_	_
-13	vulgaris	uulgare	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	14	nmod	_	_
-14	excellentiam	excellentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	15	obj	_	_
-15	cognovisse	cognosco	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	16	ccomp	_	_
-16	sentimus	sentio	VERB	va4ipp1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-17	,	,	PUNCT	Pu	_	19	punct	_	_
-18	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	19	cc	_	_
-19	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	16	conj:expl	_	SpaceAfter=No
-20	,	,	PUNCT	Pu	_	21	punct	_	_
-21	Lapum	lapus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	19	conj	_	_
-22	et	et	CCONJ	co	_	23	cc	_	_
-23	unum	unus	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	19	conj	_	_
-24	alium	alius	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	23	det	_	SpaceAfter=No
-25	,	,	PUNCT	Pu	_	26	punct	_	_
-26	Florentinos	florentinus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	19	appos	_	SpaceAfter=No
-27	,	,	PUNCT	Pu	_	29	punct	_	_
-28	et	et	CCONJ	co	_	29	cc	_	_
-29	Cynum	cynus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	19	conj	_	_
-30	Pistoriensem	pistoriensis	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Sing	29	amod	_	SpaceAfter=No
-31	,	,	PUNCT	Pu	_	35	punct	_	_
-32	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	35	obj	_	_
-33	nunc	nunc	ADV	r	_	35	advmod	_	_
-34	indigne	indigne	ADV	r	_	35	advmod	_	_
-35	postponimus	postpono	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	SpaceAfter=No
-36	,	,	PUNCT	Pu	_	39	punct	_	_
-37	non	non	PART	r	Polarity=Neg	38	advmod:neg	_	_
-38	indigne	indigne	ADV	r	_	39	advmod	_	_
-39	coacti	cogo	VERB	vp3prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	35	advcl:pred	_	SpaceAfter=No
-40	.	.	PUNCT	Pu	_	16	punct	_	_
+12-13	nonnullos	_	_	_	_	_	_	_	_
+12	non	non	PART	dinpma	Polarity=Neg	13	case	_	_
+13	nullos	nullus	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	16	nsubj	_	_
+14	vulgaris	uulgare	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	15	nmod	_	_
+15	excellentiam	excellentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	16	obj	_	_
+16	cognovisse	cognosco	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	17	ccomp	_	_
+17	sentimus	sentio	VERB	va4ipp1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	Pu	_	20	punct	_	_
+19	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	20	cc	_	_
+20	Guidonem	guido	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	17	conj:expl	_	SpaceAfter=No
+21	,	,	PUNCT	Pu	_	22	punct	_	_
+22	Lapum	lapus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	20	conj	_	_
+23	et	et	CCONJ	co	_	24	cc	_	_
+24	unum	unus	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	20	conj	_	_
+25	alium	alius	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	24	det	_	SpaceAfter=No
+26	,	,	PUNCT	Pu	_	27	punct	_	_
+27	Florentinos	florentinus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	20	appos	_	SpaceAfter=No
+28	,	,	PUNCT	Pu	_	30	punct	_	_
+29	et	et	CCONJ	co	_	30	cc	_	_
+30	Cynum	cynus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	20	conj	_	_
+31	Pistoriensem	pistoriensis	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	Pu	_	36	punct	_	_
+33	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	36	obj	_	_
+34	nunc	nunc	ADV	r	_	36	advmod	_	_
+35	indigne	indigne	ADV	r	_	36	advmod	_	_
+36	postponimus	postpono	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl:relcl	_	SpaceAfter=No
+37	,	,	PUNCT	Pu	_	40	punct	_	_
+38	non	non	PART	r	Polarity=Neg	39	advmod:neg	_	_
+39	indigne	indigne	ADV	r	_	40	advmod	_	_
+40	coacti	cogo	VERB	vp3prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	36	advcl:pred	_	SpaceAfter=No
+41	.	.	PUNCT	Pu	_	17	punct	_	_
 
 # sent_id = DVE-147
 # text = Itaque si tuscanas examinemus loquelas, et pensemus qualiter viri prehonorati a propria diverterunt, non restat in dubio quin aliud sit vulgare quod querimus quam quod actingit populus Tuscanorum.
