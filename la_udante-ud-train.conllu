@@ -12668,7 +12668,7 @@
 31	Deus	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	32	nsubj	_	_
 32	concedit	concedo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	advcl	_	SpaceAfter=No
 33	,	,	PUNCT	Pu	_	32	punct	_	_
-34	benedicat	benedico	VERB	va3cps3	Aspect=Imp|Compound=Yes|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+34	benedicat	benedico	VERB	va3cps3	Aspect=Imp|Compound=Yes|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	flat	_	_
 35	et	et	CCONJ	co	_	34	cc	_	_
 36	Petrus	petrus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	34	nsubj	_	SpaceAfter=No
 37	»	»	PUNCT	Pu	_	34	punct	_	SpaceAfter=No
