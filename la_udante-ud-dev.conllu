@@ -12473,9 +12473,9 @@
 21	intellectualem	intellectualis	ADJ	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	20	amod	_	_
 22	separatam	separo	VERB	vp1prsfa	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	14	punct	_	_
-24	quando	quando	SCONJ	cs	PronType=Rel	25	mark	_	_
-25	elevatur	eleuo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	advcl	_	SpaceAfter=No
-26	,	,	PUNCT	Pu	_	25	punct	_	_
+24	quando	quando	ADV	cs	PronType=Rel	29	advmod	_	_
+25	elevatur	eleuo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	24	acl:relcl	_	SpaceAfter=No
+26	,	,	PUNCT	Pu	_	24	punct	_	_
 27	in	in	ADP	e	_	28	case	_	_
 28	tantum	tantus	DET	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|PronType=Dem	29	obl	_	_
 29	elevatur	eleuo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	csubj:pass	_	SpaceAfter=No
