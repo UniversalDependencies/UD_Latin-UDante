@@ -10082,12 +10082,12 @@
 8	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	10	punct	_	_
 10	et	et	CCONJ	co	_	40	cc	_	_
-11	quando	quando	SCONJ	cs	PronType=Rel	16	mark	_	_
+11	quando	quando	ADV	cs	PronType=Rel	40	advmod	_	_
 12	pure	pure	ADV	r	_	15	advmod	_	_
 13	hec	hic	DET	dpnpa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	14	det	_	_
 14	tria	tres	NUM	aunpa	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|NumForm=Word|NumType=Card	15	obj	_	_
 15	cantare	canto	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	16	xcomp	_	_
-16	intendit	intendo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	advcl	_	SpaceAfter=No
+16	intendit	intendo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	18	punct	_	_
 18	vel	uel	CCONJ	co	_	16	conj	_	_
 19	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	25	nsubj	_	_
