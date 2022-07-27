@@ -7936,31 +7936,33 @@
 # citation_hierarchy = XII,Paragraphus_2
 1	Ad	ad	ADP	e	_	4	mark	_	_
 2	illarum	ille	DET	ddipfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	4	det	_	_
-3	vero	uero	ADV	r	_	26	discourse	_	_
+3	vero	uero	ADV	r	_	27	discourse	_	_
 4	significata	significatum	VERB	vp1prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	5	nmod	_	_
-5	responsio	responsio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	23	nsubj:pass	_	SpaceAfter=No
+5	responsio	responsio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	24	nsubj:pass	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	5	punct	_	_
-7	etsi	etsi	SCONJ	cs	Compound=Yes	10	mark	_	_
-8	non	non	PART	r	Polarity=Neg	10	advmod:neg	_	_
-9	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	cop	_	_
-10	qualem	qualis	DET	prisfa	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Rel	23	advcl	_	_
-11	forsan	forsan	ADV	r	Compound=Yes	13	advmod	_	_
-12	pusillanimitas	pusillanimitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	13	nsubj	_	_
-13	appeteret	appeto	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
-14	aliquorum	aliquis	PRON	dinpmg	Case=Gen|Compound=Yes|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	SpaceAfter=No
-15	,	,	PUNCT	Pu	_	10	punct	_	_
-16	ut	ut	SCONJ	cs	ConjType=Cmpr	23	mark	_	_
-17	sub	sub	ADP	e	_	18	case	_	_
-18	examine	examen	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	23	obl	_	_
-19	vestri	uester	DET	dsnsg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	20	det	_	_
-20	consilii	consilium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	18	nmod	_	_
-21	ante	ante	ADP	e	_	22	case	_	_
-22	iudicium	iudicium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	23	obl	_	_
-23	ventiletur	uentilo	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	ccomp	_	SpaceAfter=No
-24	,	,	PUNCT	Pu	_	23	punct	_	_
-25	affectuose	affectuose	ADV	r	_	26	advmod	_	_
-26	deposco	deposco	VERB	va3ips1	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-27	.	.	PUNCT	Pu	_	26	punct	_	_
+7-8	etsi	_	_	_	_	_	_	_	_
+7	et	et	CCONJ	cs	_	11	advmod:emph	_	_
+8	si	si	SCONJ	cs	_	11	mark	_	_
+9	non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
+10	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+11	qualem	qualis	DET	prisfa	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Rel	24	advcl	_	_
+12	forsan	forsan	ADV	r	Compound=Yes	14	advmod	_	_
+13	pusillanimitas	pusillanimitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	14	nsubj	_	_
+14	appeteret	appeto	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	aliquorum	aliquis	PRON	dinpmg	Case=Gen|Compound=Yes|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	SpaceAfter=No
+16	,	,	PUNCT	Pu	_	11	punct	_	_
+17	ut	ut	SCONJ	cs	ConjType=Cmpr	24	mark	_	_
+18	sub	sub	ADP	e	_	19	case	_	_
+19	examine	examen	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	24	obl	_	_
+20	vestri	uester	DET	dsnsg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	21	det	_	_
+21	consilii	consilium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	19	nmod	_	_
+22	ante	ante	ADP	e	_	23	case	_	_
+23	iudicium	iudicium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	24	obl	_	_
+24	ventiletur	uentilo	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	27	ccomp	_	SpaceAfter=No
+25	,	,	PUNCT	Pu	_	24	punct	_	_
+26	affectuose	affectuose	ADV	r	_	27	advmod	_	_
+27	deposco	deposco	VERB	va3ips1	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	Pu	_	27	punct	_	_
 
 # sent_id = Epi-219
 # text = Ecce igitur quod per litteras vestras meique nepotis nec non aliorum quamplurium amicorum, significatum est michi per ordinamentum nuper factum Florentie super absolutione bannitorum quod si solvere vellem certam pecunie quantitatem vellemque pati notam oblationis, et absolvi possem et redire ad presens.
