@@ -20296,7 +20296,7 @@
 16	sic	sic	ADV	r	PronType=Dem	14	advmod	_	SpaceAfter=No
 17	:	:	PUNCT	Pu	_	19	punct	_	_
 18	«	«	PUNCT	Pu	_	19	punct	_	SpaceAfter=No
-19	Venit	uenio	VERB	va4irs3	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+19	Venit	uenio	VERB	va4irs3	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj:expl	_	_
 20	autem	autem	CCONJ	co	_	19	cc	_	_
 21	dies	dies	NOUN	sms5n	Case=Nom|Gender=Masc|InflClass=IndEurE|Number=Sing	19	nsubj	_	_
 22	azimorum	azymus	ADJ	snp2gr	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	21	nmod	_	_
