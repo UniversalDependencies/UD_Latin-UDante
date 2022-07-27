@@ -21161,9 +21161,9 @@
 30	scribit	scribo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
 31	Matheus	matheus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	30	nsubj	_	_
 32	sic	sic	ADV	r	PronType=Dem	30	advmod	_	SpaceAfter=No
-33	:	:	PUNCT	Pu	_	30	punct	_	_
+33	:	:	PUNCT	Pu	_	35	punct	_	_
 34	«	«	PUNCT	Pu	_	35	punct	_	SpaceAfter=No
-35	Nolite	nolo	VERB	va5mpp2	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	30	parataxis	_	_
+35	Nolite	nolo	VERB	va5mpp2	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	32	conj:expl	_	_
 36	ergo	ergo	ADV	co	AdvType=Loc	35	discourse	_	_
 37	arbitrari	arbitror	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	35	xcomp	_	_
 38	quia	quia	SCONJ	cs	PronType=Rel	39	mark	_	_
