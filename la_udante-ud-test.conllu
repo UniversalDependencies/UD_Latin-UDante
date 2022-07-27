@@ -9630,9 +9630,9 @@
 # sent_id = DVE-265
 # text = Quando quidem aporiavimus extricantes qui sint aulico digni vulgari et que, nec non modum quem tanto dignamur honore ut solus altissimo vulgari conveniat, antequam migremus ad alia modum cantionum, quem casu magis quam arte multi usurpare videntur, enucleemus; et qui hucusque casualiter est assumptus, illius artis ergasterium reseremus, modum ballatarum et sonituum ommictentes, quia illum elucidare intendimus in quarto huius operis, cum de mediocri vulgari tractabimus.
 # citation_hierarchy = Liber_Secundus,iv,Paragraphus_1
-1	Quando	quando	SCONJ	cs	PronType=Rel	3	mark	_	_
+1	Quando	quando	ADV	cs	PronType=Rel	42	advmod	_	_
 2	quidem	quidem	PART	r	_	42	discourse	_	_
-3	aporiavimus	aporio	VERB	va1irp1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	42	advcl	_	_
+3	aporiavimus	aporio	VERB	va1irp1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 4	extricantes	extrico	VERB	va1pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	3	advcl:pred	_	_
 5	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	8	nsubj	_	_
 6	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
