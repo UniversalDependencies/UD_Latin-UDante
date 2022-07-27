@@ -1861,7 +1861,7 @@
 27	vel	uel	CCONJ	co	_	29	cc	_	_
 28	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	29	nmod	_	_
 29	locumtenentem	locumtenens	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	25	conj	_	SpaceAfter=No
-30	,	,	PUNCT	Pu	_	33	punct	_	_
+30	,	,	PUNCT	Pu	_	32	punct	_	_
 31	iuxta	iuxta	ADP	e	_	33	mark	_	_
 32	dicentem	dico	VERB	va3ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	16	advcl	_	_
 33	Phylosophum	philosophus	NOUN	Sms2	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	32	nsubj	_	SpaceAfter=No
