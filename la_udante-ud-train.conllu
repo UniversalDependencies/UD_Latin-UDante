@@ -31431,7 +31431,7 @@
 5	simplicia	simplex	ADJ	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	3	conj	_	_
 6	-	-	PUNCT	Pu	_	3	punct	_	_
 7	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	homogenea	homogeneus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	24	parataxis	_	_
+8	homogenea	homogeneus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	3	conj:expl	_	_
 9	ut	ut	SCONJ	r	ConjType=Cmpr	10	mark	_	_
 10	aurum	aurum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	8	advcl:cmpr	_	_
 11	depuratum	depuro	VERB	vp1prsnn	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	SpaceAfter=No
