@@ -17788,7 +17788,7 @@
 11	dicens	dico	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	2	advcl	_	SpaceAfter=No
 12	:	:	PUNCT	Pu	_	14	punct	_	_
 13	«	«	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
-14	Titubabit	titubo	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+14	Titubabit	titubo	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	ccomp:reported	_	_
 15	fides	fides	NOUN	sfs5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing	14	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	20	punct	_	_
 17	si	si	SCONJ	cs	_	20	mark	_	_
