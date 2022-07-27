@@ -20146,7 +20146,7 @@
 13	«	«	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
 14	Ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	16	advmod:emph	_	_
 15	duo	duo	NUM	aumpn	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	16	nummod	_	_
-16	gladii	gladius	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	12	parataxis	_	_
+16	gladii	gladius	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	12	ccomp:reported	_	_
 17	hic	hic	DET	r	InflClass=LatPron|PronType=Dem	16	det	_	SpaceAfter=No
 18	»	»	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
 19	;	;	PUNCT	Pu	_	21	punct	_	_
