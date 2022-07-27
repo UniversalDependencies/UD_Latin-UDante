@@ -25532,7 +25532,7 @@
 # sent_id = Egl-2
 # text = Pyeridum vox alma, novis qui cantibus orbem mulces letifluum, vitali tollere ramo dum cupis, evolvens triplicis confinia sortis indita pro meritis animarum - sontibus Orcum, astripetis Lethen, epyphebia regna beatis -, tanta quid heu semper iactabis seria vulgo, et nos pallentes nichil ex te vate legemus?
 # citation_hierarchy = I,Paragraphus_7
-1	Pyeridum	pieris	NOUN	Sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur	2	nmod	_	_
+1	Pyeridum	pieris	NOUN	Sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|NameType=Giv|Number=Plur	2	nmod	_	_
 2	vox	uox	NOUN	sfs3v	Case=Voc|Gender=Fem|InflClass=IndEurX|Number=Sing	42	vocative	_	_
 3	alma	almus	ADJ	afs1v	Case=Voc|Gender=Fem|InflClass=IndEurA|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	9	punct	_	_
@@ -25541,10 +25541,10 @@
 7	cantibus	cantus	NOUN	smp4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	9	obl	_	_
 8	orbem	orbis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	9	obj	_	_
 9	mulces	mulceo	VERB	va2ips2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
-10	letifluum	laetifluus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	8	amod	_	SpaceAfter=No
+10	letifluum	laetifluus	ADJ	ams1a	Case=Acc|Compound=Yes|Gender=Masc|InflClass=IndEurO|Number=Sing	8	amod	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	16	punct	_	_
 12	vitali	uitalis	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	14	amod	_	_
-13	tollere	tollo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	16	ccomp	_	_
+13	tollere	tollo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	16	xcomp	_	_
 14	ramo	ramus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	13	obl	_	_
 15	dum	dum	SCONJ	cs	_	16	mark	_	_
 16	cupis	cupio	VERB	va3ipp2	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No
@@ -25558,15 +25558,15 @@
 24	meritis	meritum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	22	obl	_	_
 25	animarum	anima	NOUN	sfp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	24	nmod	_	_
 26	-	-	PUNCT	Pu	_	28	punct	_	_
-27	sontibus	sons	NOUN	smp3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur	28	orphan	_	_
-28	Orcum	orcus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	22	parataxis	_	SpaceAfter=No
+27	sontibus	sons	ADJ	smp3d	Case=Dat|Gender=Masc|InflClass=IndEurI|Number=Plur	28	orphan	_	_
+28	Orcum	orcus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing	20	conj:expl	_	SpaceAfter=No
 29	,	,	PUNCT	Pu	_	31	punct	_	_
-30	astripetis	astripeta	NOUN	smp1d	Case=Dat|Gender=Masc|InflClass=IndEurA|Number=Plur	31	orphan	_	_
+30	astripetis	astripeta	NOUN	smp1d	Case=Dat|Compound=Yes|Gender=Masc|InflClass=IndEurA|Number=Plur	31	orphan	_	_
 31	Lethen	lethe	PROPN	Sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing|Variant=Greek	28	conj	_	SpaceAfter=No
 32	,	,	PUNCT	Pu	_	34	punct	_	_
-33	epyphebia	epyphebius	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	34	amod	_	_
+33	epyphebia	epiphoebius	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	34	amod	_	_
 34	regna	regnum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	28	conj	_	_
-35	beatis	beatus	NOUN	smp2d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	34	orphan	_	_
+35	beatis	beo	VERB	smp2d	Aspect=Perf|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	34	orphan	_	_
 36	-	-	PUNCT	Pu	_	2	punct	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	2	punct	_	_
 38	tanta	tantus	DET	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|PronType=Dem	43	det	_	_
