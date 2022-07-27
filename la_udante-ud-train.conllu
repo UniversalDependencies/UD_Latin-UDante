@@ -27108,10 +27108,10 @@
 39	amor	amor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	43	nsubj	_	_
 40	tantum	tantum	ADV	r	PronType=Dem	43	advmod:emph	_	SpaceAfter=No
 41	,	,	PUNCT	Pu	_	42	punct	_	_
-42	tantum	tantum	ADV	r	PronType=Dem	40	conj	_	_
+42	tantum	tantum	ADV	r	PronType=Dem	40	conj:expl	_	_
 43	complectitur	complector	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	36	acl:relcl	_	SpaceAfter=No
 44	,	,	PUNCT	Pu	_	45	punct	_	_
-45	inquam	inquam	VERB	va5-ips1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	43	parataxis	_	SpaceAfter=No
+45	inquam	inquam	VERB	va5-ips1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	43	parataxis:reporting	_	SpaceAfter=No
 46	,	,	PUNCT	Pu	_	47	punct	_	_
 47	iam	iam	ADV	r	_	43	advmod	_	_
 48	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	43	obj	_	SpaceAfter=No
