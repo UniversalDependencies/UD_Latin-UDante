@@ -21057,7 +21057,7 @@
 23	,	,	PUNCT	Pu	_	26	punct	_	_
 24	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
 25	enim	enim	PART	c	Form=Emp	26	discourse	_	_
-26	nudus	nudus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	21	parataxis	_	SpaceAfter=No
+26	nudus	nudus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	21	conj	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	29	punct	_	_
 28	et	et	CCONJ	co	_	29	cc	_	_
 29	misit	mitto	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	conj	_	_
