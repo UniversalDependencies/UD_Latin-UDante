@@ -2666,14 +2666,14 @@
 6	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	et	et	CCONJ	co	_	8	cc	_	_
 8	optime	bene	ADV	rs	Degree=Abs	4	conj	_	_
-9	quando	quando	ADV	r	PronType=Rel	16	advmod	_	SpaceAfter=No
-10	,	,	PUNCT	Pu	_	9	punct	_	_
+9	quando	quando	ADV	r	PronType=Rel	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	Pu	_	12	punct	_	_
 11	secundum	secundum	ADP	e	VerbForm=Gdv	12	case	_	_
-12	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	13	obl	_	_
-13	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	SpaceAfter=No
-14	,	,	PUNCT	Pu	_	13	punct	_	_
+12	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	obl	_	_
+13	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	Pu	_	12	punct	_	_
 15	Deo	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	16	obl:arg	_	_
-16	assimilatur	assimilo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	SpaceAfter=No
+16	assimilatur	assimilo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	SpaceAfter=No
 17	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = Mon-67
