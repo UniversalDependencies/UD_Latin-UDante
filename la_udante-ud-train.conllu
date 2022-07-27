@@ -15904,7 +15904,7 @@
 23	auditione	auditio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	26	obl	_	_
 24	mala	malus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	23	amod	_	_
 25	non	non	PART	r	Polarity=Neg	26	advmod:neg	_	_
-26	timebit	timeo	VERB	va2ifs3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	parataxis	_	SpaceAfter=No
+26	timebit	timeo	VERB	va2ifs3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No
 27	»	»	PUNCT	Pu	_	20	punct	_	SpaceAfter=No
 28	?	?	PUNCT	Pu	_	2	punct	_	_
 
