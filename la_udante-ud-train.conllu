@@ -15609,7 +15609,7 @@
 3	Imperium	imperium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|NameType=Com|Number=Sing|Proper=Yes	4	obj	_	_
 4	exprobrare	exprobro	VERB	va1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	1	xcomp	_	_
 5	romanum	romanus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	3	amod	_	_
-6	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	11	nsubj	_	_
+6	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	1	nsubj	_	_
 7	se	sui	PRON	ppp3pma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 8	filios	filius	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	10	xcomp	_	_
 9	Ecclesie	ecclesia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Com|Number=Sing|Proper=Yes	8	nmod	_	_
