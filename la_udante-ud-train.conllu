@@ -15879,7 +15879,7 @@
 # sent_id = Mon-426
 # text = Quid timeam, cum Spiritus Patri et Filio coecternus aiat per os David: «In memoria ecterna erit iustus, ab auditione mala non timebit»?
 # citation_hierarchy = Liber_Tertius,i,Paragraphus_4
-1	Quid	quis	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	2	det	_	_
+1	Quid	quid	ADV	dinsna	PronType=Int	2	advmod	_	_
 2	timeam	timeo	VERB	va2cps1	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	Pu	_	10	punct	_	_
 4	cum	cum	SCONJ	cs	PronType=Rel	10	mark	_	_
@@ -15898,7 +15898,7 @@
 17	memoria	memoria	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	20	obl	_	_
 18	ecterna	aeternus	ADJ	afs1	Gender=Fem|InflClass=IndEurA|Number=Sing	17	amod	_	_
 19	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	cop	_	_
-20	iustus	iustus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	10	parataxis	_	SpaceAfter=No
+20	iustus	iustus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	10	ccomp:reported	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	26	punct	_	_
 22	ab	ab	ADP	e	_	23	case	_	_
 23	auditione	auditio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	26	obl	_	_
