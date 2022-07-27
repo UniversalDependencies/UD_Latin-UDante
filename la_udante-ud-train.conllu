@@ -27762,30 +27762,30 @@
 # text = Tityrus hoc propter confugit et Alphesibeus ad silvam, pecudumque suique misertus uterque, fraxineam silvam tiliis platanisque frequentem.
 # citation_hierarchy = IV,Paragraphus_9
 1	Tityrus	tityrus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	_
-2	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	4	obl:arg	_	_
+2	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	4	obl	_	_
 3	propter	propter	ADP	e	_	2	case	_	_
 4	confugit	confugio	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	et	et	CCONJ	co	_	6	cc	_	_
 6	Alphesibeus	alphesibeus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	1	conj	_	_
 7	ad	ad	ADP	e	_	8	case	_	_
-8	silvam	silua	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl	_	SpaceAfter=No
+8	silvam	silua	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl:lmod	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	14	punct	_	_
 10-11	pecudumque	_	_	_	_	_	_	_	_
-10	pecudum	pecus	NOUN	sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur	14	nmod	_	_
+10	pecudum	pecus	NOUN	sfp3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Plur	14	obl	_	_
 11	que	que	CCONJ	9	Clitic=Yes	10	cc	_	_
 12-13	suique	_	_	_	_	_	_	_	_
-12	sui	sui	PRON	ppp3smg	Case=Gen|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	10	det	_	_
+12	sui	sui	PRON	ppp3smg	Case=Gen|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	10	conj	_	_
 13	que	que	CCONJ	9	Clitic=Yes	12	cc	_	_
-14	misertus	misereor	VERB	vd2prsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	_
-15	uterque	uterque	DET	dinsmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	14	det	_	SpaceAfter=No
+14	misertus	misereor	VERB	vd2prsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl:pred	_	_
+15	uterque	uterque	DET	dinsmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	14	advcl:pred	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	18	punct	_	_
 17	fraxineam	fraxineus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	18	amod	_	_
-18	silvam	silua	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	4	parataxis	_	_
+18	silvam	silua	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	8	conj:expl	_	_
 19	tiliis	tilia	NOUN	sfp1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	22	nmod	_	_
 20-21	platanisque	_	_	_	_	_	_	_	_
 20	platanis	platanus	NOUN	sfp2b	Case=Abl|Gender=Fem|InflClass=IndEurO|Number=Plur	19	conj	_	_
 21	que	que	CCONJ	9	Clitic=Yes	20	cc	_	_
-22	frequentem	frequens	VERB	afs2a	Aspect=Imp|InflClass=LatA|InflClass[nominal]=IndEurI|VerbForm=Part|Voice=Act	18	xcomp:pred	_	SpaceAfter=No
+22	frequentem	frequens	VERB	afs2a	Aspect=Imp|InflClass=LatA|InflClass[nominal]=IndEurI|VerbForm=Part|Voice=Act	18	acl	_	SpaceAfter=No
 23	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = Egl-88
