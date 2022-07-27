@@ -8545,7 +8545,7 @@
 22	;	;	PUNCT	Pu	_	27	punct	_	_
 23	ut	ut	SCONJ	r	_	27	mark	_	_
 24	de	de	ADP	e	_	25	case	_	_
-25	ambobus	ambo	DET	aumpb	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|PronType=Tot	27	obl:arg	_	_
+25	ambobus	ambo	DET	aumpb	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|PronType=Tot	27	obl	_	_
 26	testimonium	testimonium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	27	obj	_	_
 27	reddit	reddo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
 28	Poeta	poeta	NOUN	sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|Number=Sing|Proper=Yes	27	nsubj	_	_
@@ -8553,12 +8553,12 @@
 30	in	in	ADP	e	_	31	case	_	_
 31	octavo	octauus	ADJ	aums1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	27	obl	_	SpaceAfter=No
 32	,	,	PUNCT	Pu	_	38	punct	_	_
-33	ubi	ubi	SCONJ	r	AdvType=Loc|PronType=Rel	38	mark	_	_
+33	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	38	advmod:lmod	_	_
 34	Eneas	aeneas	PROPN	Sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	38	nsubj	_	_
 35	ad	ad	ADP	e	_	36	case	_	_
 36	Evandrum	euander	PROPN	Sms3a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	38	obl	_	_
 37	sic	sic	ADV	r	PronType=Dem	38	advmod	_	_
-38	ait	aio	VERB	va5-ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	SpaceAfter=No
+38	ait	aio	VERB	va5-ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	SpaceAfter=No
 39	:	:	PUNCT	Pu	_	40	punct	_	_
 40	Dardanus	dardanus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	57	nsubj	_	_
 41	yliace	iliacus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	40	amod	_	_
@@ -25575,7 +25575,7 @@
 37	,	,	PUNCT	Pu	_	2	punct	_	_
 38	tanta	tantus	DET	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|PronType=Dem	43	det	_	_
 39	quid	quid	ADV	rt	PronType=Rel	42	advmod	_	_
-40	heu	heu	INTJ	i	_	42	discourse	_	_
+40	heu	heu	PART	i	PartType=Emp	42	advmod:emph	_	_
 41	semper	semper	ADV	r	_	42	advmod	_	_
 42	iactabis	iacto	VERB	va1ifs2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
 43	seria	serius	ADJ	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	42	obj	_	_
