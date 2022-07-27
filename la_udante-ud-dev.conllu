@@ -1434,7 +1434,7 @@
 34	defigerem	defigo	VERB	va3cis1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	45	advcl	_	SpaceAfter=No
 35	,	,	PUNCT	Pu	_	34	punct	_	_
 36	subito	subito	ADV	r	VerbForm=Part	45	advmod	_	_
-37	heu	heu	INTJ	i	_	45	discourse	_	SpaceAfter=No
+37	heu	heu	PART	i	PartType=Emp	39	advmod:emph	_	SpaceAfter=No
 38	!	!	PUNCT	Pu	_	37	punct	_	_
 39	mulier	mulier	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	45	nsubj	_	SpaceAfter=No
 40	,	,	PUNCT	Pu	_	39	punct	_	_
@@ -3697,25 +3697,25 @@
 # sent_id = Epi-99
 # text = Templa quoque spoliata, cotidie matronarum frequentata concursu, parvulosque admirantes et inscios peccata patrum luere destinatos videre pigebit.
 # citation_hierarchy = VI,Paragraphus_16
-1	Templa	templum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	19	obj	_	_
-2	quoque	quoque	ADV	r	Form=Emp	20	discourse	_	_
-3	spoliata	spolio	VERB	vp1prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	19	advcl:pred	_	SpaceAfter=No
-4	,	,	PUNCT	Pu	_	3	punct	_	_
+1	Templa	templum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	3	nsubj:pass	_	_
+2	quoque	quoque	CCONJ	r	Form=Emp	1	advmod:emph	_	_
+3	spoliata	spolio	VERB	vp1prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	19	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	Pu	_	7	punct	_	_
 5	cotidie	cotidie	ADV	r	Compound=Yes	7	advmod	_	_
 6	matronarum	matrona	NOUN	sfp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	8	nmod	_	_
-7	frequentata	frequento	VERB	vp1prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	_
+7	frequentata	frequento	VERB	vp1prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	3	conj	_	_
 8	concursu	concursus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	7	obl:agent	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	7	punct	_	_
 10-11	parvulosque	_	_	_	_	_	_	_	_
-10	parvulos	paruulus	ADJ	amp1a	Case=Acc|Degree=Dim|Gender=Masc|InflClass=IndEurO|Number=Plur	1	conj	_	_
-11	que	que	CCONJ	co9	Clitic=Yes	10	cc	_	_
+10	parvulos	paruulus	ADJ	amp1a	Case=Acc|Degree=Dim|Gender=Masc|InflClass=IndEurO|Number=Plur	18	nsubj	_	_
+11	que	que	CCONJ	co9	Clitic=Yes	18	cc	_	_
 12	admirantes	admiror	VERB	vd1pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	10	acl	_	_
 13	et	et	CCONJ	co	_	14	cc	_	_
 14	inscios	inscius	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	12	conj	_	_
 15	peccata	peccatum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	17	obj	_	_
 16	patrum	pater	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	15	nmod	_	_
 17	luere	luo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	18	xcomp	_	_
-18	destinatos	destino	VERB	vp1prpma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	19	advcl:pred	_	_
+18	destinatos	destino	VERB	vp1prpma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	3	conj	_	_
 19	videre	uideo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	20	csubj	_	_
 20	pigebit	piget	VERB	va2*ifs3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	Pu	_	20	punct	_	_
@@ -6703,7 +6703,7 @@
 # citation_hierarchy = XI,Paragraphus_4
 1	Piget	piget	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	3	punct	_	_
-3	heu	heu	INTJ	i	_	1	discourse	_	SpaceAfter=No
+3	heu	heu	PART	i	PartType=Emp	1	advmod:emph	_	SpaceAfter=No
 4	!	!	PUNCT	Pu	_	1	punct	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	7	punct	_	_
 6	non	non	PART	r	Polarity=Neg	7	advmod	_	_
