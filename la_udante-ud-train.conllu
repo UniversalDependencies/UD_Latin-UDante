@@ -28062,13 +28062,13 @@
 37	laborat	laboro	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	47	advcl	_	_
 38	-	-	PUNCT	Pu	_	40	punct	_	_
 39	mira	mirus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	40	obj	_	_
-40	loquar	loquor	VERB	vd3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	37	parataxis	_	SpaceAfter=No
+40	loquar	loquor	VERB	vd3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	47	parataxis:reporting	_	SpaceAfter=No
 41	,	,	PUNCT	Pu	_	43	punct	_	_
 42	sed	sed	CCONJ	co	_	43	cc	_	_
-43	vera	uerus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	39	obj	_	_
+43	vera	uerus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	39	conj	_	_
 44	tamen	tamen	ADV	r	PronType=Dem	43	advmod	_	_
-45	-	-	PUNCT	Pu	_	37	punct	_	SpaceAfter=No
-46	,	,	PUNCT	Pu	_	37	punct	_	_
+45	-	-	PUNCT	Pu	_	40	punct	_	SpaceAfter=No
+46	,	,	PUNCT	Pu	_	47	punct	_	_
 47	spiravit	spiro	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 48	arundo	arundo	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	47	nsubj	_	SpaceAfter=No
 49	:	:	PUNCT	Pu	_	53	punct	_	_
