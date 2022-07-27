@@ -2738,12 +2738,12 @@
 16	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	18	xcomp	_	_
 17	non	non	PART	r	Polarity=Neg	18	advmod:neg	_	_
 18	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl:pred	_	_
-19	nisi	nisi	SCONJ	cs	Polarity=Neg	24	mark	_	_
-20	quando	quando	SCONJ	r	PronType=Rel	24	mark	_	_
+19	nisi	nisi	SCONJ	cs	Polarity=Neg	20	mark	_	_
+20	quando	quando	ADV	r	PronType=Rel	18	advcl	_	_
 21	uni	unus	NUM	aumsd	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|NumForm=Word|NumType=Card	22	nummod	_	_
 22	principi	princeps	NOUN	sms3d	Case=Dat|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing	24	obl:arg	_	_
 23	totaliter	totaliter	ADV	r	_	24	advmod	_	_
-24	subiacet	subiaceo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No
+24	subiacet	subiaceo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	SpaceAfter=No
 25	,	,	PUNCT	Pu	_	29	punct	_	_
 26	ut	ut	SCONJ	r	ConjType=Cmpr	29	mark	_	_
 27	de	de	ADP	e	_	28	case	_	_
