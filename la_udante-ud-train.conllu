@@ -16578,11 +16578,13 @@
 40	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	35	conj	_	_
 41	ad	ad	ADP	e	_	42	case	_	_
 42	dedignationem	dedignatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	40	orphan	_	SpaceAfter=No
-43	,	,	PUNCT	Pu	_	44	punct	_	_
-44	nonnullos	nonnullus	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	35	conj	_	_
-45	ad	ad	ADP	e	_	46	case	_	_
-46	risum	risus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	44	orphan	_	SpaceAfter=No
-47	.	.	PUNCT	Pu	_	2	punct	_	_
+43	,	,	PUNCT	Pu	_	45	punct	_	_
+44-45	nonnullos	_	_	_	_	_	_	_	_
+44	non	non	PART	dinpma	Polarity=Neg	45	nsubj	_	_
+45	nullos	nullus	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	35	conj	_	_
+46	ad	ad	ADP	e	_	47	case	_	_
+47	risum	risus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	45	orphan	_	SpaceAfter=No
+48	.	.	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = Mon-444
 # text = Igitur contra veritatem que queritur tria hominum genera maxime colluctantur.
@@ -21213,7 +21215,7 @@
 12	Lucas	lucas	PROPN	Sms1n	Case=Nom|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	11	nsubj	_	_
 13	ad	ad	ADP	e	_	14	case	_	_
 14	Theophilum	theophilus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	11	obl	_	_
-15	«	«	PUNCT	Pu	_	17	punct	_	SpaceAfter=No
+15	«	«	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
 16	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	11	ccomp:reported	_	_
 17	cepit	coepio	VERB	va5-irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
 18	Iesus	iesus	PROPN	Sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|NameType=Giv|Number=Sing	17	nsubj	_	_
