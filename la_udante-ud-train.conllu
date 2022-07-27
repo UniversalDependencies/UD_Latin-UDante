@@ -16437,7 +16437,7 @@
 8	tamen	tamen	ADV	r	PronType=Dem	11	advmod	_	_
 9	de	de	ADP	e	_	10	case	_	_
 10	ipsa	ipse	DET	ddesfb	Case=Abl|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	11	obl	_	_
-11	litigat	litigo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+11	litigat	litigo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
 12	;	;	PUNCT	Pu	_	17	punct	_	_
 13	theologus	theologus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	17	nsubj	_	_
 14	vero	uero	ADV	r	_	17	discourse	_	_
@@ -16450,7 +16450,7 @@
 21	de	de	ADP	e	_	22	case	_	_
 22	illo	ille	DET	ddisnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	24	obl	_	_
 23	litigium	litigium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	24	obj	_	_
-24	facit	facio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	SpaceAfter=No
+24	facit	facio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
 25	;	;	PUNCT	Pu	_	30	punct	_	_
 26	Egiptius	aegyptius	ADJ	Sms2	Gender=Masc|InflClass=IndEurO|Number=Sing	30	nsubj	_	_
 27	vero	uero	ADV	r	_	30	discourse	_	_
@@ -16464,7 +16464,7 @@
 35	de	de	ADP	e	_	37	case	_	_
 36	ipsorum	ipse	DET	ddepmg	Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	37	nmod	_	_
 37	civilitate	ciuilitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	38	obl:arg	_	_
-38	contendit	contendo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	parataxis	_	SpaceAfter=No
+38	contendit	contendo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	conj	_	SpaceAfter=No
 39	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = Mon-441
