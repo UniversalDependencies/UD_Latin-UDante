@@ -4411,8 +4411,8 @@
 # sent_id = Epi-120
 # text = At livor antiqui et implacabilis hostis, humane prosperitati semper et latenter insidians, nonnullos exheredando volentes, ob tutoris absentiam nos alios impius denudavit invitos.
 # citation_hierarchy = VII,Paragraphus_3
-1	At	at	CCONJ	co	_	25	cc	_	_
-2	livor	liuor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	25	nsubj	_	_
+1	At	at	CCONJ	co	_	26	cc	_	_
+2	livor	liuor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	26	nsubj	_	_
 3	antiqui	antiquus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	6	amod	_	_
 4	et	et	CCONJ	co	_	5	cc	_	_
 5	implacabilis	implacabilis	ADJ	ams2g	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Sing|Polarity=Neg	3	conj	_	_
@@ -4424,20 +4424,22 @@
 11	et	et	CCONJ	co	_	12	cc	_	_
 12	latenter	latenter	ADV	r	VerbForm=Part	10	conj	_	_
 13	insidians	insidio	VERB	va1ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	2	acl	_	SpaceAfter=No
-14	,	,	PUNCT	Pu	_	16	punct	_	_
-15	nonnullos	nonnullus	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	16	obj	_	_
-16	exheredando	exheredo	VERB	va1fgb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	13	advcl	_	_
-17	volentes	uolo	VERB	va5pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	advcl:pred	_	SpaceAfter=No
-18	,	,	PUNCT	Pu	_	2	punct	_	_
-19	ob	ob	ADP	e	_	21	case	_	_
-20	tutoris	tutor	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	21	nmod	_	_
-21	absentiam	absentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	25	obl	_	_
-22	nos	ego	PRON	ppp1pma	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	25	obj	_	_
-23	alios	alius	DET	dpmpa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	22	det	_	_
-24	impius	impius	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Polarity=Neg	25	advcl:pred	_	_
-25	denudavit	denudo	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-26	invitos	inuitus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	25	advcl:pred	_	SpaceAfter=No
-27	.	.	PUNCT	Pu	_	25	punct	_	_
+14	,	,	PUNCT	Pu	_	17	punct	_	_
+15-16	nonnullos	_	_	_	_	_	_	_	_
+15	non	non	PART	dinpma	Polarity=Neg	16	advmod:neg	_	_
+16	nullos	nullus	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	17	nsubj	_	_
+17	exheredando	exheredo	VERB	va1fgb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	13	advcl	_	_
+18	volentes	uolo	VERB	va5pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	17	advcl:pred	_	SpaceAfter=No
+19	,	,	PUNCT	Pu	_	2	punct	_	_
+20	ob	ob	ADP	e	_	22	case	_	_
+21	tutoris	tutor	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	22	nmod	_	_
+22	absentiam	absentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	26	obl	_	_
+23	nos	ego	PRON	ppp1pma	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	26	obj	_	_
+24	alios	alius	DET	dpmpa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	23	det	_	_
+25	impius	impius	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Polarity=Neg	26	advcl:pred	_	_
+26	denudavit	denudo	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+27	invitos	inuitus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	26	advcl:pred	_	SpaceAfter=No
+28	.	.	PUNCT	Pu	_	26	punct	_	_
 
 # sent_id = Epi-121
 # text = Hinc diu super flumina confusionis deflevimus, et patrocinia iusti regis incessanter implorabamus, qui satellitium sevi tyranni disperderet et nos in nostra iustitia reformaret.
