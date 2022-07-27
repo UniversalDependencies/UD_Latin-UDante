@@ -22671,7 +22671,7 @@
 50	genere	genus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	48	obl	_	_
 51	“	“	PUNCT	Pu	_	53	punct	_	SpaceAfter=No
 52	ad	ad	ADP	e	_	53	case	_	_
-53	aliquid	aliquis	PRON	dinsna	Case=Acc|Compound=Yes|Gender=Neut|Number=Sing|PronType=Ind	50	parataxis	_	SpaceAfter=No
+53	aliquid	aliquis	PRON	dinsna	Case=Acc|Compound=Yes|Gender=Neut|Number=Sing|PronType=Ind	50	nmod	_	SpaceAfter=No
 54	”	”	PUNCT	Pu	_	53	punct	_	SpaceAfter=No
 55	,	,	PUNCT	Pu	_	58	punct	_	_
 56	sive	siue	CCONJ	co	_	58	cc	_	_
