@@ -19980,7 +19980,7 @@
 5	:	:	PUNCT	Pu	_	8	punct	_	_
 6	«	«	PUNCT	Pu	_	8	punct	_	SpaceAfter=No
 7	Tibi	tu	PRON	ppp2smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	8	obl:arg	_	_
-8	dabo	do	VERB	va1ifs1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+8	dabo	do	VERB	va1ifs1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp:reported	_	_
 9	claves	clauis	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	8	obj	_	_
 10	regni	regnum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	9	nmod	_	_
 11	celorum	caelum	NOUN	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	10	nmod	_	SpaceAfter=No
