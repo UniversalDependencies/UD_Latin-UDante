@@ -20883,7 +20883,7 @@
 23	,	,	PUNCT	Pu	_	19	punct	_	_
 24	ego	ego	PRON	ppp1sn	InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
 25	nunquam	numquam	ADV	r	Polarity=Neg	26	advmod	_	_
-26	scandalizabor	scandalizo	VERB	vp1ifs1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	13	parataxis	_	SpaceAfter=No
+26	scandalizabor	scandalizo	VERB	vp1ifs1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	13	ccomp:reported	_	SpaceAfter=No
 27	»	»	PUNCT	Pu	_	26	punct	_	SpaceAfter=No
 28	;	;	PUNCT	Pu	_	30	punct	_	_
 29	et	et	CCONJ	co	_	30	cc	_	_
@@ -20900,7 +20900,7 @@
 39	,	,	PUNCT	Pu	_	34	punct	_	_
 40	non	non	PART	r	Polarity=Neg	42	advmod:neg	_	_
 41	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	42	obj	_	_
-42	negabo	nego	VERB	va1ifs1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	30	parataxis	_	SpaceAfter=No
+42	negabo	nego	VERB	va1ifs1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	30	ccomp:reported	_	SpaceAfter=No
 43	»	»	PUNCT	Pu	_	42	punct	_	SpaceAfter=No
 44	.	.	PUNCT	Pu	_	2	punct	_	_
 
