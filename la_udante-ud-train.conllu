@@ -8523,15 +8523,15 @@
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_11
 1	Europa	europa	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 2	vero	uero	ADV	r	_	1	discourse	_	_
-3	avo	auus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	1	obl:agent	_	_
+3	avo	auus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	1	orphan	_	_
 4	antiquissimo	antiquus	ADJ	ams1bs	Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	7	punct	_	_
 6	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	7	cc	_	_
 7	Dardano	dardanus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing	3	conj:expl	_	SpaceAfter=No
 8	:	:	PUNCT	Pu	_	9	punct	_	_
 9	Affrica	affrica	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	1	conj	_	_
-10	quoque	quoque	ADV	r	Form=Emp	9	discourse	_	_
-11	avia	auia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	9	obl:agent	_	_
+10	quoque	quoque	CCONJ	r	Form=Emp	9	cc	_	_
+11	avia	auia	NOUN	sfs1n	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	9	orphan	_	_
 12	vetustissima	uetustus	ADJ	afs1bs	Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	14	punct	_	_
 14	Electra	electra	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Rel|Number=Sing	11	conj:expl	_	_
