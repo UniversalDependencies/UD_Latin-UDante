@@ -9999,7 +9999,7 @@
 4	tunc	tunc	ADV	r	PronType=Dem	6	discourse	_	_
 5	uti	utor	VERB	vd3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	6	ccomp	_	_
 6	videmur	uideo	VERB	vp2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-7	quando	quando	SCONJ	cs	PronType=Rel	20	mark	_	_
+7	quando	quando	ADV	cs	PronType=Rel	6	advmod	_	_
 8	cum	cum	ADP	e	_	9	case	_	_
 9	gravitate	grauitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	20	obl:arg	_	_
 10	sententie	sententia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	9	nmod	_	_
@@ -10012,7 +10012,7 @@
 17	et	et	CCONJ	co	_	18	advmod:emph	_	_
 18	excellentia	excellentia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	16	conj	_	_
 19	vocabulorum	uocabulum	NOUN	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	18	nmod	_	_
-20	concordat	concordo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
+20	concordat	concordo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = DVE-278
