@@ -19761,13 +19761,13 @@
 # sent_id = Mon-531
 # text = Nam si dico “omne animal currit”, “omne” distribuit pro omni eo quod sub genere animalis comprehenditur; si vero dico “omnis homo currit”, tunc signum universale non distribuit nisi pro suppositis huius termini “homo”; et cum dico “omnis grammaticus”, tunc distributio magis coartatur.
 # citation_hierarchy = Liber_Tertius,viii,Paragraphus_5
-1	Nam	nam	PART	co	_	3	discourse	_	_
+1	Nam	nam	PART	co	_	13	discourse	_	_
 2	si	si	SCONJ	cs	_	3	mark	_	_
 3	dico	dico	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 4	“	“	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
 5	omne	omnis	DET	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	6	det	_	_
 6	animal	animal	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	7	nsubj	_	_
-7	currit	curro	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
+7	currit	curro	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp:reported	_	SpaceAfter=No
 8	”	”	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	3	punct	_	_
 10	“	“	PUNCT	Pu	_	11	punct	_	SpaceAfter=No
