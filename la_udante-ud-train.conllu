@@ -28311,11 +28311,11 @@
 12	(	(	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 13	atque	atque	CCONJ	co	Form=Emp	15	cc	_	_
 14	suum	suus	DET	dsnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	15	obj	_	_
-15	tetigit	tango	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	SpaceAfter=No
+15	tetigit	tango	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 16	)	)	PUNCT	Pu	_	15	punct	_	_
 17	longevus	longaeuus	ADJ	ams1n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurO|Number=Sing	18	amod	_	_
 18	Tityrus	tityrus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	19	nsubj	_	_
-19	inquit	inquam	VERB	va5-irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+19	inquit	inquam	VERB	va5-irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	19	punct	_	_
 21	«	«	PUNCT	Pu	_	22	punct	_	SpaceAfter=No
 22	Mopsus	mopsus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	55	nsubj	_	_
