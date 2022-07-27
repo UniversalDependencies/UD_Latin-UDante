@@ -7432,24 +7432,26 @@
 # sent_id = Epi-205
 # text = Nonnulli sunt in admiratione suspensi: an semper et hoc silebunt, neque Factori suo testimonium reddent?
 # citation_hierarchy = XI,Paragraphus_18
-1	Nonnulli	nonnullus	DET	dinpmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	5	nsubj:pass	_	_
-2	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-3	in	in	ADP	e	_	4	case	_	_
-4	admiratione	admiratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	5	obl	_	_
-5	suspensi	suspendo	VERB	vp3prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-6	:	:	PUNCT	Pu	_	11	punct	_	_
-7	an	an	PART	co	PartType=Int	11	discourse	_	_
-8	semper	semper	ADV	r	_	11	advmod	_	_
-9	et	et	CCONJ	co	_	11	cc	_	_
-10	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	11	obj	_	_
-11	silebunt	sileo	VERB	va2ifp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
-12	,	,	PUNCT	Pu	_	17	punct	_	_
-13	neque	neque	CCONJ	co	_	17	cc	_	_
-14	Factori	factor	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	17	obl:arg	_	_
-15	suo	suus	DET	dsmsd	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_
-16	testimonium	testimonium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	17	obj	_	_
-17	reddent	reddo	VERB	va3ifp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
-18	?	?	PUNCT	Pu	_	5	punct	_	_
+1-2	Nonnulli	_	_	_	_	_	_	_	_
+1	Non	non	PART	dinpmn	Polarity=Neg	2	advmod:neg	_	_
+2	nulli	nullus	DET	dinpmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Neg	6	nsubj:pass	_	_
+3	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+4	in	in	ADP	e	_	5	case	_	_
+5	admiratione	admiratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	6	obl	_	_
+6	suspensi	suspendo	VERB	vp3prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	Pu	_	12	punct	_	_
+8	an	an	PART	co	PartType=Int	12	discourse	_	_
+9	semper	semper	ADV	r	_	12	advmod	_	_
+10	et	et	CCONJ	co	_	12	cc	_	_
+11	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	12	obj	_	_
+12	silebunt	sileo	VERB	va2ifp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	Pu	_	18	punct	_	_
+14	neque	neque	CCONJ	co	_	18	cc	_	_
+15	Factori	factor	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	18	obl:arg	_	_
+16	suo	suus	DET	dsmsd	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
+17	testimonium	testimonium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	18	obj	_	_
+18	reddent	reddo	VERB	va3ifp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
+19	?	?	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = Epi-206
 # text = Vivit Dominus, quia Qui movit linguam in asina Balaam, Dominus est etiam modernorum brutorum.
