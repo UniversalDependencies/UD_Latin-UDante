@@ -18475,8 +18475,8 @@
 14	“	“	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 15	auctoritatem	auctoritas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	5	conj	_	SpaceAfter=No
 16	”	”	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
-17	:	:	PUNCT	Pu	_	18	punct	_	_
-18	que	qui	PRON	prepfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	19	nsubj	_	_
+17	:	:	PUNCT	Pu	_	20	punct	_	_
+18	que	qui	PRON	prepfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	20	nsubj	_	_
 19	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	res	res	NOUN	sfp5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Plur	7	acl:relcl	_	_
 21	diverse	diuersus	ADJ	afp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	20	amod	_	_
