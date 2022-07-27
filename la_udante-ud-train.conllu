@@ -14565,7 +14565,7 @@
 17	»	»	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
 18	;	;	PUNCT	Pu	_	20	punct	_	_
 19	“	“	PUNCT	Pu	_	20	punct	_	SpaceAfter=No
-20	reposita	repono	VERB	vp3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	12	parataxis	_	SpaceAfter=No
+20	reposita	repono	VERB	vp3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	12	conj:expl	_	SpaceAfter=No
 21	”	”	PUNCT	Pu	_	20	punct	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	26	punct	_	_
 23	scilicet	scilicet	CCONJ	r	Compound=Yes|ConjType=Expl|VerbForm=Fin	26	cc	_	_
