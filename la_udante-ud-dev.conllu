@@ -577,14 +577,14 @@
 23	et	et	CCONJ	co	_	30	cc	_	_
 24	memoria	memoria	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	30	nsubj	_	_
 25	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	24	det	_	_
-26	usquequo	usquequo	SCONJ	r	AdvType=Tim|Compound=Yes|Form=Emp|PronType=Rel	29	mark	_	_
+26	usquequo	usquequo	ADV	r	AdvType=Tim|Compound=Yes|Form=Emp|PronType=Rel	30	advmod	_	_
 27	sub	sub	ADP	e	_	28	case	_	_
 28	tempore	tempus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	29	obl:tmod	_	_
-29	vivam	uiuo	VERB	va3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	30	advcl	_	_
+29	vivam	uiuo	VERB	va3ifs1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
 30	dominabitur	dominor	VERB	vd1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	20	conj	_	_
 31	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	30	obl:arg	_	SpaceAfter=No
-32	,	,	PUNCT	Pu	_	33	punct	_	_
-33	quando	quando	SCONJ	cs	PronType=Rel	53	mark	_	_
+32	,	,	PUNCT	Pu	_	53	punct	_	_
+33	quando	quando	ADV	cs	PronType=Rel	53	advmod	_	_
 34	magnificentia	magnificentia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	53	nsubj	_	_
 35	sua	suus	DET	dsfsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	34	det	_	SpaceAfter=No
 36	,	,	PUNCT	Pu	_	44	punct	_	_
@@ -604,7 +604,7 @@
 50	temporibus	tempus	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur	55	obl:tmod	_	_
 51	sponte	spons	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	55	obl	_	_
 52	sua	suus	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	51	det	_	_
-53	fecit	facio	VERB	va3irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl	_	_
+53	fecit	facio	VERB	va3irs3	Aspect=Perf|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
 54	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	55	aux:pass	_	_
 55	subiectum	subicio	VERB	sns2a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	53	ccomp	_	SpaceAfter=No
 56	.	.	PUNCT	Pu	_	20	punct	_	_
