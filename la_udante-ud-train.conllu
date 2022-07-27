@@ -25729,7 +25729,7 @@
 13	;	;	PUNCT	Pu	_	14	punct	_	_
 14	at	at	CCONJ	co	_	19	cc	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	14	punct	_	_
-16	precor	precor	VERB	vd1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	19	parataxis	_	SpaceAfter=No
+16	precor	precor	VERB	vd1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	19	parataxis:reporting	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	16	punct	_	_
 18	ora	os	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	19	obj	_	_
 19	cie	cieo	VERB	va2mps2	Aspect=Imp|InflClass=LatE|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
