@@ -21087,7 +21087,7 @@
 15	,	,	PUNCT	Pu	_	14	punct	_	_
 16	hic	hic	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	18	det	_	_
 17	autem	autem	CCONJ	co	_	18	cc	_	_
-18	quid	quis	PRON	dinsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	10	parataxis	_	SpaceAfter=No
+18	quid	quis	PRON	dinsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	10	ccomp:reported	_	SpaceAfter=No
 19	?	?	PUNCT	Pu	_	18	punct	_	SpaceAfter=No
 20	»	»	PUNCT	Pu	_	18	punct	_	SpaceAfter=No
 21	.	.	PUNCT	Pu	_	2	punct	_	_
