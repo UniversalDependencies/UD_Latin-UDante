@@ -20844,7 +20844,7 @@
 25	tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	28	advcl	_	_
 26	es	sum	AUX	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	cop	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	25	punct	_	_
-28	iube	iubeo	VERB	va2mps2	Aspect=Imp|InflClass=LatE|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+28	iube	iubeo	VERB	va2mps2	Aspect=Imp|InflClass=LatE|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp:reported	_	_
 29	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
 30	ad	ad	ADP	e	_	31	case	_	_
 31	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	32	obl:arg	_	_
