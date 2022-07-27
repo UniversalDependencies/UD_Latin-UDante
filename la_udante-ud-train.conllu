@@ -17330,14 +17330,16 @@
 43	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	45	mark	_	_
 44	ipsius	ipse	DET	dpmsg	Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	45	det	_	_
 45	Imperatoris	imperator	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	42	advcl:cmpr	_	SpaceAfter=No
-46	,	,	PUNCT	Pu	_	52	punct	_	_
-47	nonnullum	nonnullus	DET	ans1a	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Neg	50	det	_	_
-48	vero	uero	ADV	r	_	50	discourse	_	_
-49	rationis	ratio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	50	nmod	_	_
-50	indicium	indicium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	51	obj	_	_
-51	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	52	ccomp	_	_
-52	nituntur	nitor	VERB	vd3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	35	conj	_	SpaceAfter=No
-53	.	.	PUNCT	Pu	_	28	punct	_	_
+46	,	,	PUNCT	Pu	_	53	punct	_	_
+47-48	nonnullum	_	_	_	_	_	_	_	_
+47	non	non	PART	ans1a	Polarity=Neg	48	advmod:neg	_	_
+48	nullum	nullus	DET	ans1a	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Neg	51	det	_	_
+49	vero	uero	ADV	r	_	51	discourse	_	_
+50	rationis	ratio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	51	nmod	_	_
+51	indicium	indicium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	52	obj	_	_
+52	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	53	ccomp	_	_
+53	nituntur	nitor	VERB	vd3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	35	conj	_	SpaceAfter=No
+54	.	.	PUNCT	Pu	_	28	punct	_	_
 
 # sent_id = Mon-463
 # text = Dicunt enim primo, secundum scripturam Geneseos, quod Deus fecit duo magna luminaria - luminare maius et luminare minus - ut alterum preesset diei et alterum preesset nocti: que allegorice dicta esse intelligebant ista duo regimina: scilicet spirituale et temporale.
