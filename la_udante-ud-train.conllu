@@ -27696,11 +27696,11 @@
 # text = [DANTES ALAGHERII IOHANNI DE VIRGILIO - EGLOGA II]
 # citation_hierarchy = IV,Paragraphus_0
 1	[	[	PUNCT	Pu	_	2	punct	_	SpaceAfter=No
-2	DANTES	dantes	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	0	root	_	_
-3	ALAGHERII	alagherius	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	2	nmod	_	_
-4	IOHANNI	iohannes	PROPN	Sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	2	orphan	_	_
+2	DANTES	dantes	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing	0	root	_	_
+3	ALAGHERII	alagherius	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	2	nmod	_	_
+4	IOHANNI	iohannes	PROPN	Sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	2	orphan	_	_
 5	DE	de	ADP	e	_	6	case	_	_
-6	VIRGILIO	uergilius	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nmod	_	_
+6	VIRGILIO	uergilius	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	4	nmod	_	_
 7	-	-	PUNCT	Pu	_	8	punct	_	_
 8	EGLOGA	egloga	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	2	parataxis	_	_
 9	II	ii	NUM	yy	Number=Plur|NumForm=Roman|NumType=Card	8	nummod	_	SpaceAfter=No
