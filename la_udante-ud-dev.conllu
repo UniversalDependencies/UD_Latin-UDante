@@ -10732,7 +10732,7 @@
 20	ut	ut	SCONJ	cs	_	26	mark	_	_
 21	benivolum	beniuolus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	26	xcomp:pred	_	_
 22	et	et	CCONJ	co	_	23	cc	_	_
-23	attentum	attentus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	21	conj	_	_
+23	attentum	attendo	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	21	conj	_	_
 24	et	et	CCONJ	co	_	25	cc	_	_
 25	docilem	docilis	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	21	conj	_	_
 26	reddat	reddo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj:expl	_	_
