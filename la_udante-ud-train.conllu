@@ -7321,7 +7321,7 @@
 49	,	,	PUNCT	Pu	_	33	punct	_	_
 50	cum	cum	ADP	e	_	51	case	_	_
 51	Propheta	propheta	NOUN	sms1b	Case=Abl|Gender=Masc|InflClass=IndEurA|Number=Sing|Proper=Yes	56	obl	_	_
-52	sanctissimo	sanctus	ADJ	ams1bs	Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	51	amod	_	_
+52	sanctissimo	sancio	VERB	ams1bs	Aspect=Perf|Case=Abl|Degree=Abs|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	51	acl	_	_
 53	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	56	obj	_	_
 54	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	53	fixed	_	_
 55	subsequenter	subsequenter	ADV	r	VerbForm=Part	56	advmod	_	_
