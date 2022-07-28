@@ -8337,8 +8337,8 @@
 12	sic	sic	ADV	r	PronType=Dem	13	advmod	_	_
 13	distrahit	distraho	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14	in	in	ADP	e	_	15	case	_	_
-15	diversa	diuersus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	13	obl	_	_
-16	diversos	diuersus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	13	obj	_	SpaceAfter=No
+15	diversa	diuerto	VERB	anp1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	13	obl	_	_
+16	diversos	diuerto	VERB	amp1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	13	obj	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	24	punct	_	_
 18	ut	ut	SCONJ	cs	_	24	mark	_	_
 19	hos	hic	DET	ddipma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	24	obj	_	_
