@@ -615,10 +615,10 @@
 43	vox	uox	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	45	nsubj	_	_
 44	inde	inde	ADV	r	_	45	advmod	_	_
 45	resultavit	resulto	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	41	advcl:cmpr	_	_
-46	distincta	distinguo	VERB	afs1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	45	advcl:pred	_	_
+46	distincta	distinguo	VERB	afs1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	45	xcomp	_	_
 47	tanquam	tamquam	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	49	mark	_	_
 48	vera	uerus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	49	amod	_	_
-49	locutio	locutio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	45	advcl:cmpr	_	SpaceAfter=No
+49	locutio	locutio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	46	advcl:cmpr	_	SpaceAfter=No
 50	;	;	PUNCT	Pu	_	51	punct	_	_
 51	non	non	PART	r	Polarity=Neg	22	conj	_	_
 52	quod	quod	SCONJ	cs	PronType=Rel	53	mark	_	_
