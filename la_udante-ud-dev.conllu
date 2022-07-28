@@ -10639,7 +10639,7 @@
 2	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	5	nsubj	_	_
 3	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	eis	is	PRON	ddepmb	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
-5	conveniens	conueniens	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+5	conveniens	conuenio	VERB	ans2n	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	10	punct	_	_
 7	quia	quia	SCONJ	cs	PronType=Rel	10	mark	_	_
 8	multa	multus	DET	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Card|PronType=Ind	9	det	_	_
