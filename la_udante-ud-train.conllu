@@ -25018,7 +25018,7 @@
 22	hec	hic	DET	ddipnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	8	orphan	_	_
 23	a	a	ADP	e	_	24	case	_	_
 24	Spiritu	spiritus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|Proper=Yes|VerbForm=Sup	22	obl:agent	_	_
-25	Sancto	sanctus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	24	amod	_	_
+25	Sancto	sancio	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part|Voice=Pass	24	acl	_	_
 26	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	28	nsubj	_	_
 27	per	per	ADP	e	_	28	case	_	_
 28	prophetas	propheta	NOUN	smp1a	Case=Acc|Gender=Masc|InflClass=IndEurA|Number=Plur	24	acl:relcl	_	_
