@@ -9429,7 +9429,7 @@
 53	significatur	significo	VERB	vp1ips3	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
 54	exitus	exitus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	53	nsubj	_	_
 55	anime	anima	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	54	nmod	_	_
-56	sancte	sanctus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	55	amod	_	_
+56	sancte	sancio	VERB	afs1g	Aspect=Perf|Case=Gen|Gender=Fem|InflClass=LatI|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	55	acl	_	_
 57	ab	ab	ADP	e	_	60	case	_	_
 58	huius	hic	DET	dpfsg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	59	det	_	_
 59	corruptionis	corruptio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	60	nmod	_	_
