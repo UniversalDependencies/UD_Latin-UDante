@@ -981,7 +981,7 @@
 33	potentiam	potentia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	30	obl	_	_
 34	et	et	CCONJ	co	_	35	cc	_	_
 35	obiecta	obiectum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	33	conj	_	_
-36	diversa	diuersus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	35	amod	_	_
+36	diversa	diuerto	VERB	anp1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	35	acl	_	_
 37	numero	numerus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	36	obl	_	_
 38	sed	sed	CCONJ	co	_	40	cc	_	_
 39	non	non	PART	r	Polarity=Neg	40	advmod:neg	_	_
