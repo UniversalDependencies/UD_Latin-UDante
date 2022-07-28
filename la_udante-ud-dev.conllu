@@ -8579,7 +8579,7 @@
 8	indignum	indignus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|Polarity=Neg	7	xcomp:pred	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	7	punct	_	_
 10	Spiritum	spiritus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|Proper=Yes|VerbForm=Sup	12	obj	_	_
-11	Sanctum	sanctus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part	10	amod	_	_
+11	Sanctum	sancio	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part|Voice=Pass	10	acl	_	_
 12	audiat	audio	VERB	va4cps3	Aspect=Imp|InflClass=LatI|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	19	punct	_	_
 14	amicitie	amicitia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	16	nmod	_	_
