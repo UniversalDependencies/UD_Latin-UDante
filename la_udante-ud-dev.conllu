@@ -4334,7 +4334,7 @@
 # sent_id = Epi-118
 # text = Sanctissimo gloriosissimo atque felicissimo triumphatori et domino singulari domino Henrico divina providentia Romanorum Regi et semper Augusto, devotissimi sui Dantes Alagherii Florentinus et exul inmeritus ac universaliter omnes Tusci qui pacem desiderant, terre osculum ante pedes.
 # citation_hierarchy = VII,Paragraphus_1
-1	Sanctissimo	sanctus	ADJ	ams1ds	Case=Dat|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	5	acl	_	_
+1	Sanctissimo	sancio	VERB	ams1ds	Aspect=Perf|Case=Dat|Degree=Abs|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
 2	gloriosissimo	gloriosus	ADJ	ams1d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing	1	conj	_	_
 3	atque	atque	CCONJ	co	Form=Emp	4	cc	_	_
 4	felicissimo	felix	ADJ	ams2ds	Case=Dat|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	1	conj	_	_
