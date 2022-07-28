@@ -17909,7 +17909,7 @@
 23	sed	sed	CCONJ	co	_	25	cc	_	_
 24	in	in	ADP	e	_	25	case	_	_
 25	Spiritum	spiritus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|Proper=Yes|VerbForm=Sup	3	conj	_	_
-26	Sanctum	sanctus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	25	amod	_	_
+26	Sanctum	sancio	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part|Voice=Pass	25	acl	_	_
 27	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	28	nsubj	_	_
 28	loquitur	loquor	VERB	vd3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	acl:relcl	_	_
 29	in	in	ADP	e	_	30	case	_	_
