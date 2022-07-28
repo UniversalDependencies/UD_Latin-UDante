@@ -13493,7 +13493,7 @@
 11	,	,	PUNCT	Pu	_	3	punct	_	_
 12	et	et	ADV	co	_	18	advmod:emph	_	_
 13	e	e	ADP	e	_	14	case	_	_
-14	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	18	obl	_	_
+14	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	18	obl	_	_
 15	sic	sic	ADV	r	PronType=Dem	18	advmod	_	_
 16	de	de	ADP	e	_	17	case	_	_
 17	sirmate	sirma	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	18	obl	_	_
