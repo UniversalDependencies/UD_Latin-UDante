@@ -5439,7 +5439,7 @@
 72	testante	testor	VERB	vd1ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	70	advcl:abs	_	_
 73	rege	rex	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	72	nsubj	_	_
 74	illo	ille	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	73	det	_	_
-75	sanctissimo	sanctus	ADJ	ams1bs	Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	73	amod	_	_
+75	sanctissimo	sancio	VERB	ams1bs	Aspect=Perf|Case=Abl|Degree=Abs|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	73	acl	_	_
 76	cum	cum	SCONJ	cs	PronType=Rel	82	mark	_	_
 77	convenientia	conueniens	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	82	obj	_	_
 78	regi	rex	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	77	obl	_	_
