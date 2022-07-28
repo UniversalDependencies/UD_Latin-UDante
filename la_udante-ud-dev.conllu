@@ -6277,7 +6277,7 @@
 29	palatina	palatinus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	26	amod	_	SpaceAfter=No
 30	,	,	PUNCT	Pu	_	33	punct	_	_
 31	cum	cum	ADP	e	_	33	case	_	_
-32	promptissima	promptus	ADJ	afs1bs	Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	33	amod	_	_
+32	promptissima	promo	VERB	afs1bs	Aspect=Perf|Case=Abl|Degree=Abs|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	33	acl	_	_
 33	recommendatione	recommendatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	17	orphan	_	_
 34	se	sui	PRON	ppp3snb	Case=Abl|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	17	orphan	_	_
 35	ipsam	ipse	DET	dpfsa	Case=Acc|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	34	det	_	_
