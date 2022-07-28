@@ -9772,10 +9772,10 @@
 36	,	,	PUNCT	Pu	_	22	punct	_	_
 37	populus	populus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	46	nsubj:pass	_	_
 38	ille	ille	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	37	det	_	_
-39	sanctus	sanctus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	37	amod	_	_
+39	sanctus	sancio	VERB	ams1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	37	acl	_	_
 40	pius	pius	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	39	conj	_	_
 41	et	et	CCONJ	co	_	42	cc	_	_
-42	gloriosus	gloriosus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	40	conj	_	_
+42	gloriosus	gloriosus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	39	conj	_	_
 43	propria	proprius	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	44	amod	_	_
 44	commoda	commodum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	45	obj	_	_
 45	neglexisse	neglego	VERB	va3fr	Aspect=Perf|Compound=Yes|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	46	xcomp	_	_
