@@ -16957,7 +16957,7 @@
 10	quos	qui	PRON	prepma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	14	nsubj:pass	_	_
 11	a	a	ADP	e	_	12	case	_	_
 12	Spiritu	spiritus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|Proper=Yes|VerbForm=Sup	14	obl:agent	_	_
-13	Sancto	sanctus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	12	amod	_	_
+13	Sancto	sancio	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part|Voice=Pass	12	acl	_	_
 14	adiutos	adiuuo	VERB	vp1prpma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	16	ccomp	_	_
 15	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	16	nsubj	_	_
 16	dubitat	dubito	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No
