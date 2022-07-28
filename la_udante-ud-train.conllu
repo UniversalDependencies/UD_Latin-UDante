@@ -26375,27 +26375,27 @@
 # sent_id = Egl-33
 # text = «O Melibee, decus vatum, quoque nomen in auras fluxit, et insomnem vix Mopsum Musa peregit»; retuleram, cum sic dedit indignatio vocem: «Quantos balatus colles et prata sonabunt, si viridante coma fidibus peana ciebo!
 # citation_hierarchy = II_,Paragraphus_40
-1	«	«	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
+1	«	«	PUNCT	Pu	_	5	punct	_	SpaceAfter=No
 2	O	o	PART	i	PartType=Emp	3	advmod:emph	_	_
-3	Melibee	meliboeus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	12	vocative	_	SpaceAfter=No
+3	Melibee	meliboeus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	5	vocative	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	3	punct	_	_
-5	decus	decus	NOUN	sns3v	Case=Voc|Gender=Neut|InflClass=IndEurX|Number=Sing	12	nsubj	_	_
+5	decus	decus	NOUN	sns3v	Case=Voc|Gender=Neut|InflClass=IndEurX|Number=Sing	22	ccomp:reported	_	_
 6	vatum	uates	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	5	punct	_	_
-8	quoque	quoque	CCONJ	r	Form=Emp	9	cc	_	_
-9	nomen	nomen	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	5	conj	_	_
+8	quoque	quoque	CCONJ	r	Form=Emp	12	cc	_	_
+9	nomen	nomen	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	12	nsubj	_	_
 10	in	in	ADP	e	_	11	case	_	_
 11	auras	aura	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	12	obl:lmod	_	_
-12	fluxit	fluo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	ccomp:reported	_	SpaceAfter=No
+12	fluxit	fluo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	19	punct	_	_
 14	et	et	CCONJ	co	_	19	cc	_	_
 15	insomnem	insomnis	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing|Polarity=Neg	17	xcomp	_	_
 16	vix	uix	ADV	r	_	19	advmod	_	_
 17	Mopsum	mopsus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	19	obj	_	_
 18	Musa	musa	NOUN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Rel|Number=Sing|Proper=Yes	19	nsubj	_	_
-19	peregit	perago	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
-20	»	»	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
-21	;	;	PUNCT	Pu	_	12	punct	_	_
+19	peregit	perago	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+20	»	»	PUNCT	Pu	_	5	punct	_	SpaceAfter=No
+21	;	;	PUNCT	Pu	_	5	punct	_	_
 22	retuleram	refero	VERB	va5i+s1	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pqp|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	26	punct	_	_
 24	cum	cum	SCONJ	cs	PronType=Rel	26	mark	_	_
