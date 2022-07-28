@@ -6998,7 +6998,7 @@
 28	cum	cum	SCONJ	cs	PronType=Rel	34	mark	_	_
 29	per	per	ADP	e	_	30	case	_	_
 30	tubam	tuba	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	34	obl	_	_
-31	Sancti	sanctus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	32	amod	_	_
+31	Sancti	sancio	VERB	ams1g	Aspect=Perf|Case=Gen|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part|Voice=Pass	32	acl	_	_
 32	Spiritus	spiritus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing|Proper=Yes|VerbForm=Sup	30	nmod	_	_
 33	tibi	tu	PRON	ppp2snd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	34	obl:arg	_	_
 34	effletur	efflo	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	advcl	_	SpaceAfter=No
