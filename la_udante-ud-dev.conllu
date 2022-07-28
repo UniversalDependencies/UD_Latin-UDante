@@ -4955,7 +4955,7 @@
 19	semper	semper	ADV	r	_	20	advmod	_	_
 20	nocuit	noceo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
 21	differre	differo	VERB	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	20	csubj	_	_
-22	paratis	paratus	ADJ	amp1d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	20	obl:arg	_	SpaceAfter=No
+22	paratis	paro	VERB	amp1d	Aspect=Perf|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	20	obl:arg	_	SpaceAfter=No
 23	:	:	PUNCT	Pu	_	30	punct	_	_
 24	par	par	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	25	amod	_	_
 25	labor	labor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	30	nsubj:pass	_	_
