@@ -30802,10 +30802,10 @@
 87	quod	quod	SCONJ	cs	PronType=Rel	91	mark	_	_
 88	littora	litus	NOUN	snp3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur|VerbForm=Part	91	nsubj	_	_
 89	omnia	omnis	DET	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	88	det	_	_
-90	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	91	cop	_	_
-91	superheminentia	supereminens	ADJ	va2pppnn	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|VerbForm=Part	85	csubj	_	_
+90	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	91	aux	_	_
+91	superheminentia	superemineo	VERB	va2pppnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Act	85	csubj	_	_
 92	toti	totus	DET	dpmsd	Case=Dat|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Tot	93	det	_	_
-93	mari	mare	NOUN	sns3d	Case=Dat|Gender=Neut|InflClass=IndEurI|Number=Sing	91	obl:arg	_	SpaceAfter=No
+93	mari	mare	NOUN	sns3d	Case=Dat|Gender=Neut|InflClass=IndEurI|Number=Sing	91	obl:lmod	_	SpaceAfter=No
 94	;	;	PUNCT	Pu	_	95	punct	_	_
 95	et	et	CCONJ	co	_	102	cc	_	_
 96	si	si	SCONJ	cs	_	97	mark	_	_
