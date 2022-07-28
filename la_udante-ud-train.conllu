@@ -3037,12 +3037,12 @@
 3	duos	duo	NUM	aumpa	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	4	nummod	_	_
 4	principes	princeps	NOUN	smp3a	Case=Acc|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Plur	13	obl	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	10	punct	_	_
-6	quorum	qui	PRON	prepmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	10	nmod	_	_
-7	alter	alter	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	nsubj	_	_
-8	alteri	alter	DET	dpmsd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	7	obl	_	_
+6	quorum	qui	PRON	prepmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	7	nmod	_	_
+7	alter	alter	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	nsubj:pass	_	_
+8	alteri	alter	DET	dpmsd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	obl:arg	_	_
 9	minime	parum	ADV	rs	Degree=Abs	10	advmod	_	_
-10	subiectus	subiectus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	4	acl:relcl	_	_
-11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+10	subiectus	subicio	VERB	ams1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	4	punct	_	_
 13	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	15	cop	_	_
