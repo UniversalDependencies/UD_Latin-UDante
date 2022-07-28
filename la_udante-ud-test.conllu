@@ -4037,7 +4037,7 @@
 17	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 18	tanquam	tamquam	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	23	mark	_	_
 19	in	in	ADP	e	_	23	case	_	_
-20	perfectiori	perfectus	ADJ	afs1bc	Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing|VerbForm=Part	23	amod	_	_
+20	perfectiori	perficio	VERB	afs1bc	Aspect=Perf|Case=Abl|Degree=Cmp|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurX|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
 21-22	dulciorique	_	_	_	_	_	_	_	_
 21	dulciori	dulcis	ADJ	afs2bc	Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Sing	20	conj	_	_
 22	que	que	CCONJ	co9	Clitic=Yes	21	cc	_	_
