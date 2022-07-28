@@ -11850,7 +11850,7 @@
 # citation_hierarchy = Liber_Secundus,vii,Paragraphus_1
 1	Ad	ad	ADP	e	_	4	mark	_	_
 2	bene	bene	ADV	r	_	4	advmod	_	_
-3	quoque	quoque	ADV	r	Form=Emp	4	discourse	_	_
+3	quoque	quoque	ADV	r	Form=Emp	8	discourse	_	_
 4	venandum	uenor	VERB	vd1fga	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Ger|Voice=Pass	8	advcl	_	_
 5	veritatem	ueritas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	4	obj	_	_
 6	quesiti	quaesitum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	5	nmod	_	_
