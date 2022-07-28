@@ -1560,14 +1560,14 @@
 16	assiduas	assiduus	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	23	punct	_	_
 18	quibus	qui	PRON	prepfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	23	obl	_	_
-19	tam	tam	ADV	r	PronType=Dem	20	advmod:emph	_	_
+19	tam	tam	ADV	r	PronType=Dem	23	advmod:emph	_	_
 20	celestia	celestis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	23	obj	_	_
 21	quam	quam	SCONJ	c	ConjType=Cmpr|PronType=Rel	22	mark	_	_
-22	terrestria	terrester	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	20	advcl:cmpr	_	_
+22	terrestria	terrester	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	23	advcl:cmpr	_	_
 23	intuebar	intueor	VERB	vd2iis1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	15	punct	_	_
 25	quasi	quasi	SCONJ	cs	Compound=Yes|ConjType=Cmpr|PronType=Rel	26	mark	_	_
-26	suspectas	suspectus	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|VerbForm=Part	29	advcl:cmpr	_	SpaceAfter=No
+26	suspectas	suspicio	VERB	afp1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	29	advcl:cmpr	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	26	punct	_	_
 28	impie	impie	ADV	r	_	29	advmod	_	_
 29	relegavit	relego	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
