@@ -9459,12 +9459,12 @@
 14	allegorici	allegoricus	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	12	xcomp:pred	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	22	punct	_	_
 16	cum	cum	SCONJ	cs	PronType=Rel	22	mark	_	_
-17	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+17	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
 18	a	a	ADP	e	_	19	case	_	_
-19	litterali	litteralis	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	22	obl:arg	_	_
+19	litterali	litteralis	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	22	obl	_	_
 20	sive	siue	CCONJ	co	_	21	cc	_	_
 21	historiali	historialis	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	19	conj	_	_
-22	diversi	diuersus	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	13	advcl	_	SpaceAfter=No
+22	diversi	diuerto	VERB	amp1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	13	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	Pu	_	13	punct	_	_
 
 # sent_id = Epi-264
