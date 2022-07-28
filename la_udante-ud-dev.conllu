@@ -103,7 +103,7 @@
 12	citra	citra	ADP	e	_	13	case	_	_
 13	iudicium	iudicium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	17	obl	_	_
 14	discretio	discretio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	17	nsubj	_	_
-15	sancta	sanctus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	14	amod	_	_
+15	sancta	sancio	VERB	afs1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatI|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
 16	vestra	uester	DET	dsfsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	14	det	_	_
 17	preponderet	praepondero	VERB	v1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 18	;	;	PUNCT	Pu	_	17	punct	_	_
