@@ -6575,7 +6575,7 @@
 17	prophetici	propheticus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	16	amod	_	_
 18	per	per	ADP	e	_	19	case	_	_
 19	Spiritum	spiritus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|Proper=Yes|VerbForm=Sup	23	obl	_	_
-20	Sanctum	sanctus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	19	amod	_	_
+20	Sanctum	sancio	VERB	ams1a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part|Voice=Pass	19	acl	_	_
 21	sua	suus	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	_
 22	iussione	iussio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	23	obl	_	_
 23	impressit	imprimo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
