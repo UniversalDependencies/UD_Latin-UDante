@@ -12101,7 +12101,7 @@
 16	quicquid	quisquis	PRON	presna	Case=Acc|Form=Emp|Gender=Neut|Number=Sing|PronType=Rel	15	obj	_	_
 17	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
 18	modo	modus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	15	obl	_	_
-19	perfecto	perfectus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	18	amod	_	SpaceAfter=No
+19	perfecto	perficio	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	21	punct	_	_
 21	ita	ita	ADV	r	PronType=Dem	15	advmod	_	_
 22	quod	quod	SCONJ	cs	PronType=Rel	25	mark	_	_
