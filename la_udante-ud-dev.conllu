@@ -9489,7 +9489,7 @@
 17	,	,	PUNCT	Pu	_	20	punct	_	_
 18	sive	siue	CCONJ	co	_	20	cc	_	_
 19	“	“	PUNCT	Pu	_	20	punct	_	SpaceAfter=No
-20	diversum	diuersus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	15	conj	_	SpaceAfter=No
+20	diversum	diuerto	VERB	ans1n	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	SpaceAfter=No
 21	”	”	PUNCT	Pu	_	20	punct	_	SpaceAfter=No
 22	.	.	PUNCT	Pu	_	3	punct	_	_
 
