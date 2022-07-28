@@ -385,7 +385,7 @@
 7	eorum	is	PRON	ddepmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
 8	conceptiones	conceptio	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	5	nsubj:pass	_	_
 9	habeant	habeo	VERB	va2cpp3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	advcl	_	_
-10	promptissimam	promptus	ADJ	afs1as	Case=Acc|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	13	amod	_	_
+10	promptissimam	promo	VERB	afs1as	Aspect=Perf|Case=Acc|Degree=Abs|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
 11	atque	atque	CCONJ	co	Form=Emp	12	cc	_	_
 12	ineffabilem	ineffabilis	ADJ	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|Polarity=Neg	10	conj	_	_
 13	sufficientiam	sufficientia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	9	obj	_	_
@@ -8727,7 +8727,7 @@
 6	fiat	fio	VERB	vs5cps3	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	_
 7	circa	circa	ADP	e	_	9	case	_	_
 8	idem	idem	DET	dpnsa	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	9	det	_	_
-9	obiectum	obiectum	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	6	obl	_	SpaceAfter=No
+9	obiectum	obiectum	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Part	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	13	punct	_	_
 11	sed	sed	CCONJ	co	_	13	cc	_	_
 12	circa	circa	ADP	e	_	13	case	_	_
@@ -14707,11 +14707,11 @@
 15	,	,	PUNCT	Pu	_	23	punct	_	_
 16	et	et	CCONJ	co	_	23	cc	_	_
 17	utrobique	utrobique	ADV	r	Form=Emp	23	advmod	_	_
-18	comitata	comitatus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	23	xcomp	_	_
+18	comitata	comito	VERB	afs1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	23	xcomp	_	_
 19	et	et	CCONJ	co	_	20	cc	_	_
 20	incomitata	incomitatus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Polarity=Neg	18	conj	_	_
 21	desinentia	desinentia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	23	nsubj	_	_
-22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	18	cop	_	_
+22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	18	aux:pass	_	_
 23	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
 24	:	:	PUNCT	Pu	_	30	punct	_	_
 25	nam	nam	PART	co	_	30	discourse	_	_
@@ -14843,7 +14843,7 @@
 65	media	medius	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	66	nsubj	_	_
 66	videt	uideo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	73	acl:relcl	_	SpaceAfter=No
 67	,	,	PUNCT	Pu	_	68	punct	_	_
-68	comitatam	comitatus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	61	conj:expl	_	_
+68	comitatam	comito	VERB	afs1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	61	conj:expl	_	_
 69	quidem	quidem	PART	r	_	68	discourse	_	_
 70	vel	uel	CCONJ	co	_	71	cc	_	_
 71	incomitatam	incomitatus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Polarity=Neg	68	conj	_	SpaceAfter=No
