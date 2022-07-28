@@ -7635,13 +7635,13 @@
 17	vestrum	uester	DET	dsnsn	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	19	xcomp	_	_
 18	iuste	iuste	ADV	r	_	19	advmod	_	_
 19	censetur	censeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-20	accuratissime	accurate	ADV	rs	Degree=Abs|VerbForm=Part	19	advmod	_	_
-21	colere	colo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	19	csubj	_	_
+20	accuratissime	accurate	ADV	rs	Degree=Abs|VerbForm=Part	21	advmod	_	_
+21	colere	colo	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	19	csubj:pass	_	_
 22	ipsum	ipse	DET	ddesma	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	21	obj	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	27	punct	_	_
 24	cum	cum	SCONJ	cs	PronType=Rel	27	mark	_	_
 25	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
-26	vobis	tu	PRON	ppp2pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	27	obl	_	_
+26	vobis	tu	PRON	ppp2pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	27	obl:arg	_	_
 27	principium	principium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	19	advcl	_	_
 28	ipsius	ipse	DET	dpnsg	Case=Gen|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	30	det	_	_
 29	quoque	quoque	CCONJ	r	Form=Emp	30	advmod:emph	_	_
