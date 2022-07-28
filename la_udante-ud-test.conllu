@@ -10705,7 +10705,7 @@
 16-17	torquibusque	_	_	_	_	_	_	_	_
 16	torquibus	torquis	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	15	conj	_	_
 17	que	que	CCONJ	co9	Clitic=Yes	16	cc	_	_
-18	paratis	paratus	ADJ	amp1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	32	advcl:abs	_	SpaceAfter=No
+18	paratis	paro	VERB	amp1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	32	advcl:abs	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	18	punct	_	_
 20	promissum	promitto	VERB	vp3prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	21	acl	_	_
 21	fascem	fascis	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	29	nsubj	_	SpaceAfter=No
