@@ -1244,7 +1244,7 @@
 11	incipit	incipio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl:cmpr	_	_
 12	ab	ab	ADP	e	_	14	case	_	_
 13	“	“	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
-14	heu	heu	INTJ	i	_	11	obl	_	SpaceAfter=No
+14	heu	heu	PART	i	PartType=Emp	11	obl	_	SpaceAfter=No
 15	”	”	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	11	punct	_	_
 17	rationabile	rationabilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	_
@@ -2136,7 +2136,7 @@
 # citation_hierarchy = Liber_Primus,vii,Paragraphus_1
 1	Dispudet	dispudet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	3	punct	_	_
-3	heu	heu	INTJ	i	_	1	discourse	_	SpaceAfter=No
+3	heu	heu	PART	i	PartType=Emp	1	advmod:emph	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	5	punct	_	_
 5	nunc	nunc	ADV	r	_	1	discourse	_	_
 6	humani	humanus	ADJ	ans1g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	7	amod	_	_
@@ -3125,7 +3125,7 @@
 28	terminati	termino	VERB	vp1prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	15	conj	_	SpaceAfter=No
 29	;	;	PUNCT	Pu	_	37	punct	_	_
 30	a	a	ADP	e	_	31	case	_	_
-31	meridie	meridies	NOUN	sms5b	Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Sing	37	obl	_	_
+31	meridie	meridies	NOUN	sms5b	Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Sing	37	obl:lmod	_	_
 32	quoque	quoque	ADV	r	Form=Emp	37	discourse	_	_
 33	Provincialibus	prouincialis	ADJ	Smp3b	Case=Abl|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	37	obl:agent	_	_
 34	et	et	CCONJ	co	_	36	cc	_	_
