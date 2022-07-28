@@ -6148,7 +6148,7 @@
 16	locutio	locutio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	26	nsubj	_	_
 17	per	per	ADP	e	_	18	case	_	_
 18	commixtionem	commixtio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	26	obl	_	_
-19	oppositorum	oppositus	ADJ	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	18	nmod	_	_
+19	oppositorum	oppono	VERB	snp2g	Aspect=Perf|Case=Gen|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	18	nmod	_	_
 20	ut	ut	SCONJ	r	ConjType=Cmpr	21	mark	_	_
 21	dictum	dico	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	26	advcl:cmpr	_	_
 22	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
