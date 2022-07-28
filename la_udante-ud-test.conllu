@@ -12834,7 +12834,7 @@
 27	ipso	ipse	DET	ddesnb	Case=Abl|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	28	det	_	_
 28	corpore	corpus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	17	conj	_	SpaceAfter=No
 29	,	,	PUNCT	Pu	_	1	punct	_	_
-30	perfectam	perficio	VERB	afs1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	33	xcomp	_	_
+30	perfectam	perficio	VERB	afs1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	32	acl	_	_
 31	hominis	homo	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	32	nmod	_	_
 32	cognitionem	cognitio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	33	obj	_	_
 33	habere	habeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	35	xcomp	_	_
