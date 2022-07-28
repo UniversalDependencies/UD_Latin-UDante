@@ -7859,7 +7859,7 @@
 19	et	et	CCONJ	co	_	22	cc	_	_
 20	non	non	PART	r	Polarity=Neg	22	advmod:neg	_	_
 21	e	e	ADP	e	_	22	case	_	_
-22	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	16	conj	_	_
+22	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	conj	_	_
 23	-	-	PUNCT	Pu	_	26	punct	_	_
 24	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	26	nsubj:pass	_	_
 25	quendam	quidam	DET	dinsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	28	det	_	_
