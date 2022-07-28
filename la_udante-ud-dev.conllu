@@ -390,7 +390,7 @@
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	cum	cum	SCONJ	cs	PronType=Rel	16	mark	_	_
 4	per	per	ADP	e	_	7	case	_	_
-5	sancte	sanctus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
+5	sancte	sancio	VERB	afs1g	Aspect=Perf|Case=Gen|Gender=Fem|InflClass=LatI|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
 6	religionis	religio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	7	nmod	_	_
 7	virum	uir	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	16	obl:agent	_	_
 8	fratrem	frater	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	7	flat	_	_
