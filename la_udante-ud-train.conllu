@@ -10239,7 +10239,7 @@
 35	,	,	PUNCT	Pu	_	39	punct	_	_
 36	ab	ab	ADP	e	_	37	case	_	_
 37	urbe	urbs	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	39	obl	_	_
-38	sancta	sanctus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	37	amod	_	_
+38	sancta	sancio	VERB	afs1b	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatI|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	37	acl	_	_
 39	discessit	discedo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	conj	_	SpaceAfter=No
 40	,	,	PUNCT	Pu	_	43	punct	_	_
 41	nec	neque	CCONJ	co	Polarity=Neg	43	cc	_	_
