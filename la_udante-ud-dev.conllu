@@ -8880,7 +8880,7 @@
 29	cum	cum	ADP	e	_	31	case	_	_
 30	eius	is	PRON	ddesng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	31	nmod	_	_
 31	titulo	titulus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	41	obl	_	_
-32	iam	iam	ADV	r	_	42	advmod	_	_
+32	iam	iam	ADV	r	_	41	advmod	_	_
 33	presagium	praesagium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	42	obj	_	_
 34	de	de	ADP	e	_	38	mark	_	_
 35	gloria	gloria	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	38	nsubj:pass	_	_
@@ -8888,7 +8888,7 @@
 37	nominis	nomen	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	35	nmod	_	_
 38	amplianda	amplio	VERB	vp1gvsfb	Aspect=Imp|Case=Abl|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Gdv|Voice=Pass	33	acl	_	_
 39	satis	satis	ADV	r	_	40	advmod	_	_
-40	attentis	attentus	ADJ	amp1d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	41	obl:arg	_	_
+40	attentis	attendo	VERB	amp1d	Aspect=Perf|Case=Dat|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	41	obl:arg	_	_
 41	videbar	uideo	VERB	vd2iis1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	25	conj:expl	_	_
 42	expressisse	exprimo	VERB	va3fr	Aspect=Perf|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	41	xcomp	_	SpaceAfter=No
 43	;	;	PUNCT	Pu	_	44	punct	_	_
