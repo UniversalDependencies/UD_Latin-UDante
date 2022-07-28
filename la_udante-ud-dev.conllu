@@ -9926,7 +9926,7 @@
 33	et	et	CCONJ	co	_	36	cc	_	_
 34	sic	sic	ADV	r	PronType=Dem	36	advmod	_	_
 35	e	e	ADP	e	_	36	case	_	_
-36	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	31	conj	_	SpaceAfter=No
+36	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	31	conj	_	SpaceAfter=No
 37	:	:	PUNCT	Pu	_	43	punct	_	_
 38	Interdum	interdum	ADV	r	Compound=Yes	43	advmod	_	_
 39	tamen	tamen	ADV	r	PronType=Dem	43	advmod	_	_
