@@ -5869,9 +5869,9 @@
 # sent_id = DVE-158
 # text = Veneti quoque nec sese investigati vulgaris honore dignantur; et si quis eorum, errore confossus, vanitaret in hoc, recordetur si unquam dixit Per le plage de Dio tu no veras Inter quos omnes unum vidimus nitentem divertere a materno et ad curiale vulgare intendere, videlicet Ildebrandinum Paduanum.
 # citation_hierarchy = Liber_Primus,xiv,Paragraphus_7
-1	Veneti	uenetus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	8	nsubj:pass	_	_
+1	Veneti	uenetus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	8	nsubj	_	_
 2	quoque	quoque	ADV	r	Form=Emp	8	discourse	_	_
-3	nec	neque	CCONJ	co	Polarity=Neg	8	cc	_	_
+3	nec	neque	CCONJ	co	Polarity=Neg	4	advmod:emph	_	_
 4	sese	sui	PRON	ppp3pma	Case=Acc|Form=Emp|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 5	investigati	inuestigo	VERB	vp1prsng	Aspect=Perf|Case=Gen|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
 6	vulgaris	uulgare	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	5	nsubj:pass	_	_
@@ -5906,9 +5906,9 @@
 35	quos	qui	PRON	prepma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	38	obl	_	_
 36	omnes	omnis	DET	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	35	det	_	_
 37	unum	unus	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|NumType=Card|PronType=Ind	38	obj	_	_
-38	vidimus	uideo	VERB	va2irp1	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
-39	nitentem	nitens	VERB	ams2a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	37	acl	_	_
-40	divertere	diuerto	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	39	xcomp	_	_
+38	vidimus	uideo	VERB	va2irp1	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+39	nitentem	nitor	VERB	ams2a	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	38	xcomp	_	_
+40	divertere	diuerto	VERB	va3fp	Aspect=Imp|InflClass=LatX|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	38	xcomp	_	_
 41	a	a	ADP	e	_	42	case	_	_
 42	materno	maternus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	40	obl:arg	_	_
 43	et	et	CCONJ	co	_	47	cc	_	_
