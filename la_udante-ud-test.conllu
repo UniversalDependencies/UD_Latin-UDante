@@ -4059,7 +4059,7 @@
 # citation_hierarchy = Liber_Primus,x,Paragraphus_2
 1	Tertia	tertius	ADJ	aufs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	11	obl	_	_
 2	quoque	quoque	ADV	r	Form=Emp	11	discourse	_	SpaceAfter=No
-3	,	,	PUNCT	Pu	_	2	punct	_	_
+3	,	,	PUNCT	Pu	_	5	punct	_	_
 4	que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	5	nsubj	_	_
 5	Latinorum	latinus	ADJ	Smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	1	acl:relcl	_	_
 6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
