@@ -15004,9 +15004,9 @@
 # citation_hierarchy = Liber_Secundus,x,Paragraphus_7
 1	Et	et	CCONJ	co	_	3	cc	_	_
 2	forte	forte	ADV	r	_	3	advmod	_	_
-3	sanctius	sanctus	ADJ	ans1nc	Case=Nom|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	0	root	_	_
-4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-5	arbitrari	arbitror	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	3	csubj	_	_
+3	sanctius	sancio	VERB	ans1nc	Aspect=Perf|Case=Nom|Degree=Cmp|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurX|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+5	arbitrari	arbitror	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	3	csubj:pass	_	_
 6	divinitus	diuinitus	ADV	r	_	8	advmod	_	_
 7	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	8	nsubj	_	_
 8	exivisse	exeo	VERB	va5fr	Aspect=Perf|InflClass=LatAnom|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	5	xcomp	_	_
