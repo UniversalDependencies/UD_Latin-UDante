@@ -6156,7 +6156,7 @@
 24	laudabilem	laudabilis	ADJ	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	25	amod	_	_
 25	suavitatem	suauitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	27	obl	_	_
 26	remaneat	remaneo	VERB	va2cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj:pass	_	_
-27	temperata	temperatus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	26	xcomp:pred	_	SpaceAfter=No
+27	temperata	tempero	VERB	afs1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	26	xcomp:pred	_	SpaceAfter=No
 28	:	:	PUNCT	Pu	_	36	punct	_	_
 29	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	36	obj	_	_
 30	procul	procul	ADP	e	_	31	case	_	_
