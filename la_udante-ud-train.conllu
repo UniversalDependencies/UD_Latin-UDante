@@ -14604,8 +14604,8 @@
 24	consilium	consilium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	27	obj	_	_
 25	et	et	CCONJ	co	_	26	cc	_	_
 26	iudicium	iudicium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	24	conj	_	_
-27	exhibere	exhibeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	28	advcl	_	_
-28	contenti	contentus	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	20	advcl:pred	_	SpaceAfter=No
+27	exhibere	exhibeo	VERB	va2fp	Aspect=Imp|InflClass=LatE|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+28	contenti	contineo	VERB	amp1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	20	advcl:pred	_	SpaceAfter=No
 29	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Mon-390
