@@ -11825,7 +11825,7 @@
 28	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	30	cc	_	_
 29	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	fixed	_	_
 30	amor	amor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	26	conj:expl	_	_
-31	sanctus	sanctus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	30	amod	_	_
+31	sanctus	sancio	VERB	ams1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	30	acl	_	_
 32	sive	siue	CCONJ	co	_	33	cc	_	_
 33	caritas	caritas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	30	conj	_	SpaceAfter=No
 34	.	.	PUNCT	Pu	_	2	punct	_	_
