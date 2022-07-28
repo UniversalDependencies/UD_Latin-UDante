@@ -5938,14 +5938,14 @@
 11	,	,	PUNCT	Pu	_	14	punct	_	_
 12	nec	neque	CCONJ	co	Polarity=Neg	14	cc	_	_
 13	suum	suus	DET	dsnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	_
-14	oppositum	oppositus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	10	conj	_	_
+14	oppositum	oppono	VERB	sms4a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	10	conj	_	_
 15	ut	ut	SCONJ	r	ConjType=Cmpr	16	mark	_	_
 16	dictum	dico	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	14	advcl:cmpr	_	_
 17	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	20	punct	_	_
 19	nec	neque	CCONJ	co	Polarity=Neg	20	cc	_	_
 20	venetianum	uenetianus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	10	conj	_	_
-21	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	20	cop	_	_
+21	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	25	aux	_	_
 22	illud	ille	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	25	det	_	_
 23	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	24	obj	_	_
 24	querimus	quaero	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
