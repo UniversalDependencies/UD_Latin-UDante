@@ -12661,7 +12661,7 @@
 24	postulamus	postulo	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
 25	iuxta	iuxta	ADP	e	_	28	case	_	_
 26	iam	iam	ADV	r	_	24	advmod	_	_
-27	tritum	tritus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	28	amod	_	_
+27	tritum	tero	VERB	ans1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	28	acl	_	_
 28	proverbium	prouerbium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	24	obl	_	_
 29	«	«	PUNCT	Pu	_	34	punct	_	SpaceAfter=No
 30	Cui	qui	PRON	presmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	32	obl:arg	_	_
