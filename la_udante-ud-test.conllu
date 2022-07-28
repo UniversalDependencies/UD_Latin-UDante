@@ -9585,7 +9585,7 @@
 3	horum	hic	DET	ddipng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	1	nmod	_	_
 4	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	5	obj	_	_
 5	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
-6	promptum	promptus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	9	xcomp:pred	_	_
+6	promptum	promo	VERB	ans1n	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	_
 7	in	in	ADP	e	_	8	case	_	_
 8	conspectu	conspectus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	6	obl	_	_
 9	habetur	habeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
