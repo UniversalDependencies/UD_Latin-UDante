@@ -12622,7 +12622,7 @@
 8	legant	lego	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	Richardum	richardus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	8	obj	_	_
 10	de	de	ADP	e	_	12	case	_	_
-11	Sancto	sanctus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part	12	amod	_	_
+11	Sancto	sancio	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|Proper=Yes|VerbForm=Part|Voice=Pass	12	acl	_	_
 12	Victore	uictor	PROPN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	9	nmod	_	_
 13	in	in	ADP	e	_	14	case	_	_
 14	libro	liber	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	8	obl	_	_
