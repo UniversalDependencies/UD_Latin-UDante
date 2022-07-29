@@ -33894,7 +33894,7 @@
 5	quia	quia	SCONJ	cs	PronType=Rel	6	mark	_	_
 6	frangitur	frango	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl	_	_
 7	radius	radius	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	6	nsubj:pass	_	_
-8	rectus	rectus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	7	amod	_	_
+8	rectus	rego	VERB	ams1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	_
 9	rei	res	NOUN	sfs5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing	7	nmod	_	_
 10	visibilis	uisibilis	ADJ	afs2g	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing	9	amod	_	_
 11	inter	inter	ADP	e	_	12	case	_	_
