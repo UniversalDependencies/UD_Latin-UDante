@@ -12893,10 +12893,10 @@
 32	quin	quin	SCONJ	cs	ConjType=Cmpr|Polarity=Neg|PronType=Rel	46	mark	_	_
 33	ymo	immo	ADV	r	Degree=Abs	46	advmod	_	_
 34	a	a	ADP	e	_	35	case	_	_
-35	Scithis	scytha	NOUN	Smp1b	Case=Abl|Gender=Masc|InflClass=IndEurA|NameType=Nat|Number=Plur	46	obl:arg	_	_
+35	Scithis	scytha	NOUN	Smp1b	Case=Abl|Gender=Masc|InflClass=IndEurA|NameType=Nat|Number=Plur	46	obl:agent	_	_
 36	inter	inter	ADP	e	_	38	case	_	_
-37	quasi	quasi	ADV	r	Compound=Yes|PronType=Rel	38	advmod	_	_
-38	athlotetas	athlothetes	NOUN	smp3ar	Case=Acc|Gender=Masc|InflClass=IndEurA|Number=Plur	46	obl	_	_
+37	quasi	quasi	SCONJ	r	Compound=Yes|PronType=Rel	38	mark	_	_
+38	athlotetas	athlothetes	NOUN	smp3ar	Case=Acc|Gender=Masc|InflClass=IndEurA|Number=Plur	46	advcl:cmpr	_	_
 39	et	et	CCONJ	co	_	40	cc	_	_
 40	terminum	terminus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	38	conj	_	_
 41	ab	ab	ADP	e	_	42	case	_	_
