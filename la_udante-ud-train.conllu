@@ -11535,7 +11535,7 @@
 32	hominum	homo	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	33	nmod	_	_
 33	multitudinem	multitudo	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	31	obj	_	_
 34	ad	ad	ADP	e	_	36	case	_	_
-35	diversas	diuersus	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	36	amod	_	_
+35	diversas	diuerto	VERB	afp1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	36	acl	_	_
 36	operationes	operatio	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	37	obl	_	_
 37	ordinatorum	ordino	VERB	vp1prpmg	Aspect=Perf|Case=Gen|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	32	acl	_	SpaceAfter=No
 38	:	:	PUNCT	Pu	_	42	punct	_	_
