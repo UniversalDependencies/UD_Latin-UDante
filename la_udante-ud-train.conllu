@@ -4123,10 +4123,10 @@
 6	appropinquant	appropinquo	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	per	per	ADP	e	_	8	case	_	_
 8	Monarcham	monarcha	NOUN	sms1a	Case=Acc|Gender=Masc|InflClass=IndEurA|Number=Sing	6	obl	_	_
-9	et	et	CCONJ	co	_	12	cc	_	_
-10	non	non	PART	r	Polarity=Neg	12	advmod:neg	_	_
+9	et	et	CCONJ	co	_	10	cc	_	_
+10	non	non	PART	r	Polarity=Neg	6	conj	_	_
 11	e	e	ADP	e	_	12	case	_	_
-12	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	6	conj	_	SpaceAfter=No
+12	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	10	obl	_	SpaceAfter=No
 13	;	;	PUNCT	Pu	_	21	punct	_	_
 14	et	et	CCONJ	co	_	21	cc	_	_
 15	sic	sic	ADV	r	PronType=Dem	21	advmod	_	_
