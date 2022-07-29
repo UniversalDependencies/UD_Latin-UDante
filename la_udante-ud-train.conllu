@@ -1008,7 +1008,7 @@
 5	ultima	ultimus	ADJ	afs1ns	Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	4	amod	_	_
 6	in	in	ADP	e	_	7	case	_	_
 7	homine	homo	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	11	obl	_	_
-8	ipsum	ipse	DET	dpnsa	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	11	nsubj	_	_
+8	ipsum	ipse	DET	dpnsa	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	11	nsubj:pass	_	_
 9	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	11	aux:pass	_	_
 10	simpliciter	simpliciter	ADV	r	_	11	advmod	_	_
 11	sumptum	sumo	VERB	vp3prsma	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
