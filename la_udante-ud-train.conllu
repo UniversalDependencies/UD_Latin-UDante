@@ -31726,9 +31726,9 @@
 15	materiam	materia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	14	obj	_	_
 16	et	et	CCONJ	co	_	17	cc	_	_
 17	subiectum	subiectum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	15	conj	_	_
-18	mixtum	mixtus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	17	amod	_	_
+18	mixtum	misceo	VERB	ans1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	17	acl	_	_
 19	et	et	CCONJ	co	_	20	cc	_	_
-20	complexionatum	complexionatus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	18	conj	_	SpaceAfter=No
+20	complexionatum	complexiono	VERB	ans1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	18	conj	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	27	punct	_	_
 22	ad	ad	ADP	e	_	23	case	_	_
 23	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	27	obl	_	_
