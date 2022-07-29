@@ -17308,7 +17308,7 @@
 21	ab	ab	ADP	e	_	22	case	_	_
 22	architecto	architectus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	20	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	10	punct	_	_
-24	pluribus	multus	DET	amp1bc	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	27	amod	_	_
+24	pluribus	multus	DET	amp1bc	Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur|NumType=Card|PronType=Ind	27	amod	_	_
 25	et	et	CCONJ	co	_	26	cc	_	_
 26	diversis	diuersus	ADJ	anp1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	24	conj	_	_
 27	argumentis	argumentum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	28	obl:agent	_	_
