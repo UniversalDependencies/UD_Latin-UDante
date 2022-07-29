@@ -10325,7 +10325,7 @@
 10	canentis	cano	VERB	va3ppsmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	6	acl	_	SpaceAfter=No
 11	:	:	PUNCT	Pu	_	23	punct	_	_
 12-13	natosque	_	_	_	_	_	_	_	_
-12	natos	natus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	23	obj	_	_
+12	natos	nascor	VERB	smp2a	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	23	obj	_	_
 13	que	que	CCONJ	9	Clitic=Yes	23	cc	_	_
 14	pater	pater	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	23	nsubj	_	_
 15	nova	nouus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	16	amod	_	_
