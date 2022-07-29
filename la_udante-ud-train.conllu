@@ -21852,11 +21852,11 @@
 46	Imperator	imperator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	48	nsubj:pass	_	_
 47	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux:pass	_	_
 48	ordinatus	ordino	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	33	advcl	_	SpaceAfter=No
-49	,	,	PUNCT	Pu	_	53	punct	_	_
-50	et	et	CCONJ	co	_	53	cc	_	_
-51	non	non	PART	r	Polarity=Neg	53	advmod:neg	_	_
+49	,	,	PUNCT	Pu	_	51	punct	_	_
+50	et	et	CCONJ	co	_	51	cc	_	_
+51	non	non	PART	r	Polarity=Neg	48	conj	_	_
 52	e	e	ADP	e	_	53	case	_	_
-53	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	48	conj	_	SpaceAfter=No
+53	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	51	obl	_	SpaceAfter=No
 54	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = Mon-590
