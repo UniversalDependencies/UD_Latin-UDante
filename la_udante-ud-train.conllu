@@ -25867,9 +25867,9 @@
 23	ovantum	ouo	VERB	va1pppmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	28	nmod	_	_
 24	inclita	inclitus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	27	amod	_	_
 25	Peneis	peneus	ADJ	anp1b	Case=Abl|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Plur	28	amod	_	_
-26	redolentem	redoleo	VERB	va2ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	20	acl	_	_
+26	redolentem	redoleo	VERB	va2ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	21	advcl:pred	_	_
 27	tempora	tempus	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	26	obl	_	_
-28	sertis	sertum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	26	obl	_	SpaceAfter=No
+28	sertis	sero	VERB	snp2b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	26	obl	_	SpaceAfter=No
 29	,	,	PUNCT	Pu	_	34	punct	_	_
 30	ut	ut	SCONJ	r	ConjType=Cmpr	34	mark	_	_
 31	prevectus	praeuehor	VERB	vp3prsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	34	advcl:pred	_	_
