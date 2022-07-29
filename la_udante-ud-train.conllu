@@ -3907,7 +3907,7 @@
 14	sic	sic	ADV	r	PronType=Dem	20	cc	_	_
 15	karitas	caritas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	20	nsubj	_	_
 16	seu	seu	CCONJ	co	_	18	cc	_	_
-17	recta	rectus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	18	amod	_	_
+17	recta	rego	VERB	afs1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
 18	dilectio	dilectio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	15	conj	_	_
 19	illam	ille	DET	ddisfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	20	obj	_	_
 20	acuit	acuo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
