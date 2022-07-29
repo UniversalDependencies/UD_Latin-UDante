@@ -12059,23 +12059,23 @@
 45	virtutibus	uirtus	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	52	obl	_	_
 46	et	et	CCONJ	co	_	48	cc	_	_
 47	secundum	secundum	ADP	e	VerbForm=Gdv	48	case	_	_
-48	habitum	habitus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	45	conj	_	_
+48	habitum	habitus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	52	obl	_	_
 49	et	et	CCONJ	co	_	51	cc	_	_
 50	secundum	secundum	ADP	e	VerbForm=Gdv	51	case	_	_
 51	operationem	operatio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	48	conj	_	_
-52	perfectus	perfectus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	57	advcl:cmpr	_	SpaceAfter=No
+52	perfectus	perficio	VERB	ams1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	57	advcl:cmpr	_	SpaceAfter=No
 53	,	,	PUNCT	Pu	_	52	punct	_	_
 54	absque	absque	ADP	e	_	55	case	_	_
 55	fide	fides	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	56	obl	_	_
 56	salvari	saluo	VERB	vp1fp	Aspect=Imp|InflClass=LatA|InflClass[nominal]=Ind|VerbForm=Inf|Voice=Pass	57	xcomp	_	_
 57	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	conj:expl	_	SpaceAfter=No
 58	,	,	PUNCT	Pu	_	59	punct	_	_
-59	dato	do	VERB	vp1prsnb	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	57	advcl	_	_
+59	dato	do	VERB	vp1prsnb	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	57	advcl:abs	_	_
 60	quod	quod	SCONJ	cs	PronType=Rel	65	mark	_	_
 61	nunquam	numquam	ADV	r	Polarity=Neg	65	advmod	_	_
 62	aliquid	aliquis	PRON	dinsna	Case=Acc|Compound=Yes|Gender=Neut|Number=Sing|PronType=Ind	65	nsubj	_	_
 63	de	de	ADP	e	_	64	case	_	_
-64	Cristo	christus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	65	obl	_	_
+64	Cristo	christus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	62	nmod	_	_
 65	audiverit	audio	VERB	va4crs3	Aspect=Perf|InflClass=LatI|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	59	csubj:pass	_	SpaceAfter=No
 66	.	.	PUNCT	Pu	_	3	punct	_	_
 
