@@ -30162,7 +30162,7 @@
 18	,	,	PUNCT	Pu	_	16	punct	_	_
 19	movebuntur	moueo	VERB	vp2ifp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	_
 20	ad	ad	ADP	e	_	21	case	_	_
-21	diversa	diuersus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	19	obl	_	_
+21	diversa	diuerto	VERB	anp1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	19	obl	_	_
 22	deorsum	deorsum	ADV	r	VerbForm=Part	19	advmod	_	SpaceAfter=No
 23	;	;	PUNCT	Pu	_	22	punct	_	_
 24	quorum	qui	PRON	prepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	26	nmod	_	_
