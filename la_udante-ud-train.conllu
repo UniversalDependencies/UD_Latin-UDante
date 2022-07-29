@@ -961,10 +961,10 @@
 4	nulla	nullus	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Neg	5	det	_	_
 5	vis	uis	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	11	nsubj	_	_
 6	a	a	ADP	e	_	9	case	_	_
-7	pluribus	multus	DET	amp1bc	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	9	det	_	_
-8	spetie	species	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	9	nmod	_	_
-9	diversis	diuersus	ADJ	anp1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	10	obl	_	_
-10	participata	participo	VERB	vp1prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl:pred	_	_
+7	pluribus	multus	DET	amp1bc	Case=Abl|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Plur|NumType=Card|PronType=Ind	9	det	_	_
+8	spetie	species	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	9	obl	_	_
+9	diversis	diuerto	VERB	anp1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	10	obl:agent	_	_
+10	participata	participo	VERB	vp1prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
 11	ultimum	ultimum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	1	ccomp	_	_
 12	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 13	de	de	ADP	e	_	14	case	_	_
