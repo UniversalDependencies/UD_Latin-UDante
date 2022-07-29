@@ -7619,7 +7619,7 @@
 1	Et	et	CCONJ	co	_	55	cc	_	_
 2	quemadmodum	quemadmodum	SCONJ	r	Compound=Yes|ConjType=Cmpr|PronType=Rel	22	mark	_	SpaceAfter=No
 3	,	,	PUNCT	Pu	_	2	punct	_	_
-4	perfecto	perfectus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	6	amod	_	_
+4	perfecto	perficio	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
 5	existente	existo	VERB	va3ppsmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	14	advcl:abs	_	_
 6	artifice	artifex	NOUN	sms3b	Case=Abl|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing	5	nsubj	_	_
 7	atque	atque	CCONJ	co	Form=Emp	11	cc	_	_
