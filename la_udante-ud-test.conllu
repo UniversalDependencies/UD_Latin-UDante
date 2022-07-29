@@ -4236,7 +4236,7 @@
 10	,	,	PUNCT	Pu	_	11	punct	_	_
 11	Roma	roma	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	5	conj	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	13	punct	_	_
-13	Ducatus	ducatus	NOUN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Geo|Number=Sing|Proper=Yes|VerbForm=Part	5	conj	_	SpaceAfter=No
+13	Ducatus	ducatus	NOUN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurU|NameType=Geo|Number=Sing|Proper=Yes|VerbForm=Vnoun	5	conj	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	15	punct	_	_
 15	Tuscia	tuscia	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	5	conj	_	_
 16	et	et	CCONJ	co	_	18	cc	_	_
