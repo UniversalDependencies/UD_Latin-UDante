@@ -3956,7 +3956,7 @@
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_14
 1	Quod	quod	SCONJ	cs	PronType=Rel	5	mark	_	_
 2	autem	autem	CCONJ	co	_	12	cc	_	_
-3	recta	rectus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	4	amod	_	_
+3	recta	rego	VERB	afs1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
 4	dilectio	dilectio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	5	nsubj	_	_
 5	faciat	facio	VERB	va3cps3	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
 6	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	5	obj	_	_
