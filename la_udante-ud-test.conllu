@@ -15021,7 +15021,7 @@
 89	asperorum	asper	ADJ	amp1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	88	conj	_	_
 90	que	que	CCONJ	co9	Clitic=Yes	89	cc	_	_
 91	rithimorum	rhythmus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	92	nmod	_	_
-92	mixtura	mixtura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	95	obl:arg	_	_
+92	mixtura	mixtura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	95	obl	_	_
 93	ipsa	ipse	DET	dpfsn	Case=Nom|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	94	det	_	_
 94	tragedia	tragedia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	95	nsubj	_	_
 95	nitescit	nitesco	VERB	va3ips3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	76	conj	_	SpaceAfter=No
