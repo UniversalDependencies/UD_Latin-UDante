@@ -17310,7 +17310,7 @@
 23	,	,	PUNCT	Pu	_	10	punct	_	_
 24	pluribus	multus	DET	amp1bc	Case=Abl|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur|NumType=Card|PronType=Ind	27	amod	_	_
 25	et	et	CCONJ	co	_	26	cc	_	_
-26	diversis	diuersus	ADJ	anp1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	24	conj	_	_
+26	diversis	diuerto	VERB	anp1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	24	conj	_	_
 27	argumentis	argumentum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	28	obl:agent	_	_
 28	moventur	moueo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 29	;	;	PUNCT	Pu	_	35	punct	_	_
