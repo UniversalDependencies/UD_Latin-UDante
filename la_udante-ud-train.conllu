@@ -6833,7 +6833,7 @@
 28	,	,	PUNCT	Pu	_	29	punct	_	_
 29	existente	existo	VERB	va3ppsfb	Aspect=Imp|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	27	conj	_	_
 30	Monarchia	monarchia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	29	nsubj	_	_
-31	perfecta	perfectus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	30	amod	_	SpaceAfter=No
+31	perfecta	perficio	VERB	afs1b	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	29	advcl:pred	_	SpaceAfter=No
 32	,	,	PUNCT	Pu	_	36	punct	_	_
 33	mundum	mundus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	36	nsubj	_	_
 34	undique	undique	ADV	r	AdvType=Loc|Form=Emp|PronType=Ind	36	advmod:lmod	_	_
