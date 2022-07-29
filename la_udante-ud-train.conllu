@@ -2289,10 +2289,10 @@
 50	alter	alter	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	52	nsubj	_	_
 51	propter	propter	ADP	e	_	52	case	_	_
 52	hunc	hic	DET	ddisma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	43	conj	_	SpaceAfter=No
-53	,	,	PUNCT	Pu	_	56	punct	_	_
-54	non	non	PART	r	Polarity=Neg	56	advmod:neg	_	_
+53	,	,	PUNCT	Pu	_	54	punct	_	_
+54	non	non	PART	r	Polarity=Neg	52	conj	_	_
 55	e	e	ADP	e	_	56	case	_	_
-56	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	52	conj	_	SpaceAfter=No
+56	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	54	obl	_	SpaceAfter=No
 57	.	.	PUNCT	Pu	_	43	punct	_	_
 
 # sent_id = Mon-56
