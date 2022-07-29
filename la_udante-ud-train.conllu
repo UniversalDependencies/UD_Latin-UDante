@@ -4422,7 +4422,7 @@
 36	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	conj:expl	_	_
 37	tres	tres	NUM	aumpa	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|NumForm=Word|NumType=Card	36	obj	_	_
 38	duobus	duo	NUM	aumpd	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	39	nummod	_	_
-39	rectis	rectus	ADJ	amp1d	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	40	obl:arg	_	_
+39	rectis	rego	VERB	amp1d	Aspect=Perf|Case=Dat|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	40	obl:arg	_	_
 40	equales	aequalis	ADJ	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	37	amod	_	SpaceAfter=No
 41	”	”	PUNCT	Pu	_	36	punct	_	SpaceAfter=No
 42	.	.	PUNCT	Pu	_	3	punct	_	_
