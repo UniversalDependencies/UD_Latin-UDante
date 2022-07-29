@@ -6961,7 +6961,7 @@
 21	factum	facio	VERB	vp5prsna	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	25	advcl:pred	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	21	punct	_	_
 23	in	in	ADP	e	_	24	case	_	_
-24	diversa	diuersus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	25	obl	_	_
+24	diversa	diuerto	VERB	anp1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	25	obl	_	_
 25	conaris	conor	VERB	vd1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	14	advcl	_	SpaceAfter=No
 26	!	!	PUNCT	Pu	_	14	punct	_	_
 
