@@ -33042,7 +33042,7 @@
 32	ut	ut	SCONJ	cs	_	38	mark	_	_
 33	per	per	ADP	e	_	34	case	_	_
 34	organa	organum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	38	obl	_	_
-35	diversa	diuersus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	34	amod	_	_
+35	diversa	diuerto	VERB	anp1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	34	acl	_	_
 36	virtutes	uirtus	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	38	obj	_	_
 37	diversas	diuersus	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|VerbForm=Part	36	amod	_	_
 38	influeret	influo	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	advcl	_	SpaceAfter=No
