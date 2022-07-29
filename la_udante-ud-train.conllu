@@ -1001,29 +1001,29 @@
 # sent_id = Mon-26
 # text = Non est ergo vis ultima in homine ipsum esse simpliciter sumptum, quia etiam sic sumptum ab elementis participatur; nec esse complexionatum, quia hoc reperitur in mineralibus; nec esse animatum, quia sic etiam in plantis; nec esse apprehensivum, quia sic etiam participatur a brutis; sed esse apprehensivum per intellectum possibilem: quod quidem esse nulli ab homine alii competit vel supra vel infra.
 # citation_hierarchy = Liber_Primus,iii,Paragraphus_6
-1	Non	non	PART	r	Polarity=Neg	4	advmod:neg	_	_
-2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	ergo	ergo	ADV	co	AdvType=Loc	4	discourse	_	_
-4	vis	uis	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	0	root	_	_
+1	Non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
+2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop:outer	_	_
+3	ergo	ergo	ADV	co	AdvType=Loc	11	discourse	_	_
+4	vis	uis	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	11	nsubj:outer	_	_
 5	ultima	ultimus	ADJ	afs1ns	Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	4	amod	_	_
 6	in	in	ADP	e	_	7	case	_	_
-7	homine	homo	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	4	obl	_	_
-8	ipsum	ipse	DET	dpnsa	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	11	det	_	_
+7	homine	homo	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	11	obl	_	_
+8	ipsum	ipse	DET	dpnsa	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	11	nsubj	_	_
 9	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	11	aux:pass	_	_
 10	simpliciter	simpliciter	ADV	r	_	11	advmod	_	_
-11	sumptum	sumo	VERB	vp3prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	4	csubj	_	SpaceAfter=No
+11	sumptum	sumo	VERB	vp3prsma	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	19	punct	_	_
 13	quia	quia	SCONJ	cs	PronType=Rel	19	mark	_	_
-14	etiam	etiam	ADV	co	Compound=Yes	15	advmod:emph	_	_
+14	etiam	etiam	ADV	co	Compound=Yes	16	advmod:emph	_	_
 15	sic	sic	ADV	r	PronType=Dem	16	advmod	_	_
-16	sumptum	sumo	VERB	vp3prsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	19	advcl:pred	_	_
+16	sumptum	sumo	VERB	vp3prsma	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	19	advcl:pred	_	_
 17	ab	ab	ADP	e	_	18	case	_	_
-18	elementis	elementum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	19	obl	_	_
+18	elementis	elementum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	19	obl:agent	_	_
 19	participatur	participo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	SpaceAfter=No
 20	;	;	PUNCT	Pu	_	23	punct	_	_
 21	nec	neque	CCONJ	co	Polarity=Neg	23	cc	_	_
-22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	23	cop	_	_
-23	complexionatum	complexionatus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	11	conj	_	SpaceAfter=No
+22	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	23	aux:pass	_	_
+23	complexionatum	complexiono	VERB	ams1a	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	27	punct	_	_
 25	quia	quia	SCONJ	cs	PronType=Rel	27	mark	_	_
 26	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	27	nsubj:pass	_	_
@@ -1071,7 +1071,7 @@
 68	supra	supra	ADV	r	_	64	amod	_	_
 69	vel	uel	CCONJ	co	_	70	cc	_	_
 70	infra	infra	ADV	r	_	68	conj	_	SpaceAfter=No
-71	.	.	PUNCT	Pu	_	4	punct	_	_
+71	.	.	PUNCT	Pu	_	11	punct	_	_
 
 # sent_id = Mon-27
 # text = Nam, etsi alie sunt essentie intellectum participantes, non tamen intellectus earum est possibilis ut hominis, quia essentie tales speties quedam sunt intellectuales et non aliud, et earum esse nichil est aliud quam intelligere quod est quod sunt; quod est sine interpolatione, aliter sempiterne non essent.
