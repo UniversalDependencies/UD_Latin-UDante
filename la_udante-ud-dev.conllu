@@ -6312,7 +6312,7 @@
 19	dominorum	dominus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	20	nmod	_	_
 20	successibus	successus	NOUN	smp4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Plur|VerbForm=Sup	24	obl	_	_
 21	animi	animus	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	24	nsubj	_	_
-22	subditorum	subditus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur|VerbForm=Part	21	nmod	_	_
+22	subditorum	subdo	VERB	smp2g	Aspect=Perf|Case=Gen|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	21	nmod	_	_
 23	fidelium	fidelis	ADJ	amp2g	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur	22	amod	_	_
 24	colletentur	colletor	VERB	vd1cpp3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl:cmpr	_	SpaceAfter=No
 25	.	.	PUNCT	Pu	_	12	punct	_	_
