@@ -2804,7 +2804,7 @@
 9	filius	filius	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	7	nsubj	_	_
 10	cum	cum	SCONJ	cs	PronType=Rel	21	mark	_	_
 11	vestigia	uestigium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	21	obj	_	_
-12	perfecti	perfectus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	13	amod	_	_
+12	perfecti	perficio	VERB	ams1g	Aspect=Perf|Case=Gen|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	_
 13	patris	pater	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	21	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	13	punct	_	_
 15	in	in	ADP	e	_	19	mark	_	_
