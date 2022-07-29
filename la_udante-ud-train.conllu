@@ -2229,9 +2229,9 @@
 12	ordinis	ordo	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	17	punct	_	_
 14	sed	sed	CCONJ	co	_	17	cc	_	_
-15	magis	magis	ADV	rc	Degree=Cmp	17	advmod	_	_
+15	magis	magis	ADV	rc	Degree=Cmp	17	orphan	_	_
 16	e	e	ADP	e	_	17	case	_	_
-17	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	9	conj	_	SpaceAfter=No
+17	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	SpaceAfter=No
 18	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Mon-55
