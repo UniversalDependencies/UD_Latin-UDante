@@ -18694,12 +18694,12 @@
 27	in	in	ADP	e	_	28	case	_	_
 28	F	f	NOUN	yy	InflClass=Ind|NameType=Let	25	obl	_	SpaceAfter=No
 29	;	;	PUNCT	Pu	_	34	punct	_	_
-30	F	f	NOUN	yy	InflClass=Ind|NameType=Let	34	nsubj	_	_
+30	F	f	NOUN	yy	InflClass=Ind|NameType=Let	34	nsubj:pass	_	_
 31	vero	uero	ADV	r	_	34	discourse	_	_
 32	et	et	CCONJ	co	_	33	cc	_	_
 33	C	c	NOUN	yy	InflClass=Ind|NameType=Let	30	conj	_	_
-34	diversa	diuersus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	8	conj	_	_
-35	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	SpaceAfter=No
+34	diversa	diuerto	VERB	anp1n	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	8	conj	_	_
+35	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	SpaceAfter=No
 36	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Mon-500
