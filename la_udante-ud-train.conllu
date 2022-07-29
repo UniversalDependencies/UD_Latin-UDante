@@ -24934,7 +24934,7 @@
 5	,	,	PUNCT	Pu	_	4	punct	_	_
 6	velut	uelut	SCONJ	r	Compound=Yes|ConjType=Cmpr	9	mark	_	_
 7	ad	ad	ADP	e	_	9	case	_	_
-8	diversas	diuersus	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	9	amod	_	_
+8	diversas	diuerto	VERB	afp1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	9	acl	_	_
 9	conclusiones	conclusio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	14	advcl:cmpr	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	9	punct	_	_
 11	per	per	ADP	e	_	13	case	_	_
