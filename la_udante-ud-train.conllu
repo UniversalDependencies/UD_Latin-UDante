@@ -4860,7 +4860,7 @@
 10	,	,	PUNCT	Pu	_	16	punct	_	_
 11	sed	sed	CCONJ	co	_	16	cc	_	_
 12	e	e	ADP	e	_	13	case	_	_
-13	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	16	obl	_	_
+13	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	obl	_	_
 14	consules	consul	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	16	nsubj	_	_
 15	propter	propter	ADP	e	_	16	case	_	_
 16	cives	ciuis	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur	5	conj	_	_
