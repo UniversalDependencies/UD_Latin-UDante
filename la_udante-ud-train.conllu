@@ -22929,7 +22929,7 @@
 29	,	,	PUNCT	Pu	_	32	punct	_	_
 30	nec	neque	CCONJ	co	Polarity=Neg	32	cc	_	_
 31	e	e	ADP	e	_	32	case	_	_
-32	converso	conuersus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	23	conj	_	SpaceAfter=No
+32	converso	conuerto	VERB	ans1b	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	23	conj	_	SpaceAfter=No
 33	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Mon-620
