@@ -30051,7 +30051,7 @@
 53	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|InflClass[nominal]=Ind|Tense=Pres|VerbForm=Inf	55	cop	_	_
 54	per	per	ADP	e	_	55	case	_	_
 55	lineas	linea	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	52	csubj	_	_
-56	diversas	diuersus	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|VerbForm=Part	55	amod	_	SpaceAfter=No
+56	diversas	diuerto	VERB	afp1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	55	acl	_	SpaceAfter=No
 57	,	,	PUNCT	Pu	_	59	punct	_	_
 58	ut	ut	SCONJ	r	ConjType=Cmpr	59	mark	_	_
 59	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	55	advcl:cmpr	_	_
