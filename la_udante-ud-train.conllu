@@ -18483,7 +18483,7 @@
 18	que	qui	PRON	prepfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	20	nsubj	_	_
 19	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	res	res	NOUN	sfp5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Plur	7	acl:relcl	_	_
-21	diverse	diuersus	ADJ	afp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	20	amod	_	_
+21	diverse	diuerto	VERB	afp1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	20	acl	_	_
 22	subiecto	subiectum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	20	obl	_	_
 23	et	et	CCONJ	co	_	24	cc	_	_
 24	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	22	conj	_	SpaceAfter=No
