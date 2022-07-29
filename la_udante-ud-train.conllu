@@ -30041,7 +30041,7 @@
 43	aqua	aqua	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	35	conj	_	_
 44	per	per	ADP	e	_	45	case	_	_
 45	lineam	linea	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	43	orphan	_	_
-46	rectam	rectus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	45	amod	_	_
+46	rectam	rego	VERB	afs1a	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	45	acl	_	_
 47	ad	ad	ADP	e	_	48	case	_	_
 48	B	b	NOUN	yy	InflClass=Ind|NameType=Let	43	orphan	_	SpaceAfter=No
 49	;	;	PUNCT	Pu	_	52	punct	_	_
