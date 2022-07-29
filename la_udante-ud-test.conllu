@@ -11636,7 +11636,7 @@
 14	,	,	PUNCT	Pu	_	16	punct	_	_
 15	sine	sine	ADP	e	_	16	case	_	_
 16	accentu	accentus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	13	conj	_	_
-17	acuto	acutus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	16	amod	_	_
+17	acuto	acuo	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
 18	vel	uel	CCONJ	co	_	19	cc	_	_
 19	circumflexo	circumflecto	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	17	conj	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	22	punct	_	_
