@@ -533,7 +533,7 @@
 9	fons	fons	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	3	conj	_	_
 10	atque	atque	CCONJ	co	Form=Emp	11	cc	_	_
 11	principium	principium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	9	conj	_	_
-12	rectarum	rectus	ADJ	afp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	13	amod	_	_
+12	rectarum	rego	ADJ	afp1g	Aspect=Perf|Case=Gen|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	_
 13	politiarum	politia	NOUN	sfp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	20	punct	_	_
 15	et	et	CCONJ	co	_	20	cc	_	_
