@@ -4833,7 +4833,7 @@
 1	Et	et	CCONJ	co	_	6	cc	_	_
 2	huiusmodi	huiusmodi	DET	r	Compound=Yes|InflClass=Ind|PronType=Dem	3	nmod	_	_
 3	politie	politia	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	6	nsubj	_	_
-4	recte	rectus	ADJ	afp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	3	amod	_	_
+4	recte	rego	VERB	afp1n	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	_
 5	libertatem	libertas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	6	obj	_	_
 6	intendunt	intendo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	12	punct	_	_
