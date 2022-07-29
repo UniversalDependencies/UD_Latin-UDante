@@ -30103,7 +30103,7 @@
 14	que	qui	PRON	prepnn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	15	nsubj	_	_
 15	moventur	moueo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	acl:relcl	_	_
 16	motu	motus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing|VerbForm=Sup	15	obl	_	_
-17	recto	rectus	ADJ	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|VerbForm=Part	16	amod	_	SpaceAfter=No
+17	recto	rego	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	SpaceAfter=No
 18	;	;	PUNCT	Pu	_	21	punct	_	_
 19	et	et	CCONJ	co	_	21	cc	_	_
 20	levia	leuis	ADJ	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	21	nsubj	_	_
