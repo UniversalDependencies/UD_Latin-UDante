@@ -4804,7 +4804,7 @@
 2	Phylosophus	philosophus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	6	nsubj	_	_
 3	in	in	ADP	e	_	5	case	_	_
 4	suis	suus	DET	dsnpb	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
-5	Politicis	politicus	PROPN	Snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	6	obl:arg	_	_
+5	Politicis	politicus	PROPN	Snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	6	obl	_	_
 6	ait	aio	VERB	va5-ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	quod	quod	SCONJ	cs	PronType=Rel	15	mark	_	_
 8	in	in	ADP	e	_	9	case	_	_
