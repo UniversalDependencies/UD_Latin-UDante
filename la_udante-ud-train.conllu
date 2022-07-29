@@ -2825,9 +2825,9 @@
 4	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	celi	caelum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	9	punct	_	_
-7	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	nsubj	_	_
-8	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-9	perfectissimum	perfectus	ADJ	ans1ns	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	5	acl:relcl	_	_
+7	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	nsubj:pass	_	_
+8	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	perfectissimum	perficio	VERB	ans1ns	Aspect=Perf|Case=Nom|Degree=Abs|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
 10	in	in	ADP	e	_	12	case	_	_
 11	omni	omnis	DET	ans2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	12	det	_	_
 12	opere	opus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	9	obl	_	_
