@@ -11144,10 +11144,10 @@
 # sent_id = Mon-298
 # text = Similiter est de fine iuris: quia si aliquid, ut finis ipsius iuris, absque iure obtineretur, ita esset finis iuris, hoc est comune bonum, sicut exhibitio facta de male acquisito est elimosina; et sic, cum in propositione dicatur de fine iuris existente, non tantum apparente, instantia nulla est.
 # citation_hierarchy = Liber_Secundus,v,Paragraphus_26
-1	Similiter	similiter	ADV	r	_	0	root	_	_
-2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+1	Similiter	similiter	ADV	r	_	2	advmod	_	_
+2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	e	_	4	case	_	_
-4	fine	finis	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	1	obl	_	_
+4	fine	finis	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	2	obl	_	_
 5	iuris	ius	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	4	nmod	_	SpaceAfter=No
 6	:	:	PUNCT	Pu	_	7	punct	_	_
 7	quia	quia	SCONJ	cs	PronType=Rel	22	mark	_	_
@@ -11165,7 +11165,7 @@
 19	,	,	PUNCT	Pu	_	18	punct	_	_
 20	ita	ita	ADV	r	PronType=Dem	22	advmod	_	_
 21	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
-22	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	1	advcl	_	_
+22	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	2	advcl	_	_
 23	iuris	ius	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	22	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	28	punct	_	_
 25	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	28	nsubj	_	_
@@ -11201,7 +11201,7 @@
 55	instantia	instantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	56	nsubj	_	_
 56	nulla	nullus	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind	22	conj	_	_
 57	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	SpaceAfter=No
-58	.	.	PUNCT	Pu	_	1	punct	_	_
+58	.	.	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = Mon-299
 # text = Patet igitur quod querebatur.
