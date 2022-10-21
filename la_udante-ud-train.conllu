@@ -7692,7 +7692,7 @@
 74	naturantis	naturans	ADJ	ams2g	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Sing	73	amod	_	_
 75	et	et	CCONJ	co	_	76	cc	_	_
 76	celi	caelum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	73	conj	_	SpaceAfter=No
-77	;	;	PUNCT	Pu	_	78	punct	_	_
+77	;	;	PUNCT	Pu	_	103	punct	_	_
 78	et	et	CCONJ	co	_	103	cc	_	_
 79	quod	quod	SCONJ	cs	PronType=Rel	103	mark	_	_
 80	quicquid	quisquis	PRON	prisnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	85	nsubj	_	_
@@ -7701,7 +7701,7 @@
 83	rebus	res	NOUN	sfp5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Plur	85	obl	_	_
 84	inferioribus	infra	ADJ	afp1bc	Case=Abl|Degree=Cmp|Gender=Fem|InflClass=IndEurX|Number=Plur	83	amod	_	_
 85	bonum	bonum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	103	csubj:relcl	_	SpaceAfter=No
-86	,	,	PUNCT	Pu	_	80	punct	_	_
+86	,	,	PUNCT	Pu	_	85	punct	_	_
 87	cum	cum	SCONJ	cs	PronType=Rel	93	mark	_	_
 88	ab	ab	ADP	e	_	90	case	_	_
 89	ipsa	ipse	DET	dpfsb	Case=Abl|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	90	det	_	_
