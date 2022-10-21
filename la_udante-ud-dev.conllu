@@ -128,8 +128,8 @@
 36	,	,	PUNCT	Pu	_	35	punct	_	_
 37	et	et	CCONJ	co	_	55	cc	_	_
 38	examinatis	examino	VERB	vp1prpnb	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	54	advcl:abs	_	_
-39	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	38	obj	_	_
-40	tangimus	tango	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	39	acl:relcl	_	SpaceAfter=No
+39	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	40	obj	_	_
+40	tangimus	tango	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	38	csubj:relcl	_	SpaceAfter=No
 41	,	,	PUNCT	Pu	_	38	punct	_	_
 42	ubi	ubi	SCONJ	r	AdvType=Loc|PronType=Rel	48	mark	_	_
 43	forte	forte	ADV	r	_	48	advmod	_	_
@@ -242,13 +242,13 @@
 26	,	,	PUNCT	Pu	_	27	punct	_	_
 27	nisi	nisi	SCONJ	cs	Polarity=Neg	41	mark	_	_
 28	ut	ut	SCONJ	cs	PronType=Rel	41	mark	_	_
-29	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	41	nsubj	_	_
+29	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	34	nsubj	_	_
 30	civilia	ciuilis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	31	amod	_	_
 31	iura	ius	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	34	obj	_	_
 32	temeraria	temerarius	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	33	amod	_	_
 33	voluptate	uoluptas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	34	obl	_	_
-34	truncaverant	trunco	VERB	va1i+p3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	SpaceAfter=No
-35	,	,	PUNCT	Pu	_	29	punct	_	_
+34	truncaverant	trunco	VERB	va1i+p3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	41	csubj:relcl	_	SpaceAfter=No
+35	,	,	PUNCT	Pu	_	34	punct	_	_
 36	et	et	CCONJ	co	_	41	cc	_	_
 37	iugo	iugum	NOUN	sns2d	Case=Dat|Gender=Neut|InflClass=IndEurO|Number=Sing	41	obl:arg	_	_
 38	pie	pius	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	39	amod	_	_
@@ -299,7 +299,7 @@
 # citation_hierarchy = I,Paragraphus_7
 1	Quod	quod	SCONJ	r	PronType=Rel	31	mark	_	_
 2	si	si	SCONJ	cs	_	7	mark	_	_
-3	tam	tam	ADV	r	NumType=Card|PronType=Dem	7	advmod	_	_
+3	tam	tam	ADV	r	PronType=Dem	7	advmod	_	_
 4	gratissimo	gratus	ADJ	ans1ds	Case=Dat|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	6	amod	_	_
 5	nobis	ego	PRON	ppp1pmd	Case=Dat|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
 6	beneficio	beneficium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	7	obl:arg	_	_
@@ -499,27 +499,27 @@
 17	pacis	pax	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	15	conj	_	_
 18	irrigare	irrigo	VERB	va1fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	19	xcomp	_	_
 19	velitis	uolo	VERB	va5cpp2	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	SpaceAfter=No
-20	,	,	PUNCT	Pu	_	26	punct	_	_
+20	,	,	PUNCT	Pu	_	25	punct	_	_
 21-22	eiusque	_	_	_	_	_	_	_	_
 21	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	24	det	_	_
 22	que	que	CCONJ	co9	_	21	cc	_	_
 23	semper	semper	ADV	r	AdvType=Tim	25	advmod:tmod	_	_
 24	populum	populus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	25	obj	_	_
-25	defensantes	defenso	VERB	va1pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	26	acl	_	_
-26	nos	ego	PRON	ppp1pma	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	38	obj	_	_
-27	et	et	CCONJ	co	_	28	cc	_	_
-28	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	26	conj	_	_
+25	defensantes	defenso	VERB	va1pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	38	obj	_	_
+26	nos	ego	PRON	ppp1pma	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	25	det	_	_
+27	et	et	CCONJ	co	_	31	cc	_	_
+28	que	qui	PRON	prepna	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	31	nsubj	_	_
 29	nostri	noster	DET	dsnsg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	31	det	_	_
 30	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
-31	iuris	ius	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	28	acl:relcl	_	SpaceAfter=No
-32	,	,	PUNCT	Pu	_	26	punct	_	_
+31	iuris	ius	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	25	conj	_	SpaceAfter=No
+32	,	,	PUNCT	Pu	_	25	punct	_	_
 33	ut	ut	SCONJ	r	PronType=Rel	35	mark	_	_
 34	pius	pius	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	35	amod	_	_
-35	pater	pater	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	37	advcl:cmp	_	SpaceAfter=No
+35	pater	pater	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	38	advcl:cmp	_	SpaceAfter=No
 36	,	,	PUNCT	Pu	_	35	punct	_	_
 37	commendatos	commendo	VERB	vp1prpma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	38	xcomp	_	_
 38	habere	habeo	VERB	va2fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	18	conj	_	SpaceAfter=No
-39	;	;	PUNCT	Pu	_	40	punct	_	_
+39	;	;	PUNCT	Pu	_	55	punct	_	_
 40	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	55	nsubj	_	_
 41	velud	uelut	SCONJ	r	Compound=Yes	46	mark	_	_
 42	a	a	ADP	e	_	44	case	_	_
@@ -535,11 +535,11 @@
 52	limitibus	limes	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	54	obl	_	_
 53	nunquam	numquam	ADV	r	Polarity=Neg	54	advmod	_	_
 54	exorbitare	exorbito	VERB	va1fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	55	xcomp	_	_
-55	intendimus	intendo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	SpaceAfter=No
+55	intendimus	intendo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	SpaceAfter=No
 56	,	,	PUNCT	Pu	_	65	punct	_	_
 57	sed	sed	CCONJ	co	_	65	cc	_	_
 58	semper	semper	ADV	r	AdvType=Tim	65	advmod:tmod	_	_
-59	tam	tam	ADV	r	NumType=Card|PronType=Dem	60	advmod	_	_
+59	tam	tam	ADV	r	PronType=Dem	60	advmod	_	_
 60	debite	debite	ADV	r	VerbForm=Part	65	advmod	_	_
 61	quam	quam	SCONJ	c	PronType=Rel	62	mark	_	_
 62	devote	deuote	ADV	r	_	60	advcl:cmp	_	_
@@ -777,14 +777,14 @@
 13	celis	caelum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	11	obl	_	SpaceAfter=No
 14	;	;	PUNCT	Pu	_	15	punct	_	_
 15	et	et	CCONJ	co	_	35	cc	_	_
-16	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	35	nsubj	_	_
+16	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	19	nsubj	_	_
 17	Romane	romanus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Nat|Number=Sing	18	amod	_	_
 18	aule	aula	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	19	nmod	_	_
-19	palatinus	palatinus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	16	acl:relcl	_	_
+19	palatinus	palatinus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	35	csubj:relcl	_	_
 20	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
 21	in	in	ADP	e	_	22	case	_	_
 22	Tuscia	tuscia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	19	obl	_	SpaceAfter=No
-23	,	,	PUNCT	Pu	_	16	punct	_	_
+23	,	,	PUNCT	Pu	_	19	punct	_	_
 24	nunc	nunc	ADV	r	AdvType=Tim	35	advmod:tmod	_	_
 25	regie	regia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	28	nmod	_	_
 26	sempiterne	sempiternus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	25	amod	_	_
@@ -1047,9 +1047,9 @@
 26	inspecta	inspicio	VERB	vp3prsfb	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	32	advcl:abs	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	26	punct	_	_
 28	ipse	ipse	DET	ddesmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	32	advcl:pred	_	_
-29	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	32	obj	_	_
+29	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	31	nsubj:pass	_	_
 30	non	non	PART	r	Polarity=Neg	31	advmod:neg	_	_
-31	exprimitur	exprimo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	acl:relcl	_	_
+31	exprimitur	exprimo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	32	ccomp:relcl	_	_
 32	metiaris	metior	VERB	vd4cps2	Aspect=Imp|InflClass=LatI|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	19	conj	_	SpaceAfter=No
 33	.	.	PUNCT	Pu	_	19	punct	_	_
 
@@ -1236,10 +1236,10 @@
 18	superest	supersum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 19	ut	ut	SCONJ	cs	PronType=Rel	20	mark	_	_
 20	intueare	intueor	VERB	vd2xcps2	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	18	csubj	_	SpaceAfter=No
-21	;	;	PUNCT	Pu	_	23	punct	_	_
-22	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	23	cc	_	_
-23	ubi	ubi	ADV	cs	AdvType=Loc|PronType=Rel	5	conj:expl	_	_
-24	tradit	trado	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+21	;	;	PUNCT	Pu	_	24	punct	_	_
+22	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	24	cc	_	_
+23	ubi	ubi	ADV	cs	AdvType=Loc|PronType=Rel	24	advmod:lmod	_	_
+24	tradit	trado	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj:expl	_	_
 25	autor	auctor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	24	nsubj	_	_
 26	equidem	equidem	PART	r	Form=Emp	24	discourse	_	_
 27	in	in	ADP	e	_	28	case	_	_
@@ -1343,8 +1343,8 @@
 33	fuissetis	sum	AUX	va5c+p2	Aspect=Perf|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=2|Tense=Pqp|VerbForm=Fin	39	advcl	_	SpaceAfter=No
 34	,	,	PUNCT	Pu	_	33	punct	_	_
 35	mundus	mundus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	39	nsubj	_	_
-36	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	39	obj	_	_
-37	suum	suus	DET	dsnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	36	acl:relcl	_	_
+36	quod	qui	PRON	presna	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	37	nsubj	_	_
+37	suum	suus	DET	dsnsa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	39	ccomp:relcl	_	_
 38	erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	_
 39	diligeret	diligo	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	dislocated:csubj	_	SpaceAfter=No
 40	»	»	PUNCT	Pu	_	39	punct	_	SpaceAfter=No
@@ -1523,13 +1523,13 @@
 15	sua	suus	DET	dsnpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
 16	repatrians	repatrio	VERB	va1ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	26	advcl:pred	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	16	punct	_	_
-18	quicquid	quisquis	PRON	presnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	26	obj	_	_
+18	quicquid	quisquis	PRON	presnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	20	nsubj	_	_
 19	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	20	obl:arg	_	_
-20	contrarium	contrarius	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	18	acl:relcl	_	_
+20	contrarium	contrarius	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	26	ccomp:relcl	_	_
 21	fuerat	sum	AUX	va5i+s3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	20	cop	_	_
 22	intra	intra	ADP	e	_	23	case	_	_
 23	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	20	obl	_	SpaceAfter=No
-24	,	,	PUNCT	Pu	_	18	punct	_	_
+24	,	,	PUNCT	Pu	_	20	punct	_	_
 25	vel	uel	CCONJ	co	_	26	cc	_	_
 26	occidit	occido	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 27	vel	uel	CCONJ	co	_	28	cc	_	_
@@ -1560,7 +1560,7 @@
 16	assiduas	assiduus	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	23	punct	_	_
 18	quibus	qui	PRON	prepfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	23	obl	_	_
-19	tam	tam	ADV	r	NumType=Card|PronType=Dem	23	advmod	_	_
+19	tam	tam	ADV	r	PronType=Dem	23	advmod	_	_
 20	celestia	celestis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	23	obj	_	_
 21	quam	quam	SCONJ	c	PronType=Rel	22	mark	_	_
 22	terrestria	terrester	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	23	advcl:cmp	_	_
@@ -1771,8 +1771,8 @@
 12	,	,	PUNCT	Pu	_	14	punct	_	_
 13	et	et	CCONJ	co	_	14	cc	_	_
 14	confundentur	confundo	VERB	vp3ifp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	1	conj	_	_
-15	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	14	nsubj	_	_
-16	diligunt	diligo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+15	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	16	nsubj	_	_
+16	diligunt	diligo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	csubj:relcl	_	_
 17	iniquitatem	iniquitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	16	obj	_	_
 18	a	a	ADP	e	_	19	case	_	_
 19	facie	facies	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	14	obl:agent	_	_
@@ -1873,31 +1873,31 @@
 6	dele	deleo	VERB	va2mps2	Aspect=Imp|InflClass=LatE|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	8	punct	_	_
 8	pulcerrima	pulcher	ADJ	afs1vs	Case=Voc|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	1	vocative	_	SpaceAfter=No
-9	,	,	PUNCT	Pu	_	13	punct	_	_
-10	nam	nam	PART	co	_	13	discourse	_	_
-11	prope	prope	ADV	r	_	13	advmod	_	_
-12	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	1	conj	_	_
-14	liberabit	libero	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+9	,	,	PUNCT	Pu	_	11	punct	_	_
+10	nam	nam	PART	co	_	11	discourse	_	_
+11	prope	prope	ADV	r	_	1	conj	_	_
+12	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+13	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	14	nsubj	_	_
+14	liberabit	libero	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	csubj:relcl	_	_
 15	te	tu	PRON	ppp2sfa	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	14	obj	_	_
 16	de	de	ADP	e	_	17	case	_	_
 17	carcere	carcer	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	14	obl	_	_
 18	impiorum	impius	ADJ	amp1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	17	nmod	_	SpaceAfter=No
-19	;	;	PUNCT	Pu	_	20	punct	_	_
-20	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	13	conj	_	_
+19	;	;	PUNCT	Pu	_	26	punct	_	_
+20	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	26	nsubj	_	_
 21	percutiens	percutio	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	26	advcl:pred	_	_
 22	malignantes	malignor	VERB	vd1pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	21	obj	_	_
 23	in	in	ADP	e	_	24	case	_	_
 24	ore	os	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	26	obl	_	_
 25	gladii	gladius	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	24	nmod	_	_
-26	perdet	perdo	VERB	va3ifs3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+26	perdet	perdo	VERB	va3ifs3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	conj	_	_
 27	eos	is	PRON	ddepma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	33	punct	_	_
 29	et	et	CCONJ	co	_	33	cc	_	_
 30	vineam	uinea	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	33	obj	_	_
 31	suam	suus	DET	dsfsa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	30	det	_	_
 32	aliis	alius	DET	dpmpd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	34	det	_	_
-33	locabit	loco	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	26	conj	_	_
+33	locabit	loco	VERB	va1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	conj	_	_
 34	agricolis	agricola	NOUN	smp1d	Case=Dat|Compound=Yes|Gender=Masc|InflClass=IndEurA|Number=Plur	33	obl	_	_
 35	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	38	nsubj	_	_
 36	fructum	fructus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	38	obj	_	_
@@ -2132,13 +2132,13 @@
 20	ordinationi	ordinatio	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	21	obl:arg	_	_
 21	resistit	resisto	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	SpaceAfter=No
 22	»	»	PUNCT	Pu	_	21	punct	_	SpaceAfter=No
-23	;	;	PUNCT	Pu	_	25	punct	_	_
+23	;	;	PUNCT	Pu	_	28	punct	_	_
 24	et	et	CCONJ	co	_	25	cc	_	_
-25	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	33	nsubj	_	_
+25	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	28	nsubj	_	_
 26	divine	diuinus	ADJ	afs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	27	amod	_	_
 27	ordinationi	ordinatio	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	28	obl:arg	_	_
-28	repugnat	repugno	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	SpaceAfter=No
-29	,	,	PUNCT	Pu	_	25	punct	_	_
+28	repugnat	repugno	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	csubj:relcl	_	SpaceAfter=No
+29	,	,	PUNCT	Pu	_	28	punct	_	_
 30	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	33	obl:arg	_	_
 31	omnipotentie	omnipotentia	NOUN	sfs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	32	obl:arg	_	_
 32	coequali	coaequalis	ADJ	afs2d	Case=Dat|Gender=Fem|InflClass=IndEurI|Number=Sing	30	amod	_	_
@@ -2416,8 +2416,8 @@
 # sent_id = Epi-66
 # text = Qui bibitis fluenta eius eiusque maria navigatis; qui calcatis arenas littorum et Alpium summitates, que sue sunt; qui publicis quibuscunque gaudetis, et res privatas vinculo sue legis, non aliter, possidetis; nolite, velut ignari, decipere vosmetipsos tanquam sompniantes, in cordibus et dicentes: «Dominum non habemus».
 # citation_hierarchy = V,Paragraphus_20
-1	Qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	39	nsubj	_	_
-2	bibitis	bibo	VERB	va3ipp2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+1	Qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	2	nsubj	_	_
+2	bibitis	bibo	VERB	va3ipp2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	39	csubj:relcl	_	_
 3	fluenta	fluentum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	2	obj	_	_
 4	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
 5-6	eiusque	_	_	_	_	_	_	_	_
@@ -2425,9 +2425,9 @@
 6	que	que	CCONJ	co9	_	5	cc	_	_
 7	maria	mare	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	8	obj	_	_
 8	navigatis	nauigo	VERB	va1p2	Aspect=Imp|Compound=Yes|InflClass=LatA|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
-9	;	;	PUNCT	Pu	_	10	punct	_	_
-10	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	1	conj	_	_
-11	calcatis	calco	VERB	va1ipp2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+9	;	;	PUNCT	Pu	_	11	punct	_	_
+10	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	11	nsubj	_	_
+11	calcatis	calco	VERB	va1ipp2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 12	arenas	arena	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	11	obj	_	_
 13	littorum	litus	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur|VerbForm=Part	12	nmod	_	_
 14	et	et	CCONJ	co	_	16	cc	_	_
@@ -2437,11 +2437,11 @@
 18	que	qui	PRON	prepfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	19	nsubj	_	_
 19	sue	suus	DET	dsfpn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	16	acl:relcl	_	_
 20	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
-21	;	;	PUNCT	Pu	_	22	punct	_	_
-22	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	1	conj	_	_
+21	;	;	PUNCT	Pu	_	25	punct	_	_
+22	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	25	nsubj	_	_
 23	publicis	publicus	ADJ	afp1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	25	obj	_	_
 24	quibuscunque	quicumque	DET	dinpnb	Case=Abl|Compound=Yes|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	23	det	_	_
-25	gaudetis	gaudeo	VERB	vs2ipp2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	22	acl	_	SpaceAfter=No
+25	gaudetis	gaudeo	VERB	vs2ipp2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	27	punct	_	_
 27	et	et	CCONJ	co	_	37	cc	_	_
 28	res	res	NOUN	sfp5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur	37	obj	_	_
@@ -2454,7 +2454,7 @@
 35	aliter	aliter	ADV	r	PronType=Con	37	advmod	_	SpaceAfter=No
 36	,	,	PUNCT	Pu	_	35	punct	_	_
 37	possidetis	possideo	VERB	va2ipp2	Aspect=Imp|Compound=Yes|InflClass=LatE|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	SpaceAfter=No
-38	;	;	PUNCT	Pu	_	1	punct	_	_
+38	;	;	PUNCT	Pu	_	2	punct	_	_
 39	nolite	nolo	VERB	va5mpp2	Aspect=Imp|InflClass=LatAnom|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 40	,	,	PUNCT	Pu	_	42	punct	_	_
 41	velut	uelut	SCONJ	r	Compound=Yes	42	mark	_	_
@@ -2489,9 +2489,9 @@
 4	et	et	CCONJ	co	_	5	cc	_	_
 5	lacus	lacus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	1	conj	_	_
 6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-7	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	1	obj	_	_
+7	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	obj	_	_
 8	celum	caelum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	9	nsubj	_	_
-9	circuit	circueo	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
+9	circuit	circueo	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:relcl	_	SpaceAfter=No
 10	;	;	PUNCT	Pu	_	15	punct	_	_
 11	nam	nam	PART	co	_	15	discourse	_	_
 12	«	«	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
@@ -2702,8 +2702,8 @@
 9	,	,	PUNCT	Pu	_	7	punct	_	_
 10	ad	ad	ADP	e	_	11	mark	_	_
 11	probandum	probo	VERB	va1fga	Aspect=Prosp|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	_
-12	quod	qui	PRON	presnn	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	11	nsubj:pass	_	_
-13	queritur	quaero	VERB	vp3*ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	acl:relcl	_	_
+12	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	13	nsubj:pass	_	_
+13	queritur	quaero	VERB	vp3*ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	csubj:relcl	_	_
 14	non	non	PART	r	Polarity=Neg	15	advmod:neg	_	_
 15	sufficiunt	sufficio	VERB	v3ipp3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	15	punct	_	_
@@ -2775,8 +2775,8 @@
 27	alterutri	alteruter	DET	dinsmd	Case=Dat|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	29	obl:arg	_	_
 28	iussit	iubeo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 29	reddi	reddo	VERB	vp3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	28	ccomp	_	_
-30	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	29	nsubj:pass	_	_
-31	sua	suus	DET	dsnpn	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	30	acl:relcl	_	_
+30	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	31	nsubj	_	_
+31	sua	suus	DET	dsnpn	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	29	csubj:relcl	_	_
 32	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	SpaceAfter=No
 33	.	.	PUNCT	Pu	_	28	punct	_	_
 
@@ -2811,12 +2811,12 @@
 26	Lux	lux	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing|Proper=Yes	31	nsubj	_	_
 27	nostra	noster	DET	dsfsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	_
 28	de	de	ADP	e	_	29	case	_	_
-29	sursum	sursum	ADV	r	VerbForm=Part	32	nsubj	_	_
-30	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	32	cop	_	_
+29	sursum	sursum	ADV	r	VerbForm=Part	31	ccomp	_	_
+30	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	29	cop	_	_
 31	asseruit	assero	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
-32	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	31	ccomp	_	_
+32	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	34	obj	_	_
 33	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	34	nsubj	_	_
-34	iactabat	iacto	VERB	va1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
+34	iactabat	iacto	VERB	va1iis3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	29	csubj:relcl	_	_
 35	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	40	nsubj	_	_
 36	Cesaris	caesar	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	38	nmod	_	_
 37	ibi	ibi	ADV	r	AdvType=Loc	40	advmod:lmod	_	_
@@ -3056,12 +3056,12 @@
 3	hanc	hic	DET	dpfsa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	6	det	_	_
 4	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	6	nmod	_	_
 5	manifestissimam	manifestus	ADJ	afs1as	Case=Acc|Compound=Yes|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
-6	voluntatem	uoluntas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	9	obl	_	_
-7	quicunque	quicumque	PRON	pripmn	Case=Nom|Compound=Yes|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	35	nsubj:pass	_	_
+6	voluntatem	uoluntas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	10	obl	_	_
+7	quicunque	quicumque	PRON	pripmn	Case=Nom|Compound=Yes|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	10	nsubj	_	_
 8	temere	temere	ADV	r	_	10	advmod	_	_
 9	presumendo	praesumo	VERB	va3fgb	Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl	_	_
-10	tumescunt	tumesco	VERB	va3ipp3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
-11	,	,	PUNCT	Pu	_	7	punct	_	_
+10	tumescunt	tumesco	VERB	va3ipp3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	csubj:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	Pu	_	10	punct	_	_
 12	si	si	SCONJ	cs	_	26	mark	_	_
 13	gladius	gladius	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	26	nsubj	_	_
 14	Eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs|Proper=Yes	13	nmod	_	_
@@ -3214,12 +3214,12 @@
 26	conquiri	conquiro	VERB	vp3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	23	conj	_	SpaceAfter=No
 27	;	;	PUNCT	Pu	_	28	punct	_	_
 28	nam	nam	PART	co	_	40	discourse	_	_
-29	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	40	nsubj	_	_
+29	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	32	nsubj	_	_
 30	ad	ad	ADP	e	_	33	case	_	_
 31	omnium	omnis	DET	amp2g	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	33	nmod	_	_
-32	cedit	cedo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+32	cedit	cedo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	csubj:relcl	_	_
 33	utilitatem	utilitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	32	obl	_	SpaceAfter=No
-34	,	,	PUNCT	Pu	_	29	punct	_	_
+34	,	,	PUNCT	Pu	_	32	punct	_	_
 35	sine	sine	ADP	e	_	37	case	_	_
 36	omnium	omnis	DET	amp2g	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	37	nmod	_	_
 37	detrimento	detrimentum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	38	obl	_	_
@@ -3349,8 +3349,8 @@
 10	sine	sine	ADP	e	_	12	case	_	_
 11	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	12	nmod	_	_
 12	timore	timor	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	15	obl	_	_
-13	quicquid	quisquis	PRON	presna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	15	obj	_	_
-14	libet	libet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+13	quicquid	quisquis	PRON	presna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	14	obj	_	_
+14	libet	libet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp:relcl	_	_
 15	agentis	ago	VERB	va3ppsmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	3	advcl:cmp	_	SpaceAfter=No
 16	.	.	PUNCT	Pu	_	3	punct	_	_
 
@@ -3612,16 +3612,16 @@
 22	precipitetur	praecipito	VERB	vp1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	SpaceAfter=No
 23	;	;	PUNCT	Pu	_	24	punct	_	_
 24	et	et	CCONJ	co	_	36	cc	_	_
-25	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	36	nsubj	_	_
+25	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	28	nsubj:pass	_	_
 26	divine	diuinus	ADJ	afs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	27	amod	_	_
 27	voluntati	uoluntas	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	28	obl:arg	_	_
-28	reluctatus	reluctor	VERB	vd1irs3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
+28	reluctatus	reluctor	VERB	vd1irs3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	36	csubj:relcl	_	_
 29	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
 30	et	et	CCONJ	co	_	31	cc	_	_
 31	sciens	scio	VERB	va4ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	28	advcl:pred	_	_
 32	et	et	CCONJ	co	_	33	cc	_	_
 33	volens	uolo	VERB	va5ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	31	conj	_	SpaceAfter=No
-34	,	,	PUNCT	Pu	_	25	punct	_	_
+34	,	,	PUNCT	Pu	_	28	punct	_	_
 35	eidem	idem	DET	ddesfd	Case=Dat|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	36	obl	_	_
 36	militet	milito	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
 37	nesciens	nescio	VERB	va4ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurI|Number=Sing|Polarity=Neg|VerbForm=Part|Voice=Act	36	advcl:pred	_	_
@@ -3650,7 +3650,7 @@
 16	non	non	PART	r	Polarity=Neg	17	advmod:neg	_	_
 17	cingunt	cingo	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	2	punct	_	_
-19	tam	tam	ADV	r	NumType=Card|PronType=Dem	21	advmod	_	_
+19	tam	tam	ADV	r	PronType=Dem	21	advmod	_	_
 20	ariete	aries	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	21	obl	_	_
 21	ruere	ruo	VERB	va3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	1	ccomp	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	21	punct	_	_
@@ -3903,7 +3903,7 @@
 3	Tuscorum	tuscus	ADJ	Smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	4	nmod	_	_
 4	vanissimi	uanus	ADJ	amp1vs	Case=Voc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	10	vocative	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	4	punct	_	_
-6	tam	tam	ADV	r	NumType=Card|PronType=Dem	7	advmod	_	_
+6	tam	tam	ADV	r	PronType=Dem	7	advmod	_	_
 7	natura	natura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	10	obl	_	_
 8	quam	quam	SCONJ	c	PronType=Rel	9	mark	_	_
 9	vitio	uitium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	7	advcl:cmp	_	_
@@ -4528,7 +4528,7 @@
 5	prevenientes	praeuenio	VERB	va4pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	advcl:pred	_	_
 6	in	in	ADP	e	_	7	case	_	_
 7	iubilo	iubilum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	16	obl	_	_
-8	tam	tam	ADV	r	NumType=Card|PronType=Dem	10	advmod	_	_
+8	tam	tam	ADV	r	PronType=Dem	10	advmod	_	_
 9	Saturnia	saturnius	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|NameType=Rel|Number=Plur	10	amod	_	_
 10	regna	regnum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	16	obj	_	_
 11	quam	quam	SCONJ	c	PronType=Rel	12	mark	_	_
@@ -4585,8 +4585,8 @@
 41	«	«	PUNCT	Pu	_	42	punct	_	SpaceAfter=No
 42	Tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	39	conj:expl	_	_
 43	es	sum	AUX	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	42	cop	_	_
-44	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	42	nsubj	_	_
-45	venturus	uenio	VERB	va4pfsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Act	44	acl:relcl	_	_
+44	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	45	nsubj	_	_
+45	venturus	uenio	VERB	va4pfsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Act	42	csubj:cleft	_	_
 46	es	sum	AUX	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	45	aux	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	50	punct	_	_
 48	an	an	PART	co	PartType=Int	50	discourse	_	_
@@ -4605,13 +4605,13 @@
 4	sitis	sitis	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	18	nsubj	_	_
 5	in	in	ADP	e	_	6	case	_	_
 6	dubium	dubium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	18	obl	_	_
-7	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	18	obj	_	_
+7	que	qui	PRON	prepna	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	9	nsubj	_	_
 8	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-9	certa	certus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	7	acl:relcl	_	_
+9	certa	certus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	18	ccomp:relcl	_	_
 10	propter	propter	ADP	e	_	12	case	_	_
 11	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	12	cop	_	_
 12	propinqua	propinquus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	9	advcl	_	SpaceAfter=No
-13	,	,	PUNCT	Pu	_	7	punct	_	_
+13	,	,	PUNCT	Pu	_	9	punct	_	_
 14	ut	ut	SCONJ	r	PronType=Rel	15	mark	_	_
 15	adsolet	adsoleo	VERB	v2*ip	Aspect=Imp|InflClass=LatE|Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl:cmp	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	15	punct	_	_
@@ -4646,7 +4646,7 @@
 3	ego	ego	PRON	ppp1sn	InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 4	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	5	nsubj	_	_
 5	scribo	scribo	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
-6	tam	tam	ADV	r	NumType=Card|PronType=Dem	8	advmod	_	_
+6	tam	tam	ADV	r	PronType=Dem	8	advmod	_	_
 7	pro	pro	ADP	e	_	8	case	_	_
 8	me	ego	PRON	ppp1smb	Case=Abl|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 9	quam	quam	SCONJ	c	PronType=Rel	11	mark	_	_
@@ -4698,10 +4698,10 @@
 15	Ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	16	advmod:emph	_	_
 16	Agnus	agnus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	10	ccomp:reported	_	_
 17	Dei	deus	NOUN	Sms2	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	16	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	Pu	_	20	punct	_	_
-19	ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	20	advmod:emph	_	_
-20	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	16	conj	_	_
-21	tollit	tollo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+18	,	,	PUNCT	Pu	_	21	punct	_	_
+19	ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	21	advmod:emph	_	_
+20	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	21	nsubj	_	_
+21	tollit	tollo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
 22	peccata	peccatum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|VerbForm=Part	21	obj	_	_
 23	mundi	mundus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	22	nmod	_	SpaceAfter=No
 24	»	»	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
@@ -4712,7 +4712,7 @@
 # citation_hierarchy = VII,Paragraphus_11
 1	Sed	sed	CCONJ	co	_	7	cc	_	_
 2	quid	quid	ADV	r	PronType=Rel	5	advmod	_	_
-3	tam	tam	ADV	r	NumType=Card|PronType=Dem	4	advmod	_	_
+3	tam	tam	ADV	r	PronType=Dem	4	advmod	_	_
 4	sera	serus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
 5	moretur	moror	VERB	vd1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	ccomp	_	_
 6	segnities	segnities	NOUN	sfs5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing	5	nsubj	_	_
@@ -4896,7 +4896,7 @@
 5	mundi	mundus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	6	nmod	_	_
 6	area	area	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	7	obl	_	_
 7	irretiri	irretio	VERB	vp4fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	1	csubj	_	_
-8	tam	tam	ADV	r	NumType=Card|PronType=Dem	9	advmod	_	_
+8	tam	tam	ADV	r	PronType=Dem	9	advmod	_	_
 9	diu	diu	ADV	r	_	7	advmod	_	_
 10	quem	quis	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	1	obl:arg	_	_
 11	mundus	mundus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	13	nsubj	_	_
@@ -5172,7 +5172,7 @@
 # citation_hierarchy = VII,Paragraphus_20
 1	Tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 2	Mediolani	mediolanum	PROPN	Sns2g	Case=Loc|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	7	obl	_	_
-3	tam	tam	ADV	r	NumType=Card|PronType=Dem	4	advmod	_	_
+3	tam	tam	ADV	r	PronType=Dem	4	advmod	_	_
 4	vernando	uerno	VERB	va1fgb	Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	_
 5	quam	quam	SCONJ	c	PronType=Rel	6	mark	_	_
 6	hiemando	hiemo	VERB	va1fgb	Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl:cmp	_	_
@@ -5785,7 +5785,7 @@
 26	Tuscia	tuscia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	24	nmod	_	_
 27	palatina	palatinus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	24	amod	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	34	punct	_	_
-29	tam	tam	ADV	r	NumType=Card|PronType=Dem	30	advmod	_	_
+29	tam	tam	ADV	r	PronType=Dem	30	advmod	_	_
 30	debite	debeo	VERB	vp2prsfg	Aspect=Perf|Case=Gen|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	33	acl	_	_
 31	quam	quam	SCONJ	c	PronType=Rel	32	mark	_	_
 32	devote	deuoueo	VERB	afs1g	Aspect=Perf|Case=Gen|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	30	advcl:cmp	_	_
@@ -5984,7 +5984,7 @@
 35	extendat	extendo	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	SpaceAfter=No
 36	;	;	PUNCT	Pu	_	37	punct	_	_
 37	ut	ut	SCONJ	cs	PronType=Rel	60	mark	_	_
-38	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	60	nsubj	_	_
+38	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	49	nsubj	_	_
 39	romani	romanus	ADJ	ams1g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Sing	40	amod	_	_
 40	principatus	principatus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing	41	nmod	_	_
 41	imperio	imperium	NOUN	sns2d	Case=Dat|Gender=Neut|InflClass=IndEurO|Number=Sing	49	obl:arg	_	_
@@ -5995,8 +5995,8 @@
 46	in	in	ADP	e	_	48	case	_	_
 47	mortalium	mortalis	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	48	nmod	_	_
 48	tutamenta	tutamentum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	49	obl:arg	_	_
-49	subegit	subigo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	acl:relcl	_	SpaceAfter=No
-50	,	,	PUNCT	Pu	_	38	punct	_	_
+49	subegit	subigo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	60	csubj:relcl	_	SpaceAfter=No
+50	,	,	PUNCT	Pu	_	49	punct	_	_
 51	delirantis	deliro	VERB	va1ppsng	Aspect=Imp|Case=Gen|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	52	acl	_	_
 52	evi	aeuum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	53	nmod	_	_
 53	familiam	familia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	60	obj	_	_
@@ -6121,12 +6121,12 @@
 3	regie	regius	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	4	amod	_	_
 4	Celsitudinis	celsitudo	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	5	nmod	_	_
 5	apprehensio	apprehensio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	2	nsubj	_	_
-6	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	2	obj	_	_
+6	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	9	obj	_	_
 7	scribentis	scribo	VERB	va3ppsfg	Aspect=Imp|Case=Gen|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	8	nmod	_	_
 8	humilitas	humilitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	11	nsubj	_	_
 9	explicare	explico	VERB	va1fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	11	xcomp	_	_
 10	non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
-11	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No
+11	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp:relcl	_	SpaceAfter=No
 12	.	.	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = Epi-167
@@ -6563,11 +6563,11 @@
 5	punctalis	punctalis	ADJ	afs2g	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing	4	amod	_	_
 6	eternitatis	aeternitas	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	4	nmod	_	_
 7	intuens	intueor	VERB	vd2ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	23	advcl:pred	_	_
-8	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	23	nsubj	_	_
-9	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	8	advcl:pred	_	_
-10	eternus	aeternus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	8	acl:relcl	_	_
+8	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	10	nsubj	_	_
+9	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	advcl:pred	_	_
+10	eternus	aeternus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	23	csubj:relcl	_	_
 11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
-12	,	,	PUNCT	Pu	_	8	punct	_	_
+12	,	,	PUNCT	Pu	_	10	punct	_	_
 13	mentem	mens	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	23	obj	_	_
 14	Deo	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	15	obl:arg	_	_
 15	dignam	dignus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	13	amod	_	_
@@ -6771,7 +6771,7 @@
 68	prophetantes	propheto	VERB	va1pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	64	conj	_	_
 69	necessarium	necessarius	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	70	ccomp	_	_
 70	asserunt	assero	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	_
-71	quod	qui	PRON	presnn	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	69	nsubj	_	SpaceAfter=No
+71	quod	qui	PRON	presnn	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	79	obj	_	SpaceAfter=No
 72	,	,	PUNCT	Pu	_	74	punct	_	_
 73	male	male	ADV	r	_	74	advmod	_	_
 74	usi	utor	VERB	vd3prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	79	advcl:pred	_	_
@@ -6779,7 +6779,7 @@
 76	arbitrii	arbitrium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	75	nmod	_	SpaceAfter=No
 77	,	,	PUNCT	Pu	_	74	punct	_	_
 78	eligere	eligo	VERB	va3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	79	xcomp	_	_
-79	maluistis	malo	VERB	va5irp2	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	71	acl:relcl	_	SpaceAfter=No
+79	maluistis	malo	VERB	va5irp2	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	70	ccomp:relcl	_	SpaceAfter=No
 80	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Epi-184
@@ -6855,10 +6855,10 @@
 17	vere	uere	ADV	r	_	19	advmod	_	_
 18	dici	dico	VERB	vp3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	19	xcomp	_	_
 19	possetis	possum	VERB	va5cip2	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
-20	,	,	PUNCT	Pu	_	21	punct	_	_
-21	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	18	xcomp	_	_
-22	Prophete	propheta	NOUN	smp1n	Case=Dat|Gender=Masc|InflClass=IndEurA|Number=Plur|Proper=Yes	23	obl	_	_
-23	ostensi	ostendo	VERB	vp3irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	21	acl:relcl	_	_
+20	,	,	PUNCT	Pu	_	23	punct	_	_
+21	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	23	nsubj:pass	_	_
+22	Prophete	propheta	NOUN	smp1n	Case=Dat|Gender=Masc|InflClass=IndEurA|Number=Plur|Proper=Yes	23	obl:arg	_	_
+23	ostensi	ostendo	VERB	vp3irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	18	xcomp:relcl	_	_
 24	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	_	SpaceAfter=No
 25	,	,	PUNCT	Pu	_	27	punct	_	_
 26	male	male	ADV	r	_	27	advmod	_	_
@@ -6887,12 +6887,12 @@
 49	vendentibus	uendo	VERB	va3pppmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	45	acl	_	SpaceAfter=No
 50	,	,	PUNCT	Pu	_	51	punct	_	_
 51	ubi	ubi	SCONJ	r	AdvType=Loc|PronType=Rel	64	mark	_	_
-52	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	64	nsubj	_	_
+52	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	56	nsubj	_	_
 53	pretio	pretium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	54	obl	_	_
 54	mensurari	mensuro	VERB	vp1fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	56	xcomp	_	_
 55	non	non	PART	r	Polarity=Neg	56	advmod:neg	_	_
-56	possunt	possum	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	52	acl:relcl	_	SpaceAfter=No
-57	,	,	PUNCT	Pu	_	52	punct	_	_
+56	possunt	possum	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	64	csubj:relcl	_	SpaceAfter=No
+57	,	,	PUNCT	Pu	_	56	punct	_	_
 58	in	in	ADP	e	_	59	case	_	_
 59	detrimentum	detrimentum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	64	obl	_	_
 60	hinc	hinc	ADV	r	AdvType=Loc|Case=Loc|PronType=Dem	64	advmod:lmod	_	_
@@ -7412,8 +7412,8 @@
 13	;	;	PUNCT	Pu	_	18	punct	_	_
 14	omnes	omnis	DET	dinpmn	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	18	nsubj	_	_
 15	enim	enim	PART	c	Form=Emp	18	discourse	_	_
-16	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	18	obj	_	_
-17	garrio	garrio	VERB	va4ips1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+16	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	17	obj	_	_
+17	garrio	garrio	VERB	va4ips1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp:relcl	_	_
 18	murmurant	murmuro	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
 19	aut	aut	CCONJ	co	_	20	cc	_	_
 20	mussant	musso	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
@@ -7423,8 +7423,8 @@
 24	somniant	somnio	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	SpaceAfter=No
 25	,	,	PUNCT	Pu	_	30	punct	_	_
 26	et	et	CCONJ	co	_	30	cc	_	_
-27	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	30	nsubj:pass	_	_
-28	inventa	inuenio	VERB	vp4prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	27	acl:relcl	_	_
+27	que	qui	PRON	prepna	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	28	nsubj:pass	_	_
+28	inventa	inuenio	VERB	vp4prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	30	csubj:relcl	_	_
 29	non	non	PART	r	Polarity=Neg	30	advmod:neg	_	_
 30	attestantur	attestor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	conj	_	SpaceAfter=No
 31	.	.	PUNCT	Pu	_	9	punct	_	_
@@ -7460,13 +7460,13 @@
 2	Dominus	dominus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Pu	_	4	punct	_	_
 4	quia	quia	SCONJ	cs	PronType=Rel	12	mark	_	_
-5	Qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	12	nsubj	_	_
-6	movit	moueo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+5	Qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	6	nsubj	_	_
+6	movit	moueo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj:relcl	_	_
 7	linguam	lingua	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	6	obj	_	_
 8	in	in	ADP	e	_	9	case	_	_
 9	asina	asina	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	6	obl	_	_
 10	Balaam	balaam	PROPN	Smsgi	Foreign=Yes|NameType=Giv	9	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	Pu	_	5	punct	_	_
+11	,	,	PUNCT	Pu	_	6	punct	_	_
 12	Dominus	dominus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	1	advcl	_	_
 13	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 14	etiam	etiam	ADV	co	Compound=Yes	16	advmod:emph	_	_
@@ -7492,7 +7492,7 @@
 # citation_hierarchy = XI,Paragraphus_19
 1	Pudeat	pudeo	VERB	va2*cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	ergo	ergo	ADV	co	AdvType=Loc	1	discourse	_	_
-3	tam	tam	ADV	r	NumType=Card|PronType=Dem	5	advmod	_	_
+3	tam	tam	ADV	r	PronType=Dem	5	advmod	_	_
 4	ab	ab	ADP	e	_	5	case	_	_
 5	infra	infra	ADV	r	_	13	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	5	punct	_	_
@@ -7875,7 +7875,7 @@
 98	Vasconum	uasco	NOUN	Smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	99	nmod	_	_
 99	obprobrium	opprobrium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	118	nsubj	_	_
 100	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	109	nsubj	_	_
-101	tam	tam	ADV	r	NumType=Card|PronType=Dem	102	advmod	_	_
+101	tam	tam	ADV	r	PronType=Dem	102	advmod	_	_
 102	dira	dirus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	103	amod	_	_
 103	cupidine	cupido	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	104	obl	_	_
 104	conflagrantes	conflagro	VERB	va1pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	109	advcl:pred	_	_
@@ -7942,23 +7942,23 @@
 # sent_id = Epi-218
 # text = Ad illarum vero significata responsio, etsi non erit qualem forsan pusillanimitas appeteret aliquorum, ut sub examine vestri consilii ante iudicium ventiletur, affectuose deposco.
 # citation_hierarchy = XII,Paragraphus_2
-1	Ad	ad	ADP	e	_	4	mark	_	_
+1	Ad	ad	ADP	e	_	4	case	_	_
 2	illarum	ille	DET	ddipfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	4	det	_	_
 3	vero	uero	ADV	r	_	27	discourse	_	_
 4	significata	significatum	VERB	vp1prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	5	nmod	_	_
 5	responsio	responsio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	24	nsubj:pass	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	5	punct	_	_
 7-8	etsi	_	_	_	_	_	_	_	_
-7	et	et	CCONJ	cs	_	11	advmod:emph	_	_
-8	si	si	SCONJ	cs	_	11	mark	_	_
-9	non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
-10	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
-11	qualem	qualis	DET	prisfa	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Rel	24	advcl	_	_
+7	et	et	CCONJ	cs	_	14	advmod:emph	_	_
+8	si	si	SCONJ	cs	_	14	mark	_	_
+9	non	non	PART	r	Polarity=Neg	14	advmod:neg	_	_
+10	erit	sum	AUX	va5ifs3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	cop:outer	_	_
+11	qualem	qualis	DET	prisfa	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Rel	14	obj	_	_
 12	forsan	forsan	ADV	r	Compound=Yes	14	advmod	_	_
 13	pusillanimitas	pusillanimitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	14	nsubj	_	_
-14	appeteret	appeto	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+14	appeteret	appeto	VERB	va3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	_
 15	aliquorum	aliquis	PRON	dinpmg	Case=Gen|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	13	det	_	SpaceAfter=No
-16	,	,	PUNCT	Pu	_	11	punct	_	_
+16	,	,	PUNCT	Pu	_	14	punct	_	_
 17	ut	ut	SCONJ	cs	PronType=Rel	24	mark	_	_
 18	sub	sub	ADP	e	_	19	case	_	_
 19	examine	examen	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	24	obl	_	_
@@ -7977,7 +7977,7 @@
 # citation_hierarchy = XII,Paragraphus_3
 1	Ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	3	advmod:emph	_	_
 2	igitur	igitur	PART	r	_	3	discourse	_	_
-3	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	0	root	_	_
+3	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	root	_	_
 4	per	per	ADP	e	_	5	case	_	_
 5	litteras	litterae	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	16	obl	_	_
 6	vestras	uester	DET	dsfpa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	5	det	_	_
@@ -7991,7 +7991,7 @@
 13	quamplurium	quamplures	DET	amp2g	Case=Gen|Compound=Yes|Degree=Cmp|Gender=Masc|InflClass=IndEurI|Number=Plur|NumType=Card	14	det	_	_
 14	amicorum	amicus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	9	conj	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	5	punct	_	_
-16	significatum	significo	VERB	vp1irs3n	Aspect=Perf|Case=Nom|Compound=Yes|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+16	significatum	significo	VERB	vp1irs3n	Aspect=Perf|Case=Nom|Compound=Yes|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 17	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 18	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	16	obl:arg	_	_
 19	per	per	ADP	e	_	20	case	_	_
@@ -8572,8 +8572,8 @@
 1	Quod	quod	SCONJ	r	PronType=Rel	12	mark	_	_
 2	si	si	SCONJ	cs	_	7	mark	_	_
 3	cuiquam	quisquam	DET	dinsmd	Case=Dat|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	7	obl:arg	_	_
-4	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	7	nsubj:pass	_	_
-5	asseritur	assero	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
+4	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
+5	asseritur	assero	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	csubj:relcl	_	_
 6	nunc	nunc	ADV	r	AdvType=Tim	7	advmod:tmod	_	_
 7	videretur	uideo	VERB	vd2cis3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	12	advcl	_	_
 8	indignum	indignus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|Polarity=Neg	7	xcomp	_	SpaceAfter=No
@@ -8603,8 +8603,8 @@
 32	hominibus	homo	NOUN	smp3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur	30	obl	_	SpaceAfter=No
 33	,	,	PUNCT	Pu	_	35	punct	_	_
 34	quo	qui	PRON	presmb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	36	obl:arg	_	_
-35	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	40	nsubj:pass	_	_
-36	usi	utor	VERB	vd3irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	35	acl:relcl	_	_
+35	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	36	nsubj:pass	_	_
+36	usi	utor	VERB	vd3irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	40	csubj:relcl	_	_
 37	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	SpaceAfter=No
 38	,	,	PUNCT	Pu	_	35	punct	_	_
 39	participes	particeps	ADJ	amp2n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Plur	40	xcomp	_	_
@@ -8709,17 +8709,17 @@
 # citation_hierarchy = XIII,Paragraphus_8
 1	Liquet	liqueo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	igitur	igitur	PART	r	_	1	discourse	_	_
-3	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	nsubj:pass	_	_
+3	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	5	obj	_	_
 4	superius	supra	ADV	r+	Degree=Cmp	5	advmod	_	_
-5	dixi	dico	VERB	va3irs1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No
+5	dixi	dico	VERB	va3irs1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	csubj:relcl	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	10	punct	_	_
 7	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 8	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	10	cc	_	_
 9	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	10	cop	_	_
-10	devotissimum	deuotus	ADJ	ams1as	Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	5	conj:expl	_	_
+10	devotissimum	deuotus	ADJ	ams1as	Case=Acc|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	3	conj:expl	_	_
 11	et	et	CCONJ	co	_	12	cc	_	_
 12	amicum	amicus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	10	conj	_	SpaceAfter=No
-13	,	,	PUNCT	Pu	_	3	punct	_	_
+13	,	,	PUNCT	Pu	_	10	punct	_	_
 14	nullatenus	nullatenus	ADV	r	Compound=Yes	16	advmod	_	_
 15	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	16	aux:pass	_	_
 16	presumptum	praesumo	VERB	vp3fr	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	csubj	_	SpaceAfter=No
@@ -9158,13 +9158,13 @@
 1	Sex	sex	NUM	yui	NumType=Card	0	root	_	_
 2	igitur	igitur	PART	r	_	1	discourse	_	_
 3	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-4	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	1	nsubj	_	_
+4	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	10	nsubj:pass	_	_
 5	in	in	ADP	e	_	6	case	_	_
 6	principio	principium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	10	obl	_	_
 7	cuiusque	quisque	DET	dinsng	Case=Gen|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	9	det	_	_
 8	doctrinalis	doctrinalis	ADJ	ans2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	9	amod	_	_
 9	operis	opus	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	6	nmod	_	_
-10	inquirenda	inquiro	VERB	vp3gvpnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+10	inquirenda	inquiro	VERB	vp3gvpnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	1	csubj:cleft	_	_
 11	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	14	punct	_	_
 13	videlicet	uidelicet	CCONJ	r	Compound=Yes|VerbForm=Fin	14	cc	_	_
@@ -9286,26 +9286,26 @@
 15	ymo	immo	ADV	r	Degree=Abs	17	advmod:emph	_	_
 16	dici	dico	VERB	vp3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	17	xcomp	_	_
 17	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
-18	polisemos	polisemos	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	16	xcomp	_	SpaceAfter=No
+18	polisemos	polysemus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Variant=Greek	16	xcomp	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	23	punct	_	_
 20	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	23	cc	_	_
 21	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	fixed	_	_
 22	plurium	multus	DET	amp1gc	Case=Gen|Degree=Cmp|Gender=Masc|InflClass=IndEurI|Number=Plur|NumType=Card|PronType=Ind	23	det	_	_
 23	sensuum	sensus	NOUN	smp4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Plur	18	conj:expl	_	SpaceAfter=No
-24	;	;	PUNCT	Pu	_	29	punct	_	_
-25	nam	nam	PART	co	_	29	discourse	_	_
+24	;	;	PUNCT	Pu	_	30	punct	_	_
+25	nam	nam	PART	co	_	30	discourse	_	_
 26	primus	primus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	27	amod	_	_
-27	sensus	sensus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	29	nsubj	_	_
-28	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-29	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	5	conj	_	_
-30	habetur	habeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	29	acl:relcl	_	_
+27	sensus	sensus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	30	nsubj:outer	_	_
+28	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop:outer	_	_
+29	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	30	nsubj:pass	_	_
+30	habetur	habeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
 31	per	per	ADP	e	_	32	case	_	_
 32	litteram	littera	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	30	obl	_	SpaceAfter=No
-33	,	,	PUNCT	Pu	_	36	punct	_	_
-34	alius	alius	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	36	nsubj	_	_
-35	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
-36	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	5	conj	_	_
-37	habetur	habeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	36	acl:relcl	_	_
+33	,	,	PUNCT	Pu	_	37	punct	_	_
+34	alius	alius	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	37	nsubj:outer	_	_
+35	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop:outer	_	_
+36	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	37	nsubj:pass	_	_
+37	habetur	habeo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	30	conj	_	_
 38	per	per	ADP	e	_	39	mark	_	_
 39	significata	significo	VERB	vp1prpna	Aspect=Perf|Case=Acc|Compound=Yes|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	37	obl	_	_
 40	per	per	ADP	e	_	41	case	_	_
@@ -9634,10 +9634,10 @@
 2	divisio	diuisio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	5	nsubj	_	_
 3	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
 4	,	,	PUNCT	Pu	_	3	punct	_	_
-5	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	0	root	_	_
+5	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	8	root	_	_
 6	totum	totus	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Tot	7	det	_	_
 7	opus	opus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	8	nsubj:pass	_	_
-8	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
+8	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 9	in	in	ADP	e	_	11	case	_	_
 10	tres	tres	NUM	aufpa	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur|NumType=Card	11	nummod	_	_
 11	canticas	cantica	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	8	obl	_	SpaceAfter=No
@@ -9648,10 +9648,10 @@
 # citation_hierarchy = XIII,Paragraphus_26
 1	Secunda	secundus	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord|VerbForm=Part	3	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
-3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	0	root	_	_
+3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	root	_	_
 4	quelibet	quilibet	DET	dpfsn	Case=Nom|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	5	det	_	_
 5	cantica	cantica	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	nsubj:pass	_	_
-6	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
+6	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	in	in	ADP	e	_	8	case	_	_
 8	cantus	cantus	NOUN	smp4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Plur	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	Pu	_	3	punct	_	_
@@ -9661,10 +9661,10 @@
 # citation_hierarchy = XIII,Paragraphus_26
 1	Tertia	tertius	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	3	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
-3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	0	root	_	_
+3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	root	_	_
 4	quilibet	quilibet	DET	dpmsn	Case=Nom|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	5	det	_	_
 5	cantus	cantus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	6	nsubj:pass	_	_
-6	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
+6	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	in	in	ADP	e	_	8	case	_	_
 8	rithimos	rhythmus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	Pu	_	3	punct	_	_
@@ -10554,9 +10554,9 @@
 28	Rethoricorum	rhetoricus	ADJ	Snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	27	nmod	_	_
 29	videtur	uideo	VERB	vd2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
 30	innuere	innuo	VERB	va3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	29	xcomp	_	SpaceAfter=No
-31	,	,	PUNCT	Pu	_	32	punct	_	_
-32	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	29	advmod:lmod	_	_
-33	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
+31	,	,	PUNCT	Pu	_	33	punct	_	_
+32	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	33	advmod:lmod	_	_
+33	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl:relcl	_	_
 34	quod	quod	SCONJ	cs	PronType=Rel	38	mark	_	_
 35	«	«	PUNCT	Pu	_	38	punct	_	SpaceAfter=No
 36	proemium	proemium	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	38	nsubj	_	_
@@ -10860,9 +10860,9 @@
 23	cum	cum	SCONJ	cs	PronType=Rel	24	mark	_	_
 24	promittit	promitto	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	_
 25	se	sui	PRON	ppp3snb	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	30	nsubj	_	_
-26	tam	tam	ADV	r	NumType=Card|PronType=Dem	27	advmod	_	_
+26	tam	tam	ADV	r	PronType=Dem	27	advmod	_	_
 27	ardua	arduus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	30	obj	_	_
-28	tam	tam	ADV	r	NumType=Card|PronType=Dem	29	advmod	_	_
+28	tam	tam	ADV	r	PronType=Dem	29	advmod	_	_
 29	sublimia	sublimis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	27	conj	_	_
 30	dicere	dico	VERB	va3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	24	ccomp	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	33	punct	_	_
@@ -10878,10 +10878,10 @@
 41	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	_	_
 42	se	sui	PRON	ppp3snb	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	43	nsubj	_	_
 43	dicturum	dico	VERB	va3pfsma	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Act	41	ccomp	_	_
-44	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	43	obj	_	_
+44	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	46	obj	_	_
 45	mente	mens	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	46	obl	_	_
 46	retinere	retineo	VERB	va2fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	47	xcomp	_	_
-47	potuit	possum	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	acl:relcl	_	SpaceAfter=No
+47	potuit	possum	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	ccomp:relcl	_	SpaceAfter=No
 48	;	;	PUNCT	Pu	_	49	punct	_	_
 49	si	si	SCONJ	cs	_	51	mark	_	_
 50	enim	enim	PART	c	Form=Emp	55	discourse	_	_
@@ -10916,7 +10916,7 @@
 19	de	de	ADP	e	_	20	case	_	_
 20	regno	regnum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	17	obl	_	_
 21	celesti	celestis	ADJ	ans2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	20	amod	_	_
-22	quicquid	quisquis	PRON	presna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	17	obj	_	_
+22	quicquid	quisquis	PRON	presna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	31	obj	_	_
 23	in	in	ADP	e	_	24	case	_	_
 24	mente	mens	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	31	obl	_	_
 25	sua	suus	DET	dsfsb	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	SpaceAfter=No
@@ -10924,7 +10924,7 @@
 27	quasi	quasi	SCONJ	cs	Compound=Yes|PronType=Rel	28	mark	_	_
 28	thesaurum	thesaurus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	31	advcl:cmp	_	SpaceAfter=No
 29	,	,	PUNCT	Pu	_	28	punct	_	_
-30	potuit	possum	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+30	potuit	possum	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp:relcl	_	_
 31	retinere	retineo	VERB	va2fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	30	xcomp	_	SpaceAfter=No
 32	.	.	PUNCT	Pu	_	3	punct	_	_
 
@@ -11295,10 +11295,10 @@
 28	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	30	nsubj	_	_
 29	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	impossibile	impossibilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|Polarity=Neg	25	acl:relcl	_	SpaceAfter=No
-31	:	:	PUNCT	Pu	_	32	punct	_	_
-32	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	37	nsubj	_	_
-33	causatum	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	32	acl:relcl	_	SpaceAfter=No
-34	,	,	PUNCT	Pu	_	32	punct	_	_
+31	:	:	PUNCT	Pu	_	33	punct	_	_
+32	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	33	nsubj:pass	_	_
+33	causatum	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	37	csubj:relcl	_	SpaceAfter=No
+34	,	,	PUNCT	Pu	_	33	punct	_	_
 35	vel	uel	CCONJ	co	_	37	cc	_	_
 36	a	a	ADP	e	_	37	case	_	_
 37	natura	natura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	16	conj	_	_
@@ -11308,10 +11308,10 @@
 41	intellectu	intellectus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	37	conj	_	SpaceAfter=No
 42	,	,	PUNCT	Pu	_	43	punct	_	_
 43	et	et	CCONJ	co	_	50	cc	_	_
-44	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	50	nsubj:pass	_	_
+44	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	46	nsubj:pass	_	_
 45	a	a	ADP	e	_	46	case	_	_
-46	natura	natura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	44	acl:relcl	_	SpaceAfter=No
-47	,	,	PUNCT	Pu	_	44	punct	_	_
+46	natura	natura	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|VerbForm=Part	50	csubj:relcl	_	SpaceAfter=No
+47	,	,	PUNCT	Pu	_	46	punct	_	_
 48	per	per	ADP	e	_	49	case	_	_
 49	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	50	obl	_	_
 50	causatum	causo	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	conj	_	_
@@ -11611,16 +11611,16 @@
 8	Lucanus	lucanus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	5	conj	_	_
 9	in	in	ADP	e	_	10	case	_	_
 10	nono	nonus	ADJ	aumsb	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	8	orphan	_	SpaceAfter=No
-11	:	:	PUNCT	Pu	_	15	punct	_	_
-12	«	«	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
-13	Iuppiter	iuppiter	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	15	nsubj	_	_
-14	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-15	quodcunque	quicumque	DET	prisnn	Case=Nom|Compound=Yes|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	8	ccomp:reported	_	_
-16	vides	uideo	VERB	va2ips2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	SpaceAfter=No
+11	:	:	PUNCT	Pu	_	16	punct	_	_
+12	«	«	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
+13	Iuppiter	iuppiter	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	16	nsubj:outer	_	_
+14	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop:outer	_	_
+15	quodcunque	quicumque	DET	prisnn	Case=Acc|Compound=Yes|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	obj	_	_
+16	vides	uideo	VERB	va2ips2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp:reported	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	19	punct	_	_
-18	quocunque	quocumque	SCONJ	r	Form=Emp|PronType=Rel	19	mark	_	_
-19	moveris	moueo	VERB	vp2ips2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	16	advcl	_	SpaceAfter=No
-20	»	»	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
+18	quocunque	quocumque	ADV	r	AdvType=Loc|Form=Emp|PronType=Rel	19	advmod:lmod	_	_
+19	moveris	moueo	VERB	vp2ips2	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	16	conj	_	SpaceAfter=No
+20	»	»	PUNCT	Pu	_	16	punct	_	SpaceAfter=No
 21	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = Epi-334
@@ -11663,9 +11663,9 @@
 # sent_id = Epi-335
 # text = Quod autem subicit de “magis et minus”, habet veritatem in manifesto; quoniam videmus in aliquo excellentiori gradu essentiam aliquam, aliquam vero in inferiori; ut patet de celo et elementis, quorum quidem illud incorruptibile, illa vero corruptibilia sunt.
 # citation_hierarchy = XIII,Paragraphus_65
-1	Quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	11	nsubj	_	_
+1	Quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	3	nsubj	_	_
 2	autem	autem	PART	co	_	11	discourse	_	_
-3	subicit	subicio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+3	subicit	subicio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	csubj:relcl	_	_
 4	de	de	ADP	e	_	6	case	_	_
 5	“	“	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
 6	magis	magis	ADV	rc	Degree=Cmp	3	obl	_	_
@@ -12045,12 +12045,12 @@
 # text = Et quod dico de celo lune, intelligendum est de omnibus, preter primum.
 # citation_hierarchy = XIII,Paragraphus_71
 1	Et	et	CCONJ	co	_	8	cc	_	_
-2	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	8	nsubj:pass	_	_
-3	dico	dico	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+2	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	3	obj	_	_
+3	dico	dico	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	csubj:relcl	_	_
 4	de	de	ADP	e	_	5	case	_	_
 5	celo	caelum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	3	obl	_	_
 6	lune	luna	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	5	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	Pu	_	2	punct	_	_
+7	,	,	PUNCT	Pu	_	3	punct	_	_
 8	intelligendum	intelligo	VERB	vp3*gvsnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 10	de	de	ADP	e	_	11	case	_	_
@@ -12098,8 +12098,8 @@
 13	sui	sui	PRON	ppp3sfg	Case=Gen|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	14	nmod	_	_
 14	parte	pars	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	15	obl	_	_
 15	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-16	quicquid	quisquis	PRON	presna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	15	obj	_	_
-17	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+16	quicquid	quisquis	PRON	presna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	17	orphan	_	_
+17	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp:relcl	_	_
 18	modo	modus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	15	obl	_	_
 19	perfecto	perficio	VERB	ams1b	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	21	punct	_	_
@@ -12326,8 +12326,8 @@
 3	etiam	etiam	ADV	co	Compound=Yes	5	advmod:emph	_	_
 4	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	adduci	adduco	VERB	vp3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	4	xcomp	_	_
-6	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	4	nsubj	_	_
-7	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+6	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	7	obj	_	_
+7	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	csubj:relcl	_	_
 8	Apostolus	apostolus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	7	nsubj	_	_
 9	ad	ad	ADP	e	_	10	case	_	_
 10	Ephesios	ephesius	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	7	obl	_	_
@@ -12408,8 +12408,8 @@
 20	recitare	recito	VERB	va1fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	22	xcomp	_	_
 21	non	non	PART	r	Polarity=Neg	22	advmod:neg	_	_
 22	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
-23	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	22	nsubj	_	_
-24	descendit	descendo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	SpaceAfter=No
+23	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	24	nsubj	_	_
+24	descendit	descendo	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	csubj:relcl	_	SpaceAfter=No
 25	.	.	PUNCT	Pu	_	14	punct	_	_
 
 # sent_id = Epi-355
@@ -12504,9 +12504,9 @@
 7	ad	ad	ADP	e	_	8	case	_	_
 8	Corinthios	corinthius	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	9	obl	_	_
 9	loquentem	loquor	VERB	vd3ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	6	acl	_	SpaceAfter=No
-10	,	,	PUNCT	Pu	_	11	punct	_	_
-11	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	3	advmod:lmod	_	_
-12	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	Pu	_	12	punct	_	_
+11	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	12	advmod:lmod	_	_
+12	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl:relcl	_	SpaceAfter=No
 13	:	:	PUNCT	Pu	_	15	punct	_	_
 14	«	«	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
 15	Scio	scio	VERB	va4ips1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp:reported	_	_
@@ -12686,12 +12686,12 @@
 # text = Nam «qui oriri solem suum facit super bonos et malos, et pluit super iustos et iniustos», aliquando misericorditer ad conversionem, aliquando severe ad punitionem, plus et minus, ut vult, gloriam suam quantumcunque male viventibus manifestat.
 # citation_hierarchy = XIII,Paragraphus_82
 1	Nam	nam	PART	co	_	43	discourse	_	_
-2	«	«	PUNCT	Pu	_	3	punct	_	SpaceAfter=No
-3	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	43	nsubj	_	_
+2	«	«	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
+3	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	7	nsubj	_	_
 4	oriri	orior	VERB	vd4fp	Aspect=Imp|VerbForm=Vnoun|Voice=Pass	7	ccomp	_	_
-5	solem	sol	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	4	nsubj	_	_
+5	solem	sol	NOUN	sms3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	7	obj	_	_
 6	suum	suus	DET	dsmsa	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
-7	facit	facio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	facit	facio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	csubj:relcl	_	_
 8	super	super	ADP	e	_	9	case	_	_
 9	bonos	bonus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	4	obl	_	_
 10	et	et	CCONJ	co	_	11	cc	_	_
@@ -12703,8 +12703,8 @@
 16	iustos	iustus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	14	obl	_	_
 17	et	et	CCONJ	co	_	18	cc	_	_
 18	iniustos	iniustus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	16	conj	_	SpaceAfter=No
-19	»	»	PUNCT	Pu	_	3	punct	_	SpaceAfter=No
-20	,	,	PUNCT	Pu	_	3	punct	_	_
+19	»	»	PUNCT	Pu	_	7	punct	_	SpaceAfter=No
+20	,	,	PUNCT	Pu	_	7	punct	_	_
 21	aliquando	aliquando	ADV	r	Compound=Yes|PronType=Rel	43	advmod	_	_
 22	misericorditer	misericorditer	ADV	r	_	43	advmod	_	_
 23	ad	ad	ADP	e	_	24	case	_	_
