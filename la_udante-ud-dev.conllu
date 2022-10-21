@@ -9646,15 +9646,15 @@
 # sent_id = Epi-272
 # text = Secunda, qua quelibet cantica dividitur in cantus.
 # citation_hierarchy = XIII,Paragraphus_26
-1	Secunda	secundus	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord|VerbForm=Part	3	nsubj	_	SpaceAfter=No
+1	Secunda	secundus	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord|VerbForm=Part	6	nsubj:outer	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
-3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	root	_	_
+3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	obl:lmod	_	_
 4	quelibet	quilibet	DET	dpfsn	Case=Nom|Compound=Yes|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	5	det	_	_
 5	cantica	cantica	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	nsubj:pass	_	_
 6	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	in	in	ADP	e	_	8	case	_	_
 8	cantus	cantus	NOUN	smp4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Plur	6	obl	_	SpaceAfter=No
-9	.	.	PUNCT	Pu	_	3	punct	_	_
+9	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = Epi-273
 # text = Tertia, qua quilibet cantus dividitur in rithimos.
