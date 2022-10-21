@@ -7975,18 +7975,18 @@
 # sent_id = Epi-219
 # text = Ecce igitur quod per litteras vestras meique nepotis nec non aliorum quamplurium amicorum, significatum est michi per ordinamentum nuper factum Florentie super absolutione bannitorum quod si solvere vellem certam pecunie quantitatem vellemque pati notam oblationis, et absolvi possem et redire ad presens.
 # citation_hierarchy = XII,Paragraphus_3
-1	Ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	3	advmod:emph	_	_
-2	igitur	igitur	PART	r	_	3	discourse	_	_
-3	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	root	_	_
+1	Ecce	ecce	PART	r	Form=Emp|PartType=Emp|PronType=Dem	16	advmod:emph	_	_
+2	igitur	igitur	PART	r	_	16	discourse	_	_
+3	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	16	nsubj:pass	_	_
 4	per	per	ADP	e	_	5	case	_	_
 5	litteras	litterae	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	16	obl	_	_
 6	vestras	uester	DET	dsfpa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	5	det	_	_
 7-8	meique	_	_	_	_	_	_	_	_
 7	mei	meus	DET	dsmsg	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	_
 8	que	que	CCONJ	co9	_	9	cc	_	_
-9	nepotis	nepos	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	5	nmod	_	_
+9	nepotis	nepos	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	6	conj	_	_
 10	nec	neque	CCONJ	co	Polarity=Neg	14	cc	_	_
-11	non	non	PART	r	Polarity=Neg	10	fixed	_	_
+11	non	non	PART	r	Polarity=Neg	14	advmod:neg	_	_
 12	aliorum	alius	DET	dpmpg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	14	det	_	_
 13	quamplurium	quamplures	DET	amp2g	Case=Gen|Compound=Yes|Degree=Cmp|Gender=Masc|InflClass=IndEurI|Number=Plur|NumType=Card	14	det	_	_
 14	amicorum	amicus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	9	conj	_	SpaceAfter=No
@@ -8023,7 +8023,7 @@
 44	redire	redeo	VERB	va5fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	41	conj	_	_
 45	ad	ad	ADP	e	_	46	case	_	_
 46	presens	praesens	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	44	obl:arg	_	SpaceAfter=No
-47	.	.	PUNCT	Pu	_	3	punct	_	_
+47	.	.	PUNCT	Pu	_	16	punct	_	_
 
 # sent_id = Epi-220
 # text = In qua quidem duo ridenda et male preconsiliata sunt, pater; dico male preconsiliata per illos qui talia expresserunt, nam vestre littere discretius et consultius clausulate nichil de talibus continebant.
