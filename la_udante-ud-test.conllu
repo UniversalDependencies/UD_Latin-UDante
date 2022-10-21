@@ -115,7 +115,7 @@
 13	,	,	PUNCT	Pu	_	5	punct	_	_
 14	ut	ut	SCONJ	cs	PronType=Rel	15	mark	_	_
 15	sciatur	scio	VERB	vp4cps3	Aspect=Imp|InflClass=LatI|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	advcl	_	_
-16	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	15	csubj:pass	_	_
+16	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	15	csubj:pass	_	_
 17	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 18	super	super	ADP	e	_	19	case	_	_
 19	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	21	obl	_	_
@@ -356,7 +356,7 @@
 2	etenim	etenim	PART	co	Compound=Yes|Form=Emp	10	discourse	_	_
 3	perspicaciter	perspicaciter	ADV	r	_	4	advmod	_	_
 4	consideramus	considero	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
-5	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	8	obj	_	_
+5	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	8	obj	_	_
 6	cum	cum	SCONJ	cs	PronType=Rel	7	mark	_	_
 7	loquimur	loquor	VERB	vd3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl	_	_
 8	intendamus	intendo	VERB	va3cpp1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	SpaceAfter=No
@@ -642,7 +642,7 @@
 2	vero	uero	ADV	r	_	18	discourse	_	_
 3	contra	contra	ADV	r	_	4	advmod	_	_
 4	argumentetur	argumentor	VERB	vd1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	advcl	_	_
-5	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	4	nsubj	_	_
+5	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	4	nsubj	_	_
 6	de	de	ADP	e	_	7	case	_	_
 7	eo	is	PRON	ddesnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	_
 8	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	10	obj	_	_
@@ -957,7 +957,7 @@
 11	:	:	PUNCT	Pu	_	14	punct	_	_
 12	nam	nam	PART	co	_	14	discourse	_	_
 13	sensuale	sensualis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	14	amod	_	_
-14	quid	quis	PRON	dinsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	6	conj	_	_
+14	quid	quis	PRON	dinsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	6	conj	_	_
 15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 16	in	in	ADP	e	_	18	mark	_	_
 17	quantum	quantus	DET	r	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Rel	16	fixed	_	_
@@ -1000,7 +1000,7 @@
 3	investigandum	inuestigo	VERB	vp1gvsna	Aspect=Prosp|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	_
 4	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	3	aux:pass	_	_
 5	existimo	existimo	VERB	va1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	cui	quis	PRON	pitsmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	10	obl:arg	_	_
+6	cui	quis	PRON	pitsmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	10	obl:arg	_	_
 7	hominum	homo	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	6	nmod	_	_
 8	primum	primum	ADV	r	NumType=Ord	10	advmod	_	_
 9	locutio	locutio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	10	nsubj:pass	_	_
@@ -1008,14 +1008,14 @@
 11	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	16	punct	_	_
 13	et	et	CCONJ	co	_	16	cc	_	_
-14	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	16	obj	_	_
+14	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	16	obj	_	_
 15	primitus	primitus	ADV	r	_	16	advmod	_	_
 16	locutus	loquor	VERB	vd3crs3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	10	conj	_	_
 17	fuerit	sum	AUX	va5crs3	Aspect=Perf|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	21	punct	_	_
 19	et	et	CCONJ	co	_	21	cc	_	_
 20	ad	ad	ADP	e	_	21	case	_	_
-21	quem	quis	PRON	pitsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	10	conj	_	SpaceAfter=No
+21	quem	quis	PRON	pitsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	10	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	24	punct	_	_
 23	et	et	CCONJ	co	_	24	cc	_	_
 24	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	10	conj	_	SpaceAfter=No
@@ -1027,7 +1027,7 @@
 30	non	non	PART	r	Polarity=Neg	29	fixed	_	_
 31	et	et	CCONJ	r	_	36	advmod:emph	_	_
 32	sub	sub	ADP	e	_	34	case	_	_
-33	quo	quis	PRON	pitsnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	34	det	_	_
+33	quo	quis	PRON	pitsnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	34	det	_	_
 34	ydiomate	idioma	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	36	obl	_	_
 35	primiloquium	primiloquium	NOUN	sns2a	Case=Acc|Compound=Yes|Gender=Neut|InflClass=IndEurO|Number=Sing	36	obj	_	_
 36	emanavit	emano	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
@@ -1164,7 +1164,7 @@
 # sent_id = DVE-30
 # text = Quid autem prius vox primi loquentis sonaverit, viro sane mentis in promptu esse non titubo ipsum fuisse quod “Deus” est, scilicet El, vel per modum interrogationis vel per modum responsionis.
 # citation_hierarchy = Liber_Primus,iv,Paragraphus_4
-1	Quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	13	nsubj	_	_
+1	Quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	13	nsubj	_	_
 2	autem	autem	PART	co	_	16	discourse	_	_
 3	prius	prius	ADV	r	Degree=Cmp	7	advmod	_	_
 4	vox	uox	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	nsubj	_	_
@@ -1373,7 +1373,7 @@
 # sent_id = DVE-36
 # text = Quis enim dubitat quicquid est ad Dei nutum esse flexibile, quo quidem facta, quo conservata, quo etiam gubernata sunt omnia?
 # citation_hierarchy = Liber_Primus,iv,Paragraphus_6
-1	Quis	quis	PRON	pitsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	3	nsubj	_	_
+1	Quis	quis	PRON	pitsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	3	nsubj	_	_
 2	enim	enim	PART	c	Form=Emp	3	discourse	_	_
 3	dubitat	dubito	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	quicquid	quisquis	PRON	prisnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	10	csubj:relcl	_	_
@@ -1456,7 +1456,7 @@
 # sent_id = DVE-38
 # text = Quid ni?
 # citation_hierarchy = Liber_Primus,iv,Paragraphus_6
-1	Quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	0	root	_	_
+1	Quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	0	root	_	_
 2	ni	ni	PART	r	Polarity=Neg	1	advmod:neg	_	SpaceAfter=No
 3	?	?	PUNCT	Pu	_	1	punct	_	_
 
@@ -1575,7 +1575,7 @@
 # text = Si quis vero fatetur contra obiciens quod non oportebat illum loqui, cum solus adhuc homo existeret, et Deus omnia sine verbis archana nostra discernat etiam ante quam nos, cum illa reverentia dicimus qua uti oportet cum de Eterna Voluntate aliquid iudicamus, quod licet Deus sciret, immo presciret (quod idem est quantum ad Deum) absque locutione conceptum primi loquentis, voluit tamen et ipsum loqui, ut in explicatione tante dotis gloriaretur ipse qui gratis dotaverat.
 # citation_hierarchy = Liber_Primus,v,Paragraphus_2
 1	Si	si	SCONJ	cs	_	4	mark	_	_
-2	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	4	nsubj	_	_
 3	vero	uero	ADV	r	_	35	discourse	_	_
 4	fatetur	fateor	VERB	vd2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	35	advcl	_	_
 5	contra	contra	ADV	r	_	4	advmod	_	_
@@ -2404,7 +2404,7 @@
 # sent_id = DVE-67
 # text = Quis patrum tot sustineret insultus a filio?
 # citation_hierarchy = Liber_Primus,vii,Paragraphus_5
-1	Quis	quis	PRON	pitsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	4	nsubj	_	_
+1	Quis	quis	PRON	pitsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	4	nsubj	_	_
 2	patrum	pater	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	1	nmod	_	_
 3	tot	tot	DET	yuip	NumType=Card|PronType=Dem	5	det	_	_
 4	sustineret	sustineo	VERB	va2cis3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -3467,7 +3467,7 @@
 4	atque	atque	CCONJ	co	Form=Emp	6	cc	_	_
 5	sermonum	sermo	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	6	nmod	_	_
 6	varietates	uarietas	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	3	conj	_	_
-7	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	14	nsubj	_	_
+7	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	14	nsubj	_	_
 8	accidant	accido	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	7	punct	_	_
 10	una	unus	DET	dpfsb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	13	det	_	_
@@ -4164,7 +4164,7 @@
 # text = Si quis autem querat de linea dividente, breviter respondemus esse iugum Apenini, quod, ceu fistule culmen hinc inde ad diversa stillicidia grundat aquas, ad alterna hinc inde litora per ymbricia longa distillat, ut Lucanus in secundo describit: dextrum quoque latus Tyrenum mare grundatorium habet, levum vero in Adriaticum cadit.
 # citation_hierarchy = Liber_Primus,x,Paragraphus_4
 1	Si	si	SCONJ	cs	_	4	mark	_	_
-2	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	4	nsubj	_	_
+2	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	4	nsubj	_	_
 3	autem	autem	PART	co	_	10	discourse	_	_
 4	querat	quaero	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 5	de	de	ADP	e	_	6	case	_	_
@@ -5020,19 +5020,19 @@
 # sent_id = DVE-134
 # text = Quid nunc personat tuba novissimi Frederici, quid tintinabulum secundi Karoli, quid cornua Iohannis et Azonis marchionum potentum, quid aliorum magnatum tibie, nisi “Venite carnifices, venite altriplices, venite avaritie sectatores”?
 # citation_hierarchy = Liber_Primus,xii_,Paragraphus_5
-1	Quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	3	obj	_	_
+1	Quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	3	obj	_	_
 2	nunc	nunc	ADV	r	AdvType=Tim	3	advmod:tmod	_	_
 3	personat	persono	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	tuba	tuba	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	3	nsubj	_	_
 5	novissimi	nouus	ADJ	ams1gs	Case=Gen|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	6	amod	_	_
 6	Frederici	fredericus	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	9	punct	_	_
-8	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	9	orphan	_	_
+8	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	9	orphan	_	_
 9	tintinabulum	tintinnabulum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	3	conj	_	_
 10	secundi	secundus	ADJ	aums1g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord|VerbForm=Part	11	amod	_	_
 11	Karoli	karolus	PROPN	Sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	14	punct	_	_
-13	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	14	orphan	_	_
+13	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	14	orphan	_	_
 14	cornua	cornu	NOUN	snp4a	Case=Acc|Gender=Neut|InflClass=IndEurU|Number=Plur	3	conj	_	_
 15	Iohannis	iohannes	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	14	nmod	_	_
 16	et	et	CCONJ	co	_	17	cc	_	_
@@ -5040,7 +5040,7 @@
 18	marchionum	marchio	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	15	appos	_	_
 19	potentum	potens	ADJ	amp2g	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	24	punct	_	_
-21	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	24	orphan	_	_
+21	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	24	orphan	_	_
 22	aliorum	alius	DET	dpmpg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	23	det	_	_
 23	magnatum	magnates	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	24	nmod	_	_
 24	tibie	tibia	NOUN	sfp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	3	conj	_	SpaceAfter=No
@@ -5553,7 +5553,7 @@
 # text = Si quis autem quod de Tuscis asserimus, de Ianuensibus asserendum non putet, hoc solum in mente premat, quod si per oblivionem Ianuenses ammicterent z licteram, vel mutire totaliter eos vel novam reparare oporteret loquelam.
 # citation_hierarchy = Liber_Primus,xiii,Paragraphus_6
 1	Si	si	SCONJ	cs	_	13	mark	_	_
-2	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	13	nsubj	_	_
+2	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	13	nsubj	_	_
 3	autem	autem	PART	co	_	13	discourse	_	_
 4	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	7	obj	_	_
 5	de	de	ADP	e	_	6	case	_	_
@@ -5880,7 +5880,7 @@
 9	;	;	PUNCT	Pu	_	10	punct	_	_
 10	et	et	CCONJ	co	_	22	cc	_	_
 11	si	si	SCONJ	cs	_	18	mark	_	_
-12	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	18	nsubj	_	_
+12	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	18	nsubj	_	_
 13	eorum	is	PRON	ddepmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	Pu	_	16	punct	_	_
 15	errore	error	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	16	obl:agent	_	_
@@ -6326,7 +6326,7 @@
 12	-	-	PUNCT	Pu	_	13	punct	_	_
 13	et	et	CCONJ	co	_	22	cc	_	_
 14	si	si	SCONJ	cs	_	16	mark	_	_
-15	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	16	nsubj	_	_
+15	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	16	nsubj	_	_
 16	dubitat	dubito	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	16	punct	_	_
 18	illum	ille	DET	ddisma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	22	obj	_	_
@@ -6898,7 +6898,7 @@
 # citation_hierarchy = Liber_Primus,xvii,Paragraphus_2
 1	Primum	primum	ADV	r	NumType=Ord	7	discourse	_	_
 2	igitur	igitur	PART	r	_	7	discourse	_	_
-3	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	7	obj	_	_
+3	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	7	obj	_	_
 4	intendimus	intendo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 5	cum	cum	SCONJ	cs	PronType=Rel	6	mark	_	_
 6	illustre	illustris	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	7	ccomp	_	_
@@ -6923,7 +6923,7 @@
 6	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	6	punct	_	_
 8	intelligimus	intelligo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-9	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	8	obj	_	_
+9	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	8	obj	_	_
 10	illuminans	illumino	VERB	va1ppsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	9	acl:relcl	_	_
 11	et	et	CCONJ	co	_	13	cc	_	_
 12	illuminatum	illumino	VERB	vp1prsna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl:pred	_	_
@@ -7262,7 +7262,7 @@
 # sent_id = DVE-197
 # text = Quid aliud agricole sui satagunt nisi ut amoveant et admoveant, ut dictum est?
 # citation_hierarchy = Liber_Primus,xviii,Paragraphus_1
-1	Quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	5	obj	_	_
+1	Quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	5	obj	_	_
 2	aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	1	det	_	_
 3	agricole	agricola	NOUN	smp1n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurA|Number=Plur	5	nsubj	_	_
 4	sui	suus	DET	dsmpn	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	3	nmod	_	_
@@ -7750,7 +7750,7 @@
 25	excellentissimo	excellens	ADJ	ans2bs	Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	26	advcl:cmp	_	_
 26	incipientes	incipio	VERB	va3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	58	advcl:cmp	_	SpaceAfter=No
 27	,	,	PUNCT	Pu	_	26	punct	_	_
-28	quos	quis	PRON	pitpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	58	obj	_	_
+28	quos	quis	PRON	pitpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Int	58	obj	_	_
 29	putamus	puto	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
 30	ipso	ipse	DET	ddesnb	Case=Abl|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	32	obl:arg	_	_
 31	dignos	dignus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	29	xcomp	_	_
@@ -7758,7 +7758,7 @@
 33	,	,	PUNCT	Pu	_	36	punct	_	_
 34	et	et	CCONJ	co	_	36	cc	_	_
 35	propter	propter	ADP	e	_	36	case	_	_
-36	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	28	conj	_	SpaceAfter=No
+36	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	28	conj	_	SpaceAfter=No
 37	,	,	PUNCT	Pu	_	39	punct	_	_
 38	et	et	CCONJ	co	_	39	cc	_	_
 39	quomodo	quomodo	ADV	r	Compound=Yes|PronType=Rel	28	conj	_	SpaceAfter=No
@@ -7772,7 +7772,7 @@
 47	,	,	PUNCT	Pu	_	52	punct	_	_
 48	et	et	CCONJ	co	_	52	cc	_	_
 49	ad	ad	ADP	e	_	50	case	_	_
-50	quos	quis	PRON	pitpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	52	obl	_	_
+50	quos	quis	PRON	pitpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Int	52	obl	_	_
 51	ipsum	ipse	DET	ddesnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	52	nsubj:pass	_	_
 52	dirigendum	dirigo	VERB	v3gvsnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	28	conj	_	_
 53	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux:pass	_	SpaceAfter=No
@@ -7975,7 +7975,7 @@
 26	:	:	PUNCT	Pu	_	27	punct	_	_
 27	quare	quare	ADV	r	Compound=Yes|PronType=Rel	44	advmod	_	_
 28	si	si	SCONJ	cs	_	39	mark	_	_
-29	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	39	nsubj	_	_
+29	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	39	nsubj	_	_
 30	versificator	uersificator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	29	flat	_	SpaceAfter=No
 31	,	,	PUNCT	Pu	_	29	punct	_	_
 32	quanquam	quamquam	SCONJ	cs	Form=Emp|PronType=Rel	34	mark	_	_
@@ -8580,7 +8580,7 @@
 9	ut	ut	SCONJ	r	PronType=Rel	21	mark	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	9	punct	_	_
 11	cum	cum	SCONJ	cs	PronType=Rel	14	mark	_	_
-12	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	14	nsubj	_	_
+12	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	14	nsubj	_	_
 13	bene	bene	ADV	r	_	14	advmod	_	_
 14	meruit	mereo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	14	punct	_	_
@@ -8841,7 +8841,7 @@
 2	secundum	secundum	ADP	e	VerbForm=Part	4	mark	_	_
 3	quod	quod	SCONJ	cs	PronType=Rel	2	fixed	_	_
 4	vegetabile	uegetabilis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	9	advcl	_	_
-5	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	4	nsubj	_	_
+5	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	4	nsubj	_	_
 6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	4	punct	_	_
 8	utile	utilis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	9	obj	_	_
@@ -10714,10 +10714,10 @@
 24	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	cantionem	cantio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	21	conj:expl	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	21	punct	_	_
-27	quo	quis	PRON	pitsmb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	28	det	_	_
+27	quo	quis	PRON	pitsmb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	28	det	_	_
 28	modo	modus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	29	obl	_	_
 29	viere	uieo	VERB	va2fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	31	xcomp	_	_
-30	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	31	nsubj	_	_
+30	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	31	nsubj	_	_
 31	debeat	debeo	VERB	va2cps3	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	ccomp	_	_
 32	instruemus	instruo	VERB	va3ifp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
 33	.	.	PUNCT	Pu	_	3	punct	_	_
@@ -11961,13 +11961,13 @@
 # text = Quapropter quid sit cantio videamus, et quid intelligimus cum dicimus cantionem.
 # citation_hierarchy = Liber_Secundus,viii,Paragraphus_2
 1	Quapropter	quapropter	CCONJ	r	Compound=Yes|PronType=Rel	5	cc	_	_
-2	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	5	ccomp	_	_
+2	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	5	ccomp	_	_
 3	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	cantio	cantio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	2	nsubj	_	_
 5	videamus	uideo	VERB	va2cpp1	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Pu	_	9	punct	_	_
 7	et	et	CCONJ	co	_	9	cc	_	_
-8	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	9	obj	_	_
+8	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	9	obj	_	_
 9	intelligimus	intelligo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 10	cum	cum	SCONJ	cs	PronType=Rel	11	mark	_	_
 11	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
@@ -12352,7 +12352,7 @@
 23	quod	quod	SCONJ	cs	PronType=Rel	26	mark	_	_
 24	autem	autem	PART	co	_	36	discourse	_	_
 25	suppremum	superior	ADJ	ans2ns	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	26	amod	_	_
-26	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	36	csubj:pass	_	_
+26	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	36	csubj:pass	_	_
 27	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 28	cantio	cantio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	26	nsubj	_	SpaceAfter=No
 29	,	,	PUNCT	Pu	_	26	punct	_	_
@@ -12473,7 +12473,7 @@
 1	Et	et	CCONJ	co	_	3	cc	_	_
 2	sic	sic	ADV	r	PronType=Dem	3	discourse	_	_
 3	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	3	csubj	_	_
+4	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	3	csubj	_	_
 5	cantio	cantio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	4	nsubj	_	_
 6	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	10	punct	_	_
@@ -12496,7 +12496,7 @@
 2	etiam	etiam	ADV	co	Compound=Yes	4	discourse	_	_
 3	patere	pateo	VERB	va2fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	4	xcomp	_	_
 4	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-5	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	6	obj	_	_
+5	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	6	obj	_	_
 6	intelligimus	intelligo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	csubj:pass	_	_
 7	cum	cum	SCONJ	cs	PronType=Rel	9	mark	_	_
 8	cantionem	cantio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	9	obj	_	_
@@ -12505,7 +12505,7 @@
 11	et	et	CCONJ	co	_	14	cc	_	_
 12	per	per	ADP	e	_	13	mark	_	_
 13	consequens	consequor	VERB	ans2a	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	14	obl	_	_
-14	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	6	conj	_	_
+14	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	6	conj	_	_
 15	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 16	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	17	det	_	_
 17	fascis	fascis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	14	nsubj	_	_
@@ -12529,7 +12529,7 @@
 10	stantiarum	stantia	NOUN	sfp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	9	punct	_	_
 12	ignorato	ignoro	VERB	vp1prsnb	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	16	advcl:abs	_	_
-13	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	12	csubj:pass	_	_
+13	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	12	csubj:pass	_	_
 14	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 15	stantia	stantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj	_	_
 16	necesse	necesse	ADJ	din	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	0	root	_	_
@@ -12556,11 +12556,11 @@
 37	ut	ut	SCONJ	cs	PronType=Rel	39	mark	_	_
 38	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	39	cc	_	_
 39	investigemus	inuestigo	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	_
-40	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	39	ccomp	_	_
+40	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	39	ccomp	_	_
 41	ipsa	ipse	DET	ddesfn	Case=Nom|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	40	nsubj	_	_
 42	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
 43	et	et	CCONJ	co	_	48	cc	_	_
-44	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	47	obj	_	_
+44	quid	quis	PRON	pitsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	47	obj	_	_
 45	per	per	ADP	e	_	46	case	_	_
 46	eam	is	PRON	ddesfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	47	obl	_	_
 47	intelligere	intelligo	VERB	va3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	48	xcomp	_	_
@@ -12755,7 +12755,7 @@
 # text = Si quid autem rithimi servare interest huius quod est ars, illud comprehenditur ibi cum dicimus “partium habitudinem”.
 # citation_hierarchy = Liber_Secundus,ix,Paragraphus_5
 1	Si	si	SCONJ	cs	_	6	mark	_	_
-2	quid	quis	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	5	obj	_	_
+2	quid	quis	PRON	dinsna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	5	obj	_	_
 3	autem	autem	PART	co	_	13	discourse	_	_
 4	rithimi	rhythmus	NOUN	sms2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	2	nmod	_	_
 5	servare	seruo	VERB	va1fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	6	csubj	_	_
@@ -12825,7 +12825,7 @@
 18	de	de	ADP	e	_	20	case	_	_
 19	hac	hic	DET	dpfsb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	20	det	_	_
 20	anima	anima	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	17	obl:arg	_	_
-21	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	17	ccomp	_	_
+21	quid	quis	PRON	pitsnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	17	ccomp	_	_
 22	ea	is	PRON	ddesfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 23	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
 24	,	,	PUNCT	Pu	_	28	punct	_	_
@@ -13128,7 +13128,7 @@
 12	,	,	PUNCT	Pu	_	14	punct	_	_
 13	et	et	CCONJ	co	_	14	cc	_	_
 14	considera	considero	VERB	va1mps2	Aspect=Imp|InflClass=LatA|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-15	cuius	quis	PRON	pitsfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	16	det	_	_
+15	cuius	quis	PRON	pitsfg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Int	16	det	_	_
 16	rei	res	NOUN	sfs5g	Case=Gen|Gender=Fem|InflClass=IndEurE|Number=Sing	17	nmod	_	_
 17	causa	causa	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	23	obl	_	_
 18	tam	tam	ADV	r	PronType=Dem	19	advmod	_	_
@@ -14726,7 +14726,7 @@
 34	vero	uero	ADV	r	_	41	discourse	_	SpaceAfter=No
 35	,	,	PUNCT	Pu	_	34	punct	_	_
 36	si	si	SCONJ	cs	_	38	mark	_	_
-37	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	38	nsubj	_	_
+37	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	38	nsubj	_	_
 38	dubius	dubius	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	41	advcl	_	_
 39	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	SpaceAfter=No
 40	,	,	PUNCT	Pu	_	38	punct	_	_
