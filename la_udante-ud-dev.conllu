@@ -9659,15 +9659,15 @@
 # sent_id = Epi-273
 # text = Tertia, qua quilibet cantus dividitur in rithimos.
 # citation_hierarchy = XIII,Paragraphus_26
-1	Tertia	tertius	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	3	nsubj	_	SpaceAfter=No
+1	Tertia	tertius	ADJ	aufs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Ord	6	nsubj:outer	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
-3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	root	_	_
+3	qua	qui	PRON	presfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	obl:lmod	_	_
 4	quilibet	quilibet	DET	dpmsn	Case=Nom|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	5	det	_	_
 5	cantus	cantus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	6	nsubj:pass	_	_
 6	dividitur	diuido	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	in	in	ADP	e	_	8	case	_	_
 8	rithimos	rhythmus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	6	obl	_	SpaceAfter=No
-9	.	.	PUNCT	Pu	_	3	punct	_	_
+9	.	.	PUNCT	Pu	_	6	punct	_	_
 
 # sent_id = Epi-274
 # text = Forma sive modus tractandi est poeticus, fictivus, descriptivus, digressivus, transumptivus, et cum hoc diffinitivus, divisivus, probativus, improbativus, et exemplorum positivus.
