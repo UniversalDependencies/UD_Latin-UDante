@@ -80,6 +80,20 @@ Since the **UDante** treebank represents all known Latin works by Dante, its str
 
 <u>Please note:</u> as a byproduct of linguistic (or other) investigations performed on the **UDante** treebank, or its use for NLP purposes, constant corrections and improvements are performed on the syntactic trees as need be. It would not be sensible to list all such interventions in full, since the overall structure of the treebank is not affected. Whoever detects errors, inconsistencies or dubious annotation choices is gladly invited to report them! 
 
+
+* 2022-11-15 v2.11
+    * Implementations of the [amendment](https://universaldependencies.org/changes.html#multiple-subjects) for clausal non-verbal copular constructions and corrections regarding multiple subjects and introduction of the `:outer` subtype for subjects and copulas
+    * Implementation of the [amendment for reported speech](https://universaldependencies.org/changes.html#reported-speech), with the introduction of the `:reported` and `:reporting` subtypes
+        * this in turn has led to a complete revision of the use of `parataxis` in UDante, drastically reducing its presence
+    * Implementation of the proposal of [`VerbForm`](la-feat/VerbForm) reform as for (Cecchini, 2021; see documentation entry for `VerbForm`)
+        * at the same time, introduction of the `Traditional` feature in `MISC` to take into account traditional denominations  
+    * Double-pronoun constructions, also called free relatives, have been retraced to their treatment in IT-TB and LLCT, i.e. the relative pronoun is no longer "promoted" as external head and argument of the matrix clause; the `:relcl` subtype is introduced for these cases
+    * Many "small words" (especially particles) and their features have started being standardised among treebanks. For example, *is*/*ea*/*id* is now always a `PRON` with `PronType=Prs`, *nam* always a `PART`, `AdvType` has been added to many "adverbs"...
+        * *et*, *nec* etc. now stay `CCONJ` even when acting as focalisers
+        * *unus* is uniformed to a determiner (`DET`) with both cardinal numeral type and indefinite pronoun type, and numeric value `1`
+        * multiple (comma-separated) `PronType`s have been revised and reduced to one; the interrogative `Int` value has been streamlined as possible 
+    * Remotion of the value `Pos` for the feature `Degree` ("positive" degree is still retrievable as the absence of another degree)
+    * Various other occasional corrections of the annotation, especially in the *Monarchia* section
 * 2022-05-15 v2.10
     * Numerous manual or semi-automatic corrections have taken place, intervening on wrong sentence parsings, incorrect tokenisations, or more generally standardising some erratic annotations, especially with regard to adverbial and conjunctional elements. Some new annotation practices have also been implemented (for explanations, we point to the UD documentation pages for Latin). 
 * 2021-05-15 v2.8
