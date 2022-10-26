@@ -86,7 +86,7 @@ Since the **UDante** treebank represents all known Latin works by Dante, its str
     * Implementation of the [amendment for reported speech](https://universaldependencies.org/changes.html#reported-speech), with the introduction of the `:reported` and `:reporting` subtypes
         * this in turn has led to a complete revision of the use of `parataxis` in UDante, drastically reducing its presence
     * Implementation of the proposal of [`VerbForm`](la-feat/VerbForm) reform as for (Cecchini, 2021; see documentation entry for `VerbForm`)
-        * at the same time, introduction of the `Traditional` feature in `MISC` to take into account traditional denominations  
+        * at the same time, introduction of the `TraditionalMood` and `TraditionalTense` features in `MISC` to take into account traditional denominations  
     * Double-pronoun constructions, also called free relatives, have been retraced to their treatment in IT-TB and LLCT, i.e. the relative pronoun is no longer "promoted" as external head and argument of the matrix clause; the `:relcl` subtype is introduced for these cases
     * Many "small words" (especially particles) and their features have started being standardised among treebanks. For example, *is*/*ea*/*id* is now always a `PRON` with `PronType=Prs`, *nam* always a `PART`, `AdvType` has been added to many "adverbs"...
         * *et*, *nec* etc. now stay `CCONJ` even when acting as focalisers
