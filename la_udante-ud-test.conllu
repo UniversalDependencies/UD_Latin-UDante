@@ -9630,17 +9630,17 @@
 # sent_id = DVE-265
 # text = Quando quidem aporiavimus extricantes qui sint aulico digni vulgari et que, nec non modum quem tanto dignamur honore ut solus altissimo vulgari conveniat, antequam migremus ad alia modum cantionum, quem casu magis quam arte multi usurpare videntur, enucleemus; et qui hucusque casualiter est assumptus, illius artis ergasterium reseremus, modum ballatarum et sonituum ommictentes, quia illum elucidare intendimus in quarto huius operis, cum de mediocri vulgari tractabimus.
 # citation_hierarchy = Liber_Secundus,iv,Paragraphus_1
-1	Quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	42	advmod:tmod	_	_
+1	Quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	3	advmod:tmod	_	_
 2	quidem	quidem	PART	r	_	42	discourse	_	_
-3	aporiavimus	aporio	VERB	va1irp1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
+3	aporiavimus	aporio	VERB	va1irp1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	42	advcl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 4	extricantes	extrico	VERB	va1pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	3	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
-5	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	8	nsubj	_	_
+5	qui	quis	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Int	8	nsubj	_	_
 6	sint	sum	AUX	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 7	aulico	aulicus	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	9	amod	_	_
-8	digni	dignus	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	4	ccomp	_	_
+8	digni	dignus	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	3	ccomp	_	_
 9	vulgari	uulgare	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	8	obl:arg	_	_
 10	et	et	CCONJ	co	_	11	cc	_	_
-11	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	8	conj	_	SpaceAfter=No
+11	que	quis	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Int	5	conj	_	SpaceAfter=No
 12	,	,	PUNCT	Pu	_	15	punct	_	_
 13	nec	neque	CCONJ	co	Polarity=Neg	15	cc	_	_
 14	non	non	PART	r	Polarity=Neg	13	fixed	_	_
@@ -9672,7 +9672,7 @@
 40	videntur	uideo	VERB	vp2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	30	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 41	,	,	PUNCT	Pu	_	30	punct	_	_
 42	enucleemus	enucleo	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
-43	;	;	PUNCT	Pu	_	44	punct	_	_
+43	;	;	PUNCT	Pu	_	54	punct	_	_
 44	et	et	CCONJ	co	_	54	cc	_	_
 45	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	49	nsubj:pass	_	_
 46	hucusque	hucusque	ADV	r	Compound=Yes	49	advmod	_	_
