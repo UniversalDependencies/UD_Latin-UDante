@@ -1015,13 +1015,13 @@
 18	,	,	PUNCT	Pu	_	21	punct	_	_
 19	et	et	CCONJ	co	_	21	cc	_	_
 20	ad	ad	ADP	e	_	21	case	_	_
-21	quem	quis	PRON	pitsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	10	conj	_	SpaceAfter=No
+21	quem	quis	PRON	pitsma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	16	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Pu	_	24	punct	_	_
 23	et	et	CCONJ	co	_	24	cc	_	_
-24	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	10	conj	_	SpaceAfter=No
+24	ubi	ubi	ADV	r	AdvType=Loc|PronType=Rel	16	conj	_	SpaceAfter=No
 25	,	,	PUNCT	Pu	_	27	punct	_	_
 26	et	et	CCONJ	co	_	27	cc	_	_
-27	quando	quando	ADV	r	AdvType=Tim|PronType=Rel	10	conj	_	SpaceAfter=No
+27	quando	quando	ADV	r	AdvType=Tim|PronType=Rel	16	conj	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	36	punct	_	_
 29	nec	neque	CCONJ	co	Polarity=Neg	36	cc	_	_
 30	non	non	PART	r	Polarity=Neg	29	fixed	_	_
