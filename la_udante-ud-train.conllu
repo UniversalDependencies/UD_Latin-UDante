@@ -26990,13 +26990,13 @@
 # sent_id = Egl-55
 # text = Quando hoc Benacia quondam pastorale sonans detrivit fistula labrum, audiat in silvis et te cantare bubulcum».
 # citation_hierarchy = III_,Paragraphus_30
-1	Quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	11	advmod:tmod	_	_
+1	Quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	7	advmod:tmod	_	_
 2	hoc	hic	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	9	det	_	_
 3	Benacia	benacius	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Nat|Number=Sing	8	amod	_	_
-4	quondam	quondam	ADV	r	PronType=Rel	7	advmod	_	_
+4	quondam	quondam	ADV	r	AdvType=Tim|PronType=Rel	7	advmod:tmod	_	_
 5	pastorale	pastoralis	ADJ	r	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	6	obj	_	_
 6	sonans	sono	VERB	va1ppsfn	Aspect=Imp|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	7	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
-7	detrivit	detero	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
+7	detrivit	detero	VERB	va3irs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 8	fistula	fistula	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	7	nsubj	_	_
 9	labrum	labrum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	7	punct	_	_
