@@ -4717,8 +4717,8 @@
 5	moretur	moror	VERB	vd1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	ccomp	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 6	segnities	segnities	NOUN	sfs5n	Case=Nom|Gender=Fem|InflClass=IndEurE|Number=Sing	5	nsubj	_	_
 7	admiramur	admiror	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-8	,	,	PUNCT	Pu	_	9	punct	_	_
-9	quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	7	advmod:tmod	_	_
+8	,	,	PUNCT	Pu	_	18	punct	_	_
+9	quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	18	advmod:tmod	_	_
 10	iamdudum	iamdudum	ADV	r	Compound=Yes	13	advmod	_	_
 11	in	in	ADP	e	_	12	case	_	_
 12	valle	uallis	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	13	obl	_	_
@@ -4727,7 +4727,7 @@
 15	non	non	PART	r	Polarity=Neg	16	advmod:neg	_	_
 16	secus	secus	ADV	r	_	18	advmod	_	_
 17	Tusciam	tuscia	PROPN	Sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	18	obj	_	_
-18	derelinquis	derelinquo	VERB	va3ips2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+18	derelinquis	derelinquo	VERB	va3ips2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 19	,	,	PUNCT	Pu	_	20	punct	_	_
 20	pretermittis	praetermitto	VERB	va3ips2	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 21	et	et	CCONJ	co	_	22	cc	_	_
