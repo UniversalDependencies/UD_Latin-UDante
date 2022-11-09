@@ -26836,8 +26836,8 @@
 7	,	,	PUNCT	Pu	_	9	punct	_	_
 8	cuncte	cuncta	NOUN	sfs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	9	nmod	_	_
 9	solamina	solamen	NOUN	snp3a	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Plur	3	advcl:pred	_	SpaceAfter=No
-10	,	,	PUNCT	Pu	_	11	punct	_	_
-11	quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	3	advmod:tmod	_	_
+10	,	,	PUNCT	Pu	_	55	punct	_	_
+11	quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	55	advmod:tmod	_	_
 12	litoris	litus	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing|VerbForm=Part	16	nmod	_	_
 13	Adriaci	hadriacus	ADJ	ans1g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	12	amod	_	_
 14	resonantem	resono	VERB	va1ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	55	ccomp	_	TraditionalMood=Participium|TraditionalTense=Praesens
@@ -26883,7 +26883,7 @@
 52	equora	aequor	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	51	obj	_	_
 53	villo	uillus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	51	obl	_	SpaceAfter=No
 54	,	,	PUNCT	Pu	_	14	punct	_	_
-55	retulit	refero	VERB	v5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
+55	retulit	refero	VERB	v5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 56	ipse	ipse	DET	ddesmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	60	det	_	_
 57	michi	ego	PRON	ppp1smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	55	obl:arg	_	_
 58	flantis	flo	VERB	va1ppsmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	61	acl	_	TraditionalMood=Participium|TraditionalTense=Praesens
