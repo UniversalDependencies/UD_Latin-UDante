@@ -2685,10 +2685,10 @@
 4	maxime	magis	ADV	rs	Degree=Abs	6	advmod	_	_
 5	Deo	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	6	obl:arg	_	_
 6	assimilatur	assimilo	VERB	vp1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-7	quando	quando	ADV	r	AdvType=Tim|PronType=Rel	6	advmod:tmod	_	_
+7	quando	quando	ADV	r	AdvType=Tim|PronType=Rel	10	advmod:tmod	_	_
 8	maxime	magis	ADV	rs	Degree=Abs	10	advmod	_	_
 9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-10	unum	unus	DET	aunsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	7	acl:relcl	_	SpaceAfter=No
+10	unum	unus	DET	aunsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	6	advcl:relcl	_	SpaceAfter=No
 11	:	:	PUNCT	Pu	_	18	punct	_	_
 12	vera	uerus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	14	amod	_	_
 13	enim	enim	PART	c	Form=Emp	18	discourse	_	_
