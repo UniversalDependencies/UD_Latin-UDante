@@ -7930,13 +7930,13 @@
 30	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	32	obj	_	_
 31	districtius	districte	ADV	r+	Degree=Cmp|VerbForm=Part	32	advmod	_	_
 32	obligastis	obligo	VERB	va1xirp2	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Perfectum
-33	,	,	PUNCT	Pu	_	34	punct	_	_
-34	quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	32	advmod:tmod	_	_
+33	,	,	PUNCT	Pu	_	39	punct	_	_
+34	quando	quando	ADV	cs	AdvType=Tim|PronType=Rel	39	advmod:tmod	_	_
 35	rarius	raro	ADV	r+	Degree=Cmp	39	advmod	_	_
 36	exules	exul	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	37	nsubj	_	_
 37	invenire	inuenio	VERB	va4fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	39	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 38	amicos	amicus	NOUN	smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	37	obj	_	_
-39	contingit	contingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+39	contingit	contingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 40	.	.	PUNCT	Pu	_	25	punct	_	_
 
 # sent_id = Epi-218
