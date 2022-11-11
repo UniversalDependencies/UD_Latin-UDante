@@ -24682,7 +24682,7 @@
 5	sciendum	scio	VERB	vp4gvsnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	TraditionalMood=Gerundivum
 6	quod	quod	SCONJ	cs	PronType=Rel	11	mark	_	_
 7	homo	homo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	11	nsubj	_	_
-8	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	7	xcomp	_	_
+8	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	11	advcl:pred	_	_
 9	in	in	ADP	e	_	10	case	_	_
 10	entibus	ens	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur|VerbForm=Part	8	obl	_	_
 11	tenet	teneo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
