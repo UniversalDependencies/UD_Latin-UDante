@@ -25113,24 +25113,24 @@
 # sent_id = Mon-672
 # text = Et cum ad hunc portum vel nulli vel pauci, et hii cum difficultate nimia, pervenire possint, nisi sedatis fluctibus blande cupiditatis genus humanum liberum in pacis tranquillitate quiescat, hoc est illud signum ad quod maxime debet intendere curator orbis, qui dicitur romanus Princeps, ut scilicet in areola ista mortalium libere cum pace vivatur.
 # citation_hierarchy = Liber_Tertius,xv,Paragraphus_11
-1	Et	et	CCONJ	co	_	2	cc	_	_
-2	cum	cum	SCONJ	cs	PronType=Rel	18	mark	_	_
+1	Et	et	CCONJ	co	_	33	cc	_	_
+2	cum	cum	SCONJ	cs	PronType=Rel	7	mark	_	_
 3	ad	ad	ADP	e	_	5	case	_	_
 4	hunc	hic	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	5	det	_	_
-5	portum	portus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	17	obl:arg	_	_
+5	portum	portus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	7	orphan	_	_
 6	vel	uel	CCONJ	co	_	7	cc	_	_
-7	nulli	nullus	DET	dinpmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Ind	18	nsubj	_	_
+7	nulli	nullus	DET	dinpmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|Polarity=Neg|PronType=Ind	33	advcl	_	_
 8	vel	uel	CCONJ	co	_	9	cc	_	_
 9	pauci	paucus	DET	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	12	punct	_	_
 11	et	et	CCONJ	co	_	12	cc	_	_
-12	hii	hic	DET	ddipmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	9	conj	_	_
+12	hii	hic	DET	ddipmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	18	nsubj	_	_
 13	cum	cum	ADP	e	_	14	case	_	_
-14	difficultate	difficultas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	12	obl	_	_
+14	difficultate	difficultas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	18	obl	_	_
 15	nimia	nimius	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	14	amod	_	SpaceAfter=No
-16	,	,	PUNCT	Pu	_	7	punct	_	_
+16	,	,	PUNCT	Pu	_	18	punct	_	_
 17	pervenire	peruenio	VERB	va4fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	18	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-18	possint	possum	VERB	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+18	possint	possum	VERB	va5cpp3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 19	,	,	PUNCT	Pu	_	31	punct	_	_
 20	nisi	nisi	SCONJ	cs	Polarity=Neg	31	mark	_	_
 21	sedatis	sedo	VERB	vp1prpmb	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	31	advcl:abs	_	TraditionalMood=Participium|TraditionalTense=Perfectum
@@ -25143,8 +25143,8 @@
 28	in	in	ADP	e	_	30	case	_	_
 29	pacis	pax	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	30	nmod	_	_
 30	tranquillitate	tranquillitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	31	obl	_	_
-31	quiescat	quiesco	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
-32	,	,	PUNCT	Pu	_	18	punct	_	_
+31	quiescat	quiesco	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+32	,	,	PUNCT	Pu	_	7	punct	_	_
 33	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	0	root	_	_
 34	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 35	illud	ille	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	36	det	_	_
