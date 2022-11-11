@@ -3071,27 +3071,27 @@
 # sent_id = Mon-78
 # text = Et cum alter de altero cognoscere non possit ex quo alter alteri non subditur - nam par in parem non habet imperium - oportet esse tertium iurisdictionis amplioris qui ambitu sui iuris ambobus principetur.
 # citation_hierarchy = Liber_Primus,x,Paragraphus_3
-1	Et	et	CCONJ	co	_	8	cc	_	_
+1	Et	et	CCONJ	co	_	24	cc	_	_
 2	cum	cum	SCONJ	cs	PronType=Rel	8	mark	_	_
 3	alter	alter	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	8	nsubj	_	_
 4	de	de	ADP	e	_	5	case	_	_
 5	altero	alter	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	6	obl	_	_
-6	cognoscere	cognosco	VERB	va3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	8	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+6	cognoscere	cognosco	VERB	va3fp	Aspect=Imp|VerbForm=Vnoun|Voice=Act	8	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 7	non	non	PART	r	Polarity=Neg	8	advmod:neg	_	_
 8	possit	possum	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
-9	ex	ex	ADP	e	_	14	mark	_	_
-10	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	fixed	_	_
+9	ex	ex	ADP	e	_	10	case	_	_
+10	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	14	obl	_	_
 11	alter	alter	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	14	nsubj:pass	_	_
-12	alteri	alter	DET	dpmsd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	11	obl	_	_
+12	alteri	alter	DET	dpmsd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	14	obl:arg	_	_
 13	non	non	PART	r	Polarity=Neg	14	advmod:neg	_	_
-14	subditur	subdo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+14	subditur	subdo	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 15	-	-	PUNCT	Pu	_	21	punct	_	_
 16	nam	nam	PART	co	_	21	discourse	_	_
 17	par	par	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	21	nsubj	_	_
 18	in	in	ADP	e	_	19	case	_	_
 19	parem	par	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	21	obl	_	_
 20	non	non	PART	r	Polarity=Neg	21	advmod:neg	_	_
-21	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+21	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj:expl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 22	imperium	imperium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	21	obj	_	_
 23	-	-	PUNCT	Pu	_	8	punct	_	_
 24	oportet	oportet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
