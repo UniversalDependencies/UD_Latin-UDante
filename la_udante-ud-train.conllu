@@ -12592,13 +12592,13 @@
 14	:	:	PUNCT	Pu	_	19	punct	_	_
 15	scilicet	scilicet	CCONJ	r	Compound=Yes|VerbForm=Fin	19	cc	_	_
 16	a	a	ADP	e	_	17	case	_	_
-17	disceptatione	disceptatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	19	obl	_	_
+17	disceptatione	disceptatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	19	orphan	_	_
 18	athletarum	athleta	NOUN	smp1g	Case=Gen|Gender=Masc|InflClass=IndEurA|Number=Plur	17	nmod	_	_
 19	unam	unus	DET	aufsa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	8	conj:expl	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	25	punct	_	_
 21	et	et	CCONJ	co	_	25	cc	_	_
 22	a	a	ADP	e	_	23	case	_	_
-23	disceptatione	disceptatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	25	obl	_	_
+23	disceptatione	disceptatio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	25	orphan	_	_
 24	pugilum	pugil	NOUN	smp3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	23	nmod	_	_
 25	alteram	alter	DET	dpfsa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	19	conj	_	SpaceAfter=No
 26	;	;	PUNCT	Pu	_	29	punct	_	_
