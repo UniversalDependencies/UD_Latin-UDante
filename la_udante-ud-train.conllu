@@ -34110,7 +34110,7 @@
 1	Et	et	CCONJ	co	_	2	cc	_	_
 2	sic	sic	ADV	r	PronType=Dem	0	root	_	_
 3	ad	ad	ADP	e	_	4	case	_	_
-4	argumenta	argumentum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	2	obl	_	SpaceAfter=No
+4	argumenta	argumentum	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	2	orphan	_	SpaceAfter=No
 5	.	.	PUNCT	Pu	_	2	punct	_	_
 
 # sent_id = Que-131
