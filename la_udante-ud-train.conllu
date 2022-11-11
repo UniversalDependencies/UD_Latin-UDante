@@ -21952,7 +21952,7 @@
 12	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 13	,	,	PUNCT	Pu	_	12	punct	_	_
 14	eadem	idem	DET	dpfsb	Case=Abl|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	15	det	_	_
-15	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	17	obl	_	_
+15	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	17	orphan	_	_
 16	et	et	CCONJ	co	_	17	cc	_	_
 17	alius	alius	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	Pu	_	17	punct	_	_
