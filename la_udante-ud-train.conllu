@@ -300,10 +300,10 @@
 # sent_id = Mon-9
 # text = Est ergo temporalis Monarchia, quam dicunt “Imperium”, unicus principatus et super omnes in tempore vel in hiis et super hiis que tempore mensurantur.
 # citation_hierarchy = Liber_Primus,ii,Paragraphus_2
-1	Est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-2	ergo	ergo	ADV	co	AdvType=Loc	4	discourse	_	_
+1	Est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+2	ergo	ergo	ADV	co	AdvType=Loc	13	discourse	_	_
 3	temporalis	temporalis	ADJ	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	4	amod	_	_
-4	Monarchia	monarchia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	SpaceAfter=No
+4	Monarchia	monarchia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	13	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Pu	_	7	punct	_	_
 6	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	7	obj	_	_
 7	dicunt	dico	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
@@ -312,12 +312,12 @@
 10	”	”	PUNCT	Pu	_	9	punct	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	13	punct	_	_
 12	unicus	unicus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	13	amod	_	_
-13	principatus	principatus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	4	advcl:cmp	_	_
+13	principatus	principatus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	0	root	_	_
 14	et	et	CCONJ	co	_	16	cc	_	_
 15	super	super	ADP	e	_	16	case	_	_
-16	omnes	omnis	DET	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	13	obl	_	_
+16	omnes	omnis	DET	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	12	conj	_	_
 17	in	in	ADP	e	_	18	case	_	_
-18	tempore	tempus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	16	obl	_	_
+18	tempore	tempus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	16	nmod	_	_
 19	vel	uel	CCONJ	co	_	21	cc	_	_
 20	in	in	ADP	e	_	21	case	_	_
 21	hiis	hic	DET	ddipnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	18	conj	_	_
@@ -326,8 +326,8 @@
 24	hiis	hic	DET	ddipnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	21	conj	_	_
 25	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	27	nsubj:pass	_	_
 26	tempore	tempus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	27	obl	_	_
-27	mensurantur	mensuro	VERB	vp1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	24	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-28	.	.	PUNCT	Pu	_	4	punct	_	_
+27	mensurantur	mensuro	VERB	vp1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+28	.	.	PUNCT	Pu	_	13	punct	_	_
 
 # sent_id = Mon-10
 # text = Maxime autem de hac tria dubitata queruntur: primo nanque dubitatur et queritur an ad bene esse mundi necessaria sit; secundo an romanus populus de iure Monarche offitium sibi asciverit; et tertio an auctoritas Monarche dependeat a Deo inmediate vel ab alio, Dei ministro seu vicario.
