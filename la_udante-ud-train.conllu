@@ -1993,7 +1993,7 @@
 22	solum	solum	ADV	r	PronType=Con	25	advmod:emph	_	_
 23	in	in	ADP	e	_	25	case	_	_
 24	recta	rego	VERB	afs1b	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	25	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
-25	politia	politia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	20	obl	_	SpaceAfter=No
+25	politia	politia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	20	orphan	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	30	punct	_	_
 27	sed	sed	CCONJ	co	_	30	cc	_	_
 28	etiam	etiam	ADV	co	Compound=Yes	30	advmod:emph	_	_
