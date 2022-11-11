@@ -4356,7 +4356,7 @@
 17	ore	os	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	15	obl	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	22	punct	_	_
 19	in	in	ADP	e	_	20	case	_	_
-20	intellectu	intellectus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	22	obl	_	_
+20	intellectu	intellectus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	22	orphan	_	_
 21	vero	uero	ADV	r	_	22	discourse	_	_
 22	pauci	paucus	DET	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	15	conj	_	SpaceAfter=No
 23	.	.	PUNCT	Pu	_	3	punct	_	_
