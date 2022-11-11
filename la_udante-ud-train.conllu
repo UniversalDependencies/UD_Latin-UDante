@@ -13562,7 +13562,7 @@
 37	ille	ille	DET	ddismn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	32	conj	_	_
 38	vero	uero	ADV	r	_	37	discourse	_	_
 39	in	in	ADP	e	_	40	case	_	_
-40	Offitiis	officium	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	37	obl	_	SpaceAfter=No
+40	Offitiis	officium	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Proper=Yes	37	orphan	_	SpaceAfter=No
 41	;	;	PUNCT	Pu	_	52	punct	_	_
 42	et	et	CCONJ	co	_	52	cc	_	_
 43	quemadmodum	quemadmodum	SCONJ	r	Compound=Yes|PronType=Rel	52	mark	_	_
