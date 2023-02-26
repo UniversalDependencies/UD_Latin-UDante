@@ -10003,12 +10003,12 @@
 8	cum	cum	ADP	e	_	9	case	_	_
 9	gravitate	grauitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	20	obl:arg	_	_
 10	sententie	sententia	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	9	nmod	_	_
-11	tam	tam	ADV	r	PronType=Dem	12	advmod:emph	_	_
+11	tam	tam	ADV	r	PronType=Dem	20	advmod:emph	_	_
 12	superbia	superbia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	20	nsubj	_	_
 13	carminum	carmen	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur	12	nmod	_	_
 14	quam	quam	SCONJ	c	PronType=Rel	16	mark	_	_
 15	constructionis	constructio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	16	nmod	_	_
-16	elatio	elatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	12	acl:cmp	_	_
+16	elatio	elatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	20	advcl:cmp	_	_
 17	et	et	CCONJ	co	_	18	advmod:emph	_	_
 18	excellentia	excellentia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	16	conj	_	_
 19	vocabulorum	uocabulum	NOUN	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	18	nmod	_	_
