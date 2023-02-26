@@ -9653,7 +9653,7 @@
 21	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	24	advcl:pred	_	_
 22	altissimo	altus	ADJ	ans1bs	Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	23	amod	_	_
 23	vulgari	uulgare	NOUN	sns3d	Case=Dat|Gender=Neut|InflClass=IndEurI|Number=Sing	24	obl:arg	_	_
-24	conveniat	conuenio	VERB	va4cps3	Aspect=Imp|InflClass=LatI|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:cmp	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+24	conveniat	conuenio	VERB	va4cps3	Aspect=Imp|InflClass=LatI|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 25	,	,	PUNCT	Pu	_	3	punct	_	_
 26	antequam	antequam	SCONJ	cs	Compound=Yes|PronType=Rel	27	mark	_	_
 27	migremus	migro	VERB	va1cps1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	42	advcl	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
