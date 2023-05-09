@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Latin-UDante:
-commit fffb6c9813b588a77ccd171aa9c18c6c542b7c90
-Merge: 2318ba5 0cccbdf
+commit e3ce0cd2fb558f14d535834c3fcaa955a5fbd4bf
+Merge: 98468a0 1333b76
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 55524 of 55524 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.03363071942573.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 477 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 55524 words.
 Genres: found 3 out of 17 known.
-validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-dev.conllu
 *** PASSED ***
-validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-test.conllu
 *** PASSED ***
-validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
