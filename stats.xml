@@ -33,10 +33,10 @@
     <tag name="X">512</tag><!-- che, amor, per, si, etcetera, lo, de, amore, l, non -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="97">
+  <feats unique="96">
     <feat name="Abbr" value="Yes" upos="PROPN,X">18</feat><!-- etc, G, L, A, B -->
     <feat name="AdvType" value="Loc" upos="ADV,SCONJ">415</feat><!-- ergo, unde, ubi, ibi, hinc, hic, preterea, propterea, alibi, undique -->
-    <feat name="AdvType" value="Tim" upos="ADV">296</feat><!-- nunc, iam, semper, quando, quandoque, adhuc, iterum, tum, denique, cotidie -->
+    <feat name="AdvType" value="Tim" upos="ADV">298</feat><!-- nunc, iam, semper, quando, quandoque, adhuc, iterum, tum, denique, cotidie -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">7941</feat><!-- est, esse, sunt, sit, potest, patet, habet, dicimus, videtur, esset -->
     <feat name="Aspect" value="Inch" upos="VERB">60</feat><!-- deposco, innotescere, innotescet, innotescit, allubescentes, arescant, asciscere, asciscunt, calescunt, cognosceres -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1953</feat><!-- fuit, dictum, fuisse, fecit, fuisset, inquit, dixit, fuerit, factum, potuit -->
@@ -113,10 +113,10 @@
     <feat name="PronType" value="Con" upos="ADV,DET,SCONJ">544</feat><!-- aliud, solum, alia, aliis, aliter, alii, aliorum, sola, alios, alterum -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PART,PRON">2082</feat><!-- hoc, sic, illa, illud, hec, ipsum, tamen, huius, hiis, ipsa -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">787</feat><!-- unum, quedam, nichil, aliquid, quidam, una, nulla, aliqua, nullo, uno -->
-    <feat name="PronType" value="Int" upos="PRON">107</feat><!-- quid, quis, quem, quos, quo, cui, cuius, qua -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">108</feat><!-- quid, quis, quem, quo, cui, cuius, qua, que, qui, quos -->
     <feat name="PronType" value="Prs" upos="DET,PRON">1417</feat><!-- se, eius, nobis, sibi, sua, me, te, ea, nos, eo -->
     <feat name="PronType" value="Rcp" upos="PRON">9</feat><!-- invicem -->
-    <feat name="PronType" value="Rel" upos="ADV,CCONJ,DET,PRON,SCONJ">3788</feat><!-- quod, ut, cum, que, qui, quam, quia, quo, quantum, unde -->
+    <feat name="PronType" value="Rel" upos="ADV,CCONJ,DET,PRON,SCONJ">3787</feat><!-- quod, ut, cum, que, qui, quam, quia, quo, quantum, unde -->
     <feat name="PronType" value="Tot" upos="ADV,DET">472</feat><!-- omnes, omnia, omnibus, totum, omne, omnis, omnium, totius, omni, tota -->
     <feat name="Proper" value="Yes" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB,X">787</feat><!-- Dei, Deus, Deo, Ecclesie, de, Ecclesia, Imperium, Imperii, Phylosophus, Deum -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">503</feat><!-- se, sibi, sua, suis, sui, suam, suo, sue, suum, suorum -->
@@ -126,44 +126,43 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">5595</feat><!-- est, sunt, sit, potest, patet, habet, dicimus, videtur, dicit, dico -->
     <feat name="Variant" value="Greek" upos="ADJ,NOUN,PROPN">25</feat><!-- Tityron, econ, melos, Abidon, Andromache, Caucason, Emilida, Iesu, Lethen, Leucothoen -->
     <feat name="VerbForm" value="Fin" upos="AUX,CCONJ,SCONJ,VERB">6793</feat><!-- est, sunt, sit, potest, patet, habet, dicimus, fuit, videtur, scilicet -->
-    <feat name="VerbForm" value="Inf" upos="AUX">348</feat><!-- esse, fuisse, fore -->
+    <feat name="VerbForm" value="Inf" upos="AUX,NOUN,VERB">1472</feat><!-- esse, habere, fuisse, facere, fieri, dici, dicere, posse, solvere, uti -->
     <feat name="VerbForm" value="Part" upos="ADJ,ADP,ADV,AUX,NOUN,VERB">3017</feat><!-- secundum, natura, consequens, dictum, nature, sciendum, secundo, naturam, subiectum, existente -->
-    <feat name="VerbForm" value="Vnoun" upos="NOUN,VERB">1124</feat><!-- habere, facere, fieri, dici, dicere, posse, solvere, uti, velle, reduci -->
     <feat name="Voice" value="Act" upos="VERB">5179</feat><!-- potest, patet, habet, dicimus, dicit, consequens, dico, habere, oportet, dicunt -->
     <feat name="Voice" value="Pass" upos="VERB">3006</feat><!-- videtur, dicitur, dictum, sequitur, sciendum, fieri, videntur, dici, dicendum, uti -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="68">
     <dep name="acl">596</dep>
-    <dep name="acl:relcl">1070</dep>
-    <dep name="advcl">1472</dep>
+    <dep name="acl:relcl">1053</dep>
+    <dep name="advcl">1469</dep>
     <dep name="advcl:abs">155</dep>
-    <dep name="advcl:cmp">696</dep>
-    <dep name="advcl:pred">449</dep>
-    <dep name="advcl:relcl">30</dep>
-    <dep name="advmod">1766</dep>
-    <dep name="advmod:emph">347</dep>
+    <dep name="advcl:cmp">695</dep>
+    <dep name="advcl:pred">454</dep>
+    <dep name="advcl:relcl">46</dep>
+    <dep name="advmod">1762</dep>
+    <dep name="advmod:emph">348</dep>
     <dep name="advmod:lmod">206</dep>
-    <dep name="advmod:neg">686</dep>
-    <dep name="advmod:tmod">241</dep>
+    <dep name="advmod:neg">688</dep>
+    <dep name="advmod:tmod">244</dep>
     <dep name="amod">2014</dep>
     <dep name="appos">82</dep>
     <dep name="aux">52</dep>
     <dep name="aux:pass">521</dep>
     <dep name="case">3903</dep>
-    <dep name="cc">2973</dep>
+    <dep name="cc">2974</dep>
     <dep name="ccomp">591</dep>
-    <dep name="ccomp:relcl">44</dep>
+    <dep name="ccomp:relcl">45</dep>
     <dep name="ccomp:reported">161</dep>
     <dep name="conj">3322</dep>
-    <dep name="conj:expl">287</dep>
-    <dep name="cop">1494</dep>
-    <dep name="cop:outer">24</dep>
-    <dep name="csubj">453</dep>
+    <dep name="conj:expl">288</dep>
+    <dep name="cop">1493</dep>
+    <dep name="cop:outer">25</dep>
+    <dep name="csubj">452</dep>
     <dep name="csubj:cleft">12</dep>
     <dep name="csubj:outer">2</dep>
     <dep name="csubj:pass">134</dep>
-    <dep name="csubj:relcl">93</dep>
+    <dep name="csubj:relcl">94</dep>
     <dep name="csubj:reported">20</dep>
     <dep name="det">2006</dep>
     <dep name="det:numgov">1</dep>
@@ -173,27 +172,27 @@
     <dep name="dislocated:obj">3</dep>
     <dep name="dislocated:obl">3</dep>
     <dep name="expl:pass">2</dep>
-    <dep name="fixed">134</dep>
+    <dep name="fixed">131</dep>
     <dep name="flat">104</dep>
     <dep name="flat:foreign">371</dep>
     <dep name="flat:gov">1</dep>
     <dep name="flat:name">28</dep>
-    <dep name="mark">2731</dep>
-    <dep name="nmod">2541</dep>
+    <dep name="mark">2730</dep>
+    <dep name="nmod">2543</dep>
     <dep name="nmod:poss">1</dep>
-    <dep name="nsubj">3174</dep>
+    <dep name="nsubj">3171</dep>
     <dep name="nsubj:cleft">1</dep>
-    <dep name="nsubj:outer">28</dep>
-    <dep name="nsubj:pass">781</dep>
+    <dep name="nsubj:outer">29</dep>
+    <dep name="nsubj:pass">782</dep>
     <dep name="nummod">103</dep>
-    <dep name="obj">2102</dep>
-    <dep name="obl">3438</dep>
+    <dep name="obj">2103</dep>
+    <dep name="obl">3421</dep>
     <dep name="obl:agent">201</dep>
-    <dep name="obl:arg">1006</dep>
+    <dep name="obl:arg">1008</dep>
     <dep name="obl:cmp">34</dep>
-    <dep name="obl:lmod">61</dep>
+    <dep name="obl:lmod">62</dep>
     <dep name="obl:tmod">15</dep>
-    <dep name="orphan">361</dep>
+    <dep name="orphan">372</dep>
     <dep name="parataxis">5</dep>
     <dep name="parataxis:reporting">8</dep>
     <dep name="punct">8612</dep>
