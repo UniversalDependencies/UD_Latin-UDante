@@ -296,12 +296,12 @@
 4	“	“	PUNCT	Pu	_	5	punct	_	SpaceAfter=No
 5	nostra	noster	DET	dsfsn	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	2	obj	_	SpaceAfter=No
 6	”	”	PUNCT	Pu	_	5	punct	_	_
-7	ut	ut	SCONJ	r	PronType=Rel	10	mark	_	_
+7	ut	ut	SCONJ	r	PronType=Rel	12	mark	_	_
 8	et	et	CCONJ	r	_	12	advmod:emph	_	_
 9	aliam	alius	DET	dpfs1a	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	12	det	_	_
-10	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl:cmp	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+10	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop:outer	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 11	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	12	cop	_	TraditionalTense=Praesens
-12	locutionem	locutio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	10	ccomp	_	_
+12	locutionem	locutio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	2	advcl:cmp	_	_
 13	quam	quam	SCONJ	c	PronType=Rel	14	mark	_	_
 14	hominis	homo	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	9	advcl:cmp	_	SpaceAfter=No
 15	:	:	PUNCT	Pu	_	23	punct	_	_
@@ -1314,9 +1314,9 @@
 17	,	,	PUNCT	Pu	_	19	punct	_	_
 18	si	si	SCONJ	cs	_	19	mark	_	_
 19	responsio	responsio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	16	advcl	_	_
-20	fuit	sum	AUX	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	obl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
+20	fuit	sum	AUX	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 21	ad	ad	ADP	e	_	22	case	_	_
-22	Deum	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	16	ccomp	_	SpaceAfter=No
+22	Deum	deus	NOUN	Sms2	Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = DVE-34
@@ -6207,14 +6207,14 @@
 # sent_id = DVE-167
 # text = Non etenim est quod aulicum et illustre vocamus: quoniam, si fuisset, maximus Guido Guinizelli, Guido Ghisilerius, Fabrutius et Honestus et alii poetantes Bononie nunquam a proprio divertissent: qui doctores fuerunt illustres et vulgarium discretione repleti.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_6
-1	Non	non	PART	r	Polarity=Neg	3	advmod:neg	_	_
-2	etenim	etenim	PART	co	Compound=Yes|Form=Emp	3	discourse	_	_
-3	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-4	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	8	nsubj	_	_
+1	Non	non	PART	r	Polarity=Neg	8	advmod:neg	_	_
+2	etenim	etenim	PART	co	Compound=Yes|Form=Emp	8	discourse	_	_
+3	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop:outer	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+4	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	8	obj	_	_
 5	aulicum	aulicus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	8	xcomp	_	_
 6	et	et	CCONJ	co	_	7	cc	_	_
 7	illustre	illustris	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	5	conj	_	_
-8	vocamus	uoco	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+8	vocamus	uoco	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 9	:	:	PUNCT	Pu	_	10	punct	_	_
 10	quoniam	quoniam	SCONJ	cs	Compound=Yes|PronType=Rel	32	mark	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	10	punct	_	_
@@ -6238,7 +6238,7 @@
 29	nunquam	numquam	ADV	r	Polarity=Neg	32	advmod	_	_
 30	a	a	ADP	e	_	31	case	_	_
 31	proprio	proprius	ADJ	ans1b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	32	obl:arg	_	_
-32	divertissent	diuerto	VERB	va3c+p3	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Perfectum
+32	divertissent	diuerto	VERB	va3c+p3	Aspect=Perf|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Perfectum
 33	:	:	PUNCT	Pu	_	35	punct	_	_
 34	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	35	nsubj	_	_
 35	doctores	doctor	NOUN	smp3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur	32	acl:relcl	_	_
@@ -6248,7 +6248,7 @@
 39	vulgarium	uulgare	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	40	nmod	_	_
 40	discretione	discretio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	41	obl:arg	_	_
 41	repleti	repleo	VERB	vp2prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	35	conj	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
-42	.	.	PUNCT	Pu	_	3	punct	_	_
+42	.	.	PUNCT	Pu	_	8	punct	_	_
 
 # sent_id = DVE-168
 # text = Maximus Guido: Madonna, 'l fino amore ch'io vi porto; Guido Ghisilerius: Donna, lo fermo core; Fabrutius: Lo meo lontano gire; Honestus: Più non attendo il tuo soccorso, amore.
@@ -12439,12 +12439,12 @@
 # citation_hierarchy = Liber_Secundus,viii,Paragraphus_8
 1	Quod	quod	SCONJ	cs	PronType=Rel	3	mark	_	_
 2	autem	autem	PART	co	_	3	discourse	_	_
-3	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	csubj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+3	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 4	“	“	PUNCT	Pu	_	6	punct	_	SpaceAfter=No
 5	tragica	tragicus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
 6	coniugatio	coniugatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	3	obj	_	SpaceAfter=No
 7	”	”	PUNCT	Pu	_	6	punct	_	_
-8	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+8	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop:outer	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 9	quia	quia	SCONJ	cs	PronType=Rel	18	mark	_	SpaceAfter=No
 10	,	,	PUNCT	Pu	_	9	punct	_	_
 11	cum	cum	SCONJ	cs	PronType=Rel	13	mark	_	_
@@ -12454,7 +12454,7 @@
 15	coniugatio	coniugatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	13	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	Pu	_	13	punct	_	_
 17	cantilenam	cantilena	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	18	xcomp	_	_
-18	vocamus	uoco	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+18	vocamus	uoco	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 19	per	per	ADP	e	_	20	case	_	_
 20	diminutionem	diminutio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	18	obl	_	SpaceAfter=No
 21	:	:	PUNCT	Pu	_	28	punct	_	_
@@ -12465,7 +12465,7 @@
 26	huius	hic	DET	ddisng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	25	nmod	_	_
 27	tractare	tracto	VERB	va1fp	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 28	intendimus	intendo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-29	.	.	PUNCT	Pu	_	8	punct	_	_
+29	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = DVE-342
 # text = Et sic patet quid cantio sit, et prout accipitur generaliter et prout per superexcellentiam vocamus eam.
@@ -13002,17 +13002,17 @@
 # sent_id = DVE-358
 # text = Quedam vero sunt diesim patientes: et diesis esse non potest, secundum quod eam appellamus, nisi reiteratio unius ode fiat, vel ante diesim, vel post, vel undique.
 # citation_hierarchy = Liber_Secundus,xi,Paragraphus_3
-1	Quedam	quidam	DET	dinpfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Ind	0	root	_	_
-2	vero	uero	ADV	r	_	1	discourse	_	_
-3	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+1	Quedam	quidam	DET	dinpfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Ind	5	nsubj	_	_
+2	vero	uero	ADV	r	_	5	discourse	_	_
+3	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 4	diesim	diesis	NOUN	sfs3ar	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	5	obj	_	_
-5	patientes	patior	VERB	vd3pppfn	Aspect=Imp|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	1	acl	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
+5	patientes	patior	VERB	vd3pppfn	Aspect=Imp|Case=Nom|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
 6	:	:	PUNCT	Pu	_	11	punct	_	_
 7	et	et	CCONJ	co	_	11	cc	_	_
 8	diesis	diesis	NOUN	sfs3nr	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	11	nsubj	_	_
 9	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	11	xcomp	_	TraditionalTense=Praesens
 10	non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
-11	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+11	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 12	,	,	PUNCT	Pu	_	16	punct	_	_
 13	secundum	secundum	ADP	e	VerbForm=Part	16	mark	_	_
 14	quod	quod	SCONJ	cs	PronType=Rel	13	fixed	_	_
@@ -13034,7 +13034,7 @@
 30	,	,	PUNCT	Pu	_	32	punct	_	_
 31	vel	uel	CCONJ	co	_	32	cc	_	_
 32	undique	undique	ADV	r	Form=Emp|PronType=Ind	26	conj	_	SpaceAfter=No
-33	.	.	PUNCT	Pu	_	1	punct	_	_
+33	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = DVE-359
 # text = Si ante diesim repetitio fiat, stantiam dicimus habere pedes; et duos habere decet, licet quandoque tres fiant, rarissime tamen.
