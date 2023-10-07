@@ -8189,7 +8189,7 @@
 25	fame	fama	NOUN	sfs1d	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	30	obl:arg	_	_
 26-27	Dantisque	_	_	_	_	_	_	_	_
 26	Dantis	dantes	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Giv|Number=Sing	25	nmod	_	_
-27	que	que	CCONJ	co9	_	26	fixed	_	_
+27	que	que	CCONJ	co9	_	26	cc	_	_
 28	honori	honos	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	25	conj	_	_
 29	non	non	PART	r	Polarity=Neg	30	advmod:neg	_	_
 30	deroget	derogo	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
