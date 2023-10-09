@@ -10309,7 +10309,7 @@
 10	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 11	,	,	PUNCT	Pu	_	14	punct	_	_
 12	et	et	CCONJ	co	_	14	cc	_	_
-13	totaliter	totaliter	ADV	r	_	15	orphan	_	_
+13	totaliter	totaliter	ADV	r	_	15	advmod	_	_
 14	videtur	uideo	VERB	vd2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 15	esse	sum	AUX	va5fp	Aspect=Imp|VerbForm=Inf	14	xcomp	_	SpaceAfter=No|TraditionalTense=Praesens
 16	.	.	PUNCT	Pu	_	7	punct	_	_
