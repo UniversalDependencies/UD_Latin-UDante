@@ -31864,7 +31864,7 @@
 66	,	,	PUNCT	Pu	_	62	punct	_	_
 67	secundum	secundum	ADP	e	VerbForm=Part	69	case	_	_
 68	tamen	tamen	ADV	r	Form=Emp|PronType=Dem	78	advmod	_	_
-69	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	67	obl	_	_
+69	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	71	obl	_	_
 70	rationi	ratio	NOUN	sfs3d	Case=Dat|Gender=Fem|InflClass=IndEurX|Number=Sing	71	obl:arg	_	_
 71	obedibiles	obedibilis	ADJ	amp2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur	78	advcl:relcl	_	_
 72	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	71	cop	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
