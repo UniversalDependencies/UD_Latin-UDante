@@ -1,3 +1,4 @@
+
 # sent_id = DVE-1
 # text = Cum neminem ante nos de vulgaris eloquentie doctrina quicquam inveniamus tractasse, atque talem scilicet eloquentiam penitus omnibus necessariam videamus - cum ad eam non tantum viri sed etiam mulieres et parvuli nitantur, in quantum natura permictit -, volentes discretionem aliqualiter lucidare illorum qui tanquam ceci ambulant per plateas, plerunque anteriora posteriora putantes, Verbo aspirante de celis locutioni vulgarium gentium prodesse temptabimus, non solum aquam nostri ingenii ad tantum poculum aurientes, sed, accipiendo vel compilando ab aliis, potiora miscentes, ut exinde potionare possimus dulcissimum ydromellum.
 # citation_hierarchy = Liber_Primus,i,Paragraphus_1
@@ -839,7 +840,7 @@
 7	angelum	angelus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	11	advcl:cmp	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	7	punct	_	_
 9	alterum	alter	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	11	nsubj	_	_
-10	alterum	alter	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	11	obl:arg	_	_
+10	alterum	alter	DET	dpmsa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	11	obj	_	_
 11	introire	introeo	VERB	va5fp	Aspect=Imp|VerbForm=Inf|Voice=Act	12	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 12	contingit	contingo	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 13	,	,	PUNCT	Pu	_	23	punct	_	_
@@ -2563,7 +2564,7 @@
 # text = Quot quot autem exercitii varietates tendebant ad opus, tot tot ydiomatibus tunc genus humanum disiungitur; et quanto excellentius exercebant, tanto rudius nunc barbariusque locuntur.
 # citation_hierarchy = Liber_Primus,vii,Paragraphus_7
 1	Quot	quot	DET	ai	NumType=Card|PronType=Rel	5	det	_	_
-2	quot	quot	DET	ai	NumType=Card|PronType=Rel	1	fixed	_	_
+2	quot	quot	DET	ai	NumType=Card|PronType=Rel	1	flat:redup	_	_
 3	autem	autem	PART	co	_	6	discourse	_	_
 4	exercitii	exercitium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	5	nmod	_	_
 5	varietates	uarietas	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	6	nsubj	_	_
@@ -2572,7 +2573,7 @@
 8	opus	opus	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	6	punct	_	_
 10	tot	tot	DET	yuip	NumType=Card|PronType=Dem	12	det	_	_
-11	tot	tot	DET	yuip	NumType=Card|PronType=Dem	10	fixed	_	_
+11	tot	tot	DET	yuip	NumType=Card|PronType=Dem	10	flat:redup	_	_
 12	ydiomatibus	idioma	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur	16	obl	_	_
 13	tunc	tunc	ADV	r	PronType=Dem	16	advmod	_	_
 14	genus	genus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	16	nsubj:pass	_	_
@@ -3084,8 +3085,8 @@
 16	Ytalie	italia	PROPN	Sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	14	nmod	_	_
 17	qua	qua	ADV	r	AdvType=Loc|PronType=Rel	21	advmod:lmod	_	_
 18	sinus	sinus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	21	nsubj	_	_
-19	Adriatici	hadriaticus	ADJ	ans1g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	18	nmod	_	_
-20	maris	mare	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	19	fixed	_	_
+19	Adriatici	hadriaticus	ADJ	ans1g	Case=Gen|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	20	amod	_	_
+20	maris	mare	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	18	nmod	_	_
 21	incipit	incipio	VERB	va3ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 22	,	,	PUNCT	Pu	_	24	punct	_	_
 23	et	et	CCONJ	co	_	24	cc	_	_

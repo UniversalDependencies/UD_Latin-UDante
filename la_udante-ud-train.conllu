@@ -7323,7 +7323,7 @@
 51	Propheta	propheta	NOUN	sms1b	Case=Abl|Gender=Masc|InflClass=IndEurA|Number=Sing|Proper=Yes	56	obl	_	_
 52	sanctissimo	sancio	VERB	ams1bs	Aspect=Perf|Case=Abl|Degree=Abs|Gender=Masc|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	51	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 53	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	56	obj	_	_
-54	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	53	fixed	_	_
+54	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	53	flat:redup	_	_
 55	subsequenter	subsequenter	ADV	r	VerbForm=Part	56	advmod	_	_
 56	hortabor	hortor	VERB	vd1ifs1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
 57	subsequentia	subsequor	VERB	vd3pppna	Aspect=Imp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	58	obj	_	TraditionalMood=Participium|TraditionalTense=Praesens
