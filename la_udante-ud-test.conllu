@@ -2564,7 +2564,7 @@
 # text = Quot quot autem exercitii varietates tendebant ad opus, tot tot ydiomatibus tunc genus humanum disiungitur; et quanto excellentius exercebant, tanto rudius nunc barbariusque locuntur.
 # citation_hierarchy = Liber_Primus,vii,Paragraphus_7
 1	Quot	quot	DET	ai	NumType=Card|PronType=Rel	5	det	_	_
-2	quot	quot	DET	ai	NumType=Card|PronType=Rel	1	flat:redup	_	_
+2	quot	quot	DET	ai	NumType=Card|PronType=Rel	1	flat:redup	_	Reduplication=NumType:Dist
 3	autem	autem	PART	co	_	6	discourse	_	_
 4	exercitii	exercitium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	5	nmod	_	_
 5	varietates	uarietas	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	6	nsubj	_	_
@@ -2573,7 +2573,7 @@
 8	opus	opus	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	6	punct	_	_
 10	tot	tot	DET	yuip	NumType=Card|PronType=Dem	12	det	_	_
-11	tot	tot	DET	yuip	NumType=Card|PronType=Dem	10	flat:redup	_	_
+11	tot	tot	DET	yuip	NumType=Card|PronType=Dem	10	flat:redup	_	Reduplication=NumType:Dist
 12	ydiomatibus	idioma	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Plur	16	obl	_	_
 13	tunc	tunc	ADV	r	PronType=Dem	16	advmod	_	_
 14	genus	genus	NOUN	sns3n	Case=Nom|Gender=Neut|InflClass=IndEurX|Number=Sing	16	nsubj:pass	_	_
