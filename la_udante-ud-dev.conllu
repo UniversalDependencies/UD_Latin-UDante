@@ -10743,14 +10743,12 @@
 35	admirabili	admirabilis	ADJ	ans2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	36	amod	_	_
 36	genere	genus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	31	obl	_	_
 37	cause	causa	NOUN	sfs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	36	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	Pu	_	43	punct	_	_
-39	ut	ut	SCONJ	r	PronType=Rel	43	mark	_	_
-40-41	ipsemet	_	_	_	_	_	_	_	_
-40	ipse	ipse	DET	ddesmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	42	det	_	_
-41	met	met	PART	9r	PartType=Emp	40	advmod:emph	_	_
-42	Tullius	tullius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	43	nsubj	_	_
-43	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-44	.	.	PUNCT	Pu	_	4	punct	_	_
+38	,	,	PUNCT	Pu	_	42	punct	_	_
+39	ut	ut	SCONJ	r	PronType=Rel	42	mark	_	_
+40	ipsemet	ipse	DET	ddesmn	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	41	det	_	_
+41	Tullius	tullius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	42	nsubj	_	_
+42	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+43	.	.	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = Epi-305
 # text = Cum ergo materia circa quam versatur presens tractatus sit admirabilis, et propterea ad admirabile reducenda, ista tria intenduntur in principio exordii sive prologi.
