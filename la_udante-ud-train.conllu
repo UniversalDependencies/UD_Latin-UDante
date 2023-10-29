@@ -4660,7 +4660,7 @@
 8	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = Mon-129
-# text = Propter quod sciendum quod illud est liberum quod «sui met et non alterius gratia est», ut Phylosopho placet in hiis que De simpliciter ente.
+# text = Propter quod sciendum quod illud est liberum quod «suimet et non alterius gratia est», ut Phylosopho placet in hiis que De simpliciter ente.
 # citation_hierarchy = Liber_Primus,xii,Paragraphus_8
 1	Propter	propter	ADP	e	_	2	case	_	_
 2	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	3	obl	_	_
@@ -4669,27 +4669,26 @@
 5	illud	ille	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	7	nsubj	_	_
 6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 7	liberum	liber	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	3	csubj:pass	_	_
-8	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	15	nsubj	_	_
-9	«	«	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
-10	sui	sui	PRON	ppp3sng	Case=Gen|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	15	nmod	_	_
-11	met	met	PART	9	PartType=Emp	10	advmod:emph	_	_
-12	et	et	CCONJ	co	_	14	cc	_	_
-13	non	non	PART	r	Polarity=Neg	14	advmod:neg	_	_
-14	alterius	alter	DET	dpmsg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	conj	_	_
-15	gratia	gratia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	5	acl:relcl	_	_
-16	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-17	»	»	PUNCT	Pu	_	15	punct	_	SpaceAfter=No
-18	,	,	PUNCT	Pu	_	21	punct	_	_
-19	ut	ut	SCONJ	r	PronType=Rel	21	mark	_	_
-20	Phylosopho	philosophus	NOUN	Sms2	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	21	obl:arg	_	_
-21	placet	placeo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl:cmp	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-22	in	in	ADP	e	_	23	case	_	_
-23	hiis	hic	DET	ddipnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	21	obl	_	_
-24	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	27	nsubj	_	_
-25	De	de	ADP	e	Proper=Yes	27	case	_	_
-26	simpliciter	simpliciter	ADV	r	_	27	advmod	_	_
-27	ente	ens	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
-28	.	.	PUNCT	Pu	_	3	punct	_	_
+8	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	14	nsubj	_	_
+9	«	«	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
+10	suimet	sui	PRON	ppp3sng	Case=Gen|Form=Emp|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	14	nmod	_	_
+11	et	et	CCONJ	co	_	13	cc	_	_
+12	non	non	PART	r	Polarity=Neg	13	advmod:neg	_	_
+13	alterius	alter	DET	dpmsg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	10	conj	_	_
+14	gratia	gratia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	5	acl:relcl	_	_
+15	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+16	»	»	PUNCT	Pu	_	14	punct	_	SpaceAfter=No
+17	,	,	PUNCT	Pu	_	20	punct	_	_
+18	ut	ut	SCONJ	r	PronType=Rel	20	mark	_	_
+19	Phylosopho	philosophus	NOUN	Sms2	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|Proper=Yes	20	obl:arg	_	_
+20	placet	placeo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl:cmp	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+21	in	in	ADP	e	_	22	case	_	_
+22	hiis	hic	DET	ddipnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	20	obl	_	_
+23	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	26	nsubj	_	_
+24	De	de	ADP	e	Proper=Yes	26	case	_	_
+25	simpliciter	simpliciter	ADV	r	_	26	advmod	_	_
+26	ente	ens	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Mon-130
 # text = Nam illud quod est alterius gratia necessitatur ab illo cuius gratia est, sicut via necessitatur a termino.
