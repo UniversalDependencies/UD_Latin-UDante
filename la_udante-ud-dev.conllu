@@ -2459,24 +2459,23 @@
 42	ignari	ignarus	ADJ	amp1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|Polarity=Neg	39	advcl:cmp	_	SpaceAfter=No
 43	,	,	PUNCT	Pu	_	44	punct	_	_
 44	decipere	decipio	VERB	va3fp	Aspect=Imp|VerbForm=Inf|Voice=Act	39	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-45-47	vosmetipsos	_	_	_	_	_	_	_	_
-45	vosipsos	uos	PRON	ppp2pma	Case=Acc|Gender=Masc|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	44	obj	_	_
-46	met	met	PART	9r	PartType=Emp	45	advmod:emph	_	_
-47	ipsos	ipse	DET	ddepma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	45	det	_	_
-48	tanquam	tamquam	SCONJ	co	Compound=Yes|PronType=Rel	49	mark	_	_
-49	sompniantes	somnio	VERB	va1pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	44	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
-50	,	,	PUNCT	Pu	_	54	punct	_	_
-51	in	in	ADP	e	_	52	case	_	_
-52	cordibus	cor	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur	54	obl	_	_
-53	et	et	CCONJ	co	_	54	advmod:emph	_	_
-54	dicentes	dico	VERB	va3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	44	advcl:pred	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
-55	:	:	PUNCT	Pu	_	59	punct	_	_
-56	«	«	PUNCT	Pu	_	59	punct	_	SpaceAfter=No
-57	Dominum	dominus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	59	obj	_	_
-58	non	non	PART	r	Polarity=Neg	59	advmod:neg	_	_
-59	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	54	ccomp:reported	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-60	»	»	PUNCT	Pu	_	59	punct	_	SpaceAfter=No
-61	.	.	PUNCT	Pu	_	39	punct	_	_
+45-46	vosmetipsos	_	_	_	_	_	_	_	_
+45	vosmet	uos	PRON	ppp2pma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	44	obj	_	_
+46	ipsos	ipse	DET	ddepma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	45	det	_	_
+47	tanquam	tamquam	SCONJ	co	Compound=Yes|PronType=Rel	48	mark	_	_
+48	sompniantes	somnio	VERB	va1pppma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	44	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
+49	,	,	PUNCT	Pu	_	53	punct	_	_
+50	in	in	ADP	e	_	51	case	_	_
+51	cordibus	cor	NOUN	snp3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Plur	53	obl	_	_
+52	et	et	CCONJ	co	_	53	advmod:emph	_	_
+53	dicentes	dico	VERB	va3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	44	advcl:pred	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
+54	:	:	PUNCT	Pu	_	58	punct	_	_
+55	«	«	PUNCT	Pu	_	58	punct	_	SpaceAfter=No
+56	Dominum	dominus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	58	obj	_	_
+57	non	non	PART	r	Polarity=Neg	58	advmod:neg	_	_
+58	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	53	ccomp:reported	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+59	»	»	PUNCT	Pu	_	58	punct	_	SpaceAfter=No
+60	.	.	PUNCT	Pu	_	39	punct	_	_
 
 # sent_id = Epi-67
 # text = Hortus enim eius et lacus est quod celum circuit; nam «Dei est mare, et ipse fecit illud, et aridam fundaverunt manus eius».
