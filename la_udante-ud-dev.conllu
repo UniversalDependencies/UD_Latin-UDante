@@ -711,7 +711,7 @@
 33	dolere	doleo	VERB	va2fp	Aspect=Imp|VerbForm=Inf|Voice=Act	34	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 34	oportet	oportet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 35	,	,	PUNCT	Pu	_	36	punct	_	_
-36	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	52	nsubj	_	_
+36	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	51	nsubj	_	_
 37	a	a	ADP	e	_	38	case	_	_
 38	patria	patria	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	39	obl:lmod	_	_
 39	pulsus	pello	VERB	vp3prsmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	45	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Perfectum
@@ -720,18 +720,16 @@
 42	inmeritus	immeritus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Polarity=Neg	41	amod	_	_
 43	infortunia	infortunium	NOUN	snp2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	45	obj	_	_
 44	mea	meus	DET	dsnpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	43	det	_	_
-45	rependens	rependo	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	52	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
+45	rependens	rependo	VERB	va3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	51	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
 46	continuo	continuo	ADV	r	_	45	advmod	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	45	punct	_	_
 48	cara	carus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	49	amod	_	_
-49	spe	spes	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	52	obl	_	_
-50-51	memet	_	_	_	_	_	_	_	_
-50	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	52	obj	_	_
-51	met	met	PART	9r	PartType=Emp	50	advmod:emph	_	_
-52	consolabar	consolor	VERB	vd1iis1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	32	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Imperfectum
-53	in	in	ADP	e	_	54	case	_	_
-54	illo	ille	DET	ddismb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	52	obl	_	SpaceAfter=No
-55	.	.	PUNCT	Pu	_	1	punct	_	_
+49	spe	spes	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	51	obl	_	_
+50	memet	ego	PRON	ppp1sma	Case=Acc|Form=Emp|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	51	obj	_	_
+51	consolabar	consolor	VERB	vd1iis1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	32	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Imperfectum
+52	in	in	ADP	e	_	53	case	_	_
+53	illo	ille	DET	ddismb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	51	obl	_	SpaceAfter=No
+54	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Epi-18
 # text = Sed quanquam sensualibus amissis doloris amaritudo incumbat, si considerentur intellectualia que supersunt sane mentis; oculis lux dulcis consolationis exoritur.
