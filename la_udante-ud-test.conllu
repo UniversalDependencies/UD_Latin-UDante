@@ -495,8 +495,8 @@
 68	:	:	PUNCT	Pu	_	69	punct	_	_
 69	cognoverunt	cognosco	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	67	conj:expl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 70	enim	enim	PART	c	Form=Emp	69	discourse	_	_
-71	se	sui	PRON	ppp3pma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	69	expl:pass	_	_
-72	invicem	inuicem	PRON	r	Compound=Yes|PronType=Rcp	69	obj	_	_
+71	se	sui	PRON	ppp3pma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	69	obj	_	_
+72	invicem	inuicem	PRON	r	Compound=Yes|Number=Plur|PronType=Rcp	69	advcl:pred	_	_
 73	ante	ante	ADP	e	_	74	case	_	_
 74	ruinam	ruina	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	69	obl	_	_
 75	suam	suus	DET	dsfsa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	74	det	_	SpaceAfter=No

@@ -31,6 +31,10 @@ We wish to thank all the annotators of the **UDante** treebank: Daniela Corbetta
 
 * Flavio Massimiliano Cecchini, Rachele Sprugnoli, Giovanni Moretti, Marco Passarotti. 2020. *UDante: First Steps Towards the Universal Dependencies Treebank of Dante's Latin Works*. In: Johanna Monti, Felice Dell'Orletta, Fabio Tamburini (eds.), Proceedings of the Seventh Italian Conference on Computational Linguistics. CEUR Workshop Proceedings, pp. 1-7 ([link](http://ceur-ws.org/Vol-2769/paper_14.pdf)).
 
+* Gamba, F. and Zeman, D. (2023a). [Universalising Latin Universal Dependencies: a harmonisation of Latin treebanks in UD](https://aclanthology.org/2023.udw-1.2/). In *Proceedings of the Sixth Workshop on Universal Dependencies (UDW, GURT/SyntaxFest 2023)*, Washington, DC, USA, March. Association for Computational Linguistics (ACL). 
+
+* Gamba, F. and Zeman, D. (2023b). [Latin Morphology through the Centuries: Ensuring Consistency for Better Language Processing](https://ufal.mff.cuni.cz/biblio/attachments/2023-gamba-p3787387064232511302.pdf). In *Proceedings of the Ancient Language Processing Workshop associated with the 14th International Conference on Recent Advances in Natural Language Processing RANLP 2023*, Varna, Bulgaria, September. 
+
 
 # Data and data split
 
@@ -80,7 +84,12 @@ Since the **UDante** treebank represents all known Latin works by Dante, its str
 
 <u>Please note:</u> as a byproduct of linguistic (or other) investigations performed on the **UDante** treebank, or its use for NLP purposes, constant corrections and improvements are performed on the syntactic trees as need be. It would not be sensible to list all such interventions in full, since the overall structure of the treebank is not affected. Whoever detects errors, inconsistencies or dubious annotation choices is gladly invited to report them! 
 
-
+* 2023-11-15 v2.13
+    * Implementation of overall syntactic and morphologic harmonisation following (Gamba & Zeman 2023a) and (Gamba & Zeman 2023b)
+    * Introduction of the new subtyped relation [`flat:redup`]() together with `MISC` specifications for reduplications, occurring three times in the treebank: *quot quot* (distributive), *tot tot* (distributive) and *me me* (emphatic)
+    * Steady reduction of the use of the [`fixed`]() relation
+        * re-annotation of 1 gapping (i.e. non-projective) `fixed` construction
+        * down from 130 to 45 occurrences of other `fixed` construction, such as *ex quo*, *in quantum*, spurious clitic univerbations, and an anomalous *Adriatici maris*
 * 2022-11-15 v2.11
     * Implementations of the [amendment](https://universaldependencies.org/changes.html#multiple-subjects) for clausal non-verbal copular constructions and corrections regarding multiple subjects and introduction of the `:outer` subtype for subjects and copulas
     * Implementation of the [amendment for reported speech](https://universaldependencies.org/changes.html#reported-speech), with the introduction of the `:reported` and `:reporting` subtypes
