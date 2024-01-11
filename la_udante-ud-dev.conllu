@@ -1774,7 +1774,7 @@
 17	iniquitatem	iniquitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	16	obj	_	_
 18	a	a	ADP	e	_	19	case	_	_
 19	facie	facies	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	14	obl:agent	_	_
-20	coruscantis	corusco	VERB	va1ppsmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	19	nmod	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
+20	coruscantis	corusco	VERB	va1ppsmg	Aspect=Inch|Case=Gen|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	19	nmod	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
 21	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = Epi-47
@@ -1920,7 +1920,7 @@
 # text = Ymo ignoscet omnibus misericordiam implorantibus, cum sit Cesar et maiestas eius de Fonte defluat pietatis.
 # citation_hierarchy = V,Paragraphus_7
 1	Ymo	immo	ADV	r	Degree=Abs	2	advmod	_	_
-2	ignoscet	ignosco	VERB	va3ifs3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
+2	ignoscet	ignosco	VERB	va3ifs3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
 3	omnibus	omnis	DET	amp2d	Case=Dat|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	2	obl:arg	_	_
 4	misericordiam	misericordia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	5	obj	_	_
 5	implorantibus	imploro	VERB	va1pppmd	Aspect=Imp|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	3	acl	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
@@ -2285,7 +2285,7 @@
 23	de	de	ADP	e	_	24	case	_	_
 24	ovili	ouile	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	22	nmod	_	_
 25	suo	suus	DET	dsnsb	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	_
-26	cognoscat	cognosco	VERB	va3cps3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+26	cognoscat	cognosco	VERB	va3cps3	Aspect=Inch|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 27	;	;	PUNCT	Pu	_	35	punct	_	_
 28	cui	qui	PRON	presmd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	35	obl:arg	_	_
 29-30	etsi	_	_	_	_	_	_	_	_
@@ -6636,7 +6636,7 @@
 34	:	:	PUNCT	Pu	_	35	punct	_	_
 35	Petre	petrus	PROPN	Sms2v	Case=Voc|Gender=Masc|InflClass=IndEurO|Number=Sing	37	vocative	_	SpaceAfter=No
 36	,	,	PUNCT	Pu	_	35	punct	_	_
-37	pasce	pasco	VERB	va3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	32	csubj:reported	_	TraditionalMood=Imperativus|TraditionalTense=Praesens
+37	pasce	pasco	VERB	va3mps2	Aspect=Inch|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	32	csubj:reported	_	TraditionalMood=Imperativus|TraditionalTense=Praesens
 38	sacrosanctum	sacrosanctus	ADJ	ans1a	Case=Acc|Compound=Yes|Gender=Neut|InflClass=IndEurO|Number=Sing	39	amod	_	_
 39	ovile	ouile	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	37	obj	_	SpaceAfter=No
 40	;	;	PUNCT	Pu	_	30	punct	_	_
@@ -8649,7 +8649,7 @@
 6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 7	in	in	ADP	e	_	8	case	_	_
 8	nobis	nos	PRON	ppp1pmb	Case=Abl|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	4	acl:relcl	_	_
-9	noscere	nosco	VERB	va3fp	Aspect=Imp|VerbForm=Inf|Voice=Act	10	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+9	noscere	nosco	VERB	va3fp	Aspect=Inch|VerbForm=Inf|Voice=Act	10	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 10	datum	do	VERB	vp1irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	acl:relcl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 12	,	,	PUNCT	Pu	_	10	punct	_	_
@@ -9078,7 +9078,7 @@
 20	dimidio	dimidium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	18	nsubj:pass	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	20	punct	_	_
 22	nunquam	numquam	ADV	r	Polarity=Neg	23	advmod	_	_
-23	cognoscitur	cognosco	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+23	cognoscitur	cognosco	VERB	vp3ips3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 24	duplum	duplum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	23	nsubj:pass	_	SpaceAfter=No
 25	,	,	PUNCT	Pu	_	27	punct	_	_
 26	et	et	CCONJ	co	_	27	cc	_	_
@@ -12027,7 +12027,7 @@
 65	movetur	moueo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 66	et	et	CCONJ	co	_	68	cc	_	_
 67	nunquam	numquam	ADV	r	Polarity=Neg	68	advmod	_	_
-68	quiescit	quiesco	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	65	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+68	quiescit	quiesco	VERB	va3ips3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	65	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 69	,	,	PUNCT	Pu	_	73	punct	_	_
 70	et	et	CCONJ	co	_	73	cc	_	_
 71	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
@@ -13081,7 +13081,7 @@
 64	eterna	aeternus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	63	amod	_	SpaceAfter=No
 65	,	,	PUNCT	Pu	_	67	punct	_	_
 66	ut	ut	SCONJ	cs	PronType=Rel	67	mark	_	_
-67	cognoscant	cognosco	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	61	conj:expl	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+67	cognoscant	cognosco	VERB	va3cpp3	Aspect=Inch|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	61	conj:expl	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 68	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	67	obj	_	_
 69	Deum	deus	NOUN	Sms2	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Rel|Number=Sing|Proper=Yes	68	appos	_	_
 70	verum	uerus	ADJ	co	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	69	amod	_	_

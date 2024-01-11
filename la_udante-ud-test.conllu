@@ -537,7 +537,7 @@
 30	per	per	ADP	e	_	31	case	_	_
 31	proprios	proprius	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	33	obl	_	_
 32	alienos	alienus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	33	obj	_	_
-33	cognoscere	cognosco	VERB	va3fp	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	SpaceAfter=No|TraditionalMood=Infinitivus|TraditionalTense=Praesens
+33	cognoscere	cognosco	VERB	va3fp	Aspect=Inch|VerbForm=Inf|Voice=Act	29	xcomp	_	SpaceAfter=No|TraditionalMood=Infinitivus|TraditionalTense=Praesens
 34	;	;	PUNCT	Pu	_	45	punct	_	_
 35	inter	inter	ADP	e	_	36	case	_	_
 36	ea	is	PRON	ddepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	45	obl	_	_
@@ -8554,14 +8554,14 @@
 16	cognito	cognosco	VERB	vp3prsnb	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	19	advcl:abs	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 17	habituante	habituo	VERB	va1ppsnb	Aspect=Imp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	16	csubj:pass	_	TraditionalMood=Participium|TraditionalTense=Praesens
 18	habituatum	habituo	VERB	vp1prsnn	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	19	csubj:pass	_	TraditionalMood=Participium|TraditionalTense=Perfectum
-19	cognoscitur	cognosco	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+19	cognoscitur	cognosco	VERB	vp3ips3	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 20	in	in	ADP	e	_	21	case	_	_
 21	quantum	quantus	DET	r	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Rel	22	obl	_	_
 22	huiusmodi	huiusmodi	DET	r	Compound=Yes|PronType=Dem	19	advcl:relcl	_	SpaceAfter=No
 23	,	,	PUNCT	Pu	_	19	punct	_	_
 24	cognita	cognosco	VERB	vp3prsfb	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	26	advcl:abs	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 25	dignitate	dignitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	24	nsubj:pass	_	_
-26	cognoscemus	cognosco	VERB	va3ifp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
+26	cognoscemus	cognosco	VERB	va3ifp1	Aspect=Inch|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
 27	et	et	CCONJ	co	_	28	advmod:emph	_	_
 28	dignum	dignus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	26	obj	_	SpaceAfter=No
 29	.	.	PUNCT	Pu	_	2	punct	_	_
