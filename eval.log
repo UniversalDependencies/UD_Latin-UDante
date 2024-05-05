@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Latin-UDante:
-commit 6f637200015efece1d29bf4ddaa9fbbbc729aa1c
-Merge: 05fe288 12e9493
+commit 0afb55c9cc83ea39b15fe3f9f1a37e044d35b439
+Merge: 5e5ad37 79b689a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 55519 of 55519 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.03345060901792.
@@ -27,6 +27,18 @@ Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-test.conllu
+[Line 4662 Sent DVE-123 Node 37]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4871 Sent DVE-129 Node 49]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4871 Sent DVE-129 Node 49]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4871 Sent DVE-129 Node 49]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4871 Sent DVE-129 Node 49]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 4871 Sent DVE-129 Node 49]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5400 Sent DVE-143 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5402 Sent DVE-143 Node 10]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5413 Sent DVE-144 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 5421 Sent DVE-144 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 27
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-train.conllu
 *** PASSED ***
