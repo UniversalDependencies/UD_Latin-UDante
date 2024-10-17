@@ -301,9 +301,9 @@
 9	aliam	alius	DET	dpfs1a	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Con	12	det	_	_
 10	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop:outer	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 11	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf	12	cop	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-12	locutionem	locutio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	2	advcl:cmp	_	_
+12	locutionem	locutio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	2	advcl	_	_
 13	quam	quam	SCONJ	c	PronType=Rel	14	mark	_	_
-14	hominis	homo	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	9	advcl:cmp	_	SpaceAfter=No
+14	hominis	homo	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	12	advcl:cmp	_	SpaceAfter=No
 15	:	:	PUNCT	Pu	_	23	punct	_	_
 16	nam	nam	PART	co	_	23	discourse	_	_
 17	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
@@ -363,13 +363,13 @@
 9	,	,	PUNCT	Pu	_	4	punct	_	_
 10	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 11	quod	quod	SCONJ	cs	PronType=Rel	12	mark	_	_
-12	nichil	nihil	PRON	dinsna	Polarity=Neg|PronType=Ind	10	nsubj	_	_
+12	nichil	nihil	PRON	dinsna	Polarity=Neg|PronType=Ind	10	csubj	_	_
 13	aliud	alius	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	12	det	_	_
 14	quam	quam	SCONJ	c	PronType=Rel	17	mark	_	_
 15	nostre	noster	DET	dsfsg	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	_
 16	mentis	mens	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurI|Number=Sing	19	nmod	_	_
-17	enucleare	enucleo	VERB	va1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	13	advcl:cmp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-18	aliis	alius	DET	dpmpd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	17	obl	_	_
+17	enucleare	enucleo	VERB	va1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	14	advcl:cmp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+18	aliis	alius	DET	dpmpd	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	17	obl:arg	_	_
 19	conceptum	conceptus	NOUN	sms4a	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	Pu	_	10	punct	_	_
 
@@ -4659,7 +4659,7 @@
 34	fermana	fermana	X	zi	Foreign=Yes	33	flat:foreign	_	_
 35	scopai	scopai	X	zi	Foreign=Yes	33	flat:foreign	_	_
 36	da	da	X	zi	Foreign=Yes	33	flat:foreign	_	_
-37	Cascioli	cascioli	X	zi	Foreign=Yes|NameType=Geo	33	flat:foreign	_	_
+37	Cascioli	cascioli	X	zi	Foreign=Yes	33	flat:foreign	_	NameType=Geo
 38	cita	cita	X	zi	Foreign=Yes	33	flat:foreign	_	_
 39	cita	cita	X	zi	Foreign=Yes	33	flat:foreign	_	_
 40	se	se	X	zi	Foreign=Yes	33	flat:foreign	_	_
@@ -4708,7 +4708,7 @@
 # text = Post hos Aquilegienses et Ystrianos cribremus, qui Ces fas - tu crudeliter accentuando eructuant.
 # citation_hierarchy = Liber_Primus,xi,Paragraphus_6
 1	Post	post	ADP	e	_	2	case	_	_
-2	hos	hic	DET	ddipma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	6	det	_	_
+2	hos	hic	DET	ddipma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	6	obl	_	_
 3	Aquilegienses	aquileiensis	ADJ	Smp3a	Case=Acc|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	6	obj	_	_
 4	et	et	CCONJ	co	_	5	cc	_	_
 5	Ystrianos	histrianus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	3	conj	_	_
@@ -4868,7 +4868,7 @@
 46	lassi	lassi	X	zi	Foreign=Yes	39	flat:foreign	_	SpaceAfter=No
 47	,	,	PUNCT	Pu	_	49	punct	_	_
 48	et	et	CCONJ	co	_	49	cc	_	_
-49	Amor	amor	X	zi	Foreign=Yes|Proper=Yes	37	conj	_	SpaceAfter=No
+49	Amor	amor	X	zi	Foreign=Yes	37	conj	_	Proper=Yes|SpaceAfter=No
 50	,	,	PUNCT	Pu	_	51	punct	_	_
 51	che	che	X	zi	Foreign=Yes	49	flat:foreign	_	_
 52	lungiamente	lungiamente	X	zi	Foreign=Yes	49	flat:foreign	_	_
@@ -5378,7 +5378,7 @@
 2	Florentini	florentinus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	1	nsubj	_	_
 3	et	et	CCONJ	co	_	4	cc	_	_
 4	dicunt	dico	VERB	va3ipp3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-5	Manichiamo	manichiamo	X	zi	Foreign=Yes	4	obj	_	_
+5	Manichiamo	manichiamo	X	zi	Foreign=Yes	4	ccomp:reported	_	_
 6	introcque	introcque	X	zi	Foreign=Yes	5	flat:foreign	_	_
 7	che	che	X	zi	Foreign=Yes	5	flat:foreign	_	_
 8	noi	noi	X	zi	Foreign=Yes	5	flat:foreign	_	_
@@ -5392,14 +5392,14 @@
 # citation_hierarchy = Liber_Primus,xiii,Paragraphus_1
 1	Pisani	pisanus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	Pu	_	3	punct	_	_
-3	Bene	bene	X	zi	Foreign=Yes	1	orphan	_	_
+3	Bene	bene	X	zi	Foreign=Yes	1	ccomp:reported	_	_
 4	andonno	andonno	X	zi	Foreign=Yes	3	flat:foreign	_	_
 5	li	li	X	zi	Foreign=Yes	3	flat:foreign	_	_
 6	fanti	fanti	X	zi	Foreign=Yes	3	flat:foreign	_	_
 7	de	de	X	zi	Foreign=Yes	3	flat:foreign	_	_
-8	Fiorensa	fiorensa	X	zi	Foreign=Yes|NameType=Geo	3	flat:foreign	_	_
+8	Fiorensa	fiorensa	X	zi	Foreign=Yes	3	flat:foreign	_	NameType=Geo
 9	per	per	X	zi	Foreign=Yes	3	flat:foreign	_	_
-10	Pisa	pisa	X	zi	Foreign=Yes|NameType=Geo	3	flat:foreign	_	SpaceAfter=No
+10	Pisa	pisa	X	zi	Foreign=Yes	3	flat:foreign	_	NameType=Geo|SpaceAfter=No
 11	.	.	PUNCT	Pu	_	1	punct	_	_
 
 # sent_id = DVE-144
@@ -5407,10 +5407,10 @@
 # citation_hierarchy = Liber_Primus,xiii,Paragraphus_1
 1	Lucenses	lucensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	Pu	_	3	punct	_	_
-3	Fo	fo	X	zi	Foreign=Yes	1	orphan	_	_
+3	Fo	fo	X	zi	Foreign=Yes	1	ccomp:reported	_	_
 4	voto	uoto	X	zi	Foreign=Yes	3	flat:foreign	_	_
 5	a	a	X	zi	Foreign=Yes	3	flat:foreign	_	_
-6	Dio	dio	X	zi	Foreign=Yes|NameType=Rel|Proper=Yes	3	flat:foreign	_	_
+6	Dio	dio	X	zi	Foreign=Yes	3	flat:foreign	_	NameType=Rel|Proper=Yes
 7	ke	ke	X	zi	Foreign=Yes	3	flat:foreign	_	_
 8	in	in	X	zi	Foreign=Yes	3	flat:foreign	_	_
 9	grassarra	grassarra	X	zi	Foreign=Yes	3	flat:foreign	_	_
@@ -5418,55 +5418,63 @@
 11	lo	lo	X	zi	Foreign=Yes	3	flat:foreign	_	_
 12	comuno	comuno	X	zi	Foreign=Yes	3	flat:foreign	_	_
 13	de	de	X	zi	Foreign=Yes	3	flat:foreign	_	_
-14	Lucca	lucca	X	zi	Foreign=Yes|NameType=Geo	3	flat:foreign	_	SpaceAfter=No
+14	Lucca	lucca	X	zi	Foreign=Yes	3	flat:foreign	_	NameType=Geo|SpaceAfter=No
 15	.	.	PUNCT	Pu	_	1	punct	_	_
 
-# sent_id = DVE-145
-# text = Senenses: Onche renegata avess'io Siena Ch'ee chesto Aretini: Vuo' tu venire ovelle De Perusio, Urbe Veteri, Viterbio, nec non de Civitate Castellana, propter affinitatem quam habent cum Romanis et Spoletanis, nichil tractare intendimus.
+# sent_id = DVE-145-1
+# text = Senenses: Onche renegata avess'io Siena Ch'ee chesto  De Perusio, Urbe Veteri, Viterbio, nec non de Civitate Castellana, propter affinitatem quam habent cum Romanis et Spoletanis, nichil tractare intendimus.
 # citation_hierarchy = Liber_Primus,xiii,Paragraphus_2
 1	Senenses	senensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	Pu	_	3	punct	_	_
-3	Onche	onche	X	zi	Foreign=Yes	1	orphan	_	_
+3	Onche	onche	X	zi	Foreign=Yes	1	ccomp:reported	_	_
 4	renegata	renegata	X	zi	Foreign=Yes	3	flat:foreign	_	_
 5	avess'	auess	X	zi	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
 6	io	io	X	zi	Foreign=Yes	3	flat:foreign	_	_
-7	Siena	siena	X	zi	Foreign=Yes|NameType=Geo	3	flat:foreign	_	_
+7	Siena	siena	X	zi	Foreign=Yes	3	flat:foreign	_	NameType=Geo
 8	Ch'	ch	X	zi	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
 9	ee	ee	X	zi	Foreign=Yes	3	flat:foreign	_	_
 10	chesto	chesto	X	zi	Foreign=Yes	3	flat:foreign	_	_
-11	Aretini	aretinus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	1	conj	_	SpaceAfter=No
-12	:	:	PUNCT	Pu	_	13	punct	_	_
-13	Vuo'	uuo	X	zi	Foreign=Yes	11	orphan	_	_
-14	tu	tu	X	zi	Foreign=Yes	13	flat:foreign	_	_
-15	venire	uenio	X	v4fp	_	13	flat:foreign	_	_
-16	ovelle	ouelle	X	zi	Foreign=Yes	13	flat:foreign	_	_
-17	De	de	ADP	e	Proper=Yes	13	flat:foreign	_	_
-18	Perusio	perusium	PROPN	Sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	13	flat:foreign	_	SpaceAfter=No
-19	,	,	PUNCT	Pu	_	20	punct	_	_
-20	Urbe	urbs	NOUN	Sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|NameType=Geo|Number=Sing|Proper=Yes	13	flat:foreign	_	_
-21	Veteri	uetus	ADJ	afs2b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing|Proper=Yes	13	flat:foreign	_	SpaceAfter=No
-22	,	,	PUNCT	Pu	_	23	punct	_	_
-23	Viterbio	uiterbium	PROPN	Sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	13	flat:foreign	_	SpaceAfter=No
-24	,	,	PUNCT	Pu	_	25	punct	_	_
-25	nec	neque	CCONJ	co	Polarity=Neg	42	cc	_	_
-26	non	non	PART	r	Polarity=Neg	25	fixed	_	_
-27	de	de	ADP	e	_	28	case	_	_
-28	Civitate	ciuitas	NOUN	Sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|NameType=Geo|Number=Sing|Proper=Yes	41	obl:arg	_	_
-29	Castellana	castellanus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Proper=Yes	28	amod	_	SpaceAfter=No
-30	,	,	PUNCT	Pu	_	28	punct	_	_
-31	propter	propter	ADP	e	_	32	case	_	_
-32	affinitatem	affinitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	42	obl	_	_
-33	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	34	obj	_	_
-34	habent	habeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-35	cum	cum	ADP	e	_	36	case	_	_
-36	Romanis	romanus	ADJ	Smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	34	obl	_	_
-37	et	et	CCONJ	co	_	38	cc	_	_
-38	Spoletanis	spoletanus	ADJ	Smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	36	conj	_	SpaceAfter=No
-39	,	,	PUNCT	Pu	_	32	punct	_	_
-40	nichil	nihil	PRON	r	Polarity=Neg|PronType=Ind	41	obj	_	_
-41	tractare	tracto	VERB	va1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	42	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-42	intendimus	intendo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-43	.	.	PUNCT	Pu	_	1	punct	_	_
+
+# sent_id = DVE-145-2
+# text = Aretini: Vuo' tu venire ovelle
+# citation_hierarchy = Liber_Primus,xiii,Paragraphus_2
+1	Aretini	aretinus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	Pu	_	1	punct	_	_
+3	Vuo'	uuo	X	zi	Foreign=Yes	1	ccomp:reported	_	_
+4	tu	tu	X	zi	Foreign=Yes	3	flat:foreign	_	_
+5	venire	uenire	X	v4fp	Foreign=Yes	3	flat:foreign	_	_
+6	ovelle	ouelle	X	zi	Foreign=Yes	3	flat:foreign	_	_
+
+# sent_id = DVE-145-3
+# text = De Perusio, Urbe Veteri, Viterbio, nec non de Civitate Castellana, propter affinitatem quam habent cum Romanis et Spoletanis, nichil tractare intendimus.
+# citation_hierarchy = Liber_Primus,xiii,Paragraphus_2
+1	De	de	ADP	e	_	2	case	_	_
+2	Perusio	perusium	PROPN	Sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	25	obl:arg	_	SpaceAfter=No
+3	,	,	PUNCT	Pu	_	2	punct	_	_
+4	Urbe	urbs	NOUN	Sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|NameType=Geo|Number=Sing|Proper=Yes	2	conj	_	_
+5	Veteri	uetus	ADJ	afs2b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing|Proper=Yes	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	Pu	_	4	punct	_	_
+7	Viterbio	uiterbium	PROPN	Sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|NameType=Geo|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	Pu	_	7	punct	_	_
+9	nec	neque	CCONJ	co	Polarity=Neg	12	cc	_	_
+10	non	non	PART	r	Polarity=Neg	12	advmod:neg	_	_
+11	de	de	ADP	e	_	12	case	_	_
+12	Civitate	ciuitas	NOUN	Sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|NameType=Geo|Number=Sing|Proper=Yes	2	conj	_	_
+13	Castellana	castellanus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|Proper=Yes	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	Pu	_	16	punct	_	_
+15	propter	propter	ADP	e	_	16	case	_	_
+16	affinitatem	affinitas	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	26	obl	_	_
+17	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	18	obj	_	_
+18	habent	habeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+19	cum	cum	ADP	e	_	20	case	_	_
+20	Romanis	romanus	ADJ	Smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	18	obl	_	_
+21	et	et	CCONJ	co	_	22	cc	_	_
+22	Spoletanis	spoletanus	ADJ	Smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	Pu	_	16	punct	_	_
+24	nichil	nihil	ADV	r	Polarity=Neg|PronType=Ind	25	advmod	_	_
+25	tractare	tracto	VERB	va1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	26	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+26	intendimus	intendo	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+27	.	.	PUNCT	Pu	_	26	punct	_	_
 
 # sent_id = DVE-146
 # text = Sed quanquam fere omnes Tusci in suo turpiloquio sint obtusi, nonnullos vulgaris excellentiam cognovisse sentimus, scilicet Guidonem, Lapum et unum alium, Florentinos, et Cynum Pistoriensem, quem nunc indigne postponimus, non indigne coacti.
@@ -5898,7 +5906,7 @@
 27	le	le	X	zi	Foreign=Yes	26	flat:foreign	_	_
 28	plage	plage	X	zi	Foreign=Yes	26	flat:foreign	_	_
 29	de	de	X	zi	Foreign=Yes	26	flat:foreign	_	_
-30	Dio	dio	X	zi	Foreign=Yes|NameType=Rel|Proper=Yes	26	flat:foreign	_	_
+30	Dio	dio	X	zi	Foreign=Yes	26	flat:foreign	_	NameType=Rel|Proper=Yes
 31	tu	tu	X	zi	Foreign=Yes	26	flat:foreign	_	_
 32	no	no	X	zi	Foreign=Yes	26	flat:foreign	_	_
 33	veras	ueras	X	zi	Foreign=Yes	26	flat:foreign	_	_
@@ -8958,7 +8966,7 @@
 20	nil	nihil	PRON	dinsna	Polarity=Neg|PronType=Ind	24	obj	_	_
 21	aliud	alius	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	20	det	_	_
 22	quam	quam	SCONJ	c	PronType=Rel	23	mark	_	_
-23	salutem	salus	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	21	advcl:cmp	_	_
+23	salutem	salus	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	20	advcl:cmp	_	_
 24	inveniemus	inuenio	VERB	va4ifp1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Futurum
 25	.	.	PUNCT	Pu	_	4	punct	_	_
 
@@ -10047,7 +10055,7 @@
 27	canenda	cano	VERB	vp3gvpna	Aspect=Prosp|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	28	advcl:pred	_	TraditionalMood=Gerundivum
 28	distinximus	distinguo	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 29	isto	iste	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	32	det	_	_
-30	solo	solus	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	29	det	_	_
+30	solo	solus	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	32	det	_	_
 31	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 32	stilo	stilus	NOUN	sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	33	obl	_	_
 33	canenda	cano	VERB	vp3gvpnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	TraditionalMood=Gerundivum
@@ -13443,7 +13451,7 @@
 12	illa	ille	DET	ddisfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	5	advcl:cmp	_	_
 13	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	14	obj	_	_
 14	diximus	dico	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
-15	Amor	amor	X	zi	Foreign=Yes|Proper=Yes	14	orphan	_	SpaceAfter=No
+15	Amor	amor	X	zi	Foreign=Yes	14	orphan	_	Proper=Yes|SpaceAfter=No
 16	,	,	PUNCT	Pu	_	17	punct	_	_
 17	che	che	X	zi	Foreign=Yes	15	flat:foreign	_	_
 18	movi	moui	X	zi	Foreign=Yes	15	flat:foreign	_	_
@@ -13800,7 +13808,7 @@
 12	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 13	in	in	ADP	e	_	14	case	_	_
 14	vulgari	uulgare	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	11	obl	_	_
-15	oc	oc	X	zi	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+15	oc	oc	X	zi	Foreign=Yes	14	nmod	_	SpaceAfter=No
 16	:	:	PUNCT	Pu	_	17	punct	_	_
 17	Namericus	namericus	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	4	conj	_	_
 18	de	de	ADP	e	_	19	case	_	_
@@ -14093,7 +14101,7 @@
 44	diximus	dico	VERB	va3irp1	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	42	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 45	Poscia	poscia	X	zi	Foreign=Yes	42	appos	_	_
 46	ch'	ch	X	zi	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
-47	Amor	amor	X	zi	Foreign=Yes|Proper=Yes	45	flat:foreign	_	_
+47	Amor	amor	X	zi	Foreign=Yes	45	flat:foreign	_	Proper=Yes
 48	del	del	X	zi	Foreign=Yes	45	flat:foreign	_	_
 49	tutto	tutto	X	zi	Foreign=Yes	45	flat:foreign	_	_
 50	m'	m	X	zi	Foreign=Yes	45	flat:foreign	_	SpaceAfter=No
@@ -14385,7 +14393,7 @@
 27	·	·	PUNCT	Pu	_	28	punct	_	SpaceAfter=No
 28	m	m	X	zi	Foreign=Yes	26	flat:foreign	_	_
 29	fos	fos	X	zi	Foreign=Yes	26	flat:foreign	_	_
-30	Amor	amor	X	zi	Foreign=Yes|Proper=Yes	26	flat:foreign	_	_
+30	Amor	amor	X	zi	Foreign=Yes	26	flat:foreign	_	Proper=Yes
 31	de	de	X	zi	Foreign=Yes	26	flat:foreign	_	_
 32	ioi	joi	X	zi	Foreign=Yes	26	flat:foreign	_	_
 33	donar	donar	X	zi	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
