@@ -1253,7 +1253,7 @@
 14	universales	uniuersalis	ADJ	afp2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	13	amod	_	_
 15	aut	aut	CCONJ	co	_	16	cc	_	_
 16	speties	species	NOUN	sfp5a	Case=Acc|Gender=Fem|InflClass=IndEurE|Number=Plur	13	conj	_	SpaceAfter=No
-17	,	,	PUNCT	Pu	_	22	punct	_	_
+17	,	,	PUNCT	Pu	_	24	punct	_	_
 18	sed	sed	CCONJ	co	_	24	cc	_	_
 19	etiam	etiam	ADV	co	Compound=Yes	24	advmod:emph	_	_
 20	per	per	ADP	e	_	22	case	_	_
@@ -1261,7 +1261,7 @@
 22	extensionem	extensio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	24	orphan	_	_
 23	ad	ad	ADP	e	_	24	case	_	_
 24	particulares	particularis	ADJ	afp2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	13	conj	_	SpaceAfter=No
-25	:	:	PUNCT	Pu	_	13	punct	_	_
+25	:	:	PUNCT	Pu	_	24	punct	_	_
 26	unde	unde	ADV	r	AdvType=Loc|PronType=Rel	27	advmod:lmod	_	_
 27	solet	soleo	VERB	vs2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 28	dici	dico	VERB	vp3fp	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Pass	27	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
@@ -6132,7 +6132,7 @@
 18	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf	19	cop	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 19	acceptabilius	acceptabilis	ADJ	ans2ac	Case=Acc|Degree=Cmp|Gender=Neut|InflClass=IndEurX|Number=Sing	13	csubj	_	_
 20	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	19	nsubj	_	SpaceAfter=No
-21	,	,	PUNCT	Pu	_	23	punct	_	_
+21	,	,	PUNCT	Pu	_	25	punct	_	_
 22	inter	inter	ADP	e	_	25	case	_	_
 23	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	25	det	_	_
 24	“	“	PUNCT	Pu	_	25	punct	_	SpaceAfter=No
@@ -6143,7 +6143,7 @@
 29	“	“	PUNCT	Pu	_	30	punct	_	SpaceAfter=No
 30	plura	multus	DET	anp1ac	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	25	conj	_	SpaceAfter=No
 31	”	”	PUNCT	Pu	_	30	punct	_	SpaceAfter=No
-32	,	,	PUNCT	Pu	_	23	punct	_	_
+32	,	,	PUNCT	Pu	_	33	punct	_	_
 33	sed	sed	CCONJ	co	_	34	cc	_	_
 34	acceptabilissimum	acceptabilis	ADJ	ans2as	Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	19	conj	_	SpaceAfter=No
 35	.	.	PUNCT	Pu	_	13	punct	_	_
