@@ -6,17 +6,17 @@ It is a treebank of Latin language, more precisely of **literary Medieval Latin*
 
 # Introduction
 
-This treebank includes 1 721 sentences (55 503 tokens, counting only single tokens and not considering multi-token words) and consists of
+This treebank includes 1 721 sentences (57 242 syntactic words) and consists of
 literary texts (letters, treatises, poetry). The treebank is licensed under the terms of
 [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 **UDante** includes the following Latin texts (mostly) by Dante Alighieri, or disputedly attibuted to him:
 
-* *De vulgari eloquentia*:  13 451 tokens for 419 sentences over 2 books
-* *Monarchia*: 22 712 tokens for 682 sentences over 3 books
-* *Letters*: 11 611 tokens for 376 sentences over 13 letters
-* *Questio de aqua et terra*: 5 110 tokens for 133 sentences
-* *Eclogues*: 2 619 tokens for 111 sentences over 4 eclogues
+* *De vulgari eloquentia*:  13 873 syntactic words for 421 sentences over 2 books
+* *Monarchia*: 23403 syntactic words for 682 sentences over 3 books
+* *Letters*: 11 993 syntactic words for 376 sentences over 13 letters
+* *Questio de aqua et terra*: 5 243 syntactic words for 133 sentences
+* *Eclogues*: 2 730 syntactic words for 111 sentences over 4 eclogues
 
 The syntactic annotation of the **UDante** treebank has been created through a manual annotation process performed in the context of a collaboration between the University of Pisa (responsible: Mirko Tavoni) and the [**LiLa: Linking Latin project**](https://lila-erc.eu) at the Università Cattolica del Sacro Cuore, Milan, Italy (PI: Marco Passarotti). 
 The annotation process was co-ordinated by Flavio Massimiliano Cecchini, Giovanni Moretti and Rachele Sprugnoli (all based at the Università Cattolica del Sacro Cuore).
@@ -72,9 +72,9 @@ Besides reproducing the original text (`# text =`), the headers of each sentence
 
 The treebank is split into three subsets, `dev`, `test` and `train`, with a respective approximate ratio of 20%/20%/60%. Each section in the **UDante** treebank consists of ordered, running text and represents a complete literary work (*De vulgari eloquentia*, *Monarchia*, *Questio de aqua et terra*) or a coherent collection of texts (*Eclogues*, *Letters*): as such, no text has been further split, resulting in a somewhat skewed split ratio with respect to the canonically recommended 10 000 tokens for `dev`/`test` of corpora of comparable magnitude. The distribution of the works with respect to the subsets is as follows:
 
-* `dev`: *Letters* = 11 611 tokens (21%)
-* `test`: *De vulgari eloquentia* = 13 451 tokens (24%)
-* `train`: *Monarchia* + *Eclogues* + *Questio de aqua et terra* = 22 712 + 2 619 + 5 110 = 30 441 tokens (55%) 
+* `dev`: *Letters* = 11 993 tokens (21%)
+* `test`: *De vulgari eloquentia* = 13 873 tokens (24%)
+* `train`: *Monarchia* + *Eclogues* + *Questio de aqua et terra* = 23 403 + 2 730 + 5 243 = 31 376 tokens (55%) 
 
 Since the **UDante** treebank represents all known Latin works by Dante, its structure is foreseen to remain quite stable in the future. 
 
@@ -84,6 +84,11 @@ Since the **UDante** treebank represents all known Latin works by Dante, its str
 
 <u>Please note:</u> as a byproduct of linguistic (or other) investigations performed on the **UDante** treebank, or its use for NLP purposes, constant corrections and improvements are performed on the syntactic trees as need be. It would not be sensible to list all such interventions in full, since the overall structure of the treebank is not affected. Whoever detects errors, inconsistencies or dubious annotation choices is gladly invited to report them! 
 
+* 2024-11-15 v2.15
+    * Implementation of new rules excluding descendants of syntactic words with dependency relations `det`, involving reattachment to the head and possible other minor corrections
+        * the only case where this is not applied are the reduplicating determiners *quot quot* and *tot tot*
+    * Minor correction of features of `Foreign=Yes` words, shifting `NameEntity` and `Proper` to the `MISC` field
+    * Splitting of sentence `DVE-145` into three sentences to correct previous faulty segmentation, and especially the annotation of a Latin sentence (now `DVE-145-3`)
 * 2023-11-15 v2.13
     * Implementation of overall syntactic and morphologic harmonisation following (Gamba & Zeman 2023a) and (Gamba & Zeman 2023b)
     * Introduction of the new subtyped relation [`flat:redup`]() together with `MISC` specifications for reduplications, occurring three times in the treebank: *quot quot* (distributive), *tot tot* (distributive) and *me me* (emphatic)
