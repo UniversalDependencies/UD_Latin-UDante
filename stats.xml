@@ -5,19 +5,19 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1721</sentences><tokens>55286</tokens><words>55519</words><fused>232</fused></total>
+    <total><sentences>1723</sentences><tokens>55286</tokens><words>55519</words><fused>232</fused></total>
     <train><sentences>926</sentences><tokens>30334</tokens><words>30450</words><fused>116</fused></train>
     <dev><sentences>376</sentences><tokens>11550</tokens><words>11617</words><fused>66</fused></dev>
-    <test><sentences>419</sentences><tokens>13402</tokens><words>13452</words><fused>50</fused></test>
+    <test><sentences>421</sentences><tokens>13402</tokens><words>13452</words><fused>50</fused></test>
   </size>
-  <lemmas unique="5634" /><!-- ,, sum, et, ., qui, in, non, ;, :, ad, hic, de, dico, cum, ut -->
+  <lemmas unique="5635" /><!-- ,, sum, et, ., qui, in, non, ;, :, ad, hic, de, dico, cum, ut -->
   <forms unique="12013" /><!-- ,, et, ., in, est, quod, non, ;, :, ad, de, cum, que, ut, per -->
   <fusions unique="149" /><!-- nonne, etsi, cumque, mecum, nunquid, quinymo, Quidni, nonnullos, vobiscum, Romanorumque, eademque, eamque, eiusque, eodemque, hirteque -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">3976</tag><!-- primus, humanus, romanus, bonus, proprius, magnus, diuinus, secundus, manifestus, uerus -->
     <tag name="ADP">4161</tag><!-- in, ad, de, per, a, ab, propter, ex, cum, secundum -->
-    <tag name="ADV">3115</tag><!-- sic, ergo, etiam, uero, magis, bene, nunc, unde, tamen, iam -->
+    <tag name="ADV">3116</tag><!-- sic, ergo, etiam, uero, magis, bene, nunc, unde, tamen, iam -->
     <tag name="AUX">2200</tag><!-- sum -->
     <tag name="CCONJ">3037</tag><!-- et, sed, uel, neque, que, atque, siue, scilicet, aut, uidelicet -->
     <tag name="DET">3647</tag><!-- hic, ille, omnis, alius, ipse, suus, unus, quidam, noster, totus -->
@@ -25,7 +25,7 @@
     <tag name="NOUN">10112</tag><!-- deus, homo, pars, terra, ratio, natura, caelum, imperium, finis, ius -->
     <tag name="NUM">150</tag><!-- duo, tres, duodecim, quattuor, quinque, centum, decem, sex, xu, clxxx -->
     <tag name="PART">1488</tag><!-- non, nam, enim, autem, igitur, quidem, ne, quoque, etenim, itaque -->
-    <tag name="PRON">2687</tag><!-- qui, is, sui, ego, tu, quis, aliquis, nihil, quisquis, nemo -->
+    <tag name="PRON">2686</tag><!-- qui, is, sui, ego, tu, quis, aliquis, nihil, quisquis, nemo -->
     <tag name="PROPN">1075</tag><!-- christus, petrus, italia, caesar, mopsus, tityrus, dantes, iohannes, liuius, aeneas -->
     <tag name="PUNCT">8612</tag><!-- ,, ., ;, :, «, », “, ”, ?, - -->
     <tag name="SCONJ">2510</tag><!-- ut, quod, cum, si, quia, quam, sicut, nisi, tamquam, quemadmodum -->
@@ -52,7 +52,7 @@
     <feat name="Degree" value="Abs" upos="ADJ,ADV,DET,VERB">478</feat><!-- maxime, optime, ymo, potissime, optimum, minime, ultimum, potissima, optima, gravissimum -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,VERB">560</feat><!-- magis, prius, superius, melius, minus, potius, inferius, iterum, inferioribus, ulterius -->
     <feat name="Degree" value="Dim" upos="ADJ,NOUN">59</feat><!-- capelle, circulus, navicula, tabernaculi, vallo, vascula, agellum, alveolus, areola, bacillo -->
-    <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">564</feat><!-- che, amor, per, Israel, lo, de, amore, non, donna, sì -->
+    <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">565</feat><!-- che, amor, per, Israel, lo, de, amore, non, donna, sì -->
     <feat name="Form" value="Emp" upos="ADV,CCONJ,DET,PART,PRON,SCONJ">994</feat><!-- enim, atque, ipsum, tamen, ipsa, ipse, ac, quicquid, quandoque, quoque -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">8068</feat><!-- que, quam, illa, natura, qua, terra, parte, sua, ipsa, ratio -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">7769</feat><!-- qui, Dei, Deus, omnes, eius, quem, mundi, ipse, ille, Deo -->
@@ -80,14 +80,14 @@
     <feat name="NameType" value="Ast" upos="NOUN,PROPN">12</feat><!-- Solis, Titan, Eous, Hesperus, Lucifer, Luciferum, Phebe, Phebus, Solem, Titana -->
     <feat name="NameType" value="Cal" upos="ADJ,NOUN,PROPN">9</feat><!-- Kalendas, Apriles, Februarias, Ianuariis, Iunias, Maias, Pascha -->
     <feat name="NameType" value="Com" upos="ADJ,NOUN">150</feat><!-- Ecclesie, Ecclesia, Imperium, Imperii, Ecclesiam, Imperio, Marchie, Alborum, Consilium, Imperiatum -->
-    <feat name="NameType" value="Geo" upos="ADJ,NOUN,PROPN,X">303</feat><!-- Ytalie, Ytalia, Tuscia, Florentia, Ytaliam, Europa, Europe, Ierusalem, Roma, Sarni -->
+    <feat name="NameType" value="Geo" upos="ADJ,NOUN,PROPN">298</feat><!-- Ytalie, Ytalia, Tuscia, Florentia, Ytaliam, Europa, Europe, Ierusalem, Roma, Sarni -->
     <feat name="NameType" value="Giv" upos="ADJ,NOUN,PROPN">506</feat><!-- Petrus, Petri, Nicomacum, Israel, Lucanus, Lucas, Moysi, Alphesibeus, Dantes, David -->
     <feat name="NameType" value="Let" upos="NOUN">90</feat><!-- A, B, C, D, f, z, H, Alfa, G, Omega -->
     <feat name="NameType" value="Lit" upos="ADJ,NOUN,PROPN,VERB">23</feat><!-- Comedie, Comedia, Lictera, E, Eneidorum, Metaphysicorum, Digestorum, Eneydem, Eneydos, Ethicorum -->
     <feat name="NameType" value="Met" upos="NOUN,PROPN">4</feat><!-- Euri, boreas, hauster, haustri -->
     <feat name="NameType" value="Nat" upos="ADJ,NOUN">368</feat><!-- romanorum, romanus, romanum, romani, Latinorum, romane, romano, Bononienses, Ytalorum, romana -->
     <feat name="NameType" value="Oth" upos="PROPN">3</feat><!-- Capitolium, Capitolia -->
-    <feat name="NameType" value="Rel" upos="ADJ,NOUN,PROPN,X">251</feat><!-- Dei, Deus, Deo, Deum, Apollo, Amphitritis, Dardanus, Dio, Electra, Herculis -->
+    <feat name="NameType" value="Rel" upos="ADJ,NOUN,PROPN">249</feat><!-- Dei, Deus, Deo, Deum, Apollo, Amphitritis, Dardanus, Electra, Herculis, Saturnia -->
     <feat name="NameType" value="Sur" upos="ADJ,NOUN,PROPN,X">200</feat><!-- Cristus, Cristi, Cristum, Livius, Alagherii, Tullius, Cristo, Christi, Guinizelli, Orosius -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">7723</feat><!-- sunt, que, qui, dicimus, omnes, nobis, hiis, omnia, omnibus, nos -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">22333</feat><!-- est, quod, hoc, sit, qui, potest, quo, que, eius, patet -->
@@ -119,7 +119,7 @@
     <feat name="PronType" value="Rcp" upos="PRON">9</feat><!-- invicem -->
     <feat name="PronType" value="Rel" upos="ADV,CCONJ,DET,PRON,SCONJ">3787</feat><!-- quod, ut, cum, que, qui, quam, quia, quo, quantum, unde -->
     <feat name="PronType" value="Tot" upos="ADV,DET">472</feat><!-- omnes, omnia, omnibus, totum, omne, omnis, omnium, totius, omni, tota -->
-    <feat name="Proper" value="Yes" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB,X">771</feat><!-- Dei, Deus, Deo, Ecclesie, de, Ecclesia, Imperium, Imperii, Phylosophus, Deum -->
+    <feat name="Proper" value="Yes" upos="ADJ,ADP,DET,NOUN,NUM,PRON,VERB,X">764</feat><!-- Dei, Deus, Deo, Ecclesie, de, Ecclesia, Imperium, Imperii, Phylosophus, Deum -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">503</feat><!-- se, sibi, sua, suis, sui, suam, suo, sue, suum, suorum -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">288</feat><!-- erit, patebit, apparebit, movebitur, ostendetur, poterit, videbimus, constabit, demonstrabitur, Videbitis -->
     <feat name="Tense" value="Past" upos="AUX,VERB">659</feat><!-- esset, erat, posset, fuisset, dicebatur, sequeretur, essent, poterat, dicebat, diceret -->
@@ -135,71 +135,71 @@
   <deps unique="68">
     <dep name="acl">599</dep>
     <dep name="acl:relcl">1046</dep>
-    <dep name="advcl">1424</dep>
+    <dep name="advcl">1426</dep>
     <dep name="advcl:abs">155</dep>
-    <dep name="advcl:cmp">688</dep>
+    <dep name="advcl:cmp">687</dep>
     <dep name="advcl:pred">456</dep>
     <dep name="advcl:relcl">101</dep>
     <dep name="advmod">1677</dep>
-    <dep name="advmod:emph">343</dep>
+    <dep name="advmod:emph">344</dep>
     <dep name="advmod:lmod">215</dep>
-    <dep name="advmod:neg">688</dep>
+    <dep name="advmod:neg">689</dep>
     <dep name="advmod:tmod">319</dep>
-    <dep name="amod">2004</dep>
+    <dep name="amod">2005</dep>
     <dep name="appos">84</dep>
     <dep name="aux">53</dep>
     <dep name="aux:pass">522</dep>
-    <dep name="case">3963</dep>
+    <dep name="case">3964</dep>
     <dep name="cc">2984</dep>
-    <dep name="ccomp">583</dep>
+    <dep name="ccomp">582</dep>
     <dep name="ccomp:relcl">45</dep>
-    <dep name="ccomp:reported">161</dep>
-    <dep name="conj">3324</dep>
+    <dep name="ccomp:reported">166</dep>
+    <dep name="conj">3326</dep>
     <dep name="conj:expl">288</dep>
-    <dep name="cop">1497</dep>
+    <dep name="cop">1498</dep>
     <dep name="cop:outer">30</dep>
-    <dep name="csubj">449</dep>
+    <dep name="csubj">450</dep>
     <dep name="csubj:cleft">12</dep>
     <dep name="csubj:outer">2</dep>
     <dep name="csubj:pass">136</dep>
     <dep name="csubj:relcl">94</dep>
     <dep name="csubj:reported">20</dep>
-    <dep name="det">2002</dep>
+    <dep name="det">1994</dep>
     <dep name="det:numgov">1</dep>
     <dep name="discourse">1112</dep>
     <dep name="dislocated:ccomp">2</dep>
     <dep name="dislocated:csubj">11</dep>
     <dep name="dislocated:obj">3</dep>
     <dep name="dislocated:obl">3</dep>
-    <dep name="fixed">45</dep>
+    <dep name="fixed">44</dep>
     <dep name="flat">105</dep>
-    <dep name="flat:foreign">371</dep>
+    <dep name="flat:foreign">365</dep>
     <dep name="flat:gov">1</dep>
     <dep name="flat:name">28</dep>
     <dep name="flat:redup">3</dep>
     <dep name="mark">2678</dep>
-    <dep name="nmod">2551</dep>
+    <dep name="nmod">2553</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">3172</dep>
     <dep name="nsubj:cleft">1</dep>
     <dep name="nsubj:outer">30</dep>
     <dep name="nsubj:pass">782</dep>
     <dep name="nummod">103</dep>
-    <dep name="obj">2109</dep>
-    <dep name="obl">3474</dep>
+    <dep name="obj">2108</dep>
+    <dep name="obl">3473</dep>
     <dep name="obl:agent">201</dep>
-    <dep name="obl:arg">1009</dep>
+    <dep name="obl:arg">1011</dep>
     <dep name="obl:cmp">34</dep>
     <dep name="obl:lmod">62</dep>
     <dep name="obl:tmod">15</dep>
-    <dep name="orphan">372</dep>
+    <dep name="orphan">369</dep>
     <dep name="parataxis">5</dep>
     <dep name="parataxis:reporting">8</dep>
     <dep name="punct">8612</dep>
     <dep name="reparandum">1</dep>
-    <dep name="root">1721</dep>
+    <dep name="root">1723</dep>
     <dep name="vocative">79</dep>
-    <dep name="xcomp">849</dep>
+    <dep name="xcomp">850</dep>
     <dep name="xcomp:relcl">1</dep>
   </deps>
 </treebank>
