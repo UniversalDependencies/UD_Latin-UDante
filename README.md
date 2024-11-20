@@ -85,6 +85,8 @@ Since the **UDante** treebank represents all known Latin works by Dante, its str
 <u>Please note:</u> as a byproduct of linguistic (or other) investigations performed on the **UDante** treebank, or its use for NLP purposes, constant corrections and improvements are performed on the syntactic trees as need be. It would not be sensible to list all such interventions in full, since the overall structure of the treebank is not affected. Whoever detects errors, inconsistencies or dubious annotation choices is gladly invited to report them! 
 
 * 2024-11-15 v2.15
+    * Reannotated `fixed` expressions *hoc/id/quod est* to regular copular structures (and *quod est* as relative clauses).
+* 2024-11-15 v2.15
     * Implementation of new rules excluding descendants of syntactic words with dependency relations `det`, involving reattachment to the head and possible other minor corrections
         * the only case where this is not applied are the reduplicating determiners *quot quot* and *tot tot*
     * Minor correction of features of `Foreign=Yes` words, shifting `NameEntity` and `Proper` to the `MISC` field
