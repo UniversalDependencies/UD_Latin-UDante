@@ -14302,11 +14302,11 @@
 6	elicere	elicio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	8	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 7	sufficienter	sufficienter	ADV	r	VerbForm=Part	6	advmod	_	_
 8	potes	possum	VERB	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-9	qualiter	qualiter	ADV	r	PronType=Rel	10	advmod	_	_
-10	tibi	tu	PRON	ppp2smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	6	ccomp	_	_
+9	qualiter	qualiter	ADV	r	PronType=Rel	12	advmod	_	_
+10	tibi	tu	PRON	ppp2smd	Case=Dat|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	12	obl:arg	_	_
 11	carminum	carmen	NOUN	snp3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Plur	14	nmod	_	_
-12	habituanda	habituo	VERB	va1gvsfn	Aspect=Prosp|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	10	csubj	_	TraditionalMood=Gerundivum
-13	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+12	habituanda	habituo	VERB	va1gvsfn	Aspect=Prosp|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	6	ccomp:relcl	_	TraditionalMood=Gerundivum
+13	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 14	stantia	stantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	12	nsubj:pass	_	_
 15-16	habitudinemque	_	_	_	_	_	_	_	_
 15	habitudinem	habitudo	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	19	nsubj:pass	_	_
