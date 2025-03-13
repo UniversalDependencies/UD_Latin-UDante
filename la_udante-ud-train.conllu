@@ -4370,7 +4370,7 @@
 4	ad	ad	ADP	e	_	5	case	_	_
 5	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	1	obl	_	SpaceAfter=No
 6	:	:	PUNCT	Pu	_	8	punct	_	_
-7	ut	ut	SCONJ	cs	PronType=Rel	8	cc	_	_
+7	ut	ut	SCONJ	cs	PronType=Rel	8	mark	_	_
 8	dicant	dico	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj:expl	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 9	liberum	liber	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	10	amod	_	_
 10	arbitrium	arbitrium	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	12	nsubj	_	_
@@ -26570,7 +26570,7 @@
 16	labello	labellum	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	13	obl	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	21	punct	_	_
 18	tum	tum	ADV	r	AdvType=Tim|PronType=Dem	21	advmod:tmod	_	_
-19	quia	quia	SCONJ	cs	PronType=Rel	21	cc	_	_
+19	quia	quia	SCONJ	cs	PronType=Rel	21	mark	_	_
 20	Castalias	castalius	ADJ	afp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Plur	23	amod	_	_
 21	pudet	pudeo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 22	acceptare	accepto	VERB	va1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	21	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
