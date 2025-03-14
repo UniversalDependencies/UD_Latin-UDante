@@ -6887,37 +6887,39 @@
 # sent_id = DVE-181
 # text = Quare autem hoc quod repertum est, illustre, cardinale, aulicum et curiale adicientes vocemus, nunc disponendum est: per quod clarius ipsum quod ipsum est faciamus patere.
 # citation_hierarchy = Liber_Primus,xvii,Paragraphus_1
-1	Quare	quare	ADV	cs	Compound=Yes|PronType=Rel	16	advmod	_	_
-2	autem	autem	PART	co	_	19	discourse	_	_
-3	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	16	obj	_	_
-4	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
-5	repertum	reperio	VERB	vp4frs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	3	acl:relcl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
-6	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-7	,	,	PUNCT	Pu	_	3	punct	_	_
-8	illustre	illustris	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	16	xcomp	_	SpaceAfter=No
-9	,	,	PUNCT	Pu	_	10	punct	_	_
-10	cardinale	cardinalis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	15	obj	_	SpaceAfter=No
-11	,	,	PUNCT	Pu	_	12	punct	_	_
-12	aulicum	aulicus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	10	conj	_	_
-13	et	et	CCONJ	co	_	14	cc	_	_
-14	curiale	curialis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	10	conj	_	_
-15	adicientes	adicio	VERB	v3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
-16	vocemus	uoco	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	csubj:pass	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
-17	,	,	PUNCT	Pu	_	16	punct	_	_
-18	nunc	nunc	ADV	r	AdvType=Tim	19	advmod:tmod	_	_
-19	disponendum	dispono	VERB	vp3gvsnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	TraditionalMood=Gerundivum
-20	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-21	:	:	PUNCT	Pu	_	29	punct	_	_
-22	per	per	ADP	e	_	23	case	_	_
-23	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	29	obl	_	_
-24	clarius	clare	ADV	r+	Degree=Cmp	30	advmod	_	_
-25	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	29	obj	_	_
-26	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	25	acl:relcl	_	_
-27	ipsum	ipse	DET	ddesnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	26	nsubj	_	_
-28	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-29	faciamus	facio	VERB	va3ifp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	19	advcl:pred	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
-30	patere	pateo	VERB	va2fp	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act	29	xcomp	_	SpaceAfter=No|TraditionalMood=Infinitivus|TraditionalTense=Praesens
-31	.	.	PUNCT	Pu	_	19	punct	_	_
+1-2	Quare	_	_	_	_	_	_	_	_
+1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	17	obl	_	_
+3	autem	autem	PART	co	_	20	discourse	_	_
+4	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	17	obj	_	_
+5	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	6	nsubj:pass	_	_
+6	repertum	reperio	VERB	vp4frs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	4	acl:relcl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
+7	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+8	,	,	PUNCT	Pu	_	4	punct	_	_
+9	illustre	illustris	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	17	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	Pu	_	11	punct	_	_
+11	cardinale	cardinalis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	16	obj	_	SpaceAfter=No
+12	,	,	PUNCT	Pu	_	13	punct	_	_
+13	aulicum	aulicus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	11	conj	_	_
+14	et	et	CCONJ	co	_	15	cc	_	_
+15	curiale	curialis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	11	conj	_	_
+16	adicientes	adicio	VERB	v3pppmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	17	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
+17	vocemus	uoco	VERB	va1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	csubj:pass	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+18	,	,	PUNCT	Pu	_	17	punct	_	_
+19	nunc	nunc	ADV	r	AdvType=Tim	20	advmod:tmod	_	_
+20	disponendum	dispono	VERB	vp3gvsnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	TraditionalMood=Gerundivum
+21	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+22	:	:	PUNCT	Pu	_	30	punct	_	_
+23	per	per	ADP	e	_	24	case	_	_
+24	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	30	obl	_	_
+25	clarius	clare	ADV	r+	Degree=Cmp	31	advmod	_	_
+26	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	30	obj	_	_
+27	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	26	acl:relcl	_	_
+28	ipsum	ipse	DET	ddesnn	Case=Nom|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	27	nsubj	_	_
+29	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+30	faciamus	facio	VERB	va3ifp1	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl:pred	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
+31	patere	pateo	VERB	va2fp	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act	30	xcomp	_	SpaceAfter=No|TraditionalMood=Infinitivus|TraditionalTense=Praesens
+32	.	.	PUNCT	Pu	_	20	punct	_	_
 
 # sent_id = DVE-182
 # text = Primum igitur quid intendimus cum illustre adicimus, et quare illustre dicimus, denudemus.
