@@ -8012,7 +8012,7 @@
 25	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 26	:	:	PUNCT	Pu	_	45	punct	_	_
 27-28	quare	_	_	_	_	_	_	_	_
-27	qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	28	det	_	_
+27	qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	28	det	_	_
 28	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	45	obl	_	_
 29	si	si	SCONJ	cs	_	40	mark	_	_
 30	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	40	nsubj	_	_
