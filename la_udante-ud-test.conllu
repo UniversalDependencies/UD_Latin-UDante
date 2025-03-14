@@ -762,7 +762,7 @@
 # citation_hierarchy = Liber_Primus,ii,Paragraphus_8
 1	Sed	sed	CCONJ	co	_	10	cc	_	_
 2-3	quare	_	_	_	_	_	_	_	_
-2	qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	3	det	_	_
+2	qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	3	det	_	_
 3	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	4	obl	_	_
 4	necessarium	necessarius	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	9	ccomp	_	_
 5	sibi	sui	PRON	ppp3smd	Case=Dat|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	_
