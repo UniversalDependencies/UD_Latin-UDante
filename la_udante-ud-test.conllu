@@ -6426,21 +6426,23 @@
 # sent_id = DVE-172
 # text = Quare, si latium illustre venamur, quod venamur in illis inveniri non potest.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_7
-1	Quare	quare	ADV	r	Compound=Yes|PronType=Rel	14	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	Pu	_	1	punct	_	_
-3	si	si	SCONJ	cs	_	6	mark	_	_
-4	latium	latius	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	6	amod	_	_
-5	illustre	illustris	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	6	amod	_	_
-6	venamur	uenor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	14	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-7	,	,	PUNCT	Pu	_	6	punct	_	_
-8	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	9	obj	_	_
-9	venamur	uenor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	12	csubj:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-10	in	in	ADP	e	_	11	case	_	_
-11	illis	ille	DET	ddipfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	12	obl	_	_
-12	inveniri	inuenio	VERB	vp4fp	Aspect=Imp|InflClass=LatI|VerbForm=Inf|Voice=Pass	14	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-13	non	non	PART	r	Polarity=Neg	14	advmod:neg	_	_
-14	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-15	.	.	PUNCT	Pu	_	14	punct	_	_
+1-2	Quare	_	_	_	_	_	_	_	SpaceAfter=No
+1	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+2	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	15	obl	_	_
+3	,	,	PUNCT	Pu	_	7	punct	_	_
+4	si	si	SCONJ	cs	_	7	mark	_	_
+5	latium	latius	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	7	amod	_	_
+6	illustre	illustris	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	7	amod	_	_
+7	venamur	uenor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	15	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+8	,	,	PUNCT	Pu	_	7	punct	_	_
+9	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	10	obj	_	_
+10	venamur	uenor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	13	csubj:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+11	in	in	ADP	e	_	12	case	_	_
+12	illis	ille	DET	ddipfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	13	obl	_	_
+13	inveniri	inuenio	VERB	vp4fp	Aspect=Imp|InflClass=LatI|VerbForm=Inf|Voice=Pass	15	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+14	non	non	PART	r	Polarity=Neg	15	advmod:neg	_	_
+15	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+16	.	.	PUNCT	Pu	_	15	punct	_	_
 
 # sent_id = DVE-173
 # text = Postquam venati saltus et pascua sumus Ytalie, nec pantheram quam sequimur adinvenimus, ut ipsam reperire possimus rationabilius investigemus de illa ut, solerti studio, redolentem ubique et necubi apparentem nostris penitus irretiamus tenticulis.
