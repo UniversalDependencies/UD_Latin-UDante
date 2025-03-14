@@ -7238,7 +7238,7 @@
 26	:	:	PUNCT	Pu	_	30	punct	_	_
 27	«	«	PUNCT	Pu	_	30	punct	_	SpaceAfter=No
 28-29	Quare	_	_	_	_	_	_	_	_
-28	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	29	det	_	_
+28	Qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	29	det	_	_
 29	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	30	obl	_	_
 30	fremuerunt	fremo	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	ccomp:reported	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 31	gentes	gens	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|VerbForm=Part	30	nsubj	_	SpaceAfter=No
