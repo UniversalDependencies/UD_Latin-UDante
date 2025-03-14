@@ -11389,33 +11389,33 @@
 # sent_id = DVE-312
 # text = Nam vocabulorum quedam puerilia, quedam muliebria, quedam virilia; et horum quedam silvestria, quedam urbana; et eorum que urbana vocamus, quedam pexa et lubrica, quedam yrsuta et reburra sentimus.
 # citation_hierarchy = Liber_Secundus,vii,Paragraphus_2
-1	Nam	nam	PART	co	_	4	discourse	_	_
+1	Nam	nam	PART	co	_	3	discourse	_	_
 2	vocabulorum	uocabulum	NOUN	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	3	nmod	_	_
-3	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	4	nsubj	_	_
-4	puerilia	puerilis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	Pu	_	7	punct	_	_
-6	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	7	nsubj	_	_
-7	muliebria	muliebris	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	4	conj	_	SpaceAfter=No
-8	,	,	PUNCT	Pu	_	10	punct	_	_
-9	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	10	nsubj	_	_
-10	virilia	uirilis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	4	conj	_	SpaceAfter=No
-11	;	;	PUNCT	Pu	_	15	punct	_	_
-12	et	et	CCONJ	co	_	15	cc	_	_
+3	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	0	root	_	_
+4	puerilia	puerilis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	3	orphan	_	SpaceAfter=No
+5	,	,	PUNCT	Pu	_	6	punct	_	_
+6	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	3	conj	_	_
+7	muliebria	muliebris	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	6	orphan	_	SpaceAfter=No
+8	,	,	PUNCT	Pu	_	9	punct	_	_
+9	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	3	conj	_	_
+10	virilia	uirilis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	9	orphan	_	SpaceAfter=No
+11	;	;	PUNCT	Pu	_	14	punct	_	_
+12	et	et	CCONJ	co	_	14	cc	_	_
 13	horum	hic	DET	ddipng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	14	nmod	_	_
-14	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	15	nsubj	_	_
-15	silvestria	siluester	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	4	conj	_	SpaceAfter=No
-16	,	,	PUNCT	Pu	_	18	punct	_	_
-17	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	18	nsubj	_	_
-18	urbana	urbanus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	15	conj	_	SpaceAfter=No
-19	;	;	PUNCT	Pu	_	24	punct	_	_
-20	et	et	CCONJ	co	_	0	root	_	_
-21	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+14	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	3	conj	_	_
+15	silvestria	siluester	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	14	orphan	_	SpaceAfter=No
+16	,	,	PUNCT	Pu	_	17	punct	_	_
+17	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	14	conj	_	_
+18	urbana	urbanus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	17	orphan	_	SpaceAfter=No
+19	;	;	PUNCT	Pu	_	26	punct	_	_
+20	et	et	CCONJ	co	_	26	cc	_	_
+21	eorum	is	PRON	ddepng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	26	nmod	_	_
 22	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	24	obj	_	_
 23	urbana	urbanus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	24	xcomp	_	_
 24	vocamus	uoco	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-25	,	,	PUNCT	Pu	_	27	punct	_	_
-26	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	0	root	_	_
-27	pexa	pexus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	0	root	_	_
+25	,	,	PUNCT	Pu	_	26	punct	_	_
+26	quedam	quidam	DET	dinpna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Ind	3	conj	_	_
+27	pexa	pecto	VERB	anp1a	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	26	orphan	_	_
 28	et	et	CCONJ	co	_	29	cc	_	_
 29	lubrica	lubricus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	27	conj	_	SpaceAfter=No
 30	,	,	PUNCT	Pu	_	27	punct	_	_
@@ -11423,8 +11423,8 @@
 32	yrsuta	hirsutus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	35	xcomp	_	_
 33	et	et	CCONJ	co	_	34	cc	_	_
 34	reburra	reburrus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	32	conj	_	_
-35	sentimus	sentio	VERB	va4ipp1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-36	.	.	PUNCT	Pu	_	35	punct	_	_
+35	sentimus	sentio	VERB	va4ipp1	Aspect=Imp|InflClass=LatI|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+36	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = DVE-313
 # text = Inter que quidem, pexa atque yrsuta sunt illa que vocamus grandiosa, lubrica vero et reburra vocamus illa que in superfluum sonant; quemadmodum in magnis operibus quedam magnanimitatis sunt opera, quedam fumi: ubi, licet in superficie quidam consideretur ascensus, ex quo limitata virtutis linea prevaricatur, bone rationi non ascensus sed per altera declivia ruina constabit.
