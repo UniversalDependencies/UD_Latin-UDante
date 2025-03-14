@@ -478,7 +478,7 @@
 51	non	non	PART	r	Polarity=Neg	52	advmod:neg	_	_
 52	indigent	indigeo	VERB	va2ipp3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	orphan	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 53	nisi	nisi	SCONJ	cs	Polarity=Neg	55	mark	_	_
-54	ut	ut	SCONJ	cs	PronType=Rel	53	fixed	_	_
+54	ut	ut	SCONJ	cs	PronType=Rel	55	mark	_	_
 55	sciat	scio	VERB	va4cps3	Aspect=Imp|InflClass=LatI|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	52	ccomp	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 56	quilibet	quilibet	DET	dinsmn	Case=Nom|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	55	nsubj	_	_
 57	de	de	ADP	e	_	58	case	_	_
@@ -1028,7 +1028,7 @@
 27	quando	quando	ADV	r	AdvType=Tim|PronType=Rel	14	conj	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	36	punct	_	_
 29	nec	neque	CCONJ	co	Polarity=Neg	36	cc	_	_
-30	non	non	PART	r	Polarity=Neg	29	fixed	_	_
+30	non	non	PART	r	Polarity=Neg	36	advmod:neg	_	_
 31	et	et	CCONJ	r	_	36	advmod:emph	_	_
 32	sub	sub	ADP	e	_	34	case	_	_
 33	quo	quis	PRON	pitsnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Int	34	det	_	_
@@ -2439,7 +2439,7 @@
 15	pia	pius	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	16	amod	_	_
 16	correctione	correctio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	20	obl	_	_
 17	nec	neque	CCONJ	co	Polarity=Neg	19	cc	_	_
-18	non	non	PART	r	Polarity=Neg	17	fixed	_	_
+18	non	non	PART	r	Polarity=Neg	19	advmod:neg	_	_
 19	memorabili	memorabilis	ADJ	afs2b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	15	conj	_	_
 20	castigavit	castigo	VERB	va1irs3	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Perfectum
 21	.	.	PUNCT	Pu	_	20	punct	_	_
@@ -2711,7 +2711,7 @@
 11	plantata	planto	VERB	vp1crs3	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	50	advcl	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
 12	,	,	PUNCT	Pu	_	26	punct	_	_
 13	nec	neque	CCONJ	co	Polarity=Neg	26	cc	_	_
-14	non	non	PART	r	Polarity=Neg	13	fixed	_	_
+14	non	non	PART	r	Polarity=Neg	20	advmod:neg	_	_
 15	ab	ab	ADP	e	_	16	case	_	_
 16	inde	inde	ADV	r	_	26	obl	_	_
 17	ad	ad	ADP	e	_	19	case	_	_
@@ -2931,7 +2931,7 @@
 20	Europa	europa	PROPN	Sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	19	xcomp	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	26	punct	_	_
 22	nec	neque	CCONJ	co	Polarity=Neg	26	cc	_	_
-23	non	non	PART	r	Polarity=Neg	22	fixed	_	_
+23	non	non	PART	r	Polarity=Neg	26	advmod:neg	_	_
 24	ulterius	ultra	ADV	r+	Degree=Cmp	26	advmod	_	_
 25	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 26	protractum	protraho	VERB	vp3irs3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
@@ -4146,7 +4146,7 @@
 19	variationes	uariatio	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	20	obj	_	_
 20	dicere	dico	VERB	va3fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	26	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 21	nec	neque	CCONJ	co	Polarity=Neg	25	cc	_	_
-22	non	non	PART	r	Polarity=Neg	21	fixed	_	_
+22	non	non	PART	r	Polarity=Neg	25	advmod:neg	_	_
 23	illas	ille	DET	ddipfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Dem	25	obj	_	_
 24	invicem	inuicem	PRON	r	Compound=Yes|PronType=Rcp	25	obl:arg	_	_
 25	comparare	comparo	VERB	va1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	20	conj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
@@ -4354,7 +4354,7 @@
 42	Sardis	sardus	ADJ	Smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	40	orphan	_	SpaceAfter=No
 43	;	;	PUNCT	Pu	_	46	punct	_	_
 44	nec	neque	CCONJ	co	Polarity=Neg	46	cc	_	_
-45	non	non	PART	r	Polarity=Neg	44	fixed	_	_
+45	non	non	PART	r	Polarity=Neg	46	advmod:neg	_	_
 46	Calabrorum	calabrus	ADJ	Smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	19	conj	_	_
 47	cum	cum	ADP	e	_	48	case	_	_
 48	Anconitanis	anconitanus	ADJ	Smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	46	orphan	_	SpaceAfter=No
@@ -4424,7 +4424,7 @@
 7	variantur	uario	VERB	vp1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 8	,	,	PUNCT	Pu	_	13	punct	_	_
 9	ut	ut	SCONJ	r	PronType=Rel	13	mark	_	_
-10	puta	puta	CCONJ	va1mps2	VerbForm=Fin	9	fixed	_	_
+10	puta	puto	VERB	va1mps2	Aspect=Imp|InflClass=LatA|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis:reporting	_	_
 11	in	in	ADP	e	_	12	case	_	_
 12	Tuscia	tuscia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	13	orphan	_	_
 13	Senenses	senensis	ADJ	Smp3n	Case=Nom|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	7	advcl:cmp	_	_
@@ -4438,7 +4438,7 @@
 21	Placentini	placentinus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	19	conj	_	SpaceAfter=No
 22	;	;	PUNCT	Pu	_	30	punct	_	_
 23	nec	neque	CCONJ	co	Polarity=Neg	30	cc	_	_
-24	non	non	PART	r	Polarity=Neg	23	fixed	_	_
+24	non	non	PART	r	Polarity=Neg	30	advmod:neg	_	_
 25	in	in	ADP	e	_	27	case	_	_
 26	eadem	idem	DET	dpfsb	Case=Abl|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	27	det	_	_
 27	civitate	ciuitas	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	30	obl	_	_
@@ -5122,7 +5122,7 @@
 35	profertur	profero	VERB	vp5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	27	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 36	;	;	PUNCT	Pu	_	39	punct	_	_
 37	ut	ut	SCONJ	r	PronType=Rel	39	mark	_	_
-38	puta	puta	CCONJ	va1mps2	VerbForm=Fin	37	fixed	_	_
+38	puta	puto	VERB	va1mps2	Aspect=Imp|InflClass=LatA|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	39	parataxis:reporting	_	_
 39	ibi	ibi	ADV	r	AdvType=Loc	35	advcl:cmp	_	SpaceAfter=No
 40	:	:	PUNCT	Pu	_	41	punct	_	_
 41	Tragemi	tragemi	X	zi	Foreign=Yes	39	orphan	_	_
@@ -5817,7 +5817,7 @@
 14	habet	habeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 15	;	;	PUNCT	Pu	_	18	punct	_	_
 16	nec	neque	CCONJ	co	Polarity=Neg	18	cc	_	_
-17	non	non	PART	r	Polarity=Neg	16	fixed	_	_
+17	non	non	PART	r	Polarity=Neg	18	advmod:neg	_	_
 18	Paduanos	paduanus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	7	conj	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	21	punct	_	_
 20	turpiter	turpiter	ADV	r	_	21	advmod	_	_
@@ -8246,7 +8246,7 @@
 6	dignitates	dignitas	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	10	punct	_	_
 8	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	10	nsubj	_	_
-9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 10	dignos	dignus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	6	conj:expl	_	SpaceAfter=No
 11	,	,	PUNCT	Pu	_	14	punct	_	_
 12	et	et	CCONJ	co	_	14	cc	_	_
@@ -8654,7 +8654,7 @@
 41	regni	regnum	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	39	orphan	_	SpaceAfter=No
 42	,	,	PUNCT	Pu	_	45	punct	_	_
 43	nec	neque	CCONJ	co	Polarity=Neg	45	cc	_	_
-44	non	non	PART	r	Polarity=Neg	43	fixed	_	_
+44	non	non	PART	r	Polarity=Neg	45	advmod:neg	_	_
 45	mendacem	mendax	ADJ	ams2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Sing	32	conj	_	_
 46	ad	ad	ADP	e	_	48	case	_	_
 47	ruboris	rubor	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	48	nmod	_	_
@@ -11332,7 +11332,7 @@
 20	Lucanum	lucanus	PROPN	Sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	12	conj	_	SpaceAfter=No
 21	,	,	PUNCT	Pu	_	24	punct	_	_
 22	nec	neque	CCONJ	co	Polarity=Neg	24	cc	_	_
-23	non	non	PART	r	Polarity=Neg	22	fixed	_	_
+23	non	non	PART	r	Polarity=Neg	24	advmod:neg	_	_
 24	alios	alius	DET	dpmpa	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Con	12	conj	_	_
 25	qui	qui	PRON	prepmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	26	nsubj	_	_
 26	nisi	nitor	VERB	vd3irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	10	acl:relcl	_	TraditionalMood=Participium|TraditionalTense=Perfectum

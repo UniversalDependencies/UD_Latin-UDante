@@ -1639,7 +1639,7 @@
 8	alme	almus	ADJ	afs1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	9	amod	_	_
 9	Urbis	urbs	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|NameType=Geo|Number=Sing|Proper=Yes	7	nmod	_	_
 10	nec	neque	CCONJ	co	Polarity=Neg	12	cc	_	_
-11	non	non	PART	r	Polarity=Neg	10	fixed	_	_
+11	non	non	PART	r	Polarity=Neg	12	advmod:neg	_	_
 12	Ducibus	dux	NOUN	smp3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur	5	conj	_	_
 13	Marchionibus	marchio	NOUN	smp3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur	5	conj	_	_
 14	Comitibus	comes	NOUN	smp3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur	5	conj	_	_
@@ -3991,7 +3991,7 @@
 16	cohibentem	cohibeo	VERB	va2ppsfa	Aspect=Imp|Case=Acc|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	3	conj	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
 17	,	,	PUNCT	Pu	_	16	punct	_	_
 18	nec	neque	CCONJ	co	Polarity=Neg	20	cc	_	_
-19	non	non	PART	r	Polarity=Neg	18	fixed	_	_
+19	non	non	PART	r	Polarity=Neg	20	advmod:neg	_	_
 20	captivantem	captiuo	VERB	va1ppsfa	Aspect=Imp|Case=Acc|Gender=Fem|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	3	conj	_	TraditionalMood=Participium|TraditionalTense=Praesens
 21	vos	tu	PRON	ppp2pma	Case=Acc|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	20	obj	_	_
 22	in	in	ADP	e	_	23	case	_	_
@@ -6926,8 +6926,8 @@
 # sent_id = Epi-187
 # text = Quod si de prelibato precipitio dubitatur, quid aliud declarando respondeam, nisi quod in Alcimum cum Demetrio consensistis?
 # citation_hierarchy = XI,Paragraphus_8
-1	Quod	quod	SCONJ	cs	PronType=Rel	6	mark	_	_
-2	si	si	SCONJ	cs	_	1	fixed	_	_
+1	Quod	quod	SCONJ	cs	PronType=Rel	11	mark	_	_
+2	si	si	SCONJ	cs	_	6	mark	_	_
 3	de	de	ADP	e	_	5	case	_	_
 4	prelibato	praelibo	VERB	vp1prsnb	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 5	precipitio	praecipitium	NOUN	sns2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	6	obl:arg	_	_
@@ -9056,8 +9056,8 @@
 # sent_id = Epi-253
 # text = Propterea quod esse talium dependet ab alio, consequens est quod eorum veritas ab alio dependeat; ignorato enim dimidio, nunquam cognoscitur duplum, et sic de aliis.
 # citation_hierarchy = XIII,Paragraphus_16
-1	Propterea	propterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	5	mark	_	_
-2	quod	quod	SCONJ	cs	PronType=Rel	1	fixed	_	_
+1	Propterea	propterea	ADV	r	AdvType=Loc|Compound=Yes|PronType=Dem	5	advmod	_	_
+2	quod	quod	SCONJ	cs	PronType=Rel	5	mark	_	_
 3	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf	5	nsubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 4	talium	talis	DET	anp2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Dem	3	nmod	_	_
 5	dependet	dependeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
