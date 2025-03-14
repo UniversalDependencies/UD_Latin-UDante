@@ -27557,7 +27557,7 @@
 7	agit	ago	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 8	,	,	PUNCT	Pu	_	13	punct	_	_
 9	vel	uel	CCONJ	co	_	13	cc	_	_
-10	que	qui	DET	aifsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	14	det	_	_
+10	que	qui	PRON	aifsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	14	det	_	_
 11	pedibus	pes	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	13	obl	_	_
 12	nova	nouus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	14	amod	_	_
 13	nata	nascor	VERB	vd3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	TraditionalMood=Participium|TraditionalTense=Perfectum
