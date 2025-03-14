@@ -8238,7 +8238,7 @@
 # text = Quare si convenientia respiciunt dignitates, hoc est dignos, et quidam digni, quidam digniores, quidam dignissimi esse possunt, manifestum est quod bona dignis, meliora dignioribus, optima dignissimis convenient.
 # citation_hierarchy = Liber_Secundus,i,Paragraphus_7
 1-2	Quare	_	_	_	_	_	_	_	_
-1	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	24	obl	_	_
 3	si	si	SCONJ	cs	_	5	mark	_	_
 4	convenientia	conueniens	ADJ	anp2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	5	nsubj	_	_
