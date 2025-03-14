@@ -129,7 +129,7 @@ Features: converted with corrections
 Relations: manual native
 Contributors: Cecchini, Flavio Massimiliano; Moretti, Giovanni; Passarotti, Marco; Sprugnoli, Rachele; Corbetta, Daniela; Favero, Federica; Gamba, Federica; de Laurentiis, Martina; Pedonese, Giulia; Peverelli, Andrea; Vagnoni, Elena; Tavoni, Mirko
 Contributing: elsewhere
-Contact: flavio.cecchini@unicatt.it
+Contact: flavio.cecchini@unicatt.it, marco.passarotti@unicatt.it
 ===============================================================================
 </pre>
 
