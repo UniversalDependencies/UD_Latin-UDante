@@ -28022,7 +28022,7 @@
 17	nimium	nimium	ADV	r	_	18	advmod	_	_
 18	iuvenis	iuuenis	ADJ	ams2v	Case=Voc|Gender=Masc|InflClass=IndEurI|Number=Sing	24	vocative	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	18	punct	_	_
-20	que	qui	DET	aifsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	23	det	_	_
+20	que	qui	PRON	aifsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	23	det	_	_
 21	te	tu	PRON	ppp2sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	29	nsubj	_	_
 22	nova	nouus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	23	amod	_	_
 23	causa	causa	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	24	nsubj	_	_
