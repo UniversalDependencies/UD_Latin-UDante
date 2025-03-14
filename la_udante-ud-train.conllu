@@ -31496,7 +31496,7 @@
 19	loquendo	loquor	VERB	vd3fgb	Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	SpaceAfter=No|TraditionalMood=Gerundium
 20	;	;	PUNCT	Pu	_	35	punct	_	_
 21-22	quare	_	_	_	_	_	_	_	_
-21	qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	22	det	_	_
+21	qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	22	det	_	_
 22	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	35	obl	_	_
 23	cum	cum	SCONJ	cs	PronType=Rel	25	mark	_	_
 24	gravitas	grauitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	25	nsubj	_	_
