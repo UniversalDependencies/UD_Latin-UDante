@@ -6934,7 +6934,7 @@
 8	,	,	PUNCT	Pu	_	13	punct	_	_
 9	et	et	CCONJ	co	_	13	cc	_	_
 10-11	quare	_	_	_	_	_	_	_	_
-10	qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	11	det	_	_
+10	qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	11	det	_	_
 11	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	13	obl	_	_
 12	illustre	illustris	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	13	obj	_	_
 13	dicimus	dico	VERB	va3ipp1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
