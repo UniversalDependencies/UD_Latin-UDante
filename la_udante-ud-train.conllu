@@ -33363,7 +33363,7 @@
 15	cum	cum	SCONJ	cs	PronType=Rel	16	mark	_	_
 16	querit	quaero	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 17-18	quare	_	_	_	_	_	_	_	_
-17	qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	18	det	_	_
+17	qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	18	det	_	_
 18	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	20	obl	_	_
 19	celum	caelum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	20	nsubj	_	_
 20	movetur	moueo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	ccomp	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
