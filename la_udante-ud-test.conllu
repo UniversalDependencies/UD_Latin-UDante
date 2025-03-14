@@ -7181,13 +7181,15 @@
 # sent_id = DVE-192
 # text = Quare ipsum illustre merito profiteri debemus.
 # citation_hierarchy = Liber_Primus,xvii,Paragraphus_7
-1	Quare	quare	ADV	cs	Compound=Yes|PronType=Rel	6	advmod	_	_
-2	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	5	obj	_	_
-3	illustre	illustris	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	5	xcomp	_	_
-4	merito	merito	ADV	r	VerbForm=Part	6	advmod	_	_
-5	profiteri	profiteor	VERB	vd2fp	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass	6	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-6	debemus	debeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-7	.	.	PUNCT	Pu	_	6	punct	_	_
+1-2	Quare	_	_	_	_	_	_	_	_
+1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	7	obl	_	_
+3	ipsum	ipse	DET	ddesna	Case=Acc|Form=Emp|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	6	obj	_	_
+4	illustre	illustris	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	6	xcomp	_	_
+5	merito	mereo	VERB	r	Aspect=Perf|Case=Abl|Gender=Neut|InflClass=LatE|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl:abs	_	_
+6	profiteri	profiteor	VERB	vd2fp	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass	7	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+7	debemus	debeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+8	.	.	PUNCT	Pu	_	7	punct	_	_
 
 # sent_id = DVE-193
 # text = Neque sine ratione ipsum vulgare illustre decusamus adiectione secunda, videlicet ut id cardinale vocetur.
