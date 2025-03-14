@@ -25775,7 +25775,7 @@
 8	:	:	PUNCT	Pu	_	9	punct	_	_
 9	dic	dico	VERB	va3xmps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	TraditionalMood=Imperativus|TraditionalTense=Praesens
 10	age	ago	VERB	va3mps2	Aspect=Imp|InflClass=LatX|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	discourse	_	TraditionalMood=Imperativus|TraditionalTense=Praesens
-11	quo	qui	DET	dptmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	16	det	_	_
+11	quo	qui	PRON	dptmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	16	det	_	_
 12	petiit	peto	VERB	va3xirs3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 13	Iovis	iuppiter	PROPN	Sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|NameType=Rel|Number=Sing	14	nmod	_	_
 14	armiger	armiger	ADJ	ams1n	Case=Nom|Compound=Yes|Gender=Masc|InflClass=IndEurO|Number=Sing	12	nsubj	_	_
