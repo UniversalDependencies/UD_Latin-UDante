@@ -22296,8 +22296,8 @@
 27	sequeretur	sequor	VERB	vd3cis3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 28	illa	ille	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	29	det	_	_
 29	dependentia	dependentia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	27	nsubj	_	_
-30	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	32	obj	_	_
-31	concludere	concludo	VERB	va3fp	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	32	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+30	quam	qui	PRON	presfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	31	obj	_	_
+31	concludere	concludo	VERB	va3fp	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	32	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 32	volunt	uolo	VERB	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 33	.	.	PUNCT	Pu	_	3	punct	_	_
 
