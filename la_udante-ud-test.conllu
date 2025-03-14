@@ -6370,7 +6370,7 @@
 # text = Quare, cribellum cupientes deponere, ut residentiam cito visamus, dicimus Tridentum atque Taurinum nec non Alexandriam civitates metis Ytalie in tantum sedere propinquas quod puras nequeunt habere loquelas; ita quod si etiam quod turpissimum habent vulgare, haberent pulcerrimum, propter aliorum commixtionem esse vere latium negaremus.
 # citation_hierarchy = Liber_Primus,xv,Paragraphus_7
 1-2	Quare	_	_	_	_	_	_	_	SpaceAfter=No
-1	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	13	obl	_	_
 3	,	,	PUNCT	Pu	_	5	punct	_	_
 4	cribellum	cribellum	NOUN	sns2a	Case=Acc|Degree=Dim|Gender=Neut|InflClass=IndEurO|Number=Sing	6	obj	_	_
