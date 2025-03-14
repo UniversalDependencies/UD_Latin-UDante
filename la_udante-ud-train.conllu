@@ -29255,7 +29255,7 @@
 40	videmus	uideo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 41	:	:	PUNCT	Pu	_	50	punct	_	_
 42-43	quare	_	_	_	_	_	_	_	_
-42	qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	43	det	_	_
+42	qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	43	det	_	_
 43	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	50	obl	_	_
 44	oppositum	oppositum	NOUN	sns2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	50	nsubj	_	_
 45	eius	is	PRON	ddesng	Case=Gen|Gender=Neut|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	44	nmod	_	_
