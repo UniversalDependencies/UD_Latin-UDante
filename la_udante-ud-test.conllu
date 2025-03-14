@@ -9056,7 +9056,7 @@
 # text = Quare hec tria, salus videlicet, venus et virtus, apparent esse illa magnalia que sint maxime pertractanda, hoc est ea que maxime sunt ad ista, ut armorum probitas, amoris accensio et directio voluntatis.
 # citation_hierarchy = Liber_Secundus,ii,Paragraphus_7
 1-2	Quare	_	_	_	_	_	_	_	_
-1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	13	obl	_	_
 3	hec	hic	DET	dpnpn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	4	det	_	_
 4	tria	tres	NUM	aunpn	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|NumForm=Word|NumType=Card	13	nsubj	_	SpaceAfter=No
