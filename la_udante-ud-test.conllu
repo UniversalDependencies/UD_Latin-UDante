@@ -7586,7 +7586,7 @@
 # text = Quare falsum esset dicere curia carere Ytalos, quanquam Principe careamus, quoniam curiam habemus, licet corporaliter sit dispersa.
 # citation_hierarchy = Liber_Primus,xviii,Paragraphus_5
 1-2	Quare	_	_	_	_	_	_	_	_
-1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	3	obl	_	_
 3	falsum	falsus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	_
 4	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
