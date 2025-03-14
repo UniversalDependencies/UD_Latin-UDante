@@ -7022,17 +7022,19 @@
 # sent_id = Mon-188
 # text = «Quare fremuerunt gentes, et populi meditati sunt inania?
 # citation_hierarchy = Liber_Secundus,i,Paragraphus_1
-1	«	«	PUNCT	Pu	_	3	punct	_	SpaceAfter=No
-2	Quare	quare	ADV	r	Compound=Yes|PronType=Rel	3	advmod	_	_
-3	fremuerunt	fremo	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
-4	gentes	gens	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|VerbForm=Part	3	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Pu	_	8	punct	_	_
-6	et	et	CCONJ	co	_	8	cc	_	_
-7	populi	populus	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	8	nsubj	_	_
-8	meditati	meditor	VERB	vd1irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	3	conj	_	TraditionalMood=Participium|TraditionalTense=Perfectum
-9	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-10	inania	inanis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	8	obj	_	SpaceAfter=No
-11	?	?	PUNCT	Pu	_	3	punct	_	_
+1	«	«	PUNCT	Pu	_	4	punct	_	SpaceAfter=No
+2-3	Quare	_	_	_	_	_	_	_	_
+2	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	3	det	_	_
+3	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	4	obl	_	_
+4	fremuerunt	fremo	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
+5	gentes	gens	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|VerbForm=Part	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	Pu	_	9	punct	_	_
+7	et	et	CCONJ	co	_	9	cc	_	_
+8	populi	populus	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	9	nsubj	_	_
+9	meditati	meditor	VERB	vd1irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	4	conj	_	TraditionalMood=Participium|TraditionalTense=Perfectum
+10	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+11	inania	inanis	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	Pu	_	4	punct	_	_
 
 # sent_id = Mon-189
 # text = Astiterunt reges terre, et principes convenerunt in unum, adversus Dominum et adversus Cristum eius.
