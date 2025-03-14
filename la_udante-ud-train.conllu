@@ -33288,7 +33288,7 @@
 10	feratur	fero	VERB	vp3cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 11	,	,	PUNCT	Pu	_	10	punct	_	_
 12-13	quare	_	_	_	_	_	_	_	_
-12	qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	13	det	_	_
+12	qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	13	det	_	_
 13	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	18	obl	_	_
 14	illa	ille	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	15	det	_	_
 15	elevatio	eleuatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	18	nsubj	_	_
