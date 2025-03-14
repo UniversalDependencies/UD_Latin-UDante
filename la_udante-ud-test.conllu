@@ -6888,7 +6888,7 @@
 # text = Quare autem hoc quod repertum est, illustre, cardinale, aulicum et curiale adicientes vocemus, nunc disponendum est: per quod clarius ipsum quod ipsum est faciamus patere.
 # citation_hierarchy = Liber_Primus,xvii,Paragraphus_1
 1-2	Quare	_	_	_	_	_	_	_	_
-1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	17	obl	_	_
 3	autem	autem	PART	co	_	20	discourse	_	_
 4	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	17	obj	_	_
