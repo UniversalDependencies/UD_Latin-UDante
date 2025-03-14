@@ -936,7 +936,7 @@
 # sent_id = Mon-24
 # text = Que autem sit illa, manifestum fiet si ultimum de potentia totius humanitatis appareat.
 # citation_hierarchy = Liber_Primus,iii,Paragraphus_4
-1	Que	qui	DET	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	7	csubj:relcl	_	_
+1	Que	qui	PRON	presfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	7	csubj:relcl	_	_
 2	autem	autem	PART	co	_	7	discourse	_	_
 3	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 4	illa	ille	DET	ddisfn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	1	nsubj	_	SpaceAfter=No
