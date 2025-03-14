@@ -7585,27 +7585,29 @@
 # sent_id = DVE-207
 # text = Quare falsum esset dicere curia carere Ytalos, quanquam Principe careamus, quoniam curiam habemus, licet corporaliter sit dispersa.
 # citation_hierarchy = Liber_Primus,xviii,Paragraphus_5
-1	Quare	quare	ADV	cs	Compound=Yes|PronType=Rel	2	advmod	_	_
-2	falsum	falsus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	_
-3	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
-4	dicere	dico	VERB	va3fp	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	2	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-5	curia	curia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	6	obl:arg	_	_
-6	carere	careo	VERB	va2fp	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act	4	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-7	Ytalos	italus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	6	nsubj	_	SpaceAfter=No
-8	,	,	PUNCT	Pu	_	11	punct	_	_
-9	quanquam	quamquam	SCONJ	cs	Form=Emp|PronType=Rel	11	mark	_	_
-10	Principe	princeps	NOUN	sms3b	Case=Abl|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	11	obl:arg	_	_
-11	careamus	careo	VERB	va2cpp1	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
-12	,	,	PUNCT	Pu	_	11	punct	_	_
-13	quoniam	quoniam	SCONJ	cs	Compound=Yes|PronType=Rel	15	mark	_	_
-14	curiam	curia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	15	obj	_	_
-15	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-16	,	,	PUNCT	Pu	_	20	punct	_	_
-17	licet	licet	SCONJ	va2*ips3	VerbForm=Fin	20	mark	_	_
-18	corporaliter	corporaliter	ADV	r	_	20	advmod	_	_
-19	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
-20	dispersa	disperdo	VERB	v3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
-21	.	.	PUNCT	Pu	_	2	punct	_	_
+1-2	Quare	_	_	_	_	_	_	_	_
+1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	3	obl	_	_
+3	falsum	falsus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	_
+4	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
+5	dicere	dico	VERB	va3fp	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	3	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+6	curia	curia	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	7	obl:arg	_	_
+7	carere	careo	VERB	va2fp	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act	5	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+8	Ytalos	italus	ADJ	Smp2a	Case=Acc|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	Pu	_	12	punct	_	_
+10	quanquam	quamquam	SCONJ	cs	Form=Emp|PronType=Rel	12	mark	_	_
+11	Principe	princeps	NOUN	sms3b	Case=Abl|Compound=Yes|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	12	obl:arg	_	_
+12	careamus	careo	VERB	va2cpp1	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+13	,	,	PUNCT	Pu	_	12	punct	_	_
+14	quoniam	quoniam	SCONJ	cs	Compound=Yes|PronType=Rel	16	mark	_	_
+15	curiam	curia	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	16	obj	_	_
+16	habemus	habeo	VERB	va2ipp1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+17	,	,	PUNCT	Pu	_	21	punct	_	_
+18	licet	licet	SCONJ	va2*ips3	VerbForm=Fin	21	mark	_	_
+19	corporaliter	corporaliter	ADV	r	_	21	advmod	_	_
+20	sit	sum	AUX	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
+21	dispersa	disperdo	VERB	v3prsfn	Aspect=Perf|Case=Nom|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	16	advcl	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
+22	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = DVE-208
 # text = Hoc autem vulgare quod illustre, cardinale, aulicum et curiale ostensum est, dicimus esse illud quod vulgare latium appellatur.
