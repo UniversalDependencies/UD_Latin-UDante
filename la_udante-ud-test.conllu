@@ -1468,7 +1468,7 @@
 # text = Quare ad hoc et ad quedam alia hec sufficere credimus.
 # citation_hierarchy = Liber_Primus,iv,Paragraphus_7
 1-2	Quare	_	_	_	_	_	_	_	_
-1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	11	obl	_	_
 3	ad	ad	ADP	e	_	4	case	_	_
 4	hoc	hic	DET	ddisna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	10	obl	_	_
