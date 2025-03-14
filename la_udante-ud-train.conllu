@@ -17034,7 +17034,7 @@
 4	:	:	PUNCT	Pu	_	12	punct	_	_
 5	«	«	PUNCT	Pu	_	12	punct	_	SpaceAfter=No
 6-7	Quare	_	_	_	_	_	_	_	_
-6	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	7	det	_	_
+6	Qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	7	det	_	_
 7	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	12	obl	_	_
 8	discipuli	discipulus	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	12	nsubj	_	_
 9	tui	tuus	DET	dsmpn	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	8	det	_	_
