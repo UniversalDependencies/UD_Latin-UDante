@@ -27187,7 +27187,7 @@
 8	,	,	PUNCT	Pu	_	3	punct	_	_
 9	spectare	specto	VERB	va1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	10	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 10	potes	possum	VERB	va5ips2	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-11	quibus	qui	DET	dinpnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	13	det	_	_
+11	quibus	qui	PRON	dinpnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	13	det	_	_
 12	otior	otior	VERB	vd1ips1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	9	ccomp	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 13	antris	antrum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	12	obl	_	_
 14	et	et	CCONJ	co	_	17	cc	_	_
