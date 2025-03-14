@@ -917,31 +917,33 @@
 # sent_id = DVE-23
 # text = Quare, si tantum rationale esset, pertransire non posset; si tantum sensuale, nec a ratione accipere nec in rationem deponere potuisset.
 # citation_hierarchy = Liber_Primus,iii,Paragraphus_2
-1	Quare	quare	ADV	r	Compound=Yes|PronType=Rel	10	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	Pu	_	1	punct	_	_
-3	si	si	SCONJ	cs	_	5	mark	_	_
-4	tantum	tantum	ADV	r	NumType=Card|PronType=Dem	5	advmod	_	_
-5	rationale	rationalis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	10	advcl	_	_
-6	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
-7	,	,	PUNCT	Pu	_	5	punct	_	_
-8	pertransire	pertranseo	VERB	va5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	10	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-9	non	non	PART	r	Polarity=Neg	10	advmod:neg	_	_
-10	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
-11	;	;	PUNCT	Pu	_	14	punct	_	_
-12	si	si	SCONJ	cs	_	14	mark	_	_
-13	tantum	tantum	ADV	r	NumType=Card|PronType=Dem	14	advmod	_	_
-14	sensuale	sensualis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	24	advcl	_	SpaceAfter=No
-15	,	,	PUNCT	Pu	_	14	punct	_	_
-16	nec	neque	CCONJ	co	Polarity=Neg	24	cc	_	_
-17	a	a	ADP	e	_	18	case	_	_
-18	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	19	obl	_	_
-19	accipere	accipio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	24	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-20	nec	neque	CCONJ	co	Polarity=Neg	23	cc	_	_
-21	in	in	ADP	e	_	22	case	_	_
-22	rationem	ratio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	23	obl	_	_
-23	deponere	depono	VERB	va3fp	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	19	conj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-24	potuisset	possum	VERB	va5c+s3	Aspect=Perf|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Plusquamperfectum
-25	.	.	PUNCT	Pu	_	10	punct	_	_
+1-2	Quare	_	_	_	_	_	_	_	SpaceAfter=No
+1	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+2	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	11	obl	_	_
+3	,	,	PUNCT	Pu	_	11	punct	_	_
+4	si	si	SCONJ	cs	_	6	mark	_	_
+5	tantum	tantum	ADV	r	NumType=Card|PronType=Dem	6	advmod	_	_
+6	rationale	rationalis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	11	advcl	_	_
+7	esset	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
+8	,	,	PUNCT	Pu	_	6	punct	_	_
+9	pertransire	pertranseo	VERB	va5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	11	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+10	non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
+11	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
+12	;	;	PUNCT	Pu	_	15	punct	_	_
+13	si	si	SCONJ	cs	_	15	mark	_	_
+14	tantum	tantum	ADV	r	NumType=Card|PronType=Dem	15	advmod	_	_
+15	sensuale	sensualis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	25	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	Pu	_	15	punct	_	_
+17	nec	neque	CCONJ	co	Polarity=Neg	25	cc	_	_
+18	a	a	ADP	e	_	19	case	_	_
+19	ratione	ratio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	20	obl	_	_
+20	accipere	accipio	VERB	va3fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	25	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+21	nec	neque	CCONJ	co	Polarity=Neg	24	cc	_	_
+22	in	in	ADP	e	_	23	case	_	_
+23	rationem	ratio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	24	obl	_	_
+24	deponere	depono	VERB	va3fp	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	20	conj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+25	potuisset	possum	VERB	va5c+s3	Aspect=Perf|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Plusquamperfectum
+26	.	.	PUNCT	Pu	_	11	punct	_	_
 
 # sent_id = DVE-24
 # text = Hoc equidem signum est ipsum subiectum nobile de quo loquimur: nam sensuale quid est in quantum sonus est; rationale vero in quantum aliquid significare videtur ad placitum.
