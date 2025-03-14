@@ -3370,7 +3370,7 @@
 # text = Quare autem tripharie principalius variatum sit, investigemus; et quare quelibet istarum variationum in se ipsa variatur, puta dextre Ytalie locutio ab ea que est sinistre (nam aliter Paduani et aliter Pisani locuntur;) et quare vicinius habitantes adhuc discrepant in loquendo, ut Mediolanenses et Veronenses, Romani et Florentini, nec non convenientes in eodem genere gentis, ut Neapoletani et Caetani, Ravennates et Faventini, et, quod mirabilius est, sub eadem civilitate morantes, ut Bononienses Burgi Sancti Felicis et Bononienses Strate Maioris.
 # citation_hierarchy = Liber_Primus,ix,Paragraphus_4
 1-2	Quare	_	_	_	_	_	_	_	_
-1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	6	obl	_	_
 3	autem	autem	PART	co	_	9	discourse	_	_
 4	tripharie	tripharie	ADV	r	_	6	advmod	_	_
