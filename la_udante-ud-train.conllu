@@ -7024,7 +7024,7 @@
 # citation_hierarchy = Liber_Secundus,i,Paragraphus_1
 1	«	«	PUNCT	Pu	_	4	punct	_	SpaceAfter=No
 2-3	Quare	_	_	_	_	_	_	_	_
-2	Qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	3	det	_	_
+2	Qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	3	det	_	_
 3	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	4	obl	_	_
 4	fremuerunt	fremo	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 5	gentes	gens	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Plur|VerbForm=Part	4	nsubj	_	SpaceAfter=No
