@@ -1,10 +1,10 @@
 # sent_id = Epi-1
-# text = Reverendissimo in Christo patri dominorum suorum carissimo domino Nicholao miseratione celesti Ostiensi et Vallatrensi episcopo, Apostolice Sedis legato, necnon in Tuscia Romandiola et Marchia Trivisiana et partibus circum adiacentibus paciario per sacrosanctam Ecclesiam ordinato, devotissimi filii A. capitaneus, Consilium et Universitas partis Alborum de Florentia semetipsos devotissime atque promptissime recommendant.
+# text = Reverendissimo in Christo patri dominorum suorum carissimo domino Nicholao miseratione celesti Ostiensi et Vallatrensi episcopo, Apostolice Sedis legato, necnon in Tuscia Romandiola et Marchia Trivisiana et partibus circum adiacentibus paciario per sacrosanctam Ecclesiam ordinato, devotissimi filii A. capitaneus, Consilium et Universitas partis Alborum de Florentia semet ipsos devotissime atque promptissime recommendant.
 # citation_hierarchy = I,Paragraphus_1
 1	Reverendissimo	reuerendus	ADJ	ams1ds	Case=Dat|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	4	amod	_	_
 2	in	in	ADP	e	_	3	case	_	_
 3	Christo	christus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	4	nmod	_	_
-4	patri	pater	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	57	obl:arg	_	_
+4	patri	pater	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	56	obl:arg	_	_
 5	dominorum	dominus	NOUN	smp2g	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	8	nmod	_	_
 6	suorum	suus	DET	dsmpg	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
 7	carissimo	carus	ADJ	ams1ds	Case=Dat|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	8	amod	_	_
@@ -39,8 +39,8 @@
 36	ordinato	ordino	VERB	vp1prsmd	Aspect=Perf|Case=Dat|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	15	conj	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
 37	,	,	PUNCT	Pu	_	4	punct	_	_
 38	devotissimi	deuotus	ADJ	amp1ns	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	39	amod	_	_
-39	filii	filius	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	57	advcl:pred	_	_
-40	A	alexander	PROPN	yy	Abbr=Yes|NameType=Giv	57	nsubj	_	SpaceAfter=No
+39	filii	filius	NOUN	smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	56	advcl:pred	_	_
+40	A	alexander	PROPN	yy	Abbr=Yes|NameType=Giv	56	nsubj	_	SpaceAfter=No
 41	.	.	PUNCT	Pu	_	40	punct	_	_
 42	capitaneus	capitaneus	NOUN	sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	40	nmod	_	SpaceAfter=No
 43	,	,	PUNCT	Pu	_	44	punct	_	_
@@ -51,15 +51,13 @@
 48	Alborum	albus	ADJ	amp1g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Com|Number=Plur	47	nmod	_	_
 49	de	de	ADP	e	_	50	case	_	_
 50	Florentia	florentia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	47	nmod	_	_
-51-53	semetipsos	_	_	_	_	_	_	_	_
-51	se	sui	PRON	ppp3pma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	57	obj	_	_
-52	met	met	PART	9r	PartType=Emp	51	advmod:emph	_	_
-53	ipsos	ipse	DET	ddepma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	51	det	_	_
-54	devotissime	deuote	ADV	rs	Degree=Abs	57	advmod	_	_
-55	atque	atque	CCONJ	co	Form=Emp	56	cc	_	_
-56	promptissime	prompte	ADV	rs	Degree=Abs	54	conj	_	_
-57	recommendant	recommendo	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-58	.	.	PUNCT	Pu	_	57	punct	_	_
+51	semet	suimet	PRON	ppp3pma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	56	obj	_	_
+52	ipsos	ipse	DET	ddepma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	51	det	_	_
+53	devotissime	deuote	ADV	rs	Degree=Abs	56	advmod	_	_
+54	atque	atque	CCONJ	co	Form=Emp	55	cc	_	_
+55	promptissime	prompte	ADV	rs	Degree=Abs	53	conj	_	_
+56	recommendant	recommendo	VERB	va1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+57	.	.	PUNCT	Pu	_	56	punct	_	_
 
 # sent_id = Epi-2
 # text = Preceptis salutaribus moniti et Apostolica pietate rogati, sacre vocis contextui, quem misistis post cara nobis consilia, respondemus.
