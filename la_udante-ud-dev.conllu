@@ -1,5 +1,5 @@
 # sent_id = Epi-1
-# text = Reverendissimo in Christo patri dominorum suorum carissimo domino Nicholao miseratione celesti Ostiensi et Vallatrensi episcopo, Apostolice Sedis legato, necnon in Tuscia Romandiola et Marchia Trivisiana et partibus circum adiacentibus paciario per sacrosanctam Ecclesiam ordinato, devotissimi filii A. capitaneus, Consilium et Universitas partis Alborum de Florentia semet ipsos devotissime atque promptissime recommendant.
+# text = Reverendissimo in Christo patri dominorum suorum carissimo domino Nicholao miseratione celesti Ostiensi et Vallatrensi episcopo, Apostolice Sedis legato, necnon in Tuscia Romandiola et Marchia Trivisiana et partibus circum adiacentibus paciario per sacrosanctam Ecclesiam ordinato, devotissimi filii A. capitaneus, Consilium et Universitas partis Alborum de Florentia semetipsos devotissime atque promptissime recommendant.
 # citation_hierarchy = I,Paragraphus_1
 1	Reverendissimo	reuerendus	ADJ	ams1ds	Case=Dat|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	4	amod	_	_
 2	in	in	ADP	e	_	3	case	_	_
@@ -51,7 +51,8 @@
 48	Alborum	albus	ADJ	amp1g	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Com|Number=Plur	47	nmod	_	_
 49	de	de	ADP	e	_	50	case	_	_
 50	Florentia	florentia	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	47	nmod	_	_
-51	semet	suimet	PRON	ppp3pma	Case=Acc|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	56	obj	_	_
+51-52	semetipsos	_	_	_	_	_	_	_	_
+51	semet	sui	PRON	ppp3pma	Case=Acc|Form=Emp|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	56	obj	_	_
 52	ipsos	ipse	DET	ddepma	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	51	det	_	_
 53	devotissime	deuote	ADV	rs	Degree=Abs	56	advmod	_	_
 54	atque	atque	CCONJ	co	Form=Emp	55	cc	_	_
