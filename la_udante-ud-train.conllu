@@ -26488,7 +26488,7 @@
 12	iam	iam	ADV	r	AdvType=Tim	13	advmod:tmod	_	_
 13	senuere	senesco	VERB	va3irp3	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 14	capelle	capella	NOUN	sfp1n	Case=Nom|Degree=Dim|Gender=Fem|InflClass=IndEurA|Number=Plur	13	nsubj	_	_
-15	quas	qui	PRON	prepfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	17	obj	_	_
+15	quas	qui	PRON	prepfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	16	obj	_	_
 16	concepturis	concipio	VERB	va3pfpfd	Aspect=Prosp|Case=Dat|Gender=Fem|InflClass=LatI2|InflClass[nominal]=IndEurA|Number=Plur|VerbForm=Part|Voice=Act	19	acl	_	TraditionalMood=Participium|TraditionalTense=Futurum
 17	dedimus	do	VERB	va1irp1	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 18	nos	ego	PRON	ppp1pmn	Case=Nom|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
