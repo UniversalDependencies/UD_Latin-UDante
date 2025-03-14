@@ -9309,7 +9309,7 @@
 8	putamus	puto	VERB	va1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 9	:	:	PUNCT	Pu	_	32	punct	_	_
 10-11	quare	_	_	_	_	_	_	_	_
-10	qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	11	det	_	_
+10	qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	11	det	_	_
 11	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	32	obl	_	_
 12	si	si	SCONJ	cs	_	15	mark	_	_
 13	excellentissima	excellens	ADJ	afs2bs	Case=Abl|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	15	nsubj	_	_
