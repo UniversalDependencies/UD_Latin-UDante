@@ -6102,7 +6102,7 @@
 3	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 4	causa	causa	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	0	root	_	_
 5-6	quare	_	_	_	_	_	_	_	_
-5	qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	det	_	_
+5	qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	6	det	_	_
 6	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	13	obl	_	_
 7	Ferrarensium	ferrariensis	ADJ	Smp3g	Case=Gen|Gender=Masc|InflClass=IndEurI|NameType=Nat|Number=Plur	12	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	Pu	_	9	punct	_	_
