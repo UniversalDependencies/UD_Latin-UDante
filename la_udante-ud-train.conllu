@@ -10293,7 +10293,7 @@
 13	primus	primus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	14	advcl:pred	_	_
 14	edocuit	edoceo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Perfectum
 15	,	,	PUNCT	Pu	_	18	punct	_	_
-16	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	18	obj	_	_
+16	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	29	nsubj	_	_
 17	Livius	liuius	PROPN	Sms2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Sur|Number=Sing	18	nsubj	_	_
 18	dicit	dico	VERB	va3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 19	,	,	PUNCT	Pu	_	21	punct	_	_
