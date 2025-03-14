@@ -5944,7 +5944,7 @@
 # text = Quare omnibus presentis capituli ad iudicium comparentibus arbitramur nec romandiolum, nec suum oppositum ut dictum est, nec venetianum esse illud quod querimus vulgare illustre.
 # citation_hierarchy = Liber_Primus,xiv,Paragraphus_8
 1-2	Quare	_	_	_	_	_	_	_	_
-1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+1	Qua	qui	PRON	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
 2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	9	obl	_	_
 3	omnibus	omnis	DET	anp2d	Case=Dat|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	8	det	_	_
 4	presentis	praesens	ADJ	ans2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	5	amod	_	_
