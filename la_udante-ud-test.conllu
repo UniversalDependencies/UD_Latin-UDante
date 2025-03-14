@@ -7960,7 +7960,7 @@
 17	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 18	:	:	PUNCT	Pu	_	32	punct	_	_
 19-20	quare	_	_	_	_	_	_	_	SpaceAfter=No
-19	qua	qui	DET	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	20	det	_	_
+19	qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	20	det	_	_
 20	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	32	obl	_	_
 21	,	,	PUNCT	Pu	_	27	punct	_	_
 22	cum	cum	SCONJ	cs	PronType=Rel	27	mark	_	_
