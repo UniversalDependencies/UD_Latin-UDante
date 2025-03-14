@@ -9656,22 +9656,24 @@
 # sent_id = DVE-264
 # text = Quare ad propositum patet quod ea que digna sunt vulgari altissimo in cantionibus tractanda sunt.
 # citation_hierarchy = Liber_Secundus,iii,Paragraphus_10
-1	Quare	quare	ADV	cs	Compound=Yes|PronType=Rel	4	advmod	_	_
-2	ad	ad	ADP	e	_	3	case	_	_
-3	propositum	propositum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	4	obl	_	_
-4	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-5	quod	quod	SCONJ	cs	PronType=Rel	14	mark	_	_
-6	ea	is	PRON	ddepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
-7	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	8	nsubj	_	_
-8	digna	dignus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	6	acl:relcl	_	_
-9	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-10	vulgari	uulgare	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	8	obl:arg	_	_
-11	altissimo	altus	ADJ	ans1bs	Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	10	amod	_	_
-12	in	in	ADP	e	_	13	case	_	_
-13	cantionibus	cantio	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	14	obl	_	_
-14	tractanda	tracto	VERB	vp1gvpnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	4	csubj:pass	_	TraditionalMood=Gerundivum
-15	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-16	.	.	PUNCT	Pu	_	4	punct	_	_
+1-2	Quare	_	_	_	_	_	_	_	_
+1	Qua	qui	DET	cs	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	2	det	_	_
+2	re	res	NOUN	cs	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	5	obl	_	_
+3	ad	ad	ADP	e	_	4	case	_	_
+4	propositum	propositum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	5	obl	_	_
+5	patet	pateo	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+6	quod	quod	SCONJ	cs	PronType=Rel	15	mark	_	_
+7	ea	is	PRON	ddepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+8	que	qui	PRON	prepnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	9	nsubj	_	_
+9	digna	dignus	ADJ	anp1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	7	acl:relcl	_	_
+10	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+11	vulgari	uulgare	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	9	obl:arg	_	_
+12	altissimo	altus	ADJ	ans1bs	Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	11	amod	_	_
+13	in	in	ADP	e	_	14	case	_	_
+14	cantionibus	cantio	NOUN	sfp3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Plur	15	obl	_	_
+15	tractanda	tracto	VERB	vp1gvpnn	Aspect=Prosp|Case=Nom|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	5	csubj:pass	_	TraditionalMood=Gerundivum
+16	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+17	.	.	PUNCT	Pu	_	5	punct	_	_
 
 # sent_id = DVE-265
 # text = Quando quidem aporiavimus extricantes qui sint aulico digni vulgari et que, nec non modum quem tanto dignamur honore ut solus altissimo vulgari conveniat, antequam migremus ad alia modum cantionum, quem casu magis quam arte multi usurpare videntur, enucleemus; et qui hucusque casualiter est assumptus, illius artis ergasterium reseremus, modum ballatarum et sonituum ommictentes, quia illum elucidare intendimus in quarto huius operis, cum de mediocri vulgari tractabimus.
