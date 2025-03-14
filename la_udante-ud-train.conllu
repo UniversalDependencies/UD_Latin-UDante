@@ -5226,7 +5226,7 @@
 9	«	«	PUNCT	Pu	_	13	punct	_	SpaceAfter=No
 10-11	Quare	_	_	_	_	_	_	_	_
 10	Qua	qui	PRON	r	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	11	det	_	_
-11	re	re	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	13	obl	_	_
+11	re	res	NOUN	r	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	13	obl	_	_
 12	tu	tu	PRON	ppp2smn	Case=Nom|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 13	enarras	enarro	VERB	va1ips2	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj:reported	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 14	iustitias	iustitia	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	13	obj	_	_
