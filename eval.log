@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Latin-UDante:
-commit 40bdbbbb507a48c5174a088eae488e0bd9b9331c
-Merge: ccf61bf 843edf4
+commit 1be9fccefa1b327b95847f0a763fbcaf707e765b
+Merge: f817abd eb8464d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 55519 of 55519 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.03345060901792.
+Size: counted 55552 of 55552 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.03463903807577.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,15 +15,15 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.9.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 38675 out of 55519 total words have one or more features.
+Features: 38708 out of 55552 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        436
-Udapi: found 436 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 55519 words.
-Genres: found 3 out of 17 known.
+               TOTAL        299
+Udapi: found 299 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 55552 words.
+Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-test.conllu
@@ -32,13 +32,13 @@ Genres: found 3 out of 17 known.
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
-(weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
+(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
 (weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
-(weight=0.256410256410256) * (score{size}=0.581480545023134) = 0.149097575646957
+(weight=0.256410256410256) * (score{size}=0.581566566386793) = 0.14911963240687
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
-(weight=0.307692307692308) * (score{udapi}=0.921468326158612) = 0.283528715741112
-(weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
-(TOTAL score=0.763472975175929) * (availability=1) * (validity=1) = 0.763472975175929
+(weight=0.307692307692308) * (score{udapi}=0.946176555299539) = 0.291131247784474
+(weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
+(TOTAL score=0.76826441408723) * (availability=1) * (validity=1) = 0.76826441408723
 STARS = 4
-UD_Latin-UDante	0.763472975175929	4
+UD_Latin-UDante	0.76826441408723	4
