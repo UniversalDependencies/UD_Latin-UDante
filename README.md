@@ -121,6 +121,7 @@ Since the **UDante** treebank represents all known Latin works by Dante, its str
 Data available since: UD v2.8
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction poetry email
 Lemmas: converted with corrections
 UPOS: converted with corrections
