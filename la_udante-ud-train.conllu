@@ -23489,7 +23489,7 @@
 74	,	,	PUNCT	Pu	_	79	punct	_	_
 75	non	non	PART	r	Polarity=Neg	79	advmod:neg	_	_
 76	quasi	quasi	SCONJ	r	Compound=Yes|PronType=Rel	79	mark	_	_
-77	gentem	gens	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|VerbForm=Part	81	obj	_	_
+77	gentem	gens	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|VerbForm=Part	81	iobj	_	_
 78	meam	meus	DET	dsfsa	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	77	det	_	_
 79	habens	habeo	VERB	va2ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	70	advcl:cmp	_	TraditionalMood=Participium|TraditionalTense=Praesens
 80	aliquid	aliquis	PRON	dinsna	Case=Acc|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	81	obj	_	_
