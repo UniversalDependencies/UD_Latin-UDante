@@ -3587,8 +3587,8 @@
 25	suum	suus	DET	dsnsn	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	22	ccomp:relcl	_	_
 26	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 27-28	quomodo	_	_	_	_	_	_	_	_
-27	quo	qui	DET	dinsmn	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	28	det	_	
-28	modo	modus	NOUN	dinsmn	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	30	obl	_	
+27	quo	qui	DET	dinsmn	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	28	det	_	_
+28	modo	modus	NOUN	dinsmn	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	30	obl	_	_
 29	quis	quis	PRON	dinsmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Int	30	nsubj	_	_
 30	operabitur	operor	VERB	vd1ifs3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	8	conj	_	TraditionalMood=Indicativus|TraditionalTense=Futurum
 31	secundum	secundum	ADP	e	VerbForm=Part	32	case	_	_
@@ -14485,7 +14485,7 @@
 32	Pirro	pirrus	PROPN	Sms2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	42	nsubj	_	_
 33	pro	pro	ADP	e	_	34	case	_	_
 34	Grecis	graecus	ADJ	Smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	42	obl	_	SpaceAfter=No
-35	,	,	PUNCT	Pu	_	32	punct	_	_
+35	,	,	PUNCT	Pu	_	42	punct	_	_
 36	de	de	ADP	e	_	38	case	_	_
 37	imperii	imperium	NOUN	sns2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	38	nmod	_	_
 38	gloria	gloria	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	42	obl	_	_
@@ -27957,7 +27957,7 @@
 93	quod	quod	SCONJ	cs	PronType=Rel	92	mark	_	_
 94	saxa	saxum	NOUN	snp2n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Plur	92	nsubj	_	_
 95	sub	sub	ADP	e	_	96	case	_	_
-96	Ethna	aetna	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	94	obl	_	SpaceAfter=No
+96	Ethna	aetna	PROPN	Sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|NameType=Geo|Number=Sing	94	nmod	_	SpaceAfter=No
 97	»	»	PUNCT	Pu	_	64	punct	_	SpaceAfter=No
 98	.	.	PUNCT	Pu	_	64	punct	_	_
 
@@ -31738,7 +31738,7 @@
 8	corruptibilium	corruptibilis	ADJ	anp2g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	Pu	_	11	punct	_	_
 10	preter	praeter	ADP	r	_	11	case	_	_
-11	formas	forma	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	4	obl	_	_
+11	formas	forma	NOUN	sfp1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	4	nmod	_	_
 12	elementorum	elementum	NOUN	snp2g	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	11	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Pu	_	4	punct	_	_
 14	requirant	requiro	VERB	va3cpp3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	51	advcl	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
@@ -34148,7 +34148,7 @@
 5	et	et	CCONJ	co	_	6	cc	_	_
 6	tractatus	tractatus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	4	conj	_	_
 7	de	de	ADP	e	_	8	case	_	_
-8	forma	forma	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl	_	_
+8	forma	forma	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	4	nmod	_	_
 9	et	et	CCONJ	co	_	10	cc	_	_
 10	situ	situs	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	8	conj	_	_
 11	duorum	duo	NUM	aunpg	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur|NumForm=Word|NumType=Card	12	nummod	_	_
