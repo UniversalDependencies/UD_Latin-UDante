@@ -967,11 +967,11 @@
 22	possit	possum	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 23	anima	anima	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	22	nsubj	_	_
 24	transformari	transformo	VERB	vp1fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Pass	22	xcomp	_	SpaceAfter=No|TraditionalMood=Infinitivus|TraditionalTense=Praesens
-25	:	:	PUNCT	Pu	_	30	punct	_	_
+25	:	:	PUNCT	Pu	_	27	punct	_	_
 26	de	de	ADP	e	_	27	case	_	_
 27	passione	passio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	24	conj	_	_
 28	in	in	ADP	e	_	29	case	_	_
-29	passionem	passio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	30	orphan	_	_
+29	passionem	passio	NOUN	sfs3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	27	orphan	_	_
 30	dico	dico	VERB	va3ips1	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis:reporting	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 31	secundum	secundum	ADP	e	VerbForm=Part	33	case	_	_
 32	eandem	idem	DET	dpfsa	Case=Acc|Form=Emp|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	33	det	_	_
@@ -983,7 +983,7 @@
 38	sed	sed	CCONJ	co	_	40	cc	_	_
 39	non	non	PART	r	Polarity=Neg	40	advmod:neg	_	_
 40	specie	species	NOUN	sfs5b	Case=Abl|Gender=Fem|InflClass=IndEurE|Number=Sing	37	conj	_	SpaceAfter=No
-41	;	;	PUNCT	Pu	_	42	punct	_	_
+41	;	;	PUNCT	Pu	_	49	punct	_	_
 42	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	48	nsubj	_	_
 43	quamvis	quamuis	SCONJ	cs	Compound=Yes|PronType=Rel	49	mark	_	_
 44	ex	ex	ADP	e	_	45	case	_	_
