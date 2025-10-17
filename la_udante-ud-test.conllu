@@ -11604,7 +11604,7 @@
 14	,	,	PUNCT	Pu	_	15	punct	_	_
 15	mate	mate	X	zi	Foreign=Yes	11	conj	_	_
 16	et	et	CCONJ	co	_	17	cc	_	_
-17	pate	pate	X	zi	Foreign=Yes	11	conj	_	SpaceAfter=No
+17	pate	pate	X	zi	Foreign=Yes	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	20	punct	_	_
 19	nec	neque	CCONJ	co	Polarity=Neg	20	cc	_	_
 20	muliebria	muliebris	ADJ	anp2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	5	conj	_	_
@@ -11634,7 +11634,7 @@
 44	reburra	reburrus	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	42	conj	_	SpaceAfter=No
 45	,	,	PUNCT	Pu	_	41	punct	_	_
 46	ut	ut	SCONJ	r	PronType=Rel	47	mark	_	_
-47	femina	femina	X	zi	Foreign=Yes	53	advcl:cmp	_	_
+47	femina	femina	X	zi	Foreign=Yes	41	advcl:cmp	_	_
 48	et	et	CCONJ	co	_	49	cc	_	_
 49	corpo	corpo	X	zi	Foreign=Yes	47	conj	_	SpaceAfter=No
 50	,	,	PUNCT	Pu	_	47	punct	_	_
