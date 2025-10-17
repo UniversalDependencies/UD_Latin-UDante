@@ -11708,7 +11708,7 @@
 36	,	,	PUNCT	Pu	_	37	punct	_	_
 37	dolata	dolo	VERB	vp1prpna	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	7	conj	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 38	quasi	quasi	ADV	r	Compound=Yes|PronType=Rel	37	advmod	_	SpaceAfter=No
-39	,	,	PUNCT	Pu	_	5	punct	_	_
+39	,	,	PUNCT	Pu	_	7	punct	_	_
 40	loquentem	loquor	VERB	vd3ppsma	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	44	obj	_	TraditionalMood=Participium|TraditionalTense=Praesens
 41	cum	cum	ADP	e	_	43	case	_	_
 42	quadam	quidam	DET	dinsfb	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Ind	43	det	_	_
