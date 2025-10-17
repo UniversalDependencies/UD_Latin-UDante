@@ -14045,7 +14045,7 @@
 14	per	per	ADP	e	_	15	case	_	_
 15	victoriam	uictoria	NOUN	sfs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	21	obl	_	_
 16	David	dauid	PROPN	Smsgi	Foreign=Yes|NameType=Giv	15	nmod	_	_
-17	de	de	ADP	e	_	18	obl	_	_
+17	de	de	ADP	e	_	18	case	_	_
 18	Golia	golias	PROPN	Sms1b	Case=Abl|Gender=Masc|InflClass=IndEurA|NameType=Giv|Number=Sing	19	obl	_	_
 19	obtentam	obtineo	VERB	vp2prsfa	Aspect=Perf|Case=Acc|Gender=Fem|InflClass=LatE|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 20	instantia	instantia	NOUN	sfs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	21	nsubj:pass	_	_
