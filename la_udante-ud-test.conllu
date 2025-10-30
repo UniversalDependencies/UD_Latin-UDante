@@ -1559,7 +1559,7 @@
 9	Amator	amator	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing|Proper=Yes	3	conj	_	_
 10	afflando	adflo	VERB	v1fgb	Aspect=Prosp|Case=Abl|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	TraditionalMood=Gerundium
 11	primum	primus	ADJ	ams1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Ord	15	obj	_	NumValue=1
-12	nostrum	ego	PRON	ppp1pmg	Case=Gen|InflClass=LatAnom|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	11	nmod	_	_
+12	nostrum	ego	DET	ppp1pmg	Case=Gen|InflClass=LatAnom|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	11	nmod	_	_
 13	omni	omnis	DET	afs2b	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	14	det	_	_
 14	perfectione	perfectio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	15	obl:arg	_	_
 15	complevit	compleo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Perfectum

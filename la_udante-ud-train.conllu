@@ -22035,7 +22035,7 @@
 31	requiritur	requiro	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 32	dispositio	dispositio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	31	nsubj:pass	_	_
 33	conferentis	confero	VERB	va5ppsmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatAnom|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	32	nmod	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
-34	,	,	PUNCT	Pu	_	31	punct	_	_
+34	,	,	PUNCT	Pu	_	37	punct	_	_
 35	sed	sed	CCONJ	co	_	37	cc	_	_
 36	etiam	etiam	ADV	co	Compound=Yes	37	advmod:emph	_	_
 37	eius	is	PRON	ddesmg	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	33	conj	_	_
