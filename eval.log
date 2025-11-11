@@ -1,13 +1,17 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Latin-UDante:
-commit 1be9fccefa1b327b95847f0a763fbcaf707e765b
-Merge: f817abd eb8464d
+commit 580e318600eb95bf00070d9e108dc785cb15e00e
+Merge: fb10684 06fbba3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 55552 of 55552 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.03463903807577.
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'la_udante'
+Language code (from CoNLL-U file name) = 'la'
+Found the following data files: la_udante-ud-dev.conllu, la_udante-ud-test.conllu, la_udante-ud-train.conllu
+Size: counted 55553 of 55553 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.03467504005588.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,30 +19,61 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.9.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 38708 out of 55552 total words have one or more features.
+Features: 38710 out of 55553 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
-Universal relations: 29 out of 37 found in the corpus.
+Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        299
-Udapi: found 299 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 55552 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-dev.conllu
+[Line 1237 Sent Epi-31]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 2601 Sent Epi-70]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 2721 Sent Epi-72]: [L3 Warning verbform-fin-without-mood] Finite verb 'videlicet' lacks the 'Mood' feature
+[Line 3418 Sent Epi-89]: [L3 Warning verbform-fin-without-mood] Finite verb 'videlicet' lacks the 'Mood' feature
+[Line 7183 Sent Epi-196]: [L3 Warning verbform-fin-without-mood] Finite verb 'dumtaxat' lacks the 'Mood' feature
+[Line 8712 Sent Epi-244]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 9165 Sent Epi-256]: [L3 Warning verbform-fin-without-mood] Finite verb 'videlicet' lacks the 'Mood' feature
+[Line 9201 Sent Epi-257]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 10028 Sent Epi-284]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 10111 Sent Epi-286]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 20
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-test.conllu
+[Line 18 Sent DVE-1]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 244 Sent DVE-5]: [L3 Warning verbform-fin-without-mood] Finite verb 'licet' lacks the 'Mood' feature
+[Line 1066 Sent DVE-27]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 1195 Sent DVE-30]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 1629 Sent DVE-43]: [L3 Warning verbform-fin-without-mood] Finite verb 'licet' lacks the 'Mood' feature
+[Line 1829 Sent DVE-48]: [L3 Warning verbform-fin-without-mood] Finite verb 'idest' lacks the 'Mood' feature
+[Line 2545 Sent DVE-70]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+[Line 2868 Sent DVE-78]: [L3 Warning verbform-fin-without-mood] Finite verb 'licet' lacks the 'Mood' feature
+[Line 2917 Sent DVE-79]: [L3 Warning verbform-fin-without-mood] Finite verb 'videlicet' lacks the 'Mood' feature
+[Line 2956 Sent DVE-80]: [L3 Warning verbform-fin-without-mood] Finite verb 'licet' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 61
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang la --max-err=10 UD_Latin-UDante/la_udante-ud-train.conllu
+[Line 1329 Sent Mon-32]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 2249 Sent Mon-55]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 2522 Sent Mon-61]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 2882 Sent Mon-73]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 3542 Sent Mon-93]: [L3 Warning verbform-fin-without-mood] Finite verb 'licet' lacks the 'Mood' feature
+[Line 3866 Sent Mon-104]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+[Line 4301 Sent Mon-116]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 4418 Sent Mon-121]: [L3 Warning verbform-fin-without-mood] Finite verb 'puta' lacks the 'Mood' feature
+[Line 4741 Sent Mon-131]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+[Line 4841 Sent Mon-133]: [L3 Warning verbform-fin-without-mood] Finite verb 'scilicet' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 68
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
-(weight=0.256410256410256) * (score{size}=0.581566566386793) = 0.14911963240687
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.847058823529412) = 0.065158371040724
-(weight=0.307692307692308) * (score{udapi}=0.946176555299539) = 0.291131247784474
-(weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
-(TOTAL score=0.76826441408723) * (availability=1) * (validity=1) = 0.76826441408723
-STARS = 4
-UD_Latin-UDante	0.76826441408723	4
+(weight=0.111111111111111) * (score{features}=0.9) = 0.1
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.9) = 0.1
+(weight=0.37037037037037) * (score{size}=0.58156917229701) = 0.215395989739633
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.847058823529412) = 0.0941176470588235
+(weight=0.111111111111111) * (score{udeprels}=0.810810810810811) = 0.0900900900900901
+(TOTAL score=0.692196319481139) * (availability=1) * (validity=1) = 0.692196319481139
+STARS = 3.5
+UD_Latin-UDante	0.692196319481139	3.5
