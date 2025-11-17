@@ -5109,7 +5109,7 @@
 22	videtur	uideo	VERB	vp2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 23	,	,	PUNCT	Pu	_	9	punct	_	_
 24	prelationis	praelatio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	25	nmod	_	_
-25	honore	honos	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	27	obl:arg	_	_
+25	honore	honor	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	27	obl:arg	_	_
 26	minime	parum	ADV	rs	Degree=Abs	27	advmod	_	_
 27	dignum	dignus	ADJ	ans1n	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	2	ccomp	_	_
 28	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
@@ -5893,7 +5893,7 @@
 4	sese	sui	PRON	ppp3pma	Case=Acc|Form=Emp|InflClass=LatAnom|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 5	investigati	inuestigo	VERB	vp1prsng	Aspect=Perf|Case=Gen|Gender=Neut|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	7	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 6	vulgaris	uulgare	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Sing	5	nsubj:pass	_	_
-7	honore	honos	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	8	obl	_	_
+7	honore	honor	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	8	obl	_	_
 8	dignantur	dignor	VERB	vd1ipp3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 9	;	;	PUNCT	Pu	_	10	punct	_	_
 10	et	et	CCONJ	co	_	22	cc	_	_
@@ -7008,7 +7008,7 @@
 12	,	,	PUNCT	Pu	_	16	punct	_	_
 13	et	et	CCONJ	co	_	16	cc	_	_
 14	suos	suus	DET	dsmpa	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	16	obj	_	_
-15	honore	honos	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	16	obl	_	_
+15	honore	honor	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	16	obl	_	_
 16	sublimat	sublimo	VERB	va1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 17	et	et	CCONJ	co	_	18	cc	_	_
 18	gloria	gloria	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	15	conj	_	SpaceAfter=No
@@ -7118,7 +7118,7 @@
 # citation_hierarchy = Liber_Primus,xvii,Paragraphus_5
 1	Quod	quod	SCONJ	cs	PronType=Rel	4	mark	_	_
 2	autem	autem	PART	co	_	7	discourse	_	_
-3	honore	honos	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	4	obl	_	_
+3	honore	honor	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	4	obl	_	_
 4	sublimet	sublimo	VERB	va1cps3	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	csubj	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 5	,	,	PUNCT	Pu	_	4	punct	_	_
 6	in	in	ADP	e	_	7	case	_	_
@@ -9478,7 +9478,7 @@
 8	conditori	conditor	NOUN	sms3d	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Sing	12	obl:arg	_	_
 9	suo	suus	DET	dsmsd	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
 10	magis	magis	ADV	rc	Degree=Cmp	12	advmod	_	_
-11	honoris	honos	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	10	nmod	_	_
+11	honoris	honor	NOUN	sms3g	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Sing	10	nmod	_	_
 12	afferunt	affero	VERB	v5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 13	;	;	PUNCT	Pu	_	17	punct	_	_
 14	sed	sed	CCONJ	co	_	17	cc	_	_
@@ -9696,7 +9696,7 @@
 16	quem	qui	PRON	presma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	18	obj	_	_
 17	tanto	tantus	DET	ams1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing|NumType=Card|PronType=Dem	19	det	_	_
 18	dignamur	dignor	VERB	vd1ipp1	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-19	honore	honos	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	18	obl:arg	_	_
+19	honore	honor	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	18	obl:arg	_	_
 20	ut	ut	SCONJ	cs	PronType=Rel	24	mark	_	_
 21	solus	solus	DET	dpmsn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	24	advcl:pred	_	_
 22	altissimo	altus	ADJ	ans1bs	Case=Abl|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing|VerbForm=Part	23	amod	_	_
@@ -10676,7 +10676,7 @@
 9	vel	uel	CCONJ	co	_	12	cc	_	_
 10	nunquam	numquam	ADV	r	Polarity=Neg	12	advmod	_	_
 11	in	in	ADP	e	_	12	case	_	_
-12	honore	honos	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	0	root	_	_
+12	honore	honor	NOUN	sms3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	0	root	_	_
 13	fuit	sum	AUX	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 14	vel	uel	CCONJ	co	_	17	cc	_	_
 15	propter	propter	ADP	e	_	16	case	_	_
