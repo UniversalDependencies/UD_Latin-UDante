@@ -27876,7 +27876,7 @@
 14	,	,	PUNCT	Pu	_	19	punct	_	_
 15	nove	nouus	ADJ	afp1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Plur	19	advcl:pred	_	_
 16	cum	cum	SCONJ	cs	PronType=Rel	19	mark	_	_
-17	corpora	corpus	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	19	obl:arg	_	_
+17	corpora	corpus	NOUN	snp3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Plur	19	obj	_	_
 18	nostra	noster	DET	dsnpa	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
 19	subirent	subeo	VERB	va5cip3	Aspect=Imp|InflClass=LatI2|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 20	;	;	PUNCT	Pu	_	22	punct	_	_
