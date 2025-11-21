@@ -9269,7 +9269,7 @@
 1	Cum	cum	SCONJ	cs	PronType=Rel	15	mark	_	_
 2	que	que	CCONJ	9	_	46	cc	_	_
 3	Galli	gallus	ADJ	Smp2n	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Nat|Number=Plur	15	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	Pu	_	3	punct	_	_
+4	,	,	PUNCT	Pu	_	8	punct	_	_
 5	reliqua	reliquus	DET	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|PronType=Ind	6	det	_	_
 6	urbe	urbs	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	8	nsubj	_	_
 7	iam	iam	ADV	r	AdvType=Tim	8	advmod:tmod	_	_
