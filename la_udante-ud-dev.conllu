@@ -3768,12 +3768,12 @@
 # citation_hierarchy = VI,Paragraphus_18
 1-2	Utque	_	_	_	_	_	_	_	_
 1	Ut	ut	SCONJ	cs	PronType=Rel	4	mark	_	_
-2	que	que	CCONJ	co9	_	4	cc	_	_
+2	que	que	CCONJ	co9	_	26	cc	_	_
 3	breviter	breuiter	ADV	r	_	4	advmod	_	_
 4	colligam	colligo	VERB	va3cps1	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 5	,	,	PUNCT	Pu	_	4	punct	_	_
 6	quas	qui	PRON	prepfa	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Plur|PronType=Rel	8	det	_	_
-7	tulit	fero	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
+7	tulit	fero	VERB	va5irs3	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	dislocated:obj	_	TraditionalMood=Indicativus|TraditionalTense=Perfectum
 8	calamitates	calamitas	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Plur	7	obj	_	_
 9	illa	ille	DET	dpfsn	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	10	det	_	_
 10	civitas	ciuitas	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	7	nsubj	_	_
