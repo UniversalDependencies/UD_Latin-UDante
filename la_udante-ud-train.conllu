@@ -3795,7 +3795,7 @@
 2	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	5	nsubj:pass	_	_
 3	metu	metus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	5	obl	_	_
 4	cupiditatis	cupiditas	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	3	nmod	_	_
-5	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	6	csubj:pass	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+5	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	6	csubj:pass	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 6	oportet	oportet	VERB	va2*ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 7	,	,	PUNCT	Pu	_	12	punct	_	_
 8	de	de	ADP	e	_	9	case	_	_
@@ -4787,7 +4787,7 @@
 67	omnes	omnis	DET	amp2a	Case=Acc|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	68	det	_	_
 68	homines	homo	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	70	nsubj	_	_
 69	bonos	bonus	ADJ	amp1a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Plur	70	xcomp	_	_
-70	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	66	ccomp	_	SpaceAfter=No|TraditionalMood=Infinitivus|TraditionalTense=Praesens
+70	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	66	ccomp	_	SpaceAfter=No|TraditionalMood=Infinitivus|TraditionalTense=Praesens
 71	:	:	PUNCT	Pu	_	75	punct	_	_
 72	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	75	nsubj	_	_
 73	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf	75	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
@@ -5101,7 +5101,7 @@
 6	existens	existo	VERB	va3ppsnn	Aspect=Imp|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	3	advcl	_	TraditionalMood=Participium|TraditionalTense=Praesens
 7	quale	qualis	DET	presnn	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Rel	9	xcomp	_	_
 8	patiens	patior	VERB	vd3ppsmn	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	9	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
-9	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	10	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+9	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	10	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 10	debet	debeo	VERB	va2ips3	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 11	;	;	PUNCT	Pu	_	13	punct	_	_
 12	propter	propter	ADP	e	_	13	case	_	_
@@ -5526,7 +5526,7 @@
 1	Et	et	CCONJ	co	_	8	cc	_	_
 2	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	3	nsubj	_	_
 3	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	csubj:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-4	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	3	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+4	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	3	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 5	per	per	ADP	e	_	6	case	_	_
 6	unum	unus	DET	aunsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Pu	_	3	punct	_	_
@@ -5534,7 +5534,7 @@
 9	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 10	per	per	ADP	e	_	11	case	_	_
 11	unum	unus	DET	aunsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	12	obl	_	_
-12	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	8	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+12	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	8	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 13	quam	quam	SCONJ	c	PronType=Rel	15	mark	_	_
 14	per	per	ADP	e	_	15	case	_	_
 15	plura	multus	DET	anp1ac	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	8	advcl:cmp	_	SpaceAfter=No
@@ -5553,7 +5553,7 @@
 8	per	per	ADP	e	_	9	case	_	_
 9	quod	qui	PRON	presna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	12	obl	_	_
 10	aliquid	aliquis	PRON	dinsnn	Case=Nom|Compound=Yes|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Ind	12	nsubj	_	_
-11	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	12	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+11	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	12	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 12	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 13	,	,	PUNCT	Pu	_	14	punct	_	_
 14	A	a	NOUN	yy	NameType=Let	6	conj:expl	_	SpaceAfter=No
@@ -5566,7 +5566,7 @@
 21	que	qui	PRON	prepna	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Rel	25	obl	_	_
 22	similiter	similiter	ADV	r	_	25	advmod	_	_
 23	illud	ille	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	25	nsubj	_	_
-24	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	25	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+24	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	25	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 25	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 26	,	,	PUNCT	Pu	_	27	punct	_	_
 27	A	a	NOUN	yy	NameType=Let	18	conj:expl	_	_
@@ -5584,7 +5584,7 @@
 39	et	et	CCONJ	co	_	40	cc	_	_
 40	B	b	NOUN	yy	NameType=Let	38	conj	_	_
 41	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	49	advcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-42	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	41	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+42	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	41	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 43	per	per	ADP	e	_	44	case	_	_
 44	A	a	NOUN	yy	NameType=Let	42	obl	_	_
 45	tantum	tantum	ADV	r	NumType=Card|PronType=Dem	42	advmod	_	SpaceAfter=No
@@ -5653,22 +5653,22 @@
 37	solum	solum	ADV	r	PronType=Con	38	advmod:emph	_	_
 38	melius	bene	ADV	r+	Degree=Cmp	35	csubj	_	_
 39	esse	sum	AUX	va5fp	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf	38	cop	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-40	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	38	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+40	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	38	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 41	per	per	ADP	e	_	42	case	_	_
 42	unum	unus	DET	aunsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	40	obl	_	SpaceAfter=No
 43	,	,	PUNCT	Pu	_	46	punct	_	_
 44	si	si	SCONJ	cs	_	46	mark	_	_
-45	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	46	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+45	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	46	ccomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 46	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 47	,	,	PUNCT	Pu	_	49	punct	_	_
 48	quam	quam	SCONJ	c	PronType=Rel	49	mark	_	_
-49	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	38	advcl:cmp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+49	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	38	advcl:cmp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 50	per	per	ADP	e	_	51	case	_	_
 51	plura	multus	DET	anp1ac	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|NumType=Card|PronType=Ind	49	obl	_	SpaceAfter=No
 52	,	,	PUNCT	Pu	_	59	punct	_	_
 53	sed	sed	CCONJ	co	_	59	cc	_	_
 54	quod	quod	SCONJ	presnn	PronType=Rel	59	mark	_	_
-55	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	59	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+55	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	59	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 56	per	per	ADP	e	_	57	case	_	_
 57	unum	unus	DET	aunsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	55	obl	_	_
 58	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
@@ -5700,7 +5700,7 @@
 15	optimi	bonus	ADJ	ans1gs	Case=Gen|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	14	amod	_	SpaceAfter=No
 16	;	;	PUNCT	Pu	_	22	punct	_	_
 17	sed	sed	CCONJ	co	_	22	cc	_	_
-18	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	22	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+18	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	22	csubj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 19	per	per	ADP	e	_	20	case	_	_
 20	unum	unus	DET	aunsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	18	obl	_	_
 21	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
@@ -5726,7 +5726,7 @@
 9	finis	finis	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	6	conj:expl	_	_
 10	C	c	NOUN	yy	NameType=Let	9	nsubj	_	SpaceAfter=No
 11	;	;	PUNCT	Pu	_	12	punct	_	_
-12	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	9	conj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+12	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	9	conj	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 13	per	per	ADP	e	_	15	case	_	_
 14	unum	unus	DET	aunsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	15	det	_	_
 15	A	a	NOUN	yy	NameType=Let	12	obl	_	SpaceAfter=No
@@ -17711,7 +17711,7 @@
 6	sed	sed	CCONJ	co	_	7	cc	_	_
 7	ut	ut	SCONJ	cs	PronType=Rel	10	mark	_	_
 8	hoc	hic	DET	ddisnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Dem	10	nsubj	_	_
-9	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	10	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+9	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	10	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 10	possit	possum	VERB	va5cps3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 11	,	,	PUNCT	Pu	_	10	punct	_	_
 12	etiam	etiam	ADV	co	Compound=Yes	15	advmod:emph	_	_
@@ -30561,7 +30561,7 @@
 20	quia	quia	SCONJ	cs	PronType=Rel	30	mark	_	_
 21	quod	qui	PRON	presnn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	22	nsubj	_	_
 22	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	csubj:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-23	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	22	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+23	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	22	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 24	per	per	ADP	e	_	25	case	_	_
 25	unum	unus	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	23	obl	_	SpaceAfter=No
 26	,	,	PUNCT	Pu	_	22	punct	_	_
@@ -30579,7 +30579,7 @@
 38	totum	totus	DET	dpnsn	Case=Nom|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Tot	40	nsubj	_	_
 39	suppositum	suppono	VERB	vp3prsnn	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	38	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 40	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
-41	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	40	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+41	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	40	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 42	per	per	ADP	e	_	44	case	_	_
 43	solum	solus	DET	dpnsa	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Con	44	det	_	_
 44	gibbum	gibbus	NOUN	sms2a	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	41	obl	_	_

@@ -10588,14 +10588,14 @@
 12	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 13	,	,	PUNCT	Pu	_	5	punct	_	_
 14	aliter	aliter	ADV	r	PronType=Con	15	advmod	_	_
-15	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	csubj:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+15	fit	 fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 16	a	a	ADP	e	_	17	case	_	_
-17	poetis	poeta	NOUN	smp1b	Case=Abl|Gender=Masc|InflClass=IndEurA|Number=Plur	15	obl	_	SpaceAfter=No
+17	poetis	poeta	NOUN	smp1b	Case=Abl|Gender=Masc|InflClass=IndEurA|Number=Plur	15	obl:agent	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	20	punct	_	_
 19	aliter	aliter	ADV	r	PronType=Con	20	advmod	_	_
-20	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+20	fit	 fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 21	a	a	ADP	e	_	22	case	_	_
-22	rethoribus	rhetor	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	20	obl	_	SpaceAfter=No
+22	rethoribus	rhetor	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	20	obl:agent	_	SpaceAfter=No
 23	.	.	PUNCT	Pu	_	3	punct	_	_
 
 # sent_id = Epi-301

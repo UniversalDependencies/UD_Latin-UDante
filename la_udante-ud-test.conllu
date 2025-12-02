@@ -10195,7 +10195,7 @@
 25	scientiarum	scientia	NOUN	sfp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	27	nmod	_	_
 26	que	que	CCONJ	co9	_	27	cc	_	_
 27	habitu	habitus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	20	conj	_	_
-28	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	29	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+28	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	29	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 29	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 30	.	.	PUNCT	Pu	_	12	punct	_	_
 
@@ -13693,7 +13693,7 @@
 22	aliter	aliter	ADV	r	PronType=Con	26	advmod	_	_
 23	cantus	cantus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing	24	nmod	_	_
 24	repetitio	repetitio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	26	nsubj	_	_
-25	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	26	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+25	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	26	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 26	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 27	.	.	PUNCT	Pu	_	3	punct	_	_
 
@@ -14242,7 +14242,7 @@
 60	aliter	aliter	ADV	r	PronType=Con	64	advmod	_	_
 61	ingeminatio	ingeminatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	64	nsubj	_	_
 62	cantus	cantus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing	61	nmod	_	_
-63	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Pass	64	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+63	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	64	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 64	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	52	conj	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 65	,	,	PUNCT	Pu	_	69	punct	_	_
 66	ad	ad	ADP	e	_	67	case	_	_
