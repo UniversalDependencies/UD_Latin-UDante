@@ -3175,7 +3175,7 @@
 17	nullius	nullus	DET	dpfsg	Case=Gen|Gender=Fem|InflClass=LatPron|Number=Sing|Polarity=Neg|PronType=Ind	18	det	_	_
 18	prescriptionis	praescriptio	NOUN	sfs3g	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	19	nmod	_	_
 19	calculo	calculus	NOUN	sms2b	Case=Abl|Degree=Dim|Gender=Masc|InflClass=IndEurO|Number=Sing	21	obl:arg	_	_
-20	fore	sum	AUX	va5ff	Aspect=Perf|InflClass=LatAnom|VerbForm=Inf	21	cop	_	TraditionalTense=Perfectum
+20	fore	sum	AUX	va5ff	Aspect=Prosp|InflClass=LatAnom|VerbForm=Inf	21	cop	_	TraditionalTense=Perfectum
 21	obnoxia	obnoxius	ADJ	anp1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	14	conj	_	SpaceAfter=No
 22	?	?	PUNCT	Pu	_	2	punct	_	_
 

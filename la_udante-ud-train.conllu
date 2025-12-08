@@ -11812,7 +11812,7 @@
 33	armis	arma	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	32	obl	_	SpaceAfter=No
 34	;	;	PUNCT	Pu	_	44	punct	_	_
 35	sed	sed	CCONJ	co	_	44	cc	_	_
-36	fore	sum	AUX	va5ff	Aspect=Perf|InflClass=LatAnom|VerbForm=Inf	44	cop:outer	_	TraditionalTense=Perfectum
+36	fore	sum	AUX	va5ff	Aspect=Prosp|InflClass=LatAnom|VerbForm=Inf	44	cop:outer	_	TraditionalTense=Perfectum
 37	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	44	nsubj	_	_
 38	gravidam	grauidus	ADJ	afs1a	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	43	amod	_	_
 39	imperiis	imperium	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	42	obl	_	_
@@ -13214,7 +13214,7 @@
 12	volventibus	uoluo	VERB	va3pppmb	Aspect=Imp|Case=Abl|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	advcl:abs	_	TraditionalMood=Participium|TraditionalTense=Praesens
 13	annis	annus	NOUN	smp2b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	12	nsubj	_	_
 14	hinc	hinc	ADV	r	AdvType=Loc|PronType=Dem	16	advmod:lmod	_	_
-15	fore	sum	AUX	va5ff	Aspect=Perf|InflClass=LatAnom|VerbForm=Inf	16	cop	_	TraditionalTense=Perfectum
+15	fore	sum	AUX	va5ff	Aspect=Prosp|InflClass=LatAnom|VerbForm=Inf	16	cop	_	TraditionalTense=Perfectum
 16	ductores	ductor	NOUN	smp3a	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Plur	1	ccomp	_	SpaceAfter=No
 17	,	,	PUNCT	Pu	_	20	punct	_	_
 18	revocato	reuoco	VERB	vp1prsmb	Aspect=Perf|Case=Abl|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
@@ -15051,7 +15051,7 @@
 7	fungentis	fungor	VERB	vd3ppsmg	Aspect=Imp|Case=Gen|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	3	acl:relcl	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Praesens
 8	,	,	PUNCT	Pu	_	3	punct	_	_
 9	edictum	edictum	NOUN	sns2a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	11	nsubj	_	_
-10	fore	sum	AUX	va5ff	Aspect=Perf|InflClass=LatAnom|VerbForm=Inf	11	cop	_	TraditionalTense=Perfectum
+10	fore	sum	AUX	va5ff	Aspect=Prosp|InflClass=LatAnom|VerbForm=Inf	11	cop	_	TraditionalTense=Perfectum
 11	iustum	iustus	ADJ	ans1a	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	13	ccomp	_	_
 12	opere	opus	NOUN	sns3b	Case=Abl|Gender=Neut|InflClass=IndEurX|Number=Sing	13	obl	_	_
 13	persuasit	persuadeo	VERB	va2irs3	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Perfectum
