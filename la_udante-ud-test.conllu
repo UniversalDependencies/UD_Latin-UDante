@@ -9845,7 +9845,7 @@
 4	,	,	PUNCT	Pu	_	3	punct	_	_
 5	quantum	quantum	SCONJ	r	NumType=Card|PronType=Rel	8	mark	_	_
 6	illos	ille	DET	ddipma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Dem	8	obj	_	_
-7	proximius	proxime	ADV	r+	Degree=Cmp	8	advmod	_	_
+7	proximius	prope	ADV	r+	Degree=Abs,Cmp	8	advmod	_	_
 8	imitemur	imitor	VERB	vd1cpp1	Aspect=Imp|InflClass=LatA|Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Praesens
 9	,	,	PUNCT	Pu	_	8	punct	_	_
 10	tantum	tantum	ADV	r	NumType=Card|PronType=Dem	11	advmod	_	_
@@ -13985,7 +13985,7 @@
 # text = Verumtamen quosdam ab eptasillabo tragice principiasse invenimus, videlicet Guidonem Guinizelli, Guidonem de Ghisileriis et Fabrutium Bononienses: Di fermo sofferire, et Donna, lo fermo core, et Lo meo lontano gire; et quosdam alios.
 # citation_hierarchy = Liber_Secundus,xii,Paragraphus_6
 1-2	Verumtamen	_	_	_	_	_	_	_	_
-1	Verum	uerum	CCONJ	co	_	8	cc	_	_
+1	Verum	uero	ADV	co	_	8	discourse	_	_
 2	tamen	tamen	ADV	co	Form=Emp|PronType=Dem	8	advmod	_	_
 3	quosdam	quidam	DET	dinpma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Ind	8	obj	_	_
 4	ab	ab	ADP	e	_	5	case	_	_

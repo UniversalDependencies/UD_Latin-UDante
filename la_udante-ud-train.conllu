@@ -386,7 +386,7 @@
 # sent_id = Mon-11
 # text = Verum, quia omnis veritas que non est principium ex veritate alicuius principii fit manifesta, necesse est in qualibet inquisitione habere notitiam de principio, in quod analetice recurratur pro certitudine omnium propositionum que inferius assummuntur.
 # citation_hierarchy = Liber_Primus,ii,Paragraphus_4
-1	Verum	uerum	CCONJ	r	_	17	cc	_	SpaceAfter=No
+1	Verum	uero	ADV	r	_	17	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	quia	quia	SCONJ	cs	PronType=Rel	14	mark	_	_
 4	omnis	omnis	DET	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	5	det	_	_
@@ -1002,7 +1002,7 @@
 # text = Non est ergo vis ultima in homine ipsum esse simpliciter sumptum, quia etiam sic sumptum ab elementis participatur; nec esse complexionatum, quia hoc reperitur in mineralibus; nec esse animatum, quia sic etiam in plantis; nec esse apprehensivum, quia sic etiam participatur a brutis; sed esse apprehensivum per intellectum possibilem: quod quidem esse nulli ab homine alii competit vel supra vel infra.
 # citation_hierarchy = Liber_Primus,iii,Paragraphus_6
 1	Non	non	PART	r	Polarity=Neg	11	advmod:neg	_	_
-2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+2	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop:outer	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 3	ergo	ergo	ADV	co	AdvType=Loc	11	discourse	_	_
 4	vis	uis	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	11	nsubj	_	_
 5	ultima	ultimus	ADJ	afs1ns	Case=Nom|Degree=Abs|Gender=Fem|InflClass=IndEurA|Number=Sing	4	amod	_	_
@@ -7277,7 +7277,7 @@
 # sent_id = Mon-196
 # text = Verum quia naturalis amor diuturnam esse derisionem non patitur, sed, ut sol estivus qui disiectis nebulis matutinis oriens luculenter irradiat, derisione omissa, lucem correctionis effundere mavult, ad dirumpendum vincula ignorantie regum atque principum talium, ad ostendendum genus humanum liberum a iugo ipsorum, cum Propheta sanctissimo me me subsequenter hortabor subsequentia subassummens: «Dirumpamus» videlicet «vincula eorum, et proiciamus a nobis iugum ipsorum».
 # citation_hierarchy = Liber_Secundus,i,Paragraphus_5
-1	Verum	uerum	CCONJ	r	_	56	cc	_	_
+1	Verum	uero	ADV	r	_	56	discourse	_	_
 2	quia	quia	SCONJ	cs	PronType=Rel	9	mark	_	_
 3	naturalis	naturalis	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	4	amod	_	_
 4	amor	amor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	9	nsubj	_	_
@@ -15579,7 +15579,7 @@
 # sent_id = Mon-418
 # text = Erat enim Herodes non vicem Tyberii gerens sub signo aquile vel sub signo senatus, sed rex regno singulari ordinatus ab eo et sub signo regni sibi commissi gubernans.
 # citation_hierarchy = Liber_Secundus,x,Paragraphus_6
-1	Erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	TraditionalMood=Indicativus|TraditionalTense=Imperfectum
+1	Erat	sum	AUX	va5iis3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	TraditionalMood=Indicativus|TraditionalTense=Imperfectum
 2	enim	enim	PART	c	Form=Emp	7	discourse	_	_
 3	Herodes	herodes	PROPN	Sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	7	nsubj	_	_
 4	non	non	PART	r	Polarity=Neg	5	advmod:neg	_	_

@@ -560,7 +560,7 @@
 7	,	,	PUNCT	Pu	_	16	punct	_	_
 8	qui	qui	PRON	presmn	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	16	nsubj	_	_
 9	diebus	dies	NOUN	smp5b	Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Plur	16	obl:tmod	_	_
-10	proximis	proximus	ADJ	amp1b	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Plur	9	amod	_	_
+10	proximis	propior	ADJ	amp1b	Case=Abl|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Plur	9	amod	_	_
 11	celestem	celestis	ADJ	afs2a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	18	amod	_	_
 12	unde	unde	ADV	r	AdvType=Loc|PronType=Rel	13	advmod:lmod	_	_
 13	venerat	uenio	VERB	v4i+s3	Aspect=Perf|InflClass=LatI|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	TraditionalMood=Indicativus|TraditionalTense=Plusquamperfectum
@@ -840,7 +840,7 @@
 39	vos	tu	PRON	ppp2pmn	Case=Nom|InflClass=LatAnom|Number=Plur|Person=2|PronType=Prs	49	nsubj	_	SpaceAfter=No
 40	,	,	PUNCT	Pu	_	42	punct	_	_
 41	tanquam	tamquam	SCONJ	cs	Compound=Yes|PronType=Rel	42	mark	_	_
-42	proximiores	proximus	ADJ	amp2nc	Case=Nom|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur	39	xcomp	_	_
+42	proximiores	propior	ADJ	amp2nc	Case=Nom|Degree=Abs,Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur	39	xcomp	_	_
 43	ad	ad	ADP	e	_	44	case	_	_
 44	illum	ille	DET	ddisma	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	42	obl:arg	_	SpaceAfter=No
 45	,	,	PUNCT	Pu	_	39	punct	_	_
@@ -4153,7 +4153,7 @@
 # sent_id = Epi-113
 # text = Verum si merito trepidantes insanisse penitet non dolentes, ut in amaritudinem penitentie metus dolorisque rivuli confluant, vestris animis infigenda supersunt, quod Romane rei baiulus hic divus et triumphator Henricus, non sua privata sed publica mundi commoda sitiens, ardua queque pro nobis aggressus est sua sponte penas nostras participans, tanquam ad ipsum, post Christum, digitum prophetie propheta direxerit Ysaias, cum, spiritu Dei revelante, predixit: «Vere languores nostros ipse tulit et dolores nostros ipse portavit».
 # citation_hierarchy = VI,Paragraphus_25
-1	Verum	uerum	CCONJ	co	_	23	cc	_	_
+1	Verum	uero	ADV	co	_	23	discourse	_	_
 2	si	si	SCONJ	cs	_	6	mark	_	_
 3	merito	merito	ADV	r	VerbForm=Part	4	advmod	_	_
 4	trepidantes	trepido	VERB	va1pppma	Aspect=Imp|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	6	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Praesens
@@ -4538,7 +4538,7 @@
 # sent_id = Epi-124
 # text = Verum quia sol noster, sive desiderii fervor hoc submoneat sive facies veritatis, aut morari iam creditur aut retrocedere supputatur, quasi Iosue denuo vel Amos filius imperaret, incertitudine dubitare compellimur et in vocem Precursoris irrumpere sic: «Tu es qui venturus es, an alium expectamus?».
 # citation_hierarchy = VII,Paragraphus_7
-1	Verum	uerum	CCONJ	co	_	33	cc	_	_
+1	Verum	uero	ADV	co	_	33	discourse	_	_
 2	quia	quia	SCONJ	cs	PronType=Rel	18	mark	_	_
 3	sol	sol	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	18	nsubj:pass	_	_
 4	noster	noster	DET	dsmsn	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	SpaceAfter=No
@@ -6386,7 +6386,7 @@
 # sent_id = Epi-175
 # text = Verum quia nonnulla regalium clausularum videbatur hortari ut, si quando nuntiorum facultas adesset, Celsitudini regie aliquid peroptando de status mei conditione referrem, quamvis quedam presumptionis facies interdicat, obedientie tamen suadente virtute obediam.
 # citation_hierarchy = X,Paragraphus_4
-1	Verum	uerum	CCONJ	co	_	37	cc	_	_
+1	Verum	uero	ADV	co	_	37	discourse	_	_
 2	quia	quia	SCONJ	cs	PronType=Rel	7	mark	_	_
 3-4	nonnulla	_	_	_	_	_	_	_	_
 3	non	non	PART	dinsfn	Polarity=Neg	4	advmod:neg	_	_
@@ -8373,7 +8373,7 @@
 # sent_id = Epi-234
 # text = Verum ne diuturna me nimis incertitudo suspenderet, velut Austri regina Ierusalem petiit, velut Pallas petiit Elicona, Veronam petii fidis oculis discursurus audita, ibique magnalia vestra vidi, vidi beneficia simul et tetigi; et quemadmodum prius dictorum ex parte suspicabar excessum, sic posterius ipsa facta excessiva cognovi.
 # citation_hierarchy = XIII,Paragraphus_3
-1	Verum	uerum	CCONJ	co	_	21	cc	_	_
+1	Verum	uero	ADV	co	_	21	discourse	_	_
 2	ne	ne	SCONJ	cs	Polarity=Neg	7	mark	_	_
 3	diuturna	diuturnus	ADJ	afs1n	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	6	amod	_	_
 4	me	ego	PRON	ppp1sma	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
