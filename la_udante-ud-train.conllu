@@ -386,7 +386,7 @@
 # sent_id = Mon-11
 # text = Verum, quia omnis veritas que non est principium ex veritate alicuius principii fit manifesta, necesse est in qualibet inquisitione habere notitiam de principio, in quod analetice recurratur pro certitudine omnium propositionum que inferius assummuntur.
 # citation_hierarchy = Liber_Primus,ii,Paragraphus_4
-1	Verum	uero	ADV	r	_	17	discourse	_	SpaceAfter=No
+1	Verum	uero	ADV	r	_	17	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Pu	_	1	punct	_	_
 3	quia	quia	SCONJ	cs	PronType=Rel	14	mark	_	_
 4	omnis	omnis	DET	afs2n	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	5	det	_	_
@@ -7277,7 +7277,7 @@
 # sent_id = Mon-196
 # text = Verum quia naturalis amor diuturnam esse derisionem non patitur, sed, ut sol estivus qui disiectis nebulis matutinis oriens luculenter irradiat, derisione omissa, lucem correctionis effundere mavult, ad dirumpendum vincula ignorantie regum atque principum talium, ad ostendendum genus humanum liberum a iugo ipsorum, cum Propheta sanctissimo me me subsequenter hortabor subsequentia subassummens: «Dirumpamus» videlicet «vincula eorum, et proiciamus a nobis iugum ipsorum».
 # citation_hierarchy = Liber_Secundus,i,Paragraphus_5
-1	Verum	uero	ADV	r	_	56	discourse	_	_
+1	Verum	uero	ADV	r	_	56	advmod	_	_
 2	quia	quia	SCONJ	cs	PronType=Rel	9	mark	_	_
 3	naturalis	naturalis	ADJ	ams2n	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	4	amod	_	_
 4	amor	amor	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	9	nsubj	_	_
@@ -28070,7 +28070,7 @@
 26	ad	ad	ADP	e	_	27	case	_	_
 27	aures	auris	NOUN	sfp3a	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Plur	25	obl:arg	_	SpaceAfter=No
 28	,	,	PUNCT	Pu	_	29	punct	_	_
-29	verum	uero	ADV	r	_	47	discourse	_	SpaceAfter=No
+29	verum	uero	ADV	r	_	47	advmod	_	SpaceAfter=No
 30	,	,	PUNCT	Pu	_	29	punct	_	_
 31	ut	ut	SCONJ	r	PronType=Rel	37	mark	_	_
 32	arundinea	arundineus	ADJ	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	36	amod	_	_
