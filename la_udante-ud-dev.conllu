@@ -9547,7 +9547,7 @@
 7	litteraliter	litteraliter	ADV	r	_	9	advmod	_	_
 8	tantum	tantum	ADV	r	NumType=Card|PronType=Dem	9	advmod	_	_
 9	accepti	accipio	VERB	vp3prsng	Aspect=Perf|Case=Gen|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	11	advcl:pred	_	SpaceAfter=No|TraditionalMood=Participium|TraditionalTense=Perfectum
-10	,	,	PUNCT	Pu	_	11	punct	_	_
+10	,	,	PUNCT	Pu	_	9	punct	_	_
 11	status	status	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	0	root	_	_
 12	animarum	anima	NOUN	sfp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	11	nmod	_	_
 13	post	post	ADP	e	_	14	case	_	_
@@ -9565,7 +9565,7 @@
 25	operis	opus	NOUN	sns3g	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	27	nmod	_	_
 26	versatur	uerso	VERB	vd1ips3	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 27	processus	processus	NOUN	sms4n	Case=Nom|Gender=Masc|InflClass=IndEurU|Number=Sing	26	nsubj:pass	_	SpaceAfter=No
-28	.	.	PUNCT	Pu	_	3	punct	_	_
+28	.	.	PUNCT	Pu	_	11	punct	_	_
 
 # sent_id = Epi-268
 # text = Si vero accipiatur opus allegorice, subiectum est homo prout merendo et demerendo per arbitrii libertatem iustitie premiandi et puniendi obnoxius est.
@@ -9592,7 +9592,7 @@
 20	puniendi	punio	VERB	va4fgg	Aspect=Prosp|Case=Gen|Gender=Neut|InflClass=LatI|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	18	conj	_	TraditionalMood=Gerundium
 21	obnoxius	obnoxius	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	9	advcl	_	_
 22	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
-23	.	.	PUNCT	Pu	_	7	punct	_	_
+23	.	.	PUNCT	Pu	_	9	punct	_	_
 
 # sent_id = Epi-269
 # text = Forma vero est duplex: forma tractatus et forma tractandi.
@@ -10588,12 +10588,12 @@
 12	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 13	,	,	PUNCT	Pu	_	5	punct	_	_
 14	aliter	aliter	ADV	r	PronType=Con	15	advmod	_	_
-15	fit	 fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+15	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 16	a	a	ADP	e	_	17	case	_	_
 17	poetis	poeta	NOUN	smp1b	Case=Abl|Gender=Masc|InflClass=IndEurA|Number=Plur	15	obl:agent	_	SpaceAfter=No
 18	,	,	PUNCT	Pu	_	20	punct	_	_
 19	aliter	aliter	ADV	r	PronType=Con	20	advmod	_	_
-20	fit	 fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
+20	fit	fio	VERB	vs5ips3	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 21	a	a	ADP	e	_	22	case	_	_
 22	rethoribus	rhetor	NOUN	smp3b	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Plur	20	obl:agent	_	SpaceAfter=No
 23	.	.	PUNCT	Pu	_	3	punct	_	_

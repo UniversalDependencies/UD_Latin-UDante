@@ -4505,7 +4505,7 @@
 37	sed	sed	CCONJ	co	_	39	cc	_	_
 38	ab	ab	ADP	e	_	39	case	_	_
 39	alio	alius	DET	dpmsb	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	35	conj	_	_
-40	captivum	captiuus	ADJ	ans1	Case=Neut|Gender=Neut|InflClass=IndEurO|Number=Sing	41	advcl:pred	_	_
+40	captivum	captiuus	ADJ	ans1	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	41	advcl:pred	_	_
 41	trahitur	traho	VERB	vp3ips3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	30	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 42	.	.	PUNCT	Pu	_	14	punct	_	_
 
