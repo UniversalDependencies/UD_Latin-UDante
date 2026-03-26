@@ -8859,17 +8859,17 @@
 5	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 6	quod	quod	SCONJ	cs	PronType=Rel	22	mark	_	_
 7	sicut	sicut	SCONJ	r	Compound=Yes	10	mark	_	_
-8	homo	homo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	10	nsubj	_	_
+8	homo	homo	NOUN	sms3n	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	10	nsubj:pass	_	_
 9	tripliciter	tripliciter	ADV	r	_	10	advmod	_	_
-10	spirituatus	spirituatus	ADJ	ams1n	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	22	advcl:cmp	_	_
-11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
+10	spirituatus	spirituo	VERB	ams1n	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	22	advcl:cmp	_	_
+11	est	sum	AUX	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 12	,	,	PUNCT	Pu	_	14	punct	_	_
 13	videlicet	uidelicet	CCONJ	r	Compound=Yes|VerbForm=Fin	14	cc	_	_
-14	vegetabili	uegetabilis	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	10	conj:expl	_	SpaceAfter=No
+14	vegetabili	uegetabilis	ADJ	ams2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	9	conj:expl	_	SpaceAfter=No
 15	,	,	PUNCT	Pu	_	16	punct	_	_
-16	animali	animalis	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	14	conj	_	_
+16	animali	animalis	ADJ	ams2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	14	conj	_	_
 17	et	et	CCONJ	co	_	18	cc	_	_
-18	rationali	rationalis	ADJ	ams2b	Case=Abl|Gender=Masc|InflClass=IndEurI|Number=Sing	14	conj	_	SpaceAfter=No
+18	rationali	rationalis	ADJ	ams2b	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	14	conj	_	SpaceAfter=No
 19	,	,	PUNCT	Pu	_	10	punct	_	_
 20	triplex	triplex	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	21	amod	_	_
 21	iter	iter	NOUN	sns3a	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	22	obj	_	_
@@ -8900,11 +8900,11 @@
 19	animale	animalis	ADJ	ans2n	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing	21	advcl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	Pu	_	19	punct	_	_
 21	delectabile	delectabilis	ADJ	ans2a	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing	9	conj	_	SpaceAfter=No
-22	,	,	PUNCT	Pu	_	24	punct	_	_
+22	,	,	PUNCT	Pu	_	26	punct	_	_
 23	in	in	ADP	e	_	24	case	_	_
-24	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	21	advcl:pred	_	_
+24	quo	qui	PRON	presnb	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	26	obl	_	_
 25	cum	cum	ADP	e	_	26	case	_	_
-26	brutis	brutum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	24	orphan	_	SpaceAfter=No
+26	brutis	brutum	NOUN	snp2b	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	21	advcl:pred	_	SpaceAfter=No
 27	;	;	PUNCT	Pu	_	30	punct	_	_
 28	secundum	secundum	ADP	e	VerbForm=Part	29	case	_	_
 29	quod	qui	PRON	cs	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Rel	30	obl	_	_
@@ -10195,7 +10195,7 @@
 25	scientiarum	scientia	NOUN	sfp1g	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Plur	27	nmod	_	_
 26	que	que	CCONJ	co9	_	27	cc	_	_
 27	habitu	habitus	NOUN	sms4b	Case=Abl|Gender=Masc|InflClass=IndEurU|Number=Sing	20	conj	_	_
-28	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	29	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+28	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	29	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 29	potest	possum	VERB	va5ips3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Praesens
 30	.	.	PUNCT	Pu	_	12	punct	_	_
 
@@ -11311,7 +11311,7 @@
 # text = Et fortassis utilissimum foret ad illam habituandam regulatos vidisse poetas, Virgilium videlicet, Ovidium Metamorfoseos, Statium atque Lucanum, nec non alios qui nisi sunt altissimas prosas, ut Titum Livium, Plinium, Frontinum, Paulum Orosium et multos alios quos amica sollicitudo nos visitare invitat.
 # citation_hierarchy = Liber_Secundus,vi,Paragraphus_7
 1	Et	et	CCONJ	co	_	3	cc	_	_
-2	fortassis	fortassis	ADV	r	_	3	advmod	_	_
+2	fortassis	fortasse	ADV	r	Compound=Yes	3	advmod	_	_
 3	utilissimum	utilis	ADJ	ans2ns	Case=Nom|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	_
 4	foret	sum	AUX	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 5	ad	ad	ADP	e	_	7	mark	_	_
@@ -13693,7 +13693,7 @@
 22	aliter	aliter	ADV	r	PronType=Con	26	advmod	_	_
 23	cantus	cantus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing	24	nmod	_	_
 24	repetitio	repetitio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	26	nsubj	_	_
-25	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	26	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+25	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	26	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 26	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl:cmp	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 27	.	.	PUNCT	Pu	_	3	punct	_	_
 
@@ -14242,7 +14242,7 @@
 60	aliter	aliter	ADV	r	PronType=Con	64	advmod	_	_
 61	ingeminatio	ingeminatio	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	64	nsubj	_	_
 62	cantus	cantus	NOUN	sms4g	Case=Gen|Gender=Masc|InflClass=IndEurU|Number=Sing	61	nmod	_	_
-63	fieri	 fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	64	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
+63	fieri	fio	VERB	vs5fp	Aspect=Imp|InflClass=LatI2|VerbForm=Inf|Voice=Act	64	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
 64	posset	possum	VERB	va5cis3	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	52	conj	_	SpaceAfter=No|TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 65	,	,	PUNCT	Pu	_	69	punct	_	_
 66	ad	ad	ADP	e	_	67	case	_	_
