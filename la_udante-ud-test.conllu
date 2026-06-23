@@ -2487,7 +2487,7 @@
 37	pars	pars	NOUN	sfs3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	40	nsubj	_	_
 38	terra	terra	NOUN	sfs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	39	obl	_	_
 39	vehere	ueho	VERB	va3fp	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	40	xcomp	_	TraditionalMood=Infinitivus|TraditionalTense=Praesens
-40	intendebant	intendo	VERB	va3iip3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Imperfectum
+40	intendebant	intendo	VERB	va3iip3	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	34	conj	_	SpaceAfter=No|TraditionalMood=Indicativus|TraditionalTense=Imperfectum
 41	,	,	PUNCT	Pu	_	48	punct	_	_
 42-43	partesque	_	_	_	_	_	_	_	_
 42	partes	pars	NOUN	sfp3n	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Plur	48	nsubj	_	_
@@ -2501,7 +2501,7 @@
 50	cum	cum	SCONJ	cs	PronType=Rel	54	mark	_	_
 51	celitus	caelitus	ADV	r	_	54	advmod	_	_
 52	tanta	tantus	DET	afs1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Card|PronType=Dem	53	det	_	_
-53	confusione	confusio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	54	obl	_	_
+53	confusione	confusio	NOUN	sfs3b	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	54	obl:agent	_	_
 54	percussi	percutio	VERB	vp3irp3	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	13	advcl	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 55	sunt	sum	AUX	va5ipp3	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	aux:pass	_	TraditionalMood=Indicativus|TraditionalTense=Praesens
 56	ut	ut	SCONJ	cs	PronType=Rel	73	mark	_	SpaceAfter=No
@@ -2522,7 +2522,7 @@
 70	multis	multus	DET	afp1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|NumType=Card|PronType=Ind	72	det	_	_
 71	diversificati	diuersifico	VERB	vp1prpmn	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	73	advcl:pred	_	TraditionalMood=Participium|TraditionalTense=Perfectum
 72	loquelis	loquela	NOUN	sfp1b	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur	71	obl	_	_
-73	desinerent	desino	VERB	va3cip3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	54	advcl	_	TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
+73	desinerent	desino	VERB	va3cip3	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	54	advcl:cmp	_	TraditionalMood=Subiunctivus|TraditionalTense=Imperfectum
 74	et	et	CCONJ	co	_	79	cc	_	_
 75	nunquam	numquam	ADV	r	Polarity=Neg	79	advmod	_	_
 76	ad	ad	ADP	e	_	78	case	_	_
