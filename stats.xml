@@ -5,14 +5,14 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1723</sentences><tokens>55286</tokens><words>55553</words><fused>267</fused></total>
+    <total><sentences>1723</sentences><tokens>55286</tokens><words>55555</words><fused>269</fused></total>
     <train><sentences>926</sentences><tokens>30334</tokens><words>30463</words><fused>129</fused></train>
     <dev><sentences>376</sentences><tokens>11550</tokens><words>11616</words><fused>66</fused></dev>
-    <test><sentences>421</sentences><tokens>13402</tokens><words>13474</words><fused>72</fused></test>
+    <test><sentences>421</sentences><tokens>13402</tokens><words>13476</words><fused>74</fused></test>
   </size>
-  <lemmas unique="5628" /><!-- ,, sum, et, ., qui, in, non, ;, :, ad, hic, de, dico, cum, ut -->
-  <forms unique="12013" /><!-- ,, et, ., in, est, quod, non, ;, :, ad, de, cum, que, ut, per -->
-  <fusions unique="151" /><!-- quare, nonne, etsi, cumque, mecum, nunquid, quinymo, Quidni, nonnullos, vobiscum, Romanorumque, eademque, eamque, eiusque, eodemque -->
+  <lemmas unique="5627" /><!-- ,, sum, et, ., qui, in, non, ;, :, ad, hic, de, dico, cum, ut -->
+  <forms unique="12012" /><!-- ,, et, ., in, est, quod, non, ;, :, ad, de, cum, que, ut, per -->
+  <fusions unique="152" /><!-- quare, nonne, etsi, cumque, mecum, nunquid, quinymo, Quidni, nonnullos, vobiscum, Romanorumque, Siquidem, eademque, eamque, eiusque -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">3969</tag><!-- primus, humanus, romanus, bonus, proprius, magnus, diuinus, secundus, manifestus, uerus -->
@@ -28,7 +28,7 @@
     <tag name="PRON">2725</tag><!-- qui, is, sui, ego, tu, quis, aliquis, nihil, quisquis, nemo -->
     <tag name="PROPN">1076</tag><!-- christus, petrus, italia, caesar, mopsus, tityrus, dantes, iohannes, liuius, aeneas -->
     <tag name="PUNCT">8612</tag><!-- ,, ., ;, :, «, », “, ”, ?, - -->
-    <tag name="SCONJ">2505</tag><!-- ut, quod, cum, si, quia, quam, sicut, nisi, tamquam, quemadmodum -->
+    <tag name="SCONJ">2507</tag><!-- ut, quod, cum, si, quia, quam, sicut, nisi, tamquam, quemadmodum -->
     <tag name="VERB">8235</tag><!-- dico, possum, habeo, uideo, facio, pateo, loquor, sequor, uolo, consequor -->
     <tag name="X">512</tag><!-- che, amor, per, si, etcetera, lo, de, amore, l, non -->
   </tags>
@@ -48,7 +48,7 @@
     <feat name="Case" value="Loc" upos="PROPN">4</feat><!-- Florentie, Mediolani, Pergami, Vercellis -->
     <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">7977</feat><!-- que, quod, qui, hoc, hec, illa, aliud, ille, ipse, omnes -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">119</feat><!-- Tityre, Domine, lector, senex, Mopse, carissime, Apollo, Melibee, Petre, altitudo -->
-    <feat name="Compound" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">1436</feat><!-- etiam, sicut, scilicet, manifestum, tanquam, aliquid, quemadmodum, quasi, velut, videlicet -->
+    <feat name="Compound" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">1435</feat><!-- etiam, sicut, scilicet, manifestum, tanquam, aliquid, quemadmodum, quasi, velut, videlicet -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV,DET,VERB">479</feat><!-- maxime, optime, ymo, potissime, optimum, minime, ultimum, potissima, optima, gravissimum -->
     <feat name="Degree" value="Abs,Cmp" upos="ADJ,ADV">2</feat><!-- proximiores, proximius -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,VERB">559</feat><!-- magis, prius, superius, melius, minus, potius, inferius, iterum, inferioribus, ulterius -->
@@ -138,7 +138,7 @@
     <dep name="acl:relcl">1046</dep>
     <dep name="advcl">1432</dep>
     <dep name="advcl:abs">154</dep>
-    <dep name="advcl:cmp">689</dep>
+    <dep name="advcl:cmp">690</dep>
     <dep name="advcl:pred">461</dep>
     <dep name="advcl:relcl">101</dep>
     <dep name="advmod">1660</dep>
@@ -155,7 +155,7 @@
     <dep name="ccomp">570</dep>
     <dep name="ccomp:relcl">46</dep>
     <dep name="ccomp:reported">166</dep>
-    <dep name="conj">3330</dep>
+    <dep name="conj">3329</dep>
     <dep name="conj:expl">285</dep>
     <dep name="cop">1514</dep>
     <dep name="cop:outer">36</dep>
@@ -178,7 +178,7 @@
     <dep name="flat:name">28</dep>
     <dep name="flat:redup">3</dep>
     <dep name="iobj">1</dep>
-    <dep name="mark">2681</dep>
+    <dep name="mark">2683</dep>
     <dep name="nmod">2587</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">3198</dep>
@@ -187,8 +187,8 @@
     <dep name="nsubj:pass">786</dep>
     <dep name="nummod">103</dep>
     <dep name="obj">2111</dep>
-    <dep name="obl">3458</dep>
-    <dep name="obl:agent">188</dep>
+    <dep name="obl">3457</dep>
+    <dep name="obl:agent">189</dep>
     <dep name="obl:arg">1016</dep>
     <dep name="obl:cmp">31</dep>
     <dep name="obl:lmod">63</dep>
